@@ -1,0 +1,25 @@
+$commons: (
+	"background": (
+		"base": #F9FAFF,
+		"dark": #EEEEEE,
+		"darker": #E5E5E5,
+		"darkest": #CCCCCC
+	),
+	"text": (
+		"default": ( "color": #666666 ),
+		"light": ( "color": #999999 ),
+		"placeholder": ( "color": #CCCCCC ),
+		"link": ( "color": #00B2ED ),
+	),
+	"elevations": (
+		"1":	"0 1px 3px rgba(91, 86, 247, 0.12), 0 1px 2px rgba(91, 86, 247, 0.24)",
+		"2":	"0 3px 6px rgba(91, 86, 247, 0.16), 0 3px 6px rgba(91, 86, 247, 0.23)",
+		"3":	"0 10px 20px rgba(91, 86, 247, 0.19), 0 6px 6px rgba(91, 86, 247, 0.23)",
+		"4":	"0 14px 28px rgba(91, 86, 247, 0.25), 0 10px 10px rgba(91, 86, 247, 0.22)",
+		"5":	"0 19px 38px rgba(91, 86, 247, 0.30), 0 15px 12px rgba(91, 86, 247, 0.22)"
+	),
+	"banner-height": 50px,
+	"transition": "all 150ms ease"
+);
+
+$theme: _set($theme, "commons", $commons);

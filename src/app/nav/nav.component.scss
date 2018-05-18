@@ -1,11 +1,28 @@
+@import "node_modules/@lucca-front/scss/src/theming.overridable";
+
 .nav-item {
   display: inline-block;
   height: 4rem;
   line-height: 4rem;
   padding: 0 1.5rem;
   text-decoration: none;
+  color: _color("text.light");
+  transition: background 150ms ease;
 
   &:hover {
-    background: #F5F5F5;
+    background: _theme('commons.background.base');
+  }
+}
+
+
+:host {
+  &.mod-splash {
+    .nav-item {
+      color: white;
+      
+      &:hover {
+        background: rgba(255, 255, 255, .2);
+      }
+    }
   }
 }

@@ -29,6 +29,7 @@
       ],
       "stylePreprocessorOptions": {
         "includePaths": [
+          "scss/overrides",
           "../node_modules/@lucca-front/scss/src/overrides",
           "../node_modules/@lucca-front/ng/src/style/overrides"
         ]

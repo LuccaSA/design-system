@@ -18,6 +18,7 @@ import { LogosComponent } from './visual/logos/logos.component';
 import { ColorsComponent } from './visual/colors/colors.component';
 import { TypographyComponent } from './visual/typography/typography.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
+import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -64,7 +65,8 @@ const appRoutes: Routes = [
     LogosComponent,
     ColorsComponent,
     TypographyComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    HomeFooterComponent
   ],
   imports: [
     BrowserModule,
