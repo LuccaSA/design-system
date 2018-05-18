@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": []
+  },
+  "include": [
+  	"main.ts",
+  	"polyfills.ts",
+  	"../node_modules/@lucca-front/ng/src/index.ts",
+  	"../node_modules/@lucca-front/ng/src/app/user/index.ts",
+  	"../node_modules/@lucca-front/ng/src/app/select/index.ts",
+    "app/**/*",
+  ],
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}

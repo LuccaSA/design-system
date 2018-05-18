@@ -1,0 +1,27 @@
+:host {
+  background: white;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  line-height: 4rem;
+  z-index: 20;
+}
+
+.header-logo {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.5rem;
+  text-decoration: none;
+
+  &:hover {
+    background: #F5F5F5;
+  }
+}
+
+app-nav {
+  float: right;
+}

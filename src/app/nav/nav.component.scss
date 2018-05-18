@@ -1,0 +1,11 @@
+.nav-item {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1.5rem;
+  text-decoration: none;
+
+  &:hover {
+    background: #F5F5F5;
+  }
+}
