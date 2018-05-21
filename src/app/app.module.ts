@@ -19,6 +19,7 @@ import { ColorsComponent } from './visual/colors/colors.component';
 import { TypographyComponent } from './visual/typography/typography.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
+import { LabelsComponent } from './components/labels/labels.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
   { path: 'components', component: ComponentsComponent,
     children: [
       { path: '', component: ButtonsComponent },
-      { path: 'buttons', component: ButtonsComponent }
+      { path: 'buttons', component: ButtonsComponent },
+      { path: 'labels', component: LabelsComponent }
     ] },
   { path: '**', component: HomeComponent }
 ];
@@ -66,7 +68,8 @@ const appRoutes: Routes = [
     ColorsComponent,
     TypographyComponent,
     ButtonsComponent,
-    HomeFooterComponent
+    HomeFooterComponent,
+    LabelsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,8 @@
+@import "node_modules/@lucca-front/scss/src/theming.overridable";
+@import "~@lucca-front/scss/src/mixins";
+
 :host {
+  border-bottom: 1px solid _theme('commons.background.darker');
   background: white;
   display: block;
   position: fixed;
@@ -16,9 +20,11 @@
   line-height: 4rem;
   padding: 0 1.5rem;
   text-decoration: none;
+  color: _color("text.purple");
+  transition: background 150ms ease;
 
   &:hover {
-    background: #F5F5F5;
+    background: _theme('commons.background.dark');
   }
 }
 

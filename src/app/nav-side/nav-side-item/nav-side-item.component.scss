@@ -1,10 +1,16 @@
+@import "node_modules/@lucca-front/scss/src/theming.overridable";
+
 :host {
   display: block;
+  color: _color("text.purple");
   cursor: pointer;
   padding: .5rem 1.5rem;
+  transition: all 150ms ease;
 
-  &:hover {
-    background: white;
-    color: black;
+
+  &:hover, &:focus, &:active {
+    outline: none;
+    background: _theme('commons.background.dark');
+    color: darken(_color("text.purple"), 10%);
   }
 }
