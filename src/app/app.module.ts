@@ -27,7 +27,7 @@ const appRoutes: Routes = [
   { path: 'principles', component: PrinciplesComponent },
   { path: 'content', component: ContentComponent,
     children: [
-      { path: '', component: VoiceComponent },
+      { path: '', redirectTo: 'voice', pathMatch: 'full' },
       { path: 'voice', component: VoiceComponent },
       { path: 'vocabulary', component: VocabularyComponent },
       { path: 'ponctuation', component: PonctuationComponent }
@@ -35,7 +35,7 @@ const appRoutes: Routes = [
   },
   { path: 'visual', component: VisualComponent,
     children: [
-      { path: '', component: LogosComponent },
+      { path: '', redirectTo: 'logos', pathMatch: 'full' },
       { path: 'logos', component: LogosComponent },
       { path: 'colors', component: ColorsComponent },
       { path: 'typography', component: TypographyComponent }
@@ -43,7 +43,7 @@ const appRoutes: Routes = [
   },
   { path: 'components', component: ComponentsComponent,
     children: [
-      { path: '', component: ButtonsComponent },
+      { path: '', redirectTo: 'buttons', pathMatch: 'full' },
       { path: 'buttons', component: ButtonsComponent },
       { path: 'labels', component: LabelsComponent }
     ] },
