@@ -22,6 +22,8 @@ import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { LabelsComponent } from './components/labels/labels.component';
 import { PrinciplesComponent } from './principles/principles.component';
 import { ToolComponent } from './tool/tool.component';
+import { FormatComponent } from './content/format/format.component';
+import { TypogrpahicRulesComponent } from './content/typogrpahic-rules/typogrpahic-rules.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,7 +33,9 @@ const appRoutes: Routes = [
       { path: '', redirectTo: 'voice', pathMatch: 'full' },
       { path: 'voice', component: VoiceComponent },
       { path: 'vocabulary', component: VocabularyComponent },
-      { path: 'ponctuation', component: PonctuationComponent }
+      { path: 'ponctuation', component: PonctuationComponent },
+      { path: 'format', component: FormatComponent },
+      { path: 'typographic-rules', component: TypogrpahicRulesComponent }
     ]
   },
   { path: 'visual', component: VisualComponent,
@@ -74,7 +78,9 @@ const appRoutes: Routes = [
     HomeFooterComponent,
     LabelsComponent,
     PrinciplesComponent,
-    ToolComponent
+    ToolComponent,
+    FormatComponent,
+    TypogrpahicRulesComponent
   ],
   imports: [
     BrowserModule,
