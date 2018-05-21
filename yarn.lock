@@ -171,13 +171,13 @@
   dependencies:
     tslib "^1.7.1"
 
-"@lucca-front/icons@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@lucca-front/icons/-/icons-0.7.1.tgz#bca0f18391a8d89e93afb0da8ae343591b7fe278"
+"@lucca-front/icons@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@lucca-front/icons/-/icons-0.7.2.tgz#174bbb9a160bef02efc2df646768f03ae7360528"
 
-"@lucca-front/ng@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@lucca-front/ng/-/ng-0.7.1.tgz#d45a0e507fdef302f41bfefb8ef6e2d805eb7e3a"
+"@lucca-front/ng@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@lucca-front/ng/-/ng-0.7.2.tgz#2618aeaec009b09628e835ec039c4d9ed0ee979b"
   dependencies:
     "@angular/animations" "^5.0.0"
     "@angular/common" "^5.0.0"
@@ -186,18 +186,18 @@
     "@angular/forms" "^5.0.0"
     "@angular/platform-browser" "^5.0.0"
     "@angular/platform-browser-dynamic" "^5.0.0"
-    "@lucca-front/icons" "^0.7.1"
-    "@lucca-front/scss" "^0.7.1"
+    "@lucca-front/icons" "^0.7.2"
+    "@lucca-front/scss" "^0.7.2"
     "@ngx-translate/core" "^8.0.0"
     core-js "^2.4.1"
     rxjs "^5.5.2"
     zone.js "^0.8.14"
 
-"@lucca-front/scss@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@lucca-front/scss/-/scss-0.7.1.tgz#d8df02e80abfa00685f7f5a64241103ee942640e"
+"@lucca-front/scss@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@lucca-front/scss/-/scss-0.7.2.tgz#b36ff167ea0b3f3597961d0a905eeb98218a9bcb"
   dependencies:
-    "@lucca-front/icons" "^0.7.1"
+    "@lucca-front/icons" "^0.7.2"
 
 "@ngtools/json-schema@1.2.0":
   version "1.2.0"
