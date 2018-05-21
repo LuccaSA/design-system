@@ -5,12 +5,27 @@
   color: _color("text.purple");
   cursor: pointer;
   padding: .5rem 1.5rem;
+  position: relative;
   transition: all 150ms ease;
-
 
   &:hover, &:focus, &:active {
     outline: none;
     background: _theme('commons.background.dark');
     color: darken(_color("text.purple"), 10%);
+  }
+
+  &.is-active {
+    background: _theme('commons.background.dark');
+    color: darken(_color("text.purple"), 10%);
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 3px;
+      background: _color("text.purple");
+    }
   }
 }
