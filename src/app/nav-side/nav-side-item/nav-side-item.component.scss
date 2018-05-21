@@ -16,8 +16,8 @@
 
   &.is-active {
     background: _theme('commons.background.dark');
-    color: darken(_color("text.purple"), 10%);
-    
+    color: darken(_color("text.purple"), 25%);
+
     &::before {
       content: '';
       position: absolute;
