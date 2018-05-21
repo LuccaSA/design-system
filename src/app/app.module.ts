@@ -21,6 +21,7 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { LabelsComponent } from './components/labels/labels.component';
 import { PrinciplesComponent } from './principles/principles.component';
+import { ToolComponent } from './tool/tool.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -72,7 +73,8 @@ const appRoutes: Routes = [
     ButtonsComponent,
     HomeFooterComponent,
     LabelsComponent,
-    PrinciplesComponent
+    PrinciplesComponent,
+    ToolComponent
   ],
   imports: [
     BrowserModule,
