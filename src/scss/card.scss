@@ -1,0 +1,19 @@
+.card {
+  &.mod-visual {
+    padding-top: 8rem;
+
+    .card-content {
+      padding-top: 1rem;
+    }
+  }
+}
+
+.card-visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8rem;
+  background-size: cover;
+  background-position: center;
+}

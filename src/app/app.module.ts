@@ -20,9 +20,11 @@ import { TypographyComponent } from './visual/typography/typography.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { LabelsComponent } from './components/labels/labels.component';
+import { PrinciplesComponent } from './principles/principles.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'principles', component: PrinciplesComponent },
   { path: 'content', component: ContentComponent,
     children: [
       { path: '', component: VoiceComponent },
@@ -69,7 +71,8 @@ const appRoutes: Routes = [
     TypographyComponent,
     ButtonsComponent,
     HomeFooterComponent,
-    LabelsComponent
+    LabelsComponent,
+    PrinciplesComponent
   ],
   imports: [
     BrowserModule,
