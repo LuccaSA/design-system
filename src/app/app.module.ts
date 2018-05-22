@@ -24,6 +24,8 @@ import { PrinciplesComponent } from './principles/principles.component';
 import { ToolComponent } from './tool/tool.component';
 import { FormatComponent } from './content/format/format.component';
 import { TypogrpahicRulesComponent } from './content/typogrpahic-rules/typogrpahic-rules.component';
+import { IconsComponent } from './visual/icons/icons.component';
+import { IllustrateComponent } from './visual/illustrate/illustrate.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -44,6 +46,8 @@ const appRoutes: Routes = [
       { path: 'logos', component: LogosComponent },
       { path: 'colors', component: ColorsComponent },
       { path: 'typography', component: TypographyComponent }
+      { path: 'icons', component: IconsComponent }
+      { path: 'illustrate', component: IllustrateComponent }
     ]
   },
   { path: 'components', component: ComponentsComponent,
@@ -80,7 +84,9 @@ const appRoutes: Routes = [
     PrinciplesComponent,
     ToolComponent,
     FormatComponent,
-    TypogrpahicRulesComponent
+    TypogrpahicRulesComponent,
+    IconsComponent,
+    IllustrateComponent
   ],
   imports: [
     BrowserModule,
