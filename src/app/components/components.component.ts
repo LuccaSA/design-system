@@ -8,6 +8,8 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class ComponentsComponent implements OnInit {
 
+  public expandedGroup: string;
+
   constructor(router: Router) {
     router.events.subscribe(s => {
       if (s instanceof NavigationEnd) {

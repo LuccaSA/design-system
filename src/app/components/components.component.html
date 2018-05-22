@@ -2,7 +2,7 @@
 <app-nav-side>
 
   <!-- Structure -->
-  <app-nav-side-group title = "Structure">
+  <app-nav-side-group title = "Structure" [expanded]="expandedGroup == 'Structure'" (click)="expandedGroup='Structure'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="structure-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -21,7 +21,7 @@
   </app-nav-side-group>
 
   <!-- Navigation -->
-  <app-nav-side-group title = "Navigation">
+  <app-nav-side-group title = "Navigation" [expanded]="expandedGroup == 'Navigation'" (click)="expandedGroup='Navigation'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="menu" disabled>
       Menu <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -31,7 +31,7 @@
   </app-nav-side-group>
 
   <!-- Text -->
-  <app-nav-side-group title = "Texte">
+  <app-nav-side-group title = "Texte" [expanded]="expandedGroup == 'Texte'" (click)="expandedGroup='Texte'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="text-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -47,7 +47,7 @@
   </app-nav-side-group>
 
   <!-- Forms -->
-  <app-nav-side-group title = "Formulaires">
+  <app-nav-side-group title = "Formulaires" [expanded]="expandedGroup == 'Formulaires'" (click)="expandedGroup='Formulaires'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="form-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -69,7 +69,7 @@
   </app-nav-side-group>
 
   <!-- Actions -->
-  <app-nav-side-group title = "Actions">
+  <app-nav-side-group title = "Actions" [expanded]="expandedGroup == 'Actions'" (click)="expandedGroup='Actions'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="action-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -85,7 +85,7 @@
   </app-nav-side-group>
 
   <!-- Listings -->
-  <app-nav-side-group title = "Listings">
+  <app-nav-side-group title = "Listings" [expanded]="expandedGroup == 'Listings'" (click)="expandedGroup='Listings'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="tables" disabled>
       Tables <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -98,7 +98,7 @@
   </app-nav-side-group>
 
   <!-- Overlay -->
-  <app-nav-side-group title = "Overlays">
+  <app-nav-side-group title = "Overlays" [expanded]="expandedGroup == 'Overlays'" (click)="expandedGroup='Overlays'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="modals" disabled>
       Modals <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -108,7 +108,7 @@
   </app-nav-side-group>
 
   <!-- Feedback / Information -->
-  <app-nav-side-group title = "Feedback / Information">
+  <app-nav-side-group title = "Feedback / Information" [expanded]="expandedGroup == 'Feedback / Information'" (click)="expandedGroup='Feedback / Information'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="toasts" disabled>
       Toasts <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -118,7 +118,7 @@
   </app-nav-side-group>
 
   <!-- Loaders -->
-  <app-nav-side-group title = "Chargement">
+  <app-nav-side-group title = "Chargement" [expanded]="expandedGroup == 'Chargement'" (click)="expandedGroup='Chargement'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="loadings" disabled>
       Loadings <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
@@ -128,21 +128,21 @@
   </app-nav-side-group>
 
   <!-- Icons -->
-  <app-nav-side-group title = "Icones">
+  <app-nav-side-group title = "Icones" [expanded]="expandedGroup == 'Icones'" (click)="expandedGroup='Icones'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="icons" disabled>
       Icons <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
   </app-nav-side-group>
 
   <!-- Utilities -->
-  <app-nav-side-group title = "Utilitaires">
+  <app-nav-side-group title = "Utilitaires" [expanded]="expandedGroup == 'Utilitaires'" (click)="expandedGroup='Utilitaires'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="utilities" disabled>
       Utilities <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>
   </app-nav-side-group>
 
   <!-- Animations -->
-  <app-nav-side-group title = "Animations">
+  <app-nav-side-group title = "Animations" [expanded]="expandedGroup == 'Animations'" (click)="expandedGroup='Animations'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="animations" disabled>
       Animations <label class="label palette-primary">To do ⛏️</label>
     </app-nav-side-item>

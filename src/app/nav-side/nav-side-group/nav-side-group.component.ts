@@ -10,6 +10,7 @@ export class NavSideGroupComponent implements OnInit {
   @Input()
   public title: string;
 
+  @Input()
   public expanded = false;
 
   constructor() { }
