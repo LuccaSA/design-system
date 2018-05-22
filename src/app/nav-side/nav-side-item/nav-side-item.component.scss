@@ -55,3 +55,8 @@
     opacity: .67;
   }
 }
+
+:host-context(app-nav-side-group) {
+  left: 2rem;
+    padding: .5rem .5rem .5rem 1rem;
+}
