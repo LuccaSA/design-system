@@ -1,21 +1,8 @@
 <app-header></app-header>
 <app-nav-side>
+  <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="vision">Product vision <label class="label palette-primary">To do ⛏️</label></app-nav-side-item>
+  <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="accessibility">Accessibility <label class="label palette-primary">To do ⛏️</label></app-nav-side-item>
 </app-nav-side>
 <div class="main-content">
-  <div class="card">
-    <div class="card-content">
-      <h1>Principles</h1>
-      <p class="strong">Caramels danish cheesecake chocolate bar sesame snaps. Toffee macaroon caramels dessert danish jelly jelly-o. Toffee caramels sesame snaps ice cream cookie donut.</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-content">
-      <h2>Dessert danish</h2>
-      <p>Tiramisu topping macaroon caramels carrot cake apple pie. Cake cake cake chocolate bar gummi bears candy jelly. Powder carrot cake tart. Dessert danish gummies.</p>
-      <p>Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>
-      <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>
-    </div>
-  </div>
-
+  <router-outlet></router-outlet>
 </div>

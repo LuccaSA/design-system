@@ -26,10 +26,18 @@ import { FormatComponent } from './content/format/format.component';
 import { TypogrpahicRulesComponent } from './content/typogrpahic-rules/typogrpahic-rules.component';
 import { IconsComponent } from './visual/icons/icons.component';
 import { IllustrateComponent } from './visual/illustrate/illustrate.component';
+import { VisionComponent } from './principles/vision/vision.component';
+import { AccessibilityComponent } from './principles/accessibility/accessibility.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'principles', component: PrinciplesComponent },
+  { path: 'principles', component: PrinciplesComponent,
+    children: [
+      { path: '', redirectTo: 'vision', pathMatch: 'full' },
+      { path: 'vision', component: VisionComponent },
+      { path: 'accessibility', component: AccessibilityComponent }
+    ]
+  },
   { path: 'content', component: ContentComponent,
     children: [
       { path: '', redirectTo: 'voice', pathMatch: 'full' },
@@ -86,7 +94,9 @@ const appRoutes: Routes = [
     FormatComponent,
     TypogrpahicRulesComponent,
     IconsComponent,
-    IllustrateComponent
+    IllustrateComponent,
+    VisionComponent,
+    AccessibilityComponent
   ],
   imports: [
     BrowserModule,
