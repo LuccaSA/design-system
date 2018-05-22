@@ -2,8 +2,9 @@
   width: 17rem;
   position: fixed;
   top: 4rem;
-  bottom: 4rem;
-  overflow: auto;
+  bottom: 4.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
   left: 0;
   z-index: 10;
 }
