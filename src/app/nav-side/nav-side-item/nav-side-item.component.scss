@@ -27,10 +27,31 @@
       width: 3px;
       background: _color("text.purple");
     }
+
+    .navSide-sub {
+      display: block;
+    }
   }
 
   &[disabled] {
     opacity: .5;
     pointer-events: none;
+  }
+}
+
+.navSide-sub {
+  display: none;
+  padding: .5rem;
+}
+
+.navSide-sub-item {
+  display: block;
+  font-size: _theme("sizes.small.font-size");
+  color: _color("text.purple");
+  text-decoration: none;
+  padding: .15rem 0;
+
+  &:hover {
+    opacity: .67;
   }
 }

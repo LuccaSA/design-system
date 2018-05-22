@@ -45,8 +45,8 @@ const appRoutes: Routes = [
       { path: '', redirectTo: 'logos', pathMatch: 'full' },
       { path: 'logos', component: LogosComponent },
       { path: 'colors', component: ColorsComponent },
-      { path: 'typography', component: TypographyComponent }
-      { path: 'icons', component: IconsComponent }
+      { path: 'typography', component: TypographyComponent },
+      { path: 'icons', component: IconsComponent },
       { path: 'illustrate', component: IllustrateComponent }
     ]
   },

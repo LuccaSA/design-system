@@ -1,1 +1,6 @@
 <ng-content></ng-content>
+<nav class="navSide-sub" *ngIf="anchors">
+  <a *ngFor="let anchor of anchors; let i=index" class="navSide-sub-item" [routerLink]="routerKey" [fragment]="anchor">
+    {{anchor}}
+  </a>
+</nav>
