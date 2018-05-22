@@ -4,11 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { NavComponent } from './nav/nav.component';
+import { NavSideComponent } from './nav-side/nav-side.component';
 import { NavSideItemComponent } from './nav-side/nav-side-item/nav-side-item.component';
+import { NavSideGroupComponent } from './nav-side/nav-side-group/nav-side-group.component';
 import { HomeComponent } from './home/home.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { HeaderComponent } from './header/header.component';
-import { NavSideComponent } from './nav-side/nav-side.component';
 import { ToolComponent } from './tool/tool.component';
 import { PrinciplesComponent } from './principles/principles.component';
 import { VisionComponent } from './principles/vision/vision.component';
@@ -198,7 +199,8 @@ const appRoutes: Routes = [
     LoadingsComponent,
     ProgressComponent,
     UtilitiesComponent,
-    AnimationsComponent
+    AnimationsComponent,
+    NavSideGroupComponent
   ],
   imports: [
     BrowserModule,
