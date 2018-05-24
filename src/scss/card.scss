@@ -18,3 +18,13 @@
   background-position: center;
   border-radius: 3px 3px 0 0;
 }
+
+.card-dependencies {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+
+  .label {
+    margin-left: 0;
+  }
+}

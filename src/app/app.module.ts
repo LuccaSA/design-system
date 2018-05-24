@@ -59,6 +59,7 @@ import { LoadingsComponent } from './components/loadings/loadings.component';
 import { ProgressComponent } from './components/progress/progress.component';
 import { UtilitiesComponent } from './components/utilities/utilities.component';
 import { AnimationsComponent } from './components/animations/animations.component';
+import { ContainersComponent } from './components/containers/containers.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -95,6 +96,7 @@ const appRoutes: Routes = [
 
       { path: 'structure-guidelines', component: StructureGuidelinesComponent },
       { path: 'templates', component: TemplatesComponent },
+      { path: 'containers', component: ContainersComponent },
       { path: 'grids', component: GridComponent },
       { path: 'cards', component: CardsComponent },
       { path: 'empty-states', component: EmptyStatesComponent },
@@ -200,7 +202,8 @@ const appRoutes: Routes = [
     ProgressComponent,
     UtilitiesComponent,
     AnimationsComponent,
-    NavSideGroupComponent
+    NavSideGroupComponent,
+    ContainersComponent
   ],
   imports: [
     BrowserModule,
