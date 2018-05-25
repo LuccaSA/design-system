@@ -42,7 +42,7 @@ export class ComponentsComponent implements OnInit {
     if (!childPath){
       return;
     }
-    this.expandedGroup = childPath.menuGroup;
+    this.expandedGroup = childPath.data.menuGroup;
   }
 
   ngOnInit() {

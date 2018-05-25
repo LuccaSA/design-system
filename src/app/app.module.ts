@@ -94,51 +94,51 @@ const appRoutes: Routes = [
     children: [
       { path: '', redirectTo: 'buttons', pathMatch: 'full' },
 
-      { path: 'structure-guidelines', component: StructureGuidelinesComponent, menuGroup:'Structure' },
-      { path: 'templates', component: TemplatesComponent, menuGroup:'Structure' },
-      { path: 'containers', component: ContainersComponent, menuGroup:'Structure' },
-      { path: 'grids', component: GridComponent, menuGroup:'Structure' },
-      { path: 'cards', component: CardsComponent, menuGroup:'Structure' },
-      { path: 'empty-states', component: EmptyStatesComponent, menuGroup:'Structure' },
+      { path: 'structure-guidelines', component: StructureGuidelinesComponent, data: {menuGroup: 'Structure' }},
+      { path: 'templates', component: TemplatesComponent, data: {menuGroup: 'Structure' }},
+      { path: 'containers', component: ContainersComponent, data: {menuGroup: 'Structure' }},
+      { path: 'grids', component: GridComponent, data: {menuGroup: 'Structure' }},
+      { path: 'cards', component: CardsComponent, data: {menuGroup: 'Structure' }},
+      { path: 'empty-states', component: EmptyStatesComponent, data: {menuGroup: 'Structure' }},
 
-      { path: 'menu', component: MenuComponent, menuGroup:'Navigation'
-      { path: 'pagination', component: PaginationComponent, menuGroup:'Navigation'
+      { path: 'menu', component: MenuComponent, data: {menuGroup: 'Navigation' }},
+      { path: 'pagination', component: PaginationComponent, data: {menuGroup: 'Navigation' }},
 
-      { path: 'text-guidelines', component: TextGuidelinesComponent, menuGroup:'Texte'
-      { path: 'titles', component: TitlesComponent, menuGroup:'Texte'
-      { path: 'basic-text', component: BasicTextComponent, menuGroup:'Texte'
-      { path: 'labels', component: LabelsComponent, menuGroup:'Texte'
+      { path: 'text-guidelines', component: TextGuidelinesComponent, data: {menuGroup: 'Texte' }},
+      { path: 'titles', component: TitlesComponent, data: {menuGroup: 'Texte' }},
+      { path: 'basic-text', component: BasicTextComponent, data: {menuGroup: 'Texte' }},
+      { path: 'labels', component: LabelsComponent, data: {menuGroup: 'Texte' }},
 
-      { path: 'form-guidelines', component: FormGuidelinesComponent, menuGroup:'Formulaires'
-      { path: 'textfields', component: TextfieldsComponent, menuGroup:'Formulaires'
-      { path: 'select', component: SelectComponent, menuGroup:'Formulaires'
-      { path: 'radios', component: RadiosComponent, menuGroup:'Formulaires'
-      { path: 'checkboxes', component: CheckboxesComponent, menuGroup:'Formulaires'
-      { path: 'switches', component: SwitchesComponent, menuGroup:'Formulaires'
+      { path: 'form-guidelines', component: FormGuidelinesComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'textfields', component: TextfieldsComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'select', component: SelectComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'radios', component: RadiosComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'checkboxes', component: CheckboxesComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'switches', component: SwitchesComponent, data: {menuGroup: 'Formulaires' }},
 
-      { path: 'action-guidelines', component: ActionGuidelinesComponent, menuGroup:'Actions' },
-      { path: 'buttons', component: ButtonsComponent, menuGroup:'Actions' },
-      { path: 'links', component: LinksComponent, menuGroup:'Actions' },
-      { path: 'action-icons', component: ActionIconsComponent, menuGroup:'Actions' },
+      { path: 'action-guidelines', component: ActionGuidelinesComponent, data: {menuGroup: 'Actions' }},
+      { path: 'buttons', component: ButtonsComponent, data: {menuGroup: 'Actions' }}, 
+      { path: 'links', component: LinksComponent, data: {menuGroup: 'Actions' }},
+      { path: 'action-icons', component: ActionIconsComponent, data: {menuGroup: 'Actions' }},
 
-      { path: 'tables', component: TablesComponent, menuGroup:'Listings'
-      { path: 'lists', component: ListsComponent, menuGroup:'Listings'
-      { path: 'chips', component: ChipsComponent, menuGroup:'Listings'
+      { path: 'tables', component: TablesComponent, data: {menuGroup: 'Listings' }},
+      { path: 'lists', component: ListsComponent, data: {menuGroup: 'Listings' }},
+      { path: 'chips', component: ChipsComponent, data: {menuGroup: 'Listings' }},
 
-      { path: 'modals', component: ModalsComponent, menuGroup:'Overlay'
-      { path: 'tooltips', component: TooltipsComponent, menuGroup:'Overlay'
+      { path: 'modals', component: ModalsComponent, data: {menuGroup: 'Overlay' }},
+      { path: 'tooltips', component: TooltipsComponent, data: {menuGroup: 'Overlay' }},
 
-      { path: 'toasts', component: ToastsComponent, menuGroup:'Feedback / Information'
-      { path: 'callouts', component: CalloutsComponent, menuGroup:'Feedback / Information'
+      { path: 'toasts', component: ToastsComponent, data: {menuGroup: 'Feedback / Information' }},
+      { path: 'callouts', component: CalloutsComponent, data: {menuGroup: 'Feedback / Information' }},
 
-      { path: 'loadings', component: LoadingsComponent, menuGroup:'Chargement'
-      { path: 'progress', component: ProgressComponent, menuGroup:'Chargement'
+      { path: 'loadings', component: LoadingsComponent, data: {menuGroup: 'Chargement' }},
+      { path: 'progress', component: ProgressComponent, data: {menuGroup: 'Chargement' }},
 
-      { path: 'icons', component: IconsComponent, menuGroup:'Icones'
+      { path: 'icons', component: IconsComponent, data: {menuGroup: 'Icones' }},
 
-      { path: 'utilities', component: UtilitiesComponent, menuGroup:'Utilitaires'
+      { path: 'utilities', component: UtilitiesComponent, data: {menuGroup: 'Utilitaires' }},
 
-      { path: 'animations', component: AnimationsComponent, menuGroup:'Animations'
+      { path: 'animations', component: AnimationsComponent, data: {menuGroup: 'Animations'} }
     ]},
   { path: '**', component: HomeComponent }
 ];
