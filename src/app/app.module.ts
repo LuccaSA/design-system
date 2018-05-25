@@ -94,51 +94,51 @@ const appRoutes: Routes = [
     children: [
       { path: '', redirectTo: 'buttons', pathMatch: 'full' },
 
-      { path: 'structure-guidelines', component: StructureGuidelinesComponent },
-      { path: 'templates', component: TemplatesComponent },
-      { path: 'containers', component: ContainersComponent },
-      { path: 'grids', component: GridComponent },
-      { path: 'cards', component: CardsComponent },
-      { path: 'empty-states', component: EmptyStatesComponent },
+      { path: 'structure-guidelines', component: StructureGuidelinesComponent, menuGroup:'Structure' },
+      { path: 'templates', component: TemplatesComponent, menuGroup:'Structure' },
+      { path: 'containers', component: ContainersComponent, menuGroup:'Structure' },
+      { path: 'grids', component: GridComponent, menuGroup:'Structure' },
+      { path: 'cards', component: CardsComponent, menuGroup:'Structure' },
+      { path: 'empty-states', component: EmptyStatesComponent, menuGroup:'Structure' },
 
-      { path: 'menu', component: MenuComponent },
-      { path: 'pagination', component: PaginationComponent },
+      { path: 'menu', component: MenuComponent, menuGroup:'Navigation'
+      { path: 'pagination', component: PaginationComponent, menuGroup:'Navigation'
 
-      { path: 'text-guidelines', component: TextGuidelinesComponent },
-      { path: 'titles', component: TitlesComponent },
-      { path: 'basic-text', component: BasicTextComponent },
-      { path: 'labels', component: LabelsComponent },
+      { path: 'text-guidelines', component: TextGuidelinesComponent, menuGroup:'Texte'
+      { path: 'titles', component: TitlesComponent, menuGroup:'Texte'
+      { path: 'basic-text', component: BasicTextComponent, menuGroup:'Texte'
+      { path: 'labels', component: LabelsComponent, menuGroup:'Texte'
 
-      { path: 'form-guidelines', component: FormGuidelinesComponent },
-      { path: 'textfields', component: TextfieldsComponent },
-      { path: 'select', component: SelectComponent },
-      { path: 'radios', component: RadiosComponent },
-      { path: 'checkboxes', component: CheckboxesComponent },
-      { path: 'switches', component: SwitchesComponent },
+      { path: 'form-guidelines', component: FormGuidelinesComponent, menuGroup:'Formulaires'
+      { path: 'textfields', component: TextfieldsComponent, menuGroup:'Formulaires'
+      { path: 'select', component: SelectComponent, menuGroup:'Formulaires'
+      { path: 'radios', component: RadiosComponent, menuGroup:'Formulaires'
+      { path: 'checkboxes', component: CheckboxesComponent, menuGroup:'Formulaires'
+      { path: 'switches', component: SwitchesComponent, menuGroup:'Formulaires'
 
-      { path: 'action-guidelines', component: ActionGuidelinesComponent },
-      { path: 'buttons', component: ButtonsComponent },
-      { path: 'links', component: LinksComponent },
-      { path: 'action-icons', component: ActionIconsComponent },
+      { path: 'action-guidelines', component: ActionGuidelinesComponent, menuGroup:'Actions' },
+      { path: 'buttons', component: ButtonsComponent, menuGroup:'Actions' },
+      { path: 'links', component: LinksComponent, menuGroup:'Actions' },
+      { path: 'action-icons', component: ActionIconsComponent, menuGroup:'Actions' },
 
-      { path: 'tables', component: TablesComponent },
-      { path: 'lists', component: ListsComponent },
-      { path: 'chips', component: ChipsComponent },
+      { path: 'tables', component: TablesComponent, menuGroup:'Listings'
+      { path: 'lists', component: ListsComponent, menuGroup:'Listings'
+      { path: 'chips', component: ChipsComponent, menuGroup:'Listings'
 
-      { path: 'modals', component: ModalsComponent },
-      { path: 'tooltips', component: TooltipsComponent },
+      { path: 'modals', component: ModalsComponent, menuGroup:'Overlay'
+      { path: 'tooltips', component: TooltipsComponent, menuGroup:'Overlay'
 
-      { path: 'toasts', component: ToastsComponent },
-      { path: 'callouts', component: CalloutsComponent },
+      { path: 'toasts', component: ToastsComponent, menuGroup:'Feedback / Information'
+      { path: 'callouts', component: CalloutsComponent, menuGroup:'Feedback / Information'
 
-      { path: 'loadings', component: LoadingsComponent },
-      { path: 'progress', component: ProgressComponent },
+      { path: 'loadings', component: LoadingsComponent, menuGroup:'Chargement'
+      { path: 'progress', component: ProgressComponent, menuGroup:'Chargement'
 
-      { path: 'icons', component: IconsComponent },
+      { path: 'icons', component: IconsComponent, menuGroup:'Icones'
 
-      { path: 'utilities', component: UtilitiesComponent },
+      { path: 'utilities', component: UtilitiesComponent, menuGroup:'Utilitaires'
 
-      { path: 'animations', component: AnimationsComponent },
+      { path: 'animations', component: AnimationsComponent, menuGroup:'Animations'
     ]},
   { path: '**', component: HomeComponent }
 ];
