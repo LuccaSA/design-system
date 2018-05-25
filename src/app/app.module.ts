@@ -60,6 +60,8 @@ import { ProgressComponent } from './components/progress/progress.component';
 import { UtilitiesComponent } from './components/utilities/utilities.component';
 import { AnimationsComponent } from './components/animations/animations.component';
 import { ContainersComponent } from './components/containers/containers.component';
+import { FileComponent } from './components/file/file.component';
+import { FramedComponent } from './components/framed/framed.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -115,9 +117,11 @@ const appRoutes: Routes = [
       { path: 'radios', component: RadiosComponent, data: {menuGroup: 'Formulaires' }},
       { path: 'checkboxes', component: CheckboxesComponent, data: {menuGroup: 'Formulaires' }},
       { path: 'switches', component: SwitchesComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'files', component: FileComponent, data: {menuGroup: 'Formulaires' }},
+      { path: 'framed', component: FramedComponent, data: {menuGroup: 'Formulaires' }},
 
       { path: 'action-guidelines', component: ActionGuidelinesComponent, data: {menuGroup: 'Actions' }},
-      { path: 'buttons', component: ButtonsComponent, data: {menuGroup: 'Actions' }}, 
+      { path: 'buttons', component: ButtonsComponent, data: {menuGroup: 'Actions' }},
       { path: 'links', component: LinksComponent, data: {menuGroup: 'Actions' }},
       { path: 'action-icons', component: ActionIconsComponent, data: {menuGroup: 'Actions' }},
 
@@ -203,7 +207,9 @@ const appRoutes: Routes = [
     UtilitiesComponent,
     AnimationsComponent,
     NavSideGroupComponent,
-    ContainersComponent
+    ContainersComponent,
+    FileComponent,
+    FramedComponent
   ],
   imports: [
     BrowserModule,
