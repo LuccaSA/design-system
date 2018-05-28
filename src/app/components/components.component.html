@@ -143,9 +143,9 @@
   </app-nav-side-group>
 
   <!-- Icons -->
-  <app-nav-side-group title = "Icones" [expanded]="expandedGroup == 'Icones'" (click)="expandedGroup='Icones'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="icons" disabled>
-      Icons <label class="label palette-primary">To do ⛏️</label>
+  <app-nav-side-group title = "Icones" [expanded]="expandedGroup == 'Icones'" (click)="expandedGroup='Icones'" routerLink="icons">
+    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="icons">
+      Icones
     </app-nav-side-item>
   </app-nav-side-group>
 
