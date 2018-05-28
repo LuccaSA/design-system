@@ -94,7 +94,7 @@ const appRoutes: Routes = [
   },
   { path: 'components', component: ComponentsComponent,
     children: [
-      { path: '', redirectTo: 'buttons', pathMatch: 'full' },
+      { path: '', redirectTo: 'grids', pathMatch: 'full' },
 
       { path: 'structure-guidelines', component: StructureGuidelinesComponent, data: {menuGroup: 'Structure' }},
       { path: 'templates', component: TemplatesComponent, data: {menuGroup: 'Structure' }},

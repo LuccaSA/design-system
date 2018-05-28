@@ -1,3 +1,329 @@
-<p>
-  tables works!
-</p>
+<div class="card">
+  <div class="card-dependencies">
+    <label class="label palette-scss">SCSS</label>
+  </div>
+  <div class="card-content">
+    <h1 class="mod-headline">Tables</h1>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Basique</h2>
+    <table class="table">
+		<thead class="table-head">
+			<tr class="table-head-row">
+				<th class="table-head-row-cell">Label</th>
+				<th class="table-head-row-cell">Label</th>
+				<th class="table-head-row-cell">Label</th>
+			</tr>
+		</thead>
+		<tbody class="table-body">
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+			</tr>
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+			</tr>
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+			</tr>
+		</tbody>
+	</table>
+<code class="code mod-block">&lt;table class="table"&gt;
+	&lt;thead class="table-head"&gt;
+		&lt;tr class="table-head-row"&gt;
+			&lt;th class="table-head-row-cell"&gt;...&lt;/th&gt;
+			&lt;th class="table-head-row-cell"&gt;...&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody class="table-body"&gt;
+		&lt;tr class="table-body-row"&gt;
+			&lt;td class="table-body-row-cell"&gt;...&lt;/td&gt;
+			&lt;td class="table-body-row-cell"&gt;...&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code>
+<em><i class="lucca-icon">info</i> Vous pouvez aligner en haut le contenu des cellules via le mod <code class="code">table mod-alignTop</code></em>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Zebrée</h2>
+    <table class="table mod-zebra">
+		<thead class="table-head">
+			<tr class="table-head-row">
+				<th class="table-head-row-cell">Label</th>
+				<th class="table-head-row-cell">Label</th>
+				<th class="table-head-row-cell">Label</th>
+			</tr>
+		</thead>
+		<tbody class="table-body">
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+			</tr>
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+			</tr>
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+				<td class="table-body-row-cell">Content</td>
+			</tr>
+		</tbody>
+	</table>
+<code class="code mod-block">&lt;table class="table mod-zebra"&gt;
+...
+</code>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Cliquable</h2>
+    <div class="table mod-clickable">
+		<div class="table-head">
+			<div class="table-head-row">
+				<div class="table-head-row-cell">Label</div>
+				<div class="table-head-row-cell">Label</div>
+				<div class="table-head-row-cell">Label</div>
+			</div>
+		</div>
+		<div class="table-body">
+			<a href="#" class="table-body-row">
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+			</a>
+			<a href="#" class="table-body-row">
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+			</a>
+			<a href="#" class="table-body-row">
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+				<div class="table-body-row-cell">Contenu</div>
+			</a>
+		</div>
+	</div>
+<code class="code mod-block">&lt;table class="table mod-clickable"&gt;
+...
+</code>
+<em><i class="lucca-icon">info</i> Vous pouvez utiliser une structure en <code class="code">div</code> et <code class="code">a</code> pour avoir des liens HTML sur une rangée ou une cellule</em>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Triable</h2>
+    <table class="table">
+		<thead class="table-head">
+			<tr class="table-head-row">
+				<th class="table-head-row-cell mod-sortable is-sorted-descending">Triable</th>
+				<th class="table-head-row-cell mod-sortable is-sorted-ascending">Triable</th>
+				<th class="table-head-row-cell mod-sortable">Triable</th>
+			</tr>
+		</thead>
+		<tbody class="table-body">
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+			</tr>
+			<tr class="table-body-row">
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+				<td class="table-body-row-cell">Contenu</td>
+			</tr>
+		</tbody>
+	</table>
+
+<code class="code mod-block">&lt;table class="table"&gt;
+	&lt;thead class="table-head"&gt;
+		&lt;tr class="table-head-row"&gt;
+			&lt;th class="table-head-row-cell mod-sortable is-sorted-descending"&gt;...&lt;/th&gt;
+			&lt;th class="table-head-row-cell mod-sortable is-sorted-ascending"&gt;...&lt;/th&gt;
+			&lt;th class="table-head-row-cell mod-sortable"&gt;...&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody class="table-body"&gt;
+		...
+	&lt;/tbody&gt;
+&lt;/table&gt;</code>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Actions</h2>
+    <table class="table">
+      <tbody class="table-body">
+        <tr class="table-body-row">
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell mod-actions">
+            <button class="actionIcon"><i class="lucca-icon">edit</i></button>
+            <button class="actionIcon"><i class="lucca-icon">trash</i></button>
+          </td>
+        </tr>
+        <tr class="table-body-row">
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell mod-actions">
+            <button class="actionIcon"><i class="lucca-icon">edit</i></button>
+            <button class="actionIcon"><i class="lucca-icon">trash</i></button>
+          </td>
+        </tr>
+        <tr class="table-body-row">
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell">Contenu</td>
+          <td class="table-body-row-cell mod-actions">
+            <button class="actionIcon"><i class="lucca-icon">edit</i></button>
+            <button class="actionIcon"><i class="lucca-icon">trash</i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+<code class="code mod-block">&lt;table class="table"&gt;
+  &lt;tbody class="table-body"&gt;
+    &lt;tr class="table-body-row"&gt;
+      &lt;td class="table-body-row-cell"&gt;&lt;/td&gt;
+      &lt;td class="table-body-row-cell"&gt;&lt;/td&gt;
+      &lt;td class="table-body-row-cell mod-actions"&gt;
+        &lt;button class="actionIcon"&gt;&lt;i class="lucca-icon"&gt;edit&lt;/i&gt;&lt;/button&gt;
+        &lt;button class="actionIcon"&gt;&lt;i class="lucca-icon"&gt;trash&lt;/i&gt;&lt;/button&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    ...
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Card</h2>
+    <p>Pour utiliser une table dans une carte, placez là hors du <code class="code">card-content</code> et ajoutez-y une classe <code class="code">mod-card</code>.</p>
+	<div class="card">
+		<table class="table mod-card">
+			<thead class="table-head">
+				<tr class="table-head-row">
+					<th class="table-head-row-cell">Table head</th>
+					<th class="table-head-row-cell">Table head</th>
+				</tr>
+			</thead>
+			<tbody class="table-body">
+				<tr class="table-body-row">
+					<td class="table-body-row-cell">Table cell</td>
+					<td class="table-body-row-cell">Table cell</td>
+				</tr>
+				<tr class="table-body-row">
+					<td class="table-body-row-cell">Table cell</td>
+					<td class="table-body-row-cell">Table cell</td>
+				</tr>
+				<tr class="table-body-row">
+					<td class="table-body-row-cell">Table cell</td>
+					<td class="table-body-row-cell">Table cell</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+<code class="code mod-block">&lt;div class="card"&gt;
+	&lt;table class="table mod-card"&gt;
+		&lt;thead class="table-head"&gt;
+			&lt;tr class="table-head-row"&gt;
+				&lt;th class="table-head-row-cell"&gt;...&lt;/th&gt;
+				&lt;th class="table-head-row-cell"&gt;...&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody class="table-body"&gt;
+			&lt;tr class="table-body-row"&gt;
+				&lt;td class="table-body-row-cell"&gt;...&lt;/td&gt;
+				&lt;td class="table-body-row-cell"&gt;...&lt;/td&gt;
+			&lt;/tr&gt;
+			...
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+</code>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Filtres</h2>
+    <p>Vous pouvez une utiliser une classe <code class="code">mod-filters</code> sur la première rangée d'une table pour y placer des filtres.</p>
+  	<table class="table">
+  		<thead class="table-head">
+  			<tr class="table-head-row">
+  				<th class="table-head-row-cell">Label</th>
+  				<th class="table-head-row-cell">Label</th>
+  				<th class="table-head-row-cell">Label</th>
+  			</tr>
+  		</thead>
+  		<tbody class="table-body">
+  			<tr class="table-body-row mod-filters">
+  				<td class="table-body-row-cell">
+  					<div class="textfield mod-search mod-block">
+  						<input class="textfield-input" type="text" placeholder="Rechercher">
+  					</div>
+  				</td>
+  				<td class="table-body-row-cell">
+  					<div class="textfield mod-search mod-block">
+  						<input class="textfield-input" type="text" placeholder="Rechercher">
+  					</div>
+  				</td>
+  				<td class="table-body-row-cell">
+  					<div class="textfield mod-search mod-block">
+  						<input class="textfield-input" type="text" placeholder="Rechercher">
+  					</div>
+  				</td>
+  			</tr>
+  			<tr class="table-body-row">
+  				<td class="table-body-row-cell">Contenu</td>
+  				<td class="table-body-row-cell">Contenu</td>
+  				<td class="table-body-row-cell">Contenu</td>
+  			</tr>
+  		</tbody>
+  	</table>
+
+<code class="code mod-block">&lt;table class="table"&gt;
+	&lt;thead class="table-head"&gt;
+		&lt;tr class="table-head-row"&gt;
+			&lt;th class="table-head-row-cell"&gt;Head cell&lt;/th&gt;
+			...
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody class="table-body"&gt;
+		&lt;tr class="table-body-row mod-filters"&gt;
+			&lt;td class="table-body-row-cell"&gt;
+				&lt;div class="textfield mod-search mod-block"&gt;
+					&lt;input class="textfield-input" type="text" placeholder="Search"&gt;
+				&lt;/div&gt;
+			&lt;/td&gt;
+			...
+		&lt;/tr&gt;
+		&lt;tr class="table-body-row"&gt;
+			&lt;td class="table-body-row-cell"&gt;Contenu&lt;/td&gt;
+			...
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</code>
+  </div>
+</div>
