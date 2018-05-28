@@ -25,8 +25,8 @@
 
   <!-- Navigation -->
   <app-nav-side-group title = "Navigation" [expanded]="expandedGroup == 'Navigation'" (click)="expandedGroup='Navigation'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="menu" disabled>
-      Menu <label class="label palette-primary">To do ⛏️</label>
+    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="menu">
+      Menu
     </app-nav-side-item>
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="breadcrumb">
       Breadcrumb
