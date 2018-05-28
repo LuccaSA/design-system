@@ -62,6 +62,7 @@ import { AnimationsComponent } from './components/animations/animations.componen
 import { ContainersComponent } from './components/containers/containers.component';
 import { FileComponent } from './components/file/file.component';
 import { FramedComponent } from './components/framed/framed.component';
+import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -104,6 +105,7 @@ const appRoutes: Routes = [
       { path: 'empty-states', component: EmptyStatesComponent, data: {menuGroup: 'Structure' }},
 
       { path: 'menu', component: MenuComponent, data: {menuGroup: 'Navigation' }},
+      { path: 'breadcrumb', component: BreadcrumbsComponent, data: {menuGroup: 'Navigation' }},
       { path: 'pagination', component: PaginationComponent, data: {menuGroup: 'Navigation' }},
 
       { path: 'text-guidelines', component: TextGuidelinesComponent, data: {menuGroup: 'Texte' }},
@@ -209,7 +211,8 @@ const appRoutes: Routes = [
     NavSideGroupComponent,
     ContainersComponent,
     FileComponent,
-    FramedComponent
+    FramedComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
