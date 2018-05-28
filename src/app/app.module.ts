@@ -63,6 +63,7 @@ import { ContainersComponent } from './components/containers/containers.componen
 import { FileComponent } from './components/file/file.component';
 import { FramedComponent } from './components/framed/framed.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
+import { BoxesComponent } from './components/boxes/boxes.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -136,6 +137,7 @@ const appRoutes: Routes = [
 
       { path: 'toasts', component: ToastsComponent, data: {menuGroup: 'Feedback / Information' }},
       { path: 'callouts', component: CalloutsComponent, data: {menuGroup: 'Feedback / Information' }},
+      { path: 'boxes', component: BoxesComponent, data: {menuGroup: 'Feedback / Information' }},
 
       { path: 'loadings', component: LoadingsComponent, data: {menuGroup: 'Chargement' }},
       { path: 'progress', component: ProgressComponent, data: {menuGroup: 'Chargement' }},
@@ -212,7 +214,8 @@ const appRoutes: Routes = [
     ContainersComponent,
     FileComponent,
     FramedComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    BoxesComponent
   ],
   imports: [
     BrowserModule,
