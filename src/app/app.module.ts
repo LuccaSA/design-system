@@ -64,6 +64,7 @@ import { FileComponent } from './components/file/file.component';
 import { FramedComponent } from './components/framed/framed.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { BoxesComponent } from './components/boxes/boxes.component';
+import { MixinsComponent } from './components/mixins/mixins.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -96,7 +97,7 @@ const appRoutes: Routes = [
   },
   { path: 'components', component: ComponentsComponent,
     children: [
-      { path: '', redirectTo: 'grids', pathMatch: 'full' },
+      { path: '', redirectTo: 'templates', pathMatch: 'full' },
 
       { path: 'structure-guidelines', component: StructureGuidelinesComponent, data: {menuGroup: 'Structure' }},
       { path: 'templates', component: TemplatesComponent, data: {menuGroup: 'Structure' }},
@@ -145,6 +146,7 @@ const appRoutes: Routes = [
       { path: 'icons', component: IconsComponent, data: {menuGroup: 'Icones' }},
 
       { path: 'utilities', component: UtilitiesComponent, data: {menuGroup: 'Utilitaires' }},
+      { path: 'mixins', component: MixinsComponent, data: {menuGroup: 'Utilitaires' }},
 
       { path: 'animations', component: AnimationsComponent, data: {menuGroup: 'Animations'} }
     ]},
@@ -215,7 +217,8 @@ const appRoutes: Routes = [
     FileComponent,
     FramedComponent,
     BreadcrumbsComponent,
-    BoxesComponent
+    BoxesComponent,
+    MixinsComponent
   ],
   imports: [
     BrowserModule,
