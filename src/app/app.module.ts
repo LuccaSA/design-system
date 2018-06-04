@@ -35,7 +35,6 @@ import { GridComponent } from './components/grid/grid.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { EmptyStatesComponent } from './components/empty-states/empty-states.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { PaginationComponent } from './components/pagination/pagination.component';
 import { TextGuidelinesComponent } from './components/text-guidelines/text-guidelines.component';
 import { TitlesComponent } from './components/titles/titles.component';
 import { BasicTextComponent } from './components/basic-text/basic-text.component';
@@ -109,7 +108,6 @@ const appRoutes: Routes = [
 
       { path: 'menu', component: MenuComponent, data: {menuGroup: 'Navigation' }},
       { path: 'breadcrumb', component: BreadcrumbsComponent, data: {menuGroup: 'Navigation' }},
-      { path: 'pagination', component: PaginationComponent, data: {menuGroup: 'Navigation' }},
 
       { path: 'text-guidelines', component: TextGuidelinesComponent, data: {menuGroup: 'Texte' }},
       { path: 'titles', component: TitlesComponent, data: {menuGroup: 'Texte' }},
@@ -190,7 +188,6 @@ const appRoutes: Routes = [
     CardsComponent,
     EmptyStatesComponent,
     MenuComponent,
-    PaginationComponent,
     TextGuidelinesComponent,
     TitlesComponent,
     BasicTextComponent,
