@@ -1,3 +1,215 @@
-<p>
-  framed works!
-</p>
+<div class="card">
+  <div class="card-dependencies">
+    <label class="label palette-scss">SCSS</label>
+  </div>
+  <div class="card-content">
+    <h1 class="mod-headline">Framed</h1>
+    <p class="strong">
+      Le mode <i>Framed</i> est une mise en forme particulière des différents éléments de formulaire.<br>
+      Dans ce mode, <code class="code">form-group</code> est divisé en plusieurs lignes, appelées <code class="code">form-group-line</code>.<br>
+      Ces lignes peuvent ensuite être divisées grâce aux classes <code class="code">form-group-line-*</code> (ex. <code class="code">form-group-line-xs6</code> ou <code class="code">form-group-line-lg4</code>).</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <div class="form mod-framed">
+		<div class="form-group">
+			<h2>Titre Groupe 1</h2>
+			<div class="form-group-line">
+				<div class="form-group-line-lg8">
+					<div class="textfield mod-framed is-required">
+						<input class="textfield-input is-error" type="text" placeholder="placeholder">
+						<label class="textfield-label">Label textfield</label>
+					</div>
+				</div>
+				<div class="form-group-line-lg4">
+					<div class="textfield mod-framed">
+						<input class="textfield-input" type="text" placeholder="placeholder" value="Test disabled" disabled>
+						<label class="textfield-label">Label textfield</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div class="textfield mod-framed palette-success">
+					<input class="textfield-input" type="text" placeholder="placeholder">
+					<label class="textfield-label">Label textfield</label>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div class="textfield mod-framed mod-withSuffix">
+					<input class="textfield-input" type="text" placeholder="Money Money">
+					<label class="textfield-label">Label textfield</label>
+					<div class="textfield-suffix">
+						€
+					</div>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div class="textfield mod-multiline mod-framed mod-withSuffix">
+					<textarea class="textfield-input" type="text" placeholder="Money Money"></textarea>
+					<label class="textfield-label">Label textfield</label>
+					<div class="textfield-suffix">
+						<select class="" name="">
+							<option value="">Option 1</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<h2>Titre groupe 2</h2>
+			<div class="form-group-line">
+				<div class="textfield mod-multiline mod-framed mod-withSuffix palette-secondary is-required">
+					<textarea class="textfield-input" type="text" placeholder="Money Money"></textarea>
+					<label class="textfield-label">Label textfield</label>
+					<div class="textfield-suffix">
+						<select class="" name="">
+							<option value="">Option 1</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div id="autocomplete-framed" class="textfield mod-framed mod-search">
+					<input class="textfield-input" type="text">
+					<label class="textfield-label">Utilisateur</label>
+					<ul class="textfield-options">
+						<li class="textfield-options-entry">
+							<u>va</u>lue A</li>
+						<li class="textfield-options-entry is-focus">
+							<u>va</u>lue B</li>
+						<li class="textfield-options-entry">
+							<u>va</u>lue C</li>
+					</ul>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div id="autocomplete-framed-select" class="textfield mod-framed mod-select">
+					<input class="textfield-input" type="text">
+					<label class="textfield-label">Utilisateur</label>
+					<ul class="textfield-options">
+						<li class="textfield-options-entry">
+							<u>va</u>lue A</li>
+						<li class="textfield-options-entry is-focus">
+							<u>va</u>lue B</li>
+						<li class="textfield-options-entry">
+							<u>va</u>lue C</li>
+					</ul>
+				</div>
+			</div>
+			<div class="form-group-line">
+				<div class="form-group-line-xs6">
+					<div id="autocomplete-framed-select2" class="textfield mod-framed mod-select">
+						<input class="textfield-input" type="text">
+						<label class="textfield-label">Utilisateur</label>
+						<ul class="textfield-options">
+							<li class="textfield-options-entry">
+								<u>va</u>lue A</li>
+							<li class="textfield-options-entry is-focus">
+								<u>va</u>lue B</li>
+							<li class="textfield-options-entry">
+								<u>va</u>lue C</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group-line-xs6">
+					<div class="textfield mod-framed is-required">
+						<input class="textfield-input is-error" type="text" placeholder="placeholder">
+						<label class="textfield-label">Label textfield</label>
+						<div class="textfield-messages">
+							<div class="textfield-messages-error">Ce champs est requis</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group-line mod-selection">
+				<label class="form-group-line-label">Label textfield</label>
+				<div class="checkbox">
+					<input class="checkbox-input" type="checkbox" id="checkboxID">
+					<label class="checkbox-label" for="checkboxID">Checkbox</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox-input" type="checkbox" id="checkboxID2">
+					<label class="checkbox-label" for="checkboxID2">Checkbox</label>
+				</div>
+				<div class="checkbox">
+					<input class="checkbox-input" type="checkbox" id="checkboxID3">
+					<label class="checkbox-label" for="checkboxID3">Checkbox</label>
+				</div>
+			</div>
+			<div class="form-group-line mod-selection">
+				<label class="form-group-line-label">Label textfield</label>
+				<div class="radio">
+					<input class="radio-input" type="radio" name="radioframedlist" id="radioID">
+					<label class="radio-label" for="radioID">Radio</label>
+				</div>
+				<div class="radio">
+					<input class="radio-input" type="radio" name="radioframedlist" id="radioID2">
+					<label class="radio-label" for="radioID2">Radio</label>
+				</div>
+				<div class="radio">
+					<input class="radio-input" type="radio" name="radioframedlist" id="radioID3">
+					<label class="radio-label" for="radioID3">Radio</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<code class="code mod-block">&lt;div class="form mod-framed"&gt;
+  &lt;div class="form-group"&gt;
+    &lt;h2&gt;Titre groupe&lt;/h2&gt;
+    &lt;div class="form-group-line"&gt;
+      &lt;div class="form-group-line-lg8"&gt;
+        &lt;div class="textfield mod-framed is-required"&gt;
+          &lt;input class="textfield-input" type="text" placeholder="..."&gt;
+          &lt;label class="textfield-label"&gt;...&lt;/label&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="form-group-line-lg4"&gt;
+        &lt;div class="textfield mod-framed"&gt;
+          &lt;input class="textfield-input" type="text" placeholder="..." disabled&gt;
+          &lt;label class="textfield-label"&gt;...&lt;/label&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group-line"&gt;
+      &lt;div class="textfield mod-framed"&gt;
+        &lt;input class="textfield-input" type="text" placeholder="..."&gt;
+        &lt;label class="textfield-label"&gt;...&lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group-line"&gt;
+      &lt;div class="textfield mod-framed mod-withSuffix"&gt;
+        &lt;input class="textfield-input" type="text" placeholder="..."&gt;
+        &lt;label class="textfield-label"&gt;...&lt;/label&gt;
+        &lt;div class="textfield-suffix"&gt;€&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group-line"&gt;
+      &lt;div class="textfield mod-multiline mod-framed mod-withSuffix"&gt;
+        &lt;textarea class="textfield-input" type="text" placeholder="..."&gt;&lt;/textarea&gt;
+        &lt;label class="textfield-label"&gt;...&lt;/label&gt;
+        &lt;div class="textfield-suffix"&gt;€&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group-line mod-selection"&gt;
+      &lt;label class="form-group-line-label"&gt;...&lt;/label&gt;
+      &lt;div class="checkbox"&gt;
+        &lt;input class="checkbox-input" type="checkbox" id="checkboxFramed0"&gt;
+        &lt;label class="checkbox-label" for="checkboxFramed0"&gt;Checkbox&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class="checkbox"&gt;
+        &lt;input class="checkbox-input" type="checkbox" id="checkboxFramed1"&gt;
+        &lt;label class="checkbox-label" for="checkboxFramed1"&gt;Checkbox&lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+	</code>
+<em><i class="lucca-icon">info</i> Utilisez le mod <code class="code">form-group-line mod-selection</code> pour ajouter une bordure à votre ligne (ex. pour les checkbox ou les radios)</em><br>
+<em><i class="lucca-icon">info</i> Utilisez le mod <code class="code">form-group-line mod-stacked</code> pour afficher vos radios ou vos checkbox verticalement</em>
+  </div>
+</div>
