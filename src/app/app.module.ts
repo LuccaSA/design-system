@@ -88,7 +88,7 @@ const appRoutes: Routes = [
   },
   { path: 'visual', component: VisualComponent,
     children: [
-      { path: '', redirectTo: 'logos', pathMatch: 'full' },
+      { path: '', redirectTo: 'colors', pathMatch: 'full' },
       { path: 'logos', component: LogosComponent },
       { path: 'colors', component: ColorsComponent },
       { path: 'typography', component: TypographyComponent },
