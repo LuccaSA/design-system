@@ -65,6 +65,7 @@ import { FramedComponent } from './components/framed/framed.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { BoxesComponent } from './components/boxes/boxes.component';
 import { MixinsComponent } from './components/mixins/mixins.component';
+import { FunctionsComponent } from './components/functions/functions.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -146,6 +147,7 @@ const appRoutes: Routes = [
       { path: 'icons', component: IconsComponent, data: {menuGroup: 'Icones' }},
 
       { path: 'utilities', component: UtilitiesComponent, data: {menuGroup: 'Utilitaires' }},
+      { path: 'functions', component: FunctionsComponent, data: {menuGroup: 'Utilitaires' }},
       { path: 'mixins', component: MixinsComponent, data: {menuGroup: 'Utilitaires' }},
 
       { path: 'animations', component: AnimationsComponent, data: {menuGroup: 'Animations'} }
@@ -218,7 +220,8 @@ const appRoutes: Routes = [
     FramedComponent,
     BreadcrumbsComponent,
     BoxesComponent,
-    MixinsComponent
+    MixinsComponent,
+    FunctionsComponent
   ],
   imports: [
     BrowserModule,
