@@ -12,4 +12,6 @@ export class AnimationsComponent implements OnInit {
   ngOnInit() {
   }
 
+  public animate() {
+  }
 }
