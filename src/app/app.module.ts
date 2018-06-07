@@ -132,8 +132,8 @@ const appRoutes: Routes = [
       { path: 'lists', component: ListsComponent, data: {menuGroup: 'Listings' }},
       { path: 'chips', component: ChipsComponent, data: {menuGroup: 'Listings' }},
 
-      { path: 'modals', component: ModalsComponent, data: {menuGroup: 'Overlay' }},
-      { path: 'tooltips', component: TooltipsComponent, data: {menuGroup: 'Overlay' }},
+      { path: 'modals', component: ModalsComponent, data: {menuGroup: 'Overlays' }},
+      { path: 'tooltips', component: TooltipsComponent, data: {menuGroup: 'Overlays' }},
 
       { path: 'toasts', component: ToastsComponent, data: {menuGroup: 'Feedback / Information' }},
       { path: 'callouts', component: CalloutsComponent, data: {menuGroup: 'Feedback / Information' }},
