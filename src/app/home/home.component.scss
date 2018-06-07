@@ -1,0 +1,9 @@
+@import "node_modules/@lucca-front/scss/src/theming.overridable";
+
+.card.mod-visual {
+  min-height: 17.5rem;
+
+  @media (min-width: _theme("breakpoints.lg.breakAt")) and (max-width: _theme("breakpoints.xl.breakAt")) {
+    min-height: 21rem;
+  }
+}
