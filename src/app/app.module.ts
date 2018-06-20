@@ -65,6 +65,8 @@ import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.compo
 import { BoxesComponent } from './components/boxes/boxes.component';
 import { MixinsComponent } from './components/mixins/mixins.component';
 import { FunctionsComponent } from './components/functions/functions.component';
+import { HtmlCodeTabsComponent } from './common/html-code-tabs/html-code-tabs.component';
+import { TabComponent } from './common/html-code-tabs/tab/tab.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -218,7 +220,9 @@ const appRoutes: Routes = [
     BreadcrumbsComponent,
     BoxesComponent,
     MixinsComponent,
-    FunctionsComponent
+    FunctionsComponent,
+    HtmlCodeTabsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,
