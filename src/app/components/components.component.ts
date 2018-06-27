@@ -11,7 +11,6 @@ export class ComponentsComponent implements OnInit {
   public expandedGroup: string;
 
   constructor(router: Router) {
-    console.log(router);
     router.events.subscribe(s => {
       if (s instanceof NavigationEnd) {
         const tree = router.parseUrl(router.url);

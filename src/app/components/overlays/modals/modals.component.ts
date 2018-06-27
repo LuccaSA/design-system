@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material';
 
 @Component({
   selector: 'app-modals',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModalsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit() {
   }
 
+  openDialog(): void {
+    const dialogRef = this.dialog.open(DialogTestComponent);
+  }
+
 }
+
+
+@Component({
+  selector: 'ds-dialog-test',
+  template: `<h1>C'est un dialog</h1>`
+})
+export class DialogTestComponent {}

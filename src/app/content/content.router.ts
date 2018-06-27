@@ -4,7 +4,7 @@ import { VoiceComponent } from './voice/voice.component';
 import { VocabularyComponent } from './vocabulary/vocabulary.component';
 import { PonctuationComponent } from './ponctuation/ponctuation.component';
 import { FormatComponent } from './format/format.component';
-import { TypogrpahicRulesComponent } from './typogrpahic-rules/typogrpahic-rules.component';
+import { TypographicRulesComponent } from './typogrpahic-rules/typogrpahic-rules.component';
 
 export const contentRouter = [
   { path: 'content', component: ContentComponent,
@@ -14,7 +14,7 @@ export const contentRouter = [
       { path: 'vocabulary', component: VocabularyComponent },
       { path: 'ponctuation', component: PonctuationComponent },
       { path: 'format', component: FormatComponent },
-      { path: 'typographic-rules', component: TypogrpahicRulesComponent }
+      { path: 'typographic-rules', component: TypographicRulesComponent }
     ]
   },
 ] as Routes;

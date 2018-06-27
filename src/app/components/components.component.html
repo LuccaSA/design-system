@@ -106,6 +106,13 @@
     </app-nav-side-item>
   </app-nav-side-group>
 
+  <!-- Listings -->
+  <app-nav-side-group title="Users" [expanded]="expandedGroup == 'Users'" (click)="expandedGroup='Users'">
+    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="user-tile">
+      User Tile
+    </app-nav-side-item>
+  </app-nav-side-group>
+
   <!-- Overlay -->
   <app-nav-side-group title = "Overlays" [expanded]="expandedGroup == 'Overlays'" (click)="expandedGroup='Overlays'">
     <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="modals">

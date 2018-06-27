@@ -28,8 +28,6 @@ import { ActionIconsComponent } from './actions/action-icons/action-icons.compon
 import { TablesComponent } from './listings/tables/tables.component';
 import { ListsComponent } from './listings/lists/lists.component';
 import { ChipsComponent } from './listings/chips/chips.component';
-import { ModalsComponent } from './overlays/modals/modals.component';
-import { TooltipsComponent } from './overlays/tooltips/tooltips.component';
 import { ToastsComponent } from './feedback/toasts/toasts.component';
 import { CalloutsComponent } from './feedback/callouts/callouts.component';
 import { BoxesComponent } from './feedback/boxes/boxes.component';
@@ -42,12 +40,16 @@ import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { CommonsModule } from '../commons/commons.module';
 import { RouterModule } from '@angular/router';
+import { OverlaysModule } from './overlays/overlays.module';
+import { UsersModule } from './users/users.module';
 
 @NgModule({
   imports: [
     CommonModule,
     CommonsModule,
-    RouterModule
+    OverlaysModule,
+    UsersModule,
+    RouterModule,
   ],
   declarations: [
     ComponentsComponent,
@@ -78,8 +80,6 @@ import { RouterModule } from '@angular/router';
     TablesComponent,
     ListsComponent,
     ChipsComponent,
-    ModalsComponent,
-    TooltipsComponent,
     ToastsComponent,
     CalloutsComponent,
     BoxesComponent,

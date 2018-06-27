@@ -20,7 +20,7 @@
               "includePaths": [
                 "src/scss/overrides",
                 "node_modules/@lucca-front/scss/src/overrides",
-                "node_modules/@lucca-front/ng/src/style/overrides"
+                "node_modules/@lucca-front/ng/style/overrides"
               ]
             },
             "assets": [
@@ -101,8 +101,8 @@
       }
     },
     "design-system-e2e": {
-      "root": "",
-      "sourceRoot": "e2e",
+      "root": "e2e",
+      "sourceRoot": "",
       "projectType": "application",
       "architect": {
         "e2e": {

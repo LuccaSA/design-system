@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TypographicRulesComponent } from './typogrpahic-rules.component';
+import { UserTileComponent } from './user-tile.component';
 
-describe('TypogrpahicRulesComponent', () => {
-  let component: TypographicRulesComponent;
-  let fixture: ComponentFixture<TypographicRulesComponent>;
+describe('UserTileComponent', () => {
+  let component: UserTileComponent;
+  let fixture: ComponentFixture<UserTileComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TypographicRulesComponent ]
+      declarations: [ UserTileComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TypographicRulesComponent);
+    fixture = TestBed.createComponent(UserTileComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

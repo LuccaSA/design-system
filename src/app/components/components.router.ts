@@ -39,6 +39,7 @@ import { UtilitiesComponent } from './misc/utilities/utilities.component';
 import { FunctionsComponent } from './misc/functions/functions.component';
 import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './animations/animations.component';
+import { UserTileComponent } from './users/user-tile/user-tile.component';
 
 export const componentsRouter = [
   { path: 'components', component: ComponentsComponent,
@@ -77,6 +78,8 @@ export const componentsRouter = [
     { path: 'tables', component: TablesComponent, data: {menuGroup: 'Listings' }},
     { path: 'lists', component: ListsComponent, data: {menuGroup: 'Listings' }},
     { path: 'chips', component: ChipsComponent, data: {menuGroup: 'Listings' }},
+
+    { path: 'user-tile', component: UserTileComponent, data: { menuGroup: 'Users' } },
 
     { path: 'modals', component: ModalsComponent, data: {menuGroup: 'Overlays' }},
     { path: 'tooltips', component: TooltipsComponent, data: {menuGroup: 'Overlays' }},
