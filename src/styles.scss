@@ -7,3 +7,7 @@
   'scss/strong.scss',
   'scss/tipFooter.scss',
   'scss/shame.scss';
+
+:root {
+  @include generateCSSVarsFromTheme($theme);
+}

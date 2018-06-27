@@ -1,4 +1,4 @@
-@import "node_modules/@lucca-front/scss/src/theming.overridable";
+@import "~@lucca-front/scss/src/theming.overridable";
 
 :host {
   display: block;
@@ -11,12 +11,12 @@
   &:hover, &:focus, &:active {
     outline: none;
     background: _theme('commons.background.dark');
-    color: darken(_color("text.purple"), 10%);
+    color: _color("text.purple", "dark");
   }
 
   &.is-active {
     background: _theme('commons.background.dark');
-    color: darken(_color("text.purple"), 25%);
+    color: _color("text.purple", "darker");
 
     &::before {
       content: '';
