@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-side-group',
+  selector: 'ds-nav-side-group',
   templateUrl: './nav-side-group.component.html',
   styleUrls: ['./nav-side-group.component.scss']
 })
