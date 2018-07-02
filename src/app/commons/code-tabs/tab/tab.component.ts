@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'tab',
+  selector: 'ds-tab',
   templateUrl: './tab.component.html',
   styleUrls: ['./tab.component.scss']
 })

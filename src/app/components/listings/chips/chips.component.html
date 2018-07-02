@@ -10,14 +10,41 @@
 <div class="card">
   <div class="card-content">
     <h2>Basiques</h2>
-    <html-code-tabs [code]="chipBasicCode"></html-code-tabs>
+    <ds-code-tabs [code]="chipBasicCode">
+      <div class="chip">
+        Ned Stark
+        <button class="chip-kill"></button>
+      </div>
+      <div class="chip">
+        Tywin Lannister
+        <button class="chip-kill"></button>
+      </div>
+      <div class="chip">
+        Drogo
+        <button class="chip-kill"></button>
+      </div>
+      <div class="chip">
+        Joffrey Baratheon
+        <button class="chip-kill"></button>
+      </div>
+    </ds-code-tabs>
   </div>
 </div>
 
 <div class="card">
   <div class="card-content">
     <h2>Non supprimables</h2>
-    <html-code-tabs [code]="chipUnkillable"></html-code-tabs>
+    <ds-code-tabs [code]="chipUnkillable">
+      <div class="chip mod-unkillable">
+        Connor MacLeod
+      </div>
+      <div class="chip mod-unkillable">
+        Claire Bennet
+      </div>
+      <div class="chip mod-unkillable">
+        Wade Winston Wilson
+      </div>
+    </ds-code-tabs>
     <em><i class="lucca-icon">info</i> Ce mod suffit à cacher le bouton de suppression</em>
   </div>
 </div>

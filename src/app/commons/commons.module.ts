@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { HighlightModule } from 'ngx-highlightjs';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { NavSideComponent } from './nav-side/nav-side.component';
@@ -7,13 +9,14 @@ import { NavSideItemComponent } from './nav-side/nav-side-item/nav-side-item.com
 import { NavSideGroupComponent } from './nav-side/nav-side-group/nav-side-group.component';
 import { RouterModule } from '@angular/router';
 import { ToolComponent } from './tool/tool.component';
-import { HtmlCodeTabsComponent } from './html-code-tabs/html-code-tabs.component';
-import { TabComponent } from './html-code-tabs/tab/tab.component';
+import { DsCodeTabsComponent } from './code-tabs/code-tabs.component';
+import { TabComponent } from './code-tabs/tab/tab.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    HighlightModule.forRoot({theme: 'vs2015'}),
   ],
   declarations: [
     HeaderComponent,
@@ -22,7 +25,7 @@ import { TabComponent } from './html-code-tabs/tab/tab.component';
     NavSideItemComponent,
     NavSideGroupComponent,
     ToolComponent,
-    HtmlCodeTabsComponent,
+    DsCodeTabsComponent,
     TabComponent
   ],
   exports: [
@@ -32,7 +35,7 @@ import { TabComponent } from './html-code-tabs/tab/tab.component';
     NavSideItemComponent,
     NavSideGroupComponent,
     ToolComponent,
-    HtmlCodeTabsComponent,
+    DsCodeTabsComponent,
     TabComponent
   ]
 })

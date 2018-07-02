@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IUser } from '@lucca-front/ng';
+import { basicCode, basicTsCode } from './user-tile.basic.example';
 
 @Component({
   selector: 'ds-user-tile',
@@ -7,6 +8,9 @@ import { IUser } from '@lucca-front/ng';
   styleUrls: ['./user-tile.component.scss']
 })
 export class UserTileComponent implements OnInit {
+  public basicCode = basicCode;
+  public basicTsCode = basicTsCode;
+
   anais: IUser = {
     id: 12,
     firstName: 'Anaïs',

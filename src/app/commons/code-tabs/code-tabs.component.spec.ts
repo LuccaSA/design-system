@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HtmlCodeTabsComponent } from './html-code-tabs.component';
+import { DsCodeTabsComponent } from './code-tabs.component';
 
 describe('HtmlCodeTabsComponent', () => {
-  let component: HtmlCodeTabsComponent;
-  let fixture: ComponentFixture<HtmlCodeTabsComponent>;
+  let component: DsCodeTabsComponent;
+  let fixture: ComponentFixture<DsCodeTabsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HtmlCodeTabsComponent ]
+      declarations: [ DsCodeTabsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HtmlCodeTabsComponent);
+    fixture = TestBed.createComponent(DsCodeTabsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
