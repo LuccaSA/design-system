@@ -1,0 +1,9 @@
+<ul class="menu">
+  <li class="menu-link" *ngFor="let tab of tabs" (click)="selectTab(tab)" [class.is-active]="tab.active">
+    {{tab.tabTitle}}
+  </li>
+</ul>
+<tab tabTitle="Render" [active]="true">
+  <div [innerHTML]="escapedCode"></div>
+</tab>
+<tab tabTitle="Code"><code class="code mod-block">{{code}}</code></tab>

@@ -7,6 +7,8 @@ import { NavSideItemComponent } from './nav-side/nav-side-item/nav-side-item.com
 import { NavSideGroupComponent } from './nav-side/nav-side-group/nav-side-group.component';
 import { RouterModule } from '@angular/router';
 import { ToolComponent } from './tool/tool.component';
+import { HtmlCodeTabsComponent } from './html-code-tabs/html-code-tabs.component';
+import { TabComponent } from './html-code-tabs/tab/tab.component';
 
 @NgModule({
   imports: [
@@ -20,6 +22,8 @@ import { ToolComponent } from './tool/tool.component';
     NavSideItemComponent,
     NavSideGroupComponent,
     ToolComponent,
+    HtmlCodeTabsComponent,
+    TabComponent
   ],
   exports: [
     HeaderComponent,
@@ -27,7 +31,9 @@ import { ToolComponent } from './tool/tool.component';
     NavSideComponent,
     NavSideItemComponent,
     NavSideGroupComponent,
-    ToolComponent
+    ToolComponent,
+    HtmlCodeTabsComponent,
+    TabComponent
   ]
 })
 export class CommonsModule { }
