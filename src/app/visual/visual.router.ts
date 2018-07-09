@@ -4,15 +4,19 @@ import { ColorsComponent } from './colors/colors.component';
 import { IllustrateComponent } from './illustrate/illustrate.component';
 import { TypographyComponent } from './typography/typography.component';
 import { VisualComponent } from './visual.component';
+import { Page, Pages } from '../commons/page/page.model';
 
-export const visualRouter = [
-  { path: 'visual', component: VisualComponent,
-    children: [
-      { path: '', redirectTo: 'colors', pathMatch: 'full' },
-      { path: 'logos', component: LogosComponent },
-      { path: 'colors', component: ColorsComponent },
-      { path: 'typography', component: TypographyComponent },
-      { path: 'illustrate', component: IllustrateComponent }
-    ]
-  }
-] as Routes;
+const visualPage = new Page('visual', VisualComponent, 'Visuel');
+const colorsPage = new Page('colors', ColorsComponent, 'Couleurs', visualPage);
+const logosPage = new Page('logos', LogosComponent, 'Logos', visualPage);
+const typographyPage = new Page('typography', TypographyComponent, 'Typographie', visualPage);
+const illustratePage = new Page('illustrate', IllustrateComponent, 'Illustration', visualPage);
+
+
+export const visualRouter = new Pages([
+  visualPage,
+  colorsPage,
+  logosPage,
+  typographyPage,
+  illustratePage
+]).toRoutes();
