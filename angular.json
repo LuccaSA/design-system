@@ -53,6 +53,7 @@
             "deploy": {
               "outputPath": "docs",
               "extractCss": true,
+              "baseHref": "design-system"
             }
           }
         },
