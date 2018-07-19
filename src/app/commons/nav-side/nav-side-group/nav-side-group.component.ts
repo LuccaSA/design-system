@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, HostListener } from '@angular/core';
 
 @Component({
   selector: 'ds-nav-side-group',
@@ -10,8 +10,11 @@ export class NavSideGroupComponent implements OnInit {
   @Input()
   public title: string;
 
-  @Input()
-  public expanded = false;
+  public expanded: boolean;
+
+  public toggleMenu() {
+    this.expanded = !this.expanded;
+  }
 
   constructor() { }
 

@@ -40,63 +40,120 @@ import { FunctionsComponent } from './misc/functions/functions.component';
 import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { UserTileComponent } from './users/user-tile/user-tile.component';
+import { Page, Pages } from '../commons/page/page.model';
+import { NavSideComponent } from '../commons/nav-side/nav-side.component';
 
-export const componentsRouter = [
-  { path: 'components', component: ComponentsComponent,
-  children: [
-    { path: '', redirectTo: 'templates', pathMatch: 'full' },
+const structureGroup = new Page('structure', null, 'Structure');
+const structurePage = new Page('guidelines', StructureGuidelinesComponent, 'Guidelines', structureGroup);
+const templatePage = new Page('template', TemplatesComponent, 'Templates', structureGroup);
+const containerPage = new Page('container', ContainersComponent, 'Containers', structureGroup);
+const gridPage = new Page('grid', GridComponent, 'Grid', structureGroup);
+const cardPage = new Page('card', CardsComponent, 'Cards', structureGroup);
+const emptyStatePage = new Page('empty-state', EmptyStatesComponent, 'Empty states', structureGroup);
 
-    { path: 'structure-guidelines', component: StructureGuidelinesComponent, data: {menuGroup: 'Structure' }},
-    { path: 'templates', component: TemplatesComponent, data: {menuGroup: 'Structure' }},
-    { path: 'containers', component: ContainersComponent, data: {menuGroup: 'Structure' }},
-    { path: 'grids', component: GridComponent, data: {menuGroup: 'Structure' }},
-    { path: 'cards', component: CardsComponent, data: {menuGroup: 'Structure' }},
-    { path: 'empty-states', component: EmptyStatesComponent, data: {menuGroup: 'Structure' }},
+// const menuPage = new Page('menu', MenuComponent, 'Menu', componentsPage);
+// const breadcrumbPage = new Page('breadcrumb', BreadcrumbsComponent, 'Breadcrumb', menuPage);
 
-    { path: 'menu', component: MenuComponent, data: {menuGroup: 'Navigation' }},
-    { path: 'breadcrumb', component: BreadcrumbsComponent, data: {menuGroup: 'Navigation' }},
+// const textPage = new Page('text-guidelines', TextGuidelinesComponent, 'Texte', componentsPage);
+// const titlePage = new Page('title', TitlesComponent, 'Titres', textPage);
+// const basicTextPage = new Page('basic', BasicTextComponent, 'Typographie', textPage);
+// const labelPage = new Page('label', LabelsComponent, 'Labels', textPage);
 
-    { path: 'text-guidelines', component: TextGuidelinesComponent, data: {menuGroup: 'Texte' }},
-    { path: 'titles', component: TitlesComponent, data: {menuGroup: 'Texte' }},
-    { path: 'basic-text', component: BasicTextComponent, data: {menuGroup: 'Texte' }},
-    { path: 'labels', component: LabelsComponent, data: {menuGroup: 'Texte' }},
+// const formPage = new Page('form-guidelines', FormGuidelinesComponent, 'Formulaires', componentsPage);
+// const textfieldPage = new Page('textfield', TextfieldsComponent, 'Textfields', formPage);
+// const selectPage = new Page('selects', SelectComponent, 'Select', formPage);
+// const radioPage = new Page('radio', RadiosComponent, 'Radio', formPage);
+// const checkboxPage = new Page('checkbox', CheckboxesComponent, 'Checkbox', formPage);
+// const switchPage = new Page('switch', SwitchesComponent, 'Switch', formPage);
+// const filePage = new Page('file', FileComponent, 'Fichier', formPage);
+// const framedPage = new Page('framed', FramedComponent, 'Framed', formPage);
 
-    { path: 'form-guidelines', component: FormGuidelinesComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'textfields', component: TextfieldsComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'select', component: SelectComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'radios', component: RadiosComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'checkboxes', component: CheckboxesComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'switches', component: SwitchesComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'files', component: FileComponent, data: {menuGroup: 'Formulaires' }},
-    { path: 'framed', component: FramedComponent, data: {menuGroup: 'Formulaires' }},
+// const actionPage = new Page('action', ActionGuidelinesComponent, 'Actions', componentsPage);
+// const buttonPage = new Page('button', ButtonsComponent, 'Bouton', actionPage);
+// const linkPage = new Page('link', LinksComponent, 'Lien', actionPage);
+// const actionIconPage = new Page('action-icon', ActionIconsComponent, "Icones d'action", componentsPage);
 
-    { path: 'action-guidelines', component: ActionGuidelinesComponent, data: {menuGroup: 'Actions' }},
-    { path: 'buttons', component: ButtonsComponent, data: {menuGroup: 'Actions' }},
-    { path: 'links', component: LinksComponent, data: {menuGroup: 'Actions' }},
-    { path: 'action-icons', component: ActionIconsComponent, data: {menuGroup: 'Actions' }},
+// const tablePage = new Page('table', TablesComponent, 'Tableau', componentsPage);
+// const listPage = new Page('list', ListsComponent, 'Listes', tablePage);
+// const chipPage = new Page('chip', ChipsComponent, 'Chip', tablePage);
 
-    { path: 'tables', component: TablesComponent, data: {menuGroup: 'Listings' }},
-    { path: 'lists', component: ListsComponent, data: {menuGroup: 'Listings' }},
-    { path: 'chips', component: ChipsComponent, data: {menuGroup: 'Listings' }},
+const userTilePage = new Page('user', UserTileComponent, 'User');
 
-    { path: 'user-tile', component: UserTileComponent, data: { menuGroup: 'Users' } },
+// const modalPage = new Page('modal', ModalsComponent, 'Modale', componentsPage);
+// const tooltipsPage = new Page('tooltip', TooltipsComponent, 'Tooltip', modalPage);
 
-    { path: 'modals', component: ModalsComponent, data: {menuGroup: 'Overlays' }},
-    { path: 'tooltips', component: TooltipsComponent, data: {menuGroup: 'Overlays' }},
+// const toastPage = new Page('toast', ToastsComponent, 'Toast', componentsPage);
+// const calloutPage = new Page('callout', CalloutsComponent, 'Callout', toastPage);
+// const boxPage = new Page('box', BoxesComponent, 'Boite', toastPage);
 
-    { path: 'toasts', component: ToastsComponent, data: {menuGroup: 'Feedback / Information' }},
-    { path: 'callouts', component: CalloutsComponent, data: {menuGroup: 'Feedback / Information' }},
-    { path: 'boxes', component: BoxesComponent, data: {menuGroup: 'Feedback / Information' }},
+// const loadingPage = new Page('loading', LoadingsComponent, 'Chargement', componentsPage);
+// const progressPage = new Page('progress', ProgressComponent, 'Progression', loadingPage);
 
-    { path: 'loadings', component: LoadingsComponent, data: {menuGroup: 'Chargement' }},
-    { path: 'progress', component: ProgressComponent, data: {menuGroup: 'Chargement' }},
+// const iconsPage = new Page('icons', IconsComponent, 'Icones', componentsPage);
 
-    { path: 'icons', component: IconsComponent, data: {menuGroup: 'Icones' }},
+// const utilitiesPage = new Page('utilities', UtilitiesComponent, 'Utilitaires', componentsPage);
+// const functionsPage = new Page('functions', FunctionsComponent, 'Fonctions', utilitiesPage);
+// const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins', utilitiesPage);
 
-    { path: 'utilities', component: UtilitiesComponent, data: {menuGroup: 'Utilitaires' }},
-    { path: 'functions', component: FunctionsComponent, data: {menuGroup: 'Utilitaires' }},
-    { path: 'mixins', component: MixinsComponent, data: {menuGroup: 'Utilitaires' }},
+// const animationsPage = new Page('animations', AnimationsComponent, 'Animations', componentsPage);
 
-    { path: 'animations', component: AnimationsComponent, data: {menuGroup: 'Animations'} }
-  ]}
-] as Routes;
+export const componentsPages = new Pages([
+  structureGroup,
+	structurePage,
+	templatePage,
+	containerPage,
+	gridPage,
+	cardPage,
+	emptyStatePage,
+	// menuPage,
+	// breadcrumbPage,
+	// textPage,
+	// titlePage,
+	// basicTextPage,
+	// labelPage,
+	// formPage,
+	// textfieldPage,
+	// selectPage,
+	// radioPage,
+	// checkboxPage,
+	// switchPage,
+	// filePage,
+	// framedPage,
+	// actionPage,
+	// buttonPage,
+	// linkPage,
+	// actionIconPage,
+	// tablePage,
+	// listPage,
+	// chipPage,
+	userTilePage,
+	// modalPage,
+	// tooltipsPage,
+	// toastPage,
+	// calloutPage,
+	// boxPage,
+	// loadingPage,
+	// progressPage,
+	// iconsPage,
+	// utilitiesPage,
+	// functionsPage,
+	// mixinsPage,
+	// animationsPage
+]);
+
+
+export const componentsRouter: Routes = [
+  {
+    path: 'components', children: [
+      { path: '', component: NavSideComponent, data: { pages: componentsPages }, outlet: 'navSide' },
+      { path: '', redirectTo: `/components/${structurePage.fullPath}`, pathMatch: 'full' },
+      structurePage.toRoute(componentsPages.pages),
+      templatePage.toRoute(componentsPages.pages),
+      containerPage.toRoute(componentsPages.pages),
+      gridPage.toRoute(componentsPages.pages),
+      cardPage.toRoute(componentsPages.pages),
+      emptyStatePage.toRoute(componentsPages.pages),
+      userTilePage.toRoute(componentsPages.pages)
+    ]
+  }
+]

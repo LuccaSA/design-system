@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { ToolComponent } from './tool/tool.component';
 import { DsCodeTabsComponent } from './code-tabs/code-tabs.component';
 import { TabComponent } from './code-tabs/tab/tab.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { TabComponent } from './code-tabs/tab/tab.component';
     NavSideGroupComponent,
     ToolComponent,
     DsCodeTabsComponent,
-    TabComponent
+    TabComponent,
+    MainComponent
   ],
   exports: [
     HeaderComponent,

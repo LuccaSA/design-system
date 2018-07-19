@@ -14,11 +14,10 @@ export class Pages {
 		public pages: Page[],
 	) { }
 
-	public toRoutes(): Routes {
-		return this.pages.filter(page => {
-			return !page.parent || !this.pages.includes(page.parent);
-		})
-			.map(page => page.toRoute(this.pages));
+	public toNav() {
+    return this.pages.filter(page => {
+      return !page.parent || !this.pages.includes(page.parent);
+    }).map( page => page.toNav(this.pages));
 	}
 }
 export class Page implements IPage {
@@ -39,14 +38,18 @@ export class Page implements IPage {
 	) { }
 
 	public toRoute(pages: Page[]): Route {
-		const children = pages.filter( child => {
+		return { path: this.fullPath, component: this.component };
+	}
+
+	public toNav(pages: Page[]) {
+		const children = pages.filter(child => {
 			return child.parent === this;
 		});
-		const routeChildren = children.map( page => page.toRoute(pages), []);
-		if (routeChildren.length < 1) {
-			return { path: this.path, component: this.component };
+		const navChildren = children.map(page => page.toNav(pages), []);
+		if (navChildren.length < 1) {
+			return { page: this };
 		}
-		return { path: this.path, component: this.component, children: routeChildren};
+		return { page: this, children: navChildren };
 	}
 
 	public match(clue: string): boolean {

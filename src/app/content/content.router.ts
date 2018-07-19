@@ -23,4 +23,4 @@ export const contentPages: Pages = new Pages([
   typographicPage
 ]);
 
-export const contentRouter = contentPages.toRoutes();
+export const contentRouter = [];

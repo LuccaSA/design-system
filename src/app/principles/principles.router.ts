@@ -15,4 +15,4 @@ export const principlesPages: Pages = new Pages([
   accessibilityPage
 ]);
 
-export const principlesRouter = principlesPages.toRoutes();
+export const principlesRouter: Routes = [];
