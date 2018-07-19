@@ -2,8 +2,14 @@
 
 @import
   '~@lucca-front/scss/src/main.overridable.scss',
+  '~@lucca-front/ng/style/main.overridable',
+  '~@lucca-front/ng/material/style/main.overridable',
   'scss/card.scss',
   'scss/main.scss',
   'scss/strong.scss',
   'scss/tipFooter.scss',
   'scss/shame.scss';
+
+:root {
+  @include generateCSSVarsFromTheme($theme);
+}

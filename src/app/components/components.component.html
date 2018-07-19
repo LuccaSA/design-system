@@ -1,172 +1,179 @@
 <app-header></app-header>
-<app-nav-side>
+<ds-nav-side>
 
   <!-- Structure -->
-  <app-nav-side-group title = "Structure" [expanded]="expandedGroup == 'Structure'" (click)="expandedGroup='Structure'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="structure-guidelines" disabled>
+  <ds-nav-side-group title = "Structure" [expanded]="expandedGroup == 'Structure'" (click)="expandedGroup='Structure'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="structure-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="templates">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="templates">
       Templates
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="containers">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="containers">
       Containers
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="grids">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="grids">
       Grids
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="cards">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="cards">
       Cards
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="empty-states">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="empty-states">
       Empty States
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Navigation -->
-  <app-nav-side-group title = "Navigation" [expanded]="expandedGroup == 'Navigation'" (click)="expandedGroup='Navigation'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="menu">
+  <ds-nav-side-group title = "Navigation" [expanded]="expandedGroup == 'Navigation'" (click)="expandedGroup='Navigation'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="menu">
       Menu
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="breadcrumb">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="breadcrumb">
       Breadcrumb
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Text -->
-  <app-nav-side-group title = "Texte" [expanded]="expandedGroup == 'Texte'" (click)="expandedGroup='Texte'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="text-guidelines" disabled>
+  <ds-nav-side-group title = "Texte" [expanded]="expandedGroup == 'Texte'" (click)="expandedGroup='Texte'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="text-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="titles">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="titles">
       Titres
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="basic-text" disabled>
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="basic-text" disabled>
       Texte basique <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="labels">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="labels">
       Labels
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Forms -->
-  <app-nav-side-group title = "Formulaires" [expanded]="expandedGroup == 'Formulaires'" (click)="expandedGroup='Formulaires'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="form-guidelines" disabled>
+  <ds-nav-side-group title = "Formulaires" [expanded]="expandedGroup == 'Formulaires'" (click)="expandedGroup='Formulaires'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="form-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="textfields">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="textfields">
       Textfields
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="select" disabled>
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="select" disabled>
       Selects <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="radios">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="radios">
       Radios
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="checkboxes">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="checkboxes">
       Checkboxes
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="switches">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="switches">
       Switches
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="files">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="files">
       Files
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="framed">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="framed">
       Framed
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Actions -->
-  <app-nav-side-group title = "Actions" [expanded]="expandedGroup == 'Actions'" (click)="expandedGroup='Actions'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="action-guidelines" disabled>
+  <ds-nav-side-group title = "Actions" [expanded]="expandedGroup == 'Actions'" (click)="expandedGroup='Actions'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="action-guidelines" disabled>
       Guidelines <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="buttons" routerKey="buttons" [anchors]="['code','theming']">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="buttons" routerKey="buttons" [anchors]="['code','theming']">
       Boutons
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="links" disabled>
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="links" disabled>
       Liens <label class="label palette-primary">To do ⛏️</label>
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="action-icons">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="action-icons">
       Actions Icons
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Listings -->
-  <app-nav-side-group title = "Listings" [expanded]="expandedGroup == 'Listings'" (click)="expandedGroup='Listings'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="tables">
+  <ds-nav-side-group title = "Listings" [expanded]="expandedGroup == 'Listings'" (click)="expandedGroup='Listings'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="tables">
       Tables
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="lists">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="lists">
       Lists
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="chips">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="chips">
       Chips
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
+
+  <!-- Listings -->
+  <ds-nav-side-group title="Users" [expanded]="expandedGroup == 'Users'" (click)="expandedGroup='Users'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="user-tile">
+      User Tile
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Overlay -->
-  <app-nav-side-group title = "Overlays" [expanded]="expandedGroup == 'Overlays'" (click)="expandedGroup='Overlays'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="modals">
+  <ds-nav-side-group title = "Overlays" [expanded]="expandedGroup == 'Overlays'" (click)="expandedGroup='Overlays'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="modals">
       Modals
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="tooltips">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="tooltips">
       Tooltips
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Feedback / Information -->
-  <app-nav-side-group title = "Feedback / Information" [expanded]="expandedGroup == 'Feedback / Information'" (click)="expandedGroup='Feedback / Information'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="toasts">
+  <ds-nav-side-group title = "Feedback / Information" [expanded]="expandedGroup == 'Feedback / Information'" (click)="expandedGroup='Feedback / Information'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="toasts">
       Toasts
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="callouts">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="callouts">
       Callouts
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="boxes">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="boxes">
       Boxes
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Loaders -->
-  <app-nav-side-group title = "Chargement" [expanded]="expandedGroup == 'Chargement'" (click)="expandedGroup='Chargement'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="loadings">
+  <ds-nav-side-group title = "Chargement" [expanded]="expandedGroup == 'Chargement'" (click)="expandedGroup='Chargement'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="loadings">
       Loadings
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="progress">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="progress">
       Progress
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Icons -->
-  <app-nav-side-group title = "Icones" [expanded]="expandedGroup == 'Icones'" (click)="expandedGroup='Icones'" routerLink="icons">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="icons">
+  <ds-nav-side-group title = "Icones" [expanded]="expandedGroup == 'Icones'" (click)="expandedGroup='Icones'" routerLink="icons">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="icons">
       Icones
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Utilities -->
-  <app-nav-side-group title = "Utilitaires" [expanded]="expandedGroup == 'Utilitaires'" (click)="expandedGroup='Utilitaires'">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="utilities">
+  <ds-nav-side-group title = "Utilitaires" [expanded]="expandedGroup == 'Utilitaires'" (click)="expandedGroup='Utilitaires'">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="utilities">
       Utilitaires
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="functions">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="functions">
       Fonctions
-    </app-nav-side-item>
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="mixins">
+    </ds-nav-side-item>
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="mixins">
       Mixins
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
   <!-- Animations -->
-  <app-nav-side-group title = "Animations" [expanded]="expandedGroup == 'Animations'" (click)="expandedGroup='Animations'" routerLink="animations">
-    <app-nav-side-item [routerLinkActive]="['is-active']" routerLink="animations">
+  <ds-nav-side-group title = "Animations" [expanded]="expandedGroup == 'Animations'" (click)="expandedGroup='Animations'" routerLink="animations">
+    <ds-nav-side-item [routerLinkActive]="['is-active']" routerLink="animations">
       Animations
-    </app-nav-side-item>
-  </app-nav-side-group>
+    </ds-nav-side-item>
+  </ds-nav-side-group>
 
-</app-nav-side>
+</ds-nav-side>
 <div class="main-content">
   <router-outlet></router-outlet>
 </div>

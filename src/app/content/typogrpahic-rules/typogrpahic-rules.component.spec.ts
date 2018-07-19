@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TypogrpahicRulesComponent } from './typogrpahic-rules.component';
+import { TypographicRulesComponent } from './typogrpahic-rules.component';
 
 describe('TypogrpahicRulesComponent', () => {
-  let component: TypogrpahicRulesComponent;
-  let fixture: ComponentFixture<TypogrpahicRulesComponent>;
+  let component: TypographicRulesComponent;
+  let fixture: ComponentFixture<TypographicRulesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TypogrpahicRulesComponent ]
+      declarations: [ TypographicRulesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TypogrpahicRulesComponent);
+    fixture = TestBed.createComponent(TypographicRulesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

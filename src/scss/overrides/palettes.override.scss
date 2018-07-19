@@ -1,41 +1,32 @@
 $palettes: (
-	"primary": (
-		"color": #FFCC00,
-		"text": #666666,
-	),
-	"secondary": (
-		"color": #FF6600,
-		"text": #FFFFFF,
-	),
 	"scss": (
 		"color": #e696be,
-		"text": #FFFFFF,
+    "text": #FFFFFF,
+		"transparent": rgba(#e696be, .1),
+		"dark": darken(#e696be, 5%),
+		"darker": darken(#e696be, 20%),
+		"light": lighten(#e696be, 5%),
+		"lighter": lighten(#e696be, 20%)
 	),
 	"ng": (
 		"color": #42A5F5,
 		"text": #FFFFFF,
+		"transparent": rgba(#42A5F5, .1),
+		"dark": darken(#42A5F5, 5%),
+		"darker": darken(#42A5F5, 20%),
+		"light": lighten(#42A5F5, 5%),
+		"lighter": lighten(#42A5F5, 20%)
 	),
-	"success": (
-		"color": #9ACD32,
-		"text": #FFFFFF,
-	),
-	"warning": (
-		"color": #FF9900,
-		"text": #FFFFFF,
-	),
-	"error": (
-		"color": #FF3300,
-		"text": #FFFFFF,
-	),
+
 );
 
 $colors: (
 	text: (
-		"dark": #444444,
-		"default": #666666,
-		"light": #999999,
-		"placeholder": #CCCCCC,
-		"purple": #8b89ca
+		"purple": (
+      "color": #8b89ca,
+      "dark": darken(#8b89ca, 5%),
+      "darker": darken(#8b89ca, 20%)
+    )
 	),
 );
 $theme: _set($theme, "palettes", $palettes);
