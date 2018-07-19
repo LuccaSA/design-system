@@ -54,7 +54,7 @@
               "outputPath": "docs",
               "extractCss": true,
               "baseHref": "/design-system",
-              "deployUrl": "/design-system"
+              "deployUrl": "/design-system/"
             }
           }
         },
