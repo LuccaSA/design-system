@@ -49,6 +49,10 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ]
+            },
+            "deploy": {
+              "outputPath": "docs",
+              "extractCss": true,
             }
           }
         },
