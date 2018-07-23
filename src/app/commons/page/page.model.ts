@@ -1,4 +1,5 @@
 import { Routes, Route } from "@angular/router";
+import { NavSideComponent } from "../nav-side/nav-side.component";
 
 export interface IPage {
 	title: string;
@@ -11,13 +12,27 @@ export interface IPage {
 }
 export class Pages {
 	constructor(
+		public path: string,
 		public pages: Page[],
-	) { }
+		public defaultPage: Page
+	) {}
 
 	public toNav() {
-    return this.pages.filter(page => {
-      return !page.parent || !this.pages.includes(page.parent);
-    }).map( page => page.toNav(this.pages));
+		return this.pages.filter(page => {
+			return !page.parent || !this.pages.includes(page.parent);
+		}).map( page => page.toNav(this.pages));
+	}
+
+	public toRoutes(): Routes {
+		const routes = this.pages.filter( page => page.component).map(page => page.toRoute(this.pages));
+
+		return [
+			{ path: this.path, children: [
+				{ path: '', component: NavSideComponent, data: {pages: this}, outlet: 'navSide'},
+				{ path: '', redirectTo: `/${this.path}/${this.defaultPage.fullPath}`, pathMatch: 'full' },
+				...routes
+			]}
+		];
 	}
 }
 export class Page implements IPage {

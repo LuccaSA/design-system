@@ -11,20 +11,21 @@ const logosPage = new Page('logos', LogosComponent, 'Logos');
 const typographyPage = new Page('typography', TypographyComponent, 'Typographie');
 const illustratePage = new Page('illustrate', IllustrateComponent, 'Illustration');
 
-export const visualPages = new Pages([
+export const visualPages = new Pages('visual', [
 	colorsPage,
 	logosPage,
 	typographyPage,
 	illustratePage
-]);
+], colorsPage);
 
-export const visualRouter: Routes = [
-  { path: 'visual', children: [
-    { path: '', component: NavSideComponent, data: { pages: visualPages }, outlet: 'navSide'},
-    { path: '', redirectTo: `/visual/${colorsPage.fullPath}`, pathMatch: 'full' },
-    colorsPage.toRoute(visualPages.pages),
-    logosPage.toRoute(visualPages.pages),
-    typographyPage.toRoute(visualPages.pages),
-    illustratePage.toRoute(visualPages.pages)
-  ]}
-]
+// export const visualRouter: Routes = [
+//   { path: 'visual', children: [
+//     { path: '', component: NavSideComponent, data: { pages: visualPages }, outlet: 'navSide'},
+//     { path: '', redirectTo: `/visual/${colorsPage.fullPath}`, pathMatch: 'full' },
+//     colorsPage.toRoute(visualPages.pages),
+//     logosPage.toRoute(visualPages.pages),
+//     typographyPage.toRoute(visualPages.pages),
+//     illustratePage.toRoute(visualPages.pages)
+//   ]}
+// ]
+export const visualRouter: Routes = visualPages.toRoutes();

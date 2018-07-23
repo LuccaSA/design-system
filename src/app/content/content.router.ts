@@ -14,13 +14,13 @@ const ponctuationPage = new Page('ponctuation', PonctuationComponent, 'Ponctuati
 const formatPage = new Page('format', FormatComponent, 'Formats', contentPage);
 const typographicPage = new Page('typographic-rules', TypographicRulesComponent, 'Règles typographiques', contentPage);
 
-export const contentPages: Pages = new Pages([
+export const contentPages: Pages = new Pages('content', [
   ponctuationPage,
   contentPage,
   voicePage,
   vocabularyPage,
   formatPage,
   typographicPage
-]);
+], contentPage);
 
 export const contentRouter = [];

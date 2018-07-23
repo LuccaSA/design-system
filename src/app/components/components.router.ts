@@ -51,109 +51,160 @@ const gridPage = new Page('grid', GridComponent, 'Grid', structureGroup);
 const cardPage = new Page('card', CardsComponent, 'Cards', structureGroup);
 const emptyStatePage = new Page('empty-state', EmptyStatesComponent, 'Empty states', structureGroup);
 
-// const menuPage = new Page('menu', MenuComponent, 'Menu', componentsPage);
-// const breadcrumbPage = new Page('breadcrumb', BreadcrumbsComponent, 'Breadcrumb', menuPage);
+const navigationGroup = new Page('navigation', null, 'Navigation');
+const menuPage = new Page('menu', MenuComponent, 'Menu', navigationGroup);
+const breadcrumbPage = new Page('breadcrumb', BreadcrumbsComponent, 'Breadcrumb', navigationGroup);
 
-// const textPage = new Page('text-guidelines', TextGuidelinesComponent, 'Texte', componentsPage);
-// const titlePage = new Page('title', TitlesComponent, 'Titres', textPage);
-// const basicTextPage = new Page('basic', BasicTextComponent, 'Typographie', textPage);
-// const labelPage = new Page('label', LabelsComponent, 'Labels', textPage);
+const textGroup = new Page('text', null, 'Texte');
+const textPage = new Page('guidelines', TextGuidelinesComponent, 'Guidelines', textGroup);
+const titlePage = new Page('title', TitlesComponent, 'Titres', textGroup);
+const basicTextPage = new Page('basic', BasicTextComponent, 'Typographie', textGroup);
+const labelPage = new Page('label', LabelsComponent, 'Labels', textGroup);
 
-// const formPage = new Page('form-guidelines', FormGuidelinesComponent, 'Formulaires', componentsPage);
-// const textfieldPage = new Page('textfield', TextfieldsComponent, 'Textfields', formPage);
-// const selectPage = new Page('selects', SelectComponent, 'Select', formPage);
-// const radioPage = new Page('radio', RadiosComponent, 'Radio', formPage);
-// const checkboxPage = new Page('checkbox', CheckboxesComponent, 'Checkbox', formPage);
-// const switchPage = new Page('switch', SwitchesComponent, 'Switch', formPage);
-// const filePage = new Page('file', FileComponent, 'Fichier', formPage);
-// const framedPage = new Page('framed', FramedComponent, 'Framed', formPage);
+const formGroup = new Page('form', null, 'Formulaires');
+const formPage = new Page('form-guidelines', FormGuidelinesComponent, 'Formulaires', formGroup);
+const textfieldPage = new Page('textfield', TextfieldsComponent, 'Textfields', formGroup);
+const selectPage = new Page('selects', SelectComponent, 'Select', formGroup);
+const radioPage = new Page('radio', RadiosComponent, 'Radio', formGroup);
+const checkboxPage = new Page('checkbox', CheckboxesComponent, 'Checkbox', formGroup);
+const switchPage = new Page('switch', SwitchesComponent, 'Switch', formGroup);
+const filePage = new Page('file', FileComponent, 'Fichier', formGroup);
+const framedPage = new Page('framed', FramedComponent, 'Framed', formGroup);
 
-// const actionPage = new Page('action', ActionGuidelinesComponent, 'Actions', componentsPage);
-// const buttonPage = new Page('button', ButtonsComponent, 'Bouton', actionPage);
-// const linkPage = new Page('link', LinksComponent, 'Lien', actionPage);
-// const actionIconPage = new Page('action-icon', ActionIconsComponent, "Icones d'action", componentsPage);
+const actionGroup = new Page('action', null, 'Actions');
+const actionPage = new Page('action', ActionGuidelinesComponent, 'Guidelines', actionGroup);
+const buttonPage = new Page('button', ButtonsComponent, 'Bouton', actionGroup);
+const linkPage = new Page('link', LinksComponent, 'Lien', actionGroup);
+const actionIconPage = new Page('action-icon', ActionIconsComponent, "Icones d'action", actionGroup);
 
-// const tablePage = new Page('table', TablesComponent, 'Tableau', componentsPage);
-// const listPage = new Page('list', ListsComponent, 'Listes', tablePage);
-// const chipPage = new Page('chip', ChipsComponent, 'Chip', tablePage);
+const listingGroup = new Page('listing', null, 'Listings');
+const tablePage = new Page('table', TablesComponent, 'Tableau', listingGroup);
+const listPage = new Page('list', ListsComponent, 'Listes', listingGroup);
+const chipPage = new Page('chip', ChipsComponent, 'Chip', listingGroup);
 
 const userTilePage = new Page('user', UserTileComponent, 'User');
 
-// const modalPage = new Page('modal', ModalsComponent, 'Modale', componentsPage);
-// const tooltipsPage = new Page('tooltip', TooltipsComponent, 'Tooltip', modalPage);
+const overlayGroup = new Page('overlay', null, 'Overlay');
+const modalPage = new Page('modal', ModalsComponent, 'Modale', overlayGroup);
+const tooltipsPage = new Page('tooltip', TooltipsComponent, 'Tooltip', overlayGroup);
 
-// const toastPage = new Page('toast', ToastsComponent, 'Toast', componentsPage);
-// const calloutPage = new Page('callout', CalloutsComponent, 'Callout', toastPage);
-// const boxPage = new Page('box', BoxesComponent, 'Boite', toastPage);
+const feedbackGroup = new Page('feedback', null, 'Feedback');
+const toastPage = new Page('toast', ToastsComponent, 'Toast', feedbackGroup);
+const calloutPage = new Page('callout', CalloutsComponent, 'Callout', feedbackGroup);
+const boxPage = new Page('box', BoxesComponent, 'Boite', feedbackGroup);
 
-// const loadingPage = new Page('loading', LoadingsComponent, 'Chargement', componentsPage);
-// const progressPage = new Page('progress', ProgressComponent, 'Progression', loadingPage);
+const loadingGroup = new Page('loading', null, 'Chargement')
+const loadingPage = new Page('loader', LoadingsComponent, 'Loader', loadingGroup);
+const progressPage = new Page('progress', ProgressComponent, 'Progression', loadingGroup);
 
-// const iconsPage = new Page('icons', IconsComponent, 'Icones', componentsPage);
+const iconsPage = new Page('icons', IconsComponent, 'Icones');
 
-// const utilitiesPage = new Page('utilities', UtilitiesComponent, 'Utilitaires', componentsPage);
-// const functionsPage = new Page('functions', FunctionsComponent, 'Fonctions', utilitiesPage);
-// const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins', utilitiesPage);
+const utilitiesGroup = new Page('utilities', null, 'Utilitaires');
+const utilitiesPage = new Page('classes', UtilitiesComponent, 'Classes CSS', utilitiesGroup);
+const functionsPage = new Page('functions', FunctionsComponent, 'Fonctions SCSS', utilitiesGroup);
+const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins SCSS', utilitiesGroup);
 
-// const animationsPage = new Page('animations', AnimationsComponent, 'Animations', componentsPage);
+const animationsPage = new Page('animations', AnimationsComponent, 'Animations');
 
-export const componentsPages = new Pages([
-  structureGroup,
+export const componentsPages = new Pages('components', [
+	structureGroup,
 	structurePage,
 	templatePage,
 	containerPage,
 	gridPage,
 	cardPage,
 	emptyStatePage,
-	// menuPage,
-	// breadcrumbPage,
-	// textPage,
-	// titlePage,
-	// basicTextPage,
-	// labelPage,
-	// formPage,
-	// textfieldPage,
-	// selectPage,
-	// radioPage,
-	// checkboxPage,
-	// switchPage,
-	// filePage,
-	// framedPage,
-	// actionPage,
-	// buttonPage,
-	// linkPage,
-	// actionIconPage,
-	// tablePage,
-	// listPage,
-	// chipPage,
+	menuPage,
+	breadcrumbPage,
+	textPage,
+	titlePage,
+	basicTextPage,
+	labelPage,
+	formPage,
+	textfieldPage,
+	selectPage,
+	radioPage,
+	checkboxPage,
+	switchPage,
+	filePage,
+	framedPage,
+	actionPage,
+	buttonPage,
+	linkPage,
+	actionIconPage,
+	tablePage,
+	listPage,
+	chipPage,
 	userTilePage,
-	// modalPage,
-	// tooltipsPage,
-	// toastPage,
-	// calloutPage,
-	// boxPage,
-	// loadingPage,
-	// progressPage,
-	// iconsPage,
-	// utilitiesPage,
-	// functionsPage,
-	// mixinsPage,
-	// animationsPage
-]);
+	modalPage,
+	tooltipsPage,
+	toastPage,
+	calloutPage,
+	boxPage,
+	loadingPage,
+	progressPage,
+	iconsPage,
+	utilitiesPage,
+	functionsPage,
+	mixinsPage,
+	animationsPage,
+	actionGroup,
+	feedbackGroup,
+	formGroup,
+	listingGroup,
+	loadingGroup,
+	navigationGroup,
+	overlayGroup,
+	textGroup,
+	utilitiesGroup
+], structurePage);
 
 
 export const componentsRouter: Routes = [
-  {
-    path: 'components', children: [
-      { path: '', component: NavSideComponent, data: { pages: componentsPages }, outlet: 'navSide' },
-      { path: '', redirectTo: `/components/${structurePage.fullPath}`, pathMatch: 'full' },
+	{
+		path: 'components', children: [
+			{ path: '', component: NavSideComponent, data: { pages: componentsPages }, outlet: 'navSide' },
+			{ path: '', redirectTo: `/components/${structurePage.fullPath}`, pathMatch: 'full' },
       structurePage.toRoute(componentsPages.pages),
       templatePage.toRoute(componentsPages.pages),
       containerPage.toRoute(componentsPages.pages),
       gridPage.toRoute(componentsPages.pages),
       cardPage.toRoute(componentsPages.pages),
       emptyStatePage.toRoute(componentsPages.pages),
-      userTilePage.toRoute(componentsPages.pages)
-    ]
-  }
+      menuPage.toRoute(componentsPages.pages),
+      breadcrumbPage.toRoute(componentsPages.pages),
+      textPage.toRoute(componentsPages.pages),
+      titlePage.toRoute(componentsPages.pages),
+      basicTextPage.toRoute(componentsPages.pages),
+      labelPage.toRoute(componentsPages.pages),
+      formPage.toRoute(componentsPages.pages),
+      textfieldPage.toRoute(componentsPages.pages),
+      selectPage.toRoute(componentsPages.pages),
+      radioPage.toRoute(componentsPages.pages),
+      checkboxPage.toRoute(componentsPages.pages),
+      switchPage.toRoute(componentsPages.pages),
+      filePage.toRoute(componentsPages.pages),
+      framedPage.toRoute(componentsPages.pages),
+      actionPage.toRoute(componentsPages.pages),
+      buttonPage.toRoute(componentsPages.pages),
+      linkPage.toRoute(componentsPages.pages),
+      actionIconPage.toRoute(componentsPages.pages),
+      tablePage.toRoute(componentsPages.pages),
+      listPage.toRoute(componentsPages.pages),
+      chipPage.toRoute(componentsPages.pages),
+      userTilePage.toRoute(componentsPages.pages),
+      modalPage.toRoute(componentsPages.pages),
+      tooltipsPage.toRoute(componentsPages.pages),
+      toastPage.toRoute(componentsPages.pages),
+      calloutPage.toRoute(componentsPages.pages),
+      boxPage.toRoute(componentsPages.pages),
+      loadingPage.toRoute(componentsPages.pages),
+      progressPage.toRoute(componentsPages.pages),
+      iconsPage.toRoute(componentsPages.pages),
+      utilitiesPage.toRoute(componentsPages.pages),
+      functionsPage.toRoute(componentsPages.pages),
+      mixinsPage.toRoute(componentsPages.pages),
+      animationsPage.toRoute(componentsPages.pages)
+		]
+	}
 ]
