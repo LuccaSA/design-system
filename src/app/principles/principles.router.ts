@@ -5,14 +5,12 @@ import { VisionComponent } from './vision/vision.component';
 import { AccessibilityComponent } from './accessibility/accessibility.component';
 import { Page, Pages } from '../commons/page/page.model';
 
-const principlesPage = new Page('principles', PrinciplesComponent, 'Principes');
-const visionPage = new Page('vision', VisionComponent, 'Vision', principlesPage);
-const accessibilityPage = new Page('accessibility', AccessibilityComponent, 'Accessibilité', principlesPage);
+const visionPage = new Page('vision', VisionComponent, 'Vision');
+const accessibilityPage = new Page('accessibility', AccessibilityComponent, 'Accessibilité');
 
 export const principlesPages: Pages = new Pages('principles', [
-	principlesPage,
 	visionPage,
 	accessibilityPage
-], principlesPage);
+], visionPage);
 
-export const principlesRouter: Routes = [];
+// export const principlesRouter: Routes = [];

@@ -1,18 +1,26 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { visualRouter } from './visual';
-import { principlesRouter } from './principles';
-import { contentRouter } from './content';
-import { componentsRouter } from './components';
+import { visualPages } from './visual';
+import { principlesPages } from './principles';
+import { contentPages } from './content';
+import { componentsPages } from './components';
 import { MainComponent } from './commons/main/main.component';
+import { Page } from './commons/page/page.model';
 
+const router = [
+	...visualPages.toRoutes(),
+	...componentsPages.toRoutes(),
+	...principlesPages.toRoutes(),
+	...contentPages.toRoutes()
+];
+export const searchabelIndex: Page[] = [
+	...visualPages.pages,
+	...componentsPages.pages,
+	...principlesPages.pages,
+	...contentPages.pages
+];
 export const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: '', component: MainComponent, children: [
-    // ...principlesRouter,
-    // ...contentRouter,
-    ...visualRouter,
-    ...componentsRouter
-  ]},
-  { path: '**', component: HomeComponent }
+	{ path: '', component: HomeComponent },
+	{ path: '', component: MainComponent, children: router},
+	{ path: '**', component: HomeComponent }
 ] as Routes;

@@ -10,7 +10,7 @@ import { Pages } from '../page/page.model';
 export class NavSideComponent implements OnInit {
 	public pages: Pages;
 	constructor(route: ActivatedRoute) {
-    this.pages = route.snapshot.data['pages'].toNav();
+		this.pages = route.snapshot.data['pages'].toNav();
 	}
 
 	ngOnInit() {

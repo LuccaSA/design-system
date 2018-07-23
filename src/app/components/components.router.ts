@@ -114,12 +114,18 @@ export const componentsPages = new Pages('components', [
 	gridPage,
 	cardPage,
 	emptyStatePage,
+
+	navigationGroup,
 	menuPage,
 	breadcrumbPage,
+
+	textGroup,
 	textPage,
 	titlePage,
 	basicTextPage,
 	labelPage,
+
+	formGroup,
 	formPage,
 	textfieldPage,
 	selectPage,
@@ -128,83 +134,88 @@ export const componentsPages = new Pages('components', [
 	switchPage,
 	filePage,
 	framedPage,
+
+	actionGroup,
 	actionPage,
 	buttonPage,
 	linkPage,
 	actionIconPage,
+
+	listingGroup,
 	tablePage,
 	listPage,
 	chipPage,
+
 	userTilePage,
+
+	overlayGroup,
 	modalPage,
 	tooltipsPage,
+
+	feedbackGroup,
 	toastPage,
 	calloutPage,
 	boxPage,
+
+	loadingGroup,
 	loadingPage,
 	progressPage,
+
 	iconsPage,
+
+	utilitiesGroup,
 	utilitiesPage,
 	functionsPage,
 	mixinsPage,
-	animationsPage,
-	actionGroup,
-	feedbackGroup,
-	formGroup,
-	listingGroup,
-	loadingGroup,
-	navigationGroup,
-	overlayGroup,
-	textGroup,
-	utilitiesGroup
+
+	animationsPage
 ], structurePage);
 
-
-export const componentsRouter: Routes = [
-	{
-		path: 'components', children: [
-			{ path: '', component: NavSideComponent, data: { pages: componentsPages }, outlet: 'navSide' },
-			{ path: '', redirectTo: `/components/${structurePage.fullPath}`, pathMatch: 'full' },
-      structurePage.toRoute(componentsPages.pages),
-      templatePage.toRoute(componentsPages.pages),
-      containerPage.toRoute(componentsPages.pages),
-      gridPage.toRoute(componentsPages.pages),
-      cardPage.toRoute(componentsPages.pages),
-      emptyStatePage.toRoute(componentsPages.pages),
-      menuPage.toRoute(componentsPages.pages),
-      breadcrumbPage.toRoute(componentsPages.pages),
-      textPage.toRoute(componentsPages.pages),
-      titlePage.toRoute(componentsPages.pages),
-      basicTextPage.toRoute(componentsPages.pages),
-      labelPage.toRoute(componentsPages.pages),
-      formPage.toRoute(componentsPages.pages),
-      textfieldPage.toRoute(componentsPages.pages),
-      selectPage.toRoute(componentsPages.pages),
-      radioPage.toRoute(componentsPages.pages),
-      checkboxPage.toRoute(componentsPages.pages),
-      switchPage.toRoute(componentsPages.pages),
-      filePage.toRoute(componentsPages.pages),
-      framedPage.toRoute(componentsPages.pages),
-      actionPage.toRoute(componentsPages.pages),
-      buttonPage.toRoute(componentsPages.pages),
-      linkPage.toRoute(componentsPages.pages),
-      actionIconPage.toRoute(componentsPages.pages),
-      tablePage.toRoute(componentsPages.pages),
-      listPage.toRoute(componentsPages.pages),
-      chipPage.toRoute(componentsPages.pages),
-      userTilePage.toRoute(componentsPages.pages),
-      modalPage.toRoute(componentsPages.pages),
-      tooltipsPage.toRoute(componentsPages.pages),
-      toastPage.toRoute(componentsPages.pages),
-      calloutPage.toRoute(componentsPages.pages),
-      boxPage.toRoute(componentsPages.pages),
-      loadingPage.toRoute(componentsPages.pages),
-      progressPage.toRoute(componentsPages.pages),
-      iconsPage.toRoute(componentsPages.pages),
-      utilitiesPage.toRoute(componentsPages.pages),
-      functionsPage.toRoute(componentsPages.pages),
-      mixinsPage.toRoute(componentsPages.pages),
-      animationsPage.toRoute(componentsPages.pages)
-		]
-	}
-]
+// export const componentsRouter: Routes = [
+// 	{
+// 		path: 'components', children: [
+// 			{ path: '', component: NavSideComponent, data: { pages: componentsPages }, outlet: 'navSide' },
+// 			{ path: '', redirectTo: `/components/${structurePage.fullPath}`, pathMatch: 'full' },
+//       structurePage.toRoute(componentsPages.pages),
+//       templatePage.toRoute(componentsPages.pages),
+//       containerPage.toRoute(componentsPages.pages),
+//       gridPage.toRoute(componentsPages.pages),
+//       cardPage.toRoute(componentsPages.pages),
+//       emptyStatePage.toRoute(componentsPages.pages),
+//       menuPage.toRoute(componentsPages.pages),
+//       breadcrumbPage.toRoute(componentsPages.pages),
+//       textPage.toRoute(componentsPages.pages),
+//       titlePage.toRoute(componentsPages.pages),
+//       basicTextPage.toRoute(componentsPages.pages),
+//       labelPage.toRoute(componentsPages.pages),
+//       formPage.toRoute(componentsPages.pages),
+//       textfieldPage.toRoute(componentsPages.pages),
+//       selectPage.toRoute(componentsPages.pages),
+//       radioPage.toRoute(componentsPages.pages),
+//       checkboxPage.toRoute(componentsPages.pages),
+//       switchPage.toRoute(componentsPages.pages),
+//       filePage.toRoute(componentsPages.pages),
+//       framedPage.toRoute(componentsPages.pages),
+//       actionPage.toRoute(componentsPages.pages),
+//       buttonPage.toRoute(componentsPages.pages),
+//       linkPage.toRoute(componentsPages.pages),
+//       actionIconPage.toRoute(componentsPages.pages),
+//       tablePage.toRoute(componentsPages.pages),
+//       listPage.toRoute(componentsPages.pages),
+//       chipPage.toRoute(componentsPages.pages),
+//       userTilePage.toRoute(componentsPages.pages),
+//       modalPage.toRoute(componentsPages.pages),
+//       tooltipsPage.toRoute(componentsPages.pages),
+//       toastPage.toRoute(componentsPages.pages),
+//       calloutPage.toRoute(componentsPages.pages),
+//       boxPage.toRoute(componentsPages.pages),
+//       loadingPage.toRoute(componentsPages.pages),
+//       progressPage.toRoute(componentsPages.pages),
+//       iconsPage.toRoute(componentsPages.pages),
+//       utilitiesPage.toRoute(componentsPages.pages),
+//       functionsPage.toRoute(componentsPages.pages),
+//       mixinsPage.toRoute(componentsPages.pages),
+//       animationsPage.toRoute(componentsPages.pages)
+// 		]
+// 	}
+// ]

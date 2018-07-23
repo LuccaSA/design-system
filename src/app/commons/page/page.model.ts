@@ -24,7 +24,7 @@ export class Pages {
 	}
 
 	public toRoutes(): Routes {
-		const routes = this.pages.filter( page => page.component).map(page => page.toRoute(this.pages));
+		const routes = this.pages.filter( page => page.component).map(page => page.toRoute(this.pages), []);
 
 		return [
 			{ path: this.path, children: [

@@ -7,20 +7,18 @@ import { FormatComponent } from './format/format.component';
 import { TypographicRulesComponent } from './typogrpahic-rules/typogrpahic-rules.component';
 import { Page, Pages } from '../commons/page/page.model';
 
-const contentPage = new Page('content', ContentComponent, 'Content');
-const voicePage = new Page('voice', VoiceComponent, 'Voix et ton', contentPage);
-const vocabularyPage = new Page('vocabulary', VocabularyComponent, 'Vocabulaire', contentPage);
-const ponctuationPage = new Page('ponctuation', PonctuationComponent, 'Ponctuation', contentPage);
-const formatPage = new Page('format', FormatComponent, 'Formats', contentPage);
-const typographicPage = new Page('typographic-rules', TypographicRulesComponent, 'Règles typographiques', contentPage);
+const voicePage = new Page('voice', VoiceComponent, 'Voix et ton');
+const vocabularyPage = new Page('vocabulary', VocabularyComponent, 'Vocabulaire');
+const ponctuationPage = new Page('ponctuation', PonctuationComponent, 'Ponctuation');
+const formatPage = new Page('format', FormatComponent, 'Formats');
+const typographicPage = new Page('typographic-rules', TypographicRulesComponent, 'Règles typographiques');
 
 export const contentPages: Pages = new Pages('content', [
-  ponctuationPage,
-  contentPage,
   voicePage,
+  ponctuationPage,
   vocabularyPage,
   formatPage,
   typographicPage
-], contentPage);
+], voicePage);
 
-export const contentRouter = [];
+// export const contentRouter = [];
