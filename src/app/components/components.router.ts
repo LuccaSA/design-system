@@ -1,5 +1,3 @@
-import { Routes } from '@angular/router';
-import { ComponentsComponent } from './components.component';
 import { StructureGuidelinesComponent } from './layout/structure-guidelines/structure-guidelines.component';
 import { TemplatesComponent } from './layout/templates/templates.component';
 import { ContainersComponent } from './layout/containers/containers.component';

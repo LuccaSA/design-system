@@ -39,6 +39,17 @@ import { MainComponent } from './main/main.component';
     ToolComponent,
     DsCodeTabsComponent,
     TabComponent
-  ]
+	],
+	entryComponents: [
+		HeaderComponent,
+		NavComponent,
+		NavSideComponent,
+		NavSideItemComponent,
+		NavSideGroupComponent,
+		ToolComponent,
+		DsCodeTabsComponent,
+		TabComponent,
+		MainComponent
+	]
 })
 export class CommonsModule { }

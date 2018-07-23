@@ -1,6 +1,3 @@
-import { Routes } from '@angular/router';
-
-import { PrinciplesComponent } from './principles.component';
 import { VisionComponent } from './vision/vision.component';
 import { AccessibilityComponent } from './accessibility/accessibility.component';
 import { Page, Pages } from '../commons/page/page.model';

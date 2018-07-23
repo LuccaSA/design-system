@@ -14,30 +14,35 @@ import { SplashComponent } from './splash/splash.component';
 import { HomeComponent } from './home/home.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { CommonsModule } from './commons/commons.module';
+import { MainComponent } from './commons/main/main.component';
 
 
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
+	imports: [
+		BrowserModule,
+		BrowserAnimationsModule,
 
-    PrinciplesModule,
-    ContentModule,
-    ComponentsModule,
-    VisualModule,
-    CommonsModule,
+		PrinciplesModule,
+		ContentModule,
+		ComponentsModule,
+		VisualModule,
+		CommonsModule,
 
-    RouterModule.forRoot(appRoutes)
-  ],
-  declarations: [
-    AppComponent,
-    SplashComponent,
-    HomeComponent,
-    HomeFooterComponent,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+		RouterModule.forRoot([])
+	],
+	declarations: [
+		AppComponent,
+		SplashComponent,
+		HomeComponent,
+		HomeFooterComponent,
+	],
+	entryComponents: [
+		HomeComponent,
+		HomeFooterComponent
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 
 export class AppModule { }

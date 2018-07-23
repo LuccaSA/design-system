@@ -15,11 +15,16 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   declarations: [
-    VisualComponent,
     ColorsComponent,
     IllustrateComponent,
     LogosComponent,
     TypographyComponent
-  ]
+	],
+	entryComponents: [
+		ColorsComponent,
+		IllustrateComponent,
+		LogosComponent,
+		TypographyComponent
+	]
 })
 export class VisualModule { }
