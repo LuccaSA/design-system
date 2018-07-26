@@ -39,7 +39,6 @@ import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './animations/animations.component';
 import { UserTileComponent } from './users/user-tile/user-tile.component';
 import { Page, Pages } from '../commons/page/page.model';
-import { NavSideComponent } from '../commons/nav-side/nav-side.component';
 
 const structureGroup = new Page('structure', null, 'Structure');
 const structurePage = new Page('guidelines', StructureGuidelinesComponent, 'Guidelines', structureGroup);

@@ -4,7 +4,7 @@ import { visualPages } from './visual';
 import { principlesPages } from './principles';
 import { contentPages } from './content';
 import { componentsPages } from './components';
-import { MainComponent } from './commons/main/main.component';
+import { MainComponent } from './main/main.component';
 import { Page } from './commons/page/page.model';
 
 const router = [
@@ -19,6 +19,7 @@ export const searchabelIndex: Page[] = [
 	...principlesPages.pages,
 	...contentPages.pages
 ];
+
 export const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
 	{ path: '', component: MainComponent, children: router},

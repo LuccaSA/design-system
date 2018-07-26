@@ -1,5 +1,5 @@
 import { Routes, Route } from "@angular/router";
-import { NavSideComponent } from "../nav-side/nav-side.component";
+import { NavSideComponent } from "../../nav-side/nav-side.component";
 
 export interface IPage {
 	title: string;

@@ -14,7 +14,14 @@ import { SplashComponent } from './splash/splash.component';
 import { HomeComponent } from './home/home.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { CommonsModule } from './commons/commons.module';
-import { MainComponent } from './commons/main/main.component';
+import { SearchComponent } from './search/search.component';
+import { FormsModule } from '../../node_modules/@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
+import { NavSideComponent } from './nav-side/nav-side.component';
+import { NavSideItemComponent } from './nav-side/nav-side-item/nav-side-item.component';
+import { NavSideModule } from './nav-side/nav-side.module';
+import { MainComponent } from './main/main.component';
 
 
 
@@ -22,12 +29,14 @@ import { MainComponent } from './commons/main/main.component';
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,
+		FormsModule,
 
 		PrinciplesModule,
 		ContentModule,
 		ComponentsModule,
 		VisualModule,
 		CommonsModule,
+		NavSideModule,
 
 		RouterModule.forRoot([])
 	],
@@ -36,10 +45,15 @@ import { MainComponent } from './commons/main/main.component';
 		SplashComponent,
 		HomeComponent,
 		HomeFooterComponent,
+		SearchComponent,
+		HeaderComponent,
+		NavComponent,
+		MainComponent
 	],
 	entryComponents: [
 		HomeComponent,
-		HomeFooterComponent
+		HomeFooterComponent,
+		MainComponent,
 	],
 	providers: [],
 	bootstrap: [AppComponent]

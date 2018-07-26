@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '../../../../node_modules/@angular/router';
-import { Pages } from '../page/page.model';
+import { ActivatedRoute } from '@angular/router';
+import { Pages } from '../commons/page/page.model';
 
 @Component({
 	selector: 'ds-nav-side',
