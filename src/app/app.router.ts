@@ -14,10 +14,10 @@ const router = [
 	...contentPages.toRoutes()
 ];
 export const searchabelIndex: Page[] = [
-	...visualPages.pages,
-	...componentsPages.pages,
-	...principlesPages.pages,
-	...contentPages.pages
+	...visualPages.toIndex(),
+	...componentsPages.toIndex(),
+	...principlesPages.toIndex(),
+	...contentPages.toIndex()
 ];
 
 export const appRoutes: Routes = [

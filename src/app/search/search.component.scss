@@ -1,0 +1,23 @@
+.page {
+	display: block;
+	padding: .5rem 1rem;
+}
+
+.page-breadcrumb-item {
+	display: inline-block;
+	position: relative;
+	padding-right: 1.5rem;
+
+	&.last {
+		padding-right: 0;
+		font-weight: 600;
+	}
+
+	&:not(.last)::after {
+		content: '\00003E';
+		display: block;
+		position: absolute;
+		right: .5rem;
+		top: 0;
+	}
+}

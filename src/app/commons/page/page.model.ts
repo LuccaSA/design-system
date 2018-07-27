@@ -23,6 +23,15 @@ export class Pages {
 		}).map( page => page.toNav(this.pages));
 	}
 
+	public toIndex() {
+		return this.pages.map( page => {
+			if (!page.parent) {
+				page.groupPath = this.path;
+			}
+			return page;
+		}, []);
+	}
+
 	public toRoutes(): Routes {
 		const routes = this.pages.filter( page => page.component ).map(page => page.toRoute(this.pages), []);
 		return [
@@ -35,12 +44,24 @@ export class Pages {
 	}
 }
 export class Page implements IPage {
-
+	public groupPath: string;
 	get fullPath(): string {
 		if (!this.parent) {
 			return this.path;
 		}
-		return `${this.parent.fullPath}/${this.path}`;
+		return this.breadcrumb.map(b => {
+			return b.groupPath ? `${b.groupPath}/${b.path}` : b.path;
+		}).join('/');
+	}
+
+	get breadcrumb(): Page[] {
+		const breadcrumbs: Page[] = [];
+		let currentPage: Page = this;
+		while (currentPage != null) {
+			breadcrumbs.unshift(currentPage);
+			currentPage = currentPage.parent;
+		}
+		return breadcrumbs;
 	}
 
 	constructor(
