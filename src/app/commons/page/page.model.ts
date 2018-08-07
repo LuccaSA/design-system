@@ -47,7 +47,7 @@ export class Page implements IPage {
 	public groupPath: string;
 	get fullPath(): string {
 		if (!this.parent) {
-			return this.path;
+			return this.groupPath ? `${this.groupPath}/${this.path}` : this.path;
 		}
 		return this.breadcrumb.map(b => {
 			return b.groupPath ? `${b.groupPath}/${b.path}` : b.path;
