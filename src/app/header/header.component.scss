@@ -4,7 +4,8 @@
 :host {
   border-bottom: 1px solid _theme('commons.background.darker');
   background: white;
-  display: block;
+	display: flex;
+	align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +15,6 @@
 }
 
 .header-logo {
-  display: inline-block;
   height: 4rem;
   line-height: 4rem;
   padding: 0 1.5rem;
@@ -29,5 +29,5 @@
 }
 
 app-nav {
-  float: right;
+	margin-left: auto;
 }

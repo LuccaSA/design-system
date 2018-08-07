@@ -5,11 +5,13 @@ import { HighlightModule } from 'ngx-highlightjs';
 import { ToolComponent } from './tool/tool.component';
 import { DsCodeTabsComponent } from './code-tabs/code-tabs.component';
 import { TabComponent } from './code-tabs/tab/tab.component';
+import { DsPageItemModule } from './page/option/page-item.module';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		HighlightModule.forRoot({theme: 'vs2015'}),
+		DsPageItemModule,
 	],
 	declarations: [
 		ToolComponent,
@@ -19,7 +21,8 @@ import { TabComponent } from './code-tabs/tab/tab.component';
 	exports: [
 		ToolComponent,
 		DsCodeTabsComponent,
-		TabComponent
+		TabComponent,
+		DsPageItemModule,
 	],
 	entryComponents: [
 		ToolComponent,
@@ -27,4 +30,4 @@ import { TabComponent } from './code-tabs/tab/tab.component';
 		TabComponent
 	]
 })
-export class CommonsModule { }
+export class DsCommonsModule { }

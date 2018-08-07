@@ -21,4 +21,4 @@ import { RouterModule } from '@angular/router';
 		NavSideItemComponent
 	]
 })
-export class NavSideModule { }
+export class DsNavSideModule { }

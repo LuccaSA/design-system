@@ -1,10 +1,10 @@
-import { NavSideModule } from './nav-side.module';
+import { DsNavSideModule } from './nav-side.module';
 
 describe('NavSideModule', () => {
-  let navSideModule: NavSideModule;
+  let navSideModule: DsNavSideModule;
 
   beforeEach(() => {
-    navSideModule = new NavSideModule();
+    navSideModule = new DsNavSideModule();
   });
 
   it('should create an instance', () => {

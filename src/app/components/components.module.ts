@@ -37,7 +37,7 @@ import { UtilitiesComponent } from './misc/utilities/utilities.component';
 import { FunctionsComponent } from './misc/functions/functions.component';
 import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './animations/animations.component';
-import { CommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons/commons.module';
 import { RouterModule } from '@angular/router';
 import { OverlaysModule } from './overlays/overlays.module';
 import { UsersModule } from './users/users.module';
@@ -45,7 +45,7 @@ import { UsersModule } from './users/users.module';
 @NgModule({
 	imports: [
 		CommonModule,
-		CommonsModule,
+		DsCommonsModule,
 		OverlaysModule,
 		UsersModule,
 		RouterModule,
@@ -129,4 +129,4 @@ import { UsersModule } from './users/users.module';
 		AnimationsComponent
 	]
 })
-export class ComponentsModule { }
+export class DsComponentsModule { }

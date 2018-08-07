@@ -189,21 +189,21 @@
   dependencies:
     tslib "^1.9.0"
 
-"@lucca-front/icons@^1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@lucca-front/icons/-/icons-1.1.0-beta.0.tgz#f74e837e912f5dc76aa2ec77f35a7abcbb99dd30"
+"@lucca-front/icons@^1.1.0-beta.1":
+  version "1.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@lucca-front/icons/-/icons-1.1.0-beta.1.tgz#6da3ee6e5cfe85fc9da7952f1de19065708dde0c"
 
-"@lucca-front/ng@^1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@lucca-front/ng/-/ng-1.1.0-beta.0.tgz#67da306119b0e8a6f3457112c68584db9f5cab02"
+"@lucca-front/ng@^1.1.0-beta.1":
+  version "1.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@lucca-front/ng/-/ng-1.1.0-beta.1.tgz#f0664262c5140ebb1e18757610e969179b7768a2"
   dependencies:
     tslib "^1.9.0"
 
-"@lucca-front/scss@^1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@lucca-front/scss/-/scss-1.1.0-beta.0.tgz#eaa3756d2770165a24995edaeaefa8341b91231f"
+"@lucca-front/scss@^1.1.0-beta.1":
+  version "1.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@lucca-front/scss/-/scss-1.1.0-beta.1.tgz#7a48be547b8504c920c934a850702de09fc72e73"
   dependencies:
-    "@lucca-front/icons" "^1.1.0-beta.0"
+    "@lucca-front/icons" "^1.1.0-beta.1"
 
 "@ngtools/webpack@6.0.8":
   version "6.0.8"

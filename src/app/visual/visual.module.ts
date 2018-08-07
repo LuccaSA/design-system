@@ -5,13 +5,13 @@ import { ColorsComponent } from './colors/colors.component';
 import { IllustrateComponent } from './illustrate/illustrate.component';
 import { TypographyComponent } from './typography/typography.component';
 import { VisualComponent } from './visual.component';
-import { CommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons/commons.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
-    CommonsModule,
+    DsCommonsModule,
     RouterModule
   ],
   declarations: [
@@ -27,4 +27,4 @@ import { RouterModule } from '@angular/router';
 		TypographyComponent
 	]
 })
-export class VisualModule { }
+export class DsVisualModule { }

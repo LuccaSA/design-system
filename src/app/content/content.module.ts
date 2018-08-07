@@ -5,13 +5,13 @@ import { PonctuationComponent } from './ponctuation/ponctuation.component';
 import { TypographicRulesComponent } from './typogrpahic-rules/typogrpahic-rules.component';
 import { VocabularyComponent } from './vocabulary/vocabulary.component';
 import { VoiceComponent } from './voice/voice.component';
-import { CommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons/commons.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		CommonsModule,
+		DsCommonsModule,
 		RouterModule
 	],
 	declarations: [
@@ -29,4 +29,4 @@ import { RouterModule } from '@angular/router';
 		VoiceComponent
 	]
 })
-export class ContentModule { }
+export class DsContentModule { }
