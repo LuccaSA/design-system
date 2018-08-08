@@ -29,7 +29,8 @@ export class Pages {
 				page.groupPath = this.path;
 			}
 			return page;
-		}, []).filter(page => page.component);
+		}, [])
+		.filter(page => page.component); // removes all "Group"
 	}
 
 	public toRoutes(): Routes {
@@ -84,7 +85,7 @@ export class Page implements IPage {
 		if (navChildren.length < 1) {
 			return { page: this };
 		}
-		return { page: this, children: navChildren };
+		return { groupPage: this, children: navChildren };
 	}
 
 	public match(clue: string): boolean {

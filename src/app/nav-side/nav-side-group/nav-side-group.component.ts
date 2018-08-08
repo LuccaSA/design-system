@@ -18,7 +18,7 @@ export class NavSideGroupComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.title = this.page.page.title;
+		this.title = this.page.groupPage.title;
 		this.updateToggle();
 	}
 
@@ -27,7 +27,7 @@ export class NavSideGroupComponent implements OnInit {
 	}
 
 	updateToggle() {
-		this.expanded = this.router.url.split('/').includes(this.page.page.path);
+		this.expanded = this.router.url.split('/').includes(this.page.groupPage.path);
 	}
 
 }
