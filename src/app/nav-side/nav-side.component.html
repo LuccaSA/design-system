@@ -1,11 +1,7 @@
 <ng-container *ngFor="let page of pages">
 	<ds-nav-side-item *ngIf="!page.children; else group" [routerLinkActive]="['is-active']" routerLink="/{{page.page.fullPath}}">{{page.page.title}}</ds-nav-side-item>
 	<ng-template #group>
-		<ds-nav-side-group [title]="page.page.title">
-			<ds-nav-side-item *ngFor="let subpage of page.children" [routerLinkActive]="['is-active']" routerLink="/{{subpage.page.fullPath}}">
-				{{subpage.page.title}}
-      </ds-nav-side-item>
-    </ds-nav-side-group>
+		<ds-nav-side-group [page]="page"></ds-nav-side-group>
   </ng-template>
 </ng-container>
 

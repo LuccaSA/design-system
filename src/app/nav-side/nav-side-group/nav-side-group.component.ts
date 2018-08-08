@@ -1,24 +1,33 @@
-import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '../../../../node_modules/@angular/router';
 
 @Component({
-  selector: 'ds-nav-side-group',
-  templateUrl: './nav-side-group.component.html',
-  styleUrls: ['./nav-side-group.component.scss']
+	selector: 'ds-nav-side-group',
+	templateUrl: './nav-side-group.component.html',
+	styleUrls: ['./nav-side-group.component.scss']
 })
 export class NavSideGroupComponent implements OnInit {
 
-  @Input()
-  public title: string;
+	@Input() page: any;
 
-  public expanded: boolean;
+	public expanded: boolean;
+	title: string;
 
-  public toggleMenu() {
-    this.expanded = !this.expanded;
-  }
+	constructor(public router: Router) {
+		router.events.subscribe(() => this.updateToggle());
+	}
 
-  constructor() { }
+	ngOnInit() {
+		this.title = this.page.page.title;
+		this.updateToggle();
+	}
 
-  ngOnInit() {
-  }
+	public toggleMenu() {
+		this.expanded = !this.expanded;
+	}
+
+	updateToggle() {
+		this.expanded = this.router.url.split('/').includes(this.page.page.path);
+	}
 
 }

@@ -29,7 +29,7 @@ export class Pages {
 				page.groupPath = this.path;
 			}
 			return page;
-		}, []);
+		}, []).filter(page => page.component);
 	}
 
 	public toRoutes(): Routes {
