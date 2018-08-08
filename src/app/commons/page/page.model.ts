@@ -93,6 +93,9 @@ export class Page implements IPage {
 		if (this._normalizeString(this.title).indexOf(normalizedClue) !== -1) {
 			return true;
 		}
+		if (this.parent && this._normalizeString(this.parent.title).indexOf(normalizedClue) !== -1) {
+			return true;
+		}
 		for (const keyword of this.keywords) {
 			if (this._normalizeString(keyword).indexOf(normalizedClue) !== -1) {
 				return true;

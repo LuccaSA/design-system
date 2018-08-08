@@ -5,13 +5,16 @@ import { LuUserModule } from '@lucca-front/ng';
 import { DsCommonsModule } from '../../commons/commons.module';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    LuUserModule,
-    DsCommonsModule
-  ],
-  declarations: [
-    UserTileComponent
-  ]
+	imports: [
+		CommonModule,
+		LuUserModule,
+		DsCommonsModule
+	],
+	declarations: [
+		UserTileComponent
+	],
+	entryComponents: [
+		UserTileComponent
+	]
 })
 export class UsersModule { }

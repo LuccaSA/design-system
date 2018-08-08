@@ -1,21 +1,23 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { MatDialogModule } from '@angular/material';
 import { ModalsComponent, DialogTestComponent } from './modals/modals.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { DsCommonsModule } from '../../commons/commons.module';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    MatDialogModule
-  ],
-  entryComponents: [
-    DialogTestComponent
-  ],
-  declarations: [
-    ModalsComponent,
-    TooltipsComponent,
-    DialogTestComponent
-  ]
+	imports: [
+		DsCommonsModule,
+		MatDialogModule
+	],
+	entryComponents: [
+		DialogTestComponent,
+		ModalsComponent,
+		TooltipsComponent,
+	],
+	declarations: [
+		ModalsComponent,
+		TooltipsComponent,
+		DialogTestComponent
+	]
 })
 export class OverlaysModule { }
