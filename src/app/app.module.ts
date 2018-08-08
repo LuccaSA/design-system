@@ -16,7 +16,6 @@ import { HomeComponent } from './home/home.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { DsCommonsModule } from './commons/commons.module';
 import { HeaderComponent } from './header/header.component';
-import { NavComponent } from './nav/nav.component';
 import { DsNavSideModule } from './nav-side/nav-side.module';
 import { MainComponent } from './main/main.component';
 import { DsSearchModule } from './search/search.module';
@@ -46,7 +45,6 @@ import { DsSearchModule } from './search/search.module';
 		HomeComponent,
 		HomeFooterComponent,
 		HeaderComponent,
-		NavComponent,
 		MainComponent
 	],
 	entryComponents: [
