@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-boxes',
+  selector: 'ds-boxes',
   templateUrl: './boxes.component.html',
   styleUrls: ['./boxes.component.scss']
 })

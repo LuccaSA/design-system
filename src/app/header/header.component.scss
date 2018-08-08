@@ -2,32 +2,32 @@
 @import "~@lucca-front/scss/src/mixins";
 
 :host {
-  border-bottom: 1px solid _theme('commons.background.darker');
-  background: white;
+	border-bottom: 1px solid _theme('commons.background.darker');
+	background: white;
 	display: flex;
 	align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4rem;
-  z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4rem;
+	z-index: 20;
 }
 
 .header-logo {
-  height: 4rem;
-  line-height: 4rem;
-  padding: 0 1.5rem;
-  text-decoration: none;
-  color: _color("text.purple");
-  font-weight: 600;
-  transition: background 150ms ease;
+	height: 4rem;
+	line-height: 4rem;
+	padding: 0 1.5rem;
+	text-decoration: none;
+	color: _color("text.purple");
+	font-weight: 600;
+	transition: background 150ms ease;
 
-  &:hover {
-    background: _theme('commons.background.dark');
-  }
+	&:hover {
+		background: _theme('commons.background.dark');
+	}
 }
 
-app-nav {
+ds-nav {
 	margin-left: auto;
 }

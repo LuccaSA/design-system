@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-checkboxes',
+  selector: 'ds-checkboxes',
   templateUrl: './checkboxes.component.html',
   styleUrls: ['./checkboxes.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-illustrate',
+  selector: 'ds-illustrate',
   templateUrl: './illustrate.component.html',
   styleUrls: ['./illustrate.component.scss']
 })

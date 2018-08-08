@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { appRoutes } from './app.router';
 
 @Component({
-	selector: 'app-root',
+	selector: 'ds-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.css']
 })
@@ -11,5 +11,5 @@ export class AppComponent {
 	constructor(router: Router) {
 		router.resetConfig(appRoutes);
 	}
-	title = 'app';
+	title = 'Lucca Design System';
 }

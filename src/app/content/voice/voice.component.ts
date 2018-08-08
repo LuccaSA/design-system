@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-voice',
+  selector: 'ds-voice',
   templateUrl: './voice.component.html',
   styleUrls: ['./voice.component.scss']
 })

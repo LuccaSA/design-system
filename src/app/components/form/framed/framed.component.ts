@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-framed',
+  selector: 'ds-framed',
   templateUrl: './framed.component.html',
   styleUrls: ['./framed.component.scss']
 })

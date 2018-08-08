@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-loadings',
+  selector: 'ds-loadings',
   templateUrl: './loadings.component.html',
   styleUrls: ['./loadings.component.scss']
 })

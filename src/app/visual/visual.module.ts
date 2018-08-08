@@ -4,21 +4,20 @@ import { LogosComponent } from './logos/logos.component';
 import { ColorsComponent } from './colors/colors.component';
 import { IllustrateComponent } from './illustrate/illustrate.component';
 import { TypographyComponent } from './typography/typography.component';
-import { VisualComponent } from './visual.component';
 import { DsCommonsModule } from '../commons/commons.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    DsCommonsModule,
-    RouterModule
-  ],
-  declarations: [
-    ColorsComponent,
-    IllustrateComponent,
-    LogosComponent,
-    TypographyComponent
+	imports: [
+		CommonModule,
+		DsCommonsModule,
+		RouterModule
+	],
+	declarations: [
+		ColorsComponent,
+		IllustrateComponent,
+		LogosComponent,
+		TypographyComponent
 	],
 	entryComponents: [
 		ColorsComponent,

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-action-guidelines',
+  selector: 'ds-action-guidelines',
   templateUrl: './action-guidelines.component.html',
   styleUrls: ['./action-guidelines.component.scss']
 })

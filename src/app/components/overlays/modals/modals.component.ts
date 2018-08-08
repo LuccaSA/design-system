@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
 
 @Component({
-  selector: 'app-modals',
+  selector: 'ds-modals',
   templateUrl: './modals.component.html',
   styleUrls: ['./modals.component.scss']
 })

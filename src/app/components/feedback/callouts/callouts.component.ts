@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-callouts',
+  selector: 'ds-callouts',
   templateUrl: './callouts.component.html',
   styleUrls: ['./callouts.component.scss']
 })

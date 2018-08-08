@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-empty-states',
+  selector: 'ds-empty-states',
   templateUrl: './empty-states.component.html',
   styleUrls: ['./empty-states.component.scss']
 })

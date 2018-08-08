@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-text-guidelines',
+  selector: 'ds-text-guidelines',
   templateUrl: './text-guidelines.component.html',
   styleUrls: ['./text-guidelines.component.scss']
 })

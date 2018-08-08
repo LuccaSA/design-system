@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-form-guidelines',
+  selector: 'ds-form-guidelines',
   templateUrl: './form-guidelines.component.html',
   styleUrls: ['./form-guidelines.component.scss']
 })
