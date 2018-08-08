@@ -18,5 +18,3 @@ export const contentPages: Pages = new Pages('content', [
 	formatPage,
 	typographicPage
 ], voicePage);
-
-// export const contentRouter = [];

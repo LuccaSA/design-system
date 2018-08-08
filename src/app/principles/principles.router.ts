@@ -9,5 +9,3 @@ export const principlesPages: Pages = new Pages('principles', [
 	visionPage,
 	accessibilityPage
 ], visionPage);
-
-// export const principlesRouter: Routes = [];
