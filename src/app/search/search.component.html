@@ -1,18 +1,6 @@
-<!-- <div class="textfield mod-search">
-	<input #inputClue class="textfield-input"
-	 [(ngModel)]="clue" (input)="onFieldChange($event.target.value)"
-	 [luPopoverTriggerFor]="popover"
-	 (blur)="onBlur($event)"
-	 (focus)="onFocus()">
-</div>
-<lu-popover #popover trigger-on="none">
-	<a *ngFor="let page of results" routerLink="/{{page.fullPath}}" class="page" (click)="closePopover()">
-		<span *ngFor="let breadPage of page.breadcrumb; let last = last" class="page-breadcrumb-item" [ngClass]="{'last': last}">{{ breadPage.title }}</span>
-	</a>
-</lu-popover> -->
-<div class="textfield mod-longest">
+<div class="textfield mod-longer">
 	<lu-select [ngModel]="currentPage" (ngModelChange)="goToPage($event)" class="textfield-input">
-		<lu-option-picker>
+		<lu-option-picker [overlap-trigger]="true">
 			<lu-option-feeder [options]="pages"></lu-option-feeder>
 			<lu-option-searcher [searchFn]="searchFn"></lu-option-searcher>
 			<lu-option-pager></lu-option-pager>
@@ -21,5 +9,4 @@
 			</lu-options>
 		</lu-option-picker>
 	</lu-select>
-
 </div>
