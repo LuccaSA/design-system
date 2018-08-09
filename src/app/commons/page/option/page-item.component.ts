@@ -18,6 +18,7 @@ import { Page } from '../page.model';
 export class DsPageItemComponent<T = Page> extends ALuOptionItem<T> implements ILuOptionItem<T> {
 	@Input() page: T;
 	@Output() onSelect = new EventEmitter<T>();
+	get value() { return this.page; }
 	@HostListener('click')
 	onclick() {
 		this.onSelect.emit(this.page);
