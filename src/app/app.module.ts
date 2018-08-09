@@ -7,19 +7,16 @@ import { FormsModule } from '@angular/forms';
 import { LuModule } from '@lucca-front/ng';
 import { HighlightModule } from 'ngx-highlightjs';
 
+import { DsMainModule } from './main/main.module';
 import { DsVisualModule } from './visual';
 import { DsPrinciplesModule } from './principles';
 import { DsComponentsModule } from './components';
 import { DsContentModule } from './content';
 
-import { DsCommonsModule } from './commons';
 import { DsNavSideModule } from './nav-side';
-import { DsSearchModule } from './search';
-import { DsHeaderModule } from './header';
 import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
 
 
 
@@ -32,11 +29,8 @@ import { MainComponent } from './main/main.component';
 		LuModule,
 		HighlightModule.forRoot({theme: 'vs2015'}),
 
-		DsSearchModule,
-		DsHeaderModule,
-		DsCommonsModule,
-
 		DsHomeModule,
+		DsMainModule,
 		DsPrinciplesModule,
 		DsContentModule,
 		DsComponentsModule,
@@ -46,11 +40,7 @@ import { MainComponent } from './main/main.component';
 		RouterModule.forRoot([])
 	],
 	declarations: [
-		AppComponent,
-		MainComponent
-	],
-	entryComponents: [
-		MainComponent,
+		AppComponent
 	],
 	providers: [],
 	bootstrap: [AppComponent]
