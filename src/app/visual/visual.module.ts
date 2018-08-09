@@ -4,7 +4,7 @@ import { LogosComponent } from './logos/logos.component';
 import { ColorsComponent } from './colors/colors.component';
 import { IllustrateComponent } from './illustrate/illustrate.component';
 import { TypographyComponent } from './typography/typography.component';
-import { DsCommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

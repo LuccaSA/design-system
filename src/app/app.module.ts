@@ -3,22 +3,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { LuModule } from '@lucca-front/ng';
 
-import { DsVisualModule } from './visual/visual.module';
-import { DsPrinciplesModule } from './principles/principles.module';
+import { LuModule } from '@lucca-front/ng';
+import { HighlightModule } from 'ngx-highlightjs';
+
+import { DsVisualModule } from './visual';
+import { DsPrinciplesModule } from './principles';
 import { DsComponentsModule } from './components';
 import { DsContentModule } from './content';
 
+import { DsCommonsModule } from './commons';
+import { DsNavSideModule } from './nav-side';
+import { DsSearchModule } from './search';
+import { DsHeaderModule } from './header';
+import { DsHomeModule } from './home';
+
 import { AppComponent } from './app.component';
-import { SplashComponent } from './splash/splash.component';
-import { HomeComponent } from './home/home.component';
-import { HomeFooterComponent } from './home/home-footer/home-footer.component';
-import { DsCommonsModule } from './commons/commons.module';
-import { HeaderComponent } from './header/header.component';
-import { DsNavSideModule } from './nav-side/nav-side.module';
 import { MainComponent } from './main/main.component';
-import { DsSearchModule } from './search/search.module';
 
 
 
@@ -27,29 +28,28 @@ import { DsSearchModule } from './search/search.module';
 		BrowserModule,
 		BrowserAnimationsModule,
 		FormsModule,
-		DsSearchModule,
 
+		LuModule,
+		HighlightModule.forRoot({theme: 'vs2015'}),
+
+		DsSearchModule,
+		DsHeaderModule,
+		DsCommonsModule,
+
+		DsHomeModule,
 		DsPrinciplesModule,
 		DsContentModule,
 		DsComponentsModule,
 		DsVisualModule,
-		DsCommonsModule,
 		DsNavSideModule,
-		LuModule,
 
 		RouterModule.forRoot([])
 	],
 	declarations: [
 		AppComponent,
-		SplashComponent,
-		HomeComponent,
-		HomeFooterComponent,
-		HeaderComponent,
 		MainComponent
 	],
 	entryComponents: [
-		HomeComponent,
-		HomeFooterComponent,
 		MainComponent,
 	],
 	providers: [],

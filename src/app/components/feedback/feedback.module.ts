@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BoxesComponent } from './boxes/boxes.component';
 import { CalloutsComponent } from './callouts/callouts.component';
 import { ToastsComponent } from './toasts/toasts.component';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 
 @NgModule({
 	imports: [

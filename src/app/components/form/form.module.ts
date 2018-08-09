@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 import { CheckboxesComponent } from './checkboxes/checkboxes.component';
 import { FileComponent } from './file/file.component';
 import { FormGuidelinesComponent } from './form-guidelines/form-guidelines.component';

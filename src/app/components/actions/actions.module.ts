@@ -3,7 +3,7 @@ import { ActionGuidelinesComponent } from './action-guidelines/action-guidelines
 import { ActionIconsComponent } from './action-icons/action-icons.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { LinksComponent } from './links/links.component';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 
 @NgModule({
 	imports: [

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AccessibilityComponent } from './accessibility/accessibility.component';
 import { VisionComponent } from './vision/vision.component';
-import { DsCommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

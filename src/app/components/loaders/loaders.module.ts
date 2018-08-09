@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 import { LoadingsComponent } from './loadings/loadings.component';
 import { ProgressComponent } from './progress/progress.component';
 

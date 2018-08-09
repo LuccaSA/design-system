@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 import { FunctionsComponent } from './functions/functions.component';
 import { MixinsComponent } from './mixins/mixins.component';
 import { UtilitiesComponent } from './utilities/utilities.component';

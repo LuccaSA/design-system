@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons/commons.module';
+import { DsCommonsModule } from '../../commons';
 import { BasicTextComponent } from './basic-text/basic-text.component';
 import { LabelsComponent } from './labels/labels.component';
 import { TextGuidelinesComponent } from './text-guidelines/text-guidelines.component';

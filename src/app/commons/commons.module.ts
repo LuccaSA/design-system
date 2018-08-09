@@ -10,7 +10,7 @@ import { DsPageItemModule } from './page/option/page-item.module';
 @NgModule({
 	imports: [
 		CommonModule,
-		HighlightModule.forRoot({theme: 'vs2015'}),
+		HighlightModule,
 		DsPageItemModule,
 	],
 	declarations: [
