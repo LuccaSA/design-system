@@ -1,15 +1,11 @@
-import { Routes } from '@angular/router';
-
-import { PrinciplesComponent } from './principles.component';
 import { VisionComponent } from './vision/vision.component';
 import { AccessibilityComponent } from './accessibility/accessibility.component';
+import { Page, Pages } from '../commons/page/page.model';
 
-export const principlesRouter = [
-  { path: 'principles', component: PrinciplesComponent,
-    children: [
-      { path: '', redirectTo: 'vision', pathMatch: 'full' },
-      { path: 'vision', component: VisionComponent },
-      { path: 'accessibility', component: AccessibilityComponent }
-    ]
-  },
-] as Routes;
+const visionPage = new Page('vision', VisionComponent, 'Vision');
+const accessibilityPage = new Page('accessibility', AccessibilityComponent, 'Accessibilité');
+
+export const principlesPages: Pages = new Pages('principles', [
+	visionPage,
+	accessibilityPage
+], visionPage);

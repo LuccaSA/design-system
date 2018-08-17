@@ -1,18 +1,17 @@
-import { Routes } from '@angular/router';
 import { LogosComponent } from './logos/logos.component';
 import { ColorsComponent } from './colors/colors.component';
 import { IllustrateComponent } from './illustrate/illustrate.component';
 import { TypographyComponent } from './typography/typography.component';
-import { VisualComponent } from './visual.component';
+import { Page, Pages } from '../commons/page/page.model';
 
-export const visualRouter = [
-  { path: 'visual', component: VisualComponent,
-    children: [
-      { path: '', redirectTo: 'colors', pathMatch: 'full' },
-      { path: 'logos', component: LogosComponent },
-      { path: 'colors', component: ColorsComponent },
-      { path: 'typography', component: TypographyComponent },
-      { path: 'illustrate', component: IllustrateComponent }
-    ]
-  }
-] as Routes;
+const colorsPage = new Page('colors', ColorsComponent, 'Couleurs');
+const logosPage = new Page('logos', LogosComponent, 'Logos');
+const typographyPage = new Page('typography', TypographyComponent, 'Typographie');
+const illustratePage = new Page('illustrate', IllustrateComponent, 'Illustration');
+
+export const visualPages = new Pages('visual', [
+	colorsPage,
+	logosPage,
+	typographyPage,
+	illustratePage
+], colorsPage);

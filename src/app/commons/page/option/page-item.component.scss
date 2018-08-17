@@ -1,0 +1,43 @@
+@import '~@lucca-front/scss/src/theming';
+
+:host {
+	display: block;
+	cursor: pointer;
+	padding: 0.5rem;
+	transition: background 50ms ease;
+
+	&:hover {
+		background: _theme('commons.background.dark');
+	}
+
+	&.is-focus {
+		background: _theme('commons.background.dark');
+	}
+}
+
+:host-context(.lu-select-value) {
+	padding: 0;
+	&:hover, &.is-focus {
+		background: inherit;
+	}
+}
+
+
+.page-item-breadcrumb {
+	display: inline-block;
+	position: relative;
+	padding-right: 1.5rem;
+
+	&.last {
+		padding-right: 0;
+		font-weight: 600;
+	}
+
+	&:not(.last)::after {
+		content: '\00003E';
+		display: block;
+		position: absolute;
+		right: .5rem;
+		top: 0;
+	}
+}

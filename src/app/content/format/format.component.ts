@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-format',
+  selector: 'ds-format',
   templateUrl: './format.component.html',
   styleUrls: ['./format.component.scss']
 })

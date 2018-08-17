@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-vision',
+  selector: 'ds-vision',
   templateUrl: './vision.component.html',
   styleUrls: ['./vision.component.scss']
 })

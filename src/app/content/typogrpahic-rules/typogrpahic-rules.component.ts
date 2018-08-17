@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-typographic-rules',
+  selector: 'ds-typographic-rules',
   templateUrl: './typogrpahic-rules.component.html',
   styleUrls: ['./typogrpahic-rules.component.scss']
 })

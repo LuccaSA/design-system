@@ -1,21 +1,23 @@
-import { PrinciplesComponent } from './principles.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AccessibilityComponent } from './accessibility/accessibility.component';
 import { VisionComponent } from './vision/vision.component';
-import { CommonsModule } from '../commons/commons.module';
+import { DsCommonsModule } from '../commons';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    CommonsModule,
-    RouterModule
-  ],
-  declarations: [
-    AccessibilityComponent,
-    VisionComponent,
-    PrinciplesComponent
-  ]
+	imports: [
+		CommonModule,
+		DsCommonsModule,
+		RouterModule
+	],
+	declarations: [
+		AccessibilityComponent,
+		VisionComponent,
+	],
+	entryComponents: [
+		AccessibilityComponent,
+		VisionComponent
+	]
 })
-export class PrinciplesModule { }
+export class DsPrinciplesModule { }

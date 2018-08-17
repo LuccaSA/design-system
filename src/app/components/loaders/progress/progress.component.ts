@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-progress',
+  selector: 'ds-progress',
   templateUrl: './progress.component.html',
   styleUrls: ['./progress.component.scss']
 })

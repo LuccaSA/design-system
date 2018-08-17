@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-tool',
+  selector: 'ds-tool',
   templateUrl: './tool.component.html',
   styleUrls: ['./tool.component.scss']
 })

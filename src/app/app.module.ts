@@ -2,42 +2,48 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
-import { VisualModule } from './visual/visual.module';
-import { PrinciplesModule } from './principles/principles.module';
-import { ComponentsModule } from './components';
-import { ContentModule } from './content';
+import { LuModule } from '@lucca-front/ng';
+import { HighlightModule } from 'ngx-highlightjs';
 
-import { appRoutes } from './app.router';
+import { DsMainModule } from './main/main.module';
+import { DsVisualModule } from './visual';
+import { DsPrinciplesModule } from './principles';
+import { DsComponentsModule } from './components';
+import { DsContentModule } from './content';
+
+import { DsNavSideModule } from './nav-side';
+import { DsHomeModule } from './home';
+
 import { AppComponent } from './app.component';
-import { SplashComponent } from './splash/splash.component';
-import { HomeComponent } from './home/home.component';
-import { HomeFooterComponent } from './home/home-footer/home-footer.component';
-import { CommonsModule } from './commons/commons.module';
 
 
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
+	imports: [
+		BrowserModule,
+		BrowserAnimationsModule,
+		FormsModule,
 
-    PrinciplesModule,
-    ContentModule,
-    ComponentsModule,
-    VisualModule,
-    CommonsModule,
+		LuModule,
+		HighlightModule.forRoot({theme: 'vs2015'}),
 
-    RouterModule.forRoot(appRoutes)
-  ],
-  declarations: [
-    AppComponent,
-    SplashComponent,
-    HomeComponent,
-    HomeFooterComponent,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+		DsHomeModule,
+		DsMainModule,
+		DsPrinciplesModule,
+		DsContentModule,
+		DsComponentsModule,
+		DsVisualModule,
+		DsNavSideModule,
+
+		RouterModule.forRoot([])
+	],
+	declarations: [
+		AppComponent
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 
 export class AppModule { }

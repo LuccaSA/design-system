@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ponctuation',
+  selector: 'ds-ponctuation',
   templateUrl: './ponctuation.component.html',
   styleUrls: ['./ponctuation.component.scss']
 })

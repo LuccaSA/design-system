@@ -1,0 +1,6 @@
+<div class="navSideGroup-title" (click)="toggleMenu()">{{ title }}</div>
+<div *ngIf="expanded">
+	<ds-nav-side-item *ngFor="let subpage of page.children" [routerLinkActive]="['is-active']" routerLink="/{{subpage.page.fullPath}}">
+		{{subpage.page.title}}
+	</ds-nav-side-item>
+</div>

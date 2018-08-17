@@ -1,0 +1,21 @@
+:host(.mod-inline) {
+	display: inline-block;
+}
+
+:host(.mod-fullwidth) {
+	lu-select {
+		background: rgba(0,0,0, .1);
+		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, .2);
+	}
+	.textfield {
+		width: 100%;
+	}
+}
+
+::ng-deep {
+	ds-search.mod-fullwidth {
+		.textfield-input::after {
+			color: white;
+		}
+	}
+}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-structure-guidelines',
+  selector: 'ds-structure-guidelines',
   templateUrl: './structure-guidelines.component.html',
   styleUrls: ['./structure-guidelines.component.scss']
 })

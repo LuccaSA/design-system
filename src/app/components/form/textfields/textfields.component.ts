@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-textfields',
+  selector: 'ds-textfields',
   templateUrl: './textfields.component.html',
   styleUrls: ['./textfields.component.scss']
 })
