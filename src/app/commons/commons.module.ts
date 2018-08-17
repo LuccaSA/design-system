@@ -2,30 +2,28 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ToolComponent } from './tool/tool.component';
-import { DsCodeTabsComponent } from './code-tabs/code-tabs.component';
-import { TabComponent } from './code-tabs/tab/tab.component';
 import { DsPageItemModule } from './page/option/page-item.module';
+import { DsExamplesBrowserModule } from './examples-browser/examples-browser.module';
+import { DsCodeTabsModule } from './code-tabs/code-tabs.module';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		DsPageItemModule,
+		DsCodeTabsModule,
+		DsExamplesBrowserModule
 	],
 	declarations: [
-		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent,
+		ToolComponent
 	],
 	exports: [
 		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent,
 		DsPageItemModule,
+		DsCodeTabsModule,
+		DsExamplesBrowserModule
 	],
 	entryComponents: [
 		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent
 	]
 })
 export class DsCommonsModule { }

@@ -11,7 +11,11 @@ export class UserTileComponent  {
 	public basicCode = require('!!prismjs-loader?lang=markup!./basic/basic.component.html');
 	public basicTsCode = require('!!prismjs-loader?lang=typescript!./basic/basic.component.ts');
 
-	basic = { component: BasicExampleComponent, code: this.basicCode, tsCode: this.basicTsCode };
+	basic = {
+		title: 'Basic',
+		component: BasicExampleComponent,
+		code: this.basicCode,
+		tsCode: this.basicTsCode };
 	constructor() { }
 
 }

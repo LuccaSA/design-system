@@ -1,0 +1,14 @@
+<div class="textfield">
+	<lu-select [(ngModel)]="selectedExample" class="textfield-input">
+		<lu-option-picker>
+			<lu-option *ngFor="let example of examples" [value]="example">{{example.title}}</lu-option>
+		</lu-option-picker>
+	</lu-select>
+</div>
+
+<div class="example-display" *ngIf="selectedExample">
+	<div class="description" *ngIf="selectedExample.description">
+		{{selectedExample.description}}
+	</div>
+	<ds-code-tabs [example]="selectedExample"></ds-code-tabs>
+</div>

@@ -10,22 +10,13 @@ declare var require: any;
 })
 export class ChipsComponent implements OnInit {
 
-	public chipBasicCode =
-`<div class="chip">
-	Ned Stark
-	<button class="chip-kill"></button>
-</div>`;
-
-	public chipUnkillable =
-`<div class="chip mod-unkillable">
-	Connor MacLeod
-</div>`;
-
 	basic: IExample = {
+		title: 'Basic',
 		component: BasicExampleComponent,
 		code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
 	};
 
+	examples = [this.basic];
 	constructor() { }
 
 	ngOnInit() {
