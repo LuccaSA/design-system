@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { LuModule } from '@lucca-front/ng';
-import { HighlightModule } from 'ngx-highlightjs';
 
 import { DsMainModule } from './main/main.module';
 import { DsVisualModule } from './visual';
@@ -25,9 +24,7 @@ import { AppComponent } from './app.component';
 		BrowserModule,
 		BrowserAnimationsModule,
 		FormsModule,
-
 		LuModule,
-		HighlightModule.forRoot({theme: 'vs2015'}),
 
 		DsHomeModule,
 		DsMainModule,
