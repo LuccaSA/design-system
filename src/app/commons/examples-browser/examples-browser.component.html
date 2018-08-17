@@ -4,11 +4,15 @@
 			<lu-option *ngFor="let example of examples" [value]="example">{{example.title}}</lu-option>
 		</lu-option-picker>
 	</lu-select>
+	<label class="textfield-label">Exemples</label>
 </div>
 
 <div class="example-display" *ngIf="selectedExample">
-	<div class="description" *ngIf="selectedExample.description">
+	<p class="description" *ngIf="selectedExample.description">
 		{{selectedExample.description}}
-	</div>
+	</p>
 	<ds-code-tabs [example]="selectedExample"></ds-code-tabs>
+	<ng-container class="extra-infos" *ngIf="selectedExample.extra">
+		<em><i class="lucca-icon">info</i> {{selectedExample.extra}}</em>
+	</ng-container>
 </div>

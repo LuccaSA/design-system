@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.component';
 import { IExample } from '../../../commons/examples-browser/example.model';
+import { UnkillableExampleComponent } from './unkillable/unkillable.component';
 declare var require: any;
 
 @Component({
@@ -10,13 +11,20 @@ declare var require: any;
 })
 export class ChipsComponent implements OnInit {
 
-	basic: IExample = {
-		title: 'Basic',
-		component: BasicExampleComponent,
-		code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
-	};
-
-	examples = [this.basic];
+	examples: Array<IExample> = [
+		{
+			title: 'Basic',
+			description: 'A basic description on how you should use chips',
+			component: BasicExampleComponent,
+			code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
+		},
+		{
+			title: 'Unkillable',
+			component: UnkillableExampleComponent,
+			code: require('!!prismjs-loader?lang=markup!./unkillable/unkillable.component.html'),
+			extra: 'Ce mod suffit à cacher le bouton de suppression',
+		}
+	];
 	constructor() { }
 
 	ngOnInit() {

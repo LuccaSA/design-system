@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.component';
+import { IExample } from '../../../commons/examples-browser/example.model';
 declare var require: any;
 
 @Component({
@@ -11,11 +12,14 @@ export class UserTileComponent  {
 	public basicCode = require('!!prismjs-loader?lang=markup!./basic/basic.component.html');
 	public basicTsCode = require('!!prismjs-loader?lang=typescript!./basic/basic.component.ts');
 
-	basic = {
+	basic: IExample = {
 		title: 'Basic',
 		component: BasicExampleComponent,
 		code: this.basicCode,
-		tsCode: this.basicTsCode };
+		tsCode: this.basicTsCode
+	};
+
+	examples: Array<IExample> = [this.basic];
 	constructor() { }
 
 }

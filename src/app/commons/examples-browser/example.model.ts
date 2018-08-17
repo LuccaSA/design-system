@@ -6,4 +6,5 @@ export interface IExample {
 	code: string;
 	tsCode?: string;
 	description?: string;
+	extra?: string;
 }

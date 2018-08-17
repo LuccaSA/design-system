@@ -4,6 +4,7 @@ import { ChipsComponent } from './chips/chips.component';
 import { ListsComponent } from './lists/lists.component';
 import { TablesComponent } from './tables/tables.component';
 import { BasicExampleComponent } from './chips/basic/basic.component';
+import { UnkillableExampleComponent } from './chips/unkillable/unkillable.component';
 
 @NgModule({
 	imports: [
@@ -13,13 +14,15 @@ import { BasicExampleComponent } from './chips/basic/basic.component';
 		ChipsComponent,
 		ListsComponent,
 		TablesComponent,
-		BasicExampleComponent
+		BasicExampleComponent,
+		UnkillableExampleComponent
 	],
 	declarations: [
 		ChipsComponent,
 		ListsComponent,
 		TablesComponent,
-		BasicExampleComponent
+		BasicExampleComponent,
+		UnkillableExampleComponent
 	]
 })
 export class ListingsModule { }
