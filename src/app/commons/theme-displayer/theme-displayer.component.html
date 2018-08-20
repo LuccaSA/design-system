@@ -1,0 +1,17 @@
+<h2>Thème</h2>
+<table class="table mod-small mod-zebra mod-alignTop" *ngIf="theme">
+	<thead class="table-head">
+		<tr class="table-head-row">
+			<th class="table-head-row-cell">Option</th>
+			<th class="table-head-row-cell">Valeur par défaut</th>
+			<th class="table-head-row-cell">Notes</th>
+		</tr>
+	</thead>
+	<tbody class="table-body">
+		<tr class="table-body-row" *ngFor="let prop of flatTheme">
+			<td class="table-body-row-cell u-nowrap">{{prop.name}}</td>
+			<td class="table-body-row-cell">{{prop.defaultValue}}</td>
+			<td class="table-body-row-cell">{{prop.notes}}</td>
+		</tr>
+	</tbody>
+</table>

@@ -25,9 +25,13 @@ export class ChipsComponent implements OnInit {
 			extra: 'Ce mod suffit à cacher le bouton de suppression',
 		}
 	];
-	constructor() { }
+
+	file = require('!!raw-loader!./chips.component.scss');
+	constructor() {
+	}
 
 	ngOnInit() {
+		console.log(this.file);
 	}
 
 }

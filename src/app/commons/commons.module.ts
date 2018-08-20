@@ -2,16 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ToolComponent } from './tool/tool.component';
-import { DsPageItemModule } from './page/option/page-item.module';
-import { DsExamplesBrowserModule } from './examples-browser/examples-browser.module';
-import { DsCodeTabsModule } from './code-tabs/code-tabs.module';
+import { DsPageItemModule } from './page';
+import { DsExamplesBrowserModule } from './examples-browser';
+import { DsCodeTabsModule } from './code-tabs';
+import { DsThemeDisplayerModule } from './theme-displayer';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsExamplesBrowserModule
+		DsExamplesBrowserModule,
+		DsThemeDisplayerModule,
 	],
 	declarations: [
 		ToolComponent
@@ -20,7 +22,8 @@ import { DsCodeTabsModule } from './code-tabs/code-tabs.module';
 		ToolComponent,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsExamplesBrowserModule
+		DsExamplesBrowserModule,
+		DsThemeDisplayerModule,
 	],
 	entryComponents: [
 		ToolComponent,
