@@ -28,7 +28,7 @@ export class DsThemeDisplayerComponent implements OnInit {
 			} else {
 				result.push({
 					name: `${parentName !== '' ? parentName + '.' : ''}${prop.name}.${p.name}`,
-					defaultValue: p.defaultValue
+					value: p.value
 				});
 			}
 		}
