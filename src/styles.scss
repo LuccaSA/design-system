@@ -1,23 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import
-	'~@lucca-front/scss/src/main.overridable.scss',
+	'~@lucca-front/scss/src/main.overridable',
 	'~@lucca-front/ng/style/main.overridable',
 	'~@lucca-front/ng/material/style/main.overridable',
 	'~prismjs/themes/prism-coy.css',
-	'scss/card.scss',
-	'scss/main.scss',
-	'scss/strong.scss',
-	'scss/tipFooter.scss',
-	'scss/shame.scss';
+	'scss/card',
+	'scss/main',
+	'scss/strong',
+	'scss/tipFooter',
+	'scss/shame';
 
 :root {
 	@include generateCSSVarsFromTheme($theme);
-}
-
-hr {
-	border: 1px solid _theme("commons.divider.color");
-	border-bottom: 0;
-	border-left: 0;
-	border-right: 0;
 }
