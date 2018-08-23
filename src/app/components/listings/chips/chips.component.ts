@@ -30,8 +30,5 @@ export class ChipsComponent implements OnInit {
 	constructor() {
 	}
 
-	ngOnInit() {
-		console.log(this.file);
-	}
-
+	ngOnInit() {}
 }
