@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build -c deploy"
+    "deploy": "ng build -c deploy",
+    "docs": "node tools/scss-docs.js"
   },
   "private": true,
   "dependencies": {
