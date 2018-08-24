@@ -1,18 +1,18 @@
 <ul class="menu">
-  <li class="menu-link" *ngFor="let tab of tabs" (click)="selectTab(tab)" [class.is-active]="tab.active">
-    {{tab.tabTitle}}
-  </li>
+	<li class="menu-link" *ngFor="let tab of tabsQL" (click)="selectTab(tab)" [class.is-active]="tab.active">
+		{{tab.tabTitle}}
+	</li>
 </ul>
 <ds-tab tabTitle="Aperçu" [active]="true">
-  <div class="tab-content">
-    <ng-content></ng-content>
-  </div>
+	<div class="tab-content">
+		<ng-container #display></ng-container>
+	</div>
 </ds-tab>
 <ds-tab tabTitle="HTML">
-  <pre><code highlight [code]="code" [language]="['HTML']"></code></pre>
+	<pre><code [innerHTML]="code"></code></pre>
 </ds-tab>
 <ng-container *ngIf="tsCode">
-  <ds-tab tabTitle="TS">
-    <pre><code highlight [code]="tsCode" [language]="['Typescript']"></code></pre>
-  </ds-tab>
+	<ds-tab tabTitle="TS">
+		<pre><code [innerHTML]="tsCode"></code></pre>
+	</ds-tab>
 </ng-container>

@@ -1,0 +1,15 @@
+@import '~@lucca-front/scss/src/theming.overridable';
+
+.example-display {
+	margin-top: 1rem;
+}
+
+.description {
+	margin-bottom: 1rem;
+}
+
+.textfield-label {
+	font-size: _theme("sizes.big.font-size");
+}
+
+

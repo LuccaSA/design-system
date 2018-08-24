@@ -1,29 +1,25 @@
-import { Component, OnInit } from '@angular/core';
-import { IUser } from '@lucca-front/ng';
-import { basicCode, basicTsCode } from './user-tile.basic.example';
+import { Component } from '@angular/core';
+import { BasicExampleComponent } from './basic/basic.component';
+import { IExample } from '../../../commons/examples-browser/example.model';
+declare var require: any;
 
 @Component({
-  selector: 'ds-user-tile',
-  templateUrl: './user-tile.component.html',
-  styleUrls: ['./user-tile.component.scss']
+	selector: 'ds-user-tile',
+	templateUrl: './user-tile.component.html',
+	styleUrls: ['./user-tile.component.scss']
 })
-export class UserTileComponent implements OnInit {
-  public basicCode = basicCode;
-  public basicTsCode = basicTsCode;
+export class UserTileComponent  {
+	public basicCode = require('!!prismjs-loader?lang=markup!./basic/basic.component.html');
+	public basicTsCode = require('!!prismjs-loader?lang=typescript!./basic/basic.component.ts');
 
-  anais: IUser = {
-    id: 12,
-    firstName: 'Anaïs',
-    lastName: 'Lemoustier',
-    picture: {
-      href:
-        'https://upload.wikimedia.org/wikipedia/commons/e/ec/Ana%C3%AFs_Demoustier_Cabourg_2015.jpg',
-    },
-    jobTitle: 'Actress',
-  };
-  constructor() { }
+	basic: IExample = {
+		title: 'Basic',
+		component: BasicExampleComponent,
+		code: this.basicCode,
+		tsCode: this.basicTsCode
+	};
 
-  ngOnInit() {
-  }
+	examples: Array<IExample> = [this.basic];
+	constructor() { }
 
 }

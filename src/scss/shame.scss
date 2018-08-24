@@ -1,3 +1,10 @@
 .code.mod-block {
   margin-bottom: 1.5rem;
 }
+
+hr {
+	border: 1px solid _theme("commons.divider.color");
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}

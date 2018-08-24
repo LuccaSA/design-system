@@ -1,33 +1,32 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HighlightModule } from 'ngx-highlightjs';
 import { ToolComponent } from './tool/tool.component';
-import { DsCodeTabsComponent } from './code-tabs/code-tabs.component';
-import { TabComponent } from './code-tabs/tab/tab.component';
-import { DsPageItemModule } from './page/option/page-item.module';
+import { DsPageItemModule } from './page';
+import { DsExamplesBrowserModule } from './examples-browser';
+import { DsCodeTabsModule } from './code-tabs';
+import { DsThemeDisplayerModule } from './theme-displayer';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		HighlightModule,
 		DsPageItemModule,
+		DsCodeTabsModule,
+		DsExamplesBrowserModule,
+		DsThemeDisplayerModule,
 	],
 	declarations: [
-		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent,
+		ToolComponent
 	],
 	exports: [
 		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent,
 		DsPageItemModule,
+		DsCodeTabsModule,
+		DsExamplesBrowserModule,
+		DsThemeDisplayerModule,
 	],
 	entryComponents: [
 		ToolComponent,
-		DsCodeTabsComponent,
-		TabComponent
 	]
 })
 export class DsCommonsModule { }
