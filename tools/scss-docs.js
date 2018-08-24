@@ -4,7 +4,10 @@ let fs = require('fs');
 let sast = require('sast');
 let visit = require('unist-util-visit');
 
-const sourceFiles = ['node_modules/@lucca-front/scss/src/theming/components/_card.theme.scss', 'node_modules/@lucca-front/scss/src/theming/_commons.scss' ];
+const sourceFiles = [
+	'node_modules/@lucca-front/scss/src/theming/components/_card.theme.scss',
+	'node_modules/@lucca-front/scss/src/theming/_commons.scss',
+];
 let content = '';
 for (const file of sourceFiles) {
 	let fileContent = fs.readFileSync(file).toString();
@@ -30,8 +33,30 @@ visit(test, 'declaration', (n) => {
 });
 // finalContent += '}';
 
-fs.writeFile('./scss-theme-docs.json', JSON.stringify(obj), (err) => {
-	if(err) throw err;
-});
+// console.log(obj);
+console.log (JSON.stringify(forgeNode('root', obj)));
+// fs.writeFile('./scss-theme-docs.json', JSON.stringify(obj), (err) => {
+// 	if(err) throw err;
+// });
 
 
+
+function forgeNode(key, val) {
+	if (typeof val === "string") {
+		return forgeValueNode(key, val);
+	} else {
+		return forgeMapNode(key, val);
+	}
+}
+function forgeValueNode(key, val) {
+	return {
+		name: key,
+		value: val
+	};
+}
+function forgeMapNode(key, val) {
+	return {
+		name: key,
+		children: Object.keys(val).map(key => forgeNode(key, val[key])),
+	};
+}
