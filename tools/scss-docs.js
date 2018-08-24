@@ -3,41 +3,48 @@
 let fs = require('fs');
 let sast = require('sast');
 let visit = require('unist-util-visit');
+let glob = require('glob');
 
-const sourceFiles = [
-	'node_modules/@lucca-front/scss/src/theming/components/_card.theme.scss',
-	'node_modules/@lucca-front/scss/src/theming/_commons.scss',
-];
-let content = '';
-for (const file of sourceFiles) {
+const distDir = './api';
+const fileName = 'scss-theme.api.ts';
+const fullFilePath = `${distDir}/${fileName}`;
+
+const sourceFiles = glob.sync("node_modules/@lucca-front/scss/src/theming/**/*.scss", {
+	ignore: ['**/_components.scss', '**/_get-set.scss', '**/_utils.scss']
+});
+
+const content = sourceFiles.reduce((soFar, file) => {
 	let fileContent = fs.readFileSync(file).toString();
-	fileContent = fileContent.replace(/(\r\n|\n|\r|\t)/gm,"");
-	content += fileContent;
-}
+	fileContent = fileContent.replace(/(\r\n|\n|\r|\t)/gm, "");
+	soFar += fileContent;
+	return soFar;
+}, '');
 
-const test = sast.parse(content);
-// let finalContent = 'const SCSS_DOCS = {';
-let obj = {};
+const scssContent = sast.parse(content);
 
-visit(test, 'declaration', (n) => {
+let finalContent = 'const SCSS_DOCS = {';
+
+visit(scssContent, 'declaration', (n) => {
 	const decl = (sast.jsonify(n));
 	if(typeof decl.value === "string") {
 		return visit.SKIP;
 	}
-	obj[decl.name] = decl.value;
-	// finalContent += JSON.stringify(decl.name);
-	// finalContent += ':';
-	// finalContent += JSON.stringify(decl.value);
-	// finalContent += ',';
+	finalContent += JSON.stringify(decl.name);
+	finalContent += ':';
+	finalContent += JSON.stringify(forgeNode(decl.name, decl.value));
+	finalContent += ',';
 	return visit.SKIP;
 });
-// finalContent += '}';
 
-// console.log(obj);
-console.log (JSON.stringify(forgeNode('root', obj)));
-// fs.writeFile('./scss-theme-docs.json', JSON.stringify(obj), (err) => {
-// 	if(err) throw err;
-// });
+finalContent += '}; export default SCSS_DOCS;';
+
+if (!fs.existsSync(distDir)) {
+	fs.mkdirSync(distDir);
+}
+
+fs.writeFile(fullFilePath, finalContent, (err) => {
+	if(err) throw err;
+});
 
 
 
