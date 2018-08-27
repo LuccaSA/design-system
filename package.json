@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "prestart": "npm run generateapi",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",

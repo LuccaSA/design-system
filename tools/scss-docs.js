@@ -49,10 +49,11 @@ fs.writeFile(fullFilePath, finalContent, (err) => {
 
 
 function forgeNode(key, val) {
-	if (typeof val === "string") {
-		return forgeValueNode(key, val);
-	} else {
+	if (typeof val === "object") {
 		return forgeMapNode(key, val);
+	} else {
+		val = val.toString();
+		return forgeValueNode(key, val);
 	}
 }
 function forgeValueNode(key, val) {
