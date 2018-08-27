@@ -14,8 +14,8 @@ export class DsThemeDisplayerComponent implements OnInit {
 		return [].concat(...this.theme.map(
 			(acc: IThemeProperty) => this.flattenChildren(acc)));
 	}
-	constructor() { }
 
+	constructor() {}
 	ngOnInit(): void {}
 
 	private flattenChildren(prop: IThemeProperty, parentName: string = ''): IThemeProperty[] {
@@ -71,6 +71,9 @@ export class DsThemeDisplayerComponent implements OnInit {
 		let result;
 		let counter = 0;
 		while ( (result = regex.exec(property.value)) !== null) {
+			if (counter === 0 && result[1].startsWith('text')) {
+				path[0] = 'colors';
+			}
 			path.push(...result[1].split('.'));
 			counter++;
 		}
@@ -96,10 +99,11 @@ export class DsThemeDisplayerComponent implements OnInit {
 		let node = SCSS_DOCS[path[0]];
 		for (let i = 1; i < path.length; i++) {
 			node = node.children.find(prop => prop.name.includes(path[i]));
-			if (node === null) {
+			if (node === null || node === undefined) {
 				return;
 			}
 		}
 		return node.value;
 	}
+
 }
