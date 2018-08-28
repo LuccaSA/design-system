@@ -8,10 +8,10 @@ import SCSS_DOCS from '@ds-api/scss';
 	styleUrls: ['./theme-displayer.component.scss']
 })
 export class DsThemeDisplayerComponent implements OnInit {
-	@Input() theme: IThemeProperty[];
+	@Input() theme: IThemeProperty;
 	type: any = ThemePropertyType;
 	get flatTheme(): IThemeProperty[] {
-		return [].concat(...this.theme.map(
+		return [].concat(...this.theme.children.map(
 			(acc: IThemeProperty) => this.flattenChildren(acc)));
 	}
 
