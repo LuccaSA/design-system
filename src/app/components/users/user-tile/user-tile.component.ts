@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.component';
-import { IExample } from '../../../commons/structure/examples-browser/example.model';
+import { IExample } from '../../../commons/structure';
 declare var require: any;
 
 @Component({

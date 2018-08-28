@@ -10,7 +10,7 @@ import {
 	ChangeDetectorRef,
 	ChangeDetectionStrategy} from '@angular/core';
 import { TabComponent } from './tab/tab.component';
-import { IExample } from '../structure/examples-browser/example.model';
+import { IExample } from '../structure';
 
 @Component({
 	selector: 'ds-code-tabs',

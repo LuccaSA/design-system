@@ -1,6 +1,6 @@
 import { IExample } from "../examples-browser";
 
-export type DSPackages = 'SCSS' | 'ng';
+export type DSPackages = 'SCSS' | 'NG';
 
 export interface IPageInfos {
 	title: string;
