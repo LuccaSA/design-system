@@ -13,7 +13,7 @@
 		{{selectedExample.description}}
 	</p>
 	<ds-code-tabs [example]="selectedExample"></ds-code-tabs>
-	<ng-container class="extra-infos" *ngIf="selectedExample.extra">
-		<em><i class="lucca-icon">info</i> {{selectedExample.extra}}</em>
+	<ng-container *ngIf="selectedExample.extra">
+		<em class="extra-infos"><i class="lucca-icon">info</i><span [innerHtml]="selectedExample.extra | safeContent: 'html'"></span></em>
 	</ng-container>
 </div>
