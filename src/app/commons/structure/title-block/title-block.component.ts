@@ -8,6 +8,12 @@ import { IPageInfos } from './page-infos.model';
 })
 export class DsTitleBlockComponent implements OnInit {
 	@Input() infos: IPageInfos;
+	get packageStyleClass() {
+		if (!this.infos.packages) {
+			return;
+		}
+		return `palette-${this.infos.packages.toString().toLowerCase()}`;
+	}
 
 	constructor() { }
 
