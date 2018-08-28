@@ -3,19 +3,19 @@ import { DsCommonsModule } from '../../commons';
 import { CardsComponent } from './cards/cards.component';
 import { ContainersComponent } from './containers/containers.component';
 import { EmptyStatesComponent } from './empty-states/empty-states.component';
-import { GridComponent } from './grid/grid.component';
 import { StructureGuidelinesComponent } from './structure-guidelines/structure-guidelines.component';
 import { TemplatesComponent } from './templates/templates.component';
+import { DsGridModule } from './grid/grid.module';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
+		DsCommonsModule,
+		DsGridModule
 	],
 	entryComponents: [
 		CardsComponent,
 		ContainersComponent,
 		EmptyStatesComponent,
-		GridComponent,
 		StructureGuidelinesComponent,
 		TemplatesComponent,
 	],
@@ -23,7 +23,6 @@ import { TemplatesComponent } from './templates/templates.component';
 		CardsComponent,
 		ContainersComponent,
 		EmptyStatesComponent,
-		GridComponent,
 		StructureGuidelinesComponent,
 		TemplatesComponent,
 	]
