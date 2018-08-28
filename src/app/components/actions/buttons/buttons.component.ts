@@ -8,7 +8,7 @@ import SCSS_DOCS from '@ds-api/scss';
   styleUrls: ['./buttons.component.scss']
 })
 export class ButtonsComponent implements OnInit {
-	theme: IThemeProperty[] = SCSS_DOCS['button'].children;
+	theme: IThemeProperty = SCSS_DOCS['button'];
 
   constructor() { }
 
