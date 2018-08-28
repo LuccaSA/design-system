@@ -10,9 +10,7 @@ import SCSS_DOCS from '@ds-api/scss';
 export class CardsComponent implements OnInit {
 	theme: IThemeProperty = SCSS_DOCS['card'];
 
-	constructor() {
-		console.log(SCSS_DOCS["card"]);
-	}
+	constructor() {}
 
 	ngOnInit() {
 	}
