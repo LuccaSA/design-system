@@ -4,12 +4,7 @@
 </ds-title-block>
 
 <div class="card">
-  <div class="card-content">
-    <h2>Code</h2>
-    <code class="code mod-block">&lt;div class="container"&gt;...&lt;/div&gt;</code>
-    <p>
-      Vous pouvez réduire ou augmenter sa largeur grâce à un mod : <code class="code">mod-xs</code>, <code class="code">mod-sm</code>, <code class="code">mod-md</code>, <code class="code">mod-lg</code>, <code class="code">mod-xl</code>, <code class="code">mod-xxl</code> or <code class="code">mod-xxxl</code>
-    </p>
-    <p>Vous pouvez modifier la largeur de ces mods via votre <a href="https://github.com/LuccaSA/lucca-front/#breakpoints" target="_blank">thème</a>.</p>
-  </div>
+	<div class="card-content">
+		<ds-theme-displayer [theme]="infos.theme"></ds-theme-displayer>
+	</div>
 </div>
