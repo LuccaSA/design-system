@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IThemeProperty, ThemePropertyType } from '../../models/theme.model';
+import { IThemeProperty, ThemePropertyType } from '../../../models/theme.model';
 import SCSS_DOCS from '@ds-api/scss';
 
 @Component({

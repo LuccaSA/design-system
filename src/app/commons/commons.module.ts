@@ -3,18 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { ToolComponent } from './tool/tool.component';
 import { DsPageItemModule } from './page';
-import { DsExamplesBrowserModule } from './examples-browser';
 import { DsCodeTabsModule } from './code-tabs';
-import { DsThemeDisplayerModule } from './theme-displayer';
 import { DsDocApiModule } from './services/doc-api.module';
+import { DsStructureModule } from './structure';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsExamplesBrowserModule,
-		DsThemeDisplayerModule,
+		DsStructureModule,
 		DsDocApiModule
 	],
 	declarations: [
@@ -24,8 +22,7 @@ import { DsDocApiModule } from './services/doc-api.module';
 		ToolComponent,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsExamplesBrowserModule,
-		DsThemeDisplayerModule,
+		DsStructureModule
 	],
 	entryComponents: [
 		ToolComponent,
