@@ -6,6 +6,7 @@ import { DsPageItemModule } from './page';
 import { DsExamplesBrowserModule } from './examples-browser';
 import { DsCodeTabsModule } from './code-tabs';
 import { DsThemeDisplayerModule } from './theme-displayer';
+import { DsDocApiModule } from './services/doc-api.module';
 
 @NgModule({
 	imports: [
@@ -14,6 +15,7 @@ import { DsThemeDisplayerModule } from './theme-displayer';
 		DsCodeTabsModule,
 		DsExamplesBrowserModule,
 		DsThemeDisplayerModule,
+		DsDocApiModule
 	],
 	declarations: [
 		ToolComponent

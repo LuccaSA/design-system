@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { IThemeProperty } from '../../../models/theme.model';
-import SCSS_DOCS from '@ds-api/scss';
+import { DsDocApiService } from '../../../commons/services';
 
 @Component({
-  selector: 'ds-buttons',
-  templateUrl: './buttons.component.html',
-  styleUrls: ['./buttons.component.scss']
+	selector: 'ds-buttons',
+	templateUrl: './buttons.component.html',
+	styleUrls: ['./buttons.component.scss']
 })
 export class ButtonsComponent implements OnInit {
-	theme: IThemeProperty = SCSS_DOCS['button'];
+	theme = this.docApi.theme('button');
 
-  constructor() { }
+	constructor(private docApi: DsDocApiService) {}
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
 }

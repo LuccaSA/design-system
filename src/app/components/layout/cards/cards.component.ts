@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IThemeProperty } from '../../../models/theme.model';
-import SCSS_DOCS from '@ds-api/scss';
+import { DsDocApiService } from '../../../commons/services';
 
 @Component({
 	selector: 'ds-cards',
@@ -8,9 +7,9 @@ import SCSS_DOCS from '@ds-api/scss';
 	styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
-	theme: IThemeProperty = SCSS_DOCS['card'];
+	theme = this.docApi.theme('card');
 
-	constructor() {}
+	constructor(private docApi: DsDocApiService) {}
 
 	ngOnInit() {
 	}
