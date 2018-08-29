@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IThemeProperty, ThemePropertyType } from '../../../models/theme.model';
-import SCSS_DOCS from '@ds-api/scss';
+import { DsDocApiService } from '../../services';
 
 @Component({
 	selector: 'ds-theme-displayer',
@@ -15,7 +15,7 @@ export class DsThemeDisplayerComponent implements OnInit {
 			(acc: IThemeProperty) => this.flattenChildren(acc)));
 	}
 
-	constructor() {}
+	constructor(private docApi: DsDocApiService) {}
 	ngOnInit(): void {}
 
 	private flattenChildren(prop: IThemeProperty, parentName: string = ''): IThemeProperty[] {
@@ -93,10 +93,10 @@ export class DsThemeDisplayerComponent implements OnInit {
 	}
 
 	private findProperty(path: string[]): string {
-		if (!SCSS_DOCS.hasOwnProperty(path[0])) {
+		let node = this.docApi.theme(path[0]);
+		if (!node) {
 			return;
 		}
-		let node = SCSS_DOCS[path[0]];
 		for (let i = 1; i < path.length; i++) {
 			node = node.children.find(prop => prop.name.includes(path[i]));
 			if (node === null || node === undefined) {
