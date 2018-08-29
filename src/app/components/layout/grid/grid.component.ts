@@ -52,7 +52,7 @@ export class GridComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.component.html'),
 			},
 		],
-		theme: SCSS_DOCS['breakpoints'];
+		theme: SCSS_DOCS['breakpoints']
 	};
 	constructor() { }
 
