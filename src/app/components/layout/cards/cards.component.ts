@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DsDocApiService } from '../../../commons/services';
+import { DsDocApiService } from '../../../commons/doc-api';
 
 @Component({
 	selector: 'ds-cards',

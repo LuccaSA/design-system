@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IThemeProperty, ThemePropertyType } from '../../../models/theme.model';
-import { DsDocApiService } from '../../services';
+import { DsDocApiService } from '../../doc-api';
 
 @Component({
 	selector: 'ds-theme-displayer',

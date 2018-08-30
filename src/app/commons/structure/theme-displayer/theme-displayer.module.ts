@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DsThemeDisplayerComponent } from './theme-displayer.component';
-import { DsDocApiModule } from '../../services';
+import { DsDocApiModule } from '../../doc-api';
 
 @NgModule({
 	imports: [
