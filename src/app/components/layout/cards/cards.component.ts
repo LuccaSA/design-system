@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import SCSS_DOCS from '@ds-api/scss';
 import { ClickableExampleComponent } from './clickable/clickable.component';
 import { FooterExampleComponent } from './footer/footer.component';
 import { GreyExampleComponent } from './grey/grey.component';
 import { DisabledExampleComponent } from './disabled/disabled.component';
 import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.component';
+import { DsDocApiService } from '../../../commons/services';
 declare var require: any;
 @Component({
 	selector: 'ds-cards',
@@ -43,10 +43,10 @@ export class CardsComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./disabled/disabled.component.html'),
 			},
 		],
-		theme: SCSS_DOCS['card']
+		theme: this.docApi.theme('card')
 	};
 
-	constructor() {}
+	constructor(private docApi: DsDocApiService) {}
 
 	ngOnInit() {
 	}

@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ToolComponent } from './tool/tool.component';
 import { DsPageItemModule } from './page';
 import { DsCodeTabsModule } from './code-tabs';
+import { DsDocApiModule } from './services/doc-api.module';
 import { DsStructureModule } from './structure';
 
 @NgModule({
@@ -11,7 +12,8 @@ import { DsStructureModule } from './structure';
 		CommonModule,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsStructureModule
+		DsStructureModule,
+		DsDocApiModule
 	],
 	declarations: [
 		ToolComponent
