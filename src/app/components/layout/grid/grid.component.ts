@@ -6,7 +6,7 @@ import { VerticalExampleComponent } from './vertical/vertical.component';
 import { ReorganisationExampleComponent } from './reorganisation/reorganisation.component';
 import { HorizontalExampleComponent } from './horizontal/horizontal.component';
 import { AutoExampleComponent } from './auto/auto.component';
-import SCSS_DOCS from '@ds-api/scss';
+import { DsDocApiService } from '../../../commons/services';
 declare var require: any;
 @Component({
 	selector: 'ds-grid',
@@ -52,9 +52,9 @@ export class GridComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.component.html'),
 			},
 		],
-		theme: SCSS_DOCS['breakpoints']
+		theme: this.docApi.theme('breakpoints')
 	};
-	constructor() { }
+	constructor( private docApi: DsDocApiService ) { }
 
 	ngOnInit() {
 	}
