@@ -1,5 +1,6 @@
 <div class="textfield">
 	<lu-select [(ngModel)]="selectedExample" class="textfield-input">
+		<div *luDisplayer="let value">{{value.title}}</div>
 		<lu-option-picker>
 			<lu-option *ngFor="let example of examples" [value]="example">{{example.title}}</lu-option>
 		</lu-option-picker>
