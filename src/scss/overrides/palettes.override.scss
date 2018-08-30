@@ -2,7 +2,7 @@ $palettes: (
 	"scss": (
 		"color": #e696be,
     "text": #FFFFFF,
-		"transparent": rgba(#e696be, .1),
+		"see-through": rgba(#e696be, .1),
 		"dark": darken(#e696be, 5%),
 		"darker": darken(#e696be, 20%),
 		"light": lighten(#e696be, 5%),
@@ -11,7 +11,7 @@ $palettes: (
 	"ng": (
 		"color": #42A5F5,
 		"text": #FFFFFF,
-		"transparent": rgba(#42A5F5, .1),
+		"see-through": rgba(#42A5F5, .1),
 		"dark": darken(#42A5F5, 5%),
 		"darker": darken(#42A5F5, 20%),
 		"light": lighten(#42A5F5, 5%),

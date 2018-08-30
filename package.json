@@ -4,12 +4,14 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "prestart": "npm run generateapi",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build -c deploy"
+    "deploy": "ng build -c deploy",
+    "generateapi": "node tools/scss-docs.js"
   },
   "private": true,
   "dependencies": {
@@ -24,9 +26,9 @@
     "@angular/platform-browser": "6.0.6",
     "@angular/platform-browser-dynamic": "6.0.6",
     "@angular/router": "6.0.6",
-    "@lucca-front/icons": "^1.1.0-beta.1",
-    "@lucca-front/ng": "^1.1.0-beta.1",
-    "@lucca-front/scss": "^1.1.0-beta.1",
+    "@lucca-front/icons": "^1.1.0-beta.2",
+    "@lucca-front/ng": "^1.1.0-beta.2",
+    "@lucca-front/scss": "^1.1.0-beta.2",
     "@ngx-formly/core": "^2.0.0-beta.3",
     "core-js": "^2.5.7",
     "moment": "^2.22.2",
@@ -44,6 +46,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^6.0.113",
     "codelyzer": "^4.4.2",
+    "glob": "^7.1.2",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^2.0.4",
@@ -52,8 +55,10 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "sast": "^0.7.0",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "2.7.2"
+    "typescript": "2.7.2",
+    "unist-util-visit": "^1.4.0"
   }
 }
