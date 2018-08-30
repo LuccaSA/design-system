@@ -5,7 +5,7 @@ import { GreyExampleComponent } from './grey/grey.component';
 import { DisabledExampleComponent } from './disabled/disabled.component';
 import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.component';
-import { DsDocApiService } from '../../../commons/services';
+import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 @Component({
 	selector: 'ds-cards',

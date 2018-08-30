@@ -6,7 +6,7 @@ import { VerticalExampleComponent } from './vertical/vertical.component';
 import { ReorganisationExampleComponent } from './reorganisation/reorganisation.component';
 import { HorizontalExampleComponent } from './horizontal/horizontal.component';
 import { AutoExampleComponent } from './auto/auto.component';
-import { DsDocApiService } from '../../../commons/services';
+import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 @Component({
 	selector: 'ds-grid',

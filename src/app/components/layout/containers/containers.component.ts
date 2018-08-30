@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IPageInfos } from '../../../commons/structure/title-block';
 import { BasicExampleComponent } from './basic/basic.component';
-import { DsDocApiService } from '../../../commons/services';
+import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
