@@ -30,13 +30,16 @@ export class DsCodeTabsComponent implements AfterViewInit {
 		this.tsCode = this._example.tsCode;
 		this.renderComponent();
 	}
+	public isSplitView: boolean;
 	private _example: IExample;
 	private code: string;
 	private tsCode: string;
+	private activeTab: TabComponent;
 	constructor(private cd: ChangeDetectorRef, private cfr: ComponentFactoryResolver) {}
 
 	ngAfterViewInit() {
 		this.cd.detectChanges();
+		this.activeTab = this.tabsQL.first;
 	}
 
 	renderComponent() {
@@ -48,6 +51,17 @@ export class DsCodeTabsComponent implements AfterViewInit {
 	public selectTab(selectedTab: TabComponent) {
 		this.tabsQL.forEach(tab => tab.active = false);
 		selectedTab.active = true;
+		this.activeTab = selectedTab;
+		this.isSplitView = false;
+	}
+
+	public toggleSplitView() {
+		if (!this.isSplitView) {
+			this.tabsQL.forEach(tab => tab.active = true);
+			this.isSplitView = true;
+		} else {
+			this.selectTab(this.activeTab);
+		}
 	}
 
 }

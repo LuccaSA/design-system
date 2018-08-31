@@ -1,3 +1,5 @@
+@import '~@lucca-front/scss/src/theming.overridable';
+@import '~@lucca-front/scss/src/mixins';
 ul, li {
   list-style: none;
 }
@@ -13,6 +15,41 @@ ul {
 	margin-left: 0;
 }
 
+.split-toggle {
+	margin-left: auto;
+}
+
 .tab-content {
-  margin: 1em 0;
+  margin: 1em .5em;
+}
+
+.tabs {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+ds-tab {
+	display: block;
+	&.mod-splitView {
+		display: inline-block;
+		@include fakeBorder(1px, _color("ds", "text"));
+		flex: 0 0 auto;
+		&.display-tab {
+			width: 40%
+		}
+		&.html-tab {
+			width: 60%;
+		}
+		&.ts-tab {
+			width: 100%;
+		}
+	}
+}
+
+.tab-title {
+	padding: .2rem .5rem;
+	background: _color("ds");
+	color: _color("ds", "text");
+	@include fakeBorder(1px, _color("ds", "text"));
+	font-weight: 600;
 }
