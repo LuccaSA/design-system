@@ -1,46 +1,6 @@
+<ds-title-block [infos]="infos"></ds-title-block>
 <div class="card">
-  <div class="card-dependencies">
-    <label class="label palette-scss">SCSS</label>
-  </div>
-  <div class="card-content">
-    <h1 class="mod-headline">Menu</h1>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-    <h2>Basique</h2>
-    <nav class="menu">
-  		<a href="#" class="menu-link is-active">Lien actif</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-  	</nav>
-<code class="code mod-block">&lt;nav class="menu"&gt;
-	&lt;a href="#" class="menu-link is-active"&gt;...&lt;/a&gt;
-	&lt;a href="#" class="menu-link"&gt;...&lt;/a&gt;
-&lt;/nav&gt;
-</code>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-content">
-    <h2>Palette</h2>
-    <nav class="menu palette-secondary">
-      <a href="#" class="menu-link is-active">Lien actif</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-  		<a href="#" class="menu-link">Lien</a>
-    </nav>
-
-<code class="code mod-block">&lt;nav class="menu palette-secondary"&gt;
-  &lt;a href="#" class="menu-link is-active"&gt;...&lt;/a&gt;
-  &lt;a href="#" class="menu-link"&gt;...&lt;/a&gt;
-&lt;/nav&gt;
-</code>
-    <em><i class="lucca-icon">info</i> Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a></em>
-  </div>
+	<div class="card-content">
+		<ds-theme-displayer [theme]="infos.theme"></ds-theme-displayer>
+	</div>
 </div>

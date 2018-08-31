@@ -1,15 +1,28 @@
 import { Component, OnInit } from '@angular/core';
+import { BasicExampleComponent } from './basic/basic.component';
+import { IPageInfos } from '../../../commons/structure';
+declare var require: any;
 
 @Component({
-  selector: 'ds-breadcrumbs',
-  templateUrl: './breadcrumbs.component.html',
-  styleUrls: ['./breadcrumbs.component.scss']
+	selector: 'ds-breadcrumbs',
+	templateUrl: './breadcrumbs.component.html',
+	styleUrls: ['./breadcrumbs.component.scss']
 })
 export class BreadcrumbsComponent implements OnInit {
+	infos: IPageInfos = {
+		title: 'Menu',
+		packages: ['SCSS'],
+		examples: [
+			{
+				title: 'Basic',
+				component: BasicExampleComponent,
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
+			},
+		]
+	};
+	constructor() { }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
 }
