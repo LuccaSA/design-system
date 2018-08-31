@@ -15,8 +15,8 @@
     "generateapi": "node tools/scss-docs.js",
     "build:schematics": "tsc -p schematics",
     "postbuild:schematics": "copyfiles schematics/src/collection.json schematics/dist -f",
-    "link:schematics": "cd schematics && npm run link",
-    "postlink:schematics": "npm run link @design-system/schematics"
+    "link:schematics": "cd schematics && npm link",
+    "postlink:schematics": "npm link @design-system/schematics"
   },
   "private": true,
   "dependencies": {
