@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "newProjectRoot": "projects",
+  "newProjectRoot": "libraries",
   "projects": {
     "design-system": {
       "root": "",
@@ -140,6 +140,11 @@
     },
     "@schematics/angular:directive": {
       "prefix": "ds"
+    },
+    "@design-system/schematics:example": {
     }
+  },
+  "cli": {
+    "defaultCollection": "@design-system/schematics"
   }
 }

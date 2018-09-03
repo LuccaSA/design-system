@@ -1,0 +1,11 @@
+{
+  "name": "@design-system/schematics",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "keywords": [
+    "schematics"
+  ],
+  "author": "lucien bertin <me@lucienbertin.com>",
+  "license": "MIT",
+  "schematics": "./collection.json"
+}
