@@ -1,10 +1,53 @@
-import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
+import { strings } from '@angular-devkit/core';
+import {
+	Rule,
+	SchematicContext,
+	Tree,
+	apply,
+	url,
+	template,
+	move,
+	chain,
+	branchAndMerge,
+	mergeWith } from '@angular-devkit/schematics';
+import { getWorkspace } from '@schematics/angular/utility/config';
+import { parseName } from '@schematics/angular/utility/parse-name';
+import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
+import { ExampleOptions } from './schema';
+import { addDeclarationToNgModule } from '../utils/file-manipulation';
 
-
-// You don't have to export the function as default. You can also have more than one rule factory
-// per file.
-export default function example(): Rule {
+export default function example(options: ExampleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
-		return tree;
+		const workspace = getWorkspace(tree);
+		if (!options.project) {
+			options.project = Object.keys(workspace.projects)[0];
+		}
+		const project = workspace.projects[options.project];
+
+		if (options.path === undefined) {
+			const projectDirName = project.projectType === 'application' ? 'app' : 'lib';
+			options.path = `/${project.root}/src/${projectDirName}`;
+		}
+
+		options.module = findModuleFromOptions(tree, options);
+
+		const parsedPath = parseName(options.path, options.name);
+		options.name = parsedPath.name;
+		options.path = parsedPath.path;
+
+		const templateSource = apply(url('./files'), [
+			template({
+				...strings,
+				...options
+			}),
+			move(options.path)
+		]);
+		const rule = chain([
+			branchAndMerge(chain([
+				addDeclarationToNgModule(options),
+				mergeWith(templateSource)
+			]))
+		]);
+		return rule(tree, _context);
 	};
 }
