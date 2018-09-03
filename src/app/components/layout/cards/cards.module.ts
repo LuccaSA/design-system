@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { CardsComponent } from './cards.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { ClickableExampleComponent } from './clickable/clickable.component';
-import { DisabledExampleComponent } from './disabled/disabled.component';
-import { FooterExampleComponent } from './footer/footer.component';
-import { GreyExampleComponent } from './grey/grey.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { ClickableExampleComponent } from './clickable/clickable.example';
+import { DisabledExampleComponent } from './disabled/disabled.example';
+import { FooterExampleComponent } from './footer/footer.example';
+import { GreyExampleComponent } from './grey/grey.example';
 
 @NgModule({
 	imports: [ DsCommonsModule ],

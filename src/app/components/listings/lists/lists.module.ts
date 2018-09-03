@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { ListsComponent } from './lists.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { ClickableExampleComponent } from './clickable/clickable.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { ClickableExampleComponent } from './clickable/clickable.example';
 
 @NgModule({
 	imports: [DsCommonsModule],

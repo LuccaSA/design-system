@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { BoxesComponent } from './boxes.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { ToggleExampleComponent } from './toggle/toggle.component';
-import { KillableExampleComponent } from './killable/killable.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { ToggleExampleComponent } from './toggle/toggle.example';
+import { KillableExampleComponent } from './killable/killable.example';
 
 @NgModule({
 	imports: [DsCommonsModule],

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { BasicExampleComponent } from './basic/basic.component';
+import { BasicExampleComponent } from './basic/basic.example';
 import { ContainersComponent } from './containers.component';
 
 @NgModule({

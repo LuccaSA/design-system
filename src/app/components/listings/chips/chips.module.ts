@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { ChipsComponent } from './chips.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { UnkillableExampleComponent } from './unkillable/unkillable.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { UnkillableExampleComponent } from './unkillable/unkillable.example';
 
 @NgModule({
 	imports: [DsCommonsModule],

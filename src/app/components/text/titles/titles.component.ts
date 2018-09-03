@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IPageInfos } from '../../../commons/structure';
-import { BasicExampleComponent } from './basic/basic.component';
+import { BasicExampleComponent } from './basic/basic.example';
 declare var require: any;
 
 @Component({
@@ -16,7 +16,7 @@ export class TitlesComponent implements OnInit {
 			{
 				title: 'Basic',
 				component: BasicExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html'),
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 			},
 		]
 	};

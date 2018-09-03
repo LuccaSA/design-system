@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { LabelsComponent } from './labels.component';
-import { BasicExampleComponent } from './basic/basic.component';
+import { BasicExampleComponent } from './basic/basic.example';
 
 @NgModule({
 	imports: [DsCommonsModule],

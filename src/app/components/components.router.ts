@@ -18,7 +18,7 @@ import { CheckboxesComponent } from './form/checkboxes/checkboxes.component';
 import { SwitchesComponent } from './form/switches/switches.component';
 import { FileComponent } from './form/file/file.component';
 import { FramedComponent } from './form/framed/framed.component';
-import { ActionGuidelinesComponent } from './actions/action-guidelines/action-guidelines.component';
+import { GeneralGuidelinesComponent } from './actions/general-guidelines/general-guidelines.component';
 import { ButtonsComponent } from './actions/buttons/buttons.component';
 import { LinksComponent } from './actions/links/links.component';
 import { ActionIconsComponent } from './actions/action-icons/action-icons.component';
@@ -69,7 +69,7 @@ const filePage = new Page('file', FileComponent, 'Fichier', formGroup);
 const framedPage = new Page('framed', FramedComponent, 'Framed', formGroup);
 
 const actionGroup = new Page('action', null, 'Actions');
-const actionPage = new Page('action', ActionGuidelinesComponent, 'Guidelines', actionGroup);
+const actionPage = new Page('action', GeneralGuidelinesComponent, 'Guidelines', actionGroup);
 const buttonPage = new Page('button', ButtonsComponent, 'Bouton', actionGroup);
 const linkPage = new Page('link', LinksComponent, 'Lien', actionGroup);
 const actionIconPage = new Page('action-icon', ActionIconsComponent, "Icones d'action", actionGroup);

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BasicExampleComponent } from './basic/basic.component';
+import { BasicExampleComponent } from './basic/basic.example';
 import { IPageInfos } from '../../../commons/structure';
 declare var require: any;
 
@@ -16,7 +16,7 @@ export class BreadcrumbsComponent implements OnInit {
 			{
 				title: 'Basic',
 				component: BasicExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
 			},
 		]
 	};

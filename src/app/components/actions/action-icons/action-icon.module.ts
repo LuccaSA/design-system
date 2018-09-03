@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { ActionIconsComponent } from './action-icons.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { StatusExampleComponent } from './status/status.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { StatusExampleComponent } from './status/status.example';
 
 @NgModule({
 	imports: [ DsCommonsModule ],

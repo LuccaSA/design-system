@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
 import { ButtonsComponent } from './buttons.component';
-import { BasicExampleComponent } from './basic/basic.component';
-import { PalettesExampleComponent } from './palettes/palettes.component';
-import { StatusExampleComponent } from './status/status.component';
-import { GroupsExampleComponent } from './groups/groups.component';
-import { RadioExampleComponent } from './radio/radio.component';
-import { SizesExampleComponent } from './sizes/sizes.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { PalettesExampleComponent } from './palettes/palettes.example';
+import { StatusExampleComponent } from './status/status.example';
+import { GroupsExampleComponent } from './groups/groups.example';
+import { RadioExampleComponent } from './radio/radio.example';
+import { SizesExampleComponent } from './sizes/sizes.example';
 @NgModule({
 	imports: [ DsCommonsModule ],
 	declarations: [
