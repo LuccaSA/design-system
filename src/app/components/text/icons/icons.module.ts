@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IconsComponent } from './icons.component';
-import { DsCommonsModule } from '../../commons';
+import { DsCommonsModule } from '../../../commons';
 
 @NgModule({
 	imports: [
@@ -13,4 +13,4 @@ import { DsCommonsModule } from '../../commons';
 		IconsComponent
 	]
 })
-export class IconsModule { }
+export class DsIconsModule { }

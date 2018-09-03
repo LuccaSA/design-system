@@ -10,6 +10,7 @@ import { TextGuidelinesComponent } from './text/text-guidelines/text-guidelines.
 import { TitlesComponent } from './text/titles/titles.component';
 import { BasicTextComponent } from './text/basic-text/basic-text.component';
 import { LabelsComponent } from './text/labels/labels.component';
+import { IconsComponent } from './text/icons/icons.component';
 import { FormGuidelinesComponent } from './form/form-guidelines/form-guidelines.component';
 import { TextfieldsComponent } from './form/textfields/textfields.component';
 import { SelectComponent } from './form/select/select.component';
@@ -32,11 +33,10 @@ import { CalloutsComponent } from './feedback/callouts/callouts.component';
 import { BoxesComponent } from './feedback/boxes/boxes.component';
 import { LoadingsComponent } from './loaders/loadings/loadings.component';
 import { ProgressComponent } from './loaders/progress/progress.component';
-import { IconsComponent } from './icons/icons.component';
 import { UtilitiesComponent } from './misc/utilities/utilities.component';
 import { FunctionsComponent } from './misc/functions/functions.component';
 import { MixinsComponent } from './misc/mixins/mixins.component';
-import { AnimationsComponent } from './animations/animations.component';
+import { AnimationsComponent } from './misc/animations/animations.component';
 import { UserTileComponent } from './users/user-tile/user-tile.component';
 import { Page, Pages } from '../commons/page/page.model';
 
@@ -57,6 +57,7 @@ const textPage = new Page('guidelines', TextGuidelinesComponent, 'Guidelines', t
 const titlePage = new Page('title', TitlesComponent, 'Titres', textGroup);
 const basicTextPage = new Page('basic', BasicTextComponent, 'Typographie', textGroup);
 const labelPage = new Page('label', LabelsComponent, 'Labels', textGroup);
+const iconsPage = new Page('icons', IconsComponent, 'Icones', textGroup);
 
 const formGroup = new Page('form', null, 'Formulaires');
 const formPage = new Page('form-guidelines', FormGuidelinesComponent, 'Formulaires', formGroup);
@@ -79,7 +80,8 @@ const tablePage = new Page('table', TablesComponent, 'Tableau', listingGroup);
 const listPage = new Page('list', ListsComponent, 'Listes', listingGroup);
 const chipPage = new Page('chip', ChipsComponent, 'Chip', listingGroup);
 
-const userTilePage = new Page('user', UserTileComponent, 'User');
+const userGroup = new Page('user', null, 'Utilisateur');
+const userTilePage = new Page('user-tile', UserTileComponent, 'User tile', userGroup);
 
 const overlayGroup = new Page('overlay', null, 'Overlay');
 const modalPage = new Page('modal', ModalsComponent, 'Modale', overlayGroup);
@@ -94,14 +96,11 @@ const loadingGroup = new Page('loading', null, 'Chargement')
 const loadingPage = new Page('loader', LoadingsComponent, 'Loader', loadingGroup);
 const progressPage = new Page('progress', ProgressComponent, 'Progression', loadingGroup);
 
-const iconsPage = new Page('icons', IconsComponent, 'Icones');
-
 const utilitiesGroup = new Page('utilities', null, 'Utilitaires');
+const animationsPage = new Page('animations', AnimationsComponent, 'Animations CSS', utilitiesGroup);
 const utilitiesPage = new Page('classes', UtilitiesComponent, 'Classes CSS', utilitiesGroup);
 const functionsPage = new Page('functions', FunctionsComponent, 'Fonctions SCSS', utilitiesGroup);
 const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins SCSS', utilitiesGroup);
-
-const animationsPage = new Page('animations', AnimationsComponent, 'Animations');
 
 export const componentsPages = new Pages('components', [
 	structureGroup,
@@ -121,6 +120,7 @@ export const componentsPages = new Pages('components', [
 	titlePage,
 	basicTextPage,
 	labelPage,
+	iconsPage,
 
 	formGroup,
 	formPage,
@@ -143,6 +143,7 @@ export const componentsPages = new Pages('components', [
 	listPage,
 	chipPage,
 
+	userGroup,
 	userTilePage,
 
 	overlayGroup,
@@ -158,12 +159,10 @@ export const componentsPages = new Pages('components', [
 	loadingPage,
 	progressPage,
 
-	iconsPage,
-
 	utilitiesGroup,
+	animationsPage,
 	utilitiesPage,
 	functionsPage,
 	mixinsPage,
 
-	animationsPage
 ], structurePage);

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { DsCommonsModule } from '../../commons';
+import { DsCommonsModule } from '../../../commons';
 import { AnimationsComponent } from './animations.component';
 
 @NgModule({
@@ -14,4 +13,4 @@ import { AnimationsComponent } from './animations.component';
 		AnimationsComponent,
 	]
 })
-export class AnimationsModule { }
+export class DsAnimationsModule { }
