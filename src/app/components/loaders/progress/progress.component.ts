@@ -3,6 +3,7 @@ import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.example';
 import { IndeterminateExampleComponent } from './indeterminate/indeterminate.example';
 import { StatusExampleComponent } from './status/status.example';
+declare var require: any;
 
 @Component({
 	selector: 'ds-progress',
