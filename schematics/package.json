@@ -7,8 +7,5 @@
   ],
   "author": "lucien bertin <me@lucienbertin.com>",
   "license": "MIT",
-  "schematics": "./dist/collection.json",
-  "files": [
-    "dist"
-  ]
+  "schematics": "./collection.json"
 }
