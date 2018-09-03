@@ -1,0 +1,12 @@
+<div class="form-group">
+	<div class="textfield">
+		<input class="textfield-input" id="inlinevalidation0" type="text" placeholder="Défocusez-moi" (blur)="validationFocus($event.target)">
+		<label class="textfield-label" for="inlinevalidation0">Loading > valid</label>
+	</div>
+</div>
+<div class="form-group">
+	<div class="textfield">
+		<input class="textfield-input" id="inlinevalidation1" type="text" placeholder="Défocusez-moi" (blur)="unvalidationFocus($event.target)">
+		<label class="textfield-label" for="inlinevalidation1">Loading > invalid</label>
+	</div>
+</div>

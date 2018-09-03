@@ -7,11 +7,12 @@ import { FramedComponent } from './framed/framed.component';
 import { RadiosComponent } from './radios/radios.component';
 import { SelectComponent } from './select/select.component';
 import { SwitchesComponent } from './switches/switches.component';
-import { TextfieldsComponent } from './textfields/textfields.component';
+import { DsTextfieldsModule } from './textfields/textfields.module';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
+		DsTextfieldsModule
 	],
 	entryComponents: [
 		CheckboxesComponent,
@@ -20,8 +21,7 @@ import { TextfieldsComponent } from './textfields/textfields.component';
 		FramedComponent,
 		RadiosComponent,
 		SelectComponent,
-		SwitchesComponent,
-		TextfieldsComponent
+		SwitchesComponent
 	],
 	declarations: [
 		CheckboxesComponent,
@@ -30,8 +30,7 @@ import { TextfieldsComponent } from './textfields/textfields.component';
 		FramedComponent,
 		RadiosComponent,
 		SelectComponent,
-		SwitchesComponent,
-		TextfieldsComponent
+		SwitchesComponent
 	]
 })
 export class FormModule { }
