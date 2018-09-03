@@ -140,6 +140,11 @@
     },
     "@schematics/angular:directive": {
       "prefix": "ds"
+    },
+    "@design-system/schematics:example": {
     }
+  },
+  "cli": {
+    "defaultCollection": "@design-system/schematics"
   }
 }
