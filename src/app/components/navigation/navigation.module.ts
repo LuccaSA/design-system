@@ -1,19 +1,13 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
-import { MenuComponent } from './menu/menu.component';
+import { DsMenuModule } from './menu/menu.module';
+import { DsBreadcrumbsModule } from './breadcrumbs/breadcrumbs.module';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
-	],
-	entryComponents: [
-		BreadcrumbsComponent,
-		MenuComponent,
-	],
-	declarations: [
-		BreadcrumbsComponent,
-		MenuComponent,
+		DsCommonsModule,
+		DsMenuModule,
+		DsBreadcrumbsModule
 	]
 })
 export class NavigationModule { }

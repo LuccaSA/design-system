@@ -1,25 +1,25 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
 import { BasicTextComponent } from './basic-text/basic-text.component';
-import { LabelsComponent } from './labels/labels.component';
 import { TextGuidelinesComponent } from './text-guidelines/text-guidelines.component';
-import { TitlesComponent } from './titles/titles.component';
+import { DsTitlesModule } from './titles/titles.module';
+import { DsLabelsModule } from './labels/labels.module';
+import { DsIconsModule } from './icons/icons.module';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
+		DsCommonsModule,
+		DsTitlesModule,
+		DsLabelsModule,
+		DsIconsModule
 	],
 	entryComponents: [
 		BasicTextComponent,
-		LabelsComponent,
 		TextGuidelinesComponent,
-		TitlesComponent,
 	],
 	declarations: [
 		BasicTextComponent,
-		LabelsComponent,
 		TextGuidelinesComponent,
-		TitlesComponent,
 	]
 })
 export class TextModule { }

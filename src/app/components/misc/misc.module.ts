@@ -3,10 +3,12 @@ import { DsCommonsModule } from '../../commons';
 import { FunctionsComponent } from './functions/functions.component';
 import { MixinsComponent } from './mixins/mixins.component';
 import { UtilitiesComponent } from './utilities/utilities.component';
+import { DsAnimationsModule } from './animations/animations.module';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
+		DsAnimationsModule,
 	],
 	entryComponents: [
 		FunctionsComponent,

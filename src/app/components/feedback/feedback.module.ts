@@ -1,22 +1,15 @@
 import { NgModule } from '@angular/core';
-import { BoxesComponent } from './boxes/boxes.component';
-import { CalloutsComponent } from './callouts/callouts.component';
-import { ToastsComponent } from './toasts/toasts.component';
 import { DsCommonsModule } from '../../commons';
+import { DsBoxesModule } from './boxes/boxes.module';
+import { DsCalloutsModule } from './callouts/callouts.module';
+import { DsToastsModule } from './toasts/toasts.module';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
+		DsBoxesModule,
+		DsCalloutsModule,
+		DsToastsModule
 	],
-	entryComponents: [
-		BoxesComponent,
-		CalloutsComponent,
-		ToastsComponent
-	],
-	declarations: [
-		BoxesComponent,
-		CalloutsComponent,
-		ToastsComponent
-	]
 })
 export class FeedbackModule { }

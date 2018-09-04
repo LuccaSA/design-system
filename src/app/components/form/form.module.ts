@@ -1,37 +1,31 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { CheckboxesComponent } from './checkboxes/checkboxes.component';
-import { FileComponent } from './file/file.component';
 import { FormGuidelinesComponent } from './form-guidelines/form-guidelines.component';
-import { FramedComponent } from './framed/framed.component';
-import { RadiosComponent } from './radios/radios.component';
 import { SelectComponent } from './select/select.component';
-import { SwitchesComponent } from './switches/switches.component';
-import { TextfieldsComponent } from './textfields/textfields.component';
+import { DsTextfieldsModule } from './textfields/textfields.module';
+import { DsRadiosModule } from './radios/radios.module';
+import { DsCheckboxesModule } from './checkboxes/checkboxes.module';
+import { DsSwitchesModule } from './switches/switches.module';
+import { DsFramedModule } from './framed/framed.module';
+import { DsFileModule } from './file/file.module';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
+		DsTextfieldsModule,
+		DsRadiosModule,
+		DsCheckboxesModule,
+		DsSwitchesModule,
+		DsFramedModule,
+		DsFileModule
 	],
 	entryComponents: [
-		CheckboxesComponent,
-		FileComponent,
 		FormGuidelinesComponent,
-		FramedComponent,
-		RadiosComponent,
 		SelectComponent,
-		SwitchesComponent,
-		TextfieldsComponent
 	],
 	declarations: [
-		CheckboxesComponent,
-		FileComponent,
 		FormGuidelinesComponent,
-		FramedComponent,
-		RadiosComponent,
 		SelectComponent,
-		SwitchesComponent,
-		TextfieldsComponent
 	]
 })
 export class FormModule { }

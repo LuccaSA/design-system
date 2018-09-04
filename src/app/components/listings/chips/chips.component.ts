@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BasicExampleComponent } from './basic/basic.component';
-import { UnkillableExampleComponent } from './unkillable/unkillable.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { UnkillableExampleComponent } from './unkillable/unkillable.example';
 import { IPageInfos } from '../../../commons/structure/title-block';
 declare var require: any;
 
@@ -19,12 +19,12 @@ export class ChipsComponent implements OnInit {
 				title: 'Basic',
 				description: 'A basic description on how you should use chips',
 				component: BasicExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html')
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
 			},
 			{
 				title: 'Unkillable',
 				component: UnkillableExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./unkillable/unkillable.component.html'),
+				code: require('!!prismjs-loader?lang=markup!./unkillable/unkillable.example.html'),
 				extra: 'Ce mod suffit à cacher le bouton de suppression',
 			}
 		]

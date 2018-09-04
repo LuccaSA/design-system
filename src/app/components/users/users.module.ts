@@ -1,23 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { UserTileComponent } from './user-tile/user-tile.component';
-import { LuUserModule } from '@lucca-front/ng';
 import { DsCommonsModule } from '../../commons';
-import { BasicExampleComponent } from './user-tile/basic/basic.component';
+import { DsUserTileModule } from './user-tile/user-tile.module';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		LuUserModule,
-		DsCommonsModule
+		DsCommonsModule,
+		DsUserTileModule
 	],
-	declarations: [
-		UserTileComponent,
-		BasicExampleComponent
-	],
-	entryComponents: [
-		UserTileComponent,
-		BasicExampleComponent
-	]
 })
 export class UsersModule { }

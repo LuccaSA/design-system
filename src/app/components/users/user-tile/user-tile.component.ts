@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BasicExampleComponent } from './basic/basic.component';
-import { IExample } from '../../../commons/structure';
+import { BasicExampleComponent } from './basic/basic.example';
+import { IExample, IPageInfos } from '../../../commons/structure';
 declare var require: any;
 
 @Component({
@@ -9,17 +9,18 @@ declare var require: any;
 	styleUrls: ['./user-tile.component.scss']
 })
 export class UserTileComponent  {
-	public basicCode = require('!!prismjs-loader?lang=markup!./basic/basic.component.html');
-	public basicTsCode = require('!!prismjs-loader?lang=typescript!./basic/basic.component.ts');
-
-	basic: IExample = {
-		title: 'Basic',
-		component: BasicExampleComponent,
-		code: this.basicCode,
-		tsCode: this.basicTsCode
+	infos: IPageInfos = {
+		title: 'User Tile',
+		packages: ['NG'],
+		examples: [
+			{
+				title: 'Basique',
+				component: BasicExampleComponent,
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				tsCode: require('!!prismjs-loader?lang=markup!./basic/basic.example.ts'),
+			},
+		]
 	};
-
-	examples: Array<IExample> = [this.basic];
 	constructor() { }
 
 }

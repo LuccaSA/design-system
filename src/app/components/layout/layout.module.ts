@@ -1,29 +1,27 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { CardsComponent } from './cards/cards.component';
-import { ContainersComponent } from './containers/containers.component';
-import { EmptyStatesComponent } from './empty-states/empty-states.component';
-import { GridComponent } from './grid/grid.component';
 import { StructureGuidelinesComponent } from './structure-guidelines/structure-guidelines.component';
 import { TemplatesComponent } from './templates/templates.component';
+import { DsGridModule } from './grid/grid.module';
+import { DsCardsModule } from './cards/cards.module';
+import { DsEmptyStatesModule } from './empty-states/empty-states.module';
+import { DsContainersModule } from './containers/containers.module';
+import { DsNavSideModule } from './nav-side/nav-side.module';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
+		DsCommonsModule,
+		DsNavSideModule,
+		DsGridModule,
+		DsCardsModule,
+		DsEmptyStatesModule,
+		DsContainersModule,
 	],
 	entryComponents: [
-		CardsComponent,
-		ContainersComponent,
-		EmptyStatesComponent,
-		GridComponent,
 		StructureGuidelinesComponent,
 		TemplatesComponent,
 	],
 	declarations: [
-		CardsComponent,
-		ContainersComponent,
-		EmptyStatesComponent,
-		GridComponent,
 		StructureGuidelinesComponent,
 		TemplatesComponent,
 	]

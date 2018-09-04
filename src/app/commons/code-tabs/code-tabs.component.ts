@@ -30,10 +30,11 @@ export class DsCodeTabsComponent implements AfterViewInit {
 		this.tsCode = this._example.tsCode;
 		this.renderComponent();
 	}
-	public isSplitView: boolean;
+	isSplitView: boolean;
+	code: string;
+	tsCode: string;
+
 	private _example: IExample;
-	private code: string;
-	private tsCode: string;
 	private activeTab: TabComponent;
 	constructor(private cd: ChangeDetectorRef, private cfr: ComponentFactoryResolver) {}
 

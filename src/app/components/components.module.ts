@@ -10,16 +10,12 @@ import { LoadersModule } from './loaders/loaders.module';
 import { MiscModule } from './misc/misc.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { TextModule } from './text/text.module';
-import { IconsModule } from './icons/icons.module';
-import { AnimationsModule } from './animations/animations.module';
 
 @NgModule({
 	imports: [
 		ActionsModule,
-		AnimationsModule,
 		FeedbackModule,
 		FormModule,
-		IconsModule,
 		LayoutModule,
 		ListingsModule,
 		LoadersModule,

@@ -1,19 +1,13 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { LoadingsComponent } from './loadings/loadings.component';
-import { ProgressComponent } from './progress/progress.component';
+import { DsLoadingsModule } from './loadings/loadings.module';
+import { DsProgressModule } from './progress/progress.module';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
-	],
-	entryComponents: [
-		LoadingsComponent,
-		ProgressComponent,
-	],
-	declarations: [
-		LoadingsComponent,
-		ProgressComponent,
+		DsCommonsModule,
+		DsLoadingsModule,
+		DsProgressModule
 	]
 })
 export class LoadersModule { }

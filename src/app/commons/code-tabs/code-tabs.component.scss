@@ -30,6 +30,7 @@ ul {
 }
 ds-tab {
 	display: block;
+	width: 100%;
 	&.mod-splitView {
 		display: inline-block;
 		@include fakeBorder(1px, _color("ds", "text"));
