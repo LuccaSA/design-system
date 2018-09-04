@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IExample } from './example.model';
+import { DsExampleService } from './example.service';
 
 @Component({
 	selector: 'ds-examples-browser',
@@ -10,12 +11,16 @@ export class ExamplesBrowserComponent implements OnInit {
 	@Input() examples: Array<IExample>;
 	selectedExample: IExample;
 
-	constructor() { }
+	constructor(private exService: DsExampleService) {}
 
 	ngOnInit() {
-		if (this.examples.length > 0) {
-			this.selectedExample = this.examples[0];
-		}
+		this.selectedExample = this.exService.getCurrentExample(this.examples);
 	}
+
+	onModelChange() {
+		this.exService.setCurrentExample(this.selectedExample);
+	}
+
+
 
 }

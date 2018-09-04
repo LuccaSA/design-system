@@ -5,6 +5,7 @@ import { LuSelectModule, LuOptionModule, LuInputDisplayerModule } from '@lucca-f
 import { ExamplesBrowserComponent } from './examples-browser.component';
 import { DsCodeTabsModule } from '../../code-tabs/code-tabs.module';
 import { DsSafeContentModule } from '../../pipes/safe-content';
+import { DsExampleService } from './example.service';
 
 @NgModule({
 	imports: [
@@ -22,5 +23,8 @@ import { DsSafeContentModule } from '../../pipes/safe-content';
 	exports: [
 		ExamplesBrowserComponent
 	],
+	providers: [
+		DsExampleService
+	]
 })
 export class DsExamplesBrowserModule {}
