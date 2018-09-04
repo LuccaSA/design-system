@@ -14,13 +14,13 @@
 	<ds-tab tabTitle="HTML" class="html-tab" [class.mod-splitView]="isSplitView">
 		<div class="tab-title" *ngIf="isSplitView">HTML</div>
 		<div class="tab-content">
-			<pre><code [innerHTML]="code"></code></pre>
+			<pre><code [innerHTML]="code" class="language-markup"></code></pre>
 		</div>
 	</ds-tab>
 	<ds-tab class="ts-tab" tabTitle="Typescript" *ngIf="tsCode" [class.mod-splitView]="isSplitView">
 		<div class="tab-title" *ngIf="isSplitView">Typescript</div>
 		<div class="tab-content">
-			<pre><code [innerHTML]="tsCode"></code></pre>
+			<pre><code [innerHTML]="tsCode" class="language-typescript"></code></pre>
 		</div>
 	</ds-tab>
 </div>
