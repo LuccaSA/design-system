@@ -39,9 +39,11 @@ import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './misc/animations/animations.component';
 import { UserTileComponent } from './users/user-tile/user-tile.component';
 import { Page, Pages } from '../commons/page/page.model';
+import { NavSideComponent } from './layout/nav-side/nav-side.component';
 
 const structureGroup = new Page('structure', null, 'Structure');
 const structurePage = new Page('guidelines', StructureGuidelinesComponent, 'Guidelines', structureGroup);
+const navSidePage = new Page('navside', NavSideComponent, 'Menu principal', structureGroup, ['navside']);
 const templatePage = new Page('template', TemplatesComponent, 'Templates', structureGroup);
 const containerPage = new Page('container', ContainersComponent, 'Containers', structureGroup);
 const gridPage = new Page('grid', GridComponent, 'Grid', structureGroup);
@@ -105,6 +107,7 @@ const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins SCSS', utilitiesG
 export const componentsPages = new Pages('components', [
 	structureGroup,
 	structurePage,
+	navSidePage,
 	templatePage,
 	containerPage,
 	gridPage,
