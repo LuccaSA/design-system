@@ -1,8 +1,9 @@
 @import "~@lucca-front/scss/src/theming.overridable";
 
-:host {
+a {
   display: block;
-  color: _color("text.purple");
+	color: _color("text.purple");
+	text-decoration: none;
   cursor: pointer;
   padding: .5rem .5rem .5rem 1.5rem;
   position: relative;
@@ -39,24 +40,9 @@
   }
 }
 
-.navSide-sub {
-  display: none;
-  padding: .5rem;
-}
-
-.navSide-sub-item {
-  display: block;
-  font-size: _theme("sizes.small.font-size");
-  color: _color("text.purple");
-  text-decoration: none;
-  padding: .15rem 0;
-
-  &:hover {
-    opacity: .67;
-  }
-}
-
 :host-context(ds-nav-side-group) {
-  left: 2rem;
-    padding: .5rem .5rem .5rem 1rem;
+	a {
+		left: 2rem;
+		padding: .5rem .5rem .5rem 1rem;
+	}
 }
