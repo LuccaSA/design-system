@@ -2,11 +2,11 @@ $palettes: (
 	ds: (
 		color: #F9FAFF,
 		text: #8b89ce,
-		see-through: rgba(#8b89ce, .1),
-		dark: darken(#8b89ce, 5%),
-		darker: darken(#8b89ce, 20%),
-		light: lighten(#8b89ce, 5%),
-		lighter: lighten(#8b89ce, 20%)
+		see-through: rgba(#F9FAFF, .1),
+		dark: #eff1fc,
+		darker: #e2e7ff,
+		light: lighten(#F9FAFF, 5%),
+		lighter: lighten(#F9FAFF, 20%)
 	),
 	scss: (
 		color: #e696be,
