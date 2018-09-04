@@ -1,11 +1,22 @@
+@import "~@lucca-front/icons/src/mixins";
+
 :host(.mod-inline) {
 	display: inline-block;
 }
 
+lu-select::after {
+	@include makeIcon("search");
+	font-size: 1.4rem;
+	bottom: .35rem;
+}
 :host(.mod-fullwidth) {
 	lu-select {
+		margin-top: 1rem;
 		background: rgba(0,0,0, .1);
 		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, .2);
+		&::after {
+			color: white;
+		}
 	}
 	.textfield {
 		width: 100%;
@@ -14,8 +25,8 @@
 
 ::ng-deep {
 	ds-search.mod-fullwidth {
-		.textfield-input::after {
-			color: white;
+		.lu-select-placeholder {
+			color: rgba(255, 255, 255, .5);
 		}
 	}
 }
