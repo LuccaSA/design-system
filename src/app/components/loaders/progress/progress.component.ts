@@ -3,6 +3,7 @@ import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.example';
 import { IndeterminateExampleComponent } from './indeterminate/indeterminate.example';
 import { StatusExampleComponent } from './status/status.example';
+import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -30,9 +31,10 @@ export class ProgressComponent implements OnInit {
 				component: StatusExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./status/status.example.html'),
 			},
-		]
+		],
+		theme: this.docApi.theme('progress')
 	};
-	constructor() { }
+	constructor(private docApi: DsDocApiService) { }
 
 	ngOnInit() {
 	}

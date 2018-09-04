@@ -1,5 +1,12 @@
+@import "~@lucca-front/scss/src/theming.overridable";
+@import "~@lucca-front/scss/src/mixins";
+.grid-md3 {
+	@include fakeBorder(1px, _theme("commons.divider.color"));
+	cursor: pointer;
+	text-align: center;
+}
 .demo-animation {
-  padding: 1rem;
-  text-align: center;
-  margin: .5rem 0 .25rem; 
+	padding: 1rem;
+	text-align: center;
+	margin: .5rem 0 .25rem;
 }

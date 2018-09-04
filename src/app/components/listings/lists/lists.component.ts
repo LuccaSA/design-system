@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ClickableExampleComponent } from './clickable/clickable.example';
+import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -28,9 +29,10 @@ export class ListsComponent implements OnInit {
 				Pour éviter un clic à la fois sur <code class="code">list-item</code> et <code class="code">actionIcon</code>, vous pouvez appliquer <code class="code">.preventDefault()</code> & <code class="code">.stopPropagation()</code> sur <code class="code">actionIcon</code><br>
 				Il est possible d'utiliser une structure en <code class="code">div</code>/<code class="code">a</code>`
 			},
-		]
+		],
+		theme: this.docApi.theme('list')
 	};
-	constructor() { }
+	constructor(private docApi: DsDocApiService) { }
 
 	ngOnInit() {
 	}
