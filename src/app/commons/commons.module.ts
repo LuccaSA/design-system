@@ -1,31 +1,31 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
-import { ToolComponent } from './tool/tool.component';
+import { DsToolModule } from './tool';
+import { DsSafeContentModule } from './safe-content';
 import { DsPageItemModule } from './page';
 import { DsCodeTabsModule } from './code-tabs';
 import { DsDocApiModule } from './doc-api';
 import { DsStructureModule } from './structure';
+import { DsAssetModule } from './asset';
 
 @NgModule({
 	imports: [
-		CommonModule,
 		DsPageItemModule,
 		DsCodeTabsModule,
 		DsStructureModule,
-		DsDocApiModule
-	],
-	declarations: [
-		ToolComponent
+		DsDocApiModule,
+		DsToolModule,
+		DsSafeContentModule,
+		DsAssetModule,
 	],
 	exports: [
-		ToolComponent,
 		DsPageItemModule,
 		DsCodeTabsModule,
-		DsStructureModule
+		DsStructureModule,
+		DsDocApiModule,
+		DsToolModule,
+		DsSafeContentModule,
+		DsAssetModule,
 	],
-	entryComponents: [
-		ToolComponent,
-	]
 })
 export class DsCommonsModule { }
