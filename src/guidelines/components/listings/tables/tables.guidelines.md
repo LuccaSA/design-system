@@ -1,4 +1,4 @@
-# Tableau
+# Guidelines
 
 > L'ensemble des bonnes pratiques préconisées ci-après s'appliquent aux tableaux présentant des données dédiées aux utilisateurs, mais pas nécessairement aux tableaux de reporting : les tableaux de reporting sont en effet principalement dédiés à être exportés pour être ensuite manipulés via Excel, et donc ne présentent pas les mêmes exigences de lisibilité.
 
@@ -10,11 +10,11 @@ Selon la largeur du tableau et la densité du contenu, on peut conserver les bor
 
 On conserve les bordures pour séparer l'en-tête (thead) et l'éventuel pied (tfoot) du corps du tableau (tbody).
 
-| ![do1](/guidelines/components/listings/tables/images/do-array-header.png) | ![do2](/guidelines/components/listings/tables/images/do-array-borders.png) | ![dont1](/guidelines/components/listings/tables/images/dont-array-cells.png) |
-| - | - | - |
+![A faire](/guidelines/components/listings/tables/images/table-borders-do-1.png) ![A faire](/guidelines/components/listings/tables/images/table-borders-do-2.png) ![A éviter](/guidelines/components/listings/tables/images/table-borders-dont.png)
 
 Si le tableau est compris dans un bloc matérialisé (ex. : dans une carte), on considère que les bordures du bloc fusionnent avec les bordures du tableau : cela implique de faire courir les éventuelles bordures horizontales jusqu'aux bords latéraux du bloc parent, et de ne pas matérialiser les bordures extérieures du tableau.
-![do1]() ![do2]()
+
+![A faire](/guidelines/components/listings/tables/images/table-card-do.png) ![A éviter](/guidelines/components/listings/tables/images/table-card-dont.png)
 
 La largeur des colonnes devrait toujours s'adapter à son contenu, pour éviter d'avoir des marges trop importantes entre les données, qui compliquent la lecture d'une ligne dans son ensemble.
 
@@ -23,7 +23,9 @@ Les titres de colonnes sont alignés avec les données associées :
 - les textes sont en fer à gauche
 - les nombres en fer à droite, alignés sur la virgule
 
-![a]() ![b]()
+![A faire](/guidelines/components/listings/tables/images/table-alignment-do.png) ![A éviter](/guidelines/components/listings/tables/images/table-alignment-dont.png)
+
+
 Concernant l'alignement vertical, il dépend du contexte :
 - si le principal usage est de scanner rapidement un des attributs des objets, on centre les données sur les lignes
 - si le principal usage est d'avoir une vision globale de chaque objet, on aligne les données sur le haut
@@ -33,17 +35,20 @@ En cas de doute, on privilégie l'alignement sur le haut.
 ## Comportement Standard
 ### Survol d'une ligne
 Si le clic sur la ligne donne accès à des informations supplémentaires, un changement de la couleur de fond de la ligne permettent la mise en évidence de cette possibilité.
-![a]()
+
+![A faire](/guidelines/components/listings/tables/images/table-hover.png)
 
 ### Sélection d'une ligne
 Quand on peut agir « en masse » sur les lignes d'un tableau, on insère dans une colonne sur la gauche du tableau une checkbox par ligne
 On met en évidence la ou les ligne(s) sélectionnée(s) par une couleur de fond
 Dans l'entête de cette colonne, on trouve un select proposant des raccourcis de sélection rapide.
-![a]()
+
+![A faire](/guidelines/components/listings/tables/images/table-select.gif)
 
 ### Tri
 Les données sont triables sur tous les attributs pertinents. Le tri par défaut est indiqué par une flèche (ascendante si on est par ordre croissant, descendante si on est par ordre décroissant) au niveau du titre de la colonne. Au survol d'une autre colonne sur laquelle le tri peut être fait, une flèche apparaît également
-![a]()
+
+![A faire](/guidelines/components/listings/tables/images/table-sort.gif)
 
 ### Gestion du texte
 Dans le cas où l'espace disponible n'est pas suffisant pour afficher l'intégralité du texte, deux choix sont possibles :
@@ -52,11 +57,11 @@ Dans le cas où l'espace disponible n'est pas suffisant pour afficher l'intégra
 
 ### Edition
 Si le tableau expose l'intégralité des attributs des objets exposés, on peut envisager de proposer de l'édition en contexte : un clic sur une donnée permet de modifier le contenu de la cellule. Selon le type de donnée, la modification en contexte peut prendre plusieurs formes :
-- Texte d'une seule ligne (ou nombre) : _edit-in-place_  si la donnée est de type texte d'une seule ligne (ou un nombre)
+- Texte d'une seule ligne (ou nombre) : _edit-in-place_ si la donnée est de type texte d'une seule ligne (ou un nombre)
 - Date, période : affichage d'un popover présentant un calendrier permettant de saisir la date ou la période. Un clic en dehors du popover valide la nouvelle sélection.
 - Option parmi un nombre fini de possibilités : select
 
-Si le tableau n'expose qu'une synthèse des attributs des objets exposés, un clic sur une ligne ouvre le détail de l'objet dans un side-panel, dans lequel s'effectuera la modification (cf.  [Modales, side-panels](https://luccasoftware.atlassian.net/wiki/spaces/UXUI/pages/242549547/Modales%2C+side-panels))
+Si le tableau n'expose qu'une synthèse des attributs des objets exposés, un clic sur une ligne ouvre le détail de l'objet dans un side-panel, dans lequel s'effectuera la modification (cf. [Modales, side-panels](https://luccasoftware.atlassian.net/wiki/spaces/UXUI/pages/242549547/Modales%2C+side-panels))
 
 ### Comportement Responsive
 L'affichage d'un tableau sur mobile ou sur de petites résolutions doit être intelligent :
