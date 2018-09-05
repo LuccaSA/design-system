@@ -1,3 +1,5 @@
-<a href="#"><img class="tool-logo" src="{{imageUrl}}" alt="figma"></a>
-<h3 class="tool-title home-footer-title">{{title}}</h3>
-<a href="{{link}}" target="_blank" class="tool-link">{{linkName}}</a>
+<a href="#">
+	<img class="tool-logo" [dsAsset]="tool">
+</a>
+<h3 class="tool-title home-footer-title">{{tool.title}}</h3>
+<a [href]="tool.link" target="_blank" class="tool-link">{{tool.description}}</a>

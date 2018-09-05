@@ -1,27 +1,15 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ITool } from './tool.model';
 
 @Component({
-  selector: 'ds-tool',
-  templateUrl: './tool.component.html',
-  styleUrls: ['./tool.component.scss']
+	selector: 'ds-tool',
+	templateUrl: './tool.component.html',
+	styleUrls: ['./tool.component.scss']
 })
-export class ToolComponent implements OnInit {
+export class ToolComponent {
 
-  constructor() { }
+	constructor() { }
 
-  ngOnInit() {
-  }
-
-  @Input()
-  public title: string;
-
-  @Input()
-  public link: string;
-
-  @Input()
-  public linkName: string;
-
-  @Input()
-  public imageUrl: string;
+	@Input() tool: ITool;
 
 }
