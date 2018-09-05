@@ -34,7 +34,9 @@ import { AppComponent } from './app.component';
 		DsVisualModule,
 		DsNavSideModule,
 
-		RouterModule.forRoot([])
+		RouterModule.forRoot([], {
+			scrollPositionRestoration: 'enabled'
+		})
 	],
 	declarations: [
 		AppComponent

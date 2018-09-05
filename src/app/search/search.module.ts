@@ -9,7 +9,7 @@ import { LuModule } from '@lucca-front/ng';
 	imports: [
 		DsPageItemModule,
 		FormsModule,
-		LuModule,
+		LuModule
 	],
 	declarations: [
 		SearchComponent

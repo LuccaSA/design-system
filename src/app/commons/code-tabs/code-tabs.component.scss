@@ -1,5 +1,15 @@
 @import '~@lucca-front/scss/src/theming.overridable';
 @import '~@lucca-front/scss/src/mixins';
+
+:host {
+	display: block;
+	@include elevate(1);
+	position: relative;
+	z-index: 1;
+	border-radius: 3px;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
 ul, li {
   list-style: none;
 }
@@ -10,9 +20,18 @@ ul {
 
 .menu-link {
 	cursor: pointer;
-	padding-top: 0;
-	padding-bottom: 1rem;
-	margin-left: 0;
+	display: inline-flex;
+	padding: 0 2rem;
+	height: 3rem;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	&.is-active {
+		background: _color('ds');
+	}
+	&:hover {
+		background: _color('ds', 'dark');
+	}
 }
 
 .split-toggle {
@@ -27,6 +46,7 @@ ul {
 	display: flex;
 	align-items: stretch;
 	flex-wrap: wrap;
+	padding: 0 1px 1px 0;
 }
 ds-tab {
 	display: block;
@@ -53,4 +73,9 @@ ds-tab {
 	color: _color("ds", "text");
 	@include fakeBorder(1px, _color("ds", "text"));
 	font-weight: 600;
+	position: sticky;
+	top: 0;
+	left: -1rem;
+	margin: 0 -1rem;
+	z-index: 9999;
 }

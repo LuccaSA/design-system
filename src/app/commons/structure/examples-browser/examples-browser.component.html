@@ -1,5 +1,5 @@
-<div class="textfield">
-	<lu-select [(ngModel)]="selectedExample" class="textfield-input">
+<div class="textfield mod-long">
+	<lu-select [(ngModel)]="selectedExample" (ngModelChange)="onModelChange()" class="textfield-input">
 		<div *luDisplayer="let value">{{value.title}}</div>
 		<lu-option-picker>
 			<lu-option *ngFor="let example of examples" [value]="example">{{example.title}}</lu-option>
@@ -11,7 +11,7 @@
 <div class="example-display" *ngIf="selectedExample">
 	<p class="description" *ngIf="selectedExample.description" [innerHtml]="selectedExample.description | safeContent: 'html'"></p>
 	<ds-code-tabs [example]="selectedExample"></ds-code-tabs>
-	<div class="callout mod-icon" *ngIf="selectedExample.extra != null">
+	<div class="callout mod-icon palette-ng" *ngIf="selectedExample.extra != null">
 		<div class="callout-icon">
 			<i class="lucca-icon">info</i>
 		</div>

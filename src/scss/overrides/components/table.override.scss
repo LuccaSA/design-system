@@ -1,0 +1,10 @@
+$table: (
+	zebra: (
+		background: _color('ds'),
+	),
+	hover: (
+		background: _color('ds', 'dark'),
+	)
+);
+
+$theme: _set($theme, "components.table", $table);

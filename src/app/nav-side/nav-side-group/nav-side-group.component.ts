@@ -27,7 +27,7 @@ export class NavSideGroupComponent implements OnInit {
 	}
 
 	updateToggle() {
-		this.expanded = this.router.url.split('/').includes(this.page.groupPage.path);
+		this.expanded = this.expanded ? this.expanded : this.router.url.split('/').includes(this.page.groupPage.path);
 	}
 
 }
