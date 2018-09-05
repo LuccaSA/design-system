@@ -1080,7 +1080,8 @@ var AppModule = /** @class */ (function () {
                 _visual__WEBPACK_IMPORTED_MODULE_7__["DsVisualModule"],
                 _nav_side__WEBPACK_IMPORTED_MODULE_11__["DsNavSideModule"],
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([], {
-                    scrollPositionRestoration: 'enabled'
+                    scrollPositionRestoration: 'enabled',
+                    useHash: true,
                 })
             ],
             declarations: [
@@ -1127,6 +1128,169 @@ var appRoutes = [
     { path: '', component: _main_main_component__WEBPACK_IMPORTED_MODULE_5__["MainComponent"], children: router },
     { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__["HomeComponent"] }
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/commons/asset/asset-src.directive.ts":
+/*!******************************************************!*\
+  !*** ./src/app/commons/asset/asset-src.directive.ts ***!
+  \******************************************************/
+/*! exports provided: DsAssetSrcDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsAssetSrcDirective", function() { return DsAssetSrcDirective; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _asset_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./asset.service */ "./src/app/commons/asset/asset.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DsAssetSrcDirective = /** @class */ (function () {
+    function DsAssetSrcDirective(_assetService) {
+        this._assetService = _assetService;
+    }
+    Object.defineProperty(DsAssetSrcDirective.prototype, "src", {
+        get: function () {
+            return this._assetService.getHref({ href: this.unprefixedSrc });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('dsAssetSrc'),
+        __metadata("design:type", String)
+    ], DsAssetSrcDirective.prototype, "unprefixedSrc", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"])('src'),
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [])
+    ], DsAssetSrcDirective.prototype, "src", null);
+    DsAssetSrcDirective = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"])({
+            selector: '[dsAssetSrc]',
+        }),
+        __metadata("design:paramtypes", [_asset_service__WEBPACK_IMPORTED_MODULE_1__["DsAssetService"]])
+    ], DsAssetSrcDirective);
+    return DsAssetSrcDirective;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/asset/asset.module.ts":
+/*!***********************************************!*\
+  !*** ./src/app/commons/asset/asset.module.ts ***!
+  \***********************************************/
+/*! exports provided: DsAssetModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsAssetModule", function() { return DsAssetModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _asset_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./asset.service */ "./src/app/commons/asset/asset.service.ts");
+/* harmony import */ var _asset_src_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./asset-src.directive */ "./src/app/commons/asset/asset-src.directive.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsAssetModule = /** @class */ (function () {
+    function DsAssetModule() {
+    }
+    DsAssetModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [],
+            declarations: [
+                _asset_src_directive__WEBPACK_IMPORTED_MODULE_2__["DsAssetSrcDirective"],
+            ],
+            exports: [
+                _asset_src_directive__WEBPACK_IMPORTED_MODULE_2__["DsAssetSrcDirective"],
+            ],
+            providers: [
+                _asset_service__WEBPACK_IMPORTED_MODULE_1__["DsAssetService"],
+            ],
+        })
+    ], DsAssetModule);
+    return DsAssetModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/asset/asset.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/commons/asset/asset.service.ts ***!
+  \************************************************/
+/*! exports provided: DsAssetService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsAssetService", function() { return DsAssetService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../environments/environment */ "./src/environments/environment.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var DsAssetService = /** @class */ (function () {
+    function DsAssetService() {
+    }
+    DsAssetService.prototype.getHref = function (asset) {
+        return _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl + "/" + asset.href;
+    };
+    DsAssetService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
+    ], DsAssetService);
+    return DsAssetService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/asset/index.ts":
+/*!****************************************!*\
+  !*** ./src/app/commons/asset/index.ts ***!
+  \****************************************/
+/*! exports provided: DsAssetModule, DsAssetService, DsAssetSrcDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _asset_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./asset.module */ "./src/app/commons/asset/asset.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetModule", function() { return _asset_module__WEBPACK_IMPORTED_MODULE_0__["DsAssetModule"]; });
+
+/* harmony import */ var _asset_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./asset.service */ "./src/app/commons/asset/asset.service.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetService", function() { return _asset_service__WEBPACK_IMPORTED_MODULE_1__["DsAssetService"]; });
+
+/* harmony import */ var _asset_src_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./asset-src.directive */ "./src/app/commons/asset/asset-src.directive.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetSrcDirective", function() { return _asset_src_directive__WEBPACK_IMPORTED_MODULE_2__["DsAssetSrcDirective"]; });
+
+
+
+
 
 
 /***/ }),
@@ -1393,12 +1557,13 @@ var TabComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsCommonsModule", function() { return DsCommonsModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _tool_tool_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tool/tool.component */ "./src/app/commons/tool/tool.component.ts");
+/* harmony import */ var _tool__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tool */ "./src/app/commons/tool/index.ts");
+/* harmony import */ var _safe_content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./safe-content */ "./src/app/commons/safe-content/index.ts");
 /* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./page */ "./src/app/commons/page/index.ts");
 /* harmony import */ var _code_tabs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./code-tabs */ "./src/app/commons/code-tabs/index.ts");
 /* harmony import */ var _doc_api__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./doc-api */ "./src/app/commons/doc-api/index.ts");
 /* harmony import */ var _structure__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./structure */ "./src/app/commons/structure/index.ts");
+/* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./asset */ "./src/app/commons/asset/index.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1412,30 +1577,30 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var DsCommonsModule = /** @class */ (function () {
     function DsCommonsModule() {
     }
     DsCommonsModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
-                _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                 _page__WEBPACK_IMPORTED_MODULE_3__["DsPageItemModule"],
                 _code_tabs__WEBPACK_IMPORTED_MODULE_4__["DsCodeTabsModule"],
                 _structure__WEBPACK_IMPORTED_MODULE_6__["DsStructureModule"],
-                _doc_api__WEBPACK_IMPORTED_MODULE_5__["DsDocApiModule"]
-            ],
-            declarations: [
-                _tool_tool_component__WEBPACK_IMPORTED_MODULE_2__["ToolComponent"]
+                _doc_api__WEBPACK_IMPORTED_MODULE_5__["DsDocApiModule"],
+                _tool__WEBPACK_IMPORTED_MODULE_1__["DsToolModule"],
+                _safe_content__WEBPACK_IMPORTED_MODULE_2__["DsSafeContentModule"],
+                _asset__WEBPACK_IMPORTED_MODULE_7__["DsAssetModule"],
             ],
             exports: [
-                _tool_tool_component__WEBPACK_IMPORTED_MODULE_2__["ToolComponent"],
                 _page__WEBPACK_IMPORTED_MODULE_3__["DsPageItemModule"],
                 _code_tabs__WEBPACK_IMPORTED_MODULE_4__["DsCodeTabsModule"],
-                _structure__WEBPACK_IMPORTED_MODULE_6__["DsStructureModule"]
+                _structure__WEBPACK_IMPORTED_MODULE_6__["DsStructureModule"],
+                _doc_api__WEBPACK_IMPORTED_MODULE_5__["DsDocApiModule"],
+                _tool__WEBPACK_IMPORTED_MODULE_1__["DsToolModule"],
+                _safe_content__WEBPACK_IMPORTED_MODULE_2__["DsSafeContentModule"],
+                _asset__WEBPACK_IMPORTED_MODULE_7__["DsAssetModule"],
             ],
-            entryComponents: [
-                _tool_tool_component__WEBPACK_IMPORTED_MODULE_2__["ToolComponent"],
-            ]
         })
     ], DsCommonsModule);
     return DsCommonsModule;
@@ -1546,13 +1711,53 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************!*\
   !*** ./src/app/commons/index.ts ***!
   \**********************************/
-/*! exports provided: DsCommonsModule */
+/*! exports provided: DsCommonsModule, Pages, Page, DsAssetModule, DsAssetService, DsAssetSrcDirective, DsCodeTabsModule, DsDocApiModule, DsDocApiService, DsPageItemModule, DsSafeContentModule, DsStructureModule, ToolComponent, DsToolModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _commons_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./commons.module */ "./src/app/commons/commons.module.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsCommonsModule", function() { return _commons_module__WEBPACK_IMPORTED_MODULE_0__["DsCommonsModule"]; });
+
+/* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./asset */ "./src/app/commons/asset/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetModule", function() { return _asset__WEBPACK_IMPORTED_MODULE_1__["DsAssetModule"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetService", function() { return _asset__WEBPACK_IMPORTED_MODULE_1__["DsAssetService"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsAssetSrcDirective", function() { return _asset__WEBPACK_IMPORTED_MODULE_1__["DsAssetSrcDirective"]; });
+
+/* harmony import */ var _code_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code-tabs */ "./src/app/commons/code-tabs/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsCodeTabsModule", function() { return _code_tabs__WEBPACK_IMPORTED_MODULE_2__["DsCodeTabsModule"]; });
+
+/* harmony import */ var _doc_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./doc-api */ "./src/app/commons/doc-api/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsDocApiModule", function() { return _doc_api__WEBPACK_IMPORTED_MODULE_3__["DsDocApiModule"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsDocApiService", function() { return _doc_api__WEBPACK_IMPORTED_MODULE_3__["DsDocApiService"]; });
+
+/* harmony import */ var _page__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page */ "./src/app/commons/page/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Pages", function() { return _page__WEBPACK_IMPORTED_MODULE_4__["Pages"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return _page__WEBPACK_IMPORTED_MODULE_4__["Page"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsPageItemModule", function() { return _page__WEBPACK_IMPORTED_MODULE_4__["DsPageItemModule"]; });
+
+/* harmony import */ var _safe_content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./safe-content */ "./src/app/commons/safe-content/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsSafeContentModule", function() { return _safe_content__WEBPACK_IMPORTED_MODULE_5__["DsSafeContentModule"]; });
+
+/* harmony import */ var _structure__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./structure */ "./src/app/commons/structure/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsStructureModule", function() { return _structure__WEBPACK_IMPORTED_MODULE_6__["DsStructureModule"]; });
+
+/* harmony import */ var _tool__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tool */ "./src/app/commons/tool/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolComponent", function() { return _tool__WEBPACK_IMPORTED_MODULE_7__["ToolComponent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsToolModule", function() { return _tool__WEBPACK_IMPORTED_MODULE_7__["DsToolModule"]; });
+
+
+
+
+
+
+
 
 
 
@@ -1563,7 +1768,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************!*\
   !*** ./src/app/commons/page/index.ts ***!
   \***************************************/
-/*! exports provided: DsPageItemModule, Pages, Page */
+/*! exports provided: Pages, Page, DsPageItemModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1862,16 +2067,16 @@ var Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/commons/pipes/safe-content/index.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/commons/pipes/safe-content/index.ts ***!
-  \*****************************************************/
+/***/ "./src/app/commons/safe-content/index.ts":
+/*!***********************************************!*\
+  !*** ./src/app/commons/safe-content/index.ts ***!
+  \***********************************************/
 /*! exports provided: DsSafeContentModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _safe_content_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./safe-content.module */ "./src/app/commons/pipes/safe-content/safe-content.module.ts");
+/* harmony import */ var _safe_content_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./safe-content.module */ "./src/app/commons/safe-content/safe-content.module.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsSafeContentModule", function() { return _safe_content_module__WEBPACK_IMPORTED_MODULE_0__["DsSafeContentModule"]; });
 
 
@@ -1879,10 +2084,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/app/commons/pipes/safe-content/safe-content.module.ts":
-/*!*******************************************************************!*\
-  !*** ./src/app/commons/pipes/safe-content/safe-content.module.ts ***!
-  \*******************************************************************/
+/***/ "./src/app/commons/safe-content/safe-content.module.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/commons/safe-content/safe-content.module.ts ***!
+  \*************************************************************/
 /*! exports provided: DsSafeContentModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1891,7 +2096,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsSafeContentModule", function() { return DsSafeContentModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _safe_content_pipe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./safe-content.pipe */ "./src/app/commons/pipes/safe-content/safe-content.pipe.ts");
+/* harmony import */ var _safe_content_pipe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./safe-content.pipe */ "./src/app/commons/safe-content/safe-content.pipe.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1919,10 +2124,10 @@ var DsSafeContentModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/commons/pipes/safe-content/safe-content.pipe.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/commons/pipes/safe-content/safe-content.pipe.ts ***!
-  \*****************************************************************/
+/***/ "./src/app/commons/safe-content/safe-content.pipe.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/commons/safe-content/safe-content.pipe.ts ***!
+  \***********************************************************/
 /*! exports provided: DsSafeContentPipe */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1997,15 +2202,15 @@ var DsExampleService = /** @class */ (function () {
     }
     DsExampleService.prototype.getCurrentExample = function (examples) {
         var _this = this;
-        var fragment = this.route.snapshot.fragment;
-        var ex = examples.find(function (example) { return _this.slugify(example.title) === fragment; });
+        var exampleName = this.route.snapshot.queryParamMap.get('example');
+        var ex = examples.find(function (example) { return _this.slugify(example.title) === exampleName; });
         if (ex) {
             return ex;
         }
         return examples[0];
     };
     DsExampleService.prototype.setCurrentExample = function (example) {
-        this.router.navigate([], { fragment: this.slugify(example.title), relativeTo: this.route });
+        this.router.navigate([], { queryParams: { example: this.slugify(example.title) }, relativeTo: this.route });
     };
     DsExampleService.prototype.slugify = function (text) {
         var slug = text.toLowerCase().trim();
@@ -2114,7 +2319,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lucca_front_ng__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @lucca-front/ng */ "./node_modules/@lucca-front/ng/fesm5/lucca-front-ng.js");
 /* harmony import */ var _examples_browser_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./examples-browser.component */ "./src/app/commons/structure/examples-browser/examples-browser.component.ts");
 /* harmony import */ var _code_tabs_code_tabs_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../code-tabs/code-tabs.module */ "./src/app/commons/code-tabs/code-tabs.module.ts");
-/* harmony import */ var _pipes_safe_content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../pipes/safe-content */ "./src/app/commons/pipes/safe-content/index.ts");
+/* harmony import */ var _safe_content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../safe-content */ "./src/app/commons/safe-content/index.ts");
 /* harmony import */ var _example_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./example.service */ "./src/app/commons/structure/examples-browser/example.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2139,7 +2344,7 @@ var DsExamplesBrowserModule = /** @class */ (function () {
                 _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
                 _code_tabs_code_tabs_module__WEBPACK_IMPORTED_MODULE_5__["DsCodeTabsModule"],
-                _pipes_safe_content__WEBPACK_IMPORTED_MODULE_6__["DsSafeContentModule"],
+                _safe_content__WEBPACK_IMPORTED_MODULE_6__["DsSafeContentModule"],
                 _lucca_front_ng__WEBPACK_IMPORTED_MODULE_3__["LuSelectModule"],
                 _lucca_front_ng__WEBPACK_IMPORTED_MODULE_3__["LuInputDisplayerModule"],
                 _lucca_front_ng__WEBPACK_IMPORTED_MODULE_3__["LuOptionModule"]
@@ -2621,6 +2826,27 @@ var DsTitleBlockModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/commons/tool/index.ts":
+/*!***************************************!*\
+  !*** ./src/app/commons/tool/index.ts ***!
+  \***************************************/
+/*! exports provided: ToolComponent, DsToolModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _tool_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tool.component */ "./src/app/commons/tool/tool.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolComponent", function() { return _tool_component__WEBPACK_IMPORTED_MODULE_0__["ToolComponent"]; });
+
+/* harmony import */ var _tool_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tool.module */ "./src/app/commons/tool/tool.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsToolModule", function() { return _tool_module__WEBPACK_IMPORTED_MODULE_1__["DsToolModule"]; });
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/app/commons/tool/tool.component.html":
 /*!**************************************************!*\
   !*** ./src/app/commons/tool/tool.component.html ***!
@@ -2628,7 +2854,7 @@ var DsTitleBlockModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<a href=\"#\"><img class=\"tool-logo\" src=\"{{imageUrl}}\" alt=\"figma\"></a>\n<h3 class=\"tool-title home-footer-title\">{{title}}</h3>\n<a href=\"{{link}}\" target=\"_blank\" class=\"tool-link\">{{linkName}}</a>\n"
+module.exports = "<a href=\"#\">\n\t<img class=\"tool-logo\" [dsAssetSrc]=\"tool.href\">\n</a>\n<h3 class=\"tool-title home-footer-title\">{{tool.title}}</h3>\n<a [href]=\"tool.link\" target=\"_blank\" class=\"tool-link\">{{tool.description}}</a>\n"
 
 /***/ }),
 
@@ -2667,24 +2893,10 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var ToolComponent = /** @class */ (function () {
     function ToolComponent() {
     }
-    ToolComponent.prototype.ngOnInit = function () {
-    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], ToolComponent.prototype, "title", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], ToolComponent.prototype, "link", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], ToolComponent.prototype, "linkName", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], ToolComponent.prototype, "imageUrl", void 0);
+        __metadata("design:type", Object)
+    ], ToolComponent.prototype, "tool", void 0);
     ToolComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'ds-tool',
@@ -2694,6 +2906,54 @@ var ToolComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], ToolComponent);
     return ToolComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/tool/tool.module.ts":
+/*!*********************************************!*\
+  !*** ./src/app/commons/tool/tool.module.ts ***!
+  \*********************************************/
+/*! exports provided: DsToolModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsToolModule", function() { return DsToolModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _tool_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tool.component */ "./src/app/commons/tool/tool.component.ts");
+/* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset */ "./src/app/commons/asset/index.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsToolModule = /** @class */ (function () {
+    function DsToolModule() {
+    }
+    DsToolModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _asset__WEBPACK_IMPORTED_MODULE_2__["DsAssetModule"]
+            ],
+            declarations: [
+                _tool_component__WEBPACK_IMPORTED_MODULE_1__["ToolComponent"]
+            ],
+            exports: [
+                _tool_component__WEBPACK_IMPORTED_MODULE_1__["ToolComponent"],
+            ],
+            entryComponents: [
+                _tool_component__WEBPACK_IMPORTED_MODULE_1__["ToolComponent"],
+            ]
+        })
+    ], DsToolModule);
+    return DsToolModule;
 }());
 
 
@@ -13360,7 +13620,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-tool\n  title=\"Une maquette à faire ?\"\n  linkName=\"Utilisez notre librairie Figma\"\n  link=\"#\"\n  imageUrl=\"assets/figma.png\"\n></ds-tool>\n\n<ds-tool\n  title=\"Besoin d'une évolution ?\"\n  linkName=\"Contribuez sur GitHub\"\n  link=\"https://github.com/LuccaSA/lucca-front\"\n  imageUrl=\"assets/github.png\"\n></ds-tool>\n"
+module.exports = "<ds-tool [tool]=\"figma\"></ds-tool>\n\n<ds-tool [tool]=\"github\"></ds-tool>\n"
 
 /***/ }),
 
@@ -13398,9 +13658,19 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var HomeFooterComponent = /** @class */ (function () {
     function HomeFooterComponent() {
+        this.figma = {
+            title: 'Une maquette a faire ?',
+            description: 'Utilisez notre librairie figma',
+            link: '#',
+            href: 'assets/figma.png',
+        };
+        this.github = {
+            title: "Besoin d'une \u00E9volution ?",
+            description: 'Contribuez sur GitHub',
+            link: 'https://github.com/LuccaSA/lucca-front',
+            href: 'assets/github.png',
+        };
     }
-    HomeFooterComponent.prototype.ngOnInit = function () {
-    };
     HomeFooterComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'ds-home-footer',
@@ -14561,6 +14831,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/app/visual/logos/logo.model.ts":
+/*!********************************************!*\
+  !*** ./src/app/visual/logos/logo.model.ts ***!
+  \********************************************/
+/*! exports provided: luccaLogo, figgoLogo, cleemyLogo, popleeLogo, paggaLogo, timmiLogo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaLogo", function() { return luccaLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoLogo", function() { return figgoLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyLogo", function() { return cleemyLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleeLogo", function() { return popleeLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaLogo", function() { return paggaLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiLogo", function() { return timmiLogo; });
+var luccaLogo = { name: 'lucca', href: 'assets/logos/favicons/lucca-32x32.png' };
+var figgoLogo = { name: 'figgo', href: 'assets/logos/favicons/figgo-32x32.png' };
+var cleemyLogo = { name: 'cleemy', href: 'assets/logos/favicons/cleemy-32x32.png' };
+var popleeLogo = { name: 'poplee', href: 'assets/logos/favicons/poplee-32x32.png' };
+var paggaLogo = { name: 'pagga', href: 'assets/logos/favicons/pagga-32x32.png' };
+var timmiLogo = { name: 'timmi', href: 'assets/logos/favicons/timmi-32x32.png' };
+
+
+/***/ }),
+
 /***/ "./src/app/visual/logos/logos.component.html":
 /*!***************************************************!*\
   !*** ./src/app/visual/logos/logos.component.html ***!
@@ -14568,7 +14863,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Logos</h1>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Favicos</h2>\n    <div class=\"grid\">\n      <div class=\"grid-md\">\n        <p>Lucca</p>\n        <img src=\"assets/logos/favicons/lucca-32x32.png\">\n      </div>\n      <div class=\"grid-md\">\n        <p>Figgo</p>\n        <img src=\"assets/logos/favicons/figgo-32x32.png\">\n      </div>\n      <div class=\"grid-md\">\n        <p>Cleemy</p>\n        <img src=\"assets/logos/favicons/cleemy-32x32.png\">\n      </div>\n      <div class=\"grid-md\">\n        <p>Poplee</p>\n        <img src=\"assets/logos/favicons/poplee-32x32.png\">\n      </div>\n      <div class=\"grid-md\">\n        <p>Pagga</p>\n        <img src=\"assets/logos/favicons/pagga-32x32.png\">\n      </div>\n      <div class=\"grid-md\">\n        <p>Timmi</p>\n        <img src=\"assets/logos/favicons/timmi-32x32.png\">\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<h1>Logos</h1>\n\t</div>\n</div>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<h2>Favicos</h2>\n\t\t<div class=\"grid\">\n\t\t\t<div *ngFor=\"let logo of logos\" class=\"grid-md\">\n\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t<img [dsAssetSrc]=\"logo.href\">\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n"
 
 /***/ }),
 
@@ -14594,28 +14889,32 @@ module.exports = ""
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogosComponent", function() { return LogosComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _logo_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.model */ "./src/app/visual/logos/logo.model.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+
 
 var LogosComponent = /** @class */ (function () {
     function LogosComponent() {
+        this.logos = [
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["luccaLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleeLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiLogo"],
+        ];
     }
-    LogosComponent.prototype.ngOnInit = function () {
-    };
     LogosComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'ds-logos',
             template: __webpack_require__(/*! ./logos.component.html */ "./src/app/visual/logos/logos.component.html"),
             styles: [__webpack_require__(/*! ./logos.component.scss */ "./src/app/visual/logos/logos.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
+        })
     ], LogosComponent);
     return LogosComponent;
 }());
@@ -14727,7 +15026,7 @@ var DsVisualModule = /** @class */ (function () {
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                 _commons__WEBPACK_IMPORTED_MODULE_6__["DsCommonsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"]
+                _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"],
             ],
             declarations: [
                 _colors_colors_component__WEBPACK_IMPORTED_MODULE_3__["ColorsComponent"],
@@ -14794,12 +15093,9 @@ var visualPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Pag
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
-    production: false
+    production: false,
+    deployUrl: '/design-system',
 };
 
 
