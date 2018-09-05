@@ -8,12 +8,10 @@ import { SortableExampleComponent } from './sortable/sortable.component';
 import { ActionsExampleComponent } from './actions/actions.component';
 import { CardExampleComponent } from './card/card.component';
 import { FiltersExampleComponent } from './filters/filters.component';
-import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
-		MarkdownModule.forChild()
 	],
 	declarations: [
 		TablesComponent,
