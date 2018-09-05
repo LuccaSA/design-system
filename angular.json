@@ -25,7 +25,8 @@
             },
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+							"src/favicon.ico",
+							"src/guidelines"
             ],
             "styles": [
               "src/styles.scss"
