@@ -1,14 +1,13 @@
 import { Directive, Input, HostBinding } from '@angular/core';
-import { IAsset } from './asset.model';
 import { DsAssetService } from './asset.service';
 
 @Directive({
-	selector: 'img[dsAsset]',
+	selector: '[dsAssetSrc]',
 })
-export class DsImageAssetDirective {
-	@Input('dsAsset') asset: IAsset;
+export class DsAssetSrcDirective {
+	@Input('dsAssetSrc') unprefixedSrc: string;
 	@HostBinding('src') get src() {
-		return this._assetService.getHref(this.asset);
+		return this._assetService.getHref({ href: this.unprefixedSrc });
 	}
 	constructor(
 		protected _assetService: DsAssetService,

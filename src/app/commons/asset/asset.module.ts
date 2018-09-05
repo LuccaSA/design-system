@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsAssetService } from './asset.service';
-import { DsImageAssetDirective } from './img-asset.directive';
+import { DsAssetSrcDirective } from './asset-src.directive';
 
 @NgModule({
 	imports: [],
 	declarations: [
-		DsImageAssetDirective,
+		DsAssetSrcDirective,
 	],
 	exports: [
-		DsImageAssetDirective,
+		DsAssetSrcDirective,
 	],
 	providers: [
 		DsAssetService,

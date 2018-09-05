@@ -10,7 +10,7 @@
 		<div class="grid">
 			<div *ngFor="let logo of logos" class="grid-md">
 				<p>{{logo.name}}</p>
-				<img [dsAsset] = "logo">
+				<img [dsAssetSrc]="logo.href">
 			</div>
 		</div>
 	</div>
