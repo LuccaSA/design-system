@@ -18,7 +18,7 @@ import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { markedOptionsFactory } from './markedOptions';
+import { markedOptionsFactory } from './markdown/markedOptions';
 
 
 
