@@ -10,7 +10,9 @@ import { CardExampleComponent } from './card/card.component';
 import { FiltersExampleComponent } from './filters/filters.component';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [
+		DsCommonsModule,
+	],
 	declarations: [
 		TablesComponent,
 		BasicExampleComponent,

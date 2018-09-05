@@ -3,7 +3,8 @@ import { DsAssetService } from './asset.service';
 import { DsAssetSrcDirective } from './asset-src.directive';
 
 @NgModule({
-	imports: [],
+	imports: [
+	],
 	declarations: [
 		DsAssetSrcDirective,
 	],

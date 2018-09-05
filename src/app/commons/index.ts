@@ -6,3 +6,4 @@ export * from './page';
 export * from './safe-content';
 export * from './structure';
 export * from './tool';
+export * from './markdown';

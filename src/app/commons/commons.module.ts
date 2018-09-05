@@ -7,6 +7,7 @@ import { DsCodeTabsModule } from './code-tabs';
 import { DsDocApiModule } from './doc-api';
 import { DsStructureModule } from './structure';
 import { DsAssetModule } from './asset';
+import { DsMarkdownModule } from './markdown';
 
 @NgModule({
 	imports: [
@@ -17,6 +18,7 @@ import { DsAssetModule } from './asset';
 		DsToolModule,
 		DsSafeContentModule,
 		DsAssetModule,
+		DsMarkdownModule,
 	],
 	exports: [
 		DsPageItemModule,
@@ -26,6 +28,7 @@ import { DsAssetModule } from './asset';
 		DsToolModule,
 		DsSafeContentModule,
 		DsAssetModule,
+		DsMarkdownModule,
 	],
 })
 export class DsCommonsModule { }
