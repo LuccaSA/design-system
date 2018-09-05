@@ -848,6 +848,8 @@ a:hover, .link:hover {
   color: var(--palettes-warning-color) !important; }
 .u-textError {
   color: var(--palettes-error-color) !important; }
+.u-textDs {
+  color: var(--palettes-ds-color) !important; }
 .u-textScss {
   color: var(--palettes-scss-color) !important; }
 .u-textNg {
@@ -1390,6 +1392,13 @@ a:hover, .link:hover {
       background: var(--palettes-error-light); }
 .button.palette-error:active {
       background: var(--palettes-error-dark); }
+.button.palette-ds {
+    background: var(--palettes-ds-color);
+    color: var(--palettes-ds-text); }
+.button.palette-ds:hover, .button.palette-ds:focus {
+      background: var(--palettes-ds-light); }
+.button.palette-ds:active {
+      background: var(--palettes-ds-dark); }
 .button.palette-scss {
     background: var(--palettes-scss-color);
     color: var(--palettes-scss-text); }
@@ -1462,6 +1471,12 @@ a:hover, .link:hover {
 .button.mod-wired.palette-error:hover:not([disabled]), .button.mod-wired.palette-error:focus:not([disabled]) {
       box-shadow: 0 0 0 2px var(--palettes-error-color) inset;
       color: var(--palettes-error-color); }
+.button.mod-wired.palette-ds {
+    background: transparent;
+    color: var(--colors-text-default-color); }
+.button.mod-wired.palette-ds:hover:not([disabled]), .button.mod-wired.palette-ds:focus:not([disabled]) {
+      box-shadow: 0 0 0 2px var(--palettes-ds-color) inset;
+      color: var(--palettes-ds-color); }
 .button.mod-wired.palette-scss {
     background: transparent;
     color: var(--colors-text-default-color); }
@@ -1510,6 +1525,12 @@ a:hover, .link:hover {
 .button.mod-filling.palette-error:hover:not([disabled]), .button.mod-filling.palette-error:focus:not([disabled]) {
       background: var(--palettes-error-color);
       color: var(--palettes-error-color); }
+.button.mod-filling.palette-ds {
+    background: transparent;
+    color: var(--colors-text-default-color); }
+.button.mod-filling.palette-ds:hover:not([disabled]), .button.mod-filling.palette-ds:focus:not([disabled]) {
+      background: var(--palettes-ds-color);
+      color: var(--palettes-ds-color); }
 .button.mod-filling.palette-scss {
     background: transparent;
     color: var(--colors-text-default-color); }
@@ -1891,49 +1912,56 @@ a:hover, .link:hover {
 .callout.mod-icon {
   padding-left: 3rem; }
 .callout.palette-primary {
-  background: var(--palettes-primary-transparent);
+  background: var(--palettes-primary-see-through);
   color: var(--palettes-primary-darker); }
 .callout.palette-primary .callout-icon {
     color: var(--palettes-primary-color); }
 .callout.palette-primary .callout-kill {
     color: var(--palettes-primary-color); }
 .callout.palette-secondary {
-  background: var(--palettes-secondary-transparent);
+  background: var(--palettes-secondary-see-through);
   color: var(--palettes-secondary-darker); }
 .callout.palette-secondary .callout-icon {
     color: var(--palettes-secondary-color); }
 .callout.palette-secondary .callout-kill {
     color: var(--palettes-secondary-color); }
 .callout.palette-success {
-  background: var(--palettes-success-transparent);
+  background: var(--palettes-success-see-through);
   color: var(--palettes-success-darker); }
 .callout.palette-success .callout-icon {
     color: var(--palettes-success-color); }
 .callout.palette-success .callout-kill {
     color: var(--palettes-success-color); }
 .callout.palette-warning {
-  background: var(--palettes-warning-transparent);
+  background: var(--palettes-warning-see-through);
   color: var(--palettes-warning-darker); }
 .callout.palette-warning .callout-icon {
     color: var(--palettes-warning-color); }
 .callout.palette-warning .callout-kill {
     color: var(--palettes-warning-color); }
 .callout.palette-error {
-  background: var(--palettes-error-transparent);
+  background: var(--palettes-error-see-through);
   color: var(--palettes-error-darker); }
 .callout.palette-error .callout-icon {
     color: var(--palettes-error-color); }
 .callout.palette-error .callout-kill {
     color: var(--palettes-error-color); }
+.callout.palette-ds {
+  background: var(--palettes-ds-see-through);
+  color: var(--palettes-ds-darker); }
+.callout.palette-ds .callout-icon {
+    color: var(--palettes-ds-color); }
+.callout.palette-ds .callout-kill {
+    color: var(--palettes-ds-color); }
 .callout.palette-scss {
-  background: var(--palettes-scss-transparent);
+  background: var(--palettes-scss-see-through);
   color: var(--palettes-scss-darker); }
 .callout.palette-scss .callout-icon {
     color: var(--palettes-scss-color); }
 .callout.palette-scss .callout-kill {
     color: var(--palettes-scss-color); }
 .callout.palette-ng {
-  background: var(--palettes-ng-transparent);
+  background: var(--palettes-ng-see-through);
   color: var(--palettes-ng-darker); }
 .callout.palette-ng .callout-icon {
     color: var(--palettes-ng-color); }
@@ -1942,7 +1970,7 @@ a:hover, .link:hover {
 .card, .mat-datepicker-content, .mat-dialog-container {
   background: white;
   border-radius: 3px;
-  box-shadow: var(--commons-elevations-1);
+  box-shadow: var(--commons-elevations-elevation-1);
   display: block;
   margin-bottom: 1rem;
   position: relative;
@@ -1964,7 +1992,7 @@ a:hover, .link:hover {
   cursor: pointer;
   text-decoration: none; }
 .card.mod-clickable:hover, .mod-clickable.mat-datepicker-content:hover, .mod-clickable.mat-dialog-container:hover {
-    box-shadow: var(--commons-elevations-3); }
+    box-shadow: var(--commons-elevations-elevation-3); }
 .card.is-disabled, .is-disabled.mat-datepicker-content, .is-disabled.mat-dialog-container {
   background-color: var(--commons-background-darker);
   color: var(--colors-text-light-color); }
@@ -2148,7 +2176,7 @@ a:hover, .link:hover {
 .contentSection {
   margin-bottom: var(--components-contentSection-margin-bottom); }
 .filters {
-  box-shadow: var(--commons-elevations-1);
+  box-shadow: var(--commons-elevations-elevation-1);
   align-items: center;
   background: var(--components-filters-background);
   display: flex;
@@ -3595,7 +3623,7 @@ a:hover, .link:hover {
   .u-xxxlLast {
     order: 1; } }
 .header {
-  box-shadow: var(--commons-elevations-1);
+  box-shadow: var(--commons-elevations-elevation-1);
   align-items: flex-end;
   background: var(--components-header-background);
   display: flex;
@@ -3642,29 +3670,32 @@ a:hover, .link:hover {
   vertical-align: baseline;
   white-space: nowrap; }
 .label.palette-primary {
-  background: var(--palettes-primary-transparent);
+  background: var(--palettes-primary-see-through);
   color: var(--palettes-primary-darker); }
 .label.palette-secondary {
-  background: var(--palettes-secondary-transparent);
+  background: var(--palettes-secondary-see-through);
   color: var(--palettes-secondary-darker); }
 .label.palette-success {
-  background: var(--palettes-success-transparent);
+  background: var(--palettes-success-see-through);
   color: var(--palettes-success-darker); }
 .label.palette-warning {
-  background: var(--palettes-warning-transparent);
+  background: var(--palettes-warning-see-through);
   color: var(--palettes-warning-darker); }
 .label.palette-error {
-  background: var(--palettes-error-transparent);
+  background: var(--palettes-error-see-through);
   color: var(--palettes-error-darker); }
+.label.palette-ds {
+  background: var(--palettes-ds-see-through);
+  color: var(--palettes-ds-darker); }
 .label.palette-scss {
-  background: var(--palettes-scss-transparent);
+  background: var(--palettes-scss-see-through);
   color: var(--palettes-scss-darker); }
 .label.palette-ng {
-  background: var(--palettes-ng-transparent);
+  background: var(--palettes-ng-see-through);
   color: var(--palettes-ng-darker); }
 .list {
   background: white;
-  box-shadow: var(--commons-elevations-1);
+  box-shadow: var(--commons-elevations-elevation-1);
   list-style: none;
   margin-bottom: var(--components-list-margin-bottom);
   padding: 0; }
@@ -3827,6 +3858,8 @@ a:hover, .link:hover {
   background: var(--palettes-warning-color); }
 .menu.palette-error .menu-link::after {
   background: var(--palettes-error-color); }
+.menu.palette-ds .menu-link::after {
+  background: var(--palettes-ds-color); }
 .menu.palette-scss .menu-link::after {
   background: var(--palettes-scss-color); }
 .menu.palette-ng .menu-link::after {
@@ -4492,6 +4525,9 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .checkbox.palette-error .checkbox-input:checked ~ .checkbox-label::before {
   background-color: var(--palettes-error-color);
   box-shadow: inset 0 0 0 2px var(--palettes-error-color); }
+.checkbox.palette-ds .checkbox-input:checked ~ .checkbox-label::before {
+  background-color: var(--palettes-ds-color);
+  box-shadow: inset 0 0 0 2px var(--palettes-ds-color); }
 .checkbox.palette-scss .checkbox-input:checked ~ .checkbox-label::before {
   background-color: var(--palettes-scss-color);
   box-shadow: inset 0 0 0 2px var(--palettes-scss-color); }
@@ -4582,7 +4618,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .textfield-options, .mat-select-panel, .mat-autocomplete-panel, .mat-menu-panel {
   background: white;
   border-radius: var(--commons-border-radius);
-  box-shadow: var(--commons-elevations-3);
+  box-shadow: var(--commons-elevations-elevation-3);
   left: 0;
   list-style: none;
   margin: 3px 0 0;
@@ -4636,6 +4672,12 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .textfield.palette-error .textfield-input:focus ~ .textfield-label, mat-select.palette-error .textfield-input:focus ~ .textfield-label {
     color: var(--colors-text-default-color); }
 .textfield.palette-error.is-focused .textfield-label, mat-select.palette-error.is-focused .textfield-label {
+  color: var(--colors-text-default-color); }
+.textfield.palette-ds .textfield-input:focus, mat-select.palette-ds .textfield-input:focus {
+  box-shadow: 0 0 0 1px var(--palettes-ds-color); }
+.textfield.palette-ds .textfield-input:focus ~ .textfield-label, mat-select.palette-ds .textfield-input:focus ~ .textfield-label {
+    color: var(--colors-text-default-color); }
+.textfield.palette-ds.is-focused .textfield-label, mat-select.palette-ds.is-focused .textfield-label {
   color: var(--colors-text-default-color); }
 .textfield.palette-scss .textfield-input:focus, mat-select.palette-scss .textfield-input:focus {
   box-shadow: 0 0 0 1px var(--palettes-scss-color); }
@@ -4766,7 +4808,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
   padding-right: 2rem; }
 .textfield.is-invalid .textfield-input, mat-select.is-invalid .textfield-input {
   box-shadow: 0 0 0 1px var(--palettes-error-color);
-  background-color: var(--palettes-error-transparent); }
+  background-color: var(--palettes-error-see-through); }
 .textfield.is-invalid .textfield-input::-webkit-input-placeholder, mat-select.is-invalid .textfield-input::-webkit-input-placeholder {
     color: var(--palettes-error-light); }
 .textfield.is-invalid .textfield-input:-ms-input-placeholder, mat-select.is-invalid .textfield-input:-ms-input-placeholder {
@@ -4785,7 +4827,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
   cursor: not-allowed; }
 .textfield-input.is-error {
   box-shadow: 0 0 0 1px var(--palettes-error-color);
-  background-color: var(--palettes-error-transparent); }
+  background-color: var(--palettes-error-see-through); }
 .textfield-input.is-error::-webkit-input-placeholder {
     color: var(--palettes-error-light); }
 .textfield-input.is-error:-ms-input-placeholder {
@@ -4800,7 +4842,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     color: var(--palettes-error-color); }
 .textfield-input.is-error:focus {
     box-shadow: 0 0 0 1px var(--palettes-error-color);
-    background-color: var(--palettes-error-transparent); }
+    background-color: var(--palettes-error-see-through); }
 .textfield-input.is-error:focus::-webkit-input-placeholder {
       color: var(--palettes-error-light); }
 .textfield-input.is-error:focus:-ms-input-placeholder {
@@ -4939,6 +4981,12 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       color: var(--palettes-error-color); }
 .palette-error.is-focused.textfield.mod-material .textfield-label, mat-select.palette-error.is-focused.mod-material .textfield-label {
     color: var(--palettes-error-color); }
+.palette-ds.textfield.mod-material .textfield-input:focus, mat-select.palette-ds.mod-material .textfield-input:focus, .palette-ds.textfield.mod-material .textfield-input.is-focused, mat-select.palette-ds.mod-material .textfield-input.is-focused {
+    box-shadow: 0 2px 0 0 var(--palettes-ds-color); }
+.palette-ds.textfield.mod-material .textfield-input:focus ~ .textfield-label, mat-select.palette-ds.mod-material .textfield-input:focus ~ .textfield-label, .palette-ds.textfield.mod-material .textfield-input.is-focused ~ .textfield-label, mat-select.palette-ds.mod-material .textfield-input.is-focused ~ .textfield-label {
+      color: var(--palettes-ds-color); }
+.palette-ds.is-focused.textfield.mod-material .textfield-label, mat-select.palette-ds.is-focused.mod-material .textfield-label {
+    color: var(--palettes-ds-color); }
 .palette-scss.textfield.mod-material .textfield-input:focus, mat-select.palette-scss.mod-material .textfield-input:focus, .palette-scss.textfield.mod-material .textfield-input.is-focused, mat-select.palette-scss.mod-material .textfield-input.is-focused {
     box-shadow: 0 2px 0 0 var(--palettes-scss-color); }
 .palette-scss.textfield.mod-material .textfield-input:focus ~ .textfield-label, mat-select.palette-scss.mod-material .textfield-input:focus ~ .textfield-label, .palette-scss.textfield.mod-material .textfield-input.is-focused ~ .textfield-label, mat-select.palette-scss.mod-material .textfield-input.is-focused ~ .textfield-label {
@@ -4989,13 +5037,13 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .is-invalid.textfield.mod-material .textfield-input, mat-select.is-invalid.mod-material .textfield-input {
     box-shadow: 0 2px 0 0 var(--palettes-error-color); }
 .is-invalid.textfield.mod-material .textfield-input::-webkit-input-placeholder, mat-select.is-invalid.mod-material .textfield-input::-webkit-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-material .textfield-input:-ms-input-placeholder, mat-select.is-invalid.mod-material .textfield-input:-ms-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-material .textfield-input::-ms-input-placeholder, mat-select.is-invalid.mod-material .textfield-input::-ms-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-material .textfield-input::placeholder, mat-select.is-invalid.mod-material .textfield-input::placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-material .textfield-input ~ .textfield-label, mat-select.is-invalid.mod-material .textfield-input ~ .textfield-label {
       color: var(--palettes-error-color); }
 .is-invalid.textfield.mod-material .textfield-input:focus ~ .textfield-label, mat-select.is-invalid.mod-material .textfield-input:focus ~ .textfield-label {
@@ -5013,13 +5061,13 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .textfield.mod-material .textfield-input.is-error, mat-select.mod-material .textfield-input.is-error {
     box-shadow: 0 2px 0 0 var(--palettes-error-color); }
 .textfield.mod-material .textfield-input.is-error::-webkit-input-placeholder, mat-select.mod-material .textfield-input.is-error::-webkit-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.is-error:-ms-input-placeholder, mat-select.mod-material .textfield-input.is-error:-ms-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.is-error::-ms-input-placeholder, mat-select.mod-material .textfield-input.is-error::-ms-input-placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.is-error::placeholder, mat-select.mod-material .textfield-input.is-error::placeholder {
-      color: var(--palettes-error-transparent); }
+      color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.is-error ~ .textfield-label, mat-select.mod-material .textfield-input.is-error ~ .textfield-label {
       color: var(--palettes-error-color); }
 .textfield.mod-material .textfield-input.is-error:focus ~ .textfield-label, mat-select.mod-material .textfield-input.is-error:focus ~ .textfield-label {
@@ -5281,56 +5329,63 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     margin: 0; }
 .textfield.mod-framed .textfield-input:focus, mat-select.mod-framed .textfield-input:focus, .textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--components-textfield-framed-default-palette-color), 0 1px 0 0 var(--components-textfield-framed-default-palette-color), 1px 1px 0 0 var(--components-textfield-framed-default-palette-color), 1px 0 0 0 var(--components-textfield-framed-default-palette-color) inset, 0 1px 0 0 var(--components-textfield-framed-default-palette-color) inset;
-    background-color: var(--components-textfield-framed-default-palette-transparent); }
+    background-color: var(--components-textfield-framed-default-palette-see-through); }
 .textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.mod-framed .textfield-input:focus ~ .textfield-label, .textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--components-textfield-framed-default-palette-color); }
 .is-focused.textfield.mod-framed .textfield-label, mat-select.is-focused.mod-framed .textfield-label {
     color: var(--components-textfield-framed-default-palette-color); }
 .palette-primary.textfield.mod-framed .textfield-input:focus, mat-select.palette-primary.mod-framed .textfield-input:focus, .palette-primary.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-primary.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-primary-color), 0 1px 0 0 var(--palettes-primary-color), 1px 1px 0 0 var(--palettes-primary-color), 1px 0 0 0 var(--palettes-primary-color) inset, 0 1px 0 0 var(--palettes-primary-color) inset;
-    background-color: var(--palettes-primary-transparent); }
+    background-color: var(--palettes-primary-see-through); }
 .palette-primary.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-primary.mod-framed .textfield-input:focus ~ .textfield-label, .palette-primary.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-primary.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-primary-color); }
 .palette-primary.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-primary.is-focused.mod-framed .textfield-label {
     color: var(--palettes-primary-color); }
 .palette-secondary.textfield.mod-framed .textfield-input:focus, mat-select.palette-secondary.mod-framed .textfield-input:focus, .palette-secondary.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-secondary.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-secondary-color), 0 1px 0 0 var(--palettes-secondary-color), 1px 1px 0 0 var(--palettes-secondary-color), 1px 0 0 0 var(--palettes-secondary-color) inset, 0 1px 0 0 var(--palettes-secondary-color) inset;
-    background-color: var(--palettes-secondary-transparent); }
+    background-color: var(--palettes-secondary-see-through); }
 .palette-secondary.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-secondary.mod-framed .textfield-input:focus ~ .textfield-label, .palette-secondary.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-secondary.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-secondary-color); }
 .palette-secondary.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-secondary.is-focused.mod-framed .textfield-label {
     color: var(--palettes-secondary-color); }
 .palette-success.textfield.mod-framed .textfield-input:focus, mat-select.palette-success.mod-framed .textfield-input:focus, .palette-success.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-success.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-success-color), 0 1px 0 0 var(--palettes-success-color), 1px 1px 0 0 var(--palettes-success-color), 1px 0 0 0 var(--palettes-success-color) inset, 0 1px 0 0 var(--palettes-success-color) inset;
-    background-color: var(--palettes-success-transparent); }
+    background-color: var(--palettes-success-see-through); }
 .palette-success.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-success.mod-framed .textfield-input:focus ~ .textfield-label, .palette-success.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-success.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-success-color); }
 .palette-success.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-success.is-focused.mod-framed .textfield-label {
     color: var(--palettes-success-color); }
 .palette-warning.textfield.mod-framed .textfield-input:focus, mat-select.palette-warning.mod-framed .textfield-input:focus, .palette-warning.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-warning.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-warning-color), 0 1px 0 0 var(--palettes-warning-color), 1px 1px 0 0 var(--palettes-warning-color), 1px 0 0 0 var(--palettes-warning-color) inset, 0 1px 0 0 var(--palettes-warning-color) inset;
-    background-color: var(--palettes-warning-transparent); }
+    background-color: var(--palettes-warning-see-through); }
 .palette-warning.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-warning.mod-framed .textfield-input:focus ~ .textfield-label, .palette-warning.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-warning.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-warning-color); }
 .palette-warning.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-warning.is-focused.mod-framed .textfield-label {
     color: var(--palettes-warning-color); }
 .palette-error.textfield.mod-framed .textfield-input:focus, mat-select.palette-error.mod-framed .textfield-input:focus, .palette-error.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-error.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-    background-color: var(--palettes-error-transparent); }
+    background-color: var(--palettes-error-see-through); }
 .palette-error.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-error.mod-framed .textfield-input:focus ~ .textfield-label, .palette-error.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-error.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-error-color); }
 .palette-error.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-error.is-focused.mod-framed .textfield-label {
     color: var(--palettes-error-color); }
+.palette-ds.textfield.mod-framed .textfield-input:focus, mat-select.palette-ds.mod-framed .textfield-input:focus, .palette-ds.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-ds.mod-framed .textfield-input:not([disabled]):hover {
+    box-shadow: 1px 0 0 0 var(--palettes-ds-color), 0 1px 0 0 var(--palettes-ds-color), 1px 1px 0 0 var(--palettes-ds-color), 1px 0 0 0 var(--palettes-ds-color) inset, 0 1px 0 0 var(--palettes-ds-color) inset;
+    background-color: var(--palettes-ds-see-through); }
+.palette-ds.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-ds.mod-framed .textfield-input:focus ~ .textfield-label, .palette-ds.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-ds.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
+      color: var(--palettes-ds-color); }
+.palette-ds.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-ds.is-focused.mod-framed .textfield-label {
+    color: var(--palettes-ds-color); }
 .palette-scss.textfield.mod-framed .textfield-input:focus, mat-select.palette-scss.mod-framed .textfield-input:focus, .palette-scss.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-scss.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-scss-color), 0 1px 0 0 var(--palettes-scss-color), 1px 1px 0 0 var(--palettes-scss-color), 1px 0 0 0 var(--palettes-scss-color) inset, 0 1px 0 0 var(--palettes-scss-color) inset;
-    background-color: var(--palettes-scss-transparent); }
+    background-color: var(--palettes-scss-see-through); }
 .palette-scss.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-scss.mod-framed .textfield-input:focus ~ .textfield-label, .palette-scss.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-scss.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-scss-color); }
 .palette-scss.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-scss.is-focused.mod-framed .textfield-label {
     color: var(--palettes-scss-color); }
 .palette-ng.textfield.mod-framed .textfield-input:focus, mat-select.palette-ng.mod-framed .textfield-input:focus, .palette-ng.textfield.mod-framed .textfield-input:not([disabled]):hover, mat-select.palette-ng.mod-framed .textfield-input:not([disabled]):hover {
     box-shadow: 1px 0 0 0 var(--palettes-ng-color), 0 1px 0 0 var(--palettes-ng-color), 1px 1px 0 0 var(--palettes-ng-color), 1px 0 0 0 var(--palettes-ng-color) inset, 0 1px 0 0 var(--palettes-ng-color) inset;
-    background-color: var(--palettes-ng-transparent); }
+    background-color: var(--palettes-ng-see-through); }
 .palette-ng.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.palette-ng.mod-framed .textfield-input:focus ~ .textfield-label, .palette-ng.textfield.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label, mat-select.palette-ng.mod-framed .textfield-input:not([disabled]):hover ~ .textfield-label {
       color: var(--palettes-ng-color); }
 .palette-ng.is-focused.textfield.mod-framed .textfield-label, mat-select.palette-ng.is-focused.mod-framed .textfield-label {
@@ -5347,7 +5402,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       resize: none; }
 .mod-multiline.textfield.mod-framed:hover, mat-select.mod-multiline.mod-framed:hover, .mod-multiline.textfield.mod-framed:focus, mat-select.mod-multiline.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--components-textfield-framed-default-palette-color), 0 1px 0 0 var(--components-textfield-framed-default-palette-color), 1px 1px 0 0 var(--components-textfield-framed-default-palette-color), 1px 0 0 0 var(--components-textfield-framed-default-palette-color) inset, 0 1px 0 0 var(--components-textfield-framed-default-palette-color) inset;
-      background-color: var(--components-textfield-framed-default-palette-transparent);
+      background-color: var(--components-textfield-framed-default-palette-see-through);
       z-index: 2; }
 .mod-multiline.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.mod-framed textarea.textfield-input:focus, .mod-multiline.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5355,7 +5410,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-primary.textfield.mod-framed:hover, mat-select.mod-multiline.palette-primary.mod-framed:hover, .mod-multiline.palette-primary.textfield.mod-framed:focus, mat-select.mod-multiline.palette-primary.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-primary-color), 0 1px 0 0 var(--palettes-primary-color), 1px 1px 0 0 var(--palettes-primary-color), 1px 0 0 0 var(--palettes-primary-color) inset, 0 1px 0 0 var(--palettes-primary-color) inset;
-      background-color: var(--palettes-primary-transparent);
+      background-color: var(--palettes-primary-see-through);
       z-index: 2; }
 .mod-multiline.palette-primary.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-primary.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-primary.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-primary.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5363,7 +5418,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-secondary.textfield.mod-framed:hover, mat-select.mod-multiline.palette-secondary.mod-framed:hover, .mod-multiline.palette-secondary.textfield.mod-framed:focus, mat-select.mod-multiline.palette-secondary.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-secondary-color), 0 1px 0 0 var(--palettes-secondary-color), 1px 1px 0 0 var(--palettes-secondary-color), 1px 0 0 0 var(--palettes-secondary-color) inset, 0 1px 0 0 var(--palettes-secondary-color) inset;
-      background-color: var(--palettes-secondary-transparent);
+      background-color: var(--palettes-secondary-see-through);
       z-index: 2; }
 .mod-multiline.palette-secondary.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-secondary.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-secondary.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-secondary.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5371,7 +5426,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-success.textfield.mod-framed:hover, mat-select.mod-multiline.palette-success.mod-framed:hover, .mod-multiline.palette-success.textfield.mod-framed:focus, mat-select.mod-multiline.palette-success.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-success-color), 0 1px 0 0 var(--palettes-success-color), 1px 1px 0 0 var(--palettes-success-color), 1px 0 0 0 var(--palettes-success-color) inset, 0 1px 0 0 var(--palettes-success-color) inset;
-      background-color: var(--palettes-success-transparent);
+      background-color: var(--palettes-success-see-through);
       z-index: 2; }
 .mod-multiline.palette-success.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-success.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-success.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-success.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5379,7 +5434,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-warning.textfield.mod-framed:hover, mat-select.mod-multiline.palette-warning.mod-framed:hover, .mod-multiline.palette-warning.textfield.mod-framed:focus, mat-select.mod-multiline.palette-warning.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-warning-color), 0 1px 0 0 var(--palettes-warning-color), 1px 1px 0 0 var(--palettes-warning-color), 1px 0 0 0 var(--palettes-warning-color) inset, 0 1px 0 0 var(--palettes-warning-color) inset;
-      background-color: var(--palettes-warning-transparent);
+      background-color: var(--palettes-warning-see-through);
       z-index: 2; }
 .mod-multiline.palette-warning.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-warning.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-warning.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-warning.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5387,15 +5442,23 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-error.textfield.mod-framed:hover, mat-select.mod-multiline.palette-error.mod-framed:hover, .mod-multiline.palette-error.textfield.mod-framed:focus, mat-select.mod-multiline.palette-error.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-      background-color: var(--palettes-error-transparent);
+      background-color: var(--palettes-error-see-through);
       z-index: 2; }
 .mod-multiline.palette-error.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-error.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-error.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-error.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
       background: transparent;
       z-index: auto; }
+.mod-multiline.palette-ds.textfield.mod-framed:hover, mat-select.mod-multiline.palette-ds.mod-framed:hover, .mod-multiline.palette-ds.textfield.mod-framed:focus, mat-select.mod-multiline.palette-ds.mod-framed:focus {
+      box-shadow: 1px 0 0 0 var(--palettes-ds-color), 0 1px 0 0 var(--palettes-ds-color), 1px 1px 0 0 var(--palettes-ds-color), 1px 0 0 0 var(--palettes-ds-color) inset, 0 1px 0 0 var(--palettes-ds-color) inset;
+      background-color: var(--palettes-ds-see-through);
+      z-index: 2; }
+.mod-multiline.palette-ds.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-ds.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-ds.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-ds.mod-framed textarea.textfield-input:hover {
+      box-shadow: none;
+      background: transparent;
+      z-index: auto; }
 .mod-multiline.palette-scss.textfield.mod-framed:hover, mat-select.mod-multiline.palette-scss.mod-framed:hover, .mod-multiline.palette-scss.textfield.mod-framed:focus, mat-select.mod-multiline.palette-scss.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-scss-color), 0 1px 0 0 var(--palettes-scss-color), 1px 1px 0 0 var(--palettes-scss-color), 1px 0 0 0 var(--palettes-scss-color) inset, 0 1px 0 0 var(--palettes-scss-color) inset;
-      background-color: var(--palettes-scss-transparent);
+      background-color: var(--palettes-scss-see-through);
       z-index: 2; }
 .mod-multiline.palette-scss.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-scss.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-scss.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-scss.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5403,7 +5466,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       z-index: auto; }
 .mod-multiline.palette-ng.textfield.mod-framed:hover, mat-select.mod-multiline.palette-ng.mod-framed:hover, .mod-multiline.palette-ng.textfield.mod-framed:focus, mat-select.mod-multiline.palette-ng.mod-framed:focus {
       box-shadow: 1px 0 0 0 var(--palettes-ng-color), 0 1px 0 0 var(--palettes-ng-color), 1px 1px 0 0 var(--palettes-ng-color), 1px 0 0 0 var(--palettes-ng-color) inset, 0 1px 0 0 var(--palettes-ng-color) inset;
-      background-color: var(--palettes-ng-transparent);
+      background-color: var(--palettes-ng-see-through);
       z-index: 2; }
 .mod-multiline.palette-ng.textfield.mod-framed textarea.textfield-input:focus, mat-select.mod-multiline.palette-ng.mod-framed textarea.textfield-input:focus, .mod-multiline.palette-ng.textfield.mod-framed textarea.textfield-input:hover, mat-select.mod-multiline.palette-ng.mod-framed textarea.textfield-input:hover {
       box-shadow: none;
@@ -5412,7 +5475,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .mod-multiline.mod-withSuffix.textfield.mod-framed textarea.textfield-input, mat-select.mod-multiline.mod-withSuffix.mod-framed textarea.textfield-input {
       margin-right: 2em; }
 .mod-multiline.is-error.textfield.mod-framed, mat-select.mod-multiline.is-error.mod-framed {
-      background-color: var(--palettes-error-transparent); }
+      background-color: var(--palettes-error-see-through); }
 .mod-withSuffix.textfield.mod-framed .textfield-input, mat-select.mod-withSuffix.mod-framed .textfield-input {
     padding-right: var(--components-textfield-framed-suffix-padding-right); }
 .mod-search.textfield.mod-framed::after, mat-select.mod-search.mod-framed::after, .mod-autocomplete.textfield.mod-framed::after, mat-select.mod-autocomplete.mod-framed::after {
@@ -5440,7 +5503,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       right: .7rem;
       top: .5rem; }
 .is-invalid.textfield.mod-framed .textfield-input, mat-select.is-invalid.mod-framed .textfield-input {
-      background-color: var(--palettes-error-transparent);
+      background-color: var(--palettes-error-see-through);
       box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset; }
 .is-invalid.textfield.mod-framed .textfield-input::-webkit-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input::-webkit-input-placeholder {
         color: var(--palettes-error-dark); }
@@ -5452,11 +5515,11 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
         color: var(--palettes-error-dark); }
 .is-invalid.textfield.mod-framed .textfield-input:focus, mat-select.is-invalid.mod-framed .textfield-input:focus, .is-invalid.textfield.mod-framed .textfield-input:hover, mat-select.is-invalid.mod-framed .textfield-input:hover {
         box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-        background-color: var(--palettes-error-transparent); }
+        background-color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-framed .textfield-input ~ .textfield-label, mat-select.is-invalid.mod-framed .textfield-input ~ .textfield-label, .is-invalid.textfield.mod-framed .textfield-input ~ .textfield-suffix, mat-select.is-invalid.mod-framed .textfield-input ~ .textfield-suffix, .is-invalid.textfield.mod-framed .textfield-input ~ .mat-datepicker-toggle, mat-select.is-invalid.mod-framed .textfield-input ~ .mat-datepicker-toggle {
         color: var(--palettes-error-color) !important; }
 .is-invalid.textfield.mod-framed .textfield-input:hover, mat-select.is-invalid.mod-framed .textfield-input:hover, .is-invalid.textfield.mod-framed .textfield-input:active, mat-select.is-invalid.mod-framed .textfield-input:active, .is-invalid.textfield.mod-framed .textfield-input:focus, mat-select.is-invalid.mod-framed .textfield-input:focus {
-        background-color: var(--palettes-error-transparent); }
+        background-color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-framed .textfield-input:hover::-webkit-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:hover::-webkit-input-placeholder, .is-invalid.textfield.mod-framed .textfield-input:active::-webkit-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:active::-webkit-input-placeholder, .is-invalid.textfield.mod-framed .textfield-input:focus::-webkit-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:focus::-webkit-input-placeholder {
           color: var(--palettes-error-dark); }
 .is-invalid.textfield.mod-framed .textfield-input:hover:-ms-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:hover:-ms-input-placeholder, .is-invalid.textfield.mod-framed .textfield-input:active:-ms-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:active:-ms-input-placeholder, .is-invalid.textfield.mod-framed .textfield-input:focus:-ms-input-placeholder, mat-select.is-invalid.mod-framed .textfield-input:focus:-ms-input-placeholder {
@@ -5467,7 +5530,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
           color: var(--palettes-error-dark); }
 .is-invalid.textfield.mod-framed .textfield-input:hover:focus, mat-select.is-invalid.mod-framed .textfield-input:hover:focus, .is-invalid.textfield.mod-framed .textfield-input:hover:hover, mat-select.is-invalid.mod-framed .textfield-input:hover:hover, .is-invalid.textfield.mod-framed .textfield-input:active:focus, mat-select.is-invalid.mod-framed .textfield-input:active:focus, .is-invalid.textfield.mod-framed .textfield-input:active:hover, mat-select.is-invalid.mod-framed .textfield-input:active:hover, .is-invalid.textfield.mod-framed .textfield-input:focus:focus, mat-select.is-invalid.mod-framed .textfield-input:focus:focus, .is-invalid.textfield.mod-framed .textfield-input:focus:hover, mat-select.is-invalid.mod-framed .textfield-input:focus:hover {
           box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-          background-color: var(--palettes-error-transparent); }
+          background-color: var(--palettes-error-see-through); }
 .is-invalid.textfield.mod-framed .textfield-input:hover ~ .textfield-label, mat-select.is-invalid.mod-framed .textfield-input:hover ~ .textfield-label, .is-invalid.textfield.mod-framed .textfield-input:hover ~ .textfield-suffix, mat-select.is-invalid.mod-framed .textfield-input:hover ~ .textfield-suffix, .is-invalid.textfield.mod-framed .textfield-input:hover ~ .mat-datepicker-toggle, mat-select.is-invalid.mod-framed .textfield-input:hover ~ .mat-datepicker-toggle, .is-invalid.textfield.mod-framed .textfield-input:active ~ .textfield-label, mat-select.is-invalid.mod-framed .textfield-input:active ~ .textfield-label, .is-invalid.textfield.mod-framed .textfield-input:active ~ .textfield-suffix, mat-select.is-invalid.mod-framed .textfield-input:active ~ .textfield-suffix, .is-invalid.textfield.mod-framed .textfield-input:active ~ .mat-datepicker-toggle, mat-select.is-invalid.mod-framed .textfield-input:active ~ .mat-datepicker-toggle, .is-invalid.textfield.mod-framed .textfield-input:focus ~ .textfield-label, mat-select.is-invalid.mod-framed .textfield-input:focus ~ .textfield-label, .is-invalid.textfield.mod-framed .textfield-input:focus ~ .textfield-suffix, mat-select.is-invalid.mod-framed .textfield-input:focus ~ .textfield-suffix, .is-invalid.textfield.mod-framed .textfield-input:focus ~ .mat-datepicker-toggle, mat-select.is-invalid.mod-framed .textfield-input:focus ~ .mat-datepicker-toggle {
           color: var(--palettes-error-color) !important; }
 .textfield.mod-framed .textfield-input[disabled], mat-select.mod-framed .textfield-input[disabled], .textfield.mod-framed .textfield-input[readonly], mat-select.mod-framed .textfield-input[readonly] {
@@ -5477,7 +5540,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .textfield.mod-framed .textfield-input[disabled] + .textfield-label, mat-select.mod-framed .textfield-input[disabled] + .textfield-label, .textfield.mod-framed .textfield-input[readonly] + .textfield-label, mat-select.mod-framed .textfield-input[readonly] + .textfield-label {
       opacity: .5; }
 .textfield.mod-framed .textfield-input.is-error, mat-select.mod-framed .textfield-input.is-error {
-    background-color: var(--palettes-error-transparent); }
+    background-color: var(--palettes-error-see-through); }
 .textfield.mod-framed .textfield-input.is-error::-webkit-input-placeholder, mat-select.mod-framed .textfield-input.is-error::-webkit-input-placeholder {
       color: var(--palettes-error-dark); }
 .textfield.mod-framed .textfield-input.is-error:-ms-input-placeholder, mat-select.mod-framed .textfield-input.is-error:-ms-input-placeholder {
@@ -5488,7 +5551,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
       color: var(--palettes-error-dark); }
 .textfield.mod-framed .textfield-input.is-error:focus, mat-select.mod-framed .textfield-input.is-error:focus, .textfield.mod-framed .textfield-input.is-error:hover, mat-select.mod-framed .textfield-input.is-error:hover {
       box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-      background-color: var(--palettes-error-transparent); }
+      background-color: var(--palettes-error-see-through); }
 .textfield.mod-framed .textfield-input.is-error ~ .textfield-label, mat-select.mod-framed .textfield-input.is-error ~ .textfield-label, .textfield.mod-framed .textfield-input.is-error ~ .textfield-suffix, mat-select.mod-framed .textfield-input.is-error ~ .textfield-suffix, .textfield.mod-framed .textfield-input.is-error ~ .mat-datepicker-toggle, mat-select.mod-framed .textfield-input.is-error ~ .mat-datepicker-toggle {
       color: var(--palettes-error-color) !important; }
 .is-error.textfield.mod-framed .textfield-label, mat-select.is-error.mod-framed .textfield-label, .is-error.textfield.mod-framed .textfield-suffix, mat-select.is-error.mod-framed .textfield-suffix, .is-error.textfield.mod-framed .mat-datepicker-toggle, mat-select.is-error.mod-framed .mat-datepicker-toggle {
@@ -5563,6 +5626,10 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
   box-shadow: inset 0 0 0 2px var(--palettes-error-color); }
 .radio.palette-error .radio-label::after {
   background: var(--palettes-error-color); }
+.radio.palette-ds .radio-input:checked ~ .radio-label::before {
+  box-shadow: inset 0 0 0 2px var(--palettes-ds-color); }
+.radio.palette-ds .radio-label::after {
+  background: var(--palettes-ds-color); }
 .radio.palette-scss .radio-input:checked ~ .radio-label::before {
   box-shadow: inset 0 0 0 2px var(--palettes-scss-color); }
 .radio.palette-scss .radio-label::after {
@@ -5691,6 +5758,14 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
   background: var(--palettes-error-lighter); }
 .switch.palette-error .switch-input:checked[disabled] ~ .switch-label::after, .switch.palette-error .switch-input:checked[readonly] ~ .switch-label::after {
   background: var(--palettes-error-lighter); }
+.switch.palette-ds .switch-input:checked ~ .switch-label::before {
+  background: var(--palettes-ds-lighter); }
+.switch.palette-ds .switch-input:checked ~ .switch-label::after {
+  background: var(--palettes-ds-color); }
+.switch.palette-ds .switch-input:checked[disabled] ~ .switch-label::before, .switch.palette-ds .switch-input:checked[readonly] ~ .switch-label::before {
+  background: var(--palettes-ds-lighter); }
+.switch.palette-ds .switch-input:checked[disabled] ~ .switch-label::after, .switch.palette-ds .switch-input:checked[readonly] ~ .switch-label::after {
+  background: var(--palettes-ds-lighter); }
 .switch.palette-scss .switch-input:checked ~ .switch-label::before {
   background: var(--palettes-scss-lighter); }
 .switch.palette-scss .switch-input:checked ~ .switch-label::after {
@@ -5755,7 +5830,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
 .textfield.mod-multiline .textfield-input.ng-invalid.ng-touched,
 mat-select.mod-multiline .textfield-input.ng-invalid.ng-touched {
   box-shadow: 0 0 0 1px var(--palettes-error-color);
-  background-color: var(--palettes-error-transparent); }
+  background-color: var(--palettes-error-see-through); }
 .textfield .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder, mat-select .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   .textfield.mod-multiline .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   mat-select.mod-multiline .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder {
@@ -5787,19 +5862,19 @@ mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched {
 .textfield.mod-material .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder, mat-select.mod-material .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   .textfield.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder {
-    color: var(--palettes-error-transparent); }
+    color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.ng-invalid.ng-touched:-ms-input-placeholder, mat-select.mod-material .textfield-input.ng-invalid.ng-touched:-ms-input-placeholder,
   .textfield.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched:-ms-input-placeholder,
   mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched:-ms-input-placeholder {
-    color: var(--palettes-error-transparent); }
+    color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.ng-invalid.ng-touched::-ms-input-placeholder, mat-select.mod-material .textfield-input.ng-invalid.ng-touched::-ms-input-placeholder,
   .textfield.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::-ms-input-placeholder,
   mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::-ms-input-placeholder {
-    color: var(--palettes-error-transparent); }
+    color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.ng-invalid.ng-touched::placeholder, mat-select.mod-material .textfield-input.ng-invalid.ng-touched::placeholder,
   .textfield.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::placeholder,
   mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched::placeholder {
-    color: var(--palettes-error-transparent); }
+    color: var(--palettes-error-see-through); }
 .textfield.mod-material .textfield-input.ng-invalid.ng-touched ~ .textfield-label, mat-select.mod-material .textfield-input.ng-invalid.ng-touched ~ .textfield-label,
   .textfield.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched ~ .textfield-label,
   mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched ~ .textfield-label {
@@ -5811,7 +5886,7 @@ mat-select.mod-multiline.mod-material .textfield-input.ng-invalid.ng-touched {
 .textfield.mod-framed .textfield-input.ng-invalid.ng-touched, mat-select.mod-framed .textfield-input.ng-invalid.ng-touched,
 .textfield.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched,
 mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched {
-  background-color: var(--palettes-error-transparent); }
+  background-color: var(--palettes-error-see-through); }
 .textfield.mod-framed .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder, mat-select.mod-framed .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   .textfield.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder,
   mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched::-webkit-input-placeholder {
@@ -5834,7 +5909,7 @@ mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched {
   .textfield.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched:hover,
   mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched:hover {
     box-shadow: 1px 0 0 0 var(--palettes-error-color), 0 1px 0 0 var(--palettes-error-color), 1px 1px 0 0 var(--palettes-error-color), 1px 0 0 0 var(--palettes-error-color) inset, 0 1px 0 0 var(--palettes-error-color) inset;
-    background-color: var(--palettes-error-transparent); }
+    background-color: var(--palettes-error-see-through); }
 .textfield.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-label, mat-select.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-label, .textfield.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-suffix, mat-select.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-suffix, .textfield.mod-framed .textfield-input.ng-invalid.ng-touched ~ .mat-datepicker-toggle, mat-select.mod-framed .textfield-input.ng-invalid.ng-touched ~ .mat-datepicker-toggle,
   .textfield.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-label,
   mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched ~ .textfield-label,
@@ -5894,6 +5969,57 @@ mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched {
   position: absolute;
   text-transform: none;
   width: 1px; }
+.form-group-label.is-required::after, .textfield.is-required .textfield-label::after, mat-select.is-required .textfield-label::after {
+  color: var(--palettes-error-color);
+  content: "*";
+  display: inline-block;
+  margin-left: .2em;
+  position: absolute; }
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+@keyframes loadingGradientKeyframes {
+  0% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: -100% 0%; } }
+.lu-popover-panel {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh + 48px);
+  position: relative; }
+.lu-popover-content {
+  background: white;
+  padding: 1em;
+  box-shadow: var(--commons-elevations-elevation-2); }
+.lu-popover-panel.lu-popover-above {
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center; }
+.lu-popover-panel.lu-popover-below {
+  -webkit-transform-origin: top center;
+          transform-origin: top center; }
+.lu-popover-panel.lu-popover-before {
+  -webkit-transform-origin: center right;
+          transform-origin: center right; }
+.lu-popover-panel.lu-popover-before.lu-popover-above {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right; }
+.lu-popover-panel.lu-popover-before.lu-popover-below {
+    -webkit-transform-origin: top right;
+            transform-origin: top right; }
+.lu-popover-panel.lu-popover-after {
+  -webkit-transform-origin: center left;
+          transform-origin: center left; }
+.lu-popover-panel.lu-popover-after.lu-popover-above {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left; }
+.lu-popover-panel.lu-popover-after.lu-popover-below {
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
 /**
  * Applies styles for users in high contrast mode. Note that this only applies
  * to Microsoft browsers. Chrome can be included by checking for the `html[hc]`
@@ -5907,7 +6033,7 @@ mat-select.mod-multiline.mod-framed .textfield-input.ng-invalid.ng-touched {
 .mat-button-focus-overlay {
   display: none; }
 .mat-datepicker-content {
-  box-shadow: var(--commons-elevations-1) !important;
+  box-shadow: var(--commons-elevations-elevation-1) !important;
   display: block; }
 .mat-datepicker-toggle {
   z-index: 2; }
@@ -6077,6 +6203,9 @@ input.mat-input-element {
 .mat-tooltip.palette-error {
     background: var(--palettes-error-color);
     color: var(--palettes-error-text); }
+.mat-tooltip.palette-ds {
+    background: var(--palettes-ds-color);
+    color: var(--palettes-ds-text); }
 .mat-tooltip.palette-scss {
     background: var(--palettes-scss-color);
     color: var(--palettes-scss-text); }
@@ -6422,6 +6551,161 @@ input.mat-input-element {
 .mat-tree-node {
   font-weight: 400;
   font-size: 14px; }
+/**
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: black;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+/* Code blocks */
+pre[class*="language-"] {
+  position: relative;
+  margin: .5em 0;
+  box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+  border-left: 10px solid #358ccb;
+  background-color: #fdfdfd;
+  background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+  background-size: 3em 3em;
+  background-origin: content-box;
+  overflow: visible;
+  padding: 0; }
+code[class*="language"] {
+  max-height: inherit;
+  height: 100%;
+  padding: 0 1em;
+  display: block; }
+/* Margin bottom to accomodate shadow */
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #fdfdfd;
+  box-sizing: border-box;
+  margin-bottom: 1em; }
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  position: relative;
+  padding: .2em;
+  border-radius: 0.3em;
+  color: #c92c2c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline;
+  white-space: normal; }
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+  content: '';
+  z-index: -2;
+  display: block;
+  position: absolute;
+  bottom: 0.75em;
+  left: 0.18em;
+  width: 40%;
+  height: 20%;
+  max-height: 13em;
+  box-shadow: 0px 13px 8px #979797;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg); }
+:not(pre) > code[class*="language-"]:after,
+pre[class*="language-"]:after {
+  right: 0.75em;
+  left: auto;
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg); }
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #7D8B99; }
+.token.punctuation {
+  color: #5F6364; }
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.function-name,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #c92c2c; }
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.function,
+.token.builtin,
+.token.inserted {
+  color: #2f9c0a; }
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+  color: #a67f59;
+  background: rgba(255, 255, 255, 0.5); }
+.token.atrule,
+.token.attr-value,
+.token.keyword,
+.token.class-name {
+  color: #1990b8; }
+.token.regex,
+.token.important {
+  color: #e90; }
+.language-css .token.string,
+.style .token.string {
+  color: #a67f59;
+  background: rgba(255, 255, 255, 0.5); }
+.token.important {
+  font-weight: normal; }
+.token.bold {
+  font-weight: bold; }
+.token.italic {
+  font-style: italic; }
+.token.entity {
+  cursor: help; }
+.namespace {
+  opacity: .7; }
+@media screen and (max-width: 767px) {
+  pre[class*="language-"]:before,
+  pre[class*="language-"]:after {
+    bottom: 14px;
+    box-shadow: none; } }
+/* Plugin styles */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before {
+  color: #e0d7d1; }
+/* Plugin styles: Line Numbers */
+pre[class*="language-"].line-numbers {
+  padding-left: 0; }
+pre[class*="language-"].line-numbers code {
+  padding-left: 3.8em; }
+pre[class*="language-"].line-numbers .line-numbers-rows {
+  left: 0; }
+/* Plugin styles: Line Highlight */
+pre[class*="language-"][data-line] {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0; }
+pre[data-line] code {
+  position: relative;
+  padding-left: 4em; }
+pre .line-highlight {
+  margin-top: 0; }
 .card.mod-visual, .mod-visual.mat-datepicker-content, .mod-visual.mat-dialog-container {
   padding-top: 8rem; }
 .card.mod-visual .card-content, .mod-visual.mat-datepicker-content .card-content, .mod-visual.mat-dialog-container .card-content {
@@ -6462,52 +6746,64 @@ input.mat-input-element {
   border-top: 1px solid var(--commons-background-darker); }
 .code.mod-block {
   margin-bottom: 1.5rem; }
+hr {
+  border: 1px solid var(--commons-divider-color);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0; }
 :root {
   --palettes-primary-color: #FFCC00;
   --palettes-primary-text: #666666;
-  --palettes-primary-transparent: rgba(255, 204, 0, 0.1);
+  --palettes-primary-see-through: rgba(255, 204, 0, 0.1);
   --palettes-primary-dark: #e6b800;
   --palettes-primary-darker: #997a00;
   --palettes-primary-light: #ffd11a;
   --palettes-primary-lighter: #ffe066;
   --palettes-secondary-color: #FF6600;
   --palettes-secondary-text: #FFFFFF;
-  --palettes-secondary-transparent: rgba(255, 102, 0, 0.1);
+  --palettes-secondary-see-through: rgba(255, 102, 0, 0.1);
   --palettes-secondary-dark: #e65c00;
   --palettes-secondary-darker: #993d00;
   --palettes-secondary-light: #ff751a;
   --palettes-secondary-lighter: #ffa366;
   --palettes-success-color: #9ACD32;
   --palettes-success-text: #FFFFFF;
-  --palettes-success-transparent: rgba(154, 205, 50, 0.1);
+  --palettes-success-see-through: rgba(154, 205, 50, 0.1);
   --palettes-success-dark: #8bb92d;
   --palettes-success-darker: #5c7b1e;
   --palettes-success-light: #a4d247;
   --palettes-success-lighter: #c2e184;
   --palettes-warning-color: #FF9900;
   --palettes-warning-text: #FFFFFF;
-  --palettes-warning-transparent: rgba(255, 153, 0, 0.1);
+  --palettes-warning-see-through: rgba(255, 153, 0, 0.1);
   --palettes-warning-dark: #e68a00;
   --palettes-warning-darker: #995c00;
   --palettes-warning-light: #ffa31a;
   --palettes-warning-lighter: #ffc266;
   --palettes-error-color: #FF3300;
   --palettes-error-text: #FFFFFF;
-  --palettes-error-transparent: rgba(255, 51, 0, 0.1);
+  --palettes-error-see-through: rgba(255, 51, 0, 0.1);
   --palettes-error-dark: #e62e00;
   --palettes-error-darker: #991f00;
   --palettes-error-light: #ff471a;
   --palettes-error-lighter: #ff8566;
+  --palettes-ds-color: #F9FAFF;
+  --palettes-ds-text: #8b89ce;
+  --palettes-ds-see-through: rgba(249, 250, 255, 0.1);
+  --palettes-ds-dark: #eff1fc;
+  --palettes-ds-darker: #e2e7ff;
+  --palettes-ds-light: white;
+  --palettes-ds-lighter: white;
   --palettes-scss-color: #e696be;
   --palettes-scss-text: #FFFFFF;
-  --palettes-scss-transparent: rgba(230, 150, 190, 0.1);
+  --palettes-scss-see-through: rgba(230, 150, 190, 0.1);
   --palettes-scss-dark: #e181b1;
   --palettes-scss-darker: #d2448b;
   --palettes-scss-light: #ebabcb;
   --palettes-scss-lighter: #fae8f1;
   --palettes-ng-color: #42A5F5;
   --palettes-ng-text: #FFFFFF;
-  --palettes-ng-transparent: rgba(66, 165, 245, 0.1);
+  --palettes-ng-see-through: rgba(66, 165, 245, 0.1);
   --palettes-ng-dark: #2a99f4;
   --palettes-ng-darker: #0b72c6;
   --palettes-ng-light: #5ab1f6;
@@ -6561,7 +6857,7 @@ input.mat-input-element {
   --commons-divider-width: 1px;
   --commons-divider-color: #D6D6D6;
   --commons-disabled-opacity: 0.5;
-  --commons-background-base: #F9FAFF;
+  --commons-background-base: #FFFFFF;
   --commons-background-dark: #eff1fc;
   --commons-background-darker: #e2e7ff;
   --commons-background-darkest: #d3daff;
@@ -6571,13 +6867,13 @@ input.mat-input-element {
   --commons-text-link-color: #00B2ED;
   --commons-text-link-hover: #16C5FE;
   --commons-border-radius: 3px;
-  --commons-font-family: "Source Sans Pro", Tahoma, sans-serif;
+  --commons-font-family: Source Sans Pro, Tahoma, sans-serif;
   --commons-font-size: 16px;
-  --commons-elevations-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  --commons-elevations-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  --commons-elevations-3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  --commons-elevations-4: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  --commons-elevations-5: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  --commons-elevations-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --commons-elevations-elevation-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --commons-elevations-elevation-3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  --commons-elevations-elevation-4: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  --commons-elevations-elevation-5: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
   --commons-banner-height: 50px;
   --commons-transition: all 150ms ease;
   --components-actionIcon-hover-background: rgba(0, 0, 0, 0.075);
@@ -6593,14 +6889,14 @@ input.mat-input-element {
   --components-button-active-box-shadow: 0 0 0 1px rgba(50, 50, 50, .2) inset;
   --components-button-wired-default-palette-color: #FFCC00;
   --components-button-wired-default-palette-text: #666666;
-  --components-button-wired-default-palette-transparent: rgba(255, 204, 0, 0.1);
+  --components-button-wired-default-palette-see-through: rgba(255, 204, 0, 0.1);
   --components-button-wired-default-palette-dark: #e6b800;
   --components-button-wired-default-palette-darker: #997a00;
   --components-button-wired-default-palette-light: #ffd11a;
   --components-button-wired-default-palette-lighter: #ffe066;
   --components-button-filling-default-palette-color: #FFCC00;
   --components-button-filling-default-palette-text: #666666;
-  --components-button-filling-default-palette-transparent: rgba(255, 204, 0, 0.1);
+  --components-button-filling-default-palette-see-through: rgba(255, 204, 0, 0.1);
   --components-button-filling-default-palette-dark: #e6b800;
   --components-button-filling-default-palette-darker: #997a00;
   --components-button-filling-default-palette-light: #ffd11a;
@@ -6608,7 +6904,7 @@ input.mat-input-element {
   --components-button-flat-color: black;
   --components-button-checked-color: #FFCC00;
   --components-button-checked-text: #666666;
-  --components-button-checked-transparent: rgba(255, 204, 0, 0.1);
+  --components-button-checked-see-through: rgba(255, 204, 0, 0.1);
   --components-button-checked-dark: #e6b800;
   --components-button-checked-darker: #997a00;
   --components-button-checked-light: #ffd11a;
@@ -6741,7 +7037,7 @@ input.mat-input-element {
   --components-textfield-compact-label-sizes-long: 9rem;
   --components-textfield-compact-label-sizes-longer: 11rem;
   --components-textfield-framed-default-palette-color: #999999;
-  --components-textfield-framed-default-palette-transparent: rgba(153, 153, 153, 0.05);
+  --components-textfield-framed-default-palette-see-through: rgba(153, 153, 153, 0.05);
   --components-textfield-framed-default-palette-text: #666666;
   --components-textfield-framed-side-padding: 1rem;
   --components-textfield-framed-top-padding: 2.2rem;
@@ -6754,7 +7050,7 @@ input.mat-input-element {
   --components-textfield-framed-suffix-padding-right: 2.5rem;
   --components-switch-default-palette-color: #FFCC00;
   --components-switch-default-palette-text: #666666;
-  --components-switch-default-palette-transparent: rgba(255, 204, 0, 0.1);
+  --components-switch-default-palette-see-through: rgba(255, 204, 0, 0.1);
   --components-switch-default-palette-dark: #e6b800;
   --components-switch-default-palette-darker: #997a00;
   --components-switch-default-palette-light: #ffd11a;
@@ -6768,8 +7064,8 @@ input.mat-input-element {
   --components-table-padding: 0.65em 1em;
   --components-table-font-size: var(--sizes-standard-font-size);
   --components-table-line-height: var(--sizes-standard-line-height);
-  --components-table-zebra-background: var(--commons-background-base);
-  --components-table-hover-background: var(--commons-background-dark);
+  --components-table-zebra-background: var(--palettes-ds-color);
+  --components-table-hover-background: var(--palettes-ds-dark);
   --components-table-card-padding: 1.5rem;
   --components-user-picture-sizes-smallest-font-size: 0.5em;
   --components-user-picture-sizes-smallest-image-size: 2.5em;
@@ -6784,7 +7080,12 @@ input.mat-input-element {
   --components-user-picture-sizes-larger-font-size: 1.8em;
   --components-user-picture-sizes-larger-image-size: 2.5em;
   --components-user-picture-sizes-largest-font-size: 3em;
-  --components-user-picture-sizes-largest-image-size: 2.5em; }
+  --components-user-picture-sizes-largest-image-size: 2.5em;
+  --components-options-checkbox-left: 0.5rem;
+  --components-options-checkbox-size: 0.95rem;
+  --components-options-checkbox-border-radius: 3px;
+  --components-select-height: 2rem;
+  --components-select-tag-margin: 0.2rem; }
 
 
 /*# sourceMappingURL=styles.css.map*/
