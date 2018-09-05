@@ -1,5 +1,8 @@
 @import '~@lucca-front/scss/src/theming.overridable';
-
+:host {
+	display: block;
+	margin-bottom: 1rem;
+}
 td:nth-child(2), th:nth-child(2) {
 	width: 100%;
 }
