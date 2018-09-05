@@ -1,37 +1,17 @@
 <div class="card">
-  <div class="card-content">
-    <h1>Logos</h1>
-  </div>
+	<div class="card-content">
+		<h1>Logos</h1>
+	</div>
 </div>
 
 <div class="card">
-  <div class="card-content">
-    <h2>Favicos</h2>
-    <div class="grid">
-      <div class="grid-md">
-        <p>Lucca</p>
-        <img src="assets/logos/favicons/lucca-32x32.png">
-      </div>
-      <div class="grid-md">
-        <p>Figgo</p>
-        <img src="assets/logos/favicons/figgo-32x32.png">
-      </div>
-      <div class="grid-md">
-        <p>Cleemy</p>
-        <img src="assets/logos/favicons/cleemy-32x32.png">
-      </div>
-      <div class="grid-md">
-        <p>Poplee</p>
-        <img src="assets/logos/favicons/poplee-32x32.png">
-      </div>
-      <div class="grid-md">
-        <p>Pagga</p>
-        <img src="assets/logos/favicons/pagga-32x32.png">
-      </div>
-      <div class="grid-md">
-        <p>Timmi</p>
-        <img src="assets/logos/favicons/timmi-32x32.png">
-      </div>
-    </div>
-  </div>
+	<div class="card-content">
+		<h2>Favicos</h2>
+		<div class="grid">
+			<div *ngFor="let logo of logos" class="grid-md">
+				<p>{{logo.name}}</p>
+				<img [dsAssetSrc]="logo.href">
+			</div>
+		</div>
+	</div>
 </div>
