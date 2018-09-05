@@ -8,8 +8,8 @@ export class DsExampleService {
 	constructor(private route: ActivatedRoute, private router: Router) {}
 
 	getCurrentExample(examples: IExample[]): IExample {
-		const fragment = this.route.snapshot.fragment;
-		const ex = examples.find(example => this.slugify(example.title) === fragment);
+		const exampleName = this.route.snapshot.queryParamMap.get('example');
+		const ex = examples.find(example => this.slugify(example.title) === exampleName);
 		if (ex) {
 			return ex;
 		}
@@ -17,7 +17,7 @@ export class DsExampleService {
 	}
 
 	setCurrentExample(example: IExample) {
-		this.router.navigate([], { fragment: this.slugify(example.title), relativeTo: this.route });
+		this.router.navigate([], { queryParams: { example: this.slugify(example.title) }, relativeTo: this.route });
 	}
 
 	slugify(text) {
