@@ -1032,16 +1032,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _lucca_front_ng__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @lucca-front/ng */ "./node_modules/@lucca-front/ng/fesm5/lucca-front-ng.js");
-/* harmony import */ var _main_main_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./main/main.module */ "./src/app/main/main.module.ts");
-/* harmony import */ var _visual__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./visual */ "./src/app/visual/index.ts");
-/* harmony import */ var _principles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./principles */ "./src/app/principles/index.ts");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components */ "./src/app/components/index.ts");
-/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./content */ "./src/app/content/index.ts");
-/* harmony import */ var _nav_side__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./nav-side */ "./src/app/nav-side/index.ts");
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _lucca_front_ng__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @lucca-front/ng */ "./node_modules/@lucca-front/ng/fesm5/lucca-front-ng.js");
+/* harmony import */ var _main_main_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./main/main.module */ "./src/app/main/main.module.ts");
+/* harmony import */ var _visual__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./visual */ "./src/app/visual/index.ts");
+/* harmony import */ var _principles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./principles */ "./src/app/principles/index.ts");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components */ "./src/app/components/index.ts");
+/* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./content */ "./src/app/content/index.ts");
+/* harmony import */ var _nav_side__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./nav-side */ "./src/app/nav-side/index.ts");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./commons */ "./src/app/commons/index.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1070,25 +1070,25 @@ var AppModule = /** @class */ (function () {
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
-                _lucca_front_ng__WEBPACK_IMPORTED_MODULE_5__["LuModule"],
-                _home__WEBPACK_IMPORTED_MODULE_12__["DsHomeModule"],
-                _main_main_module__WEBPACK_IMPORTED_MODULE_6__["DsMainModule"],
-                _principles__WEBPACK_IMPORTED_MODULE_8__["DsPrinciplesModule"],
-                _content__WEBPACK_IMPORTED_MODULE_10__["DsContentModule"],
-                _components__WEBPACK_IMPORTED_MODULE_9__["DsComponentsModule"],
-                _visual__WEBPACK_IMPORTED_MODULE_7__["DsVisualModule"],
-                _nav_side__WEBPACK_IMPORTED_MODULE_11__["DsNavSideModule"],
+                _lucca_front_ng__WEBPACK_IMPORTED_MODULE_4__["LuModule"],
+                _home__WEBPACK_IMPORTED_MODULE_11__["DsHomeModule"],
+                _main_main_module__WEBPACK_IMPORTED_MODULE_5__["DsMainModule"],
+                _principles__WEBPACK_IMPORTED_MODULE_7__["DsPrinciplesModule"],
+                _content__WEBPACK_IMPORTED_MODULE_9__["DsContentModule"],
+                _components__WEBPACK_IMPORTED_MODULE_8__["DsComponentsModule"],
+                _visual__WEBPACK_IMPORTED_MODULE_6__["DsVisualModule"],
+                _nav_side__WEBPACK_IMPORTED_MODULE_10__["DsNavSideModule"],
+                _commons__WEBPACK_IMPORTED_MODULE_13__["DsMarkdownModule"].forRoot(),
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([], {
                     scrollPositionRestoration: 'enabled',
                     useHash: true,
                 })
             ],
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -1564,12 +1564,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _doc_api__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./doc-api */ "./src/app/commons/doc-api/index.ts");
 /* harmony import */ var _structure__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./structure */ "./src/app/commons/structure/index.ts");
 /* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./asset */ "./src/app/commons/asset/index.ts");
+/* harmony import */ var _markdown__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./markdown */ "./src/app/commons/markdown/index.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1591,6 +1593,7 @@ var DsCommonsModule = /** @class */ (function () {
                 _tool__WEBPACK_IMPORTED_MODULE_1__["DsToolModule"],
                 _safe_content__WEBPACK_IMPORTED_MODULE_2__["DsSafeContentModule"],
                 _asset__WEBPACK_IMPORTED_MODULE_7__["DsAssetModule"],
+                _markdown__WEBPACK_IMPORTED_MODULE_8__["DsMarkdownModule"],
             ],
             exports: [
                 _page__WEBPACK_IMPORTED_MODULE_3__["DsPageItemModule"],
@@ -1600,6 +1603,7 @@ var DsCommonsModule = /** @class */ (function () {
                 _tool__WEBPACK_IMPORTED_MODULE_1__["DsToolModule"],
                 _safe_content__WEBPACK_IMPORTED_MODULE_2__["DsSafeContentModule"],
                 _asset__WEBPACK_IMPORTED_MODULE_7__["DsAssetModule"],
+                _markdown__WEBPACK_IMPORTED_MODULE_8__["DsMarkdownModule"],
             ],
         })
     ], DsCommonsModule);
@@ -1711,7 +1715,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************!*\
   !*** ./src/app/commons/index.ts ***!
   \**********************************/
-/*! exports provided: DsCommonsModule, Pages, Page, DsAssetModule, DsAssetService, DsAssetSrcDirective, DsCodeTabsModule, DsDocApiModule, DsDocApiService, DsPageItemModule, DsSafeContentModule, DsStructureModule, ToolComponent, DsToolModule */
+/*! exports provided: DsCommonsModule, Pages, Page, DsAssetModule, DsAssetService, DsAssetSrcDirective, DsCodeTabsModule, DsDocApiModule, DsDocApiService, DsPageItemModule, DsSafeContentModule, DsStructureModule, ToolComponent, DsToolModule, DsMarkdownSrcDirective, DsMarkdownModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1752,6 +1756,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsToolModule", function() { return _tool__WEBPACK_IMPORTED_MODULE_7__["DsToolModule"]; });
 
+/* harmony import */ var _markdown__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./markdown */ "./src/app/commons/markdown/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownSrcDirective", function() { return _markdown__WEBPACK_IMPORTED_MODULE_8__["DsMarkdownSrcDirective"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownModule", function() { return _markdown__WEBPACK_IMPORTED_MODULE_8__["DsMarkdownModule"]; });
 
 
 
@@ -1760,6 +1768,191 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/markdown/index.ts":
+/*!*******************************************!*\
+  !*** ./src/app/commons/markdown/index.ts ***!
+  \*******************************************/
+/*! exports provided: DsMarkdownSrcDirective, DsMarkdownModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _markdown_src_directive__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./markdown-src.directive */ "./src/app/commons/markdown/markdown-src.directive.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownSrcDirective", function() { return _markdown_src_directive__WEBPACK_IMPORTED_MODULE_0__["DsMarkdownSrcDirective"]; });
+
+/* harmony import */ var _markdown_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./markdown.module */ "./src/app/commons/markdown/markdown.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownModule", function() { return _markdown_module__WEBPACK_IMPORTED_MODULE_1__["DsMarkdownModule"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/markdown/markdown-src.directive.ts":
+/*!************************************************************!*\
+  !*** ./src/app/commons/markdown/markdown-src.directive.ts ***!
+  \************************************************************/
+/*! exports provided: DsMarkdownSrcDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownSrcDirective", function() { return DsMarkdownSrcDirective; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../asset */ "./src/app/commons/asset/index.ts");
+/* harmony import */ var ngx_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-markdown */ "./node_modules/ngx-markdown/fesm5/ngx-markdown.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DsMarkdownSrcDirective = /** @class */ (function () {
+    function DsMarkdownSrcDirective(_assetService, _markdownComponent) {
+        this._assetService = _assetService;
+        this._markdownComponent = _markdownComponent;
+    }
+    DsMarkdownSrcDirective.prototype.ngOnInit = function () {
+        this._markdownComponent.src = this._assetService.getHref({ href: this.unprefixedSrc });
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('dsMarkdownSrc'),
+        __metadata("design:type", String)
+    ], DsMarkdownSrcDirective.prototype, "unprefixedSrc", void 0);
+    DsMarkdownSrcDirective = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"])({
+            selector: 'markdown[dsMarkdownSrc]',
+        }),
+        __metadata("design:paramtypes", [_asset__WEBPACK_IMPORTED_MODULE_1__["DsAssetService"],
+            ngx_markdown__WEBPACK_IMPORTED_MODULE_2__["MarkdownComponent"]])
+    ], DsMarkdownSrcDirective);
+    return DsMarkdownSrcDirective;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/markdown/markdown.module.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/commons/markdown/markdown.module.ts ***!
+  \*****************************************************/
+/*! exports provided: DsMarkdownModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsMarkdownModule", function() { return DsMarkdownModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _markdown_src_directive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./markdown-src.directive */ "./src/app/commons/markdown/markdown-src.directive.ts");
+/* harmony import */ var _asset__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset */ "./src/app/commons/asset/index.ts");
+/* harmony import */ var ngx_markdown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-markdown */ "./node_modules/ngx-markdown/fesm5/ngx-markdown.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _markdown_options__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./markdown.options */ "./src/app/commons/markdown/markdown.options.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var DsMarkdownRootModule = /** @class */ (function () {
+    function DsMarkdownRootModule() {
+    }
+    DsMarkdownRootModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
+                ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({
+                    loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
+                    markedOptions: {
+                        provide: ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkedOptions"],
+                        useFactory: _markdown_options__WEBPACK_IMPORTED_MODULE_5__["markedOptionsFactory"]
+                    }
+                }),
+            ],
+        })
+    ], DsMarkdownRootModule);
+    return DsMarkdownRootModule;
+}());
+var DsMarkdownModule = /** @class */ (function () {
+    function DsMarkdownModule() {
+    }
+    DsMarkdownModule.forRoot = function () {
+        return {
+            ngModule: DsMarkdownRootModule,
+        };
+    };
+    DsMarkdownModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"],
+                _asset__WEBPACK_IMPORTED_MODULE_2__["DsAssetModule"],
+            ],
+            declarations: [
+                _markdown_src_directive__WEBPACK_IMPORTED_MODULE_1__["DsMarkdownSrcDirective"],
+            ],
+            exports: [
+                _markdown_src_directive__WEBPACK_IMPORTED_MODULE_1__["DsMarkdownSrcDirective"],
+                ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"],
+            ],
+        })
+    ], DsMarkdownModule);
+    return DsMarkdownModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/commons/markdown/markdown.options.ts":
+/*!******************************************************!*\
+  !*** ./src/app/commons/markdown/markdown.options.ts ***!
+  \******************************************************/
+/*! exports provided: markedOptionsFactory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "markedOptionsFactory", function() { return markedOptionsFactory; });
+/* harmony import */ var ngx_markdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ngx-markdown */ "./node_modules/ngx-markdown/fesm5/ngx-markdown.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../environments/environment */ "./src/environments/environment.ts");
+
+
+function markedOptionsFactory() {
+    var renderer = new ngx_markdown__WEBPACK_IMPORTED_MODULE_0__["MarkedRenderer"]();
+    renderer.blockquote = function (text) {
+        return "\n\t\t<div class=\"callout mod-icon palette-ng\">\n\t\t\t<div class=\"callout-icon\">\n\t\t\t\t<i class=\"lucca-icon\">info</i>\n\t\t\t</div>\n\t\t\t<span class=\"extra-infos\">" + text + "</span>\n\t\t</div>";
+    };
+    renderer.heading = function (text, level) {
+        return "<h" + (level + 1) + ">" + text + "</h" + (level + 1) + ">";
+    };
+    renderer.image = function (href, title, text) {
+        return "<img src=\"" + _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl + "/" + href + "\" title=\"" + text + "\" alt=\"" + text + "\" class=\"markdown-image\"/>";
+    };
+    return {
+        renderer: renderer,
+        baseUrl: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl,
+    };
+}
 
 
 /***/ }),
@@ -2489,7 +2682,7 @@ module.exports = "<p class=\"u-right\"><a href=\"https://github.com/LuccaSA/lucc
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "td:nth-child(2), th:nth-child(2) {\n  width: 100%; }\n\ntd:nth-child(3), th:nth-child(3) {\n  min-width: 200px; }\n"
+module.exports = ":host {\n  display: block;\n  margin-bottom: 1rem; }\n\ntd:nth-child(2), th:nth-child(2) {\n  width: 100%; }\n\ntd:nth-child(3), th:nth-child(3) {\n  min-width: 200px; }\n"
 
 /***/ }),
 
@@ -2726,7 +2919,7 @@ module.exports = "<div class=\"card-dependencies\" *ngIf=\"infos.packages\">\n\t
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ":host {\n  display: block;\n  position: relative; }\n"
+module.exports = ":host {\n  display: block;\n  position: relative;\n  margin-bottom: 1rem; }\n"
 
 /***/ }),
 
@@ -10124,7 +10317,7 @@ var SortableExampleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n\t</div>\n</div>\n"
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n<markdown [dsMarkdownSrc]=\"'guidelines/components/listings/tables/tables.guidelines.md'\"></markdown>\n"
 
 /***/ }),
 
@@ -10284,7 +10477,9 @@ var DsTablesModule = /** @class */ (function () {
     }
     DsTablesModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            imports: [
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
+            ],
             declarations: [
                 _tables_component__WEBPACK_IMPORTED_MODULE_2__["TablesComponent"],
                 _basic_basic_component__WEBPACK_IMPORTED_MODULE_3__["BasicExampleComponent"],

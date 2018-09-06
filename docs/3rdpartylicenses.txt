@@ -124,6 +124,14 @@ MIT
 MIT
 MIT
 
+marked@0.5.0
+MIT
+MIT
+
+ngx-markdown@6.2.0
+MIT
+MIT
+
 rxjs@6.2.1
 Apache-2.0
 Apache License
