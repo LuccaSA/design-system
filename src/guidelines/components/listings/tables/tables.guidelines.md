@@ -10,11 +10,11 @@ Selon la largeur du tableau et la densité du contenu, on peut conserver les bor
 
 On conserve les bordures pour séparer l'en-tête (thead) et l'éventuel pied (tfoot) du corps du tableau (tbody).
 
-![A faire](/guidelines/components/listings/tables/images/table-borders-do-1.png) ![A faire](/guidelines/components/listings/tables/images/table-borders-do-2.png) ![A éviter](/guidelines/components/listings/tables/images/table-borders-dont.png)
+![A faire](guidelines/components/listings/tables/images/table-borders-do-1.png) ![A faire](guidelines/components/listings/tables/images/table-borders-do-2.png) ![A éviter](guidelines/components/listings/tables/images/table-borders-dont.png)
 
 Si le tableau est compris dans un bloc matérialisé (ex. : dans une carte), on considère que les bordures du bloc fusionnent avec les bordures du tableau : cela implique de faire courir les éventuelles bordures horizontales jusqu'aux bords latéraux du bloc parent, et de ne pas matérialiser les bordures extérieures du tableau.
 
-![A faire](/guidelines/components/listings/tables/images/table-card-do.png) ![A éviter](/guidelines/components/listings/tables/images/table-card-dont.png)
+![A faire](guidelines/components/listings/tables/images/table-card-do.png) ![A éviter](guidelines/components/listings/tables/images/table-card-dont.png)
 
 La largeur des colonnes devrait toujours s'adapter à son contenu, pour éviter d'avoir des marges trop importantes entre les données, qui compliquent la lecture d'une ligne dans son ensemble.
 
@@ -23,7 +23,7 @@ Les titres de colonnes sont alignés avec les données associées :
 - les textes sont en fer à gauche
 - les nombres en fer à droite, alignés sur la virgule
 
-![A faire](/guidelines/components/listings/tables/images/table-alignment-do.png) ![A éviter](/guidelines/components/listings/tables/images/table-alignment-dont.png)
+![A faire](guidelines/components/listings/tables/images/table-alignment-do.png) ![A éviter](guidelines/components/listings/tables/images/table-alignment-dont.png)
 
 
 Concernant l'alignement vertical, il dépend du contexte :
@@ -36,19 +36,19 @@ En cas de doute, on privilégie l'alignement sur le haut.
 ### Survol d'une ligne
 Si le clic sur la ligne donne accès à des informations supplémentaires, un changement de la couleur de fond de la ligne permettent la mise en évidence de cette possibilité.
 
-![A faire](/guidelines/components/listings/tables/images/table-hover.png)
+![A faire](guidelines/components/listings/tables/images/table-hover.png)
 
 ### Sélection d'une ligne
 Quand on peut agir « en masse » sur les lignes d'un tableau, on insère dans une colonne sur la gauche du tableau une checkbox par ligne
 On met en évidence la ou les ligne(s) sélectionnée(s) par une couleur de fond
 Dans l'entête de cette colonne, on trouve un select proposant des raccourcis de sélection rapide.
 
-![A faire](/guidelines/components/listings/tables/images/table-select.gif)
+![A faire](guidelines/components/listings/tables/images/table-select.gif)
 
 ### Tri
 Les données sont triables sur tous les attributs pertinents. Le tri par défaut est indiqué par une flèche (ascendante si on est par ordre croissant, descendante si on est par ordre décroissant) au niveau du titre de la colonne. Au survol d'une autre colonne sur laquelle le tri peut être fait, une flèche apparaît également
 
-![A faire](/guidelines/components/listings/tables/images/table-sort.gif)
+![A faire](guidelines/components/listings/tables/images/table-sort.gif)
 
 ### Gestion du texte
 Dans le cas où l'espace disponible n'est pas suffisant pour afficher l'intégralité du texte, deux choix sont possibles :
