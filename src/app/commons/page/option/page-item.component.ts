@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Output, HostListener, Input, EventEmitter, forwardRef } from '@angular/core';
 import { ILuOptionItem, ALuOptionItem } from '@lucca-front/ng';
-import { Page } from '../page.model';
+import { IPage } from '../page.model';
 
 @Component({
 	selector: 'ds-page-item',
@@ -15,7 +15,7 @@ import { Page } from '../page.model';
 		},
 	],
 })
-export class DsPageItemComponent<T = Page> extends ALuOptionItem<T> implements ILuOptionItem<T> {
+export class DsPageItemComponent<T = IPage> extends ALuOptionItem<T> implements ILuOptionItem<T> {
 	@Input() page: T;
 	@Output() onSelect = new EventEmitter<T>();
 	get value() { return this.page; }
