@@ -59,12 +59,13 @@ export abstract class APage implements IPage {
 		return titleMatch || parentMatch || keywordMatch;
 	}
 	abstract toRoute();
-	toIndex(): IPage[] {
-		const clone = Object.create(this);
-		const children = clone.children as IPage[];
-		clone._children = [];
-		return [clone, ...children.map(c => c.toIndex()).reduce((acc, cur) => [...acc, ...cur], [])];
-	}
+	abstract toIndex(): IPage[];
+	//  {
+	// 	const clone = Object.create(this);
+	// 	const children = clone.children as IPage[];
+	// 	clone._children = [];
+	// 	return [clone, ...children.map(c => c.toIndex()).reduce((acc, cur) => [...acc, ...cur], [])];
+	// }
 }
 
 export class FeaturePage extends APage implements IPage {
@@ -81,6 +82,10 @@ export class FeaturePage extends APage implements IPage {
 	toRoute() {
 		return { path: this.path, component: this.component } as Route;
 	}
+	toIndex() {
+		const clone = Object.create(this);
+		return [clone];
+	}
 }
 export class GroupPage extends APage implements IPage {
 	constructor(
@@ -95,6 +100,10 @@ export class GroupPage extends APage implements IPage {
 	toRoute() {
 		return { path: this.path, children: this.children.map(c => c.toRoute()) } as Route;
 	}
+	toIndex(): IPage[] {
+		const children = this.children as IPage[];
+		return [...children.map(c => c.toIndex()).reduce((acc, cur) => [...acc, ...cur], [])];
+	}
 }
 export class RootGroupPage extends GroupPage implements IPage {
 	toRoute() {
@@ -106,6 +115,7 @@ export class RootGroupPage extends GroupPage implements IPage {
 			],
 		} as Route;
 	}
+
 }
 
 // export class Pages {
