@@ -6706,6 +6706,10 @@ pre[data-line] code {
   padding-left: 4em; }
 pre .line-highlight {
   margin-top: 0; }
+.markdown-image {
+  height: 250px;
+  margin: 0 1rem;
+  display: inline-block; }
 .card.mod-visual, .mod-visual.mat-datepicker-content, .mod-visual.mat-dialog-container {
   padding-top: 8rem; }
 .card.mod-visual .card-content, .mod-visual.mat-datepicker-content .card-content, .mod-visual.mat-dialog-container .card-content {
