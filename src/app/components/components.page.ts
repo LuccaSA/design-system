@@ -1,6 +1,6 @@
-import { GroupPage } from '../commons';
+import { RootGroupPage } from '../commons';
 import { actionsPage } from './actions/action.page';
 
-export const componentsPage = new GroupPage('components', 'Components', [
+export const componentsPage = new RootGroupPage('components', 'Components', [
 	actionsPage,
 ]);

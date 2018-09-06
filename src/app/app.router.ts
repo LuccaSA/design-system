@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 // import { contentPages } from './content';
 import { componentsPage } from './components';
 import { MainComponent } from './main/main.component';
-import { IPage, pagesToIndex } from './commons';
+import { IPage } from './commons';
 
 const router = [
 	// ...visualPages.toRoutes(),
@@ -13,12 +13,12 @@ const router = [
 	// ...principlesPages.toRoutes(),
 	// ...contentPages.toRoutes()
 ];
-export const searchabelIndex: IPage[] = pagesToIndex([
+export const searchabelIndex: IPage[] = [
 	// ...visualPages.toIndex(),
-	componentsPage,
+	...componentsPage.toIndex(),
 	// ...principlesPages.toIndex(),
 	// ...contentPages.toIndex()
-]);
+];
 
 export const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },

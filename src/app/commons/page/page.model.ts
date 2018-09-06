@@ -1,4 +1,4 @@
-import { Routes, Route } from '@angular/router';
+import { Route } from '@angular/router';
 import { NavSideComponent } from "../../nav-side/nav-side.component";
 
 export interface IPage {
@@ -11,6 +11,7 @@ export interface IPage {
 	breadcrumbs: IPage[];
 	match(clue: string): boolean;
 	toRoute(): Route;
+	toIndex(): IPage[];
 }
 function normalizeStr(str: string) {
 	return str
@@ -58,6 +59,12 @@ export abstract class APage implements IPage {
 		return titleMatch || parentMatch || keywordMatch;
 	}
 	abstract toRoute();
+	toIndex(): IPage[] {
+		const clone = Object.create(this);
+		const children = clone.children as IPage[];
+		clone._children = [];
+		return [clone, ...children.map(c => c.toIndex()).reduce((acc, cur) => [...acc, ...cur], [])];
+	}
 }
 
 export class FeaturePage extends APage implements IPage {
@@ -87,6 +94,17 @@ export class GroupPage extends APage implements IPage {
 	}
 	toRoute() {
 		return { path: this.path, children: this.children.map(c => c.toRoute()) } as Route;
+	}
+}
+export class RootGroupPage extends GroupPage implements IPage {
+	toRoute() {
+		return {
+			path: this.path,
+			children: [
+				{ path: '', component: NavSideComponent, data: { pages: this.children }, outlet: 'navSide'},
+				...this.children.map(c => c.toRoute())
+			],
+		} as Route;
 	}
 }
 

@@ -7,13 +7,9 @@ import { IPage } from '../commons';
 	templateUrl: './nav-side.component.html',
 	styleUrls: ['./nav-side.component.scss']
 })
-export class NavSideComponent implements OnInit {
+export class NavSideComponent {
 	public pages: IPage[];
 	constructor(route: ActivatedRoute) {
-		this.pages = route.snapshot.data['pages'].toNav();
+		this.pages =  route.snapshot.data['pages'] as IPage[];
 	}
-
-	ngOnInit() {
-	}
-
 }

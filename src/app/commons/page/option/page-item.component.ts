@@ -15,12 +15,15 @@ import { IPage } from '../page.model';
 		},
 	],
 })
-export class DsPageItemComponent<T extends IPage = IPage> extends ALuOptionItem<T> implements ILuOptionItem<T> {
+export class DsPageItemComponent extends ALuOptionItem<IPage> implements ILuOptionItem<IPage> {
 	_breadcrumbs: IPage[] = [];
-	@Input() set page(page: T) {
+	protected _page: IPage;
+	@Input() set page(page: IPage) {
 		this._breadcrumbs = page.breadcrumbs;
+		this._page = page;
 	}
-	@Output() onSelect = new EventEmitter<T>();
+	get page() { return this._page; }
+	@Output() onSelect = new EventEmitter<IPage>();
 	get value() { return this.page; }
 	@HostListener('click')
 	onclick() {

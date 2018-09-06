@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { IPage } from '../../commons';
 
 @Component({
 	selector: 'ds-nav-side-group',
@@ -8,17 +9,15 @@ import { Router } from '@angular/router';
 })
 export class NavSideGroupComponent implements OnInit {
 
-	@Input() page: any;
+	@Input() page: IPage;
 
 	public expanded: boolean;
-	title: string;
 
 	constructor(public router: Router) {
 		router.events.subscribe(() => this.updateToggle());
 	}
 
 	ngOnInit() {
-		this.title = this.page.groupPage.title;
 		this.updateToggle();
 	}
 
@@ -27,7 +26,7 @@ export class NavSideGroupComponent implements OnInit {
 	}
 
 	updateToggle() {
-		this.expanded = this.expanded ? this.expanded : this.router.url.split('/').includes(this.page.groupPage.path);
+		this.expanded = this.expanded ? this.expanded : this.router.url.split('/').includes(this.page.path);
 	}
 
 }
