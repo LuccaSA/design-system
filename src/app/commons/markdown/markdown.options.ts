@@ -19,7 +19,7 @@ export function markedOptionsFactory(): MarkedOptions {
 	};
 
 	renderer.image = (href: string, title: string, text: string) => {
-		return `<img src="${href}" title="${text}" alt="${text}" class="markdown-image"/>`;
+		return `<img src="${environment.deployUrl}/${href}" title="${text}" alt="${text}" class="markdown-image"/>`;
 	};
 
 	return {
