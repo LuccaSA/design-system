@@ -16,15 +16,6 @@ import { markedOptionsFactory } from './markdown.options';
 			}
 		}),
 	],
-	// exports: [
-	// 	MarkdownModule.forRoot({
-	// 		// loader: HttpClient,
-	// 		// markedOptions: {
-	// 		// 	provide: MarkedOptions,
-	// 		// 	useFactory: markedOptionsFactory,
-	// 		// }
-	// 	}),
-	// ],
 })
 class DsMarkdownRootModule {}
 
