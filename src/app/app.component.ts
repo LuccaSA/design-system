@@ -5,7 +5,6 @@ import { appRoutes } from './app.router';
 @Component({
 	selector: 'ds-root',
 	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.css']
 })
 export class AppComponent {
 	constructor(router: Router) {

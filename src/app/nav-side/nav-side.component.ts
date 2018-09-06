@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Pages } from '../commons/page/page.model';
+import { IPage } from '../commons';
 
 @Component({
 	selector: 'ds-nav-side',
@@ -8,7 +8,7 @@ import { Pages } from '../commons/page/page.model';
 	styleUrls: ['./nav-side.component.scss']
 })
 export class NavSideComponent implements OnInit {
-	public pages: Pages;
+	public pages: IPage[];
 	constructor(route: ActivatedRoute) {
 		this.pages = route.snapshot.data['pages'].toNav();
 	}
