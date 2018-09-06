@@ -15,8 +15,11 @@ import { IPage } from '../page.model';
 		},
 	],
 })
-export class DsPageItemComponent<T = IPage> extends ALuOptionItem<T> implements ILuOptionItem<T> {
-	@Input() page: T;
+export class DsPageItemComponent<T extends IPage = IPage> extends ALuOptionItem<T> implements ILuOptionItem<T> {
+	_breadcrumbs: IPage[] = [];
+	@Input() set page(page: T) {
+		this._breadcrumbs = page.breadcrumbs;
+	}
 	@Output() onSelect = new EventEmitter<T>();
 	get value() { return this.page; }
 	@HostListener('click')

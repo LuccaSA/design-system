@@ -45,8 +45,8 @@ export abstract class APage implements IPage {
 		this._parent = parent;
 	}
 	constructor(
-		public title: string,
 		public path: string,
+		public title: string,
 		public keywords: string[] = [],
 	) {}
 	match(clue: string): boolean {
@@ -54,7 +54,7 @@ export abstract class APage implements IPage {
 		const parentMatch = !!this.parent && this.parent.match(clue);
 		const keywordMatch = this.keywords
 		.map(kw => match(kw, clue))
-		.reduce((acc, current) => acc || current);
+		.reduce((acc, current) => acc || current, false);
 		return titleMatch || parentMatch || keywordMatch;
 	}
 	abstract toRoute();

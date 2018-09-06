@@ -8,7 +8,7 @@ import { appRoutes } from './app.router';
 })
 export class AppComponent {
 	constructor(router: Router) {
-		router.resetConfig(appRoutes);
+		// router.resetConfig(appRoutes);
 	}
 	title = 'Lucca Design System';
 }

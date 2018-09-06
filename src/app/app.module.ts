@@ -17,6 +17,7 @@ import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
 import { DsMarkdownModule } from './commons';
+import { appRoutes } from './app.router';
 
 
 
@@ -36,7 +37,7 @@ import { DsMarkdownModule } from './commons';
 
 		DsMarkdownModule.forRoot(),
 
-		RouterModule.forRoot([], {
+		RouterModule.forRoot(appRoutes, {
 			scrollPositionRestoration: 'enabled',
 			useHash: true,
 		})
