@@ -26,9 +26,8 @@ import { markedOptionsFactory } from './markdown/markedOptions';
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,
-		FormsModule,
-		HttpClientModule,
 		LuModule,
+		HttpClientModule,
 
 		DsHomeModule,
 		DsMainModule,
