@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 
 import { LuModule } from '@lucca-front/ng';
@@ -17,8 +16,7 @@ import { DsNavSideModule } from './nav-side';
 import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { markedOptionsFactory } from './markdown/markedOptions';
+import { DsMarkdownModule } from './commons';
 
 
 
@@ -26,8 +24,6 @@ import { markedOptionsFactory } from './markdown/markedOptions';
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,
-		FormsModule,
-		HttpClientModule,
 		LuModule,
 
 		DsHomeModule,
@@ -38,13 +34,7 @@ import { markedOptionsFactory } from './markdown/markedOptions';
 		DsVisualModule,
 		DsNavSideModule,
 
-		MarkdownModule.forRoot({
-			loader: HttpClient,
-			markedOptions: {
-				provide: MarkedOptions,
-				useFactory: markedOptionsFactory
-			}
-		}),
+		DsMarkdownModule.forRoot(),
 
 		RouterModule.forRoot([], {
 			scrollPositionRestoration: 'enabled',
