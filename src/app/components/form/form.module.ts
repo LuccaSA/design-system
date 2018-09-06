@@ -8,6 +8,7 @@ import { DsCheckboxesModule } from './checkboxes/checkboxes.module';
 import { DsSwitchesModule } from './switches/switches.module';
 import { DsFramedModule } from './framed/framed.module';
 import { DsFileModule } from './file/file.module';
+import { DsFormGuidelinesModule } from './form-guidelines/form-guidelines.module';
 
 @NgModule({
 	imports: [
@@ -17,14 +18,13 @@ import { DsFileModule } from './file/file.module';
 		DsCheckboxesModule,
 		DsSwitchesModule,
 		DsFramedModule,
-		DsFileModule
+		DsFileModule,
+		DsFormGuidelinesModule,
 	],
 	entryComponents: [
-		FormGuidelinesComponent,
 		SelectComponent,
 	],
 	declarations: [
-		FormGuidelinesComponent,
 		SelectComponent,
 	]
 })

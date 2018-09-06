@@ -1,1 +1,11 @@
-<ds-title-block [infos]="infos"></ds-title-block>
+<ds-title-block [infos]="infos">
+	<p class="strong">
+		On désigne par le terme *blank state* ou *empty state* les vues « vides » d’une application :
+	</p>
+	<ul class="strong">
+		<li>soit quand l’application échoue à afficher ce qui est attendu</li>
+		<li>soit lors du premier accès à une application ou à une vue spécifique, quand aucun objet n’a encore été créé</li>
+		<li>soit à la fin d’un process quand on n’a plus de tâche à accomplir</li>
+	</ul>
+</ds-title-block>
+<markdown [dsMarkdownSrc]="'guidelines/components/layout/empty-states/empty-states.guidelines.md'"></markdown>
