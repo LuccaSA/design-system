@@ -5,12 +5,14 @@ import { DsCommonsModule } from '../commons';
 import { HomeSplashComponent } from './home-splash/home-splash.component';
 import { HomeFooterComponent } from './home-footer/home-footer.component';
 import { HomeComponent } from './home.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
 	imports: [
 		DsHeaderModule,
 		DsCommonsModule,
+		RouterModule,
 		DsSearchModule
 	],
 	declarations: [
