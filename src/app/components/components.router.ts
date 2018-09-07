@@ -1,4 +1,3 @@
-import { StructureGuidelinesComponent } from './layout/structure-guidelines/structure-guidelines.component';
 import { TemplatesComponent } from './layout/templates/templates.component';
 import { ContainersComponent } from './layout/containers/containers.component';
 import { GridComponent } from './layout/grid/grid.component';
@@ -6,12 +5,10 @@ import { CardsComponent } from './layout/cards/cards.component';
 import { EmptyStatesComponent } from './layout/empty-states/empty-states.component';
 import { MenuComponent } from './navigation/menu/menu.component';
 import { BreadcrumbsComponent } from './navigation/breadcrumbs/breadcrumbs.component';
-import { TextGuidelinesComponent } from './text/text-guidelines/text-guidelines.component';
 import { TitlesComponent } from './text/titles/titles.component';
 import { BasicTextComponent } from './text/basic-text/basic-text.component';
 import { LabelsComponent } from './text/labels/labels.component';
 import { IconsComponent } from './text/icons/icons.component';
-import { FormGuidelinesComponent } from './form/form-guidelines/form-guidelines.component';
 import { TextfieldsComponent } from './form/textfields/textfields.component';
 import { SelectComponent } from './form/select/select.component';
 import { RadiosComponent } from './form/radios/radios.component';
@@ -19,7 +16,6 @@ import { CheckboxesComponent } from './form/checkboxes/checkboxes.component';
 import { SwitchesComponent } from './form/switches/switches.component';
 import { FileComponent } from './form/file/file.component';
 import { FramedComponent } from './form/framed/framed.component';
-import { GeneralGuidelinesComponent } from './actions/general-guidelines/general-guidelines.component';
 import { ButtonsComponent } from './actions/buttons/buttons.component';
 import { LinksComponent } from './actions/links/links.component';
 import { ActionIconsComponent } from './actions/action-icons/action-icons.component';
@@ -39,11 +35,9 @@ import { MixinsComponent } from './misc/mixins/mixins.component';
 import { AnimationsComponent } from './misc/animations/animations.component';
 import { UserTileComponent } from './users/user-tile/user-tile.component';
 import { Page, Pages } from '../commons/page/page.model';
-import { NavSideComponent } from './layout/nav-side/nav-side.component';
+import { NavSideComponent } from './navigation/nav-side/nav-side.component';
 
 const structureGroup = new Page('structure', null, 'Structure');
-const structurePage = new Page('guidelines', StructureGuidelinesComponent, 'Guidelines', structureGroup);
-const navSidePage = new Page('navside', NavSideComponent, 'Menu principal', structureGroup, ['navside']);
 const templatePage = new Page('template', TemplatesComponent, 'Templates', structureGroup);
 const containerPage = new Page('container', ContainersComponent, 'Containers', structureGroup);
 const gridPage = new Page('grid', GridComponent, 'Grid', structureGroup);
@@ -51,18 +45,17 @@ const cardPage = new Page('card', CardsComponent, 'Cards', structureGroup);
 const emptyStatePage = new Page('empty-state', EmptyStatesComponent, 'Empty states', structureGroup);
 
 const navigationGroup = new Page('navigation', null, 'Navigation');
+const navSidePage = new Page('navside', NavSideComponent, 'Menu principal', navigationGroup, ['navside']);
 const menuPage = new Page('menu', MenuComponent, 'Menu', navigationGroup);
 const breadcrumbPage = new Page('breadcrumb', BreadcrumbsComponent, 'Breadcrumb', navigationGroup);
 
 const textGroup = new Page('text', null, 'Texte');
-const textPage = new Page('guidelines', TextGuidelinesComponent, 'Guidelines', textGroup);
 const titlePage = new Page('title', TitlesComponent, 'Titres', textGroup);
 const basicTextPage = new Page('basic', BasicTextComponent, 'Typographie', textGroup);
 const labelPage = new Page('label', LabelsComponent, 'Labels', textGroup);
 const iconsPage = new Page('icons', IconsComponent, 'Icones', textGroup);
 
 const formGroup = new Page('form', null, 'Formulaires');
-const formPage = new Page('form-guidelines', FormGuidelinesComponent, 'Formulaires', formGroup);
 const textfieldPage = new Page('textfield', TextfieldsComponent, 'Textfields', formGroup);
 const selectPage = new Page('selects', SelectComponent, 'Select', formGroup);
 const radioPage = new Page('radio', RadiosComponent, 'Radio', formGroup);
@@ -72,7 +65,6 @@ const filePage = new Page('file', FileComponent, 'Fichier', formGroup);
 const framedPage = new Page('framed', FramedComponent, 'Framed', formGroup);
 
 const actionGroup = new Page('action', null, 'Actions');
-const actionPage = new Page('action', GeneralGuidelinesComponent, 'Guidelines', actionGroup);
 const buttonPage = new Page('button', ButtonsComponent, 'Bouton', actionGroup);
 const linkPage = new Page('link', LinksComponent, 'Lien', actionGroup);
 const actionIconPage = new Page('action-icon', ActionIconsComponent, "Icones d'action", actionGroup);
@@ -94,7 +86,7 @@ const toastPage = new Page('toast', ToastsComponent, 'Toast', feedbackGroup);
 const calloutPage = new Page('callout', CalloutsComponent, 'Callout', feedbackGroup);
 const boxPage = new Page('box', BoxesComponent, 'Boite', feedbackGroup);
 
-const loadingGroup = new Page('loading', null, 'Chargement')
+const loadingGroup = new Page('loading', null, 'Chargement');
 const loadingPage = new Page('loader', LoadingsComponent, 'Loader', loadingGroup);
 const progressPage = new Page('progress', ProgressComponent, 'Progression', loadingGroup);
 
@@ -106,9 +98,8 @@ const mixinsPage = new Page('mixins', MixinsComponent, 'Mixins SCSS', utilitiesG
 
 export const componentsPages = new Pages('components', [
 	structureGroup,
-	structurePage,
-	navSidePage,
 	templatePage,
+	navSidePage,
 	containerPage,
 	gridPage,
 	cardPage,
@@ -119,14 +110,12 @@ export const componentsPages = new Pages('components', [
 	breadcrumbPage,
 
 	textGroup,
-	textPage,
 	titlePage,
 	basicTextPage,
 	labelPage,
 	iconsPage,
 
 	formGroup,
-	formPage,
 	textfieldPage,
 	selectPage,
 	radioPage,
@@ -136,7 +125,6 @@ export const componentsPages = new Pages('components', [
 	framedPage,
 
 	actionGroup,
-	actionPage,
 	buttonPage,
 	linkPage,
 	actionIconPage,
@@ -168,4 +156,4 @@ export const componentsPages = new Pages('components', [
 	functionsPage,
 	mixinsPage,
 
-], structurePage);
+], templatePage);
