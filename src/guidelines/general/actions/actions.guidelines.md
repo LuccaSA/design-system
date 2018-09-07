@@ -4,7 +4,7 @@
 - Lien : quand l'action est décorrélée du flow (manipulation de l'interface, action secondaire, etc.)
 - Icône : quand l'action est répétée (sur les différents éléments d'une liste, par exemple) et que l'espace disponible est réduit. Cf. section sur les icônes
 
-![Importance vs positionnement](guidelines/components/actions/general-guidelines/images/actions.gif)
+![Importance vs positionnement](guidelines/general/actions/images/actions.gif)
 
 # Quelle couleur ?
 
@@ -12,11 +12,11 @@ Idéalement, hors contexte particulier de type dashboard, on ne devrait avoir qu
 
 *Plus que la couleur du bouton, l'important est de considérer le contraste entre la couleur du bouton et celle de l'arrière plan sur lequel il est positionné. Ainsi, un bouton bleu sera clairement visible sur un fond blanc, mais on préférera un bouton blanc si le fond est coloré.*
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-color-do.png "La présence d'un seul bouton coloré aide l'utilisateur à identifier immédiatement l'action principale proposée par la page") ![à éviter](guidelines/components/actions/general-guidelines/images/actions-color-dont-1.png "L'absence de bouton coloré empêche l'utilisateur d'identifier clairement l'action principale.") ![à éviter](guidelines/components/actions/general-guidelines/images/actions-color-dont-2.png "La multiplication de boutons colorés empêche l'utilisateur d'identifier clairement l'action principale.")
+![à faire](guidelines/general/actions/images/actions-color-do.png "La présence d'un seul bouton coloré aide l'utilisateur à identifier immédiatement l'action principale proposée par la page") ![à éviter](guidelines/general/actions/images/actions-color-dont-1.png "L'absence de bouton coloré empêche l'utilisateur d'identifier clairement l'action principale.") ![à éviter](guidelines/general/actions/images/actions-color-dont-2.png "La multiplication de boutons colorés empêche l'utilisateur d'identifier clairement l'action principale.")
 
 La zone cliquable doit être facilement accessible :
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-link-do.png) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-link-dont.png)
+![à faire](guidelines/general/actions/images/actions-link-do.png) ![à éviter](guidelines/general/actions/images/actions-link-dont.png)
 
 # Wording
 
@@ -25,27 +25,27 @@ La zone cliquable doit être facilement accessible :
 - On évite les libellés trop vagues (« OK », « Nouveau »)
 - On ne conjugue pas les verbes
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-wording-do.png) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-wording-dont.png)
+![à faire](guidelines/general/actions/images/actions-wording-do.png) ![à éviter](guidelines/general/actions/images/actions-wording-dont.png)
 
 # Mode d'affichage : quand et où afficher les actions ?
 
 Par convention, chez Lucca, quand on fait cohabiter un bouton principal avec un lien d'annulation, on place le bouton principal à gauche et le lien d'annulation à droite :
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-layout-do.png) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-layout-dont.png)
+![à faire](guidelines/general/actions/images/actions-layout-do.png) ![à éviter](guidelines/general/actions/images/actions-layout-dont.png)
 
 ## Toujours visible : action principale de la page
 
 Si cette action correspond à la création d'une occurence d'une liste d'objets, on le place plutôt en haut de page
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-position-do-1.png) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-position-dont-1.png)
+![à faire](guidelines/general/actions/images/actions-position-do-1.png) ![à éviter](guidelines/general/actions/images/actions-position-dont-1.png)
 
 Si cette action correspond à la validation/soumission d'un formulaire, on le place en clôture du formulaire en question
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-position-do-2.png) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-position-dont-2.png)
+![à faire](guidelines/general/actions/images/actions-position-do-2.png) ![à éviter](guidelines/general/actions/images/actions-position-dont-2.png)
 
 ## Apparition au survol : action facultative ou répétitive
 
-![à faire](guidelines/components/actions/general-guidelines/images/actions-hover-do.gif) ![à éviter](guidelines/components/actions/general-guidelines/images/actions-hover-dont.png)
+![à faire](guidelines/general/actions/images/actions-hover-do.gif) ![à éviter](guidelines/general/actions/images/actions-hover-dont.png)
 
 # Feedbacks
 

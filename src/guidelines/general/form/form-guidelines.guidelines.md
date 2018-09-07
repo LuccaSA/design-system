@@ -3,13 +3,13 @@
 - Relier visuellement le libellé au champ associé
 - Être cohérent au sein d'un même formulaire dans le positionnement du libellé par rapport au champ associé
 
-![à faire](guidelines/components/form/form-guidelines/images/form-layout-do.png " ") ![à éviter](guidelines/components/form/form-guidelines/images/form-layout-dont-1.png "La mauvaise gestion des espaces entre les différents groupes (libellé + champ associé) complique la lecture") ![à éviter](guidelines/components/form/form-guidelines/images/form-layout-dont-2.png "La variété dans le positionnement libellé/champ empêche l'utilisateur de scanner rapidement le formulaire")
+![à faire](guidelines/general/form/images/form-layout-do.png " ") ![à éviter](guidelines/general/form/images/form-layout-dont-1.png "La mauvaise gestion des espaces entre les différents groupes (libellé + champ associé) complique la lecture") ![à éviter](guidelines/general/form/images/form-layout-dont-2.png "La variété dans le positionnement libellé/champ empêche l'utilisateur de scanner rapidement le formulaire")
 
  # Regroupements logiques
 
 Sur des formulaires longs, créer des sections pour regrouper les champs liés logiquement :
 
-![à faire](guidelines/components/form/form-guidelines/images/form-group-do.png " ") ![à éviter](guidelines/components/form/form-guidelines/images/form-group-dont.png "L'absence de regroupement créé un formulaire indigeste et potentiellement décourageant pour l'utilisateur")
+![à faire](guidelines/general/form/images/form-group-do.png " ") ![à éviter](guidelines/general/form/images/form-group-dont.png "L'absence de regroupement créé un formulaire indigeste et potentiellement décourageant pour l'utilisateur")
 
 De la même façon, afin de ne pas décourager l'utilisateur, on peut découper le formulaire en plusieurs étapes :
 
@@ -31,19 +31,19 @@ De la même façon, afin de ne pas décourager l'utilisateur, on peut découper 
    - peu de caractères (code postal, par exemple) > champ moins long
    - *select* si la valeur attendue doit être conforme à une liste existante (entité légale, département…)
 
-![à faire](guidelines/components/form/form-guidelines/images/form-guide-do.gif) ![à éviter](guidelines/components/form/form-guidelines/images/form-guide-dont.gif)
+![à faire](guidelines/general/form/images/form-guide-do.gif) ![à éviter](guidelines/general/form/images/form-guide-dont.gif)
 
 # À propos des inputs adaptés au contexte, comment choisir entre radio buttons et select ?
 
 - **Cas N° 1** : il n'y a que 2 options possibles : radio buttons
 
-![Radio](guidelines/components/form/form-guidelines/images/case-1.png)
+![Radio](guidelines/general/form/images/case-1.png)
 
 - **Cas N° 2** : y a entre 3 et 6 options possibles : groupe de boutons
-  ![Goupe de boutons](guidelines/components/form/form-guidelines/images/case-2.png)
+  ![Goupe de boutons](guidelines/general/form/images/case-2.png)
 
 - **Cas N° 3** : il y a plus de 6 options : select (avec un champ de recherche pour filtrer les options s'il y en a plus de 10)
-  ![Select](guidelines/components/form/form-guidelines/images/case-3.png)
+  ![Select](guidelines/general/form/images/case-3.png)
 
 Pourquoi différencier les 2 premiers cas ? On a remarqué qu'il n'était pas évident d'identifier le bouton sélectionné quand on n'en a que 2 (parce qu'on n'a pas tous la même idée de l'aspect que doit avoir un bouton sélectionné). Quand on a 3 options, le problème est résolu du lui-même puisque le bouton sélectionné est forcément celui différent des 2 autres.
 
@@ -56,9 +56,9 @@ On utilise un switch pour :
 
 Dans les autres cas, on privilégiera l'utilisation de cases à cocher.
 
-![Radio](guidelines/components/form/form-guidelines/images/toggles.png)
+![Radio](guidelines/general/form/images/toggles.png)
 
-![Radio](guidelines/components/form/form-guidelines/images/toggles-multiple.png)
+![Radio](guidelines/general/form/images/toggles-multiple.png)
 
 cf. <https://www.nngroup.com/videos/checkboxes-vs-switches-forms/?lm=visual-indicators-differentiators&pt=article>  
 
