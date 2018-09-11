@@ -2,12 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 
 import { LuModule } from '@lucca-front/ng';
 
 import { DsMainModule } from './main/main.module';
-import { DsVisualModule } from './visual';
+import { DsRessourcesModule } from './ressources';
 import { DsPrinciplesModule } from './principles';
 import { DsComponentsModule } from './components';
 import { DsContentModule } from './content';
@@ -31,7 +30,7 @@ import { DsMarkdownModule } from './commons';
 		DsPrinciplesModule,
 		DsContentModule,
 		DsComponentsModule,
-		DsVisualModule,
+		DsRessourcesModule,
 		DsNavSideModule,
 
 		DsMarkdownModule.forRoot(),

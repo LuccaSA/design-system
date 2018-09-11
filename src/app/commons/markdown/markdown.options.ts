@@ -18,8 +18,16 @@ export function markedOptionsFactory(): MarkedOptions {
 		return `<h${level + 1}>${text}</h${level + 1}>`;
 	};
 
-	renderer.image = (href: string, title: string, text: string) => {
-		return `<img src="${environment.deployUrl}/${href}" title="${text}" alt="${text}" class="markdown-image"/>`;
+	renderer.image = (href: string, desc: string, title: string) => {
+		let imageReturn = `<figure class="markdown-image-container">
+			<a href="${environment.deployUrl}/${href}" target="_blank" class="markdown-image-link"><i class="lucca-icon icon-outside"></i></a>
+			<img src="${environment.deployUrl}/${href}" title="${title}" alt="${title}" class="markdown-image"/>`;
+		imageReturn += desc ? `<figcaption>${desc}</figcaption></figure>` : `</figure>`;
+		return imageReturn;
+	};
+
+	renderer.code = (text: string, classes: string, isEscaped: boolean) => {
+		return `<div class="markdown-block ${classes}">${text}</div>`;
 	};
 
 	return {
