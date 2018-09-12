@@ -554,83 +554,6 @@ module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span cl
 
 /***/ }),
 
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/alert/alert.example.html":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/alert/alert.example.html ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs2 mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>compact<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>Avec sous-menu<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/basic/basic.example.html":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/basic/basic.example.html ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 with large name <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section#2 with a larger name<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.4 <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-analytics<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #4.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #4.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/compact/compact.example.html":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/compact/compact.example.html ***!
-  \*******************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-tilesNine<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-settings<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/item-states/item-states.example.html":
-/*!***************************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/item-states/item-states.example.html ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-active<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/loader/loader.example.html":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/loader/loader.example.html ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-placeholder<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs2 mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>compact<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-placeholder<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/mobile/mobile.example.html":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/mobile/mobile.example.html ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >[class.is-open]</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>isMenuOpen<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item mod-mobileToggle<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >(click)</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>toggleMenu($event)<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Menu<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icons icon-arrowSouthThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-tilesNine<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-settings<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
-/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 with large name <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-open<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-open is-active<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
-
-/***/ }),
-
 /***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/listings/chips/basic/basic.example.html":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/listings/chips/basic/basic.example.html ***!
@@ -884,6 +807,83 @@ module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span cl
 
 /***/ }),
 
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/alert/alert.example.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/alert/alert.example.html ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs2 mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>compact<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>Avec sous-menu<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/basic/basic.example.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/basic/basic.example.html ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 with large name <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section#2 with a larger name<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #2.4 <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-analytics<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section #4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>9<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #4.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #4.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/compact/compact.example.html":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/compact/compact.example.html ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-tilesNine<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-settings<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/item-states/item-states.example.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/item-states/item-states.example.html ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-active<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/loader/loader.example.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/loader/loader.example.html ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-placeholder<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs2 mod-compact<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>compact<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-placeholder<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/mobile/mobile.example.html":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/mobile/mobile.example.html ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>aside</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >[class.is-open]</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>isMenuOpen<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-scrollWrapper<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item mod-mobileToggle<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >(click)</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>toggleMenu($event)<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Menu<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icons icon-arrowSouthThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-tilesNine<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-user<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-settings<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 3<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-sliders<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 4<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>aside</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>défault<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2 with large name <span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-alert<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>12<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-open<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>grid-xs3<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>h3</span><span class=\"token punctuation\" >></span></span>is-open is-active<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>h3</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>div</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item is-open is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>lucca-icon icon-heart<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>span</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-link-title<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Section 1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>span</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>i</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-arrow lucca-icon icon-arrowEastThin<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span><span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>i</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>nav</span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.1<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;</span>a</span> <span class=\"token attr-name\" >href</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>#<span class=\"token punctuation\" >\"</span></span> <span class=\"token attr-name\" >class</span><span class=\"token attr-value\" ><span class=\"token punctuation\" >=</span><span class=\"token punctuation\" >\"</span>navSide-item-subMenu-link is-active<span class=\"token punctuation\" >\"</span></span><span class=\"token punctuation\" >></span></span>Subsection #1.2<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>a</span><span class=\"token punctuation\" >></span></span>\n\t\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>nav</span><span class=\"token punctuation\" >></span></span>\n\t\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n\t<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n<span class=\"token tag\" ><span class=\"token tag\" ><span class=\"token punctuation\" >&lt;/</span>div</span><span class=\"token punctuation\" >></span></span>\n"
+
+/***/ }),
+
 /***/ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/text/labels/basic/basic.example.html":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/prismjs-loader?lang=markup!./src/app/components/text/labels/basic/basic.example.html ***!
@@ -1034,7 +1034,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _lucca_front_ng__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @lucca-front/ng */ "./node_modules/@lucca-front/ng/fesm5/lucca-front-ng.js");
 /* harmony import */ var _main_main_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./main/main.module */ "./src/app/main/main.module.ts");
-/* harmony import */ var _visual__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./visual */ "./src/app/visual/index.ts");
+/* harmony import */ var _ressources__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ressources */ "./src/app/ressources/index.ts");
 /* harmony import */ var _principles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./principles */ "./src/app/principles/index.ts");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components */ "./src/app/components/index.ts");
 /* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./content */ "./src/app/content/index.ts");
@@ -1076,7 +1076,7 @@ var AppModule = /** @class */ (function () {
                 _principles__WEBPACK_IMPORTED_MODULE_7__["DsPrinciplesModule"],
                 _content__WEBPACK_IMPORTED_MODULE_9__["DsContentModule"],
                 _components__WEBPACK_IMPORTED_MODULE_8__["DsComponentsModule"],
-                _visual__WEBPACK_IMPORTED_MODULE_6__["DsVisualModule"],
+                _ressources__WEBPACK_IMPORTED_MODULE_6__["DsRessourcesModule"],
                 _nav_side__WEBPACK_IMPORTED_MODULE_10__["DsNavSideModule"],
                 _commons__WEBPACK_IMPORTED_MODULE_13__["DsMarkdownModule"].forRoot(),
                 _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot([], {
@@ -1110,7 +1110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "searchabelIndex", function() { return searchabelIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "appRoutes", function() { return appRoutes; });
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _visual__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./visual */ "./src/app/visual/index.ts");
+/* harmony import */ var _ressources__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ressources */ "./src/app/ressources/index.ts");
 /* harmony import */ var _principles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./principles */ "./src/app/principles/index.ts");
 /* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./content */ "./src/app/content/index.ts");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components */ "./src/app/components/index.ts");
@@ -1121,8 +1121,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var router = _visual__WEBPACK_IMPORTED_MODULE_1__["visualPages"].toRoutes().concat(_components__WEBPACK_IMPORTED_MODULE_4__["componentsPages"].toRoutes(), _principles__WEBPACK_IMPORTED_MODULE_2__["principlesPages"].toRoutes(), _content__WEBPACK_IMPORTED_MODULE_3__["contentPages"].toRoutes());
-var searchabelIndex = _visual__WEBPACK_IMPORTED_MODULE_1__["visualPages"].toIndex().concat(_components__WEBPACK_IMPORTED_MODULE_4__["componentsPages"].toIndex(), _principles__WEBPACK_IMPORTED_MODULE_2__["principlesPages"].toIndex(), _content__WEBPACK_IMPORTED_MODULE_3__["contentPages"].toIndex());
+var router = _ressources__WEBPACK_IMPORTED_MODULE_1__["ressourcesPages"].toRoutes().concat(_components__WEBPACK_IMPORTED_MODULE_4__["componentsPages"].toRoutes(), _principles__WEBPACK_IMPORTED_MODULE_2__["principlesPages"].toRoutes(), _content__WEBPACK_IMPORTED_MODULE_3__["contentPages"].toRoutes());
+var searchabelIndex = _ressources__WEBPACK_IMPORTED_MODULE_1__["ressourcesPages"].toIndex().concat(_components__WEBPACK_IMPORTED_MODULE_4__["componentsPages"].toIndex(), _principles__WEBPACK_IMPORTED_MODULE_2__["principlesPages"].toIndex(), _content__WEBPACK_IMPORTED_MODULE_3__["contentPages"].toIndex());
 var appRoutes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__["HomeComponent"] },
     { path: '', component: _main_main_component__WEBPACK_IMPORTED_MODULE_5__["MainComponent"], children: router },
@@ -1945,8 +1945,13 @@ function markedOptionsFactory() {
     renderer.heading = function (text, level) {
         return "<h" + (level + 1) + ">" + text + "</h" + (level + 1) + ">";
     };
-    renderer.image = function (href, title, text) {
-        return "<img src=\"" + _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl + "/" + href + "\" title=\"" + text + "\" alt=\"" + text + "\" class=\"markdown-image\"/>";
+    renderer.image = function (href, desc, title) {
+        var imageReturn = "<figure class=\"markdown-image-container\">\n\t\t\t<a href=\"" + _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl + "/" + href + "\" target=\"_blank\" class=\"markdown-image-link\"><i class=\"lucca-icon icon-outside\"></i></a>\n\t\t\t<img src=\"" + _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].deployUrl + "/" + href + "\" title=\"" + title + "\" alt=\"" + title + "\" class=\"markdown-image\"/>";
+        imageReturn += desc ? "<figcaption>" + desc + "</figcaption></figure>" : "</figure>";
+        return imageReturn;
+    };
+    renderer.code = function (text, classes, isEscaped) {
+        return "<div class=\"markdown-block " + classes + "\">" + text + "</div>";
     };
     return {
         renderer: renderer,
@@ -2429,7 +2434,7 @@ var DsExampleService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"textfield mod-long\">\n\t<lu-select [(ngModel)]=\"selectedExample\" (ngModelChange)=\"onModelChange()\" class=\"textfield-input\">\n\t\t<div *luDisplayer=\"let value\">{{value.title}}</div>\n\t\t<lu-option-picker>\n\t\t\t<lu-option *ngFor=\"let example of examples\" [value]=\"example\">{{example.title}}</lu-option>\n\t\t</lu-option-picker>\n\t</lu-select>\n\t<label class=\"textfield-label\">Exemples</label>\n</div>\n\n<div class=\"example-display\" *ngIf=\"selectedExample\">\n\t<p class=\"description\" *ngIf=\"selectedExample.description\" [innerHtml]=\"selectedExample.description | safeContent: 'html'\"></p>\n\t<ds-code-tabs [example]=\"selectedExample\"></ds-code-tabs>\n\t<div class=\"callout mod-icon palette-ng\" *ngIf=\"selectedExample.extra != null\">\n\t\t<div class=\"callout-icon\">\n\t\t\t<i class=\"lucca-icon\">info</i>\n\t\t</div>\n\t\t<span class=\"extra-infos\" [innerHtml]=\"selectedExample.extra | safeContent: 'html'\"></span>\n\t</div>\n</div>\n"
+module.exports = "<div class=\"textfield mod-long\">\n\t<lu-select [(ngModel)]=\"selectedExample\" (ngModelChange)=\"onModelChange()\" class=\"textfield-input\">\n\t\t<div *luDisplayer=\"let value\">{{value.title}}</div>\n\t\t<lu-option-picker>\n\t\t\t<lu-option *ngFor=\"let example of examples\" [value]=\"example\">{{example.title}}</lu-option>\n\t\t</lu-option-picker>\n\t</lu-select>\n\t<label class=\"textfield-label\">Déclinaisons</label>\n</div>\n\n<div class=\"example-display\" *ngIf=\"selectedExample\">\n\t<p class=\"description\" *ngIf=\"selectedExample.description\" [innerHtml]=\"selectedExample.description | safeContent: 'html'\"></p>\n\t<ds-code-tabs [example]=\"selectedExample\"></ds-code-tabs>\n\t<div class=\"callout mod-icon palette-ng\" *ngIf=\"selectedExample.extra != null\">\n\t\t<div class=\"callout-icon\">\n\t\t\t<i class=\"lucca-icon\">info</i>\n\t\t</div>\n\t\t<span class=\"extra-infos\" [innerHtml]=\"selectedExample.extra | safeContent: 'html'\"></span>\n\t</div>\n</div>\n"
 
 /***/ }),
 
@@ -3393,11 +3398,10 @@ var StatusExampleComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionsModule", function() { return ActionsModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _general_guidelines_general_guidelines_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./general-guidelines/general-guidelines.component */ "./src/app/components/actions/general-guidelines/general-guidelines.component.ts");
-/* harmony import */ var _links_links_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./links/links.component */ "./src/app/components/actions/links/links.component.ts");
-/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _buttons_buttons_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./buttons/buttons.module */ "./src/app/components/actions/buttons/buttons.module.ts");
-/* harmony import */ var _action_icons_action_icon_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./action-icons/action-icon.module */ "./src/app/components/actions/action-icons/action-icon.module.ts");
+/* harmony import */ var _links_links_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./links/links.component */ "./src/app/components/actions/links/links.component.ts");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _buttons_buttons_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./buttons/buttons.module */ "./src/app/components/actions/buttons/buttons.module.ts");
+/* harmony import */ var _action_icons_action_icon_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./action-icons/action-icon.module */ "./src/app/components/actions/action-icons/action-icon.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3409,24 +3413,21 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
 var ActionsModule = /** @class */ (function () {
     function ActionsModule() {
     }
     ActionsModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
-                _commons__WEBPACK_IMPORTED_MODULE_3__["DsCommonsModule"],
-                _buttons_buttons_module__WEBPACK_IMPORTED_MODULE_4__["DsButtonsModule"],
-                _action_icons_action_icon_module__WEBPACK_IMPORTED_MODULE_5__["DsActionIconsModule"]
+                _commons__WEBPACK_IMPORTED_MODULE_2__["DsCommonsModule"],
+                _buttons_buttons_module__WEBPACK_IMPORTED_MODULE_3__["DsButtonsModule"],
+                _action_icons_action_icon_module__WEBPACK_IMPORTED_MODULE_4__["DsActionIconsModule"]
             ],
             entryComponents: [
-                _general_guidelines_general_guidelines_component__WEBPACK_IMPORTED_MODULE_1__["GeneralGuidelinesComponent"],
-                _links_links_component__WEBPACK_IMPORTED_MODULE_2__["LinksComponent"]
+                _links_links_component__WEBPACK_IMPORTED_MODULE_1__["LinksComponent"]
             ],
             declarations: [
-                _general_guidelines_general_guidelines_component__WEBPACK_IMPORTED_MODULE_1__["GeneralGuidelinesComponent"],
-                _links_links_component__WEBPACK_IMPORTED_MODULE_2__["LinksComponent"]
+                _links_links_component__WEBPACK_IMPORTED_MODULE_1__["LinksComponent"]
             ]
         })
     ], ActionsModule);
@@ -3892,69 +3893,6 @@ var StatusExampleComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/components/actions/general-guidelines/general-guidelines.component.html":
-/*!*****************************************************************************************!*\
-  !*** ./src/app/components/actions/general-guidelines/general-guidelines.component.html ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  action-guidelines works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/actions/general-guidelines/general-guidelines.component.scss":
-/*!*****************************************************************************************!*\
-  !*** ./src/app/components/actions/general-guidelines/general-guidelines.component.scss ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/components/actions/general-guidelines/general-guidelines.component.ts":
-/*!***************************************************************************************!*\
-  !*** ./src/app/components/actions/general-guidelines/general-guidelines.component.ts ***!
-  \***************************************************************************************/
-/*! exports provided: GeneralGuidelinesComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GeneralGuidelinesComponent", function() { return GeneralGuidelinesComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var GeneralGuidelinesComponent = /** @class */ (function () {
-    function GeneralGuidelinesComponent() {
-    }
-    GeneralGuidelinesComponent.prototype.ngOnInit = function () {
-    };
-    GeneralGuidelinesComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-general-guidelines',
-            template: __webpack_require__(/*! ./general-guidelines.component.html */ "./src/app/components/actions/general-guidelines/general-guidelines.component.html"),
-            styles: [__webpack_require__(/*! ./general-guidelines.component.scss */ "./src/app/components/actions/general-guidelines/general-guidelines.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], GeneralGuidelinesComponent);
-    return GeneralGuidelinesComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/components/actions/links/links.component.html":
 /*!***************************************************************!*\
   !*** ./src/app/components/actions/links/links.component.html ***!
@@ -4095,48 +4033,44 @@ var DsComponentsModule = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "componentsPages", function() { return componentsPages; });
-/* harmony import */ var _layout_structure_guidelines_structure_guidelines_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout/structure-guidelines/structure-guidelines.component */ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.ts");
-/* harmony import */ var _layout_templates_templates_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout/templates/templates.component */ "./src/app/components/layout/templates/templates.component.ts");
-/* harmony import */ var _layout_containers_containers_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/containers/containers.component */ "./src/app/components/layout/containers/containers.component.ts");
-/* harmony import */ var _layout_grid_grid_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout/grid/grid.component */ "./src/app/components/layout/grid/grid.component.ts");
-/* harmony import */ var _layout_cards_cards_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layout/cards/cards.component */ "./src/app/components/layout/cards/cards.component.ts");
-/* harmony import */ var _layout_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout/empty-states/empty-states.component */ "./src/app/components/layout/empty-states/empty-states.component.ts");
-/* harmony import */ var _navigation_menu_menu_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navigation/menu/menu.component */ "./src/app/components/navigation/menu/menu.component.ts");
-/* harmony import */ var _navigation_breadcrumbs_breadcrumbs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./navigation/breadcrumbs/breadcrumbs.component */ "./src/app/components/navigation/breadcrumbs/breadcrumbs.component.ts");
-/* harmony import */ var _text_text_guidelines_text_guidelines_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./text/text-guidelines/text-guidelines.component */ "./src/app/components/text/text-guidelines/text-guidelines.component.ts");
-/* harmony import */ var _text_titles_titles_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./text/titles/titles.component */ "./src/app/components/text/titles/titles.component.ts");
-/* harmony import */ var _text_basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./text/basic-text/basic-text.component */ "./src/app/components/text/basic-text/basic-text.component.ts");
-/* harmony import */ var _text_labels_labels_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./text/labels/labels.component */ "./src/app/components/text/labels/labels.component.ts");
-/* harmony import */ var _text_icons_icons_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./text/icons/icons.component */ "./src/app/components/text/icons/icons.component.ts");
-/* harmony import */ var _form_form_guidelines_form_guidelines_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./form/form-guidelines/form-guidelines.component */ "./src/app/components/form/form-guidelines/form-guidelines.component.ts");
-/* harmony import */ var _form_textfields_textfields_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./form/textfields/textfields.component */ "./src/app/components/form/textfields/textfields.component.ts");
-/* harmony import */ var _form_select_select_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./form/select/select.component */ "./src/app/components/form/select/select.component.ts");
-/* harmony import */ var _form_radios_radios_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./form/radios/radios.component */ "./src/app/components/form/radios/radios.component.ts");
-/* harmony import */ var _form_checkboxes_checkboxes_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./form/checkboxes/checkboxes.component */ "./src/app/components/form/checkboxes/checkboxes.component.ts");
-/* harmony import */ var _form_switches_switches_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./form/switches/switches.component */ "./src/app/components/form/switches/switches.component.ts");
-/* harmony import */ var _form_file_file_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./form/file/file.component */ "./src/app/components/form/file/file.component.ts");
-/* harmony import */ var _form_framed_framed_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./form/framed/framed.component */ "./src/app/components/form/framed/framed.component.ts");
-/* harmony import */ var _actions_general_guidelines_general_guidelines_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./actions/general-guidelines/general-guidelines.component */ "./src/app/components/actions/general-guidelines/general-guidelines.component.ts");
-/* harmony import */ var _actions_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./actions/buttons/buttons.component */ "./src/app/components/actions/buttons/buttons.component.ts");
-/* harmony import */ var _actions_links_links_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./actions/links/links.component */ "./src/app/components/actions/links/links.component.ts");
-/* harmony import */ var _actions_action_icons_action_icons_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./actions/action-icons/action-icons.component */ "./src/app/components/actions/action-icons/action-icons.component.ts");
-/* harmony import */ var _listings_tables_tables_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./listings/tables/tables.component */ "./src/app/components/listings/tables/tables.component.ts");
-/* harmony import */ var _listings_lists_lists_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./listings/lists/lists.component */ "./src/app/components/listings/lists/lists.component.ts");
-/* harmony import */ var _listings_chips_chips_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./listings/chips/chips.component */ "./src/app/components/listings/chips/chips.component.ts");
-/* harmony import */ var _overlays_modals_modals_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./overlays/modals/modals.component */ "./src/app/components/overlays/modals/modals.component.ts");
-/* harmony import */ var _overlays_tooltips_tooltips_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./overlays/tooltips/tooltips.component */ "./src/app/components/overlays/tooltips/tooltips.component.ts");
-/* harmony import */ var _feedback_toasts_toasts_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./feedback/toasts/toasts.component */ "./src/app/components/feedback/toasts/toasts.component.ts");
-/* harmony import */ var _feedback_callouts_callouts_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./feedback/callouts/callouts.component */ "./src/app/components/feedback/callouts/callouts.component.ts");
-/* harmony import */ var _feedback_boxes_boxes_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./feedback/boxes/boxes.component */ "./src/app/components/feedback/boxes/boxes.component.ts");
-/* harmony import */ var _loaders_loadings_loadings_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./loaders/loadings/loadings.component */ "./src/app/components/loaders/loadings/loadings.component.ts");
-/* harmony import */ var _loaders_progress_progress_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./loaders/progress/progress.component */ "./src/app/components/loaders/progress/progress.component.ts");
-/* harmony import */ var _misc_utilities_utilities_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./misc/utilities/utilities.component */ "./src/app/components/misc/utilities/utilities.component.ts");
-/* harmony import */ var _misc_functions_functions_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./misc/functions/functions.component */ "./src/app/components/misc/functions/functions.component.ts");
-/* harmony import */ var _misc_mixins_mixins_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./misc/mixins/mixins.component */ "./src/app/components/misc/mixins/mixins.component.ts");
-/* harmony import */ var _misc_animations_animations_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./misc/animations/animations.component */ "./src/app/components/misc/animations/animations.component.ts");
-/* harmony import */ var _users_user_tile_user_tile_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./users/user-tile/user-tile.component */ "./src/app/components/users/user-tile/user-tile.component.ts");
-/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
-/* harmony import */ var _layout_nav_side_nav_side_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./layout/nav-side/nav-side.component */ "./src/app/components/layout/nav-side/nav-side.component.ts");
+/* harmony import */ var _layout_templates_templates_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout/templates/templates.component */ "./src/app/components/layout/templates/templates.component.ts");
+/* harmony import */ var _layout_containers_containers_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout/containers/containers.component */ "./src/app/components/layout/containers/containers.component.ts");
+/* harmony import */ var _layout_grid_grid_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/grid/grid.component */ "./src/app/components/layout/grid/grid.component.ts");
+/* harmony import */ var _layout_cards_cards_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout/cards/cards.component */ "./src/app/components/layout/cards/cards.component.ts");
+/* harmony import */ var _layout_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layout/empty-states/empty-states.component */ "./src/app/components/layout/empty-states/empty-states.component.ts");
+/* harmony import */ var _navigation_menu_menu_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navigation/menu/menu.component */ "./src/app/components/navigation/menu/menu.component.ts");
+/* harmony import */ var _navigation_breadcrumbs_breadcrumbs_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./navigation/breadcrumbs/breadcrumbs.component */ "./src/app/components/navigation/breadcrumbs/breadcrumbs.component.ts");
+/* harmony import */ var _text_titles_titles_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./text/titles/titles.component */ "./src/app/components/text/titles/titles.component.ts");
+/* harmony import */ var _text_basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./text/basic-text/basic-text.component */ "./src/app/components/text/basic-text/basic-text.component.ts");
+/* harmony import */ var _text_labels_labels_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./text/labels/labels.component */ "./src/app/components/text/labels/labels.component.ts");
+/* harmony import */ var _text_icons_icons_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./text/icons/icons.component */ "./src/app/components/text/icons/icons.component.ts");
+/* harmony import */ var _form_textfields_textfields_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./form/textfields/textfields.component */ "./src/app/components/form/textfields/textfields.component.ts");
+/* harmony import */ var _form_select_select_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./form/select/select.component */ "./src/app/components/form/select/select.component.ts");
+/* harmony import */ var _form_radios_radios_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./form/radios/radios.component */ "./src/app/components/form/radios/radios.component.ts");
+/* harmony import */ var _form_checkboxes_checkboxes_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./form/checkboxes/checkboxes.component */ "./src/app/components/form/checkboxes/checkboxes.component.ts");
+/* harmony import */ var _form_switches_switches_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./form/switches/switches.component */ "./src/app/components/form/switches/switches.component.ts");
+/* harmony import */ var _form_file_file_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./form/file/file.component */ "./src/app/components/form/file/file.component.ts");
+/* harmony import */ var _form_framed_framed_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./form/framed/framed.component */ "./src/app/components/form/framed/framed.component.ts");
+/* harmony import */ var _actions_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./actions/buttons/buttons.component */ "./src/app/components/actions/buttons/buttons.component.ts");
+/* harmony import */ var _actions_links_links_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./actions/links/links.component */ "./src/app/components/actions/links/links.component.ts");
+/* harmony import */ var _actions_action_icons_action_icons_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./actions/action-icons/action-icons.component */ "./src/app/components/actions/action-icons/action-icons.component.ts");
+/* harmony import */ var _listings_tables_tables_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./listings/tables/tables.component */ "./src/app/components/listings/tables/tables.component.ts");
+/* harmony import */ var _listings_lists_lists_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./listings/lists/lists.component */ "./src/app/components/listings/lists/lists.component.ts");
+/* harmony import */ var _listings_chips_chips_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./listings/chips/chips.component */ "./src/app/components/listings/chips/chips.component.ts");
+/* harmony import */ var _overlays_modals_modals_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./overlays/modals/modals.component */ "./src/app/components/overlays/modals/modals.component.ts");
+/* harmony import */ var _overlays_tooltips_tooltips_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./overlays/tooltips/tooltips.component */ "./src/app/components/overlays/tooltips/tooltips.component.ts");
+/* harmony import */ var _feedback_toasts_toasts_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./feedback/toasts/toasts.component */ "./src/app/components/feedback/toasts/toasts.component.ts");
+/* harmony import */ var _feedback_callouts_callouts_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./feedback/callouts/callouts.component */ "./src/app/components/feedback/callouts/callouts.component.ts");
+/* harmony import */ var _feedback_boxes_boxes_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./feedback/boxes/boxes.component */ "./src/app/components/feedback/boxes/boxes.component.ts");
+/* harmony import */ var _loaders_loadings_loadings_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./loaders/loadings/loadings.component */ "./src/app/components/loaders/loadings/loadings.component.ts");
+/* harmony import */ var _loaders_progress_progress_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./loaders/progress/progress.component */ "./src/app/components/loaders/progress/progress.component.ts");
+/* harmony import */ var _misc_utilities_utilities_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./misc/utilities/utilities.component */ "./src/app/components/misc/utilities/utilities.component.ts");
+/* harmony import */ var _misc_functions_functions_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./misc/functions/functions.component */ "./src/app/components/misc/functions/functions.component.ts");
+/* harmony import */ var _misc_mixins_mixins_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./misc/mixins/mixins.component */ "./src/app/components/misc/mixins/mixins.component.ts");
+/* harmony import */ var _misc_animations_animations_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./misc/animations/animations.component */ "./src/app/components/misc/animations/animations.component.ts");
+/* harmony import */ var _users_user_tile_user_tile_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./users/user-tile/user-tile.component */ "./src/app/components/users/user-tile/user-tile.component.ts");
+/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
+/* harmony import */ var _navigation_nav_side_nav_side_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./navigation/nav-side/nav-side.component */ "./src/app/components/navigation/nav-side/nav-side.component.ts");
 
 
 
@@ -4175,67 +4109,58 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-var structureGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('structure', null, 'Structure');
-var structurePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('guidelines', _layout_structure_guidelines_structure_guidelines_component__WEBPACK_IMPORTED_MODULE_0__["StructureGuidelinesComponent"], 'Guidelines', structureGroup);
-var navSidePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('navside', _layout_nav_side_nav_side_component__WEBPACK_IMPORTED_MODULE_41__["NavSideComponent"], 'Menu principal', structureGroup, ['navside']);
-var templatePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('template', _layout_templates_templates_component__WEBPACK_IMPORTED_MODULE_1__["TemplatesComponent"], 'Templates', structureGroup);
-var containerPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('container', _layout_containers_containers_component__WEBPACK_IMPORTED_MODULE_2__["ContainersComponent"], 'Containers', structureGroup);
-var gridPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('grid', _layout_grid_grid_component__WEBPACK_IMPORTED_MODULE_3__["GridComponent"], 'Grid', structureGroup);
-var cardPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('card', _layout_cards_cards_component__WEBPACK_IMPORTED_MODULE_4__["CardsComponent"], 'Cards', structureGroup);
-var emptyStatePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('empty-state', _layout_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_5__["EmptyStatesComponent"], 'Empty states', structureGroup);
-var navigationGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('navigation', null, 'Navigation');
-var menuPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('menu', _navigation_menu_menu_component__WEBPACK_IMPORTED_MODULE_6__["MenuComponent"], 'Menu', navigationGroup);
-var breadcrumbPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('breadcrumb', _navigation_breadcrumbs_breadcrumbs_component__WEBPACK_IMPORTED_MODULE_7__["BreadcrumbsComponent"], 'Breadcrumb', navigationGroup);
-var textGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('text', null, 'Texte');
-var textPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('guidelines', _text_text_guidelines_text_guidelines_component__WEBPACK_IMPORTED_MODULE_8__["TextGuidelinesComponent"], 'Guidelines', textGroup);
-var titlePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('title', _text_titles_titles_component__WEBPACK_IMPORTED_MODULE_9__["TitlesComponent"], 'Titres', textGroup);
-var basicTextPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('basic', _text_basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_10__["BasicTextComponent"], 'Typographie', textGroup);
-var labelPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('label', _text_labels_labels_component__WEBPACK_IMPORTED_MODULE_11__["LabelsComponent"], 'Labels', textGroup);
-var iconsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('icons', _text_icons_icons_component__WEBPACK_IMPORTED_MODULE_12__["IconsComponent"], 'Icones', textGroup);
-var formGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('form', null, 'Formulaires');
-var formPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('form-guidelines', _form_form_guidelines_form_guidelines_component__WEBPACK_IMPORTED_MODULE_13__["FormGuidelinesComponent"], 'Formulaires', formGroup);
-var textfieldPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('textfield', _form_textfields_textfields_component__WEBPACK_IMPORTED_MODULE_14__["TextfieldsComponent"], 'Textfields', formGroup);
-var selectPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('selects', _form_select_select_component__WEBPACK_IMPORTED_MODULE_15__["SelectComponent"], 'Select', formGroup);
-var radioPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('radio', _form_radios_radios_component__WEBPACK_IMPORTED_MODULE_16__["RadiosComponent"], 'Radio', formGroup);
-var checkboxPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('checkbox', _form_checkboxes_checkboxes_component__WEBPACK_IMPORTED_MODULE_17__["CheckboxesComponent"], 'Checkbox', formGroup);
-var switchPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('switch', _form_switches_switches_component__WEBPACK_IMPORTED_MODULE_18__["SwitchesComponent"], 'Switch', formGroup);
-var filePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('file', _form_file_file_component__WEBPACK_IMPORTED_MODULE_19__["FileComponent"], 'Fichier', formGroup);
-var framedPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('framed', _form_framed_framed_component__WEBPACK_IMPORTED_MODULE_20__["FramedComponent"], 'Framed', formGroup);
-var actionGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('action', null, 'Actions');
-var actionPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('action', _actions_general_guidelines_general_guidelines_component__WEBPACK_IMPORTED_MODULE_21__["GeneralGuidelinesComponent"], 'Guidelines', actionGroup);
-var buttonPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('button', _actions_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_22__["ButtonsComponent"], 'Bouton', actionGroup);
-var linkPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('link', _actions_links_links_component__WEBPACK_IMPORTED_MODULE_23__["LinksComponent"], 'Lien', actionGroup);
-var actionIconPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('action-icon', _actions_action_icons_action_icons_component__WEBPACK_IMPORTED_MODULE_24__["ActionIconsComponent"], "Icones d'action", actionGroup);
-var listingGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('listing', null, 'Listings');
-var tablePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('table', _listings_tables_tables_component__WEBPACK_IMPORTED_MODULE_25__["TablesComponent"], 'Tableau', listingGroup);
-var listPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('list', _listings_lists_lists_component__WEBPACK_IMPORTED_MODULE_26__["ListsComponent"], 'Listes', listingGroup);
-var chipPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('chip', _listings_chips_chips_component__WEBPACK_IMPORTED_MODULE_27__["ChipsComponent"], 'Chip', listingGroup);
-var userGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('user', null, 'Utilisateur');
-var userTilePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('user-tile', _users_user_tile_user_tile_component__WEBPACK_IMPORTED_MODULE_39__["UserTileComponent"], 'User tile', userGroup);
-var overlayGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('overlay', null, 'Overlay');
-var modalPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('modal', _overlays_modals_modals_component__WEBPACK_IMPORTED_MODULE_28__["ModalsComponent"], 'Modale', overlayGroup);
-var tooltipsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('tooltip', _overlays_tooltips_tooltips_component__WEBPACK_IMPORTED_MODULE_29__["TooltipsComponent"], 'Tooltip', overlayGroup);
-var feedbackGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('feedback', null, 'Feedback');
-var toastPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('toast', _feedback_toasts_toasts_component__WEBPACK_IMPORTED_MODULE_30__["ToastsComponent"], 'Toast', feedbackGroup);
-var calloutPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('callout', _feedback_callouts_callouts_component__WEBPACK_IMPORTED_MODULE_31__["CalloutsComponent"], 'Callout', feedbackGroup);
-var boxPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('box', _feedback_boxes_boxes_component__WEBPACK_IMPORTED_MODULE_32__["BoxesComponent"], 'Boite', feedbackGroup);
-var loadingGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('loading', null, 'Chargement');
-var loadingPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('loader', _loaders_loadings_loadings_component__WEBPACK_IMPORTED_MODULE_33__["LoadingsComponent"], 'Loader', loadingGroup);
-var progressPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('progress', _loaders_progress_progress_component__WEBPACK_IMPORTED_MODULE_34__["ProgressComponent"], 'Progression', loadingGroup);
-var utilitiesGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('utilities', null, 'Utilitaires');
-var animationsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('animations', _misc_animations_animations_component__WEBPACK_IMPORTED_MODULE_38__["AnimationsComponent"], 'Animations CSS', utilitiesGroup);
-var utilitiesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('classes', _misc_utilities_utilities_component__WEBPACK_IMPORTED_MODULE_35__["UtilitiesComponent"], 'Classes CSS', utilitiesGroup);
-var functionsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('functions', _misc_functions_functions_component__WEBPACK_IMPORTED_MODULE_36__["FunctionsComponent"], 'Fonctions SCSS', utilitiesGroup);
-var mixinsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Page"]('mixins', _misc_mixins_mixins_component__WEBPACK_IMPORTED_MODULE_37__["MixinsComponent"], 'Mixins SCSS', utilitiesGroup);
-var componentsPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__["Pages"]('components', [
+var structureGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('structure', null, 'Structure');
+var templatePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('template', _layout_templates_templates_component__WEBPACK_IMPORTED_MODULE_0__["TemplatesComponent"], 'Templates', structureGroup);
+var containerPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('container', _layout_containers_containers_component__WEBPACK_IMPORTED_MODULE_1__["ContainersComponent"], 'Containers', structureGroup);
+var gridPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('grid', _layout_grid_grid_component__WEBPACK_IMPORTED_MODULE_2__["GridComponent"], 'Grid', structureGroup);
+var cardPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('card', _layout_cards_cards_component__WEBPACK_IMPORTED_MODULE_3__["CardsComponent"], 'Cards', structureGroup);
+var emptyStatePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('empty-state', _layout_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_4__["EmptyStatesComponent"], 'Empty states', structureGroup);
+var navigationGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('navigation', null, 'Navigation');
+var navSidePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('navside', _navigation_nav_side_nav_side_component__WEBPACK_IMPORTED_MODULE_37__["NavSideComponent"], 'Menu principal', navigationGroup, ['navside']);
+var menuPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('menu', _navigation_menu_menu_component__WEBPACK_IMPORTED_MODULE_5__["MenuComponent"], 'Menu', navigationGroup);
+var breadcrumbPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('breadcrumb', _navigation_breadcrumbs_breadcrumbs_component__WEBPACK_IMPORTED_MODULE_6__["BreadcrumbsComponent"], 'Breadcrumb', navigationGroup);
+var textGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('text', null, 'Texte');
+var titlePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('title', _text_titles_titles_component__WEBPACK_IMPORTED_MODULE_7__["TitlesComponent"], 'Titres', textGroup);
+var basicTextPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('basic', _text_basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_8__["BasicTextComponent"], 'Typographie', textGroup);
+var labelPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('label', _text_labels_labels_component__WEBPACK_IMPORTED_MODULE_9__["LabelsComponent"], 'Labels', textGroup);
+var iconsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('icons', _text_icons_icons_component__WEBPACK_IMPORTED_MODULE_10__["IconsComponent"], 'Icones', textGroup);
+var formGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('form', null, 'Formulaires');
+var textfieldPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('textfield', _form_textfields_textfields_component__WEBPACK_IMPORTED_MODULE_11__["TextfieldsComponent"], 'Textfields', formGroup);
+var selectPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('selects', _form_select_select_component__WEBPACK_IMPORTED_MODULE_12__["SelectComponent"], 'Select', formGroup);
+var radioPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('radio', _form_radios_radios_component__WEBPACK_IMPORTED_MODULE_13__["RadiosComponent"], 'Radio', formGroup);
+var checkboxPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('checkbox', _form_checkboxes_checkboxes_component__WEBPACK_IMPORTED_MODULE_14__["CheckboxesComponent"], 'Checkbox', formGroup);
+var switchPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('switch', _form_switches_switches_component__WEBPACK_IMPORTED_MODULE_15__["SwitchesComponent"], 'Switch', formGroup);
+var filePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('file', _form_file_file_component__WEBPACK_IMPORTED_MODULE_16__["FileComponent"], 'Fichier', formGroup);
+var framedPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('framed', _form_framed_framed_component__WEBPACK_IMPORTED_MODULE_17__["FramedComponent"], 'Framed', formGroup);
+var actionGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('action', null, 'Actions');
+var buttonPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('button', _actions_buttons_buttons_component__WEBPACK_IMPORTED_MODULE_18__["ButtonsComponent"], 'Bouton', actionGroup);
+var linkPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('link', _actions_links_links_component__WEBPACK_IMPORTED_MODULE_19__["LinksComponent"], 'Lien', actionGroup);
+var actionIconPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('action-icon', _actions_action_icons_action_icons_component__WEBPACK_IMPORTED_MODULE_20__["ActionIconsComponent"], "Icones d'action", actionGroup);
+var listingGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('listing', null, 'Listings');
+var tablePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('table', _listings_tables_tables_component__WEBPACK_IMPORTED_MODULE_21__["TablesComponent"], 'Tableau', listingGroup);
+var listPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('list', _listings_lists_lists_component__WEBPACK_IMPORTED_MODULE_22__["ListsComponent"], 'Listes', listingGroup);
+var chipPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('chip', _listings_chips_chips_component__WEBPACK_IMPORTED_MODULE_23__["ChipsComponent"], 'Chip', listingGroup);
+var userGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('user', null, 'Utilisateur');
+var userTilePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('user-tile', _users_user_tile_user_tile_component__WEBPACK_IMPORTED_MODULE_35__["UserTileComponent"], 'User tile', userGroup);
+var overlayGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('overlay', null, 'Overlay');
+var modalPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('modal', _overlays_modals_modals_component__WEBPACK_IMPORTED_MODULE_24__["ModalsComponent"], 'Modale', overlayGroup);
+var tooltipsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('tooltip', _overlays_tooltips_tooltips_component__WEBPACK_IMPORTED_MODULE_25__["TooltipsComponent"], 'Tooltip', overlayGroup);
+var feedbackGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('feedback', null, 'Feedback');
+var toastPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('toast', _feedback_toasts_toasts_component__WEBPACK_IMPORTED_MODULE_26__["ToastsComponent"], 'Toast', feedbackGroup);
+var calloutPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('callout', _feedback_callouts_callouts_component__WEBPACK_IMPORTED_MODULE_27__["CalloutsComponent"], 'Callout', feedbackGroup);
+var boxPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('box', _feedback_boxes_boxes_component__WEBPACK_IMPORTED_MODULE_28__["BoxesComponent"], 'Boite', feedbackGroup);
+var loadingGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('loading', null, 'Chargement');
+var loadingPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('loader', _loaders_loadings_loadings_component__WEBPACK_IMPORTED_MODULE_29__["LoadingsComponent"], 'Loader', loadingGroup);
+var progressPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('progress', _loaders_progress_progress_component__WEBPACK_IMPORTED_MODULE_30__["ProgressComponent"], 'Progression', loadingGroup);
+var utilitiesGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('utilities', null, 'Utilitaires');
+var animationsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('animations', _misc_animations_animations_component__WEBPACK_IMPORTED_MODULE_34__["AnimationsComponent"], 'Animations CSS', utilitiesGroup);
+var utilitiesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('classes', _misc_utilities_utilities_component__WEBPACK_IMPORTED_MODULE_31__["UtilitiesComponent"], 'Classes CSS', utilitiesGroup);
+var functionsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('functions', _misc_functions_functions_component__WEBPACK_IMPORTED_MODULE_32__["FunctionsComponent"], 'Fonctions SCSS', utilitiesGroup);
+var mixinsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Page"]('mixins', _misc_mixins_mixins_component__WEBPACK_IMPORTED_MODULE_33__["MixinsComponent"], 'Mixins SCSS', utilitiesGroup);
+var componentsPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_36__["Pages"]('components', [
     structureGroup,
-    structurePage,
-    navSidePage,
     templatePage,
+    navSidePage,
     containerPage,
     gridPage,
     cardPage,
@@ -4244,13 +4169,11 @@ var componentsPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__
     menuPage,
     breadcrumbPage,
     textGroup,
-    textPage,
     titlePage,
     basicTextPage,
     labelPage,
     iconsPage,
     formGroup,
-    formPage,
     textfieldPage,
     selectPage,
     radioPage,
@@ -4259,7 +4182,6 @@ var componentsPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__
     filePage,
     framedPage,
     actionGroup,
-    actionPage,
     buttonPage,
     linkPage,
     actionIconPage,
@@ -4284,7 +4206,7 @@ var componentsPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_40__
     utilitiesPage,
     functionsPage,
     mixinsPage,
-], structurePage);
+], templatePage);
 
 
 /***/ }),
@@ -5823,69 +5745,6 @@ var StatesExampleComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/components/form/form-guidelines/form-guidelines.component.html":
-/*!********************************************************************************!*\
-  !*** ./src/app/components/form/form-guidelines/form-guidelines.component.html ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  form-guidelines works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/form/form-guidelines/form-guidelines.component.scss":
-/*!********************************************************************************!*\
-  !*** ./src/app/components/form/form-guidelines/form-guidelines.component.scss ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/components/form/form-guidelines/form-guidelines.component.ts":
-/*!******************************************************************************!*\
-  !*** ./src/app/components/form/form-guidelines/form-guidelines.component.ts ***!
-  \******************************************************************************/
-/*! exports provided: FormGuidelinesComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormGuidelinesComponent", function() { return FormGuidelinesComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var FormGuidelinesComponent = /** @class */ (function () {
-    function FormGuidelinesComponent() {
-    }
-    FormGuidelinesComponent.prototype.ngOnInit = function () {
-    };
-    FormGuidelinesComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-form-guidelines',
-            template: __webpack_require__(/*! ./form-guidelines.component.html */ "./src/app/components/form/form-guidelines/form-guidelines.component.html"),
-            styles: [__webpack_require__(/*! ./form-guidelines.component.scss */ "./src/app/components/form/form-guidelines/form-guidelines.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], FormGuidelinesComponent);
-    return FormGuidelinesComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/components/form/form.module.ts":
 /*!************************************************!*\
   !*** ./src/app/components/form/form.module.ts ***!
@@ -5898,21 +5757,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormModule", function() { return FormModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _form_guidelines_form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./form-guidelines/form-guidelines.component */ "./src/app/components/form/form-guidelines/form-guidelines.component.ts");
-/* harmony import */ var _select_select_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./select/select.component */ "./src/app/components/form/select/select.component.ts");
-/* harmony import */ var _textfields_textfields_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./textfields/textfields.module */ "./src/app/components/form/textfields/textfields.module.ts");
-/* harmony import */ var _radios_radios_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./radios/radios.module */ "./src/app/components/form/radios/radios.module.ts");
-/* harmony import */ var _checkboxes_checkboxes_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./checkboxes/checkboxes.module */ "./src/app/components/form/checkboxes/checkboxes.module.ts");
-/* harmony import */ var _switches_switches_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./switches/switches.module */ "./src/app/components/form/switches/switches.module.ts");
-/* harmony import */ var _framed_framed_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./framed/framed.module */ "./src/app/components/form/framed/framed.module.ts");
-/* harmony import */ var _file_file_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./file/file.module */ "./src/app/components/form/file/file.module.ts");
+/* harmony import */ var _select_select_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./select/select.component */ "./src/app/components/form/select/select.component.ts");
+/* harmony import */ var _textfields_textfields_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./textfields/textfields.module */ "./src/app/components/form/textfields/textfields.module.ts");
+/* harmony import */ var _radios_radios_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./radios/radios.module */ "./src/app/components/form/radios/radios.module.ts");
+/* harmony import */ var _checkboxes_checkboxes_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./checkboxes/checkboxes.module */ "./src/app/components/form/checkboxes/checkboxes.module.ts");
+/* harmony import */ var _switches_switches_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./switches/switches.module */ "./src/app/components/form/switches/switches.module.ts");
+/* harmony import */ var _framed_framed_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./framed/framed.module */ "./src/app/components/form/framed/framed.module.ts");
+/* harmony import */ var _file_file_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./file/file.module */ "./src/app/components/form/file/file.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -5929,20 +5786,18 @@ var FormModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
-                _textfields_textfields_module__WEBPACK_IMPORTED_MODULE_4__["DsTextfieldsModule"],
-                _radios_radios_module__WEBPACK_IMPORTED_MODULE_5__["DsRadiosModule"],
-                _checkboxes_checkboxes_module__WEBPACK_IMPORTED_MODULE_6__["DsCheckboxesModule"],
-                _switches_switches_module__WEBPACK_IMPORTED_MODULE_7__["DsSwitchesModule"],
-                _framed_framed_module__WEBPACK_IMPORTED_MODULE_8__["DsFramedModule"],
-                _file_file_module__WEBPACK_IMPORTED_MODULE_9__["DsFileModule"]
+                _textfields_textfields_module__WEBPACK_IMPORTED_MODULE_3__["DsTextfieldsModule"],
+                _radios_radios_module__WEBPACK_IMPORTED_MODULE_4__["DsRadiosModule"],
+                _checkboxes_checkboxes_module__WEBPACK_IMPORTED_MODULE_5__["DsCheckboxesModule"],
+                _switches_switches_module__WEBPACK_IMPORTED_MODULE_6__["DsSwitchesModule"],
+                _framed_framed_module__WEBPACK_IMPORTED_MODULE_7__["DsFramedModule"],
+                _file_file_module__WEBPACK_IMPORTED_MODULE_8__["DsFileModule"]
             ],
             entryComponents: [
-                _form_guidelines_form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["FormGuidelinesComponent"],
-                _select_select_component__WEBPACK_IMPORTED_MODULE_3__["SelectComponent"],
+                _select_select_component__WEBPACK_IMPORTED_MODULE_2__["SelectComponent"],
             ],
             declarations: [
-                _form_guidelines_form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["FormGuidelinesComponent"],
-                _select_select_component__WEBPACK_IMPORTED_MODULE_3__["SelectComponent"],
+                _select_select_component__WEBPACK_IMPORTED_MODULE_2__["SelectComponent"],
             ]
         })
     ], FormModule);
@@ -7640,7 +7495,7 @@ var BasicExampleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n\t</div>\n</div>\n"
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n"
 
 /***/ }),
 
@@ -8036,7 +7891,7 @@ var BasicExampleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">Les <i>containers</i> servent à centrer et limiter la largeur du contenu de la page.<br> Ils s'adaptent\n\t\tà la largeur de la page et apportent égallement des marges qui peuvent être annulées grâce aux <a routerLink=\"/components/utilities\">utilitaires</a>.</p>\n</ds-title-block>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n\t</div>\n</div>\n"
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">Les <i>containers</i> servent à centrer et limiter la largeur du contenu de la page.<br> Ils s'adaptent\n\t\tà la largeur de la page et apportent égallement des marges qui peuvent être annulées grâce aux <a routerLink=\"/components/utilities\">utilitaires</a>.</p>\n</ds-title-block>\n\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n\n"
 
 /***/ }),
 
@@ -8124,6 +7979,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
 /* harmony import */ var _basic_basic_example__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./basic/basic.example */ "./src/app/components/layout/containers/basic/basic.example.ts");
 /* harmony import */ var _containers_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./containers.component */ "./src/app/components/layout/containers/containers.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8134,12 +7990,16 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var DsContainersModule = /** @class */ (function () {
     function DsContainersModule() {
     }
     DsContainersModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            imports: [
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
+            ],
             declarations: [
                 _containers_component__WEBPACK_IMPORTED_MODULE_3__["ContainersComponent"],
                 _basic_basic_example__WEBPACK_IMPORTED_MODULE_2__["BasicExampleComponent"]
@@ -8209,7 +8069,7 @@ var BasicExampleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n"
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\tOn désigne par le terme *blank state* ou *empty state* les vues « vides » d’une application :\n\t</p>\n\t<ul class=\"strong\">\n\t\t<li>soit quand l’application échoue à afficher ce qui est attendu</li>\n\t\t<li>soit lors du premier accès à une application ou à une vue spécifique, quand aucun objet n’a encore été créé</li>\n\t\t<li>soit à la fin d’un process quand on n’a plus de tâche à accomplir</li>\n\t</ul>\n</ds-title-block>\n"
 
 /***/ }),
 
@@ -8800,21 +8660,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LayoutModule", function() { return LayoutModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _structure_guidelines_structure_guidelines_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./structure-guidelines/structure-guidelines.component */ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.ts");
-/* harmony import */ var _templates_templates_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/templates.component */ "./src/app/components/layout/templates/templates.component.ts");
-/* harmony import */ var _grid_grid_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./grid/grid.module */ "./src/app/components/layout/grid/grid.module.ts");
-/* harmony import */ var _cards_cards_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cards/cards.module */ "./src/app/components/layout/cards/cards.module.ts");
-/* harmony import */ var _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./empty-states/empty-states.module */ "./src/app/components/layout/empty-states/empty-states.module.ts");
-/* harmony import */ var _containers_containers_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./containers/containers.module */ "./src/app/components/layout/containers/containers.module.ts");
-/* harmony import */ var _nav_side_nav_side_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./nav-side/nav-side.module */ "./src/app/components/layout/nav-side/nav-side.module.ts");
+/* harmony import */ var _templates_templates_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./templates/templates.component */ "./src/app/components/layout/templates/templates.component.ts");
+/* harmony import */ var _grid_grid_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./grid/grid.module */ "./src/app/components/layout/grid/grid.module.ts");
+/* harmony import */ var _cards_cards_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cards/cards.module */ "./src/app/components/layout/cards/cards.module.ts");
+/* harmony import */ var _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./empty-states/empty-states.module */ "./src/app/components/layout/empty-states/empty-states.module.ts");
+/* harmony import */ var _containers_containers_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./containers/containers.module */ "./src/app/components/layout/containers/containers.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
 
 
 
@@ -8829,643 +8685,20 @@ var LayoutModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
-                _nav_side_nav_side_module__WEBPACK_IMPORTED_MODULE_8__["DsNavSideModule"],
-                _grid_grid_module__WEBPACK_IMPORTED_MODULE_4__["DsGridModule"],
-                _cards_cards_module__WEBPACK_IMPORTED_MODULE_5__["DsCardsModule"],
-                _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_6__["DsEmptyStatesModule"],
-                _containers_containers_module__WEBPACK_IMPORTED_MODULE_7__["DsContainersModule"],
+                _grid_grid_module__WEBPACK_IMPORTED_MODULE_3__["DsGridModule"],
+                _cards_cards_module__WEBPACK_IMPORTED_MODULE_4__["DsCardsModule"],
+                _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_5__["DsEmptyStatesModule"],
+                _containers_containers_module__WEBPACK_IMPORTED_MODULE_6__["DsContainersModule"],
             ],
             entryComponents: [
-                _structure_guidelines_structure_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["StructureGuidelinesComponent"],
-                _templates_templates_component__WEBPACK_IMPORTED_MODULE_3__["TemplatesComponent"],
+                _templates_templates_component__WEBPACK_IMPORTED_MODULE_2__["TemplatesComponent"],
             ],
             declarations: [
-                _structure_guidelines_structure_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["StructureGuidelinesComponent"],
-                _templates_templates_component__WEBPACK_IMPORTED_MODULE_3__["TemplatesComponent"],
+                _templates_templates_component__WEBPACK_IMPORTED_MODULE_2__["TemplatesComponent"],
             ]
         })
     ], LayoutModule);
     return LayoutModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/alert/alert.example.html":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/alert/alert.example.html ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<span class=\"navSide-item-alert\">12</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs2 mod-compact\">\n\t\t<h3>compact</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<span class=\"navSide-item-alert\">9</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>Avec sous-menu</h3>\n\t\t<div class=\"navSide-item is-open\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Subsection #1.2 <span class=\"navSide-item-alert\">9</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/alert/alert.example.ts":
-/*!*******************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/alert/alert.example.ts ***!
-  \*******************************************************************/
-/*! exports provided: AlertExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlertExampleComponent", function() { return AlertExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var AlertExampleComponent = /** @class */ (function () {
-    function AlertExampleComponent() {
-    }
-    AlertExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-alert-example',
-            template: __webpack_require__(/*! ./alert.example.html */ "./src/app/components/layout/nav-side/alert/alert.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], AlertExampleComponent);
-    return AlertExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/basic/basic.example.html":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/basic/basic.example.html ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<aside class=\"navSide\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2 with large name <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t\t<div class=\"navSide-item is-open is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section#2 with a larger name</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.2</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Section #2.3</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.4 <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-analytics\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section #3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section #4</span>\n\t\t\t\t<span class=\"navSide-item-alert\">9</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #4.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #4.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</nav>\n</aside>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/basic/basic.example.ts":
-/*!*******************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/basic/basic.example.ts ***!
-  \*******************************************************************/
-/*! exports provided: BasicExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BasicExampleComponent", function() { return BasicExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var BasicExampleComponent = /** @class */ (function () {
-    function BasicExampleComponent() {
-    }
-    BasicExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-basic-example',
-            template: __webpack_require__(/*! ./basic.example.html */ "./src/app/components/layout/nav-side/basic/basic.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], BasicExampleComponent);
-    return BasicExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/compact/compact.example.html":
-/*!*************************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/compact/compact.example.html ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<aside class=\"navSide mod-compact\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-tilesNine\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 2</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-settings\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 4</span>\n\t\t\t</a>\n\t\t</div>\n\t</nav>\n</aside>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/compact/compact.example.ts":
-/*!***********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/compact/compact.example.ts ***!
-  \***********************************************************************/
-/*! exports provided: CompactExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompactExampleComponent", function() { return CompactExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var CompactExampleComponent = /** @class */ (function () {
-    function CompactExampleComponent() {
-    }
-    CompactExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-compact-example',
-            template: __webpack_require__(/*! ./compact.example.html */ "./src/app/components/layout/nav-side/compact/compact.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], CompactExampleComponent);
-    return CompactExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/item-states/item-states.example.html":
-/*!*********************************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/item-states/item-states.example.html ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-active</h3>\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>\n\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/item-states/item-states.example.ts":
-/*!*******************************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/item-states/item-states.example.ts ***!
-  \*******************************************************************************/
-/*! exports provided: ItemStatesExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemStatesExampleComponent", function() { return ItemStatesExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ItemStatesExampleComponent = /** @class */ (function () {
-    function ItemStatesExampleComponent() {
-    }
-    ItemStatesExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-item-states-example',
-            template: __webpack_require__(/*! ./item-states.example.html */ "./src/app/components/layout/nav-side/item-states/item-states.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ItemStatesExampleComponent);
-    return ItemStatesExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/loader/loader.example.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/loader/loader.example.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item-placeholder\"></div>\n\t</div>\n\t<div class=\"grid-xs2 mod-compact\">\n\t\t<h3>compact</h3>\n\t\t<div class=\"navSide-item-placeholder\"></div>\n\t</div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/loader/loader.example.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/loader/loader.example.ts ***!
-  \*********************************************************************/
-/*! exports provided: LoaderExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoaderExampleComponent", function() { return LoaderExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var LoaderExampleComponent = /** @class */ (function () {
-    function LoaderExampleComponent() {
-    }
-    LoaderExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-loader-example',
-            template: __webpack_require__(/*! ./loader.example.html */ "./src/app/components/layout/nav-side/loader/loader.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], LoaderExampleComponent);
-    return LoaderExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/mobile/mobile.example.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/mobile/mobile.example.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<aside class=\"navSide\" [class.is-open]=\"isMenuOpen\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item mod-mobileToggle\" (click)=\"toggleMenu($event)\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<span class=\"navSide-item-link-title\">Menu</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icons icon-arrowSouthThin\"></i>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-tilesNine\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 2</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-settings\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 4</span>\n\t\t\t</a>\n\t\t</div>\n\t</nav>\n</aside>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/mobile/mobile.example.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/mobile/mobile.example.scss ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".navSide {\n  position: relative;\n  width: 500px;\n  min-height: auto;\n  max-height: auto; }\n  .navSide.mod-withBanner {\n    margin-top: _theme(\"commons.banner-height\"); }\n  .navSide-scrollWrapper {\n  width: 100%; }\n  .navSide-item:not(.mod-mobileToggle), .navSide-item-placeholder {\n  position: absolute;\n  visibility: hidden;\n  -webkit-transform: translateX(-15px);\n          transform: translateX(-15px);\n  opacity: 0;\n  top: 0;\n  bottom: 100%;\n  overflow: hidden; }\n  .navSide-item.mod-mobileToggle {\n  display: block;\n  height: _component(\"navSide.mobile.toggle-height\");\n  cursor: pointer; }\n  .navSide.is-open {\n  height: 300px; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle), .navSide.is-open .navSide-item-placeholder {\n    position: static;\n    visibility: visible;\n    -webkit-transform: translateX(0);\n            transform: translateX(0);\n    opacity: 1;\n    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1); }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(2), .navSide.is-open .navSide-item-placeholder:nth-child(2) {\n      transition-delay: 0s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(3), .navSide.is-open .navSide-item-placeholder:nth-child(3) {\n      transition-delay: 0.05s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(4), .navSide.is-open .navSide-item-placeholder:nth-child(4) {\n      transition-delay: 0.1s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(5), .navSide.is-open .navSide-item-placeholder:nth-child(5) {\n      transition-delay: 0.15s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(6), .navSide.is-open .navSide-item-placeholder:nth-child(6) {\n      transition-delay: 0.2s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(7), .navSide.is-open .navSide-item-placeholder:nth-child(7) {\n      transition-delay: 0.25s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(8), .navSide.is-open .navSide-item-placeholder:nth-child(8) {\n      transition-delay: 0.3s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(9), .navSide.is-open .navSide-item-placeholder:nth-child(9) {\n      transition-delay: 0.35s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(10), .navSide.is-open .navSide-item-placeholder:nth-child(10) {\n      transition-delay: 0.4s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(11), .navSide.is-open .navSide-item-placeholder:nth-child(11) {\n      transition-delay: 0.45s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(12), .navSide.is-open .navSide-item-placeholder:nth-child(12) {\n      transition-delay: 0.5s; }\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/mobile/mobile.example.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/mobile/mobile.example.ts ***!
-  \*********************************************************************/
-/*! exports provided: MobileExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MobileExampleComponent", function() { return MobileExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var MobileExampleComponent = /** @class */ (function () {
-    function MobileExampleComponent() {
-    }
-    MobileExampleComponent.prototype.toggleMenu = function (event) {
-        event.preventDefault();
-        this.isMenuOpen = !this.isMenuOpen;
-    };
-    MobileExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-mobile-example',
-            template: __webpack_require__(/*! ./mobile.example.html */ "./src/app/components/layout/nav-side/mobile/mobile.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss"), __webpack_require__(/*! ./mobile.example.scss */ "./src/app/components/layout/nav-side/mobile/mobile.example.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], MobileExampleComponent);
-    return MobileExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/nav-side.component.html":
-/*!********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/nav-side.component.html ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\tLe menu principal est présent sur toute nos applications. Il permet de naviguer au sein d'une application.<br>\n\t\tIl est disponible en large avec sous menu ou en <code class=\"code\">.mod-compact</code>\n\t</p>\n</ds-title-block>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n\t</div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/nav-side.component.scss":
-/*!********************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/nav-side.component.scss ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "@-webkit-keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@-webkit-keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n@keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n.navSide {\n  position: relative;\n  min-height: 40vh;\n  max-height: 50vh; }\n\n.navSide-bottomSection {\n  position: absolute;\n  overflow: hidden; }\n\n.grid .navSide-item, .grid .navSide-item-placeholder {\n  background: var(--components-navSide-fullwidth-palette-bg-color);\n  width: var(--components-navSide-width); }\n\n.grid .mod-compact .navSide-item, .grid .mod-compact .navSide-item-placeholder {\n  background: var(--components-navSide-compact-palette-bg-color);\n  width: var(--components-navSide-compact-width);\n  text-align: center; }\n\n.grid .mod-compact .navSide-item-link {\n  color: var(--components-navSide-compact-palette-text);\n  flex-direction: column;\n  font-size: var(--components-navSide-compact-font-size);\n  justify-content: center;\n  position: relative; }\n\n.grid .mod-compact .navSide-item-link .navSide-item-link-title {\n    margin: .8em 0 0; }\n\n.grid .mod-compact .navSide-item-alert {\n  padding: 0 .4em;\n  position: absolute;\n  right: 10px;\n  top: 10px; }\n\n.grid .mod-compact .navSide-item-placeholder {\n  flex-direction: column; }\n\n.grid .mod-compact .navSide-item-placeholder::before {\n    height: 1.5em;\n    width: 1.5em; }\n\n.grid .mod-compact .navSide-item-placeholder::after {\n    margin-left: 0;\n    margin-top: .8em;\n    width: 100%; }\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/nav-side.component.ts":
-/*!******************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/nav-side.component.ts ***!
-  \******************************************************************/
-/*! exports provided: NavSideComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavSideComponent", function() { return NavSideComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _basic_basic_example__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./basic/basic.example */ "./src/app/components/layout/nav-side/basic/basic.example.ts");
-/* harmony import */ var _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./item-states/item-states.example */ "./src/app/components/layout/nav-side/item-states/item-states.example.ts");
-/* harmony import */ var _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sub-item-states/sub-item-states.example */ "./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.ts");
-/* harmony import */ var _compact_compact_example__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./compact/compact.example */ "./src/app/components/layout/nav-side/compact/compact.example.ts");
-/* harmony import */ var _alert_alert_example__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./alert/alert.example */ "./src/app/components/layout/nav-side/alert/alert.example.ts");
-/* harmony import */ var _loader_loader_example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loader/loader.example */ "./src/app/components/layout/nav-side/loader/loader.example.ts");
-/* harmony import */ var _commons_doc_api__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../commons/doc-api */ "./src/app/commons/doc-api/index.ts");
-/* harmony import */ var _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mobile/mobile.example */ "./src/app/components/layout/nav-side/mobile/mobile.example.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-var NavSideComponent = /** @class */ (function () {
-    function NavSideComponent(docApi) {
-        this.docApi = docApi;
-        this.infos = {
-            title: 'Menu principal',
-            packages: ['SCSS'],
-            examples: [
-                {
-                    title: 'Basique',
-                    component: _basic_basic_example__WEBPACK_IMPORTED_MODULE_1__["BasicExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./basic/basic.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/basic/basic.example.html"),
-                },
-                {
-                    title: 'Mode compact',
-                    component: _compact_compact_example__WEBPACK_IMPORTED_MODULE_4__["CompactExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./compact/compact.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/compact/compact.example.html"),
-                },
-                {
-                    title: 'Item & état',
-                    component: _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_2__["ItemStatesExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./item-states/item-states.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/item-states/item-states.example.html"),
-                },
-                {
-                    title: 'Sous-menu & état',
-                    component: _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_3__["SubItemStatesExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./sub-item-states/sub-item-states.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html"),
-                },
-                {
-                    title: 'Alertes / Notifications',
-                    component: _alert_alert_example__WEBPACK_IMPORTED_MODULE_5__["AlertExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./alert/alert.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/alert/alert.example.html"),
-                },
-                {
-                    title: 'Loader / Placeholder',
-                    component: _loader_loader_example__WEBPACK_IMPORTED_MODULE_6__["LoaderExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./loader/loader.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/loader/loader.example.html"),
-                },
-                {
-                    title: 'Mobile',
-                    description: "\n\t\t\t\tPour g\u00E9rer un affichage en mode mobile, il faut rajouter une\n\t\t\t\t<code class=\"code\">&lt;div class=\"navSide-item mod-mobileToggle\"&gt;</code><br>\n\t\t\t\tPour d\u00E9plier le menu, il faut ajouter la class <code class=\"code\">.is-open</code> \u00E0 la <code class=\"code\">.navSide</code>\n\t\t\t\t",
-                    component: _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_8__["MobileExampleComponent"],
-                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./mobile/mobile.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/layout/nav-side/mobile/mobile.example.html"),
-                },
-            ],
-            theme: this.docApi.theme('navSide')
-        };
-    }
-    NavSideComponent.prototype.ngOnInit = function () { };
-    NavSideComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-nav-side',
-            template: __webpack_require__(/*! ./nav-side.component.html */ "./src/app/components/layout/nav-side/nav-side.component.html")
-        }),
-        __metadata("design:paramtypes", [_commons_doc_api__WEBPACK_IMPORTED_MODULE_7__["DsDocApiService"]])
-    ], NavSideComponent);
-    return NavSideComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/nav-side.module.ts":
-/*!***************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/nav-side.module.ts ***!
-  \***************************************************************/
-/*! exports provided: DsNavSideModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsNavSideModule", function() { return DsNavSideModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _nav_side_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nav-side.component */ "./src/app/components/layout/nav-side/nav-side.component.ts");
-/* harmony import */ var _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./basic/basic.example */ "./src/app/components/layout/nav-side/basic/basic.example.ts");
-/* harmony import */ var _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./item-states/item-states.example */ "./src/app/components/layout/nav-side/item-states/item-states.example.ts");
-/* harmony import */ var _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sub-item-states/sub-item-states.example */ "./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.ts");
-/* harmony import */ var _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./compact/compact.example */ "./src/app/components/layout/nav-side/compact/compact.example.ts");
-/* harmony import */ var _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./alert/alert.example */ "./src/app/components/layout/nav-side/alert/alert.example.ts");
-/* harmony import */ var _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./loader/loader.example */ "./src/app/components/layout/nav-side/loader/loader.example.ts");
-/* harmony import */ var _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mobile/mobile.example */ "./src/app/components/layout/nav-side/mobile/mobile.example.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-
-
-
-
-var DsNavSideModule = /** @class */ (function () {
-    function DsNavSideModule() {
-    }
-    DsNavSideModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
-            declarations: [
-                _nav_side_component__WEBPACK_IMPORTED_MODULE_2__["NavSideComponent"],
-                _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__["BasicExampleComponent"],
-                _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__["ItemStatesExampleComponent"],
-                _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__["SubItemStatesExampleComponent"],
-                _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__["CompactExampleComponent"],
-                _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__["AlertExampleComponent"],
-                _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__["LoaderExampleComponent"],
-                _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__["MobileExampleComponent"],
-            ],
-            entryComponents: [
-                _nav_side_component__WEBPACK_IMPORTED_MODULE_2__["NavSideComponent"],
-                _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__["BasicExampleComponent"],
-                _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__["ItemStatesExampleComponent"],
-                _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__["SubItemStatesExampleComponent"],
-                _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__["CompactExampleComponent"],
-                _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__["AlertExampleComponent"],
-                _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__["LoaderExampleComponent"],
-                _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__["MobileExampleComponent"],
-            ]
-        })
-    ], DsNavSideModule);
-    return DsNavSideModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html":
-/*!*****************************************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html ***!
-  \*****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2 with large name <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-open</h3>\n\t\t<div class=\"navSide-item is-open\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-open is-active</h3>\n\t\t<div class=\"navSide-item is-open is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Subsection #1.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.ts":
-/*!***************************************************************************************!*\
-  !*** ./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.ts ***!
-  \***************************************************************************************/
-/*! exports provided: SubItemStatesExampleComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubItemStatesExampleComponent", function() { return SubItemStatesExampleComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var SubItemStatesExampleComponent = /** @class */ (function () {
-    function SubItemStatesExampleComponent() {
-    }
-    SubItemStatesExampleComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-sub-item-states-example',
-            template: __webpack_require__(/*! ./sub-item-states.example.html */ "./src/app/components/layout/nav-side/sub-item-states/sub-item-states.example.html"),
-            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/layout/nav-side/nav-side.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], SubItemStatesExampleComponent);
-    return SubItemStatesExampleComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.html":
-/*!********************************************************************************************!*\
-  !*** ./src/app/components/layout/structure-guidelines/structure-guidelines.component.html ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  structure-guidelines works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.scss":
-/*!********************************************************************************************!*\
-  !*** ./src/app/components/layout/structure-guidelines/structure-guidelines.component.scss ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.ts":
-/*!******************************************************************************************!*\
-  !*** ./src/app/components/layout/structure-guidelines/structure-guidelines.component.ts ***!
-  \******************************************************************************************/
-/*! exports provided: StructureGuidelinesComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StructureGuidelinesComponent", function() { return StructureGuidelinesComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var StructureGuidelinesComponent = /** @class */ (function () {
-    function StructureGuidelinesComponent() {
-    }
-    StructureGuidelinesComponent.prototype.ngOnInit = function () {
-    };
-    StructureGuidelinesComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-structure-guidelines',
-            template: __webpack_require__(/*! ./structure-guidelines.component.html */ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.html"),
-            styles: [__webpack_require__(/*! ./structure-guidelines.component.scss */ "./src/app/components/layout/structure-guidelines/structure-guidelines.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], StructureGuidelinesComponent);
-    return StructureGuidelinesComponent;
 }());
 
 
@@ -10317,7 +9550,7 @@ var SortableExampleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n<markdown [dsMarkdownSrc]=\"'guidelines/components/listings/tables/tables.guidelines.md'\"></markdown>\n"
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n"
 
 /***/ }),
 
@@ -12141,6 +11374,563 @@ var PalettesExampleComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/navigation/nav-side/alert/alert.example.html":
+/*!*************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/alert/alert.example.html ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<span class=\"navSide-item-alert\">12</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs2 mod-compact\">\n\t\t<h3>compact</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<span class=\"navSide-item-alert\">9</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>Avec sous-menu</h3>\n\t\t<div class=\"navSide-item is-open\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Subsection #1.2 <span class=\"navSide-item-alert\">9</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/alert/alert.example.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/alert/alert.example.ts ***!
+  \***********************************************************************/
+/*! exports provided: AlertExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlertExampleComponent", function() { return AlertExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AlertExampleComponent = /** @class */ (function () {
+    function AlertExampleComponent() {
+    }
+    AlertExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-alert-example',
+            template: __webpack_require__(/*! ./alert.example.html */ "./src/app/components/navigation/nav-side/alert/alert.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AlertExampleComponent);
+    return AlertExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/basic/basic.example.html":
+/*!*************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/basic/basic.example.html ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<aside class=\"navSide\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2 with large name <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t\t<div class=\"navSide-item is-open is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section#2 with a larger name</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.2</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Section #2.3</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Section #2.4 <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-analytics\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section #3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section #4</span>\n\t\t\t\t<span class=\"navSide-item-alert\">9</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #4.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #4.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</nav>\n</aside>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/basic/basic.example.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/basic/basic.example.ts ***!
+  \***********************************************************************/
+/*! exports provided: BasicExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BasicExampleComponent", function() { return BasicExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var BasicExampleComponent = /** @class */ (function () {
+    function BasicExampleComponent() {
+    }
+    BasicExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-basic-example',
+            template: __webpack_require__(/*! ./basic.example.html */ "./src/app/components/navigation/nav-side/basic/basic.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], BasicExampleComponent);
+    return BasicExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/compact/compact.example.html":
+/*!*****************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/compact/compact.example.html ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<aside class=\"navSide mod-compact\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-tilesNine\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 2</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-settings\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 4</span>\n\t\t\t</a>\n\t\t</div>\n\t</nav>\n</aside>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/compact/compact.example.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/compact/compact.example.ts ***!
+  \***************************************************************************/
+/*! exports provided: CompactExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompactExampleComponent", function() { return CompactExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CompactExampleComponent = /** @class */ (function () {
+    function CompactExampleComponent() {
+    }
+    CompactExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-compact-example',
+            template: __webpack_require__(/*! ./compact.example.html */ "./src/app/components/navigation/nav-side/compact/compact.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], CompactExampleComponent);
+    return CompactExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/item-states/item-states.example.html":
+/*!*************************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/item-states/item-states.example.html ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-active</h3>\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/item-states/item-states.example.ts":
+/*!***********************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/item-states/item-states.example.ts ***!
+  \***********************************************************************************/
+/*! exports provided: ItemStatesExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemStatesExampleComponent", function() { return ItemStatesExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ItemStatesExampleComponent = /** @class */ (function () {
+    function ItemStatesExampleComponent() {
+    }
+    ItemStatesExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-item-states-example',
+            template: __webpack_require__(/*! ./item-states.example.html */ "./src/app/components/navigation/nav-side/item-states/item-states.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ItemStatesExampleComponent);
+    return ItemStatesExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/loader/loader.example.html":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/loader/loader.example.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item-placeholder\"></div>\n\t</div>\n\t<div class=\"grid-xs2 mod-compact\">\n\t\t<h3>compact</h3>\n\t\t<div class=\"navSide-item-placeholder\"></div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/loader/loader.example.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/loader/loader.example.ts ***!
+  \*************************************************************************/
+/*! exports provided: LoaderExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoaderExampleComponent", function() { return LoaderExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LoaderExampleComponent = /** @class */ (function () {
+    function LoaderExampleComponent() {
+    }
+    LoaderExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-loader-example',
+            template: __webpack_require__(/*! ./loader.example.html */ "./src/app/components/navigation/nav-side/loader/loader.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], LoaderExampleComponent);
+    return LoaderExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/mobile/mobile.example.html":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/mobile/mobile.example.html ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<aside class=\"navSide\" [class.is-open]=\"isMenuOpen\">\n\t<nav class=\"navSide-scrollWrapper\">\n\t\t<div class=\"navSide-item mod-mobileToggle\" (click)=\"toggleMenu($event)\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<span class=\"navSide-item-link-title\">Menu</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icons icon-arrowSouthThin\"></i>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link is-active\">\n\t\t\t\t<i class=\"lucca-icon icon-tilesNine\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-user\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 2</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-settings\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 3</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-sliders\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 4</span>\n\t\t\t</a>\n\t\t</div>\n\t</nav>\n</aside>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/mobile/mobile.example.scss":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/mobile/mobile.example.scss ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".navSide {\n  position: relative;\n  width: 500px;\n  min-height: auto;\n  max-height: auto; }\n  .navSide.mod-withBanner {\n    margin-top: _theme(\"commons.banner-height\"); }\n  .navSide-scrollWrapper {\n  width: 100%; }\n  .navSide-item:not(.mod-mobileToggle), .navSide-item-placeholder {\n  position: absolute;\n  visibility: hidden;\n  -webkit-transform: translateX(-15px);\n          transform: translateX(-15px);\n  opacity: 0;\n  top: 0;\n  bottom: 100%;\n  overflow: hidden; }\n  .navSide-item.mod-mobileToggle {\n  display: block;\n  height: _component(\"navSide.mobile.toggle-height\");\n  cursor: pointer; }\n  .navSide.is-open {\n  height: 300px; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle), .navSide.is-open .navSide-item-placeholder {\n    position: static;\n    visibility: visible;\n    -webkit-transform: translateX(0);\n            transform: translateX(0);\n    opacity: 1;\n    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1); }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(2), .navSide.is-open .navSide-item-placeholder:nth-child(2) {\n      transition-delay: 0s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(3), .navSide.is-open .navSide-item-placeholder:nth-child(3) {\n      transition-delay: 0.05s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(4), .navSide.is-open .navSide-item-placeholder:nth-child(4) {\n      transition-delay: 0.1s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(5), .navSide.is-open .navSide-item-placeholder:nth-child(5) {\n      transition-delay: 0.15s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(6), .navSide.is-open .navSide-item-placeholder:nth-child(6) {\n      transition-delay: 0.2s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(7), .navSide.is-open .navSide-item-placeholder:nth-child(7) {\n      transition-delay: 0.25s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(8), .navSide.is-open .navSide-item-placeholder:nth-child(8) {\n      transition-delay: 0.3s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(9), .navSide.is-open .navSide-item-placeholder:nth-child(9) {\n      transition-delay: 0.35s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(10), .navSide.is-open .navSide-item-placeholder:nth-child(10) {\n      transition-delay: 0.4s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(11), .navSide.is-open .navSide-item-placeholder:nth-child(11) {\n      transition-delay: 0.45s; }\n  .navSide.is-open .navSide-item:not(.mod-mobileToggle):nth-child(12), .navSide.is-open .navSide-item-placeholder:nth-child(12) {\n      transition-delay: 0.5s; }\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/mobile/mobile.example.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/mobile/mobile.example.ts ***!
+  \*************************************************************************/
+/*! exports provided: MobileExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MobileExampleComponent", function() { return MobileExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobileExampleComponent = /** @class */ (function () {
+    function MobileExampleComponent() {
+    }
+    MobileExampleComponent.prototype.toggleMenu = function (event) {
+        event.preventDefault();
+        this.isMenuOpen = !this.isMenuOpen;
+    };
+    MobileExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-mobile-example',
+            template: __webpack_require__(/*! ./mobile.example.html */ "./src/app/components/navigation/nav-side/mobile/mobile.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss"), __webpack_require__(/*! ./mobile.example.scss */ "./src/app/components/navigation/nav-side/mobile/mobile.example.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MobileExampleComponent);
+    return MobileExampleComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/nav-side.component.html":
+/*!************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/nav-side.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\tLe menu principal est présent sur toute nos applications. Il permet de naviguer au sein d'une application.<br>\n\t\tIl est disponible en large avec sous menu ou en <code class=\"code\">.mod-compact</code>\n\t</p>\n</ds-title-block>\n<ds-theme-displayer [theme]=\"infos.theme\"></ds-theme-displayer>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/nav-side.component.scss":
+/*!************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/nav-side.component.scss ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "@-webkit-keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@-webkit-keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n@keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n.navSide {\n  position: relative;\n  min-height: 40vh;\n  max-height: 50vh; }\n\n.navSide-bottomSection {\n  position: absolute;\n  overflow: hidden; }\n\n.grid .navSide-item, .grid .navSide-item-placeholder {\n  background: var(--components-navSide-fullwidth-palette-bg-color);\n  width: var(--components-navSide-width); }\n\n.grid .mod-compact .navSide-item, .grid .mod-compact .navSide-item-placeholder {\n  background: var(--components-navSide-compact-palette-bg-color);\n  width: var(--components-navSide-compact-width);\n  text-align: center; }\n\n.grid .mod-compact .navSide-item-link {\n  color: var(--components-navSide-compact-palette-text);\n  flex-direction: column;\n  font-size: var(--components-navSide-compact-font-size);\n  justify-content: center;\n  position: relative; }\n\n.grid .mod-compact .navSide-item-link .navSide-item-link-title {\n    margin: .8em 0 0; }\n\n.grid .mod-compact .navSide-item-alert {\n  padding: 0 .4em;\n  position: absolute;\n  right: 10px;\n  top: 10px; }\n\n.grid .mod-compact .navSide-item-placeholder {\n  flex-direction: column; }\n\n.grid .mod-compact .navSide-item-placeholder::before {\n    height: 1.5em;\n    width: 1.5em; }\n\n.grid .mod-compact .navSide-item-placeholder::after {\n    margin-left: 0;\n    margin-top: .8em;\n    width: 100%; }\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/nav-side.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/nav-side.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: NavSideComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavSideComponent", function() { return NavSideComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _basic_basic_example__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./basic/basic.example */ "./src/app/components/navigation/nav-side/basic/basic.example.ts");
+/* harmony import */ var _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./item-states/item-states.example */ "./src/app/components/navigation/nav-side/item-states/item-states.example.ts");
+/* harmony import */ var _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sub-item-states/sub-item-states.example */ "./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.ts");
+/* harmony import */ var _compact_compact_example__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./compact/compact.example */ "./src/app/components/navigation/nav-side/compact/compact.example.ts");
+/* harmony import */ var _alert_alert_example__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./alert/alert.example */ "./src/app/components/navigation/nav-side/alert/alert.example.ts");
+/* harmony import */ var _loader_loader_example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loader/loader.example */ "./src/app/components/navigation/nav-side/loader/loader.example.ts");
+/* harmony import */ var _commons_doc_api__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../commons/doc-api */ "./src/app/commons/doc-api/index.ts");
+/* harmony import */ var _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mobile/mobile.example */ "./src/app/components/navigation/nav-side/mobile/mobile.example.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var NavSideComponent = /** @class */ (function () {
+    function NavSideComponent(docApi) {
+        this.docApi = docApi;
+        this.infos = {
+            title: 'Menu principal',
+            packages: ['SCSS'],
+            examples: [
+                {
+                    title: 'Basique',
+                    component: _basic_basic_example__WEBPACK_IMPORTED_MODULE_1__["BasicExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./basic/basic.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/basic/basic.example.html"),
+                },
+                {
+                    title: 'Mode compact',
+                    component: _compact_compact_example__WEBPACK_IMPORTED_MODULE_4__["CompactExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./compact/compact.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/compact/compact.example.html"),
+                },
+                {
+                    title: 'Item & état',
+                    component: _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_2__["ItemStatesExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./item-states/item-states.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/item-states/item-states.example.html"),
+                },
+                {
+                    title: 'Sous-menu & état',
+                    component: _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_3__["SubItemStatesExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./sub-item-states/sub-item-states.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html"),
+                },
+                {
+                    title: 'Alertes / Notifications',
+                    component: _alert_alert_example__WEBPACK_IMPORTED_MODULE_5__["AlertExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./alert/alert.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/alert/alert.example.html"),
+                },
+                {
+                    title: 'Loader / Placeholder',
+                    component: _loader_loader_example__WEBPACK_IMPORTED_MODULE_6__["LoaderExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./loader/loader.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/loader/loader.example.html"),
+                },
+                {
+                    title: 'Mobile',
+                    description: "\n\t\t\t\tPour g\u00E9rer un affichage en mode mobile, il faut rajouter une\n\t\t\t\t<code class=\"code\">&lt;div class=\"navSide-item mod-mobileToggle\"&gt;</code><br>\n\t\t\t\tPour d\u00E9plier le menu, il faut ajouter la class <code class=\"code\">.is-open</code> \u00E0 la <code class=\"code\">.navSide</code>\n\t\t\t\t",
+                    component: _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_8__["MobileExampleComponent"],
+                    code: __webpack_require__(/*! !prismjs-loader?lang=markup!./mobile/mobile.example.html */ "./node_modules/prismjs-loader/index.js?lang=markup!./src/app/components/navigation/nav-side/mobile/mobile.example.html"),
+                },
+            ],
+            theme: this.docApi.theme('navSide')
+        };
+    }
+    NavSideComponent.prototype.ngOnInit = function () { };
+    NavSideComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-nav-side',
+            template: __webpack_require__(/*! ./nav-side.component.html */ "./src/app/components/navigation/nav-side/nav-side.component.html")
+        }),
+        __metadata("design:paramtypes", [_commons_doc_api__WEBPACK_IMPORTED_MODULE_7__["DsDocApiService"]])
+    ], NavSideComponent);
+    return NavSideComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/nav-side.module.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/nav-side.module.ts ***!
+  \*******************************************************************/
+/*! exports provided: DsNavSideModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsNavSideModule", function() { return DsNavSideModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _nav_side_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nav-side.component */ "./src/app/components/navigation/nav-side/nav-side.component.ts");
+/* harmony import */ var _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./basic/basic.example */ "./src/app/components/navigation/nav-side/basic/basic.example.ts");
+/* harmony import */ var _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./item-states/item-states.example */ "./src/app/components/navigation/nav-side/item-states/item-states.example.ts");
+/* harmony import */ var _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sub-item-states/sub-item-states.example */ "./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.ts");
+/* harmony import */ var _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./compact/compact.example */ "./src/app/components/navigation/nav-side/compact/compact.example.ts");
+/* harmony import */ var _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./alert/alert.example */ "./src/app/components/navigation/nav-side/alert/alert.example.ts");
+/* harmony import */ var _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./loader/loader.example */ "./src/app/components/navigation/nav-side/loader/loader.example.ts");
+/* harmony import */ var _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mobile/mobile.example */ "./src/app/components/navigation/nav-side/mobile/mobile.example.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+var DsNavSideModule = /** @class */ (function () {
+    function DsNavSideModule() {
+    }
+    DsNavSideModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _nav_side_component__WEBPACK_IMPORTED_MODULE_2__["NavSideComponent"],
+                _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__["BasicExampleComponent"],
+                _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__["ItemStatesExampleComponent"],
+                _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__["SubItemStatesExampleComponent"],
+                _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__["CompactExampleComponent"],
+                _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__["AlertExampleComponent"],
+                _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__["LoaderExampleComponent"],
+                _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__["MobileExampleComponent"],
+            ],
+            entryComponents: [
+                _nav_side_component__WEBPACK_IMPORTED_MODULE_2__["NavSideComponent"],
+                _basic_basic_example__WEBPACK_IMPORTED_MODULE_3__["BasicExampleComponent"],
+                _item_states_item_states_example__WEBPACK_IMPORTED_MODULE_4__["ItemStatesExampleComponent"],
+                _sub_item_states_sub_item_states_example__WEBPACK_IMPORTED_MODULE_5__["SubItemStatesExampleComponent"],
+                _compact_compact_example__WEBPACK_IMPORTED_MODULE_6__["CompactExampleComponent"],
+                _alert_alert_example__WEBPACK_IMPORTED_MODULE_7__["AlertExampleComponent"],
+                _loader_loader_example__WEBPACK_IMPORTED_MODULE_8__["LoaderExampleComponent"],
+                _mobile_mobile_example__WEBPACK_IMPORTED_MODULE_9__["MobileExampleComponent"],
+            ]
+        })
+    ], DsNavSideModule);
+    return DsNavSideModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html":
+/*!*********************************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"grid\">\n\t<div class=\"grid-xs3\">\n\t\t<h3>défault</h3>\n\t\t<div class=\"navSide-item\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2 with large name <span class=\"navSide-item-alert\">12</span></a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-open</h3>\n\t\t<div class=\"navSide-item is-open\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\t<div class=\"grid-xs3\">\n\t\t<h3>is-open is-active</h3>\n\t\t<div class=\"navSide-item is-open is-active\">\n\t\t\t<a href=\"#\" class=\"navSide-item-link\">\n\t\t\t\t<i class=\"lucca-icon icon-heart\"></i>\n\t\t\t\t<span class=\"navSide-item-link-title\">Section 1</span>\n\t\t\t\t<i class=\"navSide-item-arrow lucca-icon icon-arrowEastThin\"></i>\n\t\t\t</a>\n\t\t\t<nav class=\"navSide-item-subMenu\">\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link\">Subsection #1.1</a>\n\t\t\t\t<a href=\"#\" class=\"navSide-item-subMenu-link is-active\">Subsection #1.2</a>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.ts":
+/*!*******************************************************************************************!*\
+  !*** ./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.ts ***!
+  \*******************************************************************************************/
+/*! exports provided: SubItemStatesExampleComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubItemStatesExampleComponent", function() { return SubItemStatesExampleComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SubItemStatesExampleComponent = /** @class */ (function () {
+    function SubItemStatesExampleComponent() {
+    }
+    SubItemStatesExampleComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-sub-item-states-example',
+            template: __webpack_require__(/*! ./sub-item-states.example.html */ "./src/app/components/navigation/nav-side/sub-item-states/sub-item-states.example.html"),
+            styles: [__webpack_require__(/*! ../nav-side.component.scss */ "./src/app/components/navigation/nav-side/nav-side.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], SubItemStatesExampleComponent);
+    return SubItemStatesExampleComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/components/navigation/navigation.module.ts":
 /*!************************************************************!*\
   !*** ./src/app/components/navigation/navigation.module.ts ***!
@@ -12155,12 +11945,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
 /* harmony import */ var _menu_menu_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu/menu.module */ "./src/app/components/navigation/menu/menu.module.ts");
 /* harmony import */ var _breadcrumbs_breadcrumbs_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./breadcrumbs/breadcrumbs.module */ "./src/app/components/navigation/breadcrumbs/breadcrumbs.module.ts");
+/* harmony import */ var _nav_side_nav_side_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nav-side/nav-side.module */ "./src/app/components/navigation/nav-side/nav-side.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -12172,6 +11964,7 @@ var NavigationModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
+                _nav_side_nav_side_module__WEBPACK_IMPORTED_MODULE_4__["DsNavSideModule"],
                 _menu_menu_module__WEBPACK_IMPORTED_MODULE_2__["DsMenuModule"],
                 _breadcrumbs_breadcrumbs_module__WEBPACK_IMPORTED_MODULE_3__["DsBreadcrumbsModule"]
             ]
@@ -12522,12 +12315,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons.component */ "./src/app/components/text/icons/icons.component.ts");
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -12538,6 +12333,7 @@ var DsIconsModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _commons__WEBPACK_IMPORTED_MODULE_2__["DsCommonsModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
             ],
             entryComponents: [
                 _icons_component__WEBPACK_IMPORTED_MODULE_1__["IconsComponent"]
@@ -12726,69 +12522,6 @@ var DsLabelsModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/components/text/text-guidelines/text-guidelines.component.html":
-/*!********************************************************************************!*\
-  !*** ./src/app/components/text/text-guidelines/text-guidelines.component.html ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  text-guidelines works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/components/text/text-guidelines/text-guidelines.component.scss":
-/*!********************************************************************************!*\
-  !*** ./src/app/components/text/text-guidelines/text-guidelines.component.scss ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/components/text/text-guidelines/text-guidelines.component.ts":
-/*!******************************************************************************!*\
-  !*** ./src/app/components/text/text-guidelines/text-guidelines.component.ts ***!
-  \******************************************************************************/
-/*! exports provided: TextGuidelinesComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TextGuidelinesComponent", function() { return TextGuidelinesComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var TextGuidelinesComponent = /** @class */ (function () {
-    function TextGuidelinesComponent() {
-    }
-    TextGuidelinesComponent.prototype.ngOnInit = function () {
-    };
-    TextGuidelinesComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-text-guidelines',
-            template: __webpack_require__(/*! ./text-guidelines.component.html */ "./src/app/components/text/text-guidelines/text-guidelines.component.html"),
-            styles: [__webpack_require__(/*! ./text-guidelines.component.scss */ "./src/app/components/text/text-guidelines/text-guidelines.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], TextGuidelinesComponent);
-    return TextGuidelinesComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/components/text/text.module.ts":
 /*!************************************************!*\
   !*** ./src/app/components/text/text.module.ts ***!
@@ -12802,17 +12535,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
 /* harmony import */ var _basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./basic-text/basic-text.component */ "./src/app/components/text/basic-text/basic-text.component.ts");
-/* harmony import */ var _text_guidelines_text_guidelines_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./text-guidelines/text-guidelines.component */ "./src/app/components/text/text-guidelines/text-guidelines.component.ts");
-/* harmony import */ var _titles_titles_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./titles/titles.module */ "./src/app/components/text/titles/titles.module.ts");
-/* harmony import */ var _labels_labels_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./labels/labels.module */ "./src/app/components/text/labels/labels.module.ts");
-/* harmony import */ var _icons_icons_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/icons.module */ "./src/app/components/text/icons/icons.module.ts");
+/* harmony import */ var _titles_titles_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./titles/titles.module */ "./src/app/components/text/titles/titles.module.ts");
+/* harmony import */ var _labels_labels_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./labels/labels.module */ "./src/app/components/text/labels/labels.module.ts");
+/* harmony import */ var _icons_icons_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/icons.module */ "./src/app/components/text/icons/icons.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -12826,17 +12557,15 @@ var TextModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
-                _titles_titles_module__WEBPACK_IMPORTED_MODULE_4__["DsTitlesModule"],
-                _labels_labels_module__WEBPACK_IMPORTED_MODULE_5__["DsLabelsModule"],
-                _icons_icons_module__WEBPACK_IMPORTED_MODULE_6__["DsIconsModule"]
+                _titles_titles_module__WEBPACK_IMPORTED_MODULE_3__["DsTitlesModule"],
+                _labels_labels_module__WEBPACK_IMPORTED_MODULE_4__["DsLabelsModule"],
+                _icons_icons_module__WEBPACK_IMPORTED_MODULE_5__["DsIconsModule"]
             ],
             entryComponents: [
-                _basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_2__["BasicTextComponent"],
-                _text_guidelines_text_guidelines_component__WEBPACK_IMPORTED_MODULE_3__["TextGuidelinesComponent"],
+                _basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_2__["BasicTextComponent"]
             ],
             declarations: [
-                _basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_2__["BasicTextComponent"],
-                _text_guidelines_text_guidelines_component__WEBPACK_IMPORTED_MODULE_3__["TextGuidelinesComponent"],
+                _basic_text_basic_text_component__WEBPACK_IMPORTED_MODULE_2__["BasicTextComponent"]
             ]
         })
     ], TextModule);
@@ -13687,7 +13416,7 @@ var VoiceComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<a class=\"header-logo\" routerLink=\"/\">Design System Lucca</a>\n<ds-search class=\"mod-inline\"></ds-search>\n<nav>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/principles\">Principes</a>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/content\">Contenu</a>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/visual\">Visuel</a>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/components\">Composants</a>\n</nav>\n"
+module.exports = "<a class=\"header-logo\" routerLink=\"/\">Design System Lucca</a>\n<ds-search class=\"mod-inline\"></ds-search>\n<nav>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/principles\">Principes</a>\n\t<a class=\"nav-item is-disabled\">Contenu ⛏️</a>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/ressources\">Ressources</a>\n\t<a class=\"nav-item\" [routerLinkActive]=\"['is-active']\" routerLink=\"/components\">Composants</a>\n</nav>\n"
 
 /***/ }),
 
@@ -13698,7 +13427,7 @@ module.exports = "<a class=\"header-logo\" routerLink=\"/\">Design System Lucca<
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@-webkit-keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@-webkit-keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n@keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n:host {\n  border-bottom: 1px solid var(--commons-background-darker);\n  background: white;\n  display: flex;\n  align-items: center;\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 4rem;\n  z-index: 20; }\n\n.header-logo {\n  height: 4rem;\n  line-height: 4rem;\n  padding: 0 1.5rem;\n  text-decoration: none;\n  color: var(--colors-text-purple-color);\n  font-weight: 600;\n  transition: background 150ms ease; }\n\n.header-logo:hover {\n    background: var(--commons-background-dark); }\n\nnav {\n  margin-left: auto; }\n\n.nav-item {\n  display: inline-block;\n  height: 4rem;\n  font-weight: 600;\n  font-size: .95rem;\n  line-height: 4rem;\n  padding: 0 1.5rem;\n  position: relative;\n  text-decoration: none;\n  color: var(--colors-text-purple-color);\n  transition: background 150ms ease; }\n\n.nav-item:hover, .nav-item:focus, .nav-item:active {\n    outline: none;\n    background: var(--commons-background-dark);\n    color: var(--colors-text-purple-dark); }\n\n.nav-item.is-active {\n    color: var(--colors-text-purple-dark); }\n\n.nav-item.is-active::before {\n      content: '';\n      position: absolute;\n      bottom: 1px;\n      left: 0;\n      right: 0;\n      height: 3px;\n      background: var(--palettes-primary-color); }\n\n:host(.mod-splash) {\n  background: transparent;\n  border: none; }\n\n:host(.mod-splash) .header-logo, :host(.mod-splash) ds-search {\n    display: none; }\n\n:host(.mod-splash) .nav-item {\n    color: white; }\n\n:host(.mod-splash) .nav-item:hover {\n      background: rgba(255, 255, 255, 0.2); }\n"
+module.exports = "@-webkit-keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@keyframes rotating {\n  from {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg); }\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n@-webkit-keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n@keyframes loadingGradientKeyframes {\n  0% {\n    background-position: 100% 0%; }\n  100% {\n    background-position: -100% 0%; } }\n\n:host {\n  border-bottom: 1px solid var(--commons-background-darker);\n  background: white;\n  display: flex;\n  align-items: center;\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 4rem;\n  z-index: 20; }\n\n.header-logo {\n  height: 4rem;\n  line-height: 4rem;\n  padding: 0 1.5rem;\n  text-decoration: none;\n  color: var(--colors-text-purple-color);\n  font-weight: 600;\n  transition: background 150ms ease; }\n\n.header-logo:hover {\n    background: var(--commons-background-dark); }\n\nnav {\n  margin-left: auto; }\n\n.nav-item {\n  display: inline-block;\n  height: 4rem;\n  font-weight: 600;\n  font-size: .95rem;\n  line-height: 4rem;\n  padding: 0 1.5rem;\n  position: relative;\n  text-decoration: none;\n  color: var(--colors-text-purple-color);\n  transition: background 150ms ease; }\n\n.nav-item:hover, .nav-item:focus, .nav-item:active {\n    outline: none;\n    background: var(--commons-background-dark);\n    color: var(--colors-text-purple-dark); }\n\n.nav-item.is-active {\n    color: var(--colors-text-purple-dark); }\n\n.nav-item.is-active::before {\n      content: '';\n      position: absolute;\n      bottom: 1px;\n      left: 0;\n      right: 0;\n      height: 3px;\n      background: var(--palettes-primary-color); }\n\n.nav-item.is-disabled {\n    pointer-events: none;\n    opacity: .3; }\n\n:host(.mod-splash) {\n  background: transparent;\n  border: none; }\n\n:host(.mod-splash) .header-logo, :host(.mod-splash) ds-search {\n    display: none; }\n\n:host(.mod-splash) .nav-item {\n    color: white; }\n\n:host(.mod-splash) .nav-item:hover {\n      background: rgba(255, 255, 255, 0.2); }\n"
 
 /***/ }),
 
@@ -14024,12 +13753,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_splash_home_splash_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home-splash/home-splash.component */ "./src/app/home/home-splash/home-splash.component.ts");
 /* harmony import */ var _home_footer_home_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./home-footer/home-footer.component */ "./src/app/home/home-footer/home-footer.component.ts");
 /* harmony import */ var _home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -14045,6 +13776,7 @@ var DsHomeModule = /** @class */ (function () {
             imports: [
                 _header__WEBPACK_IMPORTED_MODULE_1__["DsHeaderModule"],
                 _commons__WEBPACK_IMPORTED_MODULE_3__["DsCommonsModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"],
                 _search__WEBPACK_IMPORTED_MODULE_2__["DsSearchModule"]
             ],
             declarations: [
@@ -14088,7 +13820,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ds-header></ds-header>\n<router-outlet name=\"navSide\"></router-outlet>\n<div class=\"main-content\">\n  <router-outlet></router-outlet>\n</div>\n<router-outlet name=\"footer\"></router-outlet>\n"
+module.exports = "<ds-header></ds-header>\n<router-outlet name=\"navSide\"></router-outlet>\n<div class=\"main-content\">\n\t<div class=\"container\">\n\t\t<router-outlet></router-outlet>\n\t</div>\n</div>\n<router-outlet name=\"footer\"></router-outlet>\n"
 
 /***/ }),
 
@@ -14099,7 +13831,7 @@ module.exports = "<ds-header></ds-header>\n<router-outlet name=\"navSide\"></rou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".container {\n  margin-top: 0; }\n"
 
 /***/ }),
 
@@ -14497,21 +14229,21 @@ var DsNavSideModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/principles/accessibility/accessibility.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/principles/accessibility/accessibility.component.html ***!
-  \***********************************************************************/
+/***/ "./src/app/principles/components/cards/cards.component.html":
+/*!******************************************************************!*\
+  !*** ./src/app/principles/components/cards/cards.component.html ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Accessibilité</h1>\n    <p class=\"strong\">Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Pie pastry cotton</h2>\n    <p>Tootsie roll toffee chocolate bar. Muffin tootsie roll sugar plum chupa chups. Donut candy canes marshmallow.</p>\n    <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>\n    <p>Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n    <p>Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>\n  </div>\n</div>\n"
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\t Les cartes sont un mode de représentation d' un objet au sein d'une liste. Elles permettent de présenter certains (voire\n\t\tl'intégralité) des attributs de l'objet de façon plus riche que ne le permettrait un tableau (images, codes colorés, variations\n\t\tsur le corps et la graisse des textes, etc.) et ainsi facilitent la lecture des attributs mis en avant.\n\t</p>\n</ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/components/layout/cards/cards.guidelines.md'\"></markdown>\n"
 
 /***/ }),
 
-/***/ "./src/app/principles/accessibility/accessibility.component.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/principles/accessibility/accessibility.component.scss ***!
-  \***********************************************************************/
+/***/ "./src/app/principles/components/cards/cards.component.scss":
+/*!******************************************************************!*\
+  !*** ./src/app/principles/components/cards/cards.component.scss ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14519,10 +14251,480 @@ module.exports = ""
 
 /***/ }),
 
-/***/ "./src/app/principles/accessibility/accessibility.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/principles/accessibility/accessibility.component.ts ***!
-  \*********************************************************************/
+/***/ "./src/app/principles/components/cards/cards.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/principles/components/cards/cards.component.ts ***!
+  \****************************************************************/
+/*! exports provided: CardsPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardsPrinciplesComponent", function() { return CardsPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CardsPrinciplesComponent = /** @class */ (function () {
+    function CardsPrinciplesComponent() {
+        this.infos = {
+            title: 'Carte',
+        };
+    }
+    CardsPrinciplesComponent.prototype.ngOnInit = function () { };
+    CardsPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-cards',
+            template: __webpack_require__(/*! ./cards.component.html */ "./src/app/principles/components/cards/cards.component.html"),
+            styles: [__webpack_require__(/*! ./cards.component.scss */ "./src/app/principles/components/cards/cards.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], CardsPrinciplesComponent);
+    return CardsPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/cards/cards.module.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/principles/components/cards/cards.module.ts ***!
+  \*************************************************************/
+/*! exports provided: DsCardsPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsCardsPrinciplesModule", function() { return DsCardsPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _cards_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cards.component */ "./src/app/principles/components/cards/cards.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsCardsPrinciplesModule = /** @class */ (function () {
+    function DsCardsPrinciplesModule() {
+    }
+    DsCardsPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _cards_component__WEBPACK_IMPORTED_MODULE_2__["CardsPrinciplesComponent"],
+            ],
+            entryComponents: [
+                _cards_component__WEBPACK_IMPORTED_MODULE_2__["CardsPrinciplesComponent"],
+            ]
+        })
+    ], DsCardsPrinciplesModule);
+    return DsCardsPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/components.module.ts":
+/*!************************************************************!*\
+  !*** ./src/app/principles/components/components.module.ts ***!
+  \************************************************************/
+/*! exports provided: DsComponentsPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsComponentsPrinciplesModule", function() { return DsComponentsPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./empty-states/empty-states.module */ "./src/app/principles/components/empty-states/empty-states.module.ts");
+/* harmony import */ var _navigation_navigation_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navigation/navigation.module */ "./src/app/principles/components/navigation/navigation.module.ts");
+/* harmony import */ var _cards_cards_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cards/cards.module */ "./src/app/principles/components/cards/cards.module.ts");
+/* harmony import */ var _tables_tables_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tables/tables.module */ "./src/app/principles/components/tables/tables.module.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var DsComponentsPrinciplesModule = /** @class */ (function () {
+    function DsComponentsPrinciplesModule() {
+    }
+    DsComponentsPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _empty_states_empty_states_module__WEBPACK_IMPORTED_MODULE_1__["DsEmptyStatesPrinciplesModule"],
+                _navigation_navigation_module__WEBPACK_IMPORTED_MODULE_2__["DsNavigationPrincipleModule"],
+                _cards_cards_module__WEBPACK_IMPORTED_MODULE_3__["DsCardsPrinciplesModule"],
+                _tables_tables_module__WEBPACK_IMPORTED_MODULE_4__["DsTablesPrinciplesModule"]
+            ],
+        })
+    ], DsComponentsPrinciplesModule);
+    return DsComponentsPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/empty-states/empty-states.component.html":
+/*!********************************************************************************!*\
+  !*** ./src/app/principles/components/empty-states/empty-states.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/components/layout/empty-states/empty-states.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/components/empty-states/empty-states.component.scss":
+/*!********************************************************************************!*\
+  !*** ./src/app/principles/components/empty-states/empty-states.component.scss ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/components/empty-states/empty-states.component.ts":
+/*!******************************************************************************!*\
+  !*** ./src/app/principles/components/empty-states/empty-states.component.ts ***!
+  \******************************************************************************/
+/*! exports provided: EmptyStatesPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmptyStatesPrinciplesComponent", function() { return EmptyStatesPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var EmptyStatesPrinciplesComponent = /** @class */ (function () {
+    function EmptyStatesPrinciplesComponent() {
+        this.infos = {
+            title: 'Empty State'
+        };
+    }
+    EmptyStatesPrinciplesComponent.prototype.ngOnInit = function () {
+    };
+    EmptyStatesPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-empty-states-principles',
+            template: __webpack_require__(/*! ./empty-states.component.html */ "./src/app/principles/components/empty-states/empty-states.component.html"),
+            styles: [__webpack_require__(/*! ./empty-states.component.scss */ "./src/app/principles/components/empty-states/empty-states.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], EmptyStatesPrinciplesComponent);
+    return EmptyStatesPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/empty-states/empty-states.module.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/principles/components/empty-states/empty-states.module.ts ***!
+  \***************************************************************************/
+/*! exports provided: DsEmptyStatesPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsEmptyStatesPrinciplesModule", function() { return DsEmptyStatesPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _empty_states_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./empty-states.component */ "./src/app/principles/components/empty-states/empty-states.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsEmptyStatesPrinciplesModule = /** @class */ (function () {
+    function DsEmptyStatesPrinciplesModule() {
+    }
+    DsEmptyStatesPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _empty_states_component__WEBPACK_IMPORTED_MODULE_2__["EmptyStatesPrinciplesComponent"]
+            ],
+            entryComponents: [
+                _empty_states_component__WEBPACK_IMPORTED_MODULE_2__["EmptyStatesPrinciplesComponent"]
+            ]
+        })
+    ], DsEmptyStatesPrinciplesModule);
+    return DsEmptyStatesPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/navigation/navigation.component.html":
+/*!****************************************************************************!*\
+  !*** ./src/app/principles/components/navigation/navigation.component.html ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\tLe menu principal est présent sur toute nos applications. Il permet de naviguer au sein d'une application.<br>\n\t\tIl est disponible en large avec sous menu ou en <code class=\"code\">.mod-compact</code>\n\t</p>\n</ds-title-block>\n\n<markdown [dsMarkdownSrc]=\"'guidelines/components/navigation/nav-side/nav-side.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/components/navigation/navigation.component.ts":
+/*!**************************************************************************!*\
+  !*** ./src/app/principles/components/navigation/navigation.component.ts ***!
+  \**************************************************************************/
+/*! exports provided: NavigationPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationPrinciplesComponent", function() { return NavigationPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NavigationPrinciplesComponent = /** @class */ (function () {
+    function NavigationPrinciplesComponent() {
+        this.infos = {
+            title: 'Menu principal',
+        };
+    }
+    NavigationPrinciplesComponent.prototype.ngOnInit = function () { };
+    NavigationPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-navigation',
+            template: __webpack_require__(/*! ./navigation.component.html */ "./src/app/principles/components/navigation/navigation.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], NavigationPrinciplesComponent);
+    return NavigationPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/navigation/navigation.module.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/principles/components/navigation/navigation.module.ts ***!
+  \***********************************************************************/
+/*! exports provided: DsNavigationPrincipleModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsNavigationPrincipleModule", function() { return DsNavigationPrincipleModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _navigation_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navigation.component */ "./src/app/principles/components/navigation/navigation.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsNavigationPrincipleModule = /** @class */ (function () {
+    function DsNavigationPrincipleModule() {
+    }
+    DsNavigationPrincipleModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _navigation_component__WEBPACK_IMPORTED_MODULE_2__["NavigationPrinciplesComponent"]
+            ],
+            entryComponents: [
+                _navigation_component__WEBPACK_IMPORTED_MODULE_2__["NavigationPrinciplesComponent"]
+            ]
+        })
+    ], DsNavigationPrincipleModule);
+    return DsNavigationPrincipleModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/tables/tables.component.html":
+/*!********************************************************************!*\
+  !*** ./src/app/principles/components/tables/tables.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/components/listings/tables/tables.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/components/tables/tables.component.scss":
+/*!********************************************************************!*\
+  !*** ./src/app/principles/components/tables/tables.component.scss ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/components/tables/tables.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/principles/components/tables/tables.component.ts ***!
+  \******************************************************************/
+/*! exports provided: TablesPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TablesPrinciplesComponent", function() { return TablesPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TablesPrinciplesComponent = /** @class */ (function () {
+    function TablesPrinciplesComponent() {
+        this.infos = {
+            title: 'Tableaux',
+        };
+    }
+    TablesPrinciplesComponent.prototype.ngOnInit = function () {
+    };
+    TablesPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-tables',
+            template: __webpack_require__(/*! ./tables.component.html */ "./src/app/principles/components/tables/tables.component.html"),
+            styles: [__webpack_require__(/*! ./tables.component.scss */ "./src/app/principles/components/tables/tables.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TablesPrinciplesComponent);
+    return TablesPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/components/tables/tables.module.ts":
+/*!***************************************************************!*\
+  !*** ./src/app/principles/components/tables/tables.module.ts ***!
+  \***************************************************************/
+/*! exports provided: DsTablesPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsTablesPrinciplesModule", function() { return DsTablesPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _tables_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tables.component */ "./src/app/principles/components/tables/tables.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsTablesPrinciplesModule = /** @class */ (function () {
+    function DsTablesPrinciplesModule() {
+    }
+    DsTablesPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
+            ],
+            declarations: [
+                _tables_component__WEBPACK_IMPORTED_MODULE_2__["TablesPrinciplesComponent"]
+            ],
+            entryComponents: [
+                _tables_component__WEBPACK_IMPORTED_MODULE_2__["TablesPrinciplesComponent"]
+            ]
+        })
+    ], DsTablesPrinciplesModule);
+    return DsTablesPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/accessibility/accessibility.component.html":
+/*!*******************************************************************************!*\
+  !*** ./src/app/principles/general/accessibility/accessibility.component.html ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Accessibilité</h1>\n    <p class=\"strong\">Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Pie pastry cotton</h2>\n    <p>Tootsie roll toffee chocolate bar. Muffin tootsie roll sugar plum chupa chups. Donut candy canes marshmallow.</p>\n    <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>\n    <p>Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n    <p>Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/accessibility/accessibility.component.scss":
+/*!*******************************************************************************!*\
+  !*** ./src/app/principles/general/accessibility/accessibility.component.scss ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/accessibility/accessibility.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/principles/general/accessibility/accessibility.component.ts ***!
+  \*****************************************************************************/
 /*! exports provided: AccessibilityComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14548,12 +14750,651 @@ var AccessibilityComponent = /** @class */ (function () {
     AccessibilityComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'ds-accessibility',
-            template: __webpack_require__(/*! ./accessibility.component.html */ "./src/app/principles/accessibility/accessibility.component.html"),
-            styles: [__webpack_require__(/*! ./accessibility.component.scss */ "./src/app/principles/accessibility/accessibility.component.scss")]
+            template: __webpack_require__(/*! ./accessibility.component.html */ "./src/app/principles/general/accessibility/accessibility.component.html"),
+            styles: [__webpack_require__(/*! ./accessibility.component.scss */ "./src/app/principles/general/accessibility/accessibility.component.scss")]
         }),
         __metadata("design:paramtypes", [])
     ], AccessibilityComponent);
     return AccessibilityComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/accessibility/accessibility.module.ts":
+/*!**************************************************************************!*\
+  !*** ./src/app/principles/general/accessibility/accessibility.module.ts ***!
+  \**************************************************************************/
+/*! exports provided: DsAccessibilityModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsAccessibilityModule", function() { return DsAccessibilityModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _accessibility_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accessibility.component */ "./src/app/principles/general/accessibility/accessibility.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsAccessibilityModule = /** @class */ (function () {
+    function DsAccessibilityModule() {
+    }
+    DsAccessibilityModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _accessibility_component__WEBPACK_IMPORTED_MODULE_2__["AccessibilityComponent"],
+            ],
+            entryComponents: [
+                _accessibility_component__WEBPACK_IMPORTED_MODULE_2__["AccessibilityComponent"],
+            ]
+        })
+    ], DsAccessibilityModule);
+    return DsAccessibilityModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/actions/actions-principles.component.html":
+/*!******************************************************************************!*\
+  !*** ./src/app/principles/general/actions/actions-principles.component.html ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/general/actions/actions.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/actions/actions-principles.component.scss":
+/*!******************************************************************************!*\
+  !*** ./src/app/principles/general/actions/actions-principles.component.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/actions/actions-principles.component.ts":
+/*!****************************************************************************!*\
+  !*** ./src/app/principles/general/actions/actions-principles.component.ts ***!
+  \****************************************************************************/
+/*! exports provided: ActionsPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionsPrinciplesComponent", function() { return ActionsPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ActionsPrinciplesComponent = /** @class */ (function () {
+    function ActionsPrinciplesComponent() {
+        this.infos = {
+            title: 'Actions & Boutons'
+        };
+    }
+    ActionsPrinciplesComponent.prototype.ngOnInit = function () {
+    };
+    ActionsPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-actions-principles',
+            template: __webpack_require__(/*! ./actions-principles.component.html */ "./src/app/principles/general/actions/actions-principles.component.html"),
+            styles: [__webpack_require__(/*! ./actions-principles.component.scss */ "./src/app/principles/general/actions/actions-principles.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ActionsPrinciplesComponent);
+    return ActionsPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/actions/actions-principles.module.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/principles/general/actions/actions-principles.module.ts ***!
+  \*************************************************************************/
+/*! exports provided: DsActionsPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsActionsPrinciplesModule", function() { return DsActionsPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _actions_principles_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./actions-principles.component */ "./src/app/principles/general/actions/actions-principles.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsActionsPrinciplesModule = /** @class */ (function () {
+    function DsActionsPrinciplesModule() {
+    }
+    DsActionsPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _actions_principles_component__WEBPACK_IMPORTED_MODULE_2__["ActionsPrinciplesComponent"],
+            ],
+            entryComponents: [
+                _actions_principles_component__WEBPACK_IMPORTED_MODULE_2__["ActionsPrinciplesComponent"],
+            ]
+        })
+    ], DsActionsPrinciplesModule);
+    return DsActionsPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/form/form-guidelines.component.html":
+/*!************************************************************************!*\
+  !*** ./src/app/principles/general/form/form-guidelines.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/general/form/form-guidelines.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/form/form-guidelines.component.scss":
+/*!************************************************************************!*\
+  !*** ./src/app/principles/general/form/form-guidelines.component.scss ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/form/form-guidelines.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/principles/general/form/form-guidelines.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: FormGuidelinesPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormGuidelinesPrinciplesComponent", function() { return FormGuidelinesPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var FormGuidelinesPrinciplesComponent = /** @class */ (function () {
+    function FormGuidelinesPrinciplesComponent() {
+        this.infos = {
+            title: 'Guidelines formulaires'
+        };
+    }
+    FormGuidelinesPrinciplesComponent.prototype.ngOnInit = function () {
+    };
+    FormGuidelinesPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-form-guidelines',
+            template: __webpack_require__(/*! ./form-guidelines.component.html */ "./src/app/principles/general/form/form-guidelines.component.html"),
+            styles: [__webpack_require__(/*! ./form-guidelines.component.scss */ "./src/app/principles/general/form/form-guidelines.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], FormGuidelinesPrinciplesComponent);
+    return FormGuidelinesPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/form/form-guidelines.module.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/principles/general/form/form-guidelines.module.ts ***!
+  \*******************************************************************/
+/*! exports provided: DsFormGuidelinesPrincipleModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsFormGuidelinesPrincipleModule", function() { return DsFormGuidelinesPrincipleModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./form-guidelines.component */ "./src/app/principles/general/form/form-guidelines.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsFormGuidelinesPrincipleModule = /** @class */ (function () {
+    function DsFormGuidelinesPrincipleModule() {
+    }
+    DsFormGuidelinesPrincipleModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["FormGuidelinesPrinciplesComponent"],
+            ],
+            entryComponents: [
+                _form_guidelines_component__WEBPACK_IMPORTED_MODULE_2__["FormGuidelinesPrinciplesComponent"],
+            ]
+        })
+    ], DsFormGuidelinesPrincipleModule);
+    return DsFormGuidelinesPrincipleModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/general.module.ts":
+/*!******************************************************!*\
+  !*** ./src/app/principles/general/general.module.ts ***!
+  \******************************************************/
+/*! exports provided: DsGeneralPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsGeneralPrinciplesModule", function() { return DsGeneralPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _typography_typography_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./typography/typography.module */ "./src/app/principles/general/typography/typography.module.ts");
+/* harmony import */ var _vision_vision_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vision/vision.module */ "./src/app/principles/general/vision/vision.module.ts");
+/* harmony import */ var _accessibility_accessibility_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accessibility/accessibility.module */ "./src/app/principles/general/accessibility/accessibility.module.ts");
+/* harmony import */ var _components_navigation_navigation_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/navigation/navigation.module */ "./src/app/principles/components/navigation/navigation.module.ts");
+/* harmony import */ var _actions_actions_principles_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./actions/actions-principles.module */ "./src/app/principles/general/actions/actions-principles.module.ts");
+/* harmony import */ var _form_form_guidelines_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./form/form-guidelines.module */ "./src/app/principles/general/form/form-guidelines.module.ts");
+/* harmony import */ var _overlay_overlay_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./overlay/overlay.module */ "./src/app/principles/general/overlay/overlay.module.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var DsGeneralPrinciplesModule = /** @class */ (function () {
+    function DsGeneralPrinciplesModule() {
+    }
+    DsGeneralPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _vision_vision_module__WEBPACK_IMPORTED_MODULE_2__["DsVisionModule"],
+                _accessibility_accessibility_module__WEBPACK_IMPORTED_MODULE_3__["DsAccessibilityModule"],
+                _typography_typography_module__WEBPACK_IMPORTED_MODULE_1__["DsTypographyPrinciplesModule"],
+                _components_navigation_navigation_module__WEBPACK_IMPORTED_MODULE_4__["DsNavigationPrincipleModule"],
+                _actions_actions_principles_module__WEBPACK_IMPORTED_MODULE_5__["DsActionsPrinciplesModule"],
+                _form_form_guidelines_module__WEBPACK_IMPORTED_MODULE_6__["DsFormGuidelinesPrincipleModule"],
+                _overlay_overlay_module__WEBPACK_IMPORTED_MODULE_7__["DsOverlayPrinciplesModule"]
+            ]
+        })
+    ], DsGeneralPrinciplesModule);
+    return DsGeneralPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/overlay/overlay.component.html":
+/*!*******************************************************************!*\
+  !*** ./src/app/principles/general/overlay/overlay.component.html ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\tLes fenêtres modales (modal window) et les panneaux latéraux (side-panels) sont des éléments d'interface subordonnés à la\n\t\tvue principale de l'application. Ils créent un « mode » qui désactive la vue principale, tout en la laissant partiellement\n\t\tvisible. L'utilisateur doit interagir avec l'élément avant de pouvoir retourner à la vue principale.\n\t</p>\n</ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/general/overlay/overlay.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/overlay/overlay.component.scss":
+/*!*******************************************************************!*\
+  !*** ./src/app/principles/general/overlay/overlay.component.scss ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/overlay/overlay.component.ts":
+/*!*****************************************************************!*\
+  !*** ./src/app/principles/general/overlay/overlay.component.ts ***!
+  \*****************************************************************/
+/*! exports provided: OverlayPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayPrinciplesComponent", function() { return OverlayPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var OverlayPrinciplesComponent = /** @class */ (function () {
+    function OverlayPrinciplesComponent() {
+        this.infos = {
+            title: 'Modales, Side-panels'
+        };
+    }
+    OverlayPrinciplesComponent.prototype.ngOnInit = function () { };
+    OverlayPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-overlay-principles',
+            template: __webpack_require__(/*! ./overlay.component.html */ "./src/app/principles/general/overlay/overlay.component.html"),
+            styles: [__webpack_require__(/*! ./overlay.component.scss */ "./src/app/principles/general/overlay/overlay.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], OverlayPrinciplesComponent);
+    return OverlayPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/overlay/overlay.module.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/principles/general/overlay/overlay.module.ts ***!
+  \**************************************************************/
+/*! exports provided: DsOverlayPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsOverlayPrinciplesModule", function() { return DsOverlayPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _overlay_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./overlay.component */ "./src/app/principles/general/overlay/overlay.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsOverlayPrinciplesModule = /** @class */ (function () {
+    function DsOverlayPrinciplesModule() {
+    }
+    DsOverlayPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _overlay_component__WEBPACK_IMPORTED_MODULE_2__["OverlayPrinciplesComponent"],
+            ],
+            entryComponents: [
+                _overlay_component__WEBPACK_IMPORTED_MODULE_2__["OverlayPrinciplesComponent"],
+            ]
+        })
+    ], DsOverlayPrinciplesModule);
+    return DsOverlayPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/typography/typography.component.html":
+/*!*************************************************************************!*\
+  !*** ./src/app/principles/general/typography/typography.component.html ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\">\n\t<p class=\"strong\">\n\t\t La typographie est une composante essentielle de l'UI de nos solutions. À ce titre, elle doit être soignée.\n\t</p>\n</ds-title-block>\n<markdown [dsMarkdownSrc]=\"'guidelines/general/typography/typography.guidelines.md'\"></markdown>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/typography/typography.component.scss":
+/*!*************************************************************************!*\
+  !*** ./src/app/principles/general/typography/typography.component.scss ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/typography/typography.component.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/principles/general/typography/typography.component.ts ***!
+  \***********************************************************************/
+/*! exports provided: TypographyPrinciplesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TypographyPrinciplesComponent", function() { return TypographyPrinciplesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TypographyPrinciplesComponent = /** @class */ (function () {
+    function TypographyPrinciplesComponent() {
+        this.infos = {
+            title: 'Typographie',
+        };
+    }
+    TypographyPrinciplesComponent.prototype.ngOnInit = function () {
+    };
+    TypographyPrinciplesComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-typography-principles',
+            template: __webpack_require__(/*! ./typography.component.html */ "./src/app/principles/general/typography/typography.component.html"),
+            styles: [__webpack_require__(/*! ./typography.component.scss */ "./src/app/principles/general/typography/typography.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TypographyPrinciplesComponent);
+    return TypographyPrinciplesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/typography/typography.module.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/principles/general/typography/typography.module.ts ***!
+  \********************************************************************/
+/*! exports provided: DsTypographyPrinciplesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsTypographyPrinciplesModule", function() { return DsTypographyPrinciplesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _typography_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./typography.component */ "./src/app/principles/general/typography/typography.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsTypographyPrinciplesModule = /** @class */ (function () {
+    function DsTypographyPrinciplesModule() {
+    }
+    DsTypographyPrinciplesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _typography_component__WEBPACK_IMPORTED_MODULE_2__["TypographyPrinciplesComponent"],
+            ],
+            entryComponents: [
+                _typography_component__WEBPACK_IMPORTED_MODULE_2__["TypographyPrinciplesComponent"],
+            ]
+        })
+    ], DsTypographyPrinciplesModule);
+    return DsTypographyPrinciplesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/vision/vision.component.html":
+/*!*****************************************************************!*\
+  !*** ./src/app/principles/general/vision/vision.component.html ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Vision Produit</h1>\n    <p class=\"strong\">Chocolate cake muffin jelly-o apple pie chocolate bar chupa chups muffin lollipop. Pudding pastry candy tootsie roll cheesecake carrot cake danish lemon drops bonbon. </p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Gummies tart bear</h2>\n    <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>\n    <p>Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n    <p>Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/principles/general/vision/vision.component.scss":
+/*!*****************************************************************!*\
+  !*** ./src/app/principles/general/vision/vision.component.scss ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/principles/general/vision/vision.component.ts":
+/*!***************************************************************!*\
+  !*** ./src/app/principles/general/vision/vision.component.ts ***!
+  \***************************************************************/
+/*! exports provided: VisionComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VisionComponent", function() { return VisionComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var VisionComponent = /** @class */ (function () {
+    function VisionComponent() {
+    }
+    VisionComponent.prototype.ngOnInit = function () {
+    };
+    VisionComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-vision',
+            template: __webpack_require__(/*! ./vision.component.html */ "./src/app/principles/general/vision/vision.component.html"),
+            styles: [__webpack_require__(/*! ./vision.component.scss */ "./src/app/principles/general/vision/vision.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], VisionComponent);
+    return VisionComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/principles/general/vision/vision.module.ts":
+/*!************************************************************!*\
+  !*** ./src/app/principles/general/vision/vision.module.ts ***!
+  \************************************************************/
+/*! exports provided: DsVisionModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsVisionModule", function() { return DsVisionModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _vision_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vision.component */ "./src/app/principles/general/vision/vision.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsVisionModule = /** @class */ (function () {
+    function DsVisionModule() {
+    }
+    DsVisionModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _vision_component__WEBPACK_IMPORTED_MODULE_2__["VisionComponent"],
+            ],
+            entryComponents: [
+                _vision_component__WEBPACK_IMPORTED_MODULE_2__["VisionComponent"],
+            ]
+        })
+    ], DsVisionModule);
+    return DsVisionModule;
 }());
 
 
@@ -14593,10 +15434,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsPrinciplesModule", function() { return DsPrinciplesModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _accessibility_accessibility_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accessibility/accessibility.component */ "./src/app/principles/accessibility/accessibility.component.ts");
-/* harmony import */ var _vision_vision_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./vision/vision.component */ "./src/app/principles/vision/vision.component.ts");
-/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _general_general_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./general/general.module */ "./src/app/principles/general/general.module.ts");
+/* harmony import */ var _components_components_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/components.module */ "./src/app/principles/components/components.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -14616,16 +15457,10 @@ var DsPrinciplesModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-                _commons__WEBPACK_IMPORTED_MODULE_4__["DsCommonsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"]
-            ],
-            declarations: [
-                _accessibility_accessibility_component__WEBPACK_IMPORTED_MODULE_2__["AccessibilityComponent"],
-                _vision_vision_component__WEBPACK_IMPORTED_MODULE_3__["VisionComponent"],
-            ],
-            entryComponents: [
-                _accessibility_accessibility_component__WEBPACK_IMPORTED_MODULE_2__["AccessibilityComponent"],
-                _vision_vision_component__WEBPACK_IMPORTED_MODULE_3__["VisionComponent"]
+                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
+                _commons__WEBPACK_IMPORTED_MODULE_2__["DsCommonsModule"],
+                _general_general_module__WEBPACK_IMPORTED_MODULE_4__["DsGeneralPrinciplesModule"],
+                _components_components_module__WEBPACK_IMPORTED_MODULE_5__["DsComponentsPrinciplesModule"],
             ]
         })
     ], DsPrinciplesModule);
@@ -14646,54 +15481,341 @@ var DsPrinciplesModule = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "principlesPages", function() { return principlesPages; });
-/* harmony import */ var _vision_vision_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vision/vision.component */ "./src/app/principles/vision/vision.component.ts");
-/* harmony import */ var _accessibility_accessibility_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./accessibility/accessibility.component */ "./src/app/principles/accessibility/accessibility.component.ts");
-/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
+/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
+/* harmony import */ var _general_typography_typography_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./general/typography/typography.component */ "./src/app/principles/general/typography/typography.component.ts");
+/* harmony import */ var _components_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/empty-states/empty-states.component */ "./src/app/principles/components/empty-states/empty-states.component.ts");
+/* harmony import */ var _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/navigation/navigation.component */ "./src/app/principles/components/navigation/navigation.component.ts");
+/* harmony import */ var _components_cards_cards_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/cards/cards.component */ "./src/app/principles/components/cards/cards.component.ts");
+/* harmony import */ var _general_actions_actions_principles_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./general/actions/actions-principles.component */ "./src/app/principles/general/actions/actions-principles.component.ts");
+/* harmony import */ var _general_form_form_guidelines_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./general/form/form-guidelines.component */ "./src/app/principles/general/form/form-guidelines.component.ts");
+/* harmony import */ var _components_tables_tables_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/tables/tables.component */ "./src/app/principles/components/tables/tables.component.ts");
+/* harmony import */ var _general_overlay_overlay_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./general/overlay/overlay.component */ "./src/app/principles/general/overlay/overlay.component.ts");
 
 
 
-var visionPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Page"]('vision', _vision_vision_component__WEBPACK_IMPORTED_MODULE_0__["VisionComponent"], 'Vision');
-var accessibilityPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Page"]('accessibility', _accessibility_accessibility_component__WEBPACK_IMPORTED_MODULE_1__["AccessibilityComponent"], 'Accessibilité');
-var principlesPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Pages"]('principles', [
-    visionPage,
-    accessibilityPage
-], visionPage);
+
+
+
+
+
+
+var generalPrinciplesGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('general', null, 'Principes généraux');
+var typographyPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('typography', _general_typography_typography_component__WEBPACK_IMPORTED_MODULE_1__["TypographyPrinciplesComponent"], 'Typographie', generalPrinciplesGroup);
+var actionsPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('actions', _general_actions_actions_principles_component__WEBPACK_IMPORTED_MODULE_5__["ActionsPrinciplesComponent"], 'Actions & Boutons', generalPrinciplesGroup);
+var formPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('form', _general_form_form_guidelines_component__WEBPACK_IMPORTED_MODULE_6__["FormGuidelinesPrinciplesComponent"], 'Formulaires', generalPrinciplesGroup);
+var overlayPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('overlay', _general_overlay_overlay_component__WEBPACK_IMPORTED_MODULE_8__["OverlayPrinciplesComponent"], 'Modales & Side-panels', generalPrinciplesGroup);
+var componentsPrinciplesGroup = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('components', null, 'Principes par composant');
+var emptyStatePrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('empty-states', _components_empty_states_empty_states_component__WEBPACK_IMPORTED_MODULE_2__["EmptyStatesPrinciplesComponent"], 'Empty states', componentsPrinciplesGroup);
+var navigationPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('navigation', _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_3__["NavigationPrinciplesComponent"], 'Menu principal', componentsPrinciplesGroup);
+var cardsPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('cards', _components_cards_cards_component__WEBPACK_IMPORTED_MODULE_4__["CardsPrinciplesComponent"], 'Cartes', componentsPrinciplesGroup);
+var tablesPrinciplesPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Page"]('tables', _components_tables_tables_component__WEBPACK_IMPORTED_MODULE_7__["TablesPrinciplesComponent"], 'Tableaux', componentsPrinciplesGroup);
+var principlesPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_0__["Pages"]('principles', [
+    generalPrinciplesGroup,
+    typographyPage,
+    actionsPrinciplesPage,
+    formPrinciplesPage,
+    overlayPrinciplesPage,
+    // visionPage,
+    // accessibilityPage,
+    componentsPrinciplesGroup,
+    emptyStatePrinciplesPage,
+    navigationPrinciplesPage,
+    cardsPrinciplesPage,
+    tablesPrinciplesPage
+], typographyPage);
 
 
 /***/ }),
 
-/***/ "./src/app/principles/vision/vision.component.html":
-/*!*********************************************************!*\
-  !*** ./src/app/principles/vision/vision.component.html ***!
-  \*********************************************************/
+/***/ "./src/app/ressources/applications/applications.component.html":
+/*!*********************************************************************!*\
+  !*** ./src/app/ressources/applications/applications.component.html ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Vision Produit</h1>\n    <p class=\"strong\">Chocolate cake muffin jelly-o apple pie chocolate bar chupa chups muffin lollipop. Pudding pastry candy tootsie roll cheesecake carrot cake danish lemon drops bonbon. </p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Gummies tart bear</h2>\n    <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>\n    <p>Candy canes macaroon muffin jelly beans icing cheesecake jelly-o chocolate cake jelly-o. Gummies tart bear claw biscuit chupa chups apple pie powder ice cream cheesecake. Gummies sugar plum sweet roll candy canes.</p>\n    <p>Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>\n  </div>\n</div>\n"
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<section>\n\t<div class=\"grid\">\n\t\t<div *ngFor=\"let picto of pictos\" class=\"grid-md logo-box\">\n\t\t\t<a href=\"{{picto.href}}\">\n\t\t\t\t<div class=\"image-wrapper\"><img [src]=\"picto.href\"></div>\n\t\t\t\t<p>{{picto.name}}</p>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid\">\n\t\t<div *ngFor=\"let illu of illus\" class=\"grid-md logo-box\">\n\t\t\t<a href=\"{{illu.href}}\">\n\t\t\t\t<div class=\"image-wrapper\"><img [src]=\"illu.href\"></div>\n\t\t\t\t<p>{{illu.name}}</p>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid\">\n\t\t<div *ngFor=\"let banner of banners\" class=\"grid-md logo-box\">\n\t\t\t<a href=\"{{banner.href}}\">\n\t\t\t\t<div class=\"image-wrapper\"><img [src]=\"banner.href\"></div>\n\t\t\t\t<p>{{banner.name}}</p>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n\t<div class=\"grid\">\n\t\t<div *ngFor=\"let favicon of favicons\" class=\"grid-md logo-box\">\n\t\t\t<a href=\"{{favicon.href}}\">\n\t\t\t\t<div class=\"image-wrapper mod-small\"><img [src]=\"favicon.href\"></div>\n\t\t\t\t<p>{{favicon.name}}</p>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</section>\n<section>\n\n</section>\n"
 
 /***/ }),
 
-/***/ "./src/app/principles/vision/vision.component.scss":
-/*!*********************************************************!*\
-  !*** ./src/app/principles/vision/vision.component.scss ***!
-  \*********************************************************/
+/***/ "./src/app/ressources/applications/applications.component.scss":
+/*!*********************************************************************!*\
+  !*** ./src/app/ressources/applications/applications.component.scss ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "@charset \"UTF-8\";\n.grid {\n  padding: 1rem;\n  border-top: 1px solid var(--commons-divider-color); }\n.grid-md3 {\n  overflow: hidden;\n  display: flex;\n  align-items: center; }\n.grid-md3 img {\n    max-width: 100%;\n    max-height: 150px; }\n.grid-md9 {\n  display: flex; }\n.logo-box {\n  width: 150px;\n  margin-right: 1rem;\n  margin-top: .5rem;\n  position: relative;\n  text-align: center;\n  cursor: pointer; }\n.logo-box p {\n    margin: 0;\n    box-sizing: content-box; }\n.logo-box .image-wrapper {\n    display: inline-block;\n    width: 100px;\n    background: var(--palettes-ds-color);\n    padding: .5rem;\n    border-radius: 3px;\n    position: relative;\n    box-sizing: content-box; }\n.logo-box .image-wrapper img {\n      width: 100px; }\n.logo-box .image-wrapper::after {\n      content: \"\";\n      font-family: \"Lucca icons\";\n      display: inline-block;\n      vertical-align: middle;\n      font-style: normal;\n      color: var(--palettes-ds-text);\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      font-size: 4rem;\n      opacity: 0;\n      -webkit-transform: translate(-50%, -55%);\n              transform: translate(-50%, -55%); }\n.logo-box .image-wrapper::before {\n      display: block;\n      content: '';\n      position: absolute;\n      opacity: 0;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      border-radius: 3px;\n      background: rgba(255, 255, 255, 0.7); }\n.logo-box .image-wrapper.mod-small img {\n      width: 20px; }\n.logo-box:hover .image-wrapper::after {\n    opacity: 1;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    transition: all var(--commons-animations-durations-fast) ease-out; }\n.logo-box:hover .image-wrapper::before {\n    opacity: 1; }\n.logo-box:hover img {\n    background: var(--palettes-ds-dark); }\n"
 
 /***/ }),
 
-/***/ "./src/app/principles/vision/vision.component.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/principles/vision/vision.component.ts ***!
-  \*******************************************************/
-/*! exports provided: VisionComponent */
+/***/ "./src/app/ressources/applications/applications.component.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/ressources/applications/applications.component.ts ***!
+  \*******************************************************************/
+/*! exports provided: ApplicationsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VisionComponent", function() { return VisionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ApplicationsComponent", function() { return ApplicationsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _logo_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.model */ "./src/app/ressources/applications/logo.model.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var ApplicationsComponent = /** @class */ (function () {
+    function ApplicationsComponent() {
+        this.infos = {
+            title: 'Illustrations des apps',
+        };
+        this.favicons = [
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["luccaLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleeLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaLogo"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiLogo"],
+        ];
+        this.pictos = [
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoPicto"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyPicto"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleePicto"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaPicto"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiPicto"],
+        ];
+        this.banners = [
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoBanner"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyBanner"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleeBanner"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaBanner"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiBanner"],
+        ];
+        this.illus = [
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoIllu"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyIllu"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleeIllu"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaIllu"],
+            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiIllu"],
+        ];
+    }
+    ApplicationsComponent.prototype.getFileIcon = function (type) {
+        return "assets/file-icons/" + type + ".png";
+    };
+    ApplicationsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-logos',
+            template: __webpack_require__(/*! ./applications.component.html */ "./src/app/ressources/applications/applications.component.html"),
+            styles: [__webpack_require__(/*! ./applications.component.scss */ "./src/app/ressources/applications/applications.component.scss")]
+        })
+    ], ApplicationsComponent);
+    return ApplicationsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/applications/applications.module.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/ressources/applications/applications.module.ts ***!
+  \****************************************************************/
+/*! exports provided: DsApplicationsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsApplicationsModule", function() { return DsApplicationsModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _applications_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./applications.component */ "./src/app/ressources/applications/applications.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var DsApplicationsModule = /** @class */ (function () {
+    function DsApplicationsModule() {
+    }
+    DsApplicationsModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"],
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]
+            ],
+            declarations: [
+                _applications_component__WEBPACK_IMPORTED_MODULE_2__["ApplicationsComponent"],
+            ],
+            entryComponents: [
+                _applications_component__WEBPACK_IMPORTED_MODULE_2__["ApplicationsComponent"],
+            ]
+        })
+    ], DsApplicationsModule);
+    return DsApplicationsModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/applications/logo.model.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/ressources/applications/logo.model.ts ***!
+  \*******************************************************/
+/*! exports provided: luccaLogo, figgoLogo, cleemyLogo, popleeLogo, paggaLogo, timmiLogo, figgoPicto, figgoIllu, figgoBanner, cleemyPicto, cleemyIllu, cleemyBanner, popleePicto, popleeIllu, popleeBanner, paggaPicto, paggaIllu, paggaBanner, timmiPicto, timmiIllu, timmiBanner */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaLogo", function() { return luccaLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoLogo", function() { return figgoLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyLogo", function() { return cleemyLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleeLogo", function() { return popleeLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaLogo", function() { return paggaLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiLogo", function() { return timmiLogo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoPicto", function() { return figgoPicto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoIllu", function() { return figgoIllu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoBanner", function() { return figgoBanner; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyPicto", function() { return cleemyPicto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyIllu", function() { return cleemyIllu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyBanner", function() { return cleemyBanner; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleePicto", function() { return popleePicto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleeIllu", function() { return popleeIllu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleeBanner", function() { return popleeBanner; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaPicto", function() { return paggaPicto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaIllu", function() { return paggaIllu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaBanner", function() { return paggaBanner; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiPicto", function() { return timmiPicto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiIllu", function() { return timmiIllu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiBanner", function() { return timmiBanner; });
+var luccaLogo = { name: 'lucca', href: 'assets/logos/favicons/lucca-32x32.png' };
+var figgoLogo = { name: 'figgo', href: 'assets/logos/favicons/figgo-32x32.png' };
+var cleemyLogo = { name: 'cleemy', href: 'assets/logos/favicons/cleemy-32x32.png' };
+var popleeLogo = { name: 'poplee', href: 'assets/logos/favicons/poplee-32x32.png' };
+var paggaLogo = { name: 'pagga', href: 'assets/logos/favicons/pagga-32x32.png' };
+var timmiLogo = { name: 'timmi', href: 'assets/logos/favicons/timmi-32x32.png' };
+var figgoPicto = {
+    name: 'Picto Figgo',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/icon-figgo.png',
+    type: 'png'
+};
+var figgoIllu = {
+    name: 'Illustration Figgo',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-figgo.jpg',
+    type: 'png'
+};
+var figgoBanner = {
+    name: 'Bannière Figgo',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-banner-figgo-600x200.jpg',
+    type: 'png'
+};
+var cleemyPicto = {
+    name: 'Picto Cleemy',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/icon-cleemy.png',
+    type: 'png'
+};
+var cleemyIllu = {
+    name: 'Illustration Cleemy',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-cleemy.jpg',
+    type: 'png'
+};
+var cleemyBanner = {
+    name: 'Bannière Cleemy',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-banner-cleemy-600x200.jpg',
+    type: 'png'
+};
+var popleePicto = {
+    name: 'Picto Poplee',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/icon-poplee.png',
+    type: 'png'
+};
+var popleeIllu = {
+    name: 'Illustration Poplee',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-poplee.jpg',
+    type: 'png'
+};
+var popleeBanner = {
+    name: 'Bannière Poplee',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-banner-poplee-600x200.jpg',
+    type: 'png'
+};
+var paggaPicto = {
+    name: 'Picto Pagga',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/icon-pagga.png',
+    type: 'png'
+};
+var paggaIllu = {
+    name: 'Illustration Pagga',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-pagga.jpg',
+    type: 'png'
+};
+var paggaBanner = {
+    name: 'Bannière Pagga',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-banner-pagga-600x200.jpg',
+    type: 'png'
+};
+var timmiPicto = {
+    name: 'Picto Timmi',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/icon-timmi.png',
+    type: 'png'
+};
+var timmiIllu = {
+    name: 'Illustration Timmi',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-timmi.jpg',
+    type: 'png'
+};
+var timmiBanner = {
+    name: 'Bannière Timmi',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/illu-banner-timmi-600x200.jpg',
+    type: 'png'
+};
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/colors/colors.component.html":
+/*!*********************************************************!*\
+  !*** ./src/app/ressources/colors/colors.component.html ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Couleurs</h1>\n    <p class=\"strong\">Les solutions Lucca ont chacune une palette de couleurs associée.</p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Figgo</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #828db9\">#828db9</div>\n      <div class=\"palette-secondary\" style=\"background: #FFC900; color: #444444\">#FFC900</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Cleemy</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #9acd32\">#828db9</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Poplee</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #0f98d0\">#0f98d0</div>\n    </div>\n  </div>\n</div>\n\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Pagga</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #ffb900; color: #444444\">#ffb900</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Timmi</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #734f97\">#734f97</div>\n      <div class=\"palette-secondary\" style=\"background: #66CCAA\">#66CCAA</div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/ressources/colors/colors.component.scss":
+/*!*********************************************************!*\
+  !*** ./src/app/ressources/colors/colors.component.scss ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".palette {\n  display: flex;\n  color: white;\n  border-radius: 3px;\n  overflow: hidden; }\n\n.palette-primary {\n  flex: 2;\n  height: 2rem;\n  padding: 0 .66rem;\n  display: flex;\n  align-items: center; }\n\n.palette-secondary {\n  flex: 1;\n  height: 2rem;\n  padding: 0 .66rem;\n  display: flex;\n  align-items: center; }\n"
+
+/***/ }),
+
+/***/ "./src/app/ressources/colors/colors.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/ressources/colors/colors.component.ts ***!
+  \*******************************************************/
+/*! exports provided: ColorsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ColorsComponent", function() { return ColorsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -14705,22 +15827,427 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var VisionComponent = /** @class */ (function () {
-    function VisionComponent() {
+var ColorsComponent = /** @class */ (function () {
+    function ColorsComponent() {
     }
-    VisionComponent.prototype.ngOnInit = function () {
+    ColorsComponent.prototype.ngOnInit = function () {
     };
-    VisionComponent = __decorate([
+    ColorsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-vision',
-            template: __webpack_require__(/*! ./vision.component.html */ "./src/app/principles/vision/vision.component.html"),
-            styles: [__webpack_require__(/*! ./vision.component.scss */ "./src/app/principles/vision/vision.component.scss")]
+            selector: 'ds-colors',
+            template: __webpack_require__(/*! ./colors.component.html */ "./src/app/ressources/colors/colors.component.html"),
+            styles: [__webpack_require__(/*! ./colors.component.scss */ "./src/app/ressources/colors/colors.component.scss")]
         }),
         __metadata("design:paramtypes", [])
-    ], VisionComponent);
-    return VisionComponent;
+    ], ColorsComponent);
+    return ColorsComponent;
 }());
 
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/colors/colors.module.ts":
+/*!****************************************************!*\
+  !*** ./src/app/ressources/colors/colors.module.ts ***!
+  \****************************************************/
+/*! exports provided: DsColorsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsColorsModule", function() { return DsColorsModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _colors_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colors.component */ "./src/app/ressources/colors/colors.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DsColorsModule = /** @class */ (function () {
+    function DsColorsModule() {
+    }
+    DsColorsModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [_commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]],
+            declarations: [
+                _colors_component__WEBPACK_IMPORTED_MODULE_2__["ColorsComponent"],
+            ],
+            entryComponents: [
+                _colors_component__WEBPACK_IMPORTED_MODULE_2__["ColorsComponent"],
+            ]
+        })
+    ], DsColorsModule);
+    return DsColorsModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/graphic-assets/graphic-assets.component.html":
+/*!*************************************************************************!*\
+  !*** ./src/app/ressources/graphic-assets/graphic-assets.component.html ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ds-title-block [infos]=\"infos\"></ds-title-block>\n<section>\n\t<div class=\"grid\">\n\t\t<div class=\"grid-md3\">\n\t\t\t<img [dsAssetSrc]=\"'assets/logos/lucca/lucca-color.png'\"/>\n\t\t</div>\n\t\t<div class=\"grid-md9\">\n\t\t\t<div *ngFor=\"let logo of luccaColoredLogos\" class=\"logo-box\">\n\t\t\t\t<a href=\"{{logo.href}}\">\n\t\t\t\t\t<div class=\"image-wrapper\"><img [dsAssetSrc]=\"getFileIcon(logo.type)\"></div>\n\t\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t\t<p>Usage: {{logo.usage}}</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"grid\">\n\t\t<div class=\"grid-md3\">\n\t\t\t<img class=\"white-logo\" [dsAssetSrc]=\"'assets/logos/lucca/lucca-white.png'\" />\n\t\t</div>\n\t\t<div class=\"grid-md9\">\n\t\t\t<div *ngFor=\"let logo of luccaWhiteLogos\" class=\"logo-box\">\n\t\t\t\t<a href=\"{{logo.href}}\">\n\t\t\t\t\t<div class=\"image-wrapper\"><img [dsAssetSrc]=\"getFileIcon(logo.type)\"></div>\n\t\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t\t<p>Usage: {{logo.usage}}</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n<section>\n\t<div class=\"grid\">\n\t\t<div class=\"grid-md3\">\n\t\t\t<img [dsAssetSrc]=\"'assets/logos/jumpingcc/jumpingCC-color.png'\" />\n\t\t</div>\n\t\t<div class=\"grid-md9\">\n\t\t\t<div *ngFor=\"let logo of jumpingCCColoredLogos\" class=\"logo-box\">\n\t\t\t\t<a href=\"{{logo.href}}\">\n\t\t\t\t\t<div class=\"image-wrapper\"><img [dsAssetSrc]=\"getFileIcon(logo.type)\"></div>\n\t\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t\t<p>Usage: {{logo.usage}}</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"grid\">\n\t\t<div class=\"grid-md3\">\n\t\t\t<img class=\"white-logo\" [dsAssetSrc]=\"'assets/logos/jumpingcc/jumpingCC-white.png'\" />\n\t\t</div>\n\t\t<div class=\"grid-md9\">\n\t\t\t<div *ngFor=\"let logo of jumpingCCWhiteLogos\" class=\"logo-box\">\n\t\t\t\t<a href=\"{{logo.href}}\">\n\t\t\t\t\t<div class=\"image-wrapper\"><img [dsAssetSrc]=\"getFileIcon(logo.type)\"></div>\n\t\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t\t<p>Usage: {{logo.usage}}</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n"
+
+/***/ }),
+
+/***/ "./src/app/ressources/graphic-assets/graphic-assets.component.scss":
+/*!*************************************************************************!*\
+  !*** ./src/app/ressources/graphic-assets/graphic-assets.component.scss ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "@charset \"UTF-8\";\n.white-logo {\n  background-position: 0px 0px, 10px 10px;\n  background-size: 20px 20px;\n  background-image: linear-gradient(45deg, #CCC 25%, transparent 25%, transparent 75%, #CCC 75%, #CCC 100%), linear-gradient(45deg, #CCC 25%, var(--palettes-ds-text) 25%, var(--palettes-ds-text) 75%, #CCC 75%, #CCC 100%);\n  border-radius: 3px; }\n.grid {\n  padding: 1rem;\n  border-top: 1px solid var(--commons-divider-color); }\n.grid-md3 {\n  overflow: hidden;\n  display: flex;\n  align-items: center; }\n.grid-md3 img {\n    max-width: 100%;\n    max-height: 150px; }\n.grid-md9 {\n  display: flex; }\n.logo-box {\n  width: 150px;\n  margin-right: 1rem;\n  margin-top: .5rem;\n  position: relative;\n  cursor: pointer; }\n.logo-box p {\n    margin: 0; }\n.logo-box .image-wrapper {\n    width: 100px;\n    background: var(--palettes-ds-color);\n    padding: .5rem;\n    border-radius: 3px;\n    position: relative;\n    box-sizing: content-box; }\n.logo-box .image-wrapper img {\n      width: 100px; }\n.logo-box .image-wrapper::after {\n      content: \"\";\n      font-family: \"Lucca icons\";\n      display: inline-block;\n      vertical-align: middle;\n      font-style: normal;\n      color: var(--palettes-ds-text);\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      font-size: 4rem;\n      opacity: 0;\n      -webkit-transform: translate(-50%, -55%);\n              transform: translate(-50%, -55%); }\n.logo-box .image-wrapper::before {\n      display: block;\n      content: '';\n      position: absolute;\n      opacity: 0;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      border-radius: 3px;\n      background: rgba(255, 255, 255, 0.7); }\n.logo-box:hover .image-wrapper::after {\n    opacity: 1;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    transition: all var(--commons-animations-durations-fast) ease-out; }\n.logo-box:hover .image-wrapper::before {\n    opacity: 1; }\n.logo-box:hover img {\n    background: var(--palettes-ds-dark); }\n"
+
+/***/ }),
+
+/***/ "./src/app/ressources/graphic-assets/graphic-assets.component.ts":
+/*!***********************************************************************!*\
+  !*** ./src/app/ressources/graphic-assets/graphic-assets.component.ts ***!
+  \***********************************************************************/
+/*! exports provided: GraphicAssetsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraphicAssetsComponent", function() { return GraphicAssetsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graphic-assets.model */ "./src/app/ressources/graphic-assets/graphic-assets.model.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var GraphicAssetsComponent = /** @class */ (function () {
+    function GraphicAssetsComponent() {
+        this.infos = {
+            title: 'Logos Luca',
+        };
+        this.luccaColoredLogos = [
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorJpg72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorJpg150"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorPng72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorGif72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorTiff300"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaColorAi"],
+        ];
+        this.luccaWhiteLogos = [
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaWhitePng72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["luccaWhiteAi"]
+        ];
+        this.jumpingCCColoredLogos = [
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorJpg72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorJpg150"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorPng72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorGif72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorTiff300"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCColorAi"],
+        ];
+        this.jumpingCCWhiteLogos = [
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCWhitePng72"],
+            _graphic_assets_model__WEBPACK_IMPORTED_MODULE_1__["jumpingCCWhiteAi"]
+        ];
+        this.mainLogos = [
+            { name: 'png' }
+        ];
+    }
+    GraphicAssetsComponent.prototype.getFileIcon = function (type) {
+        return "assets/file-icons/" + type + ".png";
+    };
+    GraphicAssetsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'ds-graphic-assets',
+            template: __webpack_require__(/*! ./graphic-assets.component.html */ "./src/app/ressources/graphic-assets/graphic-assets.component.html"),
+            styles: [__webpack_require__(/*! ./graphic-assets.component.scss */ "./src/app/ressources/graphic-assets/graphic-assets.component.scss")]
+        })
+    ], GraphicAssetsComponent);
+    return GraphicAssetsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/graphic-assets/graphic-assets.model.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/ressources/graphic-assets/graphic-assets.model.ts ***!
+  \*******************************************************************/
+/*! exports provided: luccaColorJpg72, luccaColorJpg150, luccaColorPng72, luccaColorGif72, luccaColorTiff300, luccaColorAi, luccaWhitePng72, luccaWhiteAi, jumpingCCColorJpg72, jumpingCCColorJpg150, jumpingCCColorPng72, jumpingCCColorGif72, jumpingCCColorTiff300, jumpingCCColorAi, jumpingCCWhitePng72, jumpingCCWhiteAi */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorJpg72", function() { return luccaColorJpg72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorJpg150", function() { return luccaColorJpg150; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorPng72", function() { return luccaColorPng72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorGif72", function() { return luccaColorGif72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorTiff300", function() { return luccaColorTiff300; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaColorAi", function() { return luccaColorAi; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaWhitePng72", function() { return luccaWhitePng72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaWhiteAi", function() { return luccaWhiteAi; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorJpg72", function() { return jumpingCCColorJpg72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorJpg150", function() { return jumpingCCColorJpg150; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorPng72", function() { return jumpingCCColorPng72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorGif72", function() { return jumpingCCColorGif72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorTiff300", function() { return jumpingCCColorTiff300; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCColorAi", function() { return jumpingCCColorAi; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCWhitePng72", function() { return jumpingCCWhitePng72; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jumpingCCWhiteAi", function() { return jumpingCCWhiteAi; });
+var luccaColorJpg72 = {
+    name: 'JPG 72 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca.jpg',
+    type: 'jpg72',
+    usage: 'écran',
+};
+var luccaColorJpg150 = {
+    name: 'JPG 150 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca-150.jpg',
+    type: 'jpg150',
+    usage: 'document imprimé',
+};
+var luccaColorPng72 = {
+    name: 'PNG 72 dpi - RVB - Transparence',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca.png',
+    type: 'png',
+    usage: 'écran',
+};
+var luccaColorGif72 = {
+    name: 'GIF 72 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca.gif',
+    type: 'gif',
+    usage: 'écran',
+};
+var luccaColorTiff300 = {
+    name: 'TIFF 300 dpi - CMJN',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca.tif',
+    type: 'tiff',
+    usage: 'édition',
+};
+var luccaColorAi = {
+    name: 'Vectoriel - CMJN - Redimensionnable',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca.ai',
+    type: 'ai',
+    usage: 'impression',
+};
+var luccaWhitePng72 = {
+    name: 'PNG 72 dpi - Blanc - Transparence',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca-reserve.png',
+    type: 'png',
+    usage: 'écran',
+};
+var luccaWhiteAi = {
+    name: 'Vectoriel - Blanc - Redimensionnable',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/lucca-reserve.ai',
+    type: 'ai',
+    usage: 'impression',
+};
+var jumpingCCColorJpg72 = {
+    name: 'JPG 72 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC.jpg',
+    type: 'jpg72',
+    usage: 'écran',
+};
+var jumpingCCColorJpg150 = {
+    name: 'JPG 150 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC-150.jpg',
+    type: 'jpg150',
+    usage: 'document imprimé',
+};
+var jumpingCCColorPng72 = {
+    name: 'PNG 72 dpi - RVB - Transparence',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC.png',
+    type: 'png',
+    usage: 'écran',
+};
+var jumpingCCColorGif72 = {
+    name: 'GIF 72 dpi - RVB',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC.gif',
+    type: 'gif',
+    usage: 'écran',
+};
+var jumpingCCColorTiff300 = {
+    name: 'TIFF 300 dpi - CMJN',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC.tif',
+    type: 'tiff',
+    usage: 'édition',
+};
+var jumpingCCColorAi = {
+    name: 'Vectoriel - CMJN - Redimensionnable',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC.ai',
+    type: 'ai',
+    usage: 'impression',
+};
+var jumpingCCWhitePng72 = {
+    name: 'PNG 72 dpi - Blanc - Transparence',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC-reserve.png',
+    type: 'png',
+    usage: 'écran',
+};
+var jumpingCCWhiteAi = {
+    name: 'Vectoriel - Blanc - Redimensionnable',
+    href: 'http://design.lucca.fr/ressources_graphiques/img/jumpingCC-reserve.ai',
+    type: 'ai',
+    usage: 'impression',
+};
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/graphic-assets/graphic-assets.module.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/ressources/graphic-assets/graphic-assets.module.ts ***!
+  \********************************************************************/
+/*! exports provided: DsGraphicAssetsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsGraphicAssetsModule", function() { return DsGraphicAssetsModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _graphic_assets_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./graphic-assets.component */ "./src/app/ressources/graphic-assets/graphic-assets.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var DsGraphicAssetsModule = /** @class */ (function () {
+    function DsGraphicAssetsModule() {
+    }
+    DsGraphicAssetsModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"],
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"]
+            ],
+            declarations: [
+                _graphic_assets_component__WEBPACK_IMPORTED_MODULE_2__["GraphicAssetsComponent"],
+            ],
+            entryComponents: [
+                _graphic_assets_component__WEBPACK_IMPORTED_MODULE_2__["GraphicAssetsComponent"],
+            ]
+        })
+    ], DsGraphicAssetsModule);
+    return DsGraphicAssetsModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/index.ts":
+/*!*************************************!*\
+  !*** ./src/app/ressources/index.ts ***!
+  \*************************************/
+/*! exports provided: DsRessourcesModule, ressourcesPages */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ressources_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ressources.module */ "./src/app/ressources/ressources.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsRessourcesModule", function() { return _ressources_module__WEBPACK_IMPORTED_MODULE_0__["DsRessourcesModule"]; });
+
+/* harmony import */ var _ressources_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ressources.router */ "./src/app/ressources/ressources.router.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ressourcesPages", function() { return _ressources_router__WEBPACK_IMPORTED_MODULE_1__["ressourcesPages"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/ressources.module.ts":
+/*!*************************************************!*\
+  !*** ./src/app/ressources/ressources.module.ts ***!
+  \*************************************************/
+/*! exports provided: DsRessourcesModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsRessourcesModule", function() { return DsRessourcesModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../commons */ "./src/app/commons/index.ts");
+/* harmony import */ var _applications_applications_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./applications/applications.module */ "./src/app/ressources/applications/applications.module.ts");
+/* harmony import */ var _graphic_assets_graphic_assets_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./graphic-assets/graphic-assets.module */ "./src/app/ressources/graphic-assets/graphic-assets.module.ts");
+/* harmony import */ var _colors_colors_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./colors/colors.module */ "./src/app/ressources/colors/colors.module.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var DsRessourcesModule = /** @class */ (function () {
+    function DsRessourcesModule() {
+    }
+    DsRessourcesModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: [
+                _commons__WEBPACK_IMPORTED_MODULE_1__["DsCommonsModule"],
+                _applications_applications_module__WEBPACK_IMPORTED_MODULE_2__["DsApplicationsModule"],
+                _graphic_assets_graphic_assets_module__WEBPACK_IMPORTED_MODULE_3__["DsGraphicAssetsModule"],
+                _colors_colors_module__WEBPACK_IMPORTED_MODULE_4__["DsColorsModule"]
+            ],
+        })
+    ], DsRessourcesModule);
+    return DsRessourcesModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/ressources/ressources.router.ts":
+/*!*************************************************!*\
+  !*** ./src/app/ressources/ressources.router.ts ***!
+  \*************************************************/
+/*! exports provided: ressourcesPages */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ressourcesPages", function() { return ressourcesPages; });
+/* harmony import */ var _graphic_assets_graphic_assets_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./graphic-assets/graphic-assets.component */ "./src/app/ressources/graphic-assets/graphic-assets.component.ts");
+/* harmony import */ var _colors_colors_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./colors/colors.component */ "./src/app/ressources/colors/colors.component.ts");
+/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
+/* harmony import */ var _applications_applications_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./applications/applications.component */ "./src/app/ressources/applications/applications.component.ts");
+
+
+
+
+var colorsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Page"]('colors', _colors_colors_component__WEBPACK_IMPORTED_MODULE_1__["ColorsComponent"], 'Couleurs');
+var logosPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Page"]('assets', _graphic_assets_graphic_assets_component__WEBPACK_IMPORTED_MODULE_0__["GraphicAssetsComponent"], 'Lucca');
+var applicationsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Page"]('apps', _applications_applications_component__WEBPACK_IMPORTED_MODULE_3__["ApplicationsComponent"], 'Apps');
+var ressourcesPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_2__["Pages"]('ressources', [
+    colorsPage,
+    logosPage,
+    applicationsPage,
+], colorsPage);
 
 
 /***/ }),
@@ -14875,405 +16402,6 @@ var DsSearchModule = /** @class */ (function () {
     return DsSearchModule;
 }());
 
-
-
-/***/ }),
-
-/***/ "./src/app/visual/colors/colors.component.html":
-/*!*****************************************************!*\
-  !*** ./src/app/visual/colors/colors.component.html ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Couleurs</h1>\n    <p class=\"strong\">Les solutions Lucca ont chacune une palette de couleurs associée.</p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Figgo</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #828db9\">#828db9</div>\n      <div class=\"palette-secondary\" style=\"background: #FFC900; color: #444444\">#FFC900</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Cleemy</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #9acd32\">#828db9</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Poplee</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #0f98d0\">#0f98d0</div>\n    </div>\n  </div>\n</div>\n\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Pagga</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #ffb900; color: #444444\">#ffb900</div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Timmi</h2>\n    <div class=\"palette\">\n      <div class=\"palette-primary\" style=\"background: #734f97\">#734f97</div>\n      <div class=\"palette-secondary\" style=\"background: #66CCAA\">#66CCAA</div>\n    </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/visual/colors/colors.component.scss":
-/*!*****************************************************!*\
-  !*** ./src/app/visual/colors/colors.component.scss ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".palette {\n  display: flex;\n  color: white;\n  border-radius: 3px;\n  overflow: hidden; }\n\n.palette-primary {\n  flex: 2;\n  height: 2rem;\n  padding: 0 .66rem;\n  display: flex;\n  align-items: center; }\n\n.palette-secondary {\n  flex: 1;\n  height: 2rem;\n  padding: 0 .66rem;\n  display: flex;\n  align-items: center; }\n"
-
-/***/ }),
-
-/***/ "./src/app/visual/colors/colors.component.ts":
-/*!***************************************************!*\
-  !*** ./src/app/visual/colors/colors.component.ts ***!
-  \***************************************************/
-/*! exports provided: ColorsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ColorsComponent", function() { return ColorsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ColorsComponent = /** @class */ (function () {
-    function ColorsComponent() {
-    }
-    ColorsComponent.prototype.ngOnInit = function () {
-    };
-    ColorsComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-colors',
-            template: __webpack_require__(/*! ./colors.component.html */ "./src/app/visual/colors/colors.component.html"),
-            styles: [__webpack_require__(/*! ./colors.component.scss */ "./src/app/visual/colors/colors.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ColorsComponent);
-    return ColorsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/illustrate/illustrate.component.html":
-/*!*************************************************************!*\
-  !*** ./src/app/visual/illustrate/illustrate.component.html ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  illustrate works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/visual/illustrate/illustrate.component.scss":
-/*!*************************************************************!*\
-  !*** ./src/app/visual/illustrate/illustrate.component.scss ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/visual/illustrate/illustrate.component.ts":
-/*!***********************************************************!*\
-  !*** ./src/app/visual/illustrate/illustrate.component.ts ***!
-  \***********************************************************/
-/*! exports provided: IllustrateComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IllustrateComponent", function() { return IllustrateComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var IllustrateComponent = /** @class */ (function () {
-    function IllustrateComponent() {
-    }
-    IllustrateComponent.prototype.ngOnInit = function () {
-    };
-    IllustrateComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-illustrate',
-            template: __webpack_require__(/*! ./illustrate.component.html */ "./src/app/visual/illustrate/illustrate.component.html"),
-            styles: [__webpack_require__(/*! ./illustrate.component.scss */ "./src/app/visual/illustrate/illustrate.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], IllustrateComponent);
-    return IllustrateComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/index.ts":
-/*!*********************************!*\
-  !*** ./src/app/visual/index.ts ***!
-  \*********************************/
-/*! exports provided: DsVisualModule, visualPages */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _visual_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./visual.module */ "./src/app/visual/visual.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DsVisualModule", function() { return _visual_module__WEBPACK_IMPORTED_MODULE_0__["DsVisualModule"]; });
-
-/* harmony import */ var _visual_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./visual.router */ "./src/app/visual/visual.router.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "visualPages", function() { return _visual_router__WEBPACK_IMPORTED_MODULE_1__["visualPages"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/logos/logo.model.ts":
-/*!********************************************!*\
-  !*** ./src/app/visual/logos/logo.model.ts ***!
-  \********************************************/
-/*! exports provided: luccaLogo, figgoLogo, cleemyLogo, popleeLogo, paggaLogo, timmiLogo */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "luccaLogo", function() { return luccaLogo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "figgoLogo", function() { return figgoLogo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cleemyLogo", function() { return cleemyLogo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "popleeLogo", function() { return popleeLogo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "paggaLogo", function() { return paggaLogo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timmiLogo", function() { return timmiLogo; });
-var luccaLogo = { name: 'lucca', href: 'assets/logos/favicons/lucca-32x32.png' };
-var figgoLogo = { name: 'figgo', href: 'assets/logos/favicons/figgo-32x32.png' };
-var cleemyLogo = { name: 'cleemy', href: 'assets/logos/favicons/cleemy-32x32.png' };
-var popleeLogo = { name: 'poplee', href: 'assets/logos/favicons/poplee-32x32.png' };
-var paggaLogo = { name: 'pagga', href: 'assets/logos/favicons/pagga-32x32.png' };
-var timmiLogo = { name: 'timmi', href: 'assets/logos/favicons/timmi-32x32.png' };
-
-
-/***/ }),
-
-/***/ "./src/app/visual/logos/logos.component.html":
-/*!***************************************************!*\
-  !*** ./src/app/visual/logos/logos.component.html ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<h1>Logos</h1>\n\t</div>\n</div>\n\n<div class=\"card\">\n\t<div class=\"card-content\">\n\t\t<h2>Favicos</h2>\n\t\t<div class=\"grid\">\n\t\t\t<div *ngFor=\"let logo of logos\" class=\"grid-md\">\n\t\t\t\t<p>{{logo.name}}</p>\n\t\t\t\t<img [dsAssetSrc]=\"logo.href\">\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/visual/logos/logos.component.scss":
-/*!***************************************************!*\
-  !*** ./src/app/visual/logos/logos.component.scss ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/visual/logos/logos.component.ts":
-/*!*************************************************!*\
-  !*** ./src/app/visual/logos/logos.component.ts ***!
-  \*************************************************/
-/*! exports provided: LogosComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogosComponent", function() { return LogosComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _logo_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.model */ "./src/app/visual/logos/logo.model.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-var LogosComponent = /** @class */ (function () {
-    function LogosComponent() {
-        this.logos = [
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["luccaLogo"],
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["figgoLogo"],
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["cleemyLogo"],
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["popleeLogo"],
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["paggaLogo"],
-            _logo_model__WEBPACK_IMPORTED_MODULE_1__["timmiLogo"],
-        ];
-    }
-    LogosComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-logos',
-            template: __webpack_require__(/*! ./logos.component.html */ "./src/app/visual/logos/logos.component.html"),
-            styles: [__webpack_require__(/*! ./logos.component.scss */ "./src/app/visual/logos/logos.component.scss")]
-        })
-    ], LogosComponent);
-    return LogosComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/typography/typography.component.html":
-/*!*************************************************************!*\
-  !*** ./src/app/visual/typography/typography.component.html ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"card\">\n  <div class=\"card-content\">\n    <h1>Typographie</h1>\n    <p class=\"strong\">Toffee biscuit soufflé marzipan bear claw. Lemon drops caramels ice cream bear claw. Lemon drops sweet roll jelly-o cookie.</p>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-content\">\n    <h2>Ice cream fruitcake</h2>\n    <p>Tiramisu topping macaroon caramels carrot cake apple pie. Cake cake cake chocolate bar gummi bears candy jelly. Powder carrot cake tart. Dessert danish gummies.</p>\n    <p>Apple pie lemon drops oat cake marzipan chocolate bar. Dessert pastry sweet liquorice candy canes wafer ice cream pastry chocolate. Ice cream fruitcake cheesecake liquorice sesame snaps jelly pudding oat cake gummies.</p>\n    <p>Macaroon cake pie marshmallow candy bear claw apple pie biscuit tart. Sugar plum marshmallow liquorice pie. Gingerbread topping chupa chups.</p>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/visual/typography/typography.component.scss":
-/*!*************************************************************!*\
-  !*** ./src/app/visual/typography/typography.component.scss ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/visual/typography/typography.component.ts":
-/*!***********************************************************!*\
-  !*** ./src/app/visual/typography/typography.component.ts ***!
-  \***********************************************************/
-/*! exports provided: TypographyComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TypographyComponent", function() { return TypographyComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var TypographyComponent = /** @class */ (function () {
-    function TypographyComponent() {
-    }
-    TypographyComponent.prototype.ngOnInit = function () {
-    };
-    TypographyComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'ds-typography',
-            template: __webpack_require__(/*! ./typography.component.html */ "./src/app/visual/typography/typography.component.html"),
-            styles: [__webpack_require__(/*! ./typography.component.scss */ "./src/app/visual/typography/typography.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], TypographyComponent);
-    return TypographyComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/visual.module.ts":
-/*!*****************************************!*\
-  !*** ./src/app/visual/visual.module.ts ***!
-  \*****************************************/
-/*! exports provided: DsVisualModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DsVisualModule", function() { return DsVisualModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _logos_logos_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logos/logos.component */ "./src/app/visual/logos/logos.component.ts");
-/* harmony import */ var _colors_colors_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./colors/colors.component */ "./src/app/visual/colors/colors.component.ts");
-/* harmony import */ var _illustrate_illustrate_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./illustrate/illustrate.component */ "./src/app/visual/illustrate/illustrate.component.ts");
-/* harmony import */ var _typography_typography_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./typography/typography.component */ "./src/app/visual/typography/typography.component.ts");
-/* harmony import */ var _commons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../commons */ "./src/app/commons/index.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-
-
-var DsVisualModule = /** @class */ (function () {
-    function DsVisualModule() {
-    }
-    DsVisualModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
-            imports: [
-                _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
-                _commons__WEBPACK_IMPORTED_MODULE_6__["DsCommonsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterModule"],
-            ],
-            declarations: [
-                _colors_colors_component__WEBPACK_IMPORTED_MODULE_3__["ColorsComponent"],
-                _illustrate_illustrate_component__WEBPACK_IMPORTED_MODULE_4__["IllustrateComponent"],
-                _logos_logos_component__WEBPACK_IMPORTED_MODULE_2__["LogosComponent"],
-                _typography_typography_component__WEBPACK_IMPORTED_MODULE_5__["TypographyComponent"]
-            ],
-            entryComponents: [
-                _colors_colors_component__WEBPACK_IMPORTED_MODULE_3__["ColorsComponent"],
-                _illustrate_illustrate_component__WEBPACK_IMPORTED_MODULE_4__["IllustrateComponent"],
-                _logos_logos_component__WEBPACK_IMPORTED_MODULE_2__["LogosComponent"],
-                _typography_typography_component__WEBPACK_IMPORTED_MODULE_5__["TypographyComponent"]
-            ]
-        })
-    ], DsVisualModule);
-    return DsVisualModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/visual/visual.router.ts":
-/*!*****************************************!*\
-  !*** ./src/app/visual/visual.router.ts ***!
-  \*****************************************/
-/*! exports provided: visualPages */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "visualPages", function() { return visualPages; });
-/* harmony import */ var _logos_logos_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logos/logos.component */ "./src/app/visual/logos/logos.component.ts");
-/* harmony import */ var _colors_colors_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./colors/colors.component */ "./src/app/visual/colors/colors.component.ts");
-/* harmony import */ var _illustrate_illustrate_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./illustrate/illustrate.component */ "./src/app/visual/illustrate/illustrate.component.ts");
-/* harmony import */ var _typography_typography_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./typography/typography.component */ "./src/app/visual/typography/typography.component.ts");
-/* harmony import */ var _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../commons/page/page.model */ "./src/app/commons/page/page.model.ts");
-
-
-
-
-
-var colorsPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Page"]('colors', _colors_colors_component__WEBPACK_IMPORTED_MODULE_1__["ColorsComponent"], 'Couleurs');
-var logosPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Page"]('logos', _logos_logos_component__WEBPACK_IMPORTED_MODULE_0__["LogosComponent"], 'Logos');
-var typographyPage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Page"]('typography', _typography_typography_component__WEBPACK_IMPORTED_MODULE_3__["TypographyComponent"], 'Typographie');
-var illustratePage = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Page"]('illustrate', _illustrate_illustrate_component__WEBPACK_IMPORTED_MODULE_2__["IllustrateComponent"], 'Illustration');
-var visualPages = new _commons_page_page_model__WEBPACK_IMPORTED_MODULE_4__["Pages"]('visual', [
-    colorsPage,
-    logosPage,
-    typographyPage,
-    illustratePage
-], colorsPage);
 
 
 /***/ }),
