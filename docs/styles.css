@@ -6710,6 +6710,50 @@ pre .line-highlight {
   height: 250px;
   margin: 0 1rem;
   display: inline-block; }
+.markdown-dual-display {
+  display: flex;
+  align-items: stretch; }
+.markdown-block {
+  border: 1px solid grey;
+  flex: 0 0 50%;
+  margin-bottom: 1rem; }
+.markdown-block h4 {
+    padding: .5rem 1rem; }
+.markdown-block p {
+    margin: .5rem 1rem; }
+.markdown-block ul {
+    margin: 0 1rem; }
+.markdown-block.positive {
+    border-color: var(--palettes-success-color); }
+.markdown-block.positive h4 {
+      background: var(--palettes-success-color);
+      color: var(--palettes-success-text); }
+.markdown-block.negative {
+    border-color: var(--palettes-error-color); }
+.markdown-block.negative h4 {
+      background: var(--palettes-error-color);
+      color: var(--palettes-error-text); }
+.markdown-block + .markdown-block {
+    margin-left: 1rem; }
+.markdown-image-container {
+  display: inline-table;
+  position: relative;
+  margin: 0; }
+.markdown-image-container .markdown-image-link {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    opacity: 0;
+    transition: opacity var(--commons-animations-durations-fast) ease-out; }
+.markdown-image-container:hover .markdown-image-link {
+    opacity: 1; }
+.markdown-image-container figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--colors-text-light-color);
+    text-align: center; }
 .card.mod-visual, .mod-visual.mat-datepicker-content, .mod-visual.mat-dialog-container {
   padding-top: 8rem; }
 .card.mod-visual .card-content, .mod-visual.mat-datepicker-content .card-content, .mod-visual.mat-dialog-container .card-content {
