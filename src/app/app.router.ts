@@ -1,23 +1,24 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ressourcesPages } from './ressources';
+// import { ressourcesPages } from './ressources';
 // import { principlesPages } from './principles';
 // import { contentPages } from './content';
 import { componentsPage } from './components';
 import { MainComponent } from './main/main.component';
 import { IPage } from './commons';
+import { contentPage } from './content';
 
 const router = [
 	// ...ressourcesPages.toRoutes(),
 	componentsPage.toRoute(),
+	contentPage.toRoute(),
 	// ...principlesPages.toRoutes(),
-	// ...contentPages.toRoutes()
 ];
 export const searchabelIndex: IPage[] = [
 	// ...ressourcesPages.toIndex(),
 	...componentsPage.toIndex(),
 	// ...principlesPages.toIndex(),
-	// ...contentPages.toIndex()
+	...contentPage.toIndex()
 ];
 
 export const appRoutes: Routes = [

@@ -1,15 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-format',
-  templateUrl: './format.component.html',
-  styleUrls: ['./format.component.scss']
+	selector: 'ds-format',
+	templateUrl: './format.component.html',
 })
-export class FormatComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class FormatComponent {}
