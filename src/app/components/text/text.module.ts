@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
 import { BasicTextComponent } from './basic-text/basic-text.component';
-import { TextGuidelinesComponent } from './text-guidelines/text-guidelines.component';
 import { DsTitlesModule } from './titles/titles.module';
 import { DsLabelsModule } from './labels/labels.module';
 import { DsIconsModule } from './icons/icons.module';
@@ -14,12 +13,10 @@ import { DsIconsModule } from './icons/icons.module';
 		DsIconsModule
 	],
 	entryComponents: [
-		BasicTextComponent,
-		TextGuidelinesComponent,
+		BasicTextComponent
 	],
 	declarations: [
-		BasicTextComponent,
-		TextGuidelinesComponent,
+		BasicTextComponent
 	]
 })
 export class TextModule { }

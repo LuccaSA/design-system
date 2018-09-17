@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { FormGuidelinesComponent } from './form-guidelines/form-guidelines.component';
 import { SelectComponent } from './select/select.component';
 import { DsTextfieldsModule } from './textfields/textfields.module';
 import { DsRadiosModule } from './radios/radios.module';
@@ -20,11 +19,9 @@ import { DsFileModule } from './file/file.module';
 		DsFileModule
 	],
 	entryComponents: [
-		FormGuidelinesComponent,
 		SelectComponent,
 	],
 	declarations: [
-		FormGuidelinesComponent,
 		SelectComponent,
 	]
 })

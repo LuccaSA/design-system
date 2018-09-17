@@ -62,7 +62,11 @@ nav {
       height: 3px;
       background: _color("primary");
     }
-  }
+	}
+	&.is-disabled {
+		pointer-events: none;
+		opacity: .3;
+	}
 }
 
 :host(.mod-splash) {

@@ -1,0 +1,7 @@
+import { IAsset } from "../commons";
+
+export interface IRessourceAsset extends IAsset {
+	name: string;
+	type: string;
+	usage?: string;
+}
