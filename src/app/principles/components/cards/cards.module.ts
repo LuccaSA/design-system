@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { CardsPrinciplesComponent } from './cards.component';
+import { CardsComponent } from './cards.component';
 
 @NgModule({
 	imports: [ DsCommonsModule ],
 	declarations: [
-		CardsPrinciplesComponent,
+		CardsComponent,
 	],
 	entryComponents: [
-		CardsPrinciplesComponent,
+		CardsComponent,
 	]
 })
-export class DsCardsPrinciplesModule {}
+export class DsCardsModule {}

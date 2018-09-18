@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { NavigationPrinciplesComponent } from './navigation.component';
+import { NavigationComponent } from './navigation.component';
 
 @NgModule({
 	imports: [DsCommonsModule],
 	declarations: [
-		NavigationPrinciplesComponent
+		NavigationComponent
 	],
 	entryComponents: [
-		NavigationPrinciplesComponent
+		NavigationComponent
 	]
 })
-export class DsNavigationPrincipleModule { }
+export class DsNavigationModule { }

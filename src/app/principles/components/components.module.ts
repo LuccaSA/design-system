@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
-import { DsEmptyStatesPrinciplesModule } from './empty-states/empty-states.module';
-import { DsNavigationPrincipleModule } from './navigation/navigation.module';
-import { DsCardsPrinciplesModule } from './cards/cards.module';
-import { DsTablesPrinciplesModule } from './tables/tables.module';
+import { DsEmptyStatesModule } from './empty-states/empty-states.module';
+import { DsNavigationModule } from './navigation/navigation.module';
+import { DsCardsModule } from './cards/cards.module';
+import { DsTablesModule } from './tables/tables.module';
 
 @NgModule({
 	imports: [
-		DsEmptyStatesPrinciplesModule,
-		DsNavigationPrincipleModule,
-		DsCardsPrinciplesModule,
-		DsTablesPrinciplesModule
+		DsEmptyStatesModule,
+		DsNavigationModule,
+		DsCardsModule,
+		DsTablesModule
 	],
 })
 export class DsComponentsPrinciplesModule { }

@@ -4,9 +4,8 @@ import { IPageInfos } from '../../../commons/structure';
 @Component({
 	selector: 'ds-tables',
 	templateUrl: './tables.component.html',
-	styleUrls: ['./tables.component.scss']
 })
-export class TablesPrinciplesComponent implements OnInit {
+export class TablesComponent implements OnInit {
 	infos: IPageInfos = {
 		title: 'Tableaux',
 	};
