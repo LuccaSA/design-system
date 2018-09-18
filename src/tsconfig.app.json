@@ -2,12 +2,15 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/app",
-    "baseUrl": "./",
+    // "baseUrl": "./",
     "module": "es2015",
 		"types": [],
 		"paths": {
 			"@ds-api/scss": [
 				"../api/scss-theme.api"
+      ],
+      "@ds/commons": [
+				"app/commons/index"
 			],
 		}
   },
