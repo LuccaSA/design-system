@@ -6,6 +6,7 @@ import { layoutPage } from './layout/layout.page';
 import { listingsPage } from './listings/listings.page';
 import { loadersPage } from './loaders/loaders.page';
 import { miscPage } from './misc/misc.page';
+import { navigationPage } from './navigation/navigation.page';
 
 export const componentsPage = new RootGroupPage('components', 'Components', [
 	actionsPage,
@@ -15,4 +16,5 @@ export const componentsPage = new RootGroupPage('components', 'Components', [
 	listingsPage,
 	loadersPage,
 	miscPage,
+	navigationPage,
 ]);
