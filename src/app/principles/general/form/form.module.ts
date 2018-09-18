@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { ActionsPrinciplesComponent } from './actions-principles.component';
+import { FormComponent } from './form.component';
 
 @NgModule({
 	imports: [DsCommonsModule],
 	declarations: [
-		ActionsPrinciplesComponent,
+		FormComponent,
 	],
 	entryComponents: [
-		ActionsPrinciplesComponent,
+		FormComponent,
 	]
 })
-export class DsActionsPrinciplesModule { }
+export class DsFormModule { }

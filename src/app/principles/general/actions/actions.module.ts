@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { TypographyComponent } from './typography.component';
+import { ActionsComponent } from './actions.component';
 
 @NgModule({
 	imports: [DsCommonsModule],
 	declarations: [
-		TypographyComponent,
+		ActionsComponent,
 	],
 	entryComponents: [
-		TypographyComponent,
+		ActionsComponent,
 	]
 })
-export class DsTypographyModule { }
+export class DsActionsModule { }

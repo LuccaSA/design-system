@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 // import { ressourcesPages } from './ressources';
-// import { principlesPages } from './principles';
+import { principlesPage } from './principles';
 // import { contentPages } from './content';
 import { componentsPage } from './components';
 import { MainComponent } from './main/main.component';
@@ -12,12 +12,12 @@ const router = [
 	// ...ressourcesPages.toRoutes(),
 	componentsPage.toRoute(),
 	contentPage.toRoute(),
-	// ...principlesPages.toRoutes(),
+	principlesPage.toRoute(),
 ];
 export const searchabelIndex: IPage[] = [
 	// ...ressourcesPages.toIndex(),
 	...componentsPage.toIndex(),
-	// ...principlesPages.toIndex(),
+	...principlesPage.toIndex(),
 	...contentPage.toIndex()
 ];
 

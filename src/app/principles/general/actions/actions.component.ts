@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { IPageInfos } from '../../../commons';
 
 @Component({
-	selector: 'ds-overlay',
-	templateUrl: './overlay.component.html',
+	selector: 'ds-actions',
+	templateUrl: './actions.component.html',
 })
-export class OverlayComponent {
+export class ActionsComponent {
 	infos: IPageInfos = {
-		title: 'Modales, Side-panels'
+		title: 'Actions & Boutons'
 	};
 }

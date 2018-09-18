@@ -1,18 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IPageInfos } from '../../../commons/structure';
 
 @Component({
-	selector: 'ds-typography-principles',
+	selector: 'ds-typography',
 	templateUrl: './typography.component.html',
-	styleUrls: ['./typography.component.scss']
 })
-export class TypographyPrinciplesComponent implements OnInit {
+export class TypographyComponent {
 	infos: IPageInfos = {
 		title: 'Typographie',
 	};
-	constructor() { }
-
-	ngOnInit() {
-	}
-
 }
