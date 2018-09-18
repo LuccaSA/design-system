@@ -1,2 +1,2 @@
 export * from './ressources.module';
-// export * from './ressources.router';
+export * from './ressources.page';

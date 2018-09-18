@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../commons';
-import { GraphicAssetsComponent } from './graphic-assets.component';
+import { AssetsComponent } from './assets.component';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -9,10 +9,10 @@ import { CommonModule } from '@angular/common';
 		DsCommonsModule
 	],
 	declarations: [
-		GraphicAssetsComponent,
+		AssetsComponent,
 	],
 	entryComponents: [
-		GraphicAssetsComponent,
+		AssetsComponent,
 	]
 })
-export class DsGraphicAssetsModule { }
+export class DsAssetsModule { }

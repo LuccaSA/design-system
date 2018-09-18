@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-// import { ressourcesPages } from './ressources';
+import { ressourcesPage } from './ressources';
 import { principlesPage } from './principles';
 // import { contentPages } from './content';
 import { componentsPage } from './components';
@@ -9,13 +9,13 @@ import { IPage } from './commons';
 import { contentPage } from './content';
 
 const router = [
-	// ...ressourcesPages.toRoutes(),
+	ressourcesPage.toRoute(),
 	componentsPage.toRoute(),
 	contentPage.toRoute(),
 	principlesPage.toRoute(),
 ];
 export const searchabelIndex: IPage[] = [
-	// ...ressourcesPages.toIndex(),
+	...ressourcesPage.toIndex(),
 	...componentsPage.toIndex(),
 	...principlesPage.toIndex(),
 	...contentPage.toIndex()

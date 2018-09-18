@@ -17,14 +17,14 @@ import {
 	jumpingCCColorAi,
 	jumpingCCWhitePng72,
 	jumpingCCWhiteAi
-} from './graphic-assets.model';
+} from './assets.model';
 
 @Component({
-	selector: 'ds-graphic-assets',
-	templateUrl: './graphic-assets.component.html',
-	styleUrls: ['./graphic-assets.component.scss']
+	selector: 'ds-assets',
+	templateUrl: './assets.component.html',
+	styleUrls: ['./assets.component.scss']
 })
-export class GraphicAssetsComponent {
+export class AssetsComponent {
 	infos: IPageInfos = {
 		title: 'Logos Luca',
 	};
