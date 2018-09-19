@@ -7,8 +7,8 @@ export const navigationPage = new GroupPage(
 	'navigation',
 	'Navigation',
 	[
-		breadcrumbsPage,
-		menuPage,
 		navSidePage,
+		menuPage,
+		breadcrumbsPage,
 	],
 );

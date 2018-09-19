@@ -13,7 +13,7 @@ declare var require: any;
 })
 export class BoxesComponent implements OnInit {
 	infos: IPageInfos = {
-		title: 'Boîte',
+		title: 'Box',
 		packages: ['SCSS'],
 		examples: [
 			{

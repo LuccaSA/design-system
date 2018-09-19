@@ -3,6 +3,6 @@ import { BoxesComponent } from './boxes.component';
 
 export const boxesPage = new FeaturePage(
 	'boxes',
-	'Boxes',
+	'Box',
 	BoxesComponent,
 );

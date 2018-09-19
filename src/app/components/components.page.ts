@@ -12,15 +12,15 @@ import { textPage } from './text/text.page';
 import { usersPage } from './users/users.page';
 
 export const componentsPage = new RootGroupPage('components', 'Components', [
-	actionsPage,
-	feedbackPage,
-	formPage,
 	layoutPage,
+	navigationPage,
+	textPage,
+	formPage,
+	actionsPage,
 	listingsPage,
+	usersPage,
+	overlaysPage,
+	feedbackPage,
 	loadersPage,
 	miscPage,
-	navigationPage,
-	overlaysPage,
-	textPage,
-	usersPage,
 ]);

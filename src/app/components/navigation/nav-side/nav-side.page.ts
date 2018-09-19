@@ -3,6 +3,6 @@ import { NavSideComponent } from './nav-side.component';
 
 export const navSidePage = new FeaturePage(
 	'nav-side',
-	'Nav-side',
+	'Menu Principal',
 	NavSideComponent,
 );

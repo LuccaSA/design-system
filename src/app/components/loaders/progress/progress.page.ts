@@ -3,6 +3,6 @@ import { ProgressComponent } from './progress.component';
 
 export const progressPage = new FeaturePage(
 	'progress',
-	'Progress',
+	'Progression',
 	ProgressComponent,
 );

@@ -3,6 +3,6 @@ import { TitlesComponent } from './titles.component';
 
 export const titlesPage = new FeaturePage(
 	'titles',
-	'Titles',
+	'Titres',
 	TitlesComponent,
 );

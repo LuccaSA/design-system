@@ -3,6 +3,6 @@ import { FileComponent } from './file.component';
 
 export const filePage = new FeaturePage(
 	'file',
-	'File',
+	'Fichier',
 	FileComponent,
 );

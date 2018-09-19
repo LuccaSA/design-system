@@ -3,6 +3,6 @@ import { LinksComponent } from './links.component';
 
 export const linksPage = new FeaturePage(
 	'links',
-	'Links',
+	'Liens',
 	LinksComponent,
 );

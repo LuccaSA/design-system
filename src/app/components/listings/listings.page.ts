@@ -7,8 +7,8 @@ export const listingsPage = new GroupPage(
 	'listings',
 	'Listings',
 	[
-		chipsPage,
-		listsPage,
 		tablesPage,
+		listsPage,
+		chipsPage,
 	]
 );

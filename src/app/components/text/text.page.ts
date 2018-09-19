@@ -6,11 +6,11 @@ import { titlesPage } from './titles/titles.page';
 
 export const textPage = new GroupPage(
 	'text',
-	'Text',
+	'Texte',
 	[
 		basicTextPage,
-		iconsPage,
-		labelsPage,
 		titlesPage,
+		labelsPage,
+		iconsPage,
 	],
 );

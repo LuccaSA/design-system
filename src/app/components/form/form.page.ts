@@ -9,14 +9,14 @@ import { textfieldsPage } from './textfields/textfields.page';
 
 export const formPage = new GroupPage(
 	'form',
-	'Form',
+	'Formulaires',
 	[
+		textfieldsPage,
+		selectPage,
 		checkboxesPage,
+		radiosPage,
+		switchesPage,
 		filePage,
 		framedPage,
-		radiosPage,
-		selectPage,
-		switchesPage,
-		textfieldsPage,
 	]
 );

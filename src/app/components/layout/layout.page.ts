@@ -7,12 +7,12 @@ import { templatesPage } from './templates/templates.page';
 
 export const layoutPage = new GroupPage(
 	'layout',
-	'Layout',
+	'Structure',
 	[
-		cardsPage,
-		containersPage,
-		emptyStatesPage,
-		gridPage,
 		templatesPage,
+		containersPage,
+		gridPage,
+		cardsPage,
+		emptyStatesPage,
 	],
 );

@@ -3,6 +3,6 @@ import { UtilitiesComponent } from './utilities.component';
 
 export const utilitiesPage = new FeaturePage(
 	'utilities',
-	'Utilities',
+	'Utilitaires',
 	UtilitiesComponent,
 );

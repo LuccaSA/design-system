@@ -3,6 +3,6 @@ import { ActionIconsComponent } from './action-icons.component';
 
 export const actionIconsPage = new FeaturePage(
 	'action-icons',
-	'Action icones',
+	'Icônes d\'action',
 	ActionIconsComponent,
 );
