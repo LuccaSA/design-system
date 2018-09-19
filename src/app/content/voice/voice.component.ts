@@ -1,15 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-voice',
-  templateUrl: './voice.component.html',
-  styleUrls: ['./voice.component.scss']
+	selector: 'ds-voice',
+	templateUrl: './voice.component.html',
 })
-export class VoiceComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class VoiceComponent {}

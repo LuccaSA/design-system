@@ -1,2 +1,2 @@
 export * from './principles.module';
-export * from './principles.router';
+export * from './principles.page';

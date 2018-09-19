@@ -1,2 +1,2 @@
 export * from './components.module';
-export * from './components.router';
+export * from './components.page';

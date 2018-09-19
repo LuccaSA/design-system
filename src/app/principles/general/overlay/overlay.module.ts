@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { OverlayPrinciplesComponent } from './overlay.component';
+import { OverlayComponent } from './overlay.component';
 
 @NgModule({
 	imports: [DsCommonsModule],
 	declarations: [
-		OverlayPrinciplesComponent,
+		OverlayComponent,
 	],
 	entryComponents: [
-		OverlayPrinciplesComponent,
+		OverlayComponent,
 	]
 })
-export class DsOverlayPrinciplesModule { }
+export class DsOverlayModule { }

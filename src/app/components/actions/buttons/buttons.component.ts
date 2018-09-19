@@ -16,7 +16,7 @@ declare var require: any;
 })
 export class ButtonsComponent implements OnInit {
 	infos: IPageInfos = {
-		title: 'Bouton',
+		title: 'Boutons',
 		packages: ['SCSS'],
 		examples: [
 			{

@@ -1,5 +1,5 @@
 import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
-import { Page } from '../commons/page/page.model';
+import { IPage } from '../commons';
 import { searchabelIndex } from '../app.router';
 import { Router } from '@angular/router';
 
@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 	styleUrls: ['./search.component.scss'],
 })
 export class SearchComponent implements OnInit {
-	pages: Page[] = searchabelIndex;
-	currentPage: Page;
+	pages: IPage[] = searchabelIndex;
+	currentPage: IPage;
 	constructor(public router: Router, private cd: ChangeDetectorRef) {
 		router.events.subscribe(() => this.updateInput());
 	}
@@ -18,10 +18,10 @@ export class SearchComponent implements OnInit {
 	ngOnInit(): void {
 		this.cd.detectChanges();
 	}
-	searchFn(page: Page, clue: string): boolean {
+	searchFn(page: IPage, clue: string): boolean {
 		return page.match(clue);
 	}
-	goToPage(page: Page) {
+	goToPage(page: IPage) {
 		this.router.navigateByUrl(page.fullPath);
 	}
 

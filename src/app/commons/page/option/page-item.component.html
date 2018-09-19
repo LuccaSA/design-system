@@ -1,6 +1,6 @@
 <span
-	*ngFor="let breadPage of page.breadcrumb; let last = last"
+	*ngFor="let breadcrumb of _breadcrumbs; let last = last"
 	class="page-item-breadcrumb"
 	[ngClass]="{'last': last}">
-	{{ breadPage.title }}
+	{{ breadcrumb.title }}
 </span>

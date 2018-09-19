@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { EmptyStatesPrinciplesComponent } from './empty-states.component';
+import { EmptyStatesComponent } from './empty-states.component';
 
 @NgModule({
 	imports: [ DsCommonsModule ],
 	declarations: [
-		EmptyStatesPrinciplesComponent
+		EmptyStatesComponent
 	],
 	entryComponents: [
-		EmptyStatesPrinciplesComponent
+		EmptyStatesComponent
 	]
 })
-export class DsEmptyStatesPrinciplesModule {}
+export class DsEmptyStatesModule {}

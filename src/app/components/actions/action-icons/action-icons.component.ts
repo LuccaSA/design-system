@@ -12,7 +12,7 @@ declare var require: any;
 })
 export class ActionIconsComponent implements OnInit {
 	infos: IPageInfos = {
-		title: 'Bouton',
+		title: 'Icônes d\'action',
 		packages: ['SCSS'],
 		examples: [
 			{

@@ -1,15 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-typographic-rules',
-  templateUrl: './typogrpahic-rules.component.html',
-  styleUrls: ['./typogrpahic-rules.component.scss']
+	selector: 'ds-typographic-rules',
+	templateUrl: './typogrpahic-rules.component.html',
 })
-export class TypographicRulesComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class TypographicRulesComponent {}

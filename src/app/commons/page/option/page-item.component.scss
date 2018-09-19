@@ -78,7 +78,6 @@
 .page-item-breadcrumb {
 	display: inline-block;
 	position: relative;
-	padding-right: 1.5rem;
 
 	&.last {
 		padding-right: 0;
@@ -86,10 +85,7 @@
 	}
 
 	&:not(.last)::after {
-		content: '\00003E';
-		display: block;
-		position: absolute;
-		right: .5rem;
-		top: 0;
+		@include makeIcon("arrow_east");
+		font-size: .8rem;
 	}
 }

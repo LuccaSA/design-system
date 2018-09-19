@@ -1,18 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IPageInfos } from '../../../commons/structure';
-declare var require: any;
 @Component({
-	selector: 'ds-empty-states-principles',
+	selector: 'ds-empty-states',
 	templateUrl: './empty-states.component.html',
-	styleUrls: ['./empty-states.component.scss']
 })
-export class EmptyStatesPrinciplesComponent implements OnInit {
+export class EmptyStatesComponent {
 	infos: IPageInfos = {
 		title: 'Empty State'
 	};
-	constructor() { }
-
-	ngOnInit() {
-	}
-
 }

@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '../../../commons';
-import { TablesPrinciplesComponent } from './tables.component';
+import { TablesComponent } from './tables.component';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
 	],
 	declarations: [
-		TablesPrinciplesComponent
+		TablesComponent
 	],
 	entryComponents: [
-		TablesPrinciplesComponent
+		TablesComponent
 	]
 })
-export class DsTablesPrinciplesModule { }
+export class DsTablesModule { }
