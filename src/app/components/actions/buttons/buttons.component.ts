@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DsDocApiService } from '../../../commons/doc-api';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { StatusExampleComponent } from './status/status.example';
@@ -15,7 +14,7 @@ declare var require: any;
 	styleUrls: ['./buttons.component.scss']
 })
 export class ButtonsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Boutons',
 		packages: ['SCSS'],
 		examples: [

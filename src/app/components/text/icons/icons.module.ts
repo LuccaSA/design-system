@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IconsComponent } from './icons.component';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

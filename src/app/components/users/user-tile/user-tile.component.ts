@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.example';
-import { IExample, IPageInfos } from '../../../commons/structure';
+import { IExample, IFeatureInfos } from '@ds/commons';
 declare var require: any;
 
 @Component({
@@ -9,7 +9,7 @@ declare var require: any;
 	styleUrls: ['./user-tile.component.scss']
 })
 export class UserTileComponent  {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'User Tile',
 		packages: ['NG'],
 		examples: [

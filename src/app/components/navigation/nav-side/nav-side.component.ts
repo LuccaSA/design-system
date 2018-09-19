@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ItemStatesExampleComponent } from './item-states/item-states.example';
 import { SubItemStatesExampleComponent } from './sub-item-states/sub-item-states.example';
 import { CompactExampleComponent } from './compact/compact.example';
 import { AlertExampleComponent } from './alert/alert.example';
 import { LoaderExampleComponent } from './loader/loader.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 import { MobileExampleComponent } from './mobile/mobile.example';
 declare var require: any;
 
@@ -15,7 +14,7 @@ declare var require: any;
 	templateUrl: './nav-side.component.html'
 })
 export class NavSideComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Menu principal',
 		packages: ['SCSS'],
 		examples: [

@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { InlineExampleComponent } from './inline/inline.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 import { PartialExampleComponent } from './partial/partial.example';
 declare var require: any;
 
@@ -13,7 +12,7 @@ declare var require: any;
 	styleUrls: ['./checkboxes.component.scss']
 })
 export class CheckboxesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Checkboxes',
 		packages: ['SCSS'],
 		examples: [

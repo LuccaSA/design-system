@@ -1,4 +1,4 @@
-import { RootGroupPage } from '../commons';
+import { RootGroupPage } from '@ds/commons';
 import { generalPage } from './general/general.page';
 import { componentsPage } from './components/components.page';
 

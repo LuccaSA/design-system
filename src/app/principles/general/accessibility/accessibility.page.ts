@@ -3,6 +3,6 @@ import { AccessibilityComponent } from './accessibility.component';
 
 export const accessibilityPage = new FeaturePage(
 	'accessibility',
-	'Accessibility',
+	'Accessibilité',
 	AccessibilityComponent,
 );

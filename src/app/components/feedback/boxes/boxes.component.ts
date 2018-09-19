@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ToggleExampleComponent } from './toggle/toggle.example';
 import { KillableExampleComponent } from './killable/killable.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -12,7 +11,7 @@ declare var require: any;
 	styleUrls: ['./boxes.component.scss']
 })
 export class BoxesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Box',
 		packages: ['SCSS'],
 		examples: [

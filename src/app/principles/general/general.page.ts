@@ -7,10 +7,10 @@ import { typographyPage } from './typography/typography.page';
 import { visionPage } from './vision/vision.page';
 
 export const generalPage = new GroupPage('general', 'Général', [
-	accessibilityPage,
+	// accessibilityPage,
 	actionsPage,
 	formPage,
 	overlayPage,
 	typographyPage,
-	visionPage,
+	// visionPage,
 ]);

@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure/title-block';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { OffsetExampleComponent } from './offset/offset.example';
 import { VerticalExampleComponent } from './vertical/vertical.example';
 import { ReorganisationExampleComponent } from './reorganisation/reorganisation.example';
 import { HorizontalExampleComponent } from './horizontal/horizontal.example';
 import { AutoExampleComponent } from './auto/auto.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 @Component({
 	selector: 'ds-grid',
@@ -14,7 +13,7 @@ declare var require: any;
 	styleUrls: ['./grid.component.scss']
 })
 export class GridComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Grid',
 		packages: ['SCSS'],
 		examples: [

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { LabelExampleComponent } from './label/label.example';
 import { BlockExampleComponent } from './block/block.example';
@@ -12,7 +12,7 @@ declare var require: any;
 	styleUrls: ['./loadings.component.scss']
 })
 export class LoadingsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Loaders',
 		packages: ['SCSS'],
 		examples: [

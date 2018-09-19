@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { TextfieldsComponent } from './textfields.component';
 import { BasicExampleComponent } from './basic/basic.example';
 import { InputModsExampleComponent } from './input-mods/input-mods.example';

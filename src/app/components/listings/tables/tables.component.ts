@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.component';
 import { ZebraExampleComponent } from './zebra/zebra.component';
 import { ClickableExampleComponent } from './clickable/clickable.component';
@@ -7,7 +7,6 @@ import { SortableExampleComponent } from './sortable/sortable.component';
 import { ActionsExampleComponent } from './actions/actions.component';
 import { CardExampleComponent } from './card/card.component';
 import { FiltersExampleComponent } from './filters/filters.component';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -16,7 +15,7 @@ declare var require: any;
 	styleUrls: ['./tables.component.scss']
 })
 export class TablesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Tables',
 		packages: ['SCSS'],
 		examples: [

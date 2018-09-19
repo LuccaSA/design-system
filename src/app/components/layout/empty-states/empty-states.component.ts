@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 declare var require: any;
 @Component({
@@ -8,7 +8,7 @@ declare var require: any;
 	styleUrls: ['./empty-states.component.scss']
 })
 export class EmptyStatesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Empty State',
 		packages: ['SCSS'],
 		examples: [

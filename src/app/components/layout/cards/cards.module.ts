@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { CardsComponent } from './cards.component';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ClickableExampleComponent } from './clickable/clickable.example';

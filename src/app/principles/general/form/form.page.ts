@@ -3,6 +3,6 @@ import { FormComponent } from './form.component';
 
 export const formPage = new FeaturePage(
 	'form',
-	'Form',
+	'Formulaires',
 	FormComponent,
 );

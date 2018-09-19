@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-tables',
 	templateUrl: './tables.component.html',
 })
 export class TablesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Tableaux',
 	};
 	constructor() { }

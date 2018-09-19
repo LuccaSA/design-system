@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure/title-block';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-templates',
@@ -7,7 +7,7 @@ import { IPageInfos } from '../../../commons/structure/title-block';
 	styleUrls: ['./templates.component.scss']
 })
 export class TemplatesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Templates',
 		packages: ['SCSS'],
 	};

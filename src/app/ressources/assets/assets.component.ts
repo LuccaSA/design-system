@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IPageInfos } from '../../commons';
+import { IFeatureInfos } from '@ds/commons';
 import {
 	luccaColorJpg72,
 	luccaColorJpg150,
@@ -25,7 +25,7 @@ import {
 	styleUrls: ['./assets.component.scss']
 })
 export class AssetsComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Logos Luca',
 	};
 	luccaColoredLogos = [

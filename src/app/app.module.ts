@@ -15,7 +15,7 @@ import { DsNavSideModule } from './nav-side';
 import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
-import { DsMarkdownModule } from './commons';
+import { DsMarkdownModule } from '@ds/commons';
 import { appRoutes } from './app.router';
 
 

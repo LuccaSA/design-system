@@ -1,4 +1,4 @@
-import { FeaturePage } from '../../../commons';
+import { FeaturePage } from '@ds/commons';
 import { ActionIconsComponent } from './action-icons.component';
 
 export const actionIconsPage = new FeaturePage(

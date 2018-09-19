@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { DsChipsModule } from './chips/chips.module';
 import { DsListsModule } from './lists/lists.module';
 import { DsTablesModule } from './tables/tables.module';

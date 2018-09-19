@@ -7,3 +7,4 @@ export * from './safe-content';
 export * from './structure';
 export * from './tool';
 export * from './markdown';
+export * from './feature';

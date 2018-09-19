@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { DsBoxesModule } from './boxes/boxes.module';
 import { DsCalloutsModule } from './callouts/callouts.module';
 import { DsToastsModule } from './toasts/toasts.module';

@@ -1,5 +1,5 @@
 import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
-import { IPage } from '../commons';
+import { IPage } from '@ds/commons';
 import { searchabelIndex } from '../app.router';
 import { Router } from '@angular/router';
 

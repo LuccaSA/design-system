@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { IPageInfos } from '../../../commons';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-form',
 	templateUrl: './form.component.html',
 })
 export class FormComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Guidelines formulaires'
 	};
 	constructor() { }

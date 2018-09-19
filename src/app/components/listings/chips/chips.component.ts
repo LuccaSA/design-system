@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.example';
 import { UnkillableExampleComponent } from './unkillable/unkillable.example';
-import { IPageInfos } from '../../../commons/structure/title-block';
+import { IFeatureInfos } from '@ds/commons';
 declare var require: any;
 
 @Component({
@@ -11,7 +11,7 @@ declare var require: any;
 })
 export class ChipsComponent implements OnInit {
 
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Chip',
 		packages: ['SCSS'],
 		examples: [

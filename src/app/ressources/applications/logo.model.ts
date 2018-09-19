@@ -1,4 +1,4 @@
-import { IAsset } from '../../commons';
+import { IAsset } from '@ds/commons';
 import { IRessourceAsset } from '../ressource.model';
 
 export interface ILogo extends IAsset {

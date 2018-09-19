@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { AnimationsComponent } from './animations.component';
 import { EnterExampleComponent } from './enter/enter.example';
 import { ExitExampleComponent } from './exit/exit.example';

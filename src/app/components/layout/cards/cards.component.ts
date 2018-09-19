@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { ClickableExampleComponent } from './clickable/clickable.example';
 import { FooterExampleComponent } from './footer/footer.example';
 import { GreyExampleComponent } from './grey/grey.example';
 import { DisabledExampleComponent } from './disabled/disabled.example';
-import { IPageInfos } from '../../../commons/structure';
 import { BasicExampleComponent } from './basic/basic.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 @Component({
 	selector: 'ds-cards',
@@ -13,7 +12,7 @@ declare var require: any;
 	styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Carte',
 		packages: ['SCSS'],
 		examples: [

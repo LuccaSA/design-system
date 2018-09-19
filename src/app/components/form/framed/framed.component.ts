@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 declare var require: any;
 
@@ -9,7 +9,7 @@ declare var require: any;
 	styleUrls: ['./framed.component.scss']
 })
 export class FramedComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Framed',
 		packages: ['SCSS'],
 		examples: [

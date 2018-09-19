@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure/title-block';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -10,7 +9,7 @@ declare var require: any;
 	styleUrls: ['./containers.component.scss']
 })
 export class ContainersComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Containers',
 		packages: ['SCSS'],
 		examples: [

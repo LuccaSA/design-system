@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ITool } from '../../commons';
+import { ITool } from '@ds/commons';
 
 @Component({
 	selector: 'ds-home-footer',

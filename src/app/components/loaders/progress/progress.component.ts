@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { IndeterminateExampleComponent } from './indeterminate/indeterminate.example';
 import { StatusExampleComponent } from './status/status.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -12,7 +11,7 @@ declare var require: any;
 	styleUrls: ['./progress.component.scss']
 })
 export class ProgressComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Barre de progression',
 		packages: ['SCSS'],
 		examples: [

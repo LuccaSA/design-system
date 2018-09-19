@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-overlay',
 	templateUrl: './overlay.component.html',
 })
 export class OverlayComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Modales, Side-panels'
 	};
 }

@@ -22,7 +22,7 @@ import {
 	paggaIllu,
 	timmiIllu,
 } from './logo.model';
-import { IPageInfos } from '../../commons';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-logos',
@@ -30,7 +30,7 @@ import { IPageInfos } from '../../commons';
 	styleUrls: ['./applications.component.scss']
 })
 export class ApplicationsComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Illustrations des apps',
 	};
 

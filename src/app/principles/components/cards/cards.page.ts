@@ -3,6 +3,6 @@ import { CardsComponent } from './cards.component';
 
 export const cardsPage = new FeaturePage(
 	'cards',
-	'Cards',
+	'Cartes',
 	CardsComponent,
 );
