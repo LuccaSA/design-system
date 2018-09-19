@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { MatDialogModule } from '@angular/material';
 import { ModalsComponent, DialogTestComponent } from './modals/modals.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
-import { DsCommonsModule } from '../../commons';
+import { DsCommonsModule } from '@ds/commons';
 
 @NgModule({
 	imports: [

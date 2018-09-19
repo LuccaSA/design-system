@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 @Component({
 	selector: 'ds-empty-states',
 	templateUrl: './empty-states.component.html',
 })
 export class EmptyStatesComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Empty State'
 	};
 }

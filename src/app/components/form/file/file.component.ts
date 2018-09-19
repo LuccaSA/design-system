@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { StatesExampleComponent } from './states/states.example';
 import { CompactExampleComponent } from './compact/compact.example';
 declare var require: any;
@@ -10,7 +10,7 @@ declare var require: any;
 	styleUrls: ['./file.component.scss']
 })
 export class FileComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Fichier',
 		packages: ['SCSS', 'NG'],
 		examples: [

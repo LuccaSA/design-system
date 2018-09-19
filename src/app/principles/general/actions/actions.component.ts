@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-actions',
 	templateUrl: './actions.component.html',
 })
 export class ActionsComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Actions & Boutons'
 	};
 }

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { FileComponent } from './file.component';
 import { StatesExampleComponent } from './states/states.example';
 import { CompactExampleComponent } from './compact/compact.example';

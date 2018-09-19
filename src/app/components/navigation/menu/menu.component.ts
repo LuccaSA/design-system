@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DsDocApiService } from '../../../commons/doc-api';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 declare var require: any;
@@ -10,7 +9,7 @@ declare var require: any;
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Menu',
 		packages: ['SCSS'],
 		examples: [

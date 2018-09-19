@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 declare var require: any;
 
@@ -9,7 +9,7 @@ declare var require: any;
 	styleUrls: ['./titles.component.scss']
 })
 export class TitlesComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Titre',
 		packages: ['SCSS'],
 		examples: [

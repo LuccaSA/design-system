@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IPageInfos } from './page-infos.model';
+import { IFeatureInfos } from '../../feature';
 
 @Component({
 	selector: 'ds-title-block',
@@ -7,7 +7,7 @@ import { IPageInfos } from './page-infos.model';
 	styleUrls: ['./title-block.component.scss']
 })
 export class DsTitleBlockComponent implements OnInit {
-	@Input() infos: IPageInfos;
+	@Input() infos: IFeatureInfos;
 
 	constructor() { }
 	ngOnInit(): void { }

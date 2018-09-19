@@ -5,7 +5,7 @@ import { PunctuationComponent } from './punctuation/punctuation.component';
 import { TypographicRulesComponent } from './typogrpahic-rules/typogrpahic-rules.component';
 import { VocabularyComponent } from './vocabulary/vocabulary.component';
 import { VoiceComponent } from './voice/voice.component';
-import { DsCommonsModule } from '../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 
 @Component({
 	selector: 'ds-cards',
 	templateUrl: './cards.component.html',
 })
 export class CardsComponent {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Carte',
 	};
 }

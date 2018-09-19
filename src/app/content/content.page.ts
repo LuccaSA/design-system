@@ -1,4 +1,4 @@
-import { RootGroupPage } from '../commons';
+import { RootGroupPage } from '@ds/commons';
 import { formatPage } from './format/format.page';
 import { punctuationPage } from './punctuation/punctuation.page';
 import { typographicRulesPage } from './typogrpahic-rules/typographic-rules.page';

@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { IPage } from '../../commons';
+import { IPage } from '@ds/commons';
 
 @Component({
 	selector: 'ds-nav-side-group',

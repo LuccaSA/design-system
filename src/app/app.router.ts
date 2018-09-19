@@ -5,7 +5,7 @@ import { principlesPage } from './principles';
 // import { contentPages } from './content';
 import { componentsPage } from './components';
 import { MainComponent } from './main/main.component';
-import { IPage } from './commons';
+import { IPage } from '@ds/commons';
 import { contentPage } from './content';
 
 const router = [

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 import { EnterExampleComponent } from './enter/enter.example';
 import { ExitExampleComponent } from './exit/exit.example';
 declare var require: any;
@@ -10,7 +10,7 @@ declare var require: any;
 	styleUrls: ['./animations.component.scss']
 })
 export class AnimationsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Animations',
 		packages: ['SCSS'],
 		examples: [

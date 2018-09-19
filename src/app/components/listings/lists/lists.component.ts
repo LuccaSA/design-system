@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ClickableExampleComponent } from './clickable/clickable.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 
 @Component({
@@ -11,7 +10,7 @@ declare var require: any;
 	styleUrls: ['./lists.component.scss']
 })
 export class ListsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Listes',
 		packages: ['SCSS'],
 		examples: [

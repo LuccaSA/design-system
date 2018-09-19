@@ -1,4 +1,4 @@
-import { FeaturePage } from '../../commons';
+import { FeaturePage } from '@ds/commons';
 import { TypographicRulesComponent } from './typogrpahic-rules.component';
 
 export const typographicRulesPage = new FeaturePage(

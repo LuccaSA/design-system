@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.example';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos } from '@ds/commons';
 declare var require: any;
 
 @Component({
@@ -9,7 +9,7 @@ declare var require: any;
 	styleUrls: ['./breadcrumbs.component.scss']
 })
 export class BreadcrumbsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Menu',
 		packages: ['SCSS'],
 		examples: [

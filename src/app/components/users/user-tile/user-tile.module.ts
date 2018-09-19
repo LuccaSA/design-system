@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { UserTileComponent } from './user-tile.component';
 import { BasicExampleComponent } from './basic/basic.example';
 import { LuUserTileModule } from '@lucca-front/ng';

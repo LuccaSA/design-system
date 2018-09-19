@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '../../../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { SwitchesComponent } from './switches.component';
 import { BasicExampleComponent } from './basic/basic.example';
 import { InlineExampleComponent } from './inline/inline.example';

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { InputModsExampleComponent } from './input-mods/input-mods.example';
 import { SizesExampleComponent } from './sizes/sizes.example';
@@ -10,7 +10,6 @@ import { ValidationExampleComponent } from './validation/validation.example';
 import { RadioExampleComponent } from './radio/radio.example';
 import { TextareaExampleComponent } from './textarea/textarea.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 
 declare var require: any;
 
@@ -20,7 +19,7 @@ declare var require: any;
 	styleUrls: ['./textfields.component.scss']
 })
 export class TextfieldsComponent implements OnInit {
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Textfield',
 		packages: ['SCSS'],
 		examples: [

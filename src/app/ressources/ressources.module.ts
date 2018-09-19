@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DsCommonsModule } from '../commons';
+import { DsCommonsModule } from '@ds/commons';
 import { RouterModule } from '@angular/router';
 import { DsApplicationsModule } from './applications/applications.module';
 import { DsAssetsModule } from './assets/assets.module';

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IPageInfos } from '../../../commons/structure';
+import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
-import { DsDocApiService } from '../../../commons/doc-api';
 declare var require: any;
 @Component({
 	selector: 'ds-toasts',
@@ -10,7 +9,7 @@ declare var require: any;
 })
 export class ToastsComponent implements OnInit {
 
-	infos: IPageInfos = {
+	infos: IFeatureInfos = {
 		title: 'Toasts',
 		packages: ['SCSS', 'NG'],
 		examples: [
