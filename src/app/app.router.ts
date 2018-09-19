@@ -11,14 +11,14 @@ import { contentPage } from './content';
 const router = [
 	ressourcesPage.toRoute(),
 	componentsPage.toRoute(),
-	contentPage.toRoute(),
+	// contentPage.toRoute(),
 	principlesPage.toRoute(),
 ];
 export const searchabelIndex: IPage[] = [
 	...ressourcesPage.toIndex(),
 	...componentsPage.toIndex(),
 	...principlesPage.toIndex(),
-	...contentPage.toIndex()
+	// ...contentPage.toIndex()
 ];
 
 export const appRoutes: Routes = [

@@ -3,6 +3,6 @@ import { TablesComponent } from './tables.component';
 
 export const tablesPage = new FeaturePage(
 	'tables',
-	'Tables',
+	'Tableaux',
 	TablesComponent,
 );

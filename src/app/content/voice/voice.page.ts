@@ -3,6 +3,6 @@ import { VoiceComponent } from './voice.component';
 
 export const voicePage = new FeaturePage(
 	'voice',
-	'Voice',
+	'Voix',
 	VoiceComponent,
 );
