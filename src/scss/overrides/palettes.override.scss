@@ -1,21 +1,23 @@
 $palettes: (
 	ds: (
 		color: #F9FAFF,
-		text: #8b89ce,
+		text: #8B89CE,
 		see-through: rgba(#F9FAFF, .1),
-		dark: #eff1fc,
-		darker: #e2e7ff,
+		dark: #EFF1FC,
+		darker: #E2E7FF,
 		light: lighten(#F9FAFF, 5%),
-		lighter: lighten(#F9FAFF, 20%)
+		lighter: lighten(#F9FAFF, 20%),
+		lightest: lighten(#F9FAFF, 42%)
 	),
 	scss: (
-		color: #e696be,
-    text: #FFFFFF,
-		see-through: rgba(#e696be, .1),
-		dark: darken(#e696be, 5%),
-		darker: darken(#e696be, 20%),
-		light: lighten(#e696be, 5%),
-		lighter: lighten(#e696be, 20%)
+		color: #E696BE,
+		text: #FFFFFF,
+		see-through: rgba(#E696BE, .1),
+		dark: darken(#E696BE, 5%),
+		darker: darken(#E696BE, 20%),
+		light: lighten(#E696BE, 5%),
+		lighter: lighten(#E696BE, 20%),
+		lightest: lighten(#E696BE, 42%)
 	),
 	ng: (
 		color: #42A5F5,
@@ -24,7 +26,8 @@ $palettes: (
 		dark: darken(#42A5F5, 5%),
 		darker: darken(#42A5F5, 20%),
 		light: lighten(#42A5F5, 5%),
-		lighter: lighten(#42A5F5, 20%)
+		lighter: lighten(#42A5F5, 20%),
+		lightest: lighten(#42A5F5, 42%)
 	),
 
 );
@@ -32,9 +35,9 @@ $palettes: (
 $colors: (
 	text: (
 		"purple": (
-      "color": #8b89ca,
-      "dark": darken(#8b89ca, 5%),
-      "darker": darken(#8b89ca, 20%)
+      "color": #8B89CA,
+      "dark": darken(#8B89CA, 5%),
+      "darker": darken(#8B89CA, 20%)
     )
 	),
 );
