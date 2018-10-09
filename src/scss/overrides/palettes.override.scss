@@ -1,4 +1,14 @@
 $palettes: (
+	primary: (
+		color: #8B89CE,
+		text: #666666,
+		see-through: rgba(#8B89CE, .1),
+		dark: darken(#8B89CE, 5%),
+		darker: darken(#8B89CE, 15%),
+		light: lighten(#8B89CE, 5%),
+		lighter: lighten(#8B89CE, 20%),
+		lightest: lighten(#8B89CE, 42%)
+	),
 	ds: (
 		color: #F9FAFF,
 		text: #8B89CE,
