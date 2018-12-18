@@ -3,26 +3,26 @@
 		<h2>Titre Groupe 1</h2>
 		<div class="form-group-line">
 			<div class="form-group-line-lg8">
-				<div class="textfield mod-framed is-required">
+				<div class="textfield is-required">
 					<input class="textfield-input is-error" type="text" placeholder="placeholder">
 					<label class="textfield-label">Label textfield</label>
 				</div>
 			</div>
 			<div class="form-group-line-lg4">
-				<div class="textfield mod-framed">
+				<div class="textfield">
 					<input class="textfield-input" type="text" placeholder="placeholder" value="Test disabled" disabled>
 					<label class="textfield-label">Label textfield</label>
 				</div>
 			</div>
 		</div>
 		<div class="form-group-line">
-			<div class="textfield mod-framed palette-success">
+			<div class="textfield palette-success">
 				<input class="textfield-input" type="text" placeholder="placeholder">
 				<label class="textfield-label">Label textfield</label>
 			</div>
 		</div>
 		<div class="form-group-line">
-			<div class="textfield mod-framed mod-withSuffix">
+			<div class="textfield mod-withSuffix">
 				<input class="textfield-input" type="text" placeholder="Money Money">
 				<label class="textfield-label">Label textfield</label>
 				<div class="textfield-suffix">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="form-group-line">
-			<div class="textfield mod-multiline mod-framed mod-withSuffix">
+			<div class="textfield mod-multiline mod-withSuffix">
 				<textarea class="textfield-input" type="text" placeholder="Money Money"></textarea>
 				<label class="textfield-label">Label textfield</label>
 				<div class="textfield-suffix">
@@ -45,7 +45,7 @@
 	<div class="form-group">
 		<h2>Titre groupe 2</h2>
 		<div class="form-group-line">
-			<div class="textfield mod-multiline mod-framed mod-withSuffix palette-secondary is-required">
+			<div class="textfield mod-multiline mod-withSuffix palette-secondary is-required">
 				<textarea class="textfield-input" type="text" placeholder="Money Money"></textarea>
 				<label class="textfield-label">Label textfield</label>
 				<div class="textfield-suffix">
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<div class="form-group-line">
-			<div id="autocomplete-framed" class="textfield mod-framed mod-search">
+			<div id="autocomplete-framed" class="textfield mod-search">
 				<input class="textfield-input" type="text">
 				<label class="textfield-label">Utilisateur</label>
 				<ul class="textfield-options">
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<div class="form-group-line">
-			<div id="autocomplete-framed-select" class="textfield mod-framed mod-select">
+			<div id="autocomplete-framed-select" class="textfield mod-select">
 				<input class="textfield-input" type="text">
 				<label class="textfield-label">Utilisateur</label>
 				<ul class="textfield-options">
@@ -85,7 +85,7 @@
 		</div>
 		<div class="form-group-line">
 			<div class="form-group-line-xs6">
-				<div id="autocomplete-framed-select2" class="textfield mod-framed mod-select">
+				<div id="autocomplete-framed-select2" class="textfield mod-select">
 					<input class="textfield-input" type="text">
 					<label class="textfield-label">Utilisateur</label>
 					<ul class="textfield-options">
@@ -99,7 +99,7 @@
 				</div>
 			</div>
 			<div class="form-group-line-xs6">
-				<div class="textfield mod-framed is-required">
+				<div class="textfield is-required">
 					<input class="textfield-input is-error" type="text" placeholder="placeholder">
 					<label class="textfield-label">Label textfield</label>
 					<div class="textfield-messages">
@@ -108,34 +108,37 @@
 				</div>
 			</div>
 		</div>
-		<div class="form-group-line mod-selection">
-			<label class="form-group-line-label">Label textfield</label>
-			<div class="checkbox">
+		<div class="form-group-line">
+			<div class="checkbox mod-field">
 				<input class="checkbox-input" type="checkbox" id="checkboxID">
 				<label class="checkbox-label" for="checkboxID">Checkbox</label>
 			</div>
-			<div class="checkbox">
-				<input class="checkbox-input" type="checkbox" id="checkboxID2">
-				<label class="checkbox-label" for="checkboxID2">Checkbox</label>
-			</div>
-			<div class="checkbox">
-				<input class="checkbox-input" type="checkbox" id="checkboxID3">
-				<label class="checkbox-label" for="checkboxID3">Checkbox</label>
-			</div>
 		</div>
-		<div class="form-group-line mod-selection">
-			<label class="form-group-line-label">Label textfield</label>
-			<div class="radio">
-				<input class="radio-input" type="radio" name="radioframedlist" id="radioID">
-				<label class="radio-label" for="radioID">Radio</label>
+		<div class="form-group-line">
+			<div class="form-group-line-xs8">
+				<div class="radiosfield">
+					<div class="radiosfield-input">
+						<div class="radio">
+							<input class="radio-input" type="radio" name="radioframedlist" id="radioID">
+							<label class="radio-label" for="radioID">Radio</label>
+						</div>
+						<div class="radio">
+							<input class="radio-input" type="radio" name="radioframedlist" id="radioID2">
+							<label class="radio-label" for="radioID2">Radio</label>
+						</div>
+						<div class="radio">
+							<input class="radio-input" type="radio" name="radioframedlist" id="radioID3">
+							<label class="radio-label" for="radioID3">Radio</label>
+						</div>
+					</div>
+					<label class="form-group-line-label">Radios textfield</label>
+				</div>
 			</div>
-			<div class="radio">
-				<input class="radio-input" type="radio" name="radioframedlist" id="radioID2">
-				<label class="radio-label" for="radioID2">Radio</label>
-			</div>
-			<div class="radio">
-				<input class="radio-input" type="radio" name="radioframedlist" id="radioID3">
-				<label class="radio-label" for="radioID3">Radio</label>
+			<div class="form-group-line-xs4">
+				<div class="checkbox mod-field is-offset">
+					<input class="checkbox-input" type="checkbox" id="checkboxID">
+					<label class="checkbox-label" for="checkboxID">Checkbox</label>
+				</div>
 			</div>
 		</div>
 	</div>
