@@ -8,6 +8,7 @@ import { CompactExampleComponent } from './compact/compact.example';
 import { AlertExampleComponent } from './alert/alert.example';
 import { LoaderExampleComponent } from './loader/loader.example';
 import { MobileExampleComponent } from './mobile/mobile.example';
+import { BottomSectionExampleComponent } from './bottom-section/bottom-section.example';
 
 @NgModule({
 	imports: [DsCommonsModule],
@@ -20,6 +21,7 @@ import { MobileExampleComponent } from './mobile/mobile.example';
 		AlertExampleComponent,
 		LoaderExampleComponent,
 		MobileExampleComponent,
+		BottomSectionExampleComponent,
 	],
 	entryComponents: [
 		NavSideComponent,
@@ -30,6 +32,7 @@ import { MobileExampleComponent } from './mobile/mobile.example';
 		AlertExampleComponent,
 		LoaderExampleComponent,
 		MobileExampleComponent,
+		BottomSectionExampleComponent,
 	]
 })
 export class DsNavSideModule { }

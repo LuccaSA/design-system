@@ -7,6 +7,7 @@ import { CompactExampleComponent } from './compact/compact.example';
 import { AlertExampleComponent } from './alert/alert.example';
 import { LoaderExampleComponent } from './loader/loader.example';
 import { MobileExampleComponent } from './mobile/mobile.example';
+import { BottomSectionExampleComponent } from './bottom-section/bottom-section.example';
 declare var require: any;
 
 @Component({
@@ -57,6 +58,16 @@ export class NavSideComponent implements OnInit {
 				`,
 				component: MobileExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./mobile/mobile.example.html'),
+			},
+			{
+				title: 'Bottom-section',
+				description: `
+				Pour ajouter un bouton fixe en bas du menu, il faut ajouter une section
+				<code class="code">&lt;div class="navSide-bottomSection"&gt;</code> dans lequel on glisse un <code class="code">.navSide-item</code><br>
+				Il faut aussi ajouter la classe <code class="code">mod-widthBottomSection</code> à la <code class="code">navSide</code>
+				`,
+				component: BottomSectionExampleComponent,
+				code: require('!!prismjs-loader?lang=markup!./bottom-section/bottom-section.example.html'),
 			},
 		],
 		theme: this.docApi.theme('navSide')

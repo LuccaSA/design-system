@@ -18,9 +18,10 @@ export class FramedComponent implements OnInit {
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				extra: `
-				Utilisez le mod <code class="code">form-group-line mod-selection</code>
-				pour ajouter une bordure à votre ligne (ex. pour les checkbox ou les radios)<br>
-				Utilisez le mod <code class="code">form-group-line mod-stacked</code> pour afficher vos radios ou vos checkbox verticalement
+				Les checkboxes sont un cas particulier ici. Elles sont isolées
+				et doivent porter le mod <code class="code">mod-field</code> pour fonctionner<br>
+				En rajoutant sur la <code class="code">checkbox</code> la classe <code class="code">is-offset</code>
+				vous pouvez aligner la checkbox avec le contenu d'un input avec label
 				`
 			},
 		]
