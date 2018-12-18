@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "schematics": "schematics",
-    "prestart": "npm run generateapi",
+    "prestart": "npm run generateapi:scss && npm run generateapi:ng",
     "start": "ng serve",
     "prebuild": "npm run generateapi",
     "build": "ng build --prod",
