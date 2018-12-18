@@ -40,6 +40,12 @@ Au delà, les lignes sont trop longues et l'œil a du mal à faire le lien entre
 
 ![Largeur des paragraphes](guidelines/general/typography/images/width.png)
 
+# Hauteur de ligne
+
+La hauteur de ligne optimale pour des paragraphes de texte est de 125%.
+
+![Hauteur de ligne](guidelines/general/typography/images/hauteur.png)
+
 ## Capitales accentuées
 
 Les capitales doivent être accentuées

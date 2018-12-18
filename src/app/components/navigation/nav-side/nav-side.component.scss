@@ -2,13 +2,7 @@
 @import "~@lucca-front/scss/src/mixins";
 .navSide {
 	position: relative;
-	min-height: 40vh;
-	max-height: 50vh;
-}
-
-.navSide-bottomSection {
-	position: absolute;
-	overflow: hidden;
+	height: 35vh;
 }
 
 .grid .navSide-item, .grid .navSide-item-placeholder {

@@ -3,6 +3,6 @@ import { TypographyComponent } from './typography.component';
 
 export const typographyPage = new FeaturePage(
 	'typography',
-	'Typography',
+	'Typographie',
 	TypographyComponent,
 );
