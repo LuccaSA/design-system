@@ -1,28 +1,28 @@
 $palettes: (
 	primary: (
 		color: #8B89CE,
-		text: #666666,
-		see-through: rgba(#8B89CE, .1),
+		text: #FFFFFF,
+		see-through: rgba(#8B89CE, .15),
 		dark: darken(#8B89CE, 5%),
 		darker: darken(#8B89CE, 15%),
 		light: lighten(#8B89CE, 5%),
 		lighter: lighten(#8B89CE, 20%),
-		lightest: lighten(#8B89CE, 42%)
+		lightest: lighten(#8B89CE, 30%)
 	),
 	ds: (
-		color: #F9FAFF,
+		color: #F5F7FF,
 		text: #8B89CE,
-		see-through: rgba(#F9FAFF, .1),
+		see-through: rgba(#F5F7FF, .15),
 		dark: #EFF1FC,
 		darker: #E2E7FF,
-		light: lighten(#F9FAFF, 5%),
-		lighter: lighten(#F9FAFF, 20%),
-		lightest: lighten(#F9FAFF, 42%)
+		light: lighten(#F5F7FF, 3%),
+		lighter: lighten(#F5F7FF, 5%),
+		lightest: lighten(#F5F7FF, 7%)
 	),
 	scss: (
 		color: #E696BE,
 		text: #FFFFFF,
-		see-through: rgba(#E696BE, .1),
+		see-through: rgba(#E696BE, .15),
 		dark: darken(#E696BE, 5%),
 		darker: darken(#E696BE, 20%),
 		light: lighten(#E696BE, 5%),
@@ -32,7 +32,7 @@ $palettes: (
 	ng: (
 		color: #42A5F5,
 		text: #FFFFFF,
-		see-through: rgba(#42A5F5, .1),
+		see-through: rgba(#42A5F5, .15),
 		dark: darken(#42A5F5, 5%),
 		darker: darken(#42A5F5, 20%),
 		light: lighten(#42A5F5, 5%),

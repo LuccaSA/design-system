@@ -1,13 +1,13 @@
 $textfield: (
 
-	background: lighten(_color("ds", "dark", true), 2%),
+	background: lighten(_color("ds", "dark", true), 0%),
 
 	input: (
-		placeholder: lighten(_color("ds", "text", true), 20%)
+		placeholder: lighten(_color("ds", "text", true), 15%)
 	),
 
 	hover: (
-		background: lighten(_color("ds", "dark", true), 3%)
+		background: lighten(_color("ds", "dark", true), 1%)
 	),
 
 	material: (
