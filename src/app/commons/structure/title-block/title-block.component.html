@@ -2,10 +2,11 @@
 	<span *ngFor="let package of infos.packages" class="label {{packagePalette(package)}}">{{package}}</span>
 </div>
 
-<h1 class="mod-headline">{{infos.title}}</h1>
-<p class="description">
+<section class="contentSection">
+	<h1 class="u-marginBottomSmaller">{{infos.title}}</h1>
 	<ng-content></ng-content>
-</p>
+</section>
+
 <ng-container *ngIf="infos.examples">
 	<ds-examples-browser [examples]="infos.examples"></ds-examples-browser>
 </ng-container>
