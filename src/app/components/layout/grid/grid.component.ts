@@ -46,7 +46,7 @@ export class GridComponent implements OnInit {
 			},
 			{
 				title: 'Réorganisation',
-				description: 'Vous pouvez réorganiser les blocs d\'une grille grâce aux utilitaires.Cela permet de de changer l\'ordre des blocs en fonction de la résolution.',
+				description: 'Vous pouvez réorganiser les blocs d\'une grille grâce aux utilitaires. Cela permet de de changer l\'ordre des blocs en fonction de la résolution.',
 				component: ReorganisationExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.example.html'),
 			},
