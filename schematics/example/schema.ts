@@ -1,6 +1,3 @@
-export interface ExampleOptions {
-	name: string;
-	path?: string;
-	project?: string;
-	module?: string;
-}
+import { IOptions } from '../schema';
+
+export interface IExampleOptions extends IOptions {}
