@@ -15,6 +15,11 @@
 			"description": "Generate a page for the design system",
 			"factory": "./page",
 			"schema": "./page/schema.json"
+		},
+		"feature": {
+			"description": "Generate a feature component for the design system",
+			"factory": "./feature",
+			"schema": "./feature/schema.json"
 		}
 	}
 }
