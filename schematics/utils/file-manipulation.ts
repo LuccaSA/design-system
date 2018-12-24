@@ -15,19 +15,21 @@ function readIntoSourceFile(host: Tree, modulePath: string) {
 	return ts.createSourceFile(modulePath, sourceText, ts.ScriptTarget.Latest, true);
 }
 
-export function addDeclarationToNgModule(options: IOptions) {
+export function addComponentDeclarationToModule(
+	options: IOptions,
+	fileExtension: string = 'component',
+	classExtension: string = strings.classify(fileExtension),
+	isEntryComponent: boolean = false,
+) {
 	return (host: Tree) => {
 		if (!options.module) {
 			return host;
 		}
 		const modulePath = options.module;
 		let source = readIntoSourceFile(host, modulePath);
-		const componentPath = `/${options.path}/`
-		+ strings.dasherize(options.name) + '/'
-		+ strings.dasherize(options.name)
-		+ '.example';
+		const componentPath = `/${options.path}/${strings.dasherize(options.name)}/${strings.dasherize(options.name)}.${fileExtension}`;
 		const relativePath = buildRelativePath(modulePath, componentPath);
-		const classifiedName = strings.classify(`${options.name}ExampleComponent`);
+		const classifiedName = strings.classify(`${options.name}${classExtension}`);
 		const declarationChanges = addDeclarationToModule(source, modulePath, classifiedName, relativePath);
 		const declarationRecorder = host.beginUpdate(modulePath);
 		for (const change of declarationChanges) {
@@ -37,16 +39,18 @@ export function addDeclarationToNgModule(options: IOptions) {
 		}
 		host.commitUpdate(declarationRecorder);
 
-		// Need to refresh the AST because we overwrote the file in the host.
-		source = readIntoSourceFile(host, modulePath);
-		const entryComponentRecorder = host.beginUpdate(modulePath);
-		const entryComponentChanges = addEntryComponentToModule(source, modulePath, strings.classify(`${options.name}ExampleComponent`), relativePath);
-		for (const change of entryComponentChanges) {
-			if (change instanceof InsertChange) {
-				entryComponentRecorder.insertLeft(change.pos, change.toAdd);
+		if (isEntryComponent) {
+			// Need to refresh the AST because we overwrote the file in the host.
+			source = readIntoSourceFile(host, modulePath);
+			const entryComponentRecorder = host.beginUpdate(modulePath);
+			const entryComponentChanges = addEntryComponentToModule(source, modulePath, classifiedName, relativePath);
+			for (const change of entryComponentChanges) {
+				if (change instanceof InsertChange) {
+					entryComponentRecorder.insertLeft(change.pos, change.toAdd);
+				}
 			}
+			host.commitUpdate(entryComponentRecorder);
 		}
-		host.commitUpdate(entryComponentRecorder);
 		return host;
 	};
 }

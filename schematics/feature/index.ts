@@ -14,7 +14,7 @@ import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
 import { IFeatureOptions } from './schema';
-// import { addDeclarationToNgModule } from '../utils/file-manipulation';
+import { addComponentDeclarationToModule } from '../utils/file-manipulation';
 
 export default function example(options: IFeatureOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
@@ -35,7 +35,6 @@ export default function example(options: IFeatureOptions): Rule {
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
 
-		console.log(options);
 		const templateSource = apply(url('./files'), [
 			template({
 				...strings,
@@ -45,7 +44,7 @@ export default function example(options: IFeatureOptions): Rule {
 		]);
 		const rule = chain([
 			branchAndMerge(chain([
-				// addDeclarationToNgModule(options),
+				addComponentDeclarationToModule(options, 'feature'),
 				mergeWith(templateSource)
 			]))
 		]);
