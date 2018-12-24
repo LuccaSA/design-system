@@ -67,13 +67,13 @@ function insertExport(fileToEdit: string, fileName: string): Change {
 
 // 	return source;
 // }
-export function updateIndex(options: IOptions) {
+export function updateIndex(options: IOptions, fileExtension: string) {
 	return (host: Tree, context: SchematicContext) => {
 		context.logger.debug('updating index');
 		// find index file
 		const indexPath = `${options.path}/index.ts`;
 		// const indexFile = getTsSourceFile(host, indexPath);
-		const fileRelativePath = `./${dasherize(options.name)}.page`;
+		const fileRelativePath = `./${dasherize(options.name)}.${fileExtension}`;
 
 		const change = insertExport(indexPath, fileRelativePath);
 		if (change) {

@@ -13,9 +13,9 @@ import {
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { updateIndex } from '../utils/file-manipulation';
-import { IPageOptions } from './schema';
+import { IModuleOptions } from './schema';
 
-export default function page(options: IPageOptions): Rule {
+export default function module(options: IModuleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
@@ -27,7 +27,6 @@ export default function page(options: IPageOptions): Rule {
 			const projectDirName = project.projectType === 'application' ? 'app' : 'lib';
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
-
 
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
@@ -42,7 +41,7 @@ export default function page(options: IPageOptions): Rule {
 		]);
 		const rule = chain([
 			branchAndMerge(chain([
-				updateIndex(options, 'page'),
+				updateIndex(options, 'module'),
 				mergeWith(templateSource)
 			]))
 		]);

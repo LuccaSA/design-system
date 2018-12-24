@@ -6,10 +6,15 @@
 			"factory": "./index",
 			"schema": "./index/schema.json"
 		},
-		"example": {
-			"description": "Generate an example for the design system",
-			"factory": "./example",
-			"schema": "./example/schema.json"
+		"module": {
+			"description": "Generate a module for the design system",
+			"factory": "./module",
+			"schema": "./module/schema.json"
+		},
+		"fullmodule": {
+			"description": "Generate a full module for the design system",
+			"factory": "./module/full",
+			"schema": "./module/schema.json"
 		},
 		"page": {
 			"description": "Generate a page for the design system",
@@ -25,6 +30,12 @@
 			"description": "Generate a feature component for the design system",
 			"factory": "./feature",
 			"schema": "./feature/schema.json"
+		},
+		"example": {
+			"description": "Generate an example for the design system",
+			"factory": "./example",
+			"schema": "./example/schema.json"
 		}
+		
 	}
 }
