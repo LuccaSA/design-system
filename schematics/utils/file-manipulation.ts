@@ -5,7 +5,6 @@ import * as ts from 'typescript';
 import { Tree, SchematicsException, SchematicContext } from '@angular-devkit/schematics';
 import { strings } from '@angular-devkit/core';
 import { IOptions } from '../schema';
-import { dasherize } from '@angular-devkit/core/src/utils/strings';
 
 function readIntoSourceFile(host: Tree, modulePath: string) {
 	const text = host.read(modulePath);
@@ -73,7 +72,7 @@ export function updateIndex(options: IOptions, fileExtension: string) {
 		// find index file
 		const indexPath = `${options.path}/index.ts`;
 		// const indexFile = getTsSourceFile(host, indexPath);
-		const fileRelativePath = `./${dasherize(options.name)}.${fileExtension}`;
+		const fileRelativePath = `./${strings.dasherize(options.name)}.${fileExtension}`;
 
 		const change = insertExport(indexPath, fileRelativePath);
 		if (change) {
