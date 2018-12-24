@@ -16,6 +16,11 @@
 			"factory": "./page",
 			"schema": "./page/schema.json"
 		},
+		"fullpage": {
+			"description": "Generate a full page for the design system",
+			"factory": "./page/full",
+			"schema": "./page/schema.json"
+		},
 		"feature": {
 			"description": "Generate a feature component for the design system",
 			"factory": "./feature",

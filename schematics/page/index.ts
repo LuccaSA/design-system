@@ -15,7 +15,7 @@ import { parseName } from '@schematics/angular/utility/parse-name';
 import { updateIndex } from '../utils/file-manipulation';
 import { IPageOptions } from './schema';
 
-export default function example(options: IPageOptions): Rule {
+export default function page(options: IPageOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
