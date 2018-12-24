@@ -6,13 +6,15 @@ import { TypographicRulesComponent } from './typographic-rules/typographic-rules
 import { VocabularyComponent } from './vocabulary/vocabulary.component';
 import { VoiceComponent } from './voice/voice.component';
 import { DsCommonsModule } from '@ds/commons';
-import { RouterModule } from '@angular/router';
+import { DsContentRoutingModule } from './content.router';
+import { DsMainModule } from '../main';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		DsCommonsModule,
-		RouterModule
+		DsContentRoutingModule,
+		DsMainModule,
 	],
 	declarations: [
 		FormatComponent,

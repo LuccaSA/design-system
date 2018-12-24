@@ -1,28 +1,26 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ressourcesPage } from './ressources';
-import { principlesPage } from './principles';
-// import { contentPages } from './content';
-import { componentsPage } from './components';
-import { MainComponent } from './main/main.component';
+import { ressourcesPage, DsRessourcesModule } from './ressources';
+import { principlesPage, DsPrinciplesModule } from './principles';
+import { contentPage, DsContentModule } from './content';
+import { componentsPage, DsComponentsModule } from './components';
 import { IPage } from '@ds/commons';
-import { contentPage } from './content';
 
-const router = [
-	ressourcesPage.toRoute(),
-	componentsPage.toRoute(),
-	// contentPage.toRoute(),
-	principlesPage.toRoute(),
+const routes = [
+	{ ...ressourcesPage.toRoute(), loadChildren: () => DsRessourcesModule },
+	{ ...componentsPage.toRoute(), loadChildren: () => DsComponentsModule },
+	{ ...contentPage.toRoute(), loadChildren: () => DsContentModule },
+	{ ...principlesPage.toRoute(), loadChildren: () => DsPrinciplesModule },
 ];
-export const searchabelIndex: IPage[] = [
-	...ressourcesPage.toIndex(),
+export const searchableIndex: IPage[] = [
 	...componentsPage.toIndex(),
+	...contentPage.toIndex(),
 	...principlesPage.toIndex(),
-	// ...contentPage.toIndex()
+	...ressourcesPage.toIndex(),
 ];
 
 export const appRoutes: Routes = [
-	{ path: '', component: HomeComponent },
-	{ path: '', component: MainComponent, children: router},
-	{ path: '**', component: HomeComponent }
+	{ path: 'home', component: HomeComponent },
+	...routes,
+	{ path: '**', redirectTo: '/home', pathMatch: 'full' }
 ] as Routes;

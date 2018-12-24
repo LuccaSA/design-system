@@ -1,4 +1,3 @@
-import { RootGroupPage } from '@ds/commons';
 import { actionsPage } from './actions/action.page';
 import { feedbackPage } from './feedback/feedback.page';
 import { formPage } from './form/form.page';
@@ -10,8 +9,9 @@ import { navigationPage } from './navigation/navigation.page';
 import { overlaysPage } from './overlays/overlays.page';
 import { textPage } from './text/text.page';
 import { usersPage } from './users/users.page';
+import { MainGroupPage } from 'app/main';
 
-export const componentsPage = new RootGroupPage('components', 'Components', [
+export const componentsPage = new MainGroupPage('components', 'Components', [
 	layoutPage,
 	navigationPage,
 	textPage,
