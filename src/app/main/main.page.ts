@@ -22,8 +22,8 @@ export class MainGroupPage extends GroupPage implements IPage {
 	subRoutes() {
 		return  [
 				{ path: '', component: NavSideComponent, data: { pages: this.children }, outlet: 'navSide'},
-				{ path: '', component: HeaderComponent, data: { pages: this.children }, outlet: 'header'},
-				...this.children.map(c => c.toRoute())
+				{ path: '', component: HeaderComponent, outlet: 'header'},
+				...this.children.map(c => c.toRoute()),
 			] as Route[];
 	}
 }
