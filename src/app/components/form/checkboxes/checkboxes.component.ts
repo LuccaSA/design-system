@@ -28,6 +28,9 @@ export class CheckboxesComponent implements OnInit {
 				title: 'En ligne',
 				component: InlineExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./inline/inline.example.html'),
+				extra: `
+				Outside checkboxesfield, you can add "mod-inline" class to your checkbox to set it inline
+				`
 			},
 			{
 				title: 'Partiel',
