@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
-import { InputModsExampleComponent } from './input-mods/input-mods.example';
+import { StylesExampleComponent } from './styles/styles.example';
 import { SizesExampleComponent } from './sizes/sizes.example';
 import { StatusExampleComponent } from './status/status.example';
 import { SuffixExampleComponent } from './suffix/suffix.example';
@@ -32,9 +32,9 @@ export class TextfieldsComponent implements OnInit {
 				Utilisez <code class="code">&lt;div class="textfield mod-inline"&gt;</code> pour passer le textfield en inline-block`
 			},
 			{
-				title: 'Modes',
-				component: InputModsExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./input-mods/input-mods.example.html'),
+				title: 'Styles',
+				component: StylesExampleComponent,
+				code: require('!!prismjs-loader?lang=markup!./styles/styles.example.html'),
 				extra: `Utilisez <code class="code">&lt;div class="textfield-input is-filled"&gt;</code> pour garder le label en position haute en mode material`
 			},
 			{
@@ -61,16 +61,16 @@ export class TextfieldsComponent implements OnInit {
 				`
 			},
 			{
-				title: 'Helper / Alerte / Erreur',
+				title: 'Messages',
 				component: MessagesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./messages/messages.example.html'),
 			},
 			{
 				title: 'Validation / Feedback',
 				description: `
-				You can add a <code class="code">is-loading</code> and a <code class="code">is-valid</code>
-				or <code class="code">is-invalid</code> class on <code class="code">&lt;div class="textfield"&gt;</code>
-				for your inline validation.
+				Ajoutez une classe <code class="code">is-loading</code> puis une classe <code class="code">is-valid</code>
+				ou <code class="code">is-invalid</code> sur <code class="code">&lt;div class="textfield"&gt;</code>
+				pour une validation en sortie de focus.
 				`,
 				component: ValidationExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./validation/validation.example.html'),
