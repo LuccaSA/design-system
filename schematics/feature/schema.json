@@ -1,7 +1,7 @@
 {
 	"$schema": "http://json-schema.org/schema",
-	"id": "SchemanticsForMenu",
-	"title": "Menu Schema",
+	"id": "SchemanticsForFeature",
+	"title": "Feature Schema",
 	"type": "object",
 	"properties": {
 		"name": {
