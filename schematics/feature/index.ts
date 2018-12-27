@@ -23,7 +23,7 @@ export default function example(options: IFeatureOptions): Rule {
 			options.project = Object.keys(workspace.projects)[0];
 		}
 		const project = workspace.projects[options.project];
-
+		options.prefix = project.prefix;
 		if (options.path === undefined) {
 			const projectDirName = project.projectType === 'application' ? 'app' : 'lib';
 			options.path = `/${project.root}/src/${projectDirName}`;
@@ -38,7 +38,7 @@ export default function example(options: IFeatureOptions): Rule {
 		const templateSource = apply(url('./files'), [
 			template({
 				...strings,
-				...options
+				...options,
 			}),
 			move(options.path)
 		]);

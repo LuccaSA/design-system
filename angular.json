@@ -4,6 +4,7 @@
   "newProjectRoot": "libraries",
   "projects": {
     "design-system": {
+      "prefix": "ds",
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
