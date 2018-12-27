@@ -5,18 +5,14 @@ import { RouterModule } from '@angular/router';
 
 import { LuModule } from '@lucca-front/ng';
 
-import { DsMainModule } from './main/main.module';
-import { DsRessourcesModule } from './ressources';
-import { DsPrinciplesModule } from './principles';
-import { DsComponentsModule } from './components';
-import { DsContentModule } from './content';
+import { DsMainModule } from './main';
 
-import { DsNavSideModule } from './nav-side';
 import { DsHomeModule } from './home';
 
 import { AppComponent } from './app.component';
 import { DsMarkdownModule } from '@ds/commons';
-import { appRoutes } from './app.router';
+import { appRoutes, searchableIndex } from './app.router';
+import { PAGES_INDEX } from './search';
 
 
 
@@ -28,11 +24,6 @@ import { appRoutes } from './app.router';
 
 		DsHomeModule,
 		DsMainModule,
-		DsPrinciplesModule,
-		DsContentModule,
-		DsComponentsModule,
-		DsRessourcesModule,
-		DsNavSideModule,
 
 		DsMarkdownModule.forRoot(),
 
@@ -44,7 +35,9 @@ import { appRoutes } from './app.router';
 	declarations: [
 		AppComponent
 	],
-	providers: [],
+	providers: [
+		{ provide: PAGES_INDEX, useValue: searchableIndex }
+	],
 	bootstrap: [AppComponent]
 })
 

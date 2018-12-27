@@ -9,6 +9,9 @@
 			"@ds-api/scss": [
 				"../api/scss-theme.api"
       ],
+      "@ds-api/ng": [
+				"../api/ng-components.api"
+      ],
       "@ds/commons": [
 				"app/commons/index"
 			],

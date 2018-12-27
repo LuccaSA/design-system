@@ -4,6 +4,8 @@ import { DsCommonsModule } from '@ds/commons';
 import { RouterModule } from '@angular/router';
 import { DsGeneralPrinciplesModule } from './general/general.module';
 import { DsComponentsPrinciplesModule } from './components/components.module';
+import { DsPrinciplesRoutingModule } from './principles.router';
+import { DsMainModule } from '../main';
 
 @NgModule({
 	imports: [
@@ -12,6 +14,8 @@ import { DsComponentsPrinciplesModule } from './components/components.module';
 		DsCommonsModule,
 		DsGeneralPrinciplesModule,
 		DsComponentsPrinciplesModule,
+		DsPrinciplesRoutingModule,
+		DsMainModule,
 	]
 })
 export class DsPrinciplesModule { }

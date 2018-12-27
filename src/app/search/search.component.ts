@@ -1,7 +1,7 @@
-import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
+import { Component, ChangeDetectorRef, OnInit, Inject } from '@angular/core';
 import { IPage } from '@ds/commons';
-import { searchabelIndex } from '../app.router';
 import { Router } from '@angular/router';
+import { PAGES_INDEX } from './search.token';
 
 @Component({
 	selector: 'ds-search',
@@ -9,9 +9,12 @@ import { Router } from '@angular/router';
 	styleUrls: ['./search.component.scss'],
 })
 export class SearchComponent implements OnInit {
-	pages: IPage[] = searchabelIndex;
 	currentPage: IPage;
-	constructor(public router: Router, private cd: ChangeDetectorRef) {
+	constructor(
+		public router: Router,
+		private cd: ChangeDetectorRef,
+		@Inject(PAGES_INDEX) public pages: IPage[],
+	) {
 		router.events.subscribe(() => this.updateInput());
 	}
 

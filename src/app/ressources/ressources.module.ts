@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { DsCommonsModule } from '@ds/commons';
-import { RouterModule } from '@angular/router';
 import { DsApplicationsModule } from './applications/applications.module';
 import { DsAssetsModule } from './assets/assets.module';
 import { DsColorsModule } from './colors/colors.module';
+import { DsResourcesRoutingModule } from './resources.router';
+import { DsMainModule } from 'app/main';
 
 @NgModule({
 	imports: [
 		DsCommonsModule,
 		DsApplicationsModule,
 		DsAssetsModule,
-		DsColorsModule
+		DsColorsModule,
+		DsResourcesRoutingModule,
+		DsMainModule,
 	],
 })
 export class DsRessourcesModule { }

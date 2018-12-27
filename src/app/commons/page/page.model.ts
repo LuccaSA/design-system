@@ -1,5 +1,4 @@
 import { Route } from '@angular/router';
-import { NavSideComponent } from '../../nav-side/nav-side.component';
 
 export interface IPage {
 	title: string;
@@ -97,16 +96,5 @@ export class GroupPage extends APage implements IPage {
 	toIndex(): IPage[] {
 		const children = this.children as IPage[];
 		return [...children.map(c => c.toIndex()).reduce((acc, cur) => [...acc, ...cur], [])];
-	}
-}
-export class RootGroupPage extends GroupPage implements IPage {
-	toRoute() {
-		return {
-			path: this.path,
-			children: [
-				{ path: '', component: NavSideComponent, data: { pages: this.children }, outlet: 'navSide'},
-				...this.children.map(c => c.toRoute())
-			],
-		} as Route;
 	}
 }

@@ -346,7 +346,7 @@ if (!fs.existsSync(distDir)) {
 	fs.mkdirSync(distDir);
 }
 
-const finalContent = `const NG_DOCS = ${JSON.stringify(getApiDocs(), null, 2)};\n\nexport default API_DOCS;`;
+const finalContent = `const NG_DOCS = ${JSON.stringify(getApiDocs(), null, 2)};\n\nexport default NG_DOCS;`;
 
 fs.writeFile(fullFilePath, finalContent, (err) => {
 	if(err) throw err;

@@ -10,6 +10,8 @@ import { LoadersModule } from './loaders/loaders.module';
 import { MiscModule } from './misc/misc.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { TextModule } from './text/text.module';
+import { DsComponentsRoutingModule } from './components.router';
+import { DsMainModule } from '../main';
 
 @NgModule({
 	imports: [
@@ -24,6 +26,8 @@ import { TextModule } from './text/text.module';
 		OverlaysModule,
 		TextModule,
 		UsersModule,
+		DsComponentsRoutingModule,
+		DsMainModule,
 	]
 })
 export class DsComponentsModule { }
