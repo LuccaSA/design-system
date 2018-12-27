@@ -17,7 +17,6 @@ export class ChipsComponent implements OnInit {
 		examples: [
 			{
 				title: 'Basique',
-				description: 'A basic description on how you should use chips',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
 			},
