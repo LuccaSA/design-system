@@ -1,0 +1,5 @@
+$box: (
+	background: _theme("commons.background.dark")
+);
+
+$theme: _set($theme, "components.box", $box);
