@@ -19,7 +19,7 @@ export class ButtonsComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				extra: 'Les boutons peuvent être utilisés comme des liens : <code class="code">&lt;a href="#"&gt;</code><br>Vous pouvez ajouter une classe <code class="code">mod-link</code>, pour donner l\'aspect d\'un lien a un bouton'

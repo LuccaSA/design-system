@@ -18,7 +18,7 @@ export class GridComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				extra: 'Les grilles fonctionnent avec les valeurs définies dans les breakpoints de votre <a href="https://github.com/LuccaSA/lucca-front/#breakpoints" target="_blank">thème</a>. Par défaut les breakpoints sont <code class="code">-xs</code>, <code class="code">-sm</code>, <code class="code">-md</code>, <code class="code">-lg</code>, <code class="code">-xl</code> ou <code class="code">-xxl</code>'
