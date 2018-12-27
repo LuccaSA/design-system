@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-mixins',
-  templateUrl: './mixins.component.html',
-  styleUrls: ['./mixins.component.scss']
+	selector: 'ds-mixins',
+	templateUrl: './mixins.component.html',
+	styleUrls: []
 })
-export class MixinsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class MixinsComponent {}

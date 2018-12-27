@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-tooltips',
-  templateUrl: './tooltips.component.html',
-  styleUrls: ['./tooltips.component.scss']
+	selector: 'ds-tooltips',
+	templateUrl: './tooltips.component.html',
+	styleUrls: []
 })
-export class TooltipsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class TooltipsComponent {}

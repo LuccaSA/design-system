@@ -1,14 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 declare var require: any;
 @Component({
-  selector: 'ds-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+	selector: 'ds-menu',
+	templateUrl: './menu.component.html',
+	styleUrls: []
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent {
 	infos: IFeatureInfos = {
 		title: 'Menu',
 		packages: ['SCSS'],
@@ -28,9 +28,5 @@ export class MenuComponent implements OnInit {
 		theme: this.docApi.theme('palettes')
 	};
 
-  constructor( private docApi: DsDocApiService) { }
-
-  ngOnInit() {
-  }
-
+	constructor( private docApi: DsDocApiService) { }
 }
