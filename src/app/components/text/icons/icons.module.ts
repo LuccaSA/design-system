@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
-import { IconsComponent } from './icons.component';
 import { DsCommonsModule } from '@ds/commons';
-import { RouterModule } from '@angular/router';
+import { IconsComponent } from './icons.component';
+import { BasicExampleComponent } from './basic/basic.example';
+import { ColorsExampleComponent } from './colors/colors.example';
+import { SizeExampleComponent } from './size/size.example';
 
 @NgModule({
-	imports: [
-		DsCommonsModule,
-		RouterModule,
+	imports: [DsCommonsModule],
+	declarations: [
+		IconsComponent,
+		BasicExampleComponent,
+		ColorsExampleComponent,
+		SizeExampleComponent
 	],
 	entryComponents: [
-		IconsComponent
-	],
-	declarations: [
-		IconsComponent
+		IconsComponent,
+		BasicExampleComponent,
+		ColorsExampleComponent,
+		SizeExampleComponent
 	]
 })
 export class DsIconsModule { }

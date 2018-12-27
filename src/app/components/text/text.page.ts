@@ -8,7 +8,6 @@ export const textPage = new GroupPage(
 	'text',
 	'Texte',
 	[
-		basicTextPage,
 		titlesPage,
 		labelsPage,
 		iconsPage,
