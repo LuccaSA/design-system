@@ -2,26 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
 
 @Component({
-  selector: 'ds-modals',
-  templateUrl: './modals.component.html',
-  styleUrls: ['./modals.component.scss']
+	selector: 'ds-dialog-test',
+	template: `<h1>C'est un dialog</h1>`
+})
+export class DialogTestComponent {}
+
+@Component({
+	selector: 'ds-modals',
+	templateUrl: './modals.component.html',
+	styleUrls: []
 })
 export class ModalsComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) { }
+	constructor(public dialog: MatDialog) { }
 
-  ngOnInit() {
-  }
+	ngOnInit() {
+	}
 
-  openDialog(): void {
-    const dialogRef = this.dialog.open(DialogTestComponent);
-  }
+	openDialog(): void {
+		const dialogRef = this.dialog.open(DialogTestComponent);
+	}
 
 }
-
-
-@Component({
-  selector: 'ds-dialog-test',
-  template: `<h1>C'est un dialog</h1>`
-})
-export class DialogTestComponent {}

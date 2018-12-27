@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-select',
-  templateUrl: './select.component.html',
-  styleUrls: ['./select.component.scss']
+	selector: 'ds-select',
+	templateUrl: './select.component.html',
+	styleUrls: []
 })
-export class SelectComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class SelectComponent {}

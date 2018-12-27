@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-functions',
-  templateUrl: './functions.component.html',
-  styleUrls: ['./functions.component.scss']
+	selector: 'ds-functions',
+	templateUrl: './functions.component.html',
+	styleUrls: []
 })
-export class FunctionsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class FunctionsComponent {}

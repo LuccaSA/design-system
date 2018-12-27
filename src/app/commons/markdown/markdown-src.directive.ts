@@ -6,6 +6,7 @@ import { MarkdownComponent } from 'ngx-markdown';
 	selector: 'markdown[dsMarkdownSrc]',
 })
 export class DsMarkdownSrcDirective implements OnInit {
+	/*tslint:disable-next-line:no-input-rename*/
 	@Input('dsMarkdownSrc') unprefixedSrc: string;
 	constructor(
 		protected _assetService: DsAssetService,

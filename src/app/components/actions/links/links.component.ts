@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ds-links',
-  templateUrl: './links.component.html',
-  styleUrls: ['./links.component.scss']
+	selector: 'ds-links',
+	templateUrl: './links.component.html',
+	styleUrls: []
 })
-export class LinksComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class LinksComponent {}
