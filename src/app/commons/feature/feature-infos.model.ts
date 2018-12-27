@@ -1,5 +1,5 @@
-import { IExample } from "../structure";
-import { IThemeProperty } from "../../models/theme.model";
+import { IExample } from '../structure';
+import { IThemeProperty, IDocProperty } from '../../models';
 
 export type DSPackages = 'SCSS' | 'NG';
 
@@ -9,4 +9,5 @@ export interface IFeatureInfos {
 	keywords?: string[];
 	examples?: IExample[];
 	theme?: IThemeProperty;
+	doc?: IDocProperty;
 }

@@ -1,4 +1,4 @@
-export interface ExampleOptions {
+export interface IOptions {
 	name: string;
 	path?: string;
 	project?: string;

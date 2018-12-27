@@ -13,10 +13,10 @@ import {
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
-import { ExampleOptions } from './schema';
-import { addDeclarationToNgModule } from '../utils/file-manipulation';
+import { IExampleOptions } from './schema';
+import { addComponentDeclarationToModule } from '../utils/file-manipulation';
 
-export default function example(options: ExampleOptions): Rule {
+export default function example(options: IExampleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
@@ -44,7 +44,7 @@ export default function example(options: ExampleOptions): Rule {
 		]);
 		const rule = chain([
 			branchAndMerge(chain([
-				addDeclarationToNgModule(options),
+				addComponentDeclarationToModule(options, 'example', 'Example', true),
 				mergeWith(templateSource)
 			]))
 		]);

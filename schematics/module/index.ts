@@ -12,11 +12,10 @@ import {
 	mergeWith } from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
-// import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
-import { ExampleOptions } from './schema';
-// import { addDeclarationToNgModule } from '../utils/file-manipulation';
+import { updateIndex } from '../utils/file-manipulation';
+import { IModuleOptions } from './schema';
 
-export default function example(options: ExampleOptions): Rule {
+export default function module(options: IModuleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
@@ -28,8 +27,6 @@ export default function example(options: ExampleOptions): Rule {
 			const projectDirName = project.projectType === 'application' ? 'app' : 'lib';
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
-
-		// options.module = findModuleFromOptions(tree, options);
 
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
@@ -44,7 +41,7 @@ export default function example(options: ExampleOptions): Rule {
 		]);
 		const rule = chain([
 			branchAndMerge(chain([
-				// addDeclarationToNgModule(options),
+				updateIndex(options, 'module'),
 				mergeWith(templateSource)
 			]))
 		]);

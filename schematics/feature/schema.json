@@ -1,0 +1,46 @@
+{
+	"$schema": "http://json-schema.org/schema",
+	"id": "SchemanticsForFeature",
+	"title": "Feature Schema",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"$default": {
+				"$source": "argv",
+				"index": 0
+			}
+		},
+		"path": {
+			"type": "string",
+			"format": "path",
+			"description": "The path to create the component.",
+			"visible": false
+		},
+		"project": {
+			"type": "string",
+			"description": "The name of the project.",
+			"$default": {
+				"$source": "projectName"
+			}
+		},
+		"module": {
+			"type": "string",
+			"description": "The declaring module.",
+			"alias": "m"
+		},
+		"title": {
+			"type": "string",
+			"description": "The title of the feature.",
+			"alias": "t"
+		},
+		"scss": {
+			"type": "string",
+			"description": "The name of the feature in the scss package."
+		},
+		"ng": {
+			"type": "string",
+			"description": "The name of the feature in the ng package."
+		}
+	}
+}
