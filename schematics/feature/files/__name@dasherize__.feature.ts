@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IFeatureInfos, DsDocApiService } from '@ds/commons';
 declare var require: any;
 @Component({
-	selector: 'ds-<%=dasherize(name)%>-feature',
+	selector: '<%=prefix%>-<%=dasherize(name)%>-feature',
 	templateUrl: './<%=dasherize(name)%>.feature.html',
 })
 export class <%=classify(name)%>Feature {
