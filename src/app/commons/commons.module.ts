@@ -8,6 +8,7 @@ import { DsDocApiModule } from './doc-api';
 import { DsStructureModule } from './structure';
 import { DsAssetModule } from './asset';
 import { DsMarkdownModule } from './markdown';
+import { DsNgDocsModule } from './ng-docs';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { CommonModule } from '@angular/common';
 		DsSafeContentModule,
 		DsAssetModule,
 		DsMarkdownModule,
+		DsNgDocsModule
 		CommonModule,
 	],
 	exports: [
@@ -31,6 +33,7 @@ import { CommonModule } from '@angular/common';
 		DsSafeContentModule,
 		DsAssetModule,
 		DsMarkdownModule,
+		DsNgDocsModule
 		CommonModule,
 	],
 })
