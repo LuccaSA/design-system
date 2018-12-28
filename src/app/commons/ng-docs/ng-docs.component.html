@@ -1,5 +1,5 @@
 <div class="card">
-	<div class="card-content">
+	<div class="card-content u-paddingBottomReset">
 		<h2>Documentation</h2>
 		<h3>
 			<a href="https://github.com/LuccaSA/lucca-front/tree/master/packages/ng/{{ngDocs.fileName}}" target="_blank">{{ngDocs.className}}</a>
@@ -11,101 +11,109 @@
 			<code class="code">{{ngDocs.input.name}} | {{ngDocs.pipeName}}</code>
 			<code class="code" *ngFor="let arg of ngDocs.args">[:{{arg.name}}]</code>
 		</ng-container>
+	</div>
 
+	<section class="contentSection" *ngIf="ngDocs.selector || ngDocs.exportAs || moduleDoc">
+		<table class="table mod-small">
+			<tr class="table-body-row" *ngIf="ngDocs.selector">
+				<td class="table-body-row-cell">Selector</td>
+				<td class="table-body-row-cell">
+					<code class="code">{{ngDocs.selector}}</code>
+				</td>
+			</tr>
+			<tr *ngIf="ngDocs.exportAs">
+				<td class="table-body-row-cell">Exported as</td>
+				<td class="table-body-row-cell">
+					<code class="code">{{ngDocs.exportAs}}</code>
+				</td>
+			</tr>
+			<tr class="table-body-row"  *ngIf="moduleDoc">
+					<td class="table-body-row-cell label-cell">Declared module</td>
+					<td class="table-body-row-cell">
+						<code class="code">{{moduleDocList?.length > 0 ? moduleDocList?.join(' > ') + ' > ' : ''}}{{moduleDoc?.className}}</code>
+					</td>
+				</tr>
+		</table>
+	</section>
 
-		<section class="contentSection" *ngIf="ngDocs.selector || ngDocs.exportAs || moduleDoc">
+	<ng-template [ngIf]="ngDocs?.inputs?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
+				<h3>Inputs</h3>
+			</div>
 			<table class="table mod-small">
-				<tr class="table-body-row" *ngIf="ngDocs.selector">
-					<td class="table-body-row-cell">Selector</td>
-					<td class="table-body-row-cell">
-						<code class="code">{{ngDocs.selector}}</code>
-					</td>
-				</tr>
-				<tr *ngIf="ngDocs.exportAs">
-					<td class="table-body-row-cell">Exported as</td>
-					<td class="table-body-row-cell">
-						<code class="code">{{ngDocs.exportAs}}</code>
-					</td>
-				</tr>
-				<tr class="table-body-row"  *ngIf="moduleDoc">
-						<td class="table-body-row-cell label-cell">Declared module</td>
-						<td class="table-body-row-cell">
-							<code class="code">{{moduleDocList?.length > 0 ? moduleDocList?.join(' > ') + ' > ' : ''}}{{moduleDoc?.className}}</code>
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let input of ngDocs.inputs">
+						<td class="table-body-row-cell label-cell"><code class="code">{{input.name}}</code></td>
+						<td class="table-body-row-cell content-cell">
+							<div><i>Type: </i><code class="code">{{ input.type }}</code></div>
+							<ng-template [ngIf]="defaultInputValue(input) || hasConfigProperty(input)">
+								<div>
+									<span><i>Default value: </i><code class="code">{{ defaultInputValue(input) || '-' }}</code></span>
+									<span *ngIf="hasConfigProperty(input)">&mdash; initialized from {{ configServiceName }} service</span>
+								</div>
+							</ng-template>
+							<div>{{ input.description }}</div>
 						</td>
 					</tr>
+				</tbody>
 			</table>
 		</section>
+	</ng-template>
 
-		<ng-template [ngIf]="ngDocs?.inputs?.length">
-			<section class="contentSection">
-				<h3>Inputs</h3>
-				<table class="table mod-small">
-					<tbody class="table-body">
-						<tr class="table-body-row" *ngFor="let input of ngDocs.inputs">
-							<td class="table-body-row-cell label-cell"><code class="code">{{input.name}}</code></td>
-							<td class="table-body-row-cell content-cell">
-								<div><i>Type: </i><code class="code">{{ input.type }}</code></div>
-								<ng-template [ngIf]="defaultInputValue(input) || hasConfigProperty(input)">
-									<div>
-										<span><i>Default value: </i><code class="code">{{ defaultInputValue(input) || '-' }}</code></span>
-										<span *ngIf="hasConfigProperty(input)">&mdash; initialized from {{ configServiceName }} service</span>
-									</div>
-								</ng-template>
-								<div>{{ input.description }}</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-		</ng-template>
-
-		<ng-template [ngIf]="ngDocs?.outputs?.length">
-			<section class="contentSection">
+	<ng-template [ngIf]="ngDocs?.outputs?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
 				<h3>Outputs</h3>
-				<table class="table mod-small">
-					<tbody class="table-body">
-						<tr class="table-body-row" *ngFor="let output of ngDocs.outputs">
-							<td class="table-body-row-cell label-cell"><code class="code">{{output.name}}</code></td>
-							<td class="table-body-row-cell content-cell">{{output.description}}</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-		</ng-template>
+			</div>
+			<table class="table mod-small">
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let output of ngDocs.outputs">
+						<td class="table-body-row-cell label-cell"><code class="code">{{output.name}}</code></td>
+						<td class="table-body-row-cell content-cell">{{output.description}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</ng-template>
 
-		<ng-template [ngIf]="filterPublic(ngDocs.properties)?.length">
-			<section class="contentSection">
+	<ng-template [ngIf]="filterPublic(ngDocs.properties)?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
 				<h3>Properties</h3>
-				<table class="table mod-small">
-					<tbody class="table-body">
-						<tr class="table-body-row" *ngFor="let property of filterPublic(ngDocs.properties)">
-							<td class="table-body-row-cell label-cell"><code class="code">{{property.name}}</code></td>
-							<td class="table-body-row-cell content-cell">
-								<div><i>Type: </i><code class="code">{{ property.type }}</code></div>
-								<div style="margin: 10px 0">{{ property.description }}</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-		</ng-template>
+			</div>
+			<table class="table mod-small mod-card">
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let property of filterPublic(ngDocs.properties)">
+						<td class="table-body-row-cell label-cell"><code class="code">{{property.name}}</code></td>
+						<td class="table-body-row-cell content-cell">
+							<div><i>Type: </i><code class="code">{{ property.type }}</code></div>
+							<div style="margin: 10px 0">{{ property.description }}</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</ng-template>
 
-		<ng-template [ngIf]="filterPublic(ngDocs.methods)?.length">
-			<section class="contentSection">
+	<ng-template [ngIf]="filterPublic(ngDocs.methods)?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
 				<h3>Methods</h3>
-				<table class="table mod-small">
-					<tbody class="table-body">
-						<tr class="table-body-row" *ngFor="let method of filterPublic(ngDocs.methods)">
-							<td class="table-body-row-cell label-cell"><code class="code">{{method.name}}</code></td>
-							<td class="table-body-row-cell content-cell">
-								<div><i>Signature: </i><code class="code">{{ methodSignature(method) }}</code></div>
-								<div><i>Return type: </i><code class="code">{{ method.returnType }}</code></div>
-								<div style="margin: 10px 0">{{ method.description }}</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</section>
-		</ng-template>
-	</div>
+			</div>
+			<table class="table mod-small">
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let method of filterPublic(ngDocs.methods)">
+						<td class="table-body-row-cell label-cell"><code class="code">{{method.name}}</code></td>
+						<td class="table-body-row-cell content-cell">
+							<div><i>Signature: </i><code class="code">{{ methodSignature(method) }}</code></div>
+							<div><i>Return type: </i><code class="code">{{ method.returnType }}</code></div>
+							<div style="margin: 10px 0">{{ method.description }}</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</ng-template>
+
 </div>
