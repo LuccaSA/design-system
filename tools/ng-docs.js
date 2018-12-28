@@ -324,7 +324,7 @@ class APIDocVisitor {
   }
 }
 
-function parseOutApiDocs(programFiles) {
+function parseOutNgDocs(programFiles) {
   var apiDocVisitor = new APIDocVisitor(programFiles);
 
   return programFiles.reduce(
@@ -339,14 +339,14 @@ function parseOutApiDocs(programFiles) {
 }
 
 
-function getApiDocs() {
-	return parseOutApiDocs(sourceFiles);
+function getNgDocs() {
+	return parseOutNgDocs(sourceFiles);
 }
 if (!fs.existsSync(distDir)) {
 	fs.mkdirSync(distDir);
 }
 
-const finalContent = `const NG_DOCS = ${JSON.stringify(getApiDocs(), null, 2)};\n\nexport default NG_DOCS;`;
+const finalContent = `const NG_DOCS = ${JSON.stringify(getNgDocs(), null, 2)};\n\nexport default NG_DOCS;`;
 
 fs.writeFile(fullFilePath, finalContent, (err) => {
 	if(err) throw err;

@@ -1,0 +1,20 @@
+<div class="card">
+	<div class="card-content">
+		<h3>
+			<a href="https://github.com/luccaSA/lucca-front/tree/master/packages/ng/{{ngDocs.fileName}}" target="_blank">{{ngDocs.className}}</a>
+		</h3>
+		<p>{{ngDocs.description}}</p>
+
+		<ng-template [ngIf]="ngDocs.properties && ngDocs.properties.length">
+			<section>
+				<h3>Properties</h3>
+				<p>
+					<ng-template ngFor let-property [ngForOf]="ngDocs.properties">
+						<code>{{ property.name }}</code>
+					</ng-template>
+					<i>&mdash; Documentation available in {{ directiveName }}</i>
+				</p>
+			</section>
+		</ng-template>
+	</div>
+</div>

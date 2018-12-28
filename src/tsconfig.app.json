@@ -15,6 +15,9 @@
       "@ds/commons": [
 				"app/commons/index"
 			],
+			"@ds-api/ng": [
+				"../api/ng-components.api"
+			]
 		}
   },
   "include": [
