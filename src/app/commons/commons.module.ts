@@ -21,7 +21,7 @@ import { CommonModule } from '@angular/common';
 		DsSafeContentModule,
 		DsAssetModule,
 		DsMarkdownModule,
-		DsNgDocsModule
+		DsNgDocsModule,
 		CommonModule,
 	],
 	exports: [
@@ -33,7 +33,7 @@ import { CommonModule } from '@angular/common';
 		DsSafeContentModule,
 		DsAssetModule,
 		DsMarkdownModule,
-		DsNgDocsModule
+		DsNgDocsModule,
 		CommonModule,
 	],
 })
