@@ -1,21 +1,16 @@
-<div class="card">
-  <div class="card-dependencies">
-    <label class="label palette-scss">SCSS</label>
-  </div>
-  <div class="card-content">
-    <h1 class="mod-headline">Utilitaires</h1>
-    <p class="strong">Les <i>utilitaires</i> sont des classes universelles à ajouter sur vos composant pour simplifier la mise en forme.</p>
-  </div>
-</div>
+<ds-title-block [infos]="infos">
+  <h1>Utilitaires</h1>
+  <p class="strong">Les <i>utilitaires</i> sont des classes universelles à ajouter sur vos composant pour simplifier la mise en forme.</p>
+</ds-title-block>
 
 <div class="card">
   <div class="card-content">
     <h2>Margins</h2>
-    <h3>Tout supprimer</h3>
+    <h4>Tout supprimer</h4>
   	<p>
   		<code class="code">u-marginReset</code>
   	</p>
-  	<h3>Bottom</h3>
+  	<h4>Bottom</h4>
   	<p>
   		<code class="code">u-marginBottomReset</code>
   		<code class="code">u-marginBottomSmaller</code>
@@ -25,7 +20,7 @@
   		<code class="code">u-marginBottomBigger</code>
   		<code class="code">u-marginBottomBiggest</code>
   	</p>
-  	<h3>Top</h3>
+  	<h4>Top</h4>
   	<p>
   		<code class="code">u-marginTopReset</code>
   		<code class="code">u-marginTopSmaller</code>
@@ -35,7 +30,7 @@
   		<code class="code">u-marginTopBigger</code>
   		<code class="code">u-marginTopBiggest</code>
   	</p>
-  	<h3>Right</h3>
+  	<h4>Right</h4>
   	<p>
   		<code class="code">u-marginRightReset</code>
   		<code class="code">u-marginRightSmaller</code>
@@ -45,7 +40,7 @@
   		<code class="code">u-marginRightbigger</code>
   		<code class="code">u-marginRightbiggest</code>
   	</p>
-  	<h3>Left</h3>
+  	<h4>Left</h4>
   	<p>
   		<code class="code">u-marginLeftReset</code>
   		<code class="code">u-marginLeftSmaller</code>
@@ -61,11 +56,11 @@
 <div class="card">
   <div class="card-content">
     <h2>Paddings</h2>
-    <h3>Tout supprimer</h3>
+    <h4>Tout supprimer</h4>
     <p>
       <code class="code">u-paddingReset</code>
     </p>
-    <h3>Bottom</h3>
+    <h4>Bottom</h4>
     <p>
       <code class="code">u-paddingBottomReset</code>
       <code class="code">u-paddingBottomSmaller</code>
@@ -75,7 +70,7 @@
       <code class="code">u-paddingBottomBigger</code>
       <code class="code">u-paddingBottomBiggest</code>
     </p>
-    <h3>Top</h3>
+    <h4>Top</h4>
     <p>
       <code class="code">u-paddingTopReset</code>
       <code class="code">u-paddingTopSmaller</code>
@@ -85,7 +80,7 @@
       <code class="code">u-paddingTopBigger</code>
       <code class="code">u-paddingTopBiggest</code>
     </p>
-    <h3>Right</h3>
+    <h4>Right</h4>
     <p>
       <code class="code">u-paddingRightReset</code>
       <code class="code">u-paddingRightSmaller</code>
@@ -95,7 +90,7 @@
       <code class="code">u-paddingRightBigger</code>
       <code class="code">u-paddingRightBiggest</code>
     </p>
-    <h3>Left</h3>
+    <h4>Left</h4>
     <p>
       <code class="code">u-paddingLeftReset</code>
       <code class="code">u-paddingLeftSmaller</code>
@@ -184,6 +179,18 @@
   	<p>Vous pouvez empêcher le retour à la ligne. Cela peut être utile pour forcer l'affichage en une ligne dans un tableau.</p>
   	<p>
   		<code class="code">u-nowrap</code>
+  	</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <h2>Ellipse</h2>
+  	<p>Vous pouvez utiliser une ellipse pour cacher une partie du texte. Vous aurez peut être à définir une largeur à coté conteneur.</p>
+
+    <div class="u-ellipsis" style="width:200px">Cotton candy cupcake sweet roll. Oat cake jelly chocolate carrot cake cotton candy macaroon croissant.</div>
+  	<p>
+  		<code class="code">u-ellipsis</code>
   	</p>
   </div>
 </div>
