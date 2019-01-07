@@ -14,13 +14,13 @@ export class ContainersComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				extra: 'Vous pouvez réduire ou augmenter sa largeur grâce à un mod : <code class="code">mod-xs</code>, <code class="code">mod-sm</code>, <code class="code">mod-md</code>, <code class="code">mod-lg</code>, <code class="code">mod-xl</code>, <code class="code">mod-xxl</code>	or <code class="code">mod-xxxl</code>'
 			}
 		],
-		theme: this.docApi.theme('breakpoints')
+		theme: this.docApi.theme('container')
 	};
 	constructor( private docApi: DsDocApiService ) { }
 

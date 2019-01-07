@@ -20,7 +20,7 @@ export class TablesComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.component.html'),
 				extra: `Vous pouvez aligner en haut le contenu des cellules via le mod <code class="code">table mod-alignTop</code>`

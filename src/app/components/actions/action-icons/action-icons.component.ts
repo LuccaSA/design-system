@@ -15,15 +15,15 @@ export class ActionIconsComponent {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
 			},
 			{
-				title: 'Status',
+				title: 'Disabled',
 				component: StatusExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./status/status.example.html'),
-				extra: 'Vous pouvez désactiver un icon d\'action avec la classe < code class= "code" > is-disabled </code>, mais vous ne pourrez plus utiliser de tooltip'
+				extra: `Vous pouvez désactiver un icon d'action avec la classe <code class= "code">is-disabled</code>, mais vous ne pourrez plus utiliser de tooltip`
 			}
 		],
 		theme: this.docApi.theme('actionIcon')

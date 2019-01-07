@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { DsCommonsModule } from '@ds/commons';
 import { TextfieldsComponent } from './textfields.component';
 import { BasicExampleComponent } from './basic/basic.example';
-import { InputModsExampleComponent } from './input-mods/input-mods.example';
+import { StylesExampleComponent } from './styles/styles.example';
 import { SizesExampleComponent } from './sizes/sizes.example';
 import { MessagesExampleComponent } from './messages/messages.example';
 import { ValidationExampleComponent } from './validation/validation.example';
@@ -17,7 +17,7 @@ import { TextareaExampleComponent } from './textarea/textarea.example';
 	declarations: [
 		TextfieldsComponent,
 		BasicExampleComponent,
-		InputModsExampleComponent,
+		StylesExampleComponent,
 		SizesExampleComponent,
 		MessagesExampleComponent,
 		ValidationExampleComponent,
@@ -30,7 +30,7 @@ import { TextareaExampleComponent } from './textarea/textarea.example';
 	entryComponents: [
 		TextfieldsComponent,
 		BasicExampleComponent,
-		InputModsExampleComponent,
+		StylesExampleComponent,
 		SizesExampleComponent,
 		MessagesExampleComponent,
 		ValidationExampleComponent,

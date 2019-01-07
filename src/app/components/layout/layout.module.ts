@@ -5,6 +5,7 @@ import { DsGridModule } from './grid/grid.module';
 import { DsCardsModule } from './cards/cards.module';
 import { DsEmptyStatesModule } from './empty-states/empty-states.module';
 import { DsContainersModule } from './containers/containers.module';
+import { DsSectionsModule } from './sections/sections.module';
 
 @NgModule({
 	imports: [
@@ -13,6 +14,7 @@ import { DsContainersModule } from './containers/containers.module';
 		DsCardsModule,
 		DsEmptyStatesModule,
 		DsContainersModule,
+		DsSectionsModule,
 	],
 	entryComponents: [
 		TemplatesComponent,

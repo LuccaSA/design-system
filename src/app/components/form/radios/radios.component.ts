@@ -27,6 +27,9 @@ export class RadiosComponent implements OnInit {
 				title: 'En ligne',
 				component: InlineExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./inline/inline.example.html'),
+				extra: `
+				Outside radiosfield, you can add "mod-inline" class to your radio to set it inline
+				`
 			},
 			{
 				title: 'Palettes',

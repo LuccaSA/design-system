@@ -15,7 +15,7 @@ export class ListsComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				extra: 'Supprimez <code class="code">list-item-actions</code> pour laisser toute la largeur aux contenus'

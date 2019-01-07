@@ -16,8 +16,7 @@ export class ChipsComponent implements OnInit {
 		packages: ['SCSS'],
 		examples: [
 			{
-				title: 'Basic',
-				description: 'A basic description on how you should use chips',
+				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
 			},
