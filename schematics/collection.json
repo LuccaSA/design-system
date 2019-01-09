@@ -26,6 +26,5 @@
 			"factory": "./example",
 			"schema": "./example/schema.json"
 		}
-		
 	}
 }
