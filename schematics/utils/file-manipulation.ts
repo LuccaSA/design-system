@@ -27,7 +27,7 @@ export function addComponentDeclarationToModule(
 		}
 		const modulePath = options.module;
 		let source = readIntoSourceFile(host, modulePath);
-		const componentPath = `/${options.path}/${strings.dasherize(options.name)}/${strings.dasherize(options.name)}.${fileExtension}`;
+		const componentPath = `/${options.path}/${strings.dasherize(options.name)}.${fileExtension}`;
 		const relativePath = buildRelativePath(modulePath, componentPath);
 		const classifiedName = strings.classify(`${options.name}${classExtension}`);
 		const declarationChanges = addDeclarationToModule(source, modulePath, classifiedName, relativePath);

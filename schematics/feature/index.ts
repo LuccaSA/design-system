@@ -32,11 +32,10 @@ export default function example(options: IFeatureOptions): Rule {
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
 
-		options.module = findModuleFromOptions(tree, options);
-
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
+		options.module = `${parsedPath.path}/${parsedPath.name}/${parsedPath.name}.module.ts`;
 
 		const templateSource = apply(url('./files'), [
 			template({
