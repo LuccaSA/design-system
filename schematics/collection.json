@@ -21,11 +21,6 @@
 			"factory": "./feature",
 			"schema": "./feature/schema.json"
 		},
-		"fullfeature": {
-			"description": "Generate a full feature for the design system",
-			"factory": "./feature/full",
-			"schema": "./feature/schema.json"
-		},
 		"example": {
 			"description": "Generate an example for the design system",
 			"factory": "./example",
