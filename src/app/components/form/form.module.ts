@@ -7,6 +7,7 @@ import { DsCheckboxesModule } from './checkboxes/checkboxes.module';
 import { DsSwitchesModule } from './switches/switches.module';
 import { DsFramedModule } from './framed/framed.module';
 import { DsFileModule } from './file/file.module';
+import { DsRadioButtonsModule } from './radio-buttons';
 
 @NgModule({
 	imports: [
@@ -16,7 +17,8 @@ import { DsFileModule } from './file/file.module';
 		DsCheckboxesModule,
 		DsSwitchesModule,
 		DsFramedModule,
-		DsFileModule
+		DsFileModule,
+		DsRadioButtonsModule,
 	],
 	entryComponents: [
 		SelectComponent,
