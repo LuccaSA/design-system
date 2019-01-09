@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
 	selector: 'ds-<%=dasherize(name)%>-example',
 	templateUrl: './<%=dasherize(name)%>.example.html'
 })
-export class <%= classify(name) %>ExampleComponent {
+export class <%= classify(name) %>Example {
 	constructor() {}
 }

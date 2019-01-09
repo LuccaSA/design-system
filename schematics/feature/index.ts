@@ -9,7 +9,8 @@ import {
 	move,
 	chain,
 	branchAndMerge,
-	mergeWith } from '@angular-devkit/schematics';
+	mergeWith,
+} from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
