@@ -55,27 +55,14 @@ export function addComponentDeclarationToModule(
 	};
 }
 
-
 function insertExport(fileToEdit: string, fileName: string): Change {
 	const exportStatement = `export * from '${fileName}';\n`;
 	return new InsertChange(fileToEdit, 0, exportStatement);
 }
-// function getTsSourceFile(host: Tree, path: string): ts.SourceFile {
-// 	const buffer = host.read(path);
-// 	if (!buffer) {
-// 		throw new SchematicsException(`Could not read file (${path}).`);
-// 	}
-// 	const content = buffer.toString();
-// 	const source = ts.createSourceFile(path, content, ts.ScriptTarget.Latest, true);
 
-// 	return source;
-// }
 export function updateIndex(options: IOptions, fileExtension: string) {
 	return (host: Tree, context: SchematicContext) => {
-		context.logger.debug('updating index');
-		// find index file
 		const indexPath = `${options.path}/index.ts`;
-		// const indexFile = getTsSourceFile(host, indexPath);
 		const fileRelativePath = `./${strings.dasherize(options.name)}.${fileExtension}`;
 
 		const change = insertExport(indexPath, fileRelativePath);
