@@ -9,7 +9,9 @@ import {
 	move,
 	chain,
 	branchAndMerge,
-	mergeWith } from '@angular-devkit/schematics';
+	mergeWith,
+	schematic,
+} from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
@@ -18,6 +20,7 @@ import { addComponentDeclarationToModule, updateIndex } from '../utils/file-mani
 
 export default function example(options: IFeatureOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
+		const initialoptions = { ...options };
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
 			options.project = Object.keys(workspace.projects)[0];
@@ -29,25 +32,28 @@ export default function example(options: IFeatureOptions): Rule {
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
 
-		options.module = findModuleFromOptions(tree, options);
-
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
+		options.module = `${parsedPath.path}/${parsedPath.name}/${parsedPath.name}.module.ts`;
 
 		const templateSource = apply(url('./files'), [
 			template({
 				...strings,
 				...options,
 			}),
-			move(options.path)
+			move(options.path),
 		]);
 		const rule = chain([
-			branchAndMerge(chain([
-				addComponentDeclarationToModule(options, 'feature'),
-				updateIndex(options, 'page'),
-				mergeWith(templateSource)
-			]))
+			branchAndMerge(
+				chain([
+					schematic('index', initialoptions),
+					schematic('module', initialoptions),
+					mergeWith(templateSource),
+				])
+			),
+			updateIndex(options, 'page'),
+			addComponentDeclarationToModule(options, 'feature'),
 		]);
 		return rule(tree, _context);
 	};

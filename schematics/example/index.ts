@@ -8,7 +8,6 @@ import {
 	template,
 	move,
 	chain,
-	branchAndMerge,
 	mergeWith } from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
@@ -33,7 +32,7 @@ export default function example(options: IExampleOptions): Rule {
 
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
-		options.path = parsedPath.path;
+		options.path = `${parsedPath.path}/${parsedPath.name}`;
 
 		const templateSource = apply(url('./files'), [
 			template({
@@ -43,10 +42,8 @@ export default function example(options: IExampleOptions): Rule {
 			move(options.path)
 		]);
 		const rule = chain([
-			branchAndMerge(chain([
-				addComponentDeclarationToModule(options, 'example', 'Example', true),
-				mergeWith(templateSource)
-			]))
+			mergeWith(templateSource),
+			addComponentDeclarationToModule(options, 'example', 'Example', true),
 		]);
 		return rule(tree, _context);
 	};

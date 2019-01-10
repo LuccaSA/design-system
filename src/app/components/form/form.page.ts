@@ -6,6 +6,7 @@ import { radiosPage } from './radios/radios.page';
 import { selectPage } from './select/select.page';
 import { switchesPage } from './switches/switches.page';
 import { textfieldsPage } from './textfields/textfields.page';
+import { radioButtonsPage } from './radio-buttons';
 
 export const formPage = new GroupPage(
 	'form',
@@ -15,6 +16,7 @@ export const formPage = new GroupPage(
 		selectPage,
 		checkboxesPage,
 		radiosPage,
+		radioButtonsPage,
 		switchesPage,
 		filePage,
 		framedPage,
