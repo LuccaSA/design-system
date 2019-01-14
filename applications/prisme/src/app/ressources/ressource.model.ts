@@ -1,4 +1,4 @@
-import { IAsset } from "@ds/commons";
+import { IAsset } from '@prisme/common';
 
 export interface IRessourceAsset extends IAsset {
 	name: string;

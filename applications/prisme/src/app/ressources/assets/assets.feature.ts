@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IFeatureInfos } from '@ds/commons';
+import { IFeatureInfos } from '@prisme/common';
 import {
 	luccaColorJpg72,
 	luccaColorJpg150,
@@ -20,11 +20,11 @@ import {
 } from './assets.model';
 
 @Component({
-	selector: 'ds-assets',
-	templateUrl: './assets.component.html',
-	styleUrls: ['./assets.component.scss']
+	selector: 'pri-assets',
+	templateUrl: './assets.feature.html',
+	styleUrls: ['./assets.feature.scss']
 })
-export class AssetsComponent {
+export class AssetsFeature {
 	infos: IFeatureInfos = {
 		title: 'Logos Luca',
 	};

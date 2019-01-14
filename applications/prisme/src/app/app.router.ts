@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-// import { ressourcesPage, DsRessourcesModule } from './ressources';
+import { ressourcesPage, RessourcesModule } from './ressources';
 // import { principlesPage, DsPrinciplesModule } from './principles';
 // import { contentPage, DsContentModule } from './content';
 // import { componentsPage, DsComponentsModule } from './components';
 import { IPage } from '@prisme/common';
 
 const routes = [
-	// { ...ressourcesPage.toRoute(), loadChildren: () => DsRessourcesModule },
+	{ ...ressourcesPage.toRoute(), loadChildren: () => RessourcesModule },
 	// { ...componentsPage.toRoute(), loadChildren: () => DsComponentsModule },
 	// { ...contentPage.toRoute(), loadChildren: () => DsContentModule },
 	// { ...principlesPage.toRoute(), loadChildren: () => DsPrinciplesModule },
@@ -16,7 +16,7 @@ export const searchableIndex: IPage[] = [
 	// ...componentsPage.toIndex(),
 	// ...contentPage.toIndex(),
 	// ...principlesPage.toIndex(),
-	// ...ressourcesPage.toIndex(),
+	...ressourcesPage.toIndex(),
 ];
 
 export const appRoutes: Routes = [

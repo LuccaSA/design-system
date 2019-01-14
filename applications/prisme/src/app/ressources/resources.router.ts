@@ -10,4 +10,4 @@ import { ressourcesPage } from './ressources.page';
 		RouterModule,
 	],
 })
-export class DsResourcesRoutingModule {}
+export class ResourcesRoutingModule {}

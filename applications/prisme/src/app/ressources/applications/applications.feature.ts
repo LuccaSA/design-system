@@ -22,14 +22,14 @@ import {
 	paggaIllu,
 	timmiIllu,
 } from './logo.model';
-import { IFeatureInfos } from '@ds/commons';
+import { IFeatureInfos } from '@prisme/common';
 
 @Component({
-	selector: 'ds-logos',
-	templateUrl: './applications.component.html',
-	styleUrls: ['./applications.component.scss']
+	selector: 'pri-logos',
+	templateUrl: './applications.feature.html',
+	styleUrls: ['./applications.feature.scss']
 })
-export class ApplicationsComponent {
+export class ApplicationsFeature {
 	infos: IFeatureInfos = {
 		title: 'Illustrations des apps',
 	};
