@@ -5,6 +5,7 @@ import { AssetModule } from './asset/index';
 import { EnvironmentModule } from './environment/index';
 import { FeatureModule } from './feature/index';
 import { PageModule } from './page/index';
+import { ToolModule } from './tool/index';
 
 @NgModule({
 	imports: [
@@ -14,6 +15,7 @@ import { PageModule } from './page/index';
 		FeatureModule,
 		MarkdownModule,
 		PageModule,
+		ToolModule,
 	],
 	exports: [
 		NgCommonModule,
@@ -22,6 +24,7 @@ import { PageModule } from './page/index';
 		FeatureModule,
 		MarkdownModule,
 		PageModule,
+		ToolModule,
 	],
 })
 export class CommonModule {}

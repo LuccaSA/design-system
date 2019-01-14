@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 
 import { ToolComponent } from './tool.component';
-import { DsAssetModule } from '../asset';
+import { AssetModule } from '../asset/index';
 
 @NgModule({
 	imports: [
-		DsAssetModule
+		AssetModule
 	],
 	declarations: [
 		ToolComponent
@@ -17,4 +17,4 @@ import { DsAssetModule } from '../asset';
 		ToolComponent,
 	]
 })
-export class DsToolModule { }
+export class ToolModule { }
