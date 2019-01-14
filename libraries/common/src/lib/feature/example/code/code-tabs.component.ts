@@ -9,19 +9,19 @@ import {
 	ComponentFactoryResolver,
 	ChangeDetectorRef,
 	ChangeDetectionStrategy} from '@angular/core';
-import { TabComponent } from './tab/tab.component';
-import { IExample } from '../structure';
+import { CodeTabComponent } from './code-tab.component';
+import { IExample } from '../example.model';
 
 @Component({
-	selector: 'ds-code-tabs',
+	selector: 'pri-code-tabs',
 	templateUrl: './code-tabs.component.html',
 	styleUrls: ['./code-tabs.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 
 })
-export class DsCodeTabsComponent implements AfterViewInit {
+export class CodeTabsComponent implements AfterViewInit {
 
-	@ViewChildren(TabComponent) tabsQL: QueryList<TabComponent>;
+	@ViewChildren(CodeTabComponent) tabsQL: QueryList<CodeTabComponent>;
 	@ViewChild('display', {read: ViewContainerRef}) display: ViewContainerRef;
 	@Input()
 	set example(example: IExample) {
@@ -35,7 +35,7 @@ export class DsCodeTabsComponent implements AfterViewInit {
 	tsCode: string;
 
 	private _example: IExample;
-	private activeTab: TabComponent;
+	private activeTab: CodeTabComponent;
 	constructor(private cd: ChangeDetectorRef, private cfr: ComponentFactoryResolver) {}
 
 	ngAfterViewInit() {
@@ -49,7 +49,7 @@ export class DsCodeTabsComponent implements AfterViewInit {
 		this.display.createComponent(componentFactory);
 	}
 
-	public selectTab(selectedTab: TabComponent) {
+	public selectTab(selectedTab: CodeTabComponent) {
 		this.tabsQL.forEach(tab => tab.active = false);
 		selectedTab.active = true;
 		this.activeTab = selectedTab;

@@ -3,6 +3,7 @@ import { CommonModule as NgCommonModule } from '@angular/common';
 import { MarkdownModule } from './markdown/index';
 import { AssetModule } from './asset/index';
 import { EnvironmentModule } from './environment/index';
+import { FeatureModule } from './feature/index';
 import { PageModule } from './page/index';
 
 @NgModule({
@@ -10,6 +11,7 @@ import { PageModule } from './page/index';
 		NgCommonModule,
 		AssetModule,
 		EnvironmentModule,
+		FeatureModule,
 		MarkdownModule,
 		PageModule,
 	],
@@ -17,6 +19,7 @@ import { PageModule } from './page/index';
 		NgCommonModule,
 		AssetModule,
 		EnvironmentModule,
+		FeatureModule,
 		MarkdownModule,
 		PageModule,
 	],

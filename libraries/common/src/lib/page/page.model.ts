@@ -61,25 +61,7 @@ export abstract class APage implements IPage {
 	abstract toIndex(): IPage[];
 }
 
-export class FeaturePage extends APage implements IPage {
-	component;
-	constructor(
-		path: string,
-		title: string,
-		component: any,
-		keywords: string[] = [],
-	) {
-		super(path, title, keywords);
-		this.component = component;
-	}
-	toRoute() {
-		return { path: this.path, component: this.component } as Route;
-	}
-	toIndex() {
-		const clone = Object.create(this);
-		return [clone];
-	}
-}
+
 export class GroupPage extends APage implements IPage {
 	constructor(
 		path: string,

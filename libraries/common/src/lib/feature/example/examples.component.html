@@ -9,12 +9,12 @@
 </div>
 
 <div class="example-display" *ngIf="selectedExample">
-	<p class="description" *ngIf="selectedExample.description" [innerHtml]="selectedExample.description | safeContent: 'html'"></p>
-	<ds-code-tabs [example]="selectedExample"></ds-code-tabs>
+	<p class="description" *ngIf="selectedExample.description" [innerHtml]="selectedExample.description | priSafeContent: 'html'"></p>
+	<pri-code-tabs [example]="selectedExample"></pri-code-tabs>
 	<div class="callout mod-icon palette-ng" *ngIf="selectedExample.extra != null">
 		<div class="callout-icon">
 			<i class="lucca-icon">info</i>
 		</div>
-		<span class="extra-infos" [innerHtml]="selectedExample.extra | safeContent: 'html'"></span>
+		<span class="extra-infos" [innerHtml]="selectedExample.extra | priSafeContent: 'html'"></span>
 	</div>
 </div>

@@ -1,17 +1,17 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IExample } from './example.model';
-import { DsExampleService } from './example.service';
+import { ExampleService } from './example.service';
 
 @Component({
-	selector: 'ds-examples-browser',
-	templateUrl: './examples-browser.component.html',
-	styleUrls: ['./examples-browser.component.scss']
+	selector: 'pri-examples',
+	templateUrl: './examples.component.html',
+	styleUrls: ['./examples.component.scss']
 })
-export class ExamplesBrowserComponent implements OnInit {
+export class ExamplesComponent implements OnInit {
 	@Input() examples: Array<IExample>;
 	selectedExample: IExample;
 
-	constructor(private exService: DsExampleService) {}
+	constructor(private exService: ExampleService) {}
 
 	ngOnInit() {
 		this.selectedExample = this.exService.getCurrentExample(this.examples);

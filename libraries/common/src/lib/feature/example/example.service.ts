@@ -3,9 +3,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { IExample } from './example.model';
 
 @Injectable()
-export class DsExampleService {
+export class ExampleService {
 
-	constructor(private route: ActivatedRoute, private router: Router) {}
+	constructor(protected route: ActivatedRoute, protected router: Router) {}
 
 	getCurrentExample(examples: IExample[]): IExample {
 		const exampleName = this.route.snapshot.queryParamMap.get('example');
@@ -26,6 +26,4 @@ export class DsExampleService {
 		slug = slug.replace(/[\s-]+/g, '-');
 		return slug;
 	}
-
-
 }
