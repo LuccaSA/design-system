@@ -2,7 +2,7 @@ import { ModuleWithProviders, NgModule } from '@angular/core';
 import { BASE_URL } from './base-url.token';
 @NgModule({})
 export class EnvironmentModule {
-	public static forRoot(options: { baseUrl: string }): ModuleWithProviders {
+	public static forRoot(options: { baseUrl?: string }): ModuleWithProviders {
 		return {
 			ngModule: EnvironmentModule,
 			providers: [
