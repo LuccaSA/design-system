@@ -4,6 +4,7 @@
   "lib": {
     "entryFile": "src/public_api.ts",
     "styleIncludePaths": [
+      "../../theming",
       "../../node_modules/@lucca-front/scss/src/overrides",
       "../../node_modules/@lucca-front/ng/style/overrides"
     ]

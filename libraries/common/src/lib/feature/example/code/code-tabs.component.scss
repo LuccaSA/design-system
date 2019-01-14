@@ -27,10 +27,10 @@ ul {
 	justify-content: center;
 	margin: 0;
 	&.is-active {
-		background: _color('ds');
+		background: _color('prisme');
 	}
 	&:hover {
-		background: _color('ds', 'dark');
+		background: _color('prisme', 'dark');
 	}
 }
 
@@ -48,12 +48,12 @@ ul {
 	flex-wrap: wrap;
 	padding: 0 1px 1px 0;
 }
-ds-tab {
+pri-code-tab {
 	display: block;
 	width: 100%;
 	&.mod-splitView {
 		display: inline-block;
-		@include fakeBorder(1px, _color("ds", "text"));
+		@include fakeBorder(1px, _color("prisme", "text"));
 		flex: 0 0 auto;
 		&.display-tab {
 			width: 40%
@@ -69,9 +69,9 @@ ds-tab {
 
 .tab-title {
 	padding: .2rem .5rem;
-	background: _color("ds");
-	color: _color("ds", "text");
-	@include fakeBorder(1px, _color("ds", "text"));
+	background: _color("prisme");
+	color: _color("prisme", "text");
+	@include fakeBorder(1px, _color("prisme", "text"));
 	font-weight: 600;
 	position: sticky;
 	top: 0;

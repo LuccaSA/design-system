@@ -1,0 +1,16 @@
+<div class="card-dependencies" *ngIf="infos.packages">
+	<span *ngFor="let package of infos.packages" class="label {{packagePalette(package)}}">{{package}}</span>
+</div>
+
+<section class="contentSection">
+	<h1 class="u-marginBottomSmaller">{{infos.title}}</h1>
+	<ng-content></ng-content>
+</section>
+
+<ng-container *ngIf="infos.examples">
+	<pri-examples [examples]="infos.examples"></pri-examples>
+</ng-container>
+
+<ng-container *ngIf="infos.theme">
+	<pri-theme [theme]="infos.theme"></pri-theme>
+</ng-container>

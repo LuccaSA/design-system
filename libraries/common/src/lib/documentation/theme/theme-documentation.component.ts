@@ -1,28 +1,28 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IThemeProperty, ThemePropertyType } from '../../../models/theme.model';
-import { DsDocApiService } from '../../doc-api';
+import { IThemeDocumentation, ThemeDocumentationType } from './theme-documentation.model';
+import { ThemeDocumentationService } from './theme-documentation.service';
 
 @Component({
-	selector: 'ds-theme-displayer',
-	templateUrl: './theme-displayer.component.html',
-	styleUrls: ['./theme-displayer.component.scss']
+	selector: 'pri-theme',
+	templateUrl: './theme-documentation.component.html',
+	styleUrls: ['./theme-documentation.component.scss']
 })
-export class DsThemeDisplayerComponent implements OnInit {
-	@Input() theme: IThemeProperty;
-	type: any = ThemePropertyType;
-	get flatTheme(): IThemeProperty[] {
+export class ThemeDocumentationComponent implements OnInit {
+	@Input() theme: IThemeDocumentation;
+	type: any = ThemeDocumentationType;
+	get flatTheme(): IThemeDocumentation[] {
 		return [].concat(...this.theme.children.map(
-			(acc: IThemeProperty) => this.flattenChildren(acc)));
+			(acc: IThemeDocumentation) => this.flattenChildren(acc)));
 	}
 
-	constructor(private docApi: DsDocApiService) {}
+	constructor(private docService: ThemeDocumentationService) {}
 	ngOnInit(): void {}
 
-	private flattenChildren(prop: IThemeProperty, parentName: string = ''): IThemeProperty[] {
+	private flattenChildren(prop: IThemeDocumentation, parentName: string = ''): IThemeDocumentation[] {
 		if (!prop.children) {
 			return [this.processValue(prop)];
 		}
-		const result: IThemeProperty[] = [];
+		const result: IThemeDocumentation[] = [];
 		for (let p of prop.children) {
 			if (p.children) {
 				const prefix = parentName !== '' ? parentName + '.' + prop.name : prop.name;
@@ -40,7 +40,7 @@ export class DsThemeDisplayerComponent implements OnInit {
 		return result;
 	}
 
-	private processValue(property: IThemeProperty): IThemeProperty {
+	private processValue(property: IThemeDocumentation): IThemeDocumentation {
 		if (property.value.includes('_color')) {
 			return this.processColorValue(property);
 		} else if (property.value.includes('_theme')) {
@@ -49,7 +49,7 @@ export class DsThemeDisplayerComponent implements OnInit {
 		return property;
 	}
 
-	private processThemeValue(property: IThemeProperty): IThemeProperty {
+	private processThemeValue(property: IThemeDocumentation): IThemeDocumentation {
 		const regex = new RegExp('"(.*?)"');
 		const result = regex.exec(property.value);
 		const path = result[1].split('.');
@@ -59,13 +59,13 @@ export class DsThemeDisplayerComponent implements OnInit {
 				name: property.name,
 				value: property.value,
 				realValue: realValue,
-				type: ThemePropertyType.VAR
+				type: ThemeDocumentationType.VAR
 			};
 		}
 		return property;
 	}
 
-	private processColorValue(property: IThemeProperty): IThemeProperty {
+	private processColorValue(property: IThemeDocumentation): IThemeDocumentation {
 		const regex = new RegExp('"(.*?)"', 'g');
 		const path = ['palettes'];
 		let result;
@@ -86,14 +86,14 @@ export class DsThemeDisplayerComponent implements OnInit {
 				name: property.name,
 				value: property.value,
 				realValue: realValue,
-				type: ThemePropertyType.COLOR
+				type: ThemeDocumentationType.COLOR
 			};
 		}
 		return property;
 	}
 
 	private findProperty(path: string[]): string {
-		let node = this.docApi.theme(path[0]);
+		let node = this.docService.theme(path[0]);
 		if (!node) {
 			return;
 		}
