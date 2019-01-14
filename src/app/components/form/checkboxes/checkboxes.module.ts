@@ -5,6 +5,7 @@ import { BasicExampleComponent } from './basic/basic.example';
 import { InlineExampleComponent } from './inline/inline.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { PartialExampleComponent } from './partial/partial.example';
+import { BigExample } from './big/big.example';
 
 @NgModule({
 	imports: [DsCommonsModule],
@@ -14,6 +15,7 @@ import { PartialExampleComponent } from './partial/partial.example';
 		InlineExampleComponent,
 		PalettesExampleComponent,
 		PartialExampleComponent,
+		BigExample,
 	],
 	entryComponents: [
 		CheckboxesComponent,
@@ -21,6 +23,7 @@ import { PartialExampleComponent } from './partial/partial.example';
 		InlineExampleComponent,
 		PalettesExampleComponent,
 		PartialExampleComponent,
+		BigExample,
 	]
 })
 export class DsCheckboxesModule { }

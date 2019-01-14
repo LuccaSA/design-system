@@ -14,7 +14,7 @@ export class RadioButtonsFeature {
 				title: 'Basique',
 				component: BasicExample,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
-				extra: `peut etre utilise en tant que radio ou checkbox`
+				extra: `Peut être utilisé comme checkbox`
 			},
 		],
 		packages: [

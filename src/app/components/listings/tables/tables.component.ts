@@ -7,6 +7,7 @@ import { SortableExampleComponent } from './sortable/sortable.component';
 import { ActionsExampleComponent } from './actions/actions.component';
 import { CardExampleComponent } from './card/card.component';
 import { FiltersExampleComponent } from './filters/filters.component';
+import { DraggableExample } from './draggable/draggable.example';
 declare var require: any;
 
 @Component({
@@ -45,6 +46,11 @@ export class TablesComponent implements OnInit {
 				title: 'Actions',
 				component: ActionsExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./actions/actions.component.html'),
+			},
+			{
+				title: 'Draggable',
+				component: DraggableExample,
+				code: require('!!prismjs-loader?lang=markup!./draggable/draggable.example.html'),
 			},
 			{
 				title: 'Card',

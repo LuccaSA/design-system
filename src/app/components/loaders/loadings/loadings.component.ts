@@ -3,6 +3,8 @@ import { IFeatureInfos } from '@ds/commons';
 import { BasicExampleComponent } from './basic/basic.example';
 import { LabelExampleComponent } from './label/label.example';
 import { BlockExampleComponent } from './block/block.example';
+import { BigExample } from './big/big.example';
+import { FullPageExample } from './full-page/full-page.example';
 import { InvertedExampleComponent } from './inverted/inverted.example';
 declare var require: any;
 
@@ -31,6 +33,16 @@ export class LoadingsComponent implements OnInit {
 				description: `Le mod "block" permet d'afficher un chargement sur une section entière.`,
 				component: BlockExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./block/block.example.html'),
+			},
+			{
+				title: 'Gros',
+				component: BigExample,
+				code: require('!!prismjs-loader?lang=markup!./big/big.example.html'),
+			},
+			{
+				title: 'Pleine page',
+				component: FullPageExample,
+				code: require('!!prismjs-loader?lang=markup!./full-page/full-page.example.html'),
 			},
 			{
 				title: 'Inversé',

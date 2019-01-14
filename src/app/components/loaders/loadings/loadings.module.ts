@@ -5,6 +5,8 @@ import { BasicExampleComponent } from './basic/basic.example';
 import { LabelExampleComponent } from './label/label.example';
 import { BlockExampleComponent } from './block/block.example';
 import { InvertedExampleComponent } from './inverted/inverted.example';
+import { BigExample } from './big/big.example';
+import { FullPageExample } from './full-page/full-page.example';
 
 @NgModule({
 	imports: [DsCommonsModule],
@@ -14,6 +16,8 @@ import { InvertedExampleComponent } from './inverted/inverted.example';
 		LabelExampleComponent,
 		BlockExampleComponent,
 		InvertedExampleComponent,
+		BigExample,
+		FullPageExample,
 	],
 	entryComponents: [
 		LoadingsComponent,
@@ -21,6 +25,8 @@ import { InvertedExampleComponent } from './inverted/inverted.example';
 		LabelExampleComponent,
 		BlockExampleComponent,
 		InvertedExampleComponent,
+		BigExample,
+		FullPageExample,
 	]
 })
 export class DsLoadingsModule { }

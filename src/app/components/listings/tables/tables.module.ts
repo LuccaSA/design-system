@@ -8,6 +8,7 @@ import { SortableExampleComponent } from './sortable/sortable.component';
 import { ActionsExampleComponent } from './actions/actions.component';
 import { CardExampleComponent } from './card/card.component';
 import { FiltersExampleComponent } from './filters/filters.component';
+import { DraggableExample } from './draggable/draggable.example';
 
 @NgModule({
 	imports: [
@@ -22,6 +23,7 @@ import { FiltersExampleComponent } from './filters/filters.component';
 		ActionsExampleComponent,
 		CardExampleComponent,
 		FiltersExampleComponent,
+		DraggableExample,
 	],
 	entryComponents: [
 		TablesComponent,
@@ -32,6 +34,7 @@ import { FiltersExampleComponent } from './filters/filters.component';
 		ActionsExampleComponent,
 		CardExampleComponent,
 		FiltersExampleComponent,
+		DraggableExample,
 	]
 })
 export class DsTablesModule { }

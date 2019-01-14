@@ -11,6 +11,7 @@ import { StatusExampleComponent } from './status/status.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { RadioExampleComponent } from './radio/radio.example';
 import { TextareaExampleComponent } from './textarea/textarea.example';
+import { InvertedExample } from './inverted/inverted.example';
 
 @NgModule({
 	imports: [DsCommonsModule],
@@ -26,6 +27,7 @@ import { TextareaExampleComponent } from './textarea/textarea.example';
 		PalettesExampleComponent,
 		RadioExampleComponent,
 		TextareaExampleComponent,
+		InvertedExample,
 	],
 	entryComponents: [
 		TextfieldsComponent,
@@ -39,6 +41,7 @@ import { TextareaExampleComponent } from './textarea/textarea.example';
 		PalettesExampleComponent,
 		RadioExampleComponent,
 		TextareaExampleComponent,
+		InvertedExample,
 	]
 })
 export class DsTextfieldsModule { }
