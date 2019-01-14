@@ -10,6 +10,7 @@ import { ValidationExampleComponent } from './validation/validation.example';
 import { RadioExampleComponent } from './radio/radio.example';
 import { TextareaExampleComponent } from './textarea/textarea.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
+import { InvertedExample } from './inverted/inverted.example';
 
 declare var require: any;
 
@@ -94,6 +95,11 @@ export class TextfieldsComponent implements OnInit {
 				Les couleurs de votre palette sont éditables via votre
 				<a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>
 				`
+			},
+			{
+				title: 'Inversé',
+				component: InvertedExample,
+				code: require('!!prismjs-loader?lang=markup!./inverted/inverted.example.html'),
 			},
 		],
 		theme: this.docApi.theme('textfield')
