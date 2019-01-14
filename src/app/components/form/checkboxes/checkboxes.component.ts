@@ -4,6 +4,7 @@ import { BasicExampleComponent } from './basic/basic.example';
 import { InlineExampleComponent } from './inline/inline.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { PartialExampleComponent } from './partial/partial.example';
+import { BigExample } from './big/big.example';
 declare var require: any;
 
 @Component({
@@ -37,6 +38,11 @@ export class CheckboxesComponent implements OnInit {
 				description: `Ce mod sert à afficher un état incomplet sur une checkbox de type "Sélectionner tout".`,
 				component: PartialExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./partial/partial.example.html'),
+			},
+			{
+				title: 'Big',
+				component: BigExample,
+				code: require('!!prismjs-loader?lang=markup!./big/big.example.html'),
 			},
 			{
 				title: 'Palettes',
