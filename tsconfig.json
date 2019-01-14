@@ -20,6 +20,9 @@
       "@ds/commons": [
         "app/commons/index"
       ],
+      "@prisme/common": [
+        "libraries/common/src/index"
+      ]
     }
   }
 }
