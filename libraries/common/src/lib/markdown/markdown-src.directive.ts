@@ -1,15 +1,15 @@
 import { Directive, Input, OnInit } from '@angular/core';
-import { DsAssetService } from '../asset';
+import { AssetService } from '../asset';
 import { MarkdownComponent } from 'ngx-markdown';
 
 @Directive({
-	selector: 'markdown[dsMarkdownSrc]',
+	selector: 'markdown[priMarkdownSrc]',
 })
-export class DsMarkdownSrcDirective implements OnInit {
+export class MarkdownSrcDirective implements OnInit {
 	/*tslint:disable-next-line:no-input-rename*/
-	@Input('dsMarkdownSrc') unprefixedSrc: string;
+	@Input('priMarkdownSrc') unprefixedSrc: string;
 	constructor(
-		protected _assetService: DsAssetService,
+		protected _assetService: AssetService,
 		protected _markdownComponent: MarkdownComponent,
 	) {}
 	ngOnInit() {

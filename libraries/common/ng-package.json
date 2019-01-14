@@ -2,6 +2,10 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/common",
   "lib": {
-    "entryFile": "src/public_api.ts"
+    "entryFile": "src/public_api.ts",
+    "styleIncludePaths": [
+      "../../node_modules/@lucca-front/scss/src/overrides",
+      "../../node_modules/@lucca-front/ng/style/overrides"
+    ]
   }
 }

@@ -3,19 +3,19 @@ import { ILuOptionItem, ALuOptionItem } from '@lucca-front/ng';
 import { IPage } from '../page.model';
 
 @Component({
-	selector: 'ds-page-item',
+	selector: 'pri-page-item',
 	templateUrl: './page-item.component.html',
 	styleUrls: ['./page-item.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	providers: [
 		{
 			provide: ALuOptionItem,
-			useExisting: forwardRef(() => DsPageItemComponent),
+			useExisting: forwardRef(() => PageItemComponent),
 			multi: true,
 		},
 	],
 })
-export class DsPageItemComponent extends ALuOptionItem<IPage> implements ILuOptionItem<IPage> {
+export class PageItemComponent extends ALuOptionItem<IPage> implements ILuOptionItem<IPage> {
 	_breadcrumbs: IPage[] = [];
 	protected _page: IPage;
 	@Input() set page(page: IPage) {
