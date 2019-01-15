@@ -172,8 +172,8 @@
             "polyfills": "applications/prisme/src/polyfills.ts",
             "tsConfig": "applications/prisme/tsconfig.app.json",
             "assets": [
-              "applications/prisme/src/favicon.ico",
-              "applications/prisme/src/assets"
+              "applications/prisme/src/assets",
+              "applications/prisme/src/guidelines"
             ],
             "styles": [
               "applications/prisme/src/styles.scss"
