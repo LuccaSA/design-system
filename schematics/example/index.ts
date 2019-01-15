@@ -22,6 +22,7 @@ export default function example(options: IExampleOptions): Rule {
 			options.project = Object.keys(workspace.projects)[0];
 		}
 		const project = workspace.projects[options.project];
+		options.prefix = project.prefix;
 
 		if (options.path === undefined) {
 			const projectDirName = project.projectType === 'application' ? 'app' : 'lib';
