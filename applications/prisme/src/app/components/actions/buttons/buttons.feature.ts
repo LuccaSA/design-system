@@ -4,7 +4,6 @@ import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { StatusExampleComponent } from './status/status.example';
 import { GroupsExampleComponent } from './groups/groups.example';
-import { RadioExampleComponent } from './radio/radio.example';
 import { SizesExampleComponent } from './sizes/sizes.example';
 declare var require: any;
 
@@ -44,11 +43,6 @@ export class ButtonsFeature {
 				title: 'Groupe',
 				component: GroupsExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./groups/groups.example.html')
-			},
-			{
-				title: 'Radio',
-				component: RadioExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./radio/radio.example.html')
 			},
 		],
 		theme: this.themeService.theme('button')
