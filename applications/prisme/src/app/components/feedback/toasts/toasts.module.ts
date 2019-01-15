@@ -1,17 +1,16 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ToastsComponent } from './toasts.component';
+import { CommonModule } from '@prisme/common';
+import { ToastsFeature } from './toasts.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		ToastsComponent,
+		ToastsFeature,
 		BasicExampleComponent,
 	],
 	entryComponents: [
-		ToastsComponent,
 		BasicExampleComponent,
 	]
 })
-export class DsToastsModule { }
+export class ToastsModule { }

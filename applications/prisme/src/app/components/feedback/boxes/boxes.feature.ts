@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ToggleExampleComponent } from './toggle/toggle.example';
 import { KillableExampleComponent } from './killable/killable.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-boxes',
-	templateUrl: './boxes.component.html',
-	styleUrls: ['./boxes.component.scss']
+	selector: 'pri-boxes',
+	templateUrl: './boxes.feature.html',
 })
-export class BoxesComponent implements OnInit {
+export class BoxesFeature {
 	infos: IFeatureInfos = {
 		title: 'Box',
 		packages: ['SCSS'],
@@ -32,12 +31,8 @@ export class BoxesComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./killable/killable.example.html'),
 			},
 		],
-		theme: this.docApi.theme('box')
+		theme: this.themService.theme('box')
 	};
 
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private themService: ThemeDocumentationService) { }
 }

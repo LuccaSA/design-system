@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { TitleExampleComponent } from './title/title.example';
@@ -8,11 +8,10 @@ import { IconsExampleComponent } from './icons/icons.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-callouts',
-	templateUrl: './callouts.component.html',
-	styleUrls: ['./callouts.component.scss']
+	selector: 'pri-callouts',
+	templateUrl: './callouts.feature.html',
 })
-export class CalloutsComponent implements OnInit {
+export class CalloutsFeature {
 
 	infos: IFeatureInfos = {
 		title: 'Callouts',
@@ -47,9 +46,5 @@ export class CalloutsComponent implements OnInit {
 		],
 		theme: this.docApi.theme('callout')
 	};
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private docApi: ThemeDocumentationService) { }
 }

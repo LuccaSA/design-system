@@ -1,17 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 declare var require: any;
 @Component({
-	selector: 'ds-toasts',
-	templateUrl: './toasts.component.html',
-	styleUrls: ['./toasts.component.scss']
+	selector: 'pri-toasts',
+	templateUrl: './toasts.feature.html',
 })
-export class ToastsComponent implements OnInit {
+export class ToastsFeature {
 
 	infos: IFeatureInfos = {
-		title: 'Toasts',
-		packages: ['SCSS', 'NG'],
+		title: 'Toasts 🔨',
+		packages: ['SCSS'],
 		examples: [
 			{
 				title: 'Basique',
@@ -22,9 +21,5 @@ export class ToastsComponent implements OnInit {
 		],
 		theme: this.docApi.theme('toasts')
 	};
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private docApi: ThemeDocumentationService) { }
 }

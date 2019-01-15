@@ -1,23 +1,22 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { BoxesComponent } from './boxes.component';
+import { CommonModule } from '@prisme/common';
+import { BoxesFeature } from './boxes.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ToggleExampleComponent } from './toggle/toggle.example';
 import { KillableExampleComponent } from './killable/killable.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		BoxesComponent,
+		BoxesFeature,
 		BasicExampleComponent,
 		ToggleExampleComponent,
 		KillableExampleComponent,
 	],
 	entryComponents: [
-		BoxesComponent,
 		BasicExampleComponent,
 		ToggleExampleComponent,
 		KillableExampleComponent,
 	]
 })
-export class DsBoxesModule { }
+export class BoxesModule { }

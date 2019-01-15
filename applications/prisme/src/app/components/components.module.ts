@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { ActionsModule } from './actions/actions.module';
+import { FeedbackModule } from './feedback/feedback.module';
 // import { OverlaysModule } from './overlays/overlays.module';
 // import { UsersModule } from './users/users.module';
-// import { FeedbackModule } from './feedback/feedback.module';
 // import { FormModule } from './form/form.module';
 // import { LayoutModule } from './layout/layout.module';
 // import { ListingsModule } from './listings/listings.module';
@@ -16,7 +16,7 @@ import { MainModule } from '../main';
 @NgModule({
 	imports: [
 		ActionsModule,
-		// FeedbackModule,
+		FeedbackModule,
 		// FormModule,
 		// LayoutModule,
 		// ListingsModule,

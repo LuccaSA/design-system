@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { CalloutsComponent } from './callouts.component';
+import { CommonModule } from '@prisme/common';
+import { CalloutsFeature } from './callouts.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { TitleExampleComponent } from './title/title.example';
@@ -8,9 +8,9 @@ import { KillableExampleComponent } from './killable/killable.example';
 import { IconsExampleComponent } from './icons/icons.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		CalloutsComponent,
+		CalloutsFeature,
 		BasicExampleComponent,
 		PalettesExampleComponent,
 		TitleExampleComponent,
@@ -18,7 +18,6 @@ import { IconsExampleComponent } from './icons/icons.example';
 		IconsExampleComponent,
 	],
 	entryComponents: [
-		CalloutsComponent,
 		BasicExampleComponent,
 		PalettesExampleComponent,
 		TitleExampleComponent,
@@ -26,4 +25,4 @@ import { IconsExampleComponent } from './icons/icons.example';
 		IconsExampleComponent,
 	]
 })
-export class DsCalloutsModule { }
+export class CalloutsModule { }

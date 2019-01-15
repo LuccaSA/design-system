@@ -1,5 +1,5 @@
 import { actionsPage } from './actions/action.page';
-// import { feedbackPage } from './feedback/feedback.page';
+import { feedbackPage } from './feedback/feedback.page';
 // import { formPage } from './form/form.page';
 // import { layoutPage } from './layout/layout.page';
 // import { listingsPage } from './listings/listings.page';
@@ -13,6 +13,7 @@ import { MainGroupPage } from '../main';
 
 export const componentsPage = new MainGroupPage('components', 'Composants', [
 	actionsPage,
+	feedbackPage,
 	// layoutPage,
 	// navigationPage,
 	// textPage,
@@ -20,7 +21,6 @@ export const componentsPage = new MainGroupPage('components', 'Composants', [
 	// listingsPage,
 	// usersPage,
 	// overlaysPage,
-	// feedbackPage,
 	// loadersPage,
 	// miscPage,
 ]);
