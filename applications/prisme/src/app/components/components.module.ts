@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { ActionsModule } from './actions/actions.module';
 import { FeedbackModule } from './feedback/feedback.module';
+import { FormModule } from './form/form.module';
 // import { OverlaysModule } from './overlays/overlays.module';
 // import { UsersModule } from './users/users.module';
-// import { FormModule } from './form/form.module';
 // import { LayoutModule } from './layout/layout.module';
 // import { ListingsModule } from './listings/listings.module';
 // import { LoadersModule } from './loaders/loaders.module';
@@ -17,7 +17,7 @@ import { MainModule } from '../main';
 	imports: [
 		ActionsModule,
 		FeedbackModule,
-		// FormModule,
+		FormModule,
 		// LayoutModule,
 		// ListingsModule,
 		// LoadersModule,

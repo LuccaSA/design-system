@@ -1,6 +1,6 @@
 import { actionsPage } from './actions/action.page';
 import { feedbackPage } from './feedback/feedback.page';
-// import { formPage } from './form/form.page';
+import { formPage } from './form/form.page';
 // import { layoutPage } from './layout/layout.page';
 // import { listingsPage } from './listings/listings.page';
 // import { loadersPage } from './loaders/loaders.page';
@@ -14,10 +14,10 @@ import { MainGroupPage } from '../main';
 export const componentsPage = new MainGroupPage('components', 'Composants', [
 	actionsPage,
 	feedbackPage,
+	formPage,
 	// layoutPage,
 	// navigationPage,
 	// textPage,
-	// formPage,
 	// listingsPage,
 	// usersPage,
 	// overlaysPage,
