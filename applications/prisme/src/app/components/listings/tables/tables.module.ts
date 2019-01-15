@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { TablesComponent } from './tables.component';
+import { CommonModule } from '@prisme/common';
+import { TablesFeature } from './tables.feature';
 import { BasicExampleComponent } from './basic/basic.component';
 import { ZebraExampleComponent } from './zebra/zebra.component';
 import { ClickableExampleComponent } from './clickable/clickable.component';
@@ -12,10 +12,10 @@ import { DraggableExample } from './draggable/draggable.example';
 
 @NgModule({
 	imports: [
-		DsCommonsModule,
+		CommonModule,
 	],
 	declarations: [
-		TablesComponent,
+		TablesFeature,
 		BasicExampleComponent,
 		ZebraExampleComponent,
 		ClickableExampleComponent,
@@ -26,7 +26,6 @@ import { DraggableExample } from './draggable/draggable.example';
 		DraggableExample,
 	],
 	entryComponents: [
-		TablesComponent,
 		BasicExampleComponent,
 		ZebraExampleComponent,
 		ClickableExampleComponent,
@@ -37,4 +36,4 @@ import { DraggableExample } from './draggable/draggable.example';
 		DraggableExample,
 	]
 })
-export class DsTablesModule { }
+export class TablesModule { }

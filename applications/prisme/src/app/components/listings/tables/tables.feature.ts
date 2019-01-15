@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.component';
 import { ZebraExampleComponent } from './zebra/zebra.component';
 import { ClickableExampleComponent } from './clickable/clickable.component';
@@ -11,11 +11,10 @@ import { DraggableExample } from './draggable/draggable.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-tables',
-	templateUrl: './tables.component.html',
-	styleUrls: ['./tables.component.scss']
+	selector: 'pri-tables',
+	templateUrl: './tables.feature.html',
 })
-export class TablesComponent implements OnInit {
+export class TablesFeature {
 	infos: IFeatureInfos = {
 		title: 'Tables',
 		packages: ['SCSS'],
@@ -67,9 +66,5 @@ export class TablesComponent implements OnInit {
 		],
 		theme: this.docApi.theme('table')
 	};
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private docApi: ThemeDocumentationService) { }
 }

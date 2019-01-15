@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ChipsComponent } from './chips.component';
+import { CommonModule } from '@prisme/common';
+import { ChipsFeature } from './chips.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { UnkillableExampleComponent } from './unkillable/unkillable.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		ChipsComponent,
+		ChipsFeature,
 		BasicExampleComponent,
 		UnkillableExampleComponent
 	],
 	entryComponents: [
-		ChipsComponent,
 		BasicExampleComponent,
 		UnkillableExampleComponent
 	]
 })
-export class DsChipsModule { }
+export class ChipsModule { }

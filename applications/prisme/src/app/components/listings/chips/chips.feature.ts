@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { BasicExampleComponent } from './basic/basic.example';
 import { UnkillableExampleComponent } from './unkillable/unkillable.example';
-import { IFeatureInfos } from '@ds/commons';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 declare var require: any;
 
 @Component({
-	selector: 'ds-chips',
-	templateUrl: './chips.component.html',
-	styleUrls: ['./chips.component.scss']
+	selector: 'pri-chips',
+	templateUrl: './chips.feature.html',
 })
-export class ChipsComponent implements OnInit {
+export class ChipsFeature {
 
 	infos: IFeatureInfos = {
 		title: 'Chip',
@@ -26,11 +25,10 @@ export class ChipsComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./unkillable/unkillable.example.html'),
 				extra: 'Ce mod suffit à cacher le bouton de suppression',
 			}
-		]
+		],
+		theme: this.themeService.theme('chip'),
 	};
 
-	constructor() {
+	constructor(protected themeService: ThemeDocumentationService) {
 	}
-
-	ngOnInit() {}
 }

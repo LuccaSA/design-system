@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ClickableExampleComponent } from './clickable/clickable.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-lists',
-	templateUrl: './lists.component.html',
-	styleUrls: ['./lists.component.scss']
+	selector: 'pri-lists',
+	templateUrl: './lists.feature.html',
 })
-export class ListsComponent implements OnInit {
+export class ListsFeature {
 	infos: IFeatureInfos = {
 		title: 'Listes',
 		packages: ['SCSS'],
@@ -31,9 +30,5 @@ export class ListsComponent implements OnInit {
 		],
 		theme: this.docApi.theme('list')
 	};
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private docApi: ThemeDocumentationService) { }
 }

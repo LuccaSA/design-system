@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ListsComponent } from './lists.component';
+import { CommonModule } from '@prisme/common';
+import { ListsFeature } from './lists.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { ClickableExampleComponent } from './clickable/clickable.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		ListsComponent,
+		ListsFeature,
 		BasicExampleComponent,
 		ClickableExampleComponent
 	],
 	entryComponents: [
-		ListsComponent,
 		BasicExampleComponent,
 		ClickableExampleComponent
 	]
 })
-export class DsListsModule { }
+export class ListsModule { }
