@@ -10,4 +10,4 @@ import { componentsPage } from './components.page';
 		RouterModule,
 	],
 })
-export class DsComponentsRoutingModule {}
+export class ComponentsRoutingModule {}

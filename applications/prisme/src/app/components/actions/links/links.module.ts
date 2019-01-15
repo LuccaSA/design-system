@@ -1,17 +1,16 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { LinksComponent } from './links.component';
+import { CommonModule } from '@prisme/common';
+import { LinksFeature } from './links.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 
 @NgModule({
-	imports: [ DsCommonsModule ],
+	imports: [ CommonModule ],
 	declarations: [
-		LinksComponent,
+		LinksFeature,
 		BasicExampleComponent
 	],
 	entryComponents: [
-		LinksComponent,
 		BasicExampleComponent
 	]
 })
-export class DsLinksModule {}
+export class LinksModule {}

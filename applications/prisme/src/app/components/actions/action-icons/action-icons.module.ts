@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ActionIconsComponent } from './action-icons.component';
+import { CommonModule } from '@prisme/common';
+import { ActionIconsFeature } from './action-icons.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { StatusExampleComponent } from './status/status.example';
 import { LoadingExample } from './loading/loading.example';
@@ -8,9 +8,9 @@ import { InvertedExample } from './inverted/inverted.example';
 import { PalettesExample } from './palettes/palettes.example';
 
 @NgModule({
-	imports: [ DsCommonsModule ],
+	imports: [ CommonModule ],
 	declarations: [
-		ActionIconsComponent,
+		ActionIconsFeature,
 		BasicExampleComponent,
 		StatusExampleComponent,
 		LoadingExample,
@@ -18,7 +18,7 @@ import { PalettesExample } from './palettes/palettes.example';
 		PalettesExample
 	],
 	entryComponents: [
-		ActionIconsComponent,
+		ActionIconsFeature,
 		BasicExampleComponent,
 		StatusExampleComponent,
 		LoadingExample,
@@ -26,4 +26,4 @@ import { PalettesExample } from './palettes/palettes.example';
 		PalettesExample
 	]
 })
-export class DsActionIconsModule {}
+export class ActionIconsModule {}

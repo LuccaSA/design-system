@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { StatusExampleComponent } from './status/status.example';
 import { LoadingExample } from './loading/loading.example';
@@ -8,11 +8,10 @@ import { PalettesExample } from './palettes/palettes.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-action-icons',
-	templateUrl: './action-icons.component.html',
-	styleUrls: ['./action-icons.component.scss']
+	selector: 'pri-action-icons',
+	templateUrl: './action-icons.feature.html',
 })
-export class ActionIconsComponent {
+export class ActionIconsFeature {
 	infos: IFeatureInfos = {
 		title: 'Icônes d\'action',
 		packages: ['SCSS'],
@@ -45,8 +44,8 @@ export class ActionIconsComponent {
 				extra: `Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
 			}
 		],
-		theme: this.docApi.theme('actionIcon')
+		theme: this.themeService.theme('actionIcon')
 	};
-	constructor(private docApi: DsDocApiService) { }
+	constructor(private themeService: ThemeDocumentationService) { }
 
 }

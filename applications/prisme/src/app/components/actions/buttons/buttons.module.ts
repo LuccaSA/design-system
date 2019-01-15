@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ButtonsComponent } from './buttons.component';
+import { CommonModule } from '@prisme/common';
+import { ButtonsFeature } from './buttons.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { StatusExampleComponent } from './status/status.example';
@@ -8,9 +8,9 @@ import { GroupsExampleComponent } from './groups/groups.example';
 import { RadioExampleComponent } from './radio/radio.example';
 import { SizesExampleComponent } from './sizes/sizes.example';
 @NgModule({
-	imports: [ DsCommonsModule ],
+	imports: [ CommonModule ],
 	declarations: [
-		ButtonsComponent,
+		ButtonsFeature,
 		BasicExampleComponent,
 		PalettesExampleComponent,
 		StatusExampleComponent,
@@ -19,7 +19,6 @@ import { SizesExampleComponent } from './sizes/sizes.example';
 		SizesExampleComponent
 	],
 	entryComponents: [
-		ButtonsComponent,
 		BasicExampleComponent,
 		PalettesExampleComponent,
 		StatusExampleComponent,
@@ -28,4 +27,4 @@ import { SizesExampleComponent } from './sizes/sizes.example';
 		SizesExampleComponent
 	]
 })
-export class DsButtonsModule {}
+export class ButtonsModule {}

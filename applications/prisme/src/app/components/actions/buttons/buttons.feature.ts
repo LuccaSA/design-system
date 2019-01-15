@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { PalettesExampleComponent } from './palettes/palettes.example';
 import { StatusExampleComponent } from './status/status.example';
@@ -9,11 +9,10 @@ import { SizesExampleComponent } from './sizes/sizes.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-buttons',
-	templateUrl: './buttons.component.html',
-	styleUrls: ['./buttons.component.scss']
+	selector: 'pri-buttons',
+	templateUrl: './buttons.feature.html',
 })
-export class ButtonsComponent implements OnInit {
+export class ButtonsFeature {
 	infos: IFeatureInfos = {
 		title: 'Boutons',
 		packages: ['SCSS'],
@@ -52,12 +51,8 @@ export class ButtonsComponent implements OnInit {
 				code: require('!!prismjs-loader?lang=markup!./radio/radio.example.html')
 			},
 		],
-		theme: this.docApi.theme('button')
+		theme: this.themeService.theme('button')
 	};
 
-	constructor(private docApi: DsDocApiService) {}
-
-	ngOnInit() {
-	}
-
+	constructor(private themeService: ThemeDocumentationService) {}
 }
