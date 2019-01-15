@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
 	templateUrl: './<%=dasherize(name)%>.example.html'
 })
 export class <%= classify(name) %>Example {
-	constructor() {}
 }

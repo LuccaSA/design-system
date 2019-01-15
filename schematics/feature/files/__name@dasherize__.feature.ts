@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 declare var require: any;
 @Component({
-	selector: '<%=prefix%>-<%=dasherize(name)%>-feature',
+	selector: '<%=prefix%>-<%=dasherize(name)%>',
 	templateUrl: './<%=dasherize(name)%>.feature.html',
 })
 export class <%=classify(name)%>Feature {
@@ -14,11 +14,11 @@ export class <%=classify(name)%>Feature {
 			<% if (!!scss) { %>'SCSS',<% } %>
 			<% if (!!ng) { %>'NG',<% } %>
 		],
-		<% if (!!scss) { %>theme: this.docApi.theme('<%=scss%>'),<% } %>
-		<% if (!!ng) { %>doc: this.docApi.ng('<%=ng%>'),<% } %>
+		<% if (!!scss) { %>theme: this.themeService.theme('<%=scss%>'),<% } %>
+		// <% if (!!ng) { %>directive: this.docApi.ng('<%=ng%>'),<% } %>
 	};
 
 	constructor(
-		private docApi: DsDocApiService,
+		private themeService: ThemeDocumentationService,
 	) {}
 }
