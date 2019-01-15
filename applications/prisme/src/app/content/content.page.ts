@@ -3,9 +3,9 @@ import { punctuationPage } from './punctuation/punctuation.page';
 import { typographicRulesPage } from './typographic-rules/typographic-rules.page';
 import { vocabularyPage } from './vocabulary/vocabulary.page';
 import { voicePage } from './voice/voice.page';
-import { MainGroupPage } from 'app/main';
+import { MainGroupPage } from '../main';
 
-export const contentPage = new MainGroupPage('content', 'Content', [
+export const contentPage = new MainGroupPage('content', 'Content 🔨', [
 	formatPage,
 	punctuationPage,
 	typographicRulesPage,

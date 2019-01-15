@@ -2,19 +2,19 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ressourcesPage, RessourcesModule } from './ressources';
 import { principlesPage, PrinciplesModule } from './principles';
-// import { contentPage, DsContentModule } from './content';
+import { contentPage, ContentModule } from './content';
 // import { componentsPage, DsComponentsModule } from './components';
 import { IPage } from '@prisme/common';
 
 const routes = [
 	{ ...ressourcesPage.toRoute(), loadChildren: () => RessourcesModule },
 	// { ...componentsPage.toRoute(), loadChildren: () => DsComponentsModule },
-	// { ...contentPage.toRoute(), loadChildren: () => DsContentModule },
+	{ ...contentPage.toRoute(), loadChildren: () => ContentModule },
 	{ ...principlesPage.toRoute(), loadChildren: () => PrinciplesModule },
 ];
 export const searchableIndex: IPage[] = [
 	// ...componentsPage.toIndex(),
-	// ...contentPage.toIndex(),
+	...contentPage.toIndex(),
 	...principlesPage.toIndex(),
 	...ressourcesPage.toIndex(),
 ];

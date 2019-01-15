@@ -2,7 +2,7 @@ import { FeaturePage } from '@prisme/common';
 import { VisionFeature } from './vision.feature';
 
 export const visionPage = new FeaturePage(
-	'vision 🔨',
+	'vision',
 	'Vision 🔨',
 	VisionFeature,
 );

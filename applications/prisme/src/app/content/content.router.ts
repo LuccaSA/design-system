@@ -10,4 +10,4 @@ import { contentPage } from './content.page';
 		RouterModule,
 	],
 })
-export class DsContentRoutingModule {}
+export class ContentRoutingModule {}
