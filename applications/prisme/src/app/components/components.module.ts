@@ -4,7 +4,7 @@ import { FeedbackModule } from './feedback/feedback.module';
 import { FormModule } from './form/form.module';
 // import { OverlaysModule } from './overlays/overlays.module';
 // import { UsersModule } from './users/users.module';
-// import { LayoutModule } from './layout/layout.module';
+import { LayoutModule } from './layout/layout.module';
 // import { ListingsModule } from './listings/listings.module';
 // import { LoadersModule } from './loaders/loaders.module';
 // import { MiscModule } from './misc/misc.module';
@@ -18,7 +18,7 @@ import { MainModule } from '../main';
 		ActionsModule,
 		FeedbackModule,
 		FormModule,
-		// LayoutModule,
+		LayoutModule,
 		// ListingsModule,
 		// LoadersModule,
 		// MiscModule,
