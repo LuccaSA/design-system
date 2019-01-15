@@ -1,8 +1,8 @@
-import { FeaturePage } from '@ds/commons';
-import { FormatComponent } from './format.component';
+import { FeaturePage } from '@prisme/common';
+import { FormatFeature } from './format.feature';
 
 export const formatPage = new FeaturePage(
 	'format',
-	'Format',
-	FormatComponent,
+	'Format 🔨',
+	FormatFeature,
 );

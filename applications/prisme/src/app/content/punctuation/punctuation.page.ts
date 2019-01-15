@@ -1,8 +1,8 @@
-import { FeaturePage } from '@ds/commons';
-import { PunctuationComponent } from './punctuation.component';
+import { FeaturePage } from '@prisme/common';
+import { PunctuationFeature } from './punctuation.feature';
 
 export const punctuationPage = new FeaturePage(
 	'punctuation',
-	'Ponctuation',
-	PunctuationComponent,
+	'Ponctuation 🔨',
+	PunctuationFeature,
 );

@@ -1,8 +1,8 @@
-import { FeaturePage } from '@ds/commons';
-import { VoiceComponent } from './voice.component';
+import { FeaturePage } from '@prisme/common';
+import { VoiceFeature } from './voice.feature';
 
 export const voicePage = new FeaturePage(
 	'voice',
-	'Voix',
-	VoiceComponent,
+	'Voix et ton 🔨',
+	VoiceFeature,
 );

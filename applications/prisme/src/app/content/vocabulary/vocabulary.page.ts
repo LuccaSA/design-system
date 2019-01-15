@@ -1,8 +1,8 @@
-import { FeaturePage } from '@ds/commons';
-import { VocabularyComponent } from './vocabulary.component';
+import { FeaturePage } from '@prisme/common';
+import { VocabularyFeature } from './vocabulary.feature';
 
 export const vocabularyPage = new FeaturePage(
 	'vocabulary',
-	'Vocabulaire',
-	VocabularyComponent,
+	'Vocabulaire 🔨',
+	VocabularyFeature,
 );

@@ -1,8 +1,8 @@
-import { FeaturePage } from '@ds/commons';
-import { TypographicRulesComponent } from './typographic-rules.component';
+import { FeaturePage } from '@prisme/common';
+import { TypographicRulesFeature } from './typographic-rules.feature';
 
 export const typographicRulesPage = new FeaturePage(
 	'typographic-rules',
-	'Règles typographiques',
-	TypographicRulesComponent,
+	'Règles typographiques 🔨',
+	TypographicRulesFeature,
 );

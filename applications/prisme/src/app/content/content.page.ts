@@ -1,11 +1,11 @@
 import { formatPage } from './format/format.page';
-import { punctuationPage } from './punctuation/punctuation.page';
-import { typographicRulesPage } from './typographic-rules/typographic-rules.page';
-import { vocabularyPage } from './vocabulary/vocabulary.page';
-import { voicePage } from './voice/voice.page';
+import { punctuationPage } from './punctuation';
+import { typographicRulesPage } from './typographic-rules';
+import { vocabularyPage } from './vocabulary';
+import { voicePage } from './voice';
 import { MainGroupPage } from '../main';
 
-export const contentPage = new MainGroupPage('content', 'Content 🔨', [
+export const contentPage = new MainGroupPage('content', 'Contenu 🔨', [
 	formatPage,
 	punctuationPage,
 	typographicRulesPage,
