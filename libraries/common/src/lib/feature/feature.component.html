@@ -14,3 +14,7 @@
 <ng-container *ngIf="infos.theme">
 	<pri-theme [theme]="infos.theme"></pri-theme>
 </ng-container>
+
+<ng-container *ngIf="infos.guidelines">
+	<markdown [priMarkdownSrc]="infos.guidelines"></markdown>
+</ng-container>

@@ -10,4 +10,5 @@ export interface IFeatureInfos {
 	examples?: IExample[];
 	theme?: IThemeDocumentation;
 	directive?: IDirectiveDocumentation;
+	guidelines?: string;
 }
