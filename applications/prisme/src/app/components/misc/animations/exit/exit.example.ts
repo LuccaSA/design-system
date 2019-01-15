@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
 	selector: 'ds-exit-example',
 	templateUrl: './exit.example.html',
-	styleUrls: ['../animations.component.scss']
+	styleUrls: ['../animations.feature.scss']
 })
 export class ExitExampleComponent {
 	constructor() { }

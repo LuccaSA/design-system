@@ -1,22 +1,21 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { AnimationsComponent } from './animations.component';
+import { CommonModule } from '@prisme/common';
+import { AnimationsFeature } from './animations.feature';
 import { EnterExampleComponent } from './enter/enter.example';
 import { ExitExampleComponent } from './exit/exit.example';
 
 @NgModule({
 	imports: [
-		DsCommonsModule,
+		CommonModule,
 	],
 	entryComponents: [
-		AnimationsComponent,
 		EnterExampleComponent,
 		ExitExampleComponent,
 	],
 	declarations: [
-		AnimationsComponent,
 		EnterExampleComponent,
 		ExitExampleComponent,
+		AnimationsFeature,
 	]
 })
-export class DsAnimationsModule { }
+export class AnimationsModule { }

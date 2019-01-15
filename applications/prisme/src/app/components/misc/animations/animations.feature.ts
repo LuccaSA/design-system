@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { EnterExampleComponent } from './enter/enter.example';
 import { ExitExampleComponent } from './exit/exit.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-animations',
-	templateUrl: './animations.component.html',
-	styleUrls: ['./animations.component.scss']
+	selector: 'pri-animations',
+	templateUrl: './animations.feature.html',
+	styleUrls: ['./animations.feature.scss']
 })
-export class AnimationsComponent implements OnInit {
+export class AnimationsFeature {
 	infos: IFeatureInfos = {
 		title: 'Animations',
 		packages: ['SCSS'],
@@ -26,13 +26,8 @@ export class AnimationsComponent implements OnInit {
 				component: ExitExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./exit/exit.example.html'),
 			},
-		]
+		],
+		theme: this.themeService.theme('animations')
 	};
-	constructor() { }
-
-	ngOnInit() {
-	}
-
-	public animate() {
-	}
+	constructor(protected themeService: ThemeDocumentationService) { }
 }
