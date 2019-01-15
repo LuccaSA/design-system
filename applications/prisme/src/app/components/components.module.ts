@@ -8,7 +8,7 @@ import { LayoutModule } from './layout/layout.module';
 import { ListingsModule } from './listings/listings.module';
 import { LoadersModule } from './loaders/loaders.module';
 import { MiscModule } from './misc/misc.module';
-// import { NavigationModule } from './navigation/navigation.module';
+import { NavigationModule } from './navigation/navigation.module';
 // import { TextModule } from './text/text.module';
 import { ComponentsRoutingModule } from './components.router';
 import { MainModule } from '../main';
@@ -22,7 +22,7 @@ import { MainModule } from '../main';
 		ListingsModule,
 		LoadersModule,
 		MiscModule,
-		// NavigationModule,
+		NavigationModule,
 		// OverlaysModule,
 		// TextModule,
 		// UsersModule,
