@@ -7,7 +7,7 @@
 	<ng-content></ng-content>
 </section>
 
-<ng-container *ngIf="infos.examples">
+<ng-container *ngIf="infos.examples && infos.examples.length">
 	<pri-examples [examples]="infos.examples"></pri-examples>
 </ng-container>
 
