@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { LabelExampleComponent } from './label/label.example';
 import { BlockExampleComponent } from './block/block.example';
@@ -9,11 +9,10 @@ import { InvertedExampleComponent } from './inverted/inverted.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-loadings',
-	templateUrl: './loadings.component.html',
-	styleUrls: ['./loadings.component.scss']
+	selector: 'pri-loadings',
+	templateUrl: './loadings.feature.html',
 })
-export class LoadingsComponent implements OnInit {
+export class LoadingsFeature {
 	infos: IFeatureInfos = {
 		title: 'Loaders',
 		packages: ['SCSS'],
@@ -51,9 +50,4 @@ export class LoadingsComponent implements OnInit {
 			},
 		]
 	};
-	constructor() { }
-
-	ngOnInit() {
-	}
-
 }

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { LoadingsComponent } from './loadings.component';
+import { CommonModule } from '@prisme/common';
+import { LoadingsFeature } from './loadings.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { LabelExampleComponent } from './label/label.example';
 import { BlockExampleComponent } from './block/block.example';
@@ -9,9 +9,9 @@ import { BigExample } from './big/big.example';
 import { FullPageExample } from './full-page/full-page.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		LoadingsComponent,
+		LoadingsFeature,
 		BasicExampleComponent,
 		LabelExampleComponent,
 		BlockExampleComponent,
@@ -20,7 +20,6 @@ import { FullPageExample } from './full-page/full-page.example';
 		FullPageExample,
 	],
 	entryComponents: [
-		LoadingsComponent,
 		BasicExampleComponent,
 		LabelExampleComponent,
 		BlockExampleComponent,
@@ -29,4 +28,4 @@ import { FullPageExample } from './full-page/full-page.example';
 		FullPageExample,
 	]
 })
-export class DsLoadingsModule { }
+export class LoadingsModule { }

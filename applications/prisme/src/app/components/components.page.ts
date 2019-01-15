@@ -3,7 +3,7 @@ import { feedbackPage } from './feedback/feedback.page';
 import { formPage } from './form/form.page';
 import { layoutPage } from './layout/layout.page';
 import { listingsPage } from './listings/listings.page';
-// import { loadersPage } from './loaders/loaders.page';
+import { loadersPage } from './loaders/loaders.page';
 // import { miscPage } from './misc/misc.page';
 // import { navigationPage } from './navigation/navigation.page';
 // import { overlaysPage } from './overlays/overlays.page';
@@ -17,10 +17,10 @@ export const componentsPage = new MainGroupPage('components', 'Composants', [
 	formPage,
 	layoutPage,
 	listingsPage,
+	loadersPage,
 	// navigationPage,
 	// textPage,
 	// usersPage,
 	// overlaysPage,
-	// loadersPage,
 	// miscPage,
 ]);

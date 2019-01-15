@@ -1,4 +1,4 @@
-import { FeaturePage } from '@ds/commons';
+import { FeaturePage } from '@prisme/common';
 import { GaugeFeature } from './gauge.feature';
 
 export const gaugePage = new FeaturePage(

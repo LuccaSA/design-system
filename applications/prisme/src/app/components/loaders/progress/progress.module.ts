@@ -1,23 +1,22 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
-import { ProgressComponent } from './progress.component';
+import { CommonModule } from '@prisme/common';
+import { ProgressFeature } from './progress.feature';
 import { BasicExampleComponent } from './basic/basic.example';
 import { IndeterminateExampleComponent } from './indeterminate/indeterminate.example';
 import { StatusExampleComponent } from './status/status.example';
 
 @NgModule({
-	imports: [DsCommonsModule],
+	imports: [CommonModule],
 	declarations: [
-		ProgressComponent,
+		ProgressFeature,
 		BasicExampleComponent,
 		IndeterminateExampleComponent,
 		StatusExampleComponent,
 	],
 	entryComponents: [
-		ProgressComponent,
 		BasicExampleComponent,
 		IndeterminateExampleComponent,
 		StatusExampleComponent,
 	]
 })
-export class DsProgressModule { }
+export class ProgressModule { }

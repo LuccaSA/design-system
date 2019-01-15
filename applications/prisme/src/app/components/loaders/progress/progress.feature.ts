@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExampleComponent } from './basic/basic.example';
 import { IndeterminateExampleComponent } from './indeterminate/indeterminate.example';
 import { StatusExampleComponent } from './status/status.example';
 declare var require: any;
 
 @Component({
-	selector: 'ds-progress',
-	templateUrl: './progress.component.html',
-	styleUrls: ['./progress.component.scss']
+	selector: 'pri-progress',
+	templateUrl: './progress.feature.html',
 })
-export class ProgressComponent implements OnInit {
+export class ProgressFeature {
 	infos: IFeatureInfos = {
 		title: 'Barre de progression',
 		packages: ['SCSS'],
@@ -33,9 +32,5 @@ export class ProgressComponent implements OnInit {
 		],
 		theme: this.docApi.theme('progress')
 	};
-	constructor(private docApi: DsDocApiService) { }
-
-	ngOnInit() {
-	}
-
+	constructor(private docApi: ThemeDocumentationService) { }
 }

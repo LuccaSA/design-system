@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { IFeatureInfos, DsDocApiService } from '@ds/commons';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
 import { WeightExample } from './weight/weight.example';
 import { PalettesExample } from './palettes/palettes.example';
 declare var require: any;
 @Component({
-	selector: 'ds-gauge-feature',
+	selector: 'pri-gauge',
 	templateUrl: './gauge.feature.html',
 })
 export class GaugeFeature {
@@ -36,6 +36,6 @@ export class GaugeFeature {
 	};
 
 	constructor(
-		private docApi: DsDocApiService,
+		private docApi: ThemeDocumentationService,
 	) {}
 }

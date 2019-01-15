@@ -6,7 +6,7 @@ import { FormModule } from './form/form.module';
 // import { UsersModule } from './users/users.module';
 import { LayoutModule } from './layout/layout.module';
 import { ListingsModule } from './listings/listings.module';
-// import { LoadersModule } from './loaders/loaders.module';
+import { LoadersModule } from './loaders/loaders.module';
 // import { MiscModule } from './misc/misc.module';
 // import { NavigationModule } from './navigation/navigation.module';
 // import { TextModule } from './text/text.module';
@@ -20,7 +20,7 @@ import { MainModule } from '../main';
 		FormModule,
 		LayoutModule,
 		ListingsModule,
-		// LoadersModule,
+		LoadersModule,
 		// MiscModule,
 		// NavigationModule,
 		// OverlaysModule,
