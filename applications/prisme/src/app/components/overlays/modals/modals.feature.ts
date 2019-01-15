@@ -21,5 +21,5 @@ export class ModalsFeature {
 			'SCSS'
 		],
 	};
-	constructor(private themeService: ThemeDocumentationService,) {}
+	constructor(private themeService: ThemeDocumentationService, ) {}
 }

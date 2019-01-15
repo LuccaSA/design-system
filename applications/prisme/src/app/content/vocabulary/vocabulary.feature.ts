@@ -11,11 +11,11 @@ export class VocabularyFeature {
 		examples: [
 		],
 		packages: [
-			
-			
+
+
 		],
-		
-		// 
+
+		//
 	};
 
 	constructor(

@@ -11,11 +11,11 @@ export class TypographicRulesFeature {
 		examples: [
 		],
 		packages: [
-			
-			
+
+
 		],
-		
-		// 
+
+		//
 	};
 
 	constructor(
