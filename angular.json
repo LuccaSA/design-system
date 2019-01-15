@@ -269,16 +269,16 @@
   "defaultProject": "prisme",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "ds",
+      "prefix": "pri",
       "styleext": "scss"
     },
     "@schematics/angular:directive": {
-      "prefix": "ds"
+      "prefix": "pri"
     },
-    "@design-system/schematics:example": {}
+    "@prisme/schematics:example": {}
   },
   "cli": {
-    "defaultCollection": "@design-system/schematics",
+    "defaultCollection": "@prisme/schematics",
     "packageManager": "npm"
   }
 }
