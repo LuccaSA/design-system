@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './header';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { appRoutes } from './app.router';
 
 @NgModule({
 	declarations: [
@@ -14,8 +15,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 		BrowserModule,
 		HeaderModule,
 		BrowserAnimationsModule,
+		RouterModule.forRoot(appRoutes, {
+			scrollPositionRestoration: 'enabled',
+			useHash: true,
+		})
 	],
-	providers: [],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

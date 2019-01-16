@@ -1,0 +1,4 @@
+<ng-container *ngIf="theme$ | async">
+	<h1>{{(theme$ | async).name}}</h1>
+	<pri-theme [theme]="theme$ | async"></pri-theme>
+</ng-container>
