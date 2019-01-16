@@ -10,4 +10,7 @@ export class ThemeDocumentationService {
 		}
 		return SCSS_DOCS[key];
 	}
+	allThemes(): IThemeDocumentation[] {
+		return Object.keys(SCSS_DOCS).map(k => SCSS_DOCS[k]);
+	}
 }
