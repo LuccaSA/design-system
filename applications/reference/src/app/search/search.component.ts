@@ -1,7 +1,7 @@
-import { Component, ChangeDetectorRef, OnInit, Inject } from '@angular/core';
-import { IPage } from '@prisme/common';
-// import { Router } from '@angular/router';
-import { PAGES_INDEX } from './search.token';
+import { Component, OnInit } from '@angular/core';
+import { IReferencePage } from './reference.page';
+import { SearchService } from './search.service';
+import { Router } from '@angular/router';
 
 @Component({
 	selector: 'pri-search',
@@ -9,30 +9,20 @@ import { PAGES_INDEX } from './search.token';
 	styleUrls: ['./search.component.scss'],
 })
 export class SearchComponent implements OnInit {
-	currentPage: IPage;
+	pages: IReferencePage[];
+	currentPage: IReferencePage;
 	constructor(
-		// public router: Router,
-		private cd: ChangeDetectorRef,
-		private searchService,
-	) {
-		// router.events.subscribe(() => this.updateInput());
-	}
+		private router: Router,
+		private searchService: SearchService,
+	) {}
 
 	ngOnInit(): void {
-		this.cd.detectChanges();
+		this.pages = this.searchService.getPages();
 	}
-	searchFn(page: IPage, clue: string): boolean {
+	searchFn(page: IReferencePage, clue: string): boolean {
 		return page.match(clue);
 	}
-	goToPage(page: IPage) {
-		// this.router.navigateByUrl(page.fullPath);
-	}
-
-	updateInput() {
-		// const path = this.router.url;
-		// const selectedPage = this.pages.filter(page => path === `/${page.fullPath}`);
-		// if (selectedPage.length === 1) {
-		// 	this.currentPage = selectedPage[0];
-		// }
+	goToPage(page: IReferencePage) {
+		this.router.navigateByUrl(page.href);
 	}
 }

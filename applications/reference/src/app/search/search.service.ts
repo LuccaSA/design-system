@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { ThemeDocumentationService } from '@prisme/common';
+import { ThemePage, IReferencePage } from './reference.page';
 
 @Injectable()
 export class SearchService {
 	constructor(protected themeService: ThemeDocumentationService) {}
-	getPages() {
-		return this.themeService.allThemes();
+	getPages(): IReferencePage[] {
+		return this.themeService.allThemes().map(t => new ThemePage(t));
 	}
 }
