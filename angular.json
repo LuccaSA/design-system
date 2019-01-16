@@ -3,120 +3,6 @@
   "version": 1,
   "newProjectRoot": "applications",
   "projects": {
-    "design-system": {
-      "prefix": "ds",
-      "root": "",
-      "sourceRoot": "src",
-      "projectType": "application",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:browser",
-          "options": {
-            "outputPath": "dist",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "tsConfig": "src/tsconfig.app.json",
-            "polyfills": "src/polyfills.ts",
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/scss/overrides",
-                "node_modules/@lucca-front/scss/src/overrides",
-                "node_modules/@lucca-front/ng/style/overrides"
-              ]
-            },
-            "assets": [
-              "src/assets",
-              "src/favicon.ico",
-              "src/guidelines"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": [
-              "node_modules/marked/lib/marked.js"
-            ]
-          },
-          "configurations": {
-            "production": {
-              "optimization": true,
-              "outputHashing": "all",
-              "sourceMap": false,
-              "extractCss": true,
-              "namedChunks": false,
-              "aot": true,
-              "extractLicenses": true,
-              "vendorChunk": false,
-              "buildOptimizer": true,
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ]
-            },
-            "deploy": {
-              "outputPath": "docs",
-              "extractCss": true,
-              "baseHref": "/design-system",
-              "deployUrl": "/design-system/",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.deploy.ts"
-                }
-              ]
-            }
-          }
-        },
-        "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "browserTarget": "design-system:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "design-system:build:production"
-            }
-          }
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "design-system:build"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "src/test.ts",
-            "karmaConfig": "./karma.conf.js",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.spec.json",
-            "scripts": [],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "assets": [
-              "src/assets",
-              "src/favicon.ico"
-            ]
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**",
-              "api/**"
-            ]
-          }
-        }
-      }
-    },
     "common": {
       "root": "libraries/common",
       "sourceRoot": "./",
@@ -275,7 +161,12 @@
     "@schematics/angular:directive": {
       "prefix": "pri"
     },
-    "@prisme/schematics:example": {}
+    "@prisme/schematics:feature": {
+      "project": "prisme"
+    },
+    "@prisme/schematics:example": {
+      "project": "prisme"
+    }
   },
   "cli": {
     "defaultCollection": "@prisme/schematics",
