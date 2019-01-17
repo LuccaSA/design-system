@@ -1,0 +1,43 @@
+<section class="card">
+	<section class="card-content">
+		<h3>{{interface.name}} <span class="label">Interface</span></h3>
+		<p>{{interface.description}}</p>
+	</section>
+	<ng-template [ngIf]="interface.properties?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
+				<h3>Properties</h3>
+			</div>
+			<table class="table mod-small mod-card">
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let property of interface.properties">
+						<td class="table-body-row-cell label-cell"><code class="code">{{property.name}}</code></td>
+						<td class="table-body-row-cell content-cell">
+							<div><i>Type: </i><code class="code">{{ property.type }}</code></div>
+							<div style="margin: 10px 0">{{ property.description }}</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</ng-template>
+	<ng-template [ngIf]="interface.methods?.length">
+		<section class="contentSection">
+			<div class="card-content u-paddingBottomReset">
+				<h3>Methods</h3>
+			</div>
+			<table class="table mod-small">
+				<tbody class="table-body">
+					<tr class="table-body-row" *ngFor="let method of interface.methods">
+						<td class="table-body-row-cell label-cell"><code class="code">{{method.name}}</code></td>
+						<td class="table-body-row-cell content-cell">
+							<div><i>Signature: </i><code class="code">{{ signature(method) }}</code></div>
+							<div><i>Return type: </i><code class="code">{{ method.returnType }}</code></div>
+							<div style="margin: 10px 0">{{ method.description }}</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</ng-template>
+</section>

@@ -9,7 +9,7 @@ export interface IMethodDocumentation extends IDocumentation {
 	returnType: string;
 }
 export interface IPropertyDocumentation extends IDocumentation {
-	type: string;
+	propertyType: string;
 	default?: string;
 }
 export interface IArgumentDocumentation extends IPropertyDocumentation {}

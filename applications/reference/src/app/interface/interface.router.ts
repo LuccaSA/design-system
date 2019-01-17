@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ThemeComponent } from './theme.component';
+import { InterfaceComponent } from './interface.component';
 
 @NgModule({
 	imports: [
 		RouterModule.forChild([
-			{ path: '', component: ThemeComponent }
+			{ path: '', component: InterfaceComponent }
 		]),
 	],
 	exports: [
 		RouterModule,
 	],
 })
-export class ThemeRoutingModule {}
+export class InterfaceRoutingModule {}

@@ -16,7 +16,6 @@ import { appRoutes } from './app.router';
 		HeaderModule,
 		BrowserAnimationsModule,
 		RouterModule.forRoot(appRoutes, {
-			scrollPositionRestoration: 'enabled',
 			useHash: true,
 		})
 	],
