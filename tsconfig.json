@@ -8,7 +8,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es6",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -22,6 +22,9 @@
       ],
       "@prisme/documentation/scss": [
         "documentation/scss"
+      ],
+      "@prisme/documentation/ng": [
+        "documentation/ng"
       ]
     }
   }
