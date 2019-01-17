@@ -15,7 +15,7 @@
 				<td class="table-body-row-cell u-nowrap">{{prop.name}}</td>
 				<td class="table-body-row-cell" *ngIf="!prop.realValue else withRealValue">{{prop.value}}</td>
 				<ng-template #withRealValue>
-					<td class="table-body-row-cell" *ngIf="prop.type === type.COLOR else simpleVar">
+					<td class="table-body-row-cell" *ngIf="prop.propertyType === type.COLOR else simpleVar">
 						<span class="label palette-secondary">{{prop.value}}</span> {{prop.realValue}}
 					</td>
 				</ng-template>

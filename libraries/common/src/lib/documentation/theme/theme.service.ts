@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import SCSS_DOCS from '@prisme/documentation/scss';
-import { IThemeDocumentation } from './theme-documentation.model';
+import { IThemeDocumentation } from './theme.model';
 
 @Injectable()
 export class ThemeDocumentationService {
