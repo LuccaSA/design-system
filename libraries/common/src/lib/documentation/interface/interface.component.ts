@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IInterfaceDocumentation, IMethodDocumentation } from './interface.model';
+import { IInterfaceDocumentation } from './interface.model';
 
 @Component({
 	selector: 'pri-interface',
@@ -7,8 +7,4 @@ import { IInterfaceDocumentation, IMethodDocumentation } from './interface.model
 })
 export class InterfaceDocumentationComponent {
 	@Input() interface: IInterfaceDocumentation;
-	signature(method: IMethodDocumentation): string {
-		const args = method.arguments.map(arg => `${arg.name}: ${arg.type}`).join(', ');
-		return `${method.name}(${args})`;
-	}
 }

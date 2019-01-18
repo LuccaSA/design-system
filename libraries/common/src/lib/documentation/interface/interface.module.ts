@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InterfaceDocumentationComponent } from './interface.component';
 import { PropertyDocumentationComponent } from './property.component';
+import { MethodDocumentationComponent } from './method.component';
 import { InterfaceDocumentationService } from './interface.service';
 
 @NgModule({
@@ -11,9 +12,12 @@ import { InterfaceDocumentationService } from './interface.service';
 	declarations: [
 		InterfaceDocumentationComponent,
 		PropertyDocumentationComponent,
+		MethodDocumentationComponent,
 	],
 	exports: [
-		InterfaceDocumentationComponent
+		InterfaceDocumentationComponent,
+		PropertyDocumentationComponent,
+		MethodDocumentationComponent,
 	],
 	providers: [
 		InterfaceDocumentationService,
