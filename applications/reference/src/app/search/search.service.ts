@@ -11,6 +11,7 @@ export class SearchService {
 	getPages(): IReferencePage[] {
 		const themePages = this.themeService.all().map(t => new ReferencePage(t));
 		const interfacePages = this.interfaceService.all().map(i => new ReferencePage(i));
-		return [ ...themePages, ...interfacePages].sort((a, b) => (a.documentation.name.toLowerCase() < b.documentation.name.toLowerCase()) ? -1 : 1);
+		return [ ...themePages, ...interfacePages]
+		.sort((a, b) => (a.documentation.name.toLowerCase() < b.documentation.name.toLowerCase()) ? -1 : 1);
 	}
 }
