@@ -36,7 +36,7 @@ export class IconsFeature {
 				extra: `Vous pouvez changer manuellement la taille des icones en appliquant une <code class="code">font-size</code>`
 			}
 		],
-		theme: this.docApi.theme('icons')
+		theme: this.docApi.get('icons')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

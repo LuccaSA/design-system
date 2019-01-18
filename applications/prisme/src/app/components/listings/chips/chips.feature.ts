@@ -26,7 +26,7 @@ export class ChipsFeature {
 				extra: 'Ce mod suffit à cacher le bouton de suppression',
 			}
 		],
-		theme: this.themeService.theme('chip'),
+		theme: this.themeService.get('chip'),
 	};
 
 	constructor(protected themeService: ThemeDocumentationService) {

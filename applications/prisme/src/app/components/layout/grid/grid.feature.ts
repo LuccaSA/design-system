@@ -51,7 +51,7 @@ export class GridFeature {
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.example.html'),
 			},
 		],
-		theme: this.docApi.theme('breakpoints')
+		theme: this.docApi.get('breakpoints')
 	};
 	constructor( private docApi: ThemeDocumentationService ) { }
 }

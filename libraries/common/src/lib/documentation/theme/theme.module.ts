@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ThemeDocumentationComponent } from './theme-documentation.component';
-import { ThemeDocumentationService } from './theme-documentation.service';
+import { ThemeDocumentationComponent } from './theme.component';
+import { ThemeDocumentationService } from './theme.service';
 
 @NgModule({
 	imports: [

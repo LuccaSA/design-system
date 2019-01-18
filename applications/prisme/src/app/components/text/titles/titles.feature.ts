@@ -18,7 +18,7 @@ export class TitlesFeature {
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 			},
 		],
-		theme: this.docApi.theme('typography'),
+		theme: this.docApi.get('typography'),
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

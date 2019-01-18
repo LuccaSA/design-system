@@ -6,6 +6,7 @@
     "ng": "ng",
     "tsc": "tsc",
     "schematics": "schematics",
+    "postinstall": "npm run link:schematics",
     "prestart": "npm run generateapi:scss && npm run generateapi:ng",
     "start": "ng serve",
     "prebuild": "npm run generateapi",

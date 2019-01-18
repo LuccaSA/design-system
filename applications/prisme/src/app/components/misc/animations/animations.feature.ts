@@ -27,7 +27,7 @@ export class AnimationsFeature {
 				code: require('!!prismjs-loader?lang=markup!./exit/exit.example.html'),
 			},
 		],
-		theme: this.themeService.theme('animations')
+		theme: this.themeService.get('animations')
 	};
 	constructor(protected themeService: ThemeDocumentationService) { }
 }
