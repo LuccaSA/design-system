@@ -1,7 +1,7 @@
-/*tsling:disable*/
 const NG_DOCS = {
   "ISuggestion": {
     "fileName": "libraries/core/src/lib/api/api.model.ts",
+    "type": "interface",
     "name": "ISuggestion",
     "className": "ISuggestion",
     "description": "",
@@ -9,18 +9,19 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "item",
-        "type": "T",
+        "propertyType": "T",
         "description": ""
       },
       {
         "name": "relevance",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       }
     ]
   },
   "IApiItem": {
     "fileName": "libraries/core/src/lib/api/api.model.ts",
+    "type": "interface",
     "name": "IApiItem",
     "className": "IApiItem",
     "description": "",
@@ -28,18 +29,19 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "id",
-        "type": "TId",
+        "propertyType": "TId",
         "description": ""
       },
       {
         "name": "name",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ]
   },
   "IApiResponse": {
     "fileName": "libraries/core/src/lib/api/api.model.ts",
+    "type": "interface",
     "name": "IApiResponse",
     "className": "IApiResponse",
     "description": "",
@@ -47,13 +49,14 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "data",
-        "type": "D",
+        "propertyType": "D",
         "description": ""
       }
     ]
   },
   "IApiCollectionResponse": {
     "fileName": "libraries/core/src/lib/api/api.model.ts",
+    "type": "interface",
     "name": "IApiCollectionResponse",
     "className": "IApiCollectionResponse",
     "description": "",
@@ -62,6 +65,7 @@ const NG_DOCS = {
   },
   "LuApiModule": {
     "fileName": "libraries/core/src/lib/api/api.module.ts",
+    "type": "module",
     "className": "LuApiModule",
     "name": "LuApiModule",
     "declarations": [],
@@ -71,6 +75,7 @@ const NG_DOCS = {
   },
   "LuApiSelectModule": {
     "fileName": "libraries/core/src/lib/api/select/api-select.module.ts",
+    "type": "module",
     "className": "LuApiSelectModule",
     "name": "LuApiSelectModule",
     "declarations": [],
@@ -84,6 +89,7 @@ const NG_DOCS = {
   "LuApiFeederComponent": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.component.ts",
     "name": "LuApiFeederComponent",
+    "type": "directive",
     "className": "LuApiFeederComponent",
     "description": "",
     "selector": "lu-api-feeder",
@@ -118,7 +124,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "outOptions$",
-        "type": "BehaviorSubject<T[]>",
+        "propertyType": "BehaviorSubject<T[]>",
         "description": ""
       }
     ],
@@ -126,6 +132,7 @@ const NG_DOCS = {
   },
   "ILuApiOptionFeeder": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
+    "type": "interface",
     "name": "ILuApiOptionFeeder",
     "className": "ILuApiOptionFeeder",
     "description": "",
@@ -134,14 +141,46 @@ const NG_DOCS = {
   },
   "ILuApiFeederService": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
+    "type": "interface",
     "name": "ILuApiFeederService",
     "className": "ILuApiFeederService",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuApiOptionFeeder": {
+    "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
+    "type": "class",
+    "className": "ALuApiOptionFeeder",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "outOptions$",
+        "propertyType": "BehaviorSubject<T[]>",
+        "description": ""
+      }
+    ]
+  },
+  "ALuApiFeederService": {
+    "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
+    "type": "class",
+    "className": "ALuApiFeederService",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "url",
+        "propertyType": "string",
+        "description": ""
+      }
+    ]
+  },
   "LuApiFeederModule": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.module.ts",
+    "type": "module",
     "className": "LuApiFeederModule",
     "name": "LuApiFeederModule",
     "declarations": [
@@ -152,6 +191,7 @@ const NG_DOCS = {
     ]
   },
   "LuApiFeederService": {
+    "type": "injectable",
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.service.ts",
     "className": "LuApiFeederService",
     "description": "",
@@ -161,6 +201,7 @@ const NG_DOCS = {
   "LuApiSelectInputComponent": {
     "fileName": "libraries/core/src/lib/api/select/input/api-select-input.component.ts",
     "name": "LuApiSelectInputComponent",
+    "type": "directive",
     "className": "LuApiSelectInputComponent",
     "description": "",
     "selector": "lu-api-select",
@@ -205,18 +246,18 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "isDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "isFocused",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "tabindex",
         "defaultValue": "0",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       }
     ],
@@ -224,13 +265,14 @@ const NG_DOCS = {
       {
         "name": "onClick",
         "description": "bind to dom events",
-        "args": [],
+        "arguments": [],
         "returnType": "void"
       }
     ]
   },
   "LuApiSelectInputModule": {
     "fileName": "libraries/core/src/lib/api/select/input/api-select-input.module.ts",
+    "type": "module",
     "className": "LuApiSelectInputModule",
     "name": "LuApiSelectInputModule",
     "declarations": [
@@ -243,6 +285,7 @@ const NG_DOCS = {
   "LuApiPagerComponent": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.component.ts",
     "name": "LuApiPagerComponent",
+    "type": "directive",
     "className": "LuApiPagerComponent",
     "description": "",
     "selector": "lu-api-pager",
@@ -277,7 +320,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "outOptions$",
-        "type": "BehaviorSubject<T[]>",
+        "propertyType": "BehaviorSubject<T[]>",
         "description": ""
       }
     ],
@@ -285,6 +328,7 @@ const NG_DOCS = {
   },
   "ILuApiOptionPager": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
+    "type": "interface",
     "name": "ILuApiOptionPager",
     "className": "ILuApiOptionPager",
     "description": "",
@@ -293,14 +337,45 @@ const NG_DOCS = {
   },
   "ILuApiPagerService": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
+    "type": "interface",
     "name": "ILuApiPagerService",
     "className": "ILuApiPagerService",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuApiOptionPager": {
+    "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
+    "type": "class",
+    "className": "ALuApiOptionPager",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "loading$",
+        "propertyType": "Observable<boolean>",
+        "description": ""
+      },
+      {
+        "name": "outOptions$",
+        "propertyType": "BehaviorSubject<T[]>",
+        "description": ""
+      }
+    ]
+  },
+  "ALuApiPagerService": {
+    "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
+    "type": "class",
+    "className": "ALuApiPagerService",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuApiPagerModule": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.module.ts",
+    "type": "module",
     "className": "LuApiPagerModule",
     "name": "LuApiPagerModule",
     "declarations": [
@@ -311,6 +386,7 @@ const NG_DOCS = {
     ]
   },
   "LuApiPagerService": {
+    "type": "injectable",
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.service.ts",
     "className": "LuApiPagerService",
     "description": "",
@@ -320,6 +396,7 @@ const NG_DOCS = {
   "LuApiSearcherComponent": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.component.ts",
     "name": "LuApiSearcherComponent",
+    "type": "directive",
     "className": "LuApiSearcherComponent",
     "description": "",
     "selector": "lu-api-searcher",
@@ -354,18 +431,18 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "clueControl",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       },
       {
         "name": "fixed",
         "defaultValue": "true",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "searchInput",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       }
     ],
@@ -374,6 +451,7 @@ const NG_DOCS = {
   "LuApiPagedSearcherComponent": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.component.ts",
     "name": "LuApiPagedSearcherComponent",
+    "type": "directive",
     "className": "LuApiPagedSearcherComponent",
     "description": "",
     "selector": "lu-api-paged-searcher",
@@ -408,18 +486,18 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "clueControl",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       },
       {
         "name": "fixed",
         "defaultValue": "true",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "searchInput",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       }
     ],
@@ -427,6 +505,7 @@ const NG_DOCS = {
   },
   "ILuApiOptionSearcher": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "interface",
     "name": "ILuApiOptionSearcher",
     "className": "ILuApiOptionSearcher",
     "description": "",
@@ -435,14 +514,45 @@ const NG_DOCS = {
   },
   "ILuApiSearcherService": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "interface",
     "name": "ILuApiSearcherService",
     "className": "ILuApiSearcherService",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuApiOptionSearcher": {
+    "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "class",
+    "className": "ALuApiOptionSearcher",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "loading$",
+        "propertyType": "Observable<boolean>",
+        "description": ""
+      },
+      {
+        "name": "outOptions$",
+        "propertyType": "BehaviorSubject<T[]>",
+        "description": ""
+      }
+    ]
+  },
+  "ALuApiSearcherService": {
+    "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "class",
+    "className": "ALuApiSearcherService",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "ILuApiOptionPagedSearcher": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "interface",
     "name": "ILuApiOptionPagedSearcher",
     "className": "ILuApiOptionPagedSearcher",
     "description": "",
@@ -451,14 +561,45 @@ const NG_DOCS = {
   },
   "ILuApiPagedSearcherService": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "interface",
     "name": "ILuApiPagedSearcherService",
     "className": "ILuApiPagedSearcherService",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuApiPagedSearcherService": {
+    "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "class",
+    "className": "ALuApiPagedSearcherService",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
+  "ALuApiOptionPagedSearcher": {
+    "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
+    "type": "class",
+    "className": "ALuApiOptionPagedSearcher",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "loading$",
+        "propertyType": "Observable<boolean>",
+        "description": ""
+      },
+      {
+        "name": "outOptions$",
+        "propertyType": "BehaviorSubject<T[]>",
+        "description": ""
+      }
+    ]
+  },
   "LuApiSearcherModule": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.module.ts",
+    "type": "module",
     "className": "LuApiSearcherModule",
     "name": "LuApiSearcherModule",
     "declarations": [
@@ -471,6 +612,7 @@ const NG_DOCS = {
     ]
   },
   "LuApiSearcherService": {
+    "type": "injectable",
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.service.ts",
     "className": "LuApiSearcherService",
     "description": "",
@@ -478,6 +620,7 @@ const NG_DOCS = {
     "properties": []
   },
   "LuApiPagedSearcherService": {
+    "type": "injectable",
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.service.ts",
     "className": "LuApiPagedSearcherService",
     "description": "",
@@ -486,6 +629,7 @@ const NG_DOCS = {
   },
   "ILuClearer": {
     "fileName": "libraries/core/src/lib/input/clearer/clearer.model.ts",
+    "type": "interface",
     "name": "ILuClearer",
     "className": "ILuClearer",
     "description": "",
@@ -493,7 +637,22 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "onClear",
-        "type": "Observable<T>",
+        "propertyType": "Observable<T>",
+        "description": ""
+      }
+    ]
+  },
+  "ALuClearer": {
+    "fileName": "libraries/core/src/lib/input/clearer/clearer.model.ts",
+    "type": "class",
+    "className": "ALuClearer",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "onClear",
+        "propertyType": "Observable<T>",
         "description": ""
       }
     ]
@@ -501,6 +660,7 @@ const NG_DOCS = {
   "LuInputDisplayerDirective": {
     "fileName": "libraries/core/src/lib/input/displayer/input-displayer.directive.ts",
     "name": "LuInputDisplayerDirective",
+    "type": "directive",
     "className": "LuInputDisplayerDirective",
     "description": "",
     "selector": "[luDisplayer]",
@@ -520,8 +680,18 @@ const NG_DOCS = {
     "properties": [],
     "methods": []
   },
+  "LuInputDisplayerContext": {
+    "fileName": "libraries/core/src/lib/input/displayer/input-displayer.directive.ts",
+    "type": "class",
+    "className": "LuInputDisplayerContext",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "ILuInputDisplayer": {
     "fileName": "libraries/core/src/lib/input/displayer/input-displayer.model.ts",
+    "type": "interface",
     "name": "ILuInputDisplayer",
     "className": "ILuInputDisplayer",
     "description": "",
@@ -529,13 +699,30 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "multiple",
-        "type": "boolean",
+        "propertyType": "boolean",
+        "description": ""
+      }
+    ]
+  },
+  "ALuInputDisplayer": {
+    "fileName": "libraries/core/src/lib/input/displayer/input-displayer.model.ts",
+    "type": "class",
+    "className": "ALuInputDisplayer",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "multiple",
+        "defaultValue": "false",
+        "propertyType": "boolean",
         "description": ""
       }
     ]
   },
   "LuInputDisplayerModule": {
     "fileName": "libraries/core/src/lib/input/displayer/input-displayer.module.ts",
+    "type": "module",
     "className": "LuInputDisplayerModule",
     "name": "LuInputDisplayerModule",
     "declarations": [
@@ -548,6 +735,7 @@ const NG_DOCS = {
   "LuInputDirective": {
     "fileName": "libraries/core/src/lib/input/input.directive.ts",
     "name": "LuInputDirective",
+    "type": "directive",
     "className": "LuInputDirective",
     "description": "adds class is-filled when model is empty",
     "selector": "[luInput]",
@@ -558,6 +746,7 @@ const NG_DOCS = {
   },
   "ILuInput": {
     "fileName": "libraries/core/src/lib/input/input.model.ts",
+    "type": "interface",
     "name": "ILuInput",
     "className": "ILuInput",
     "description": "",
@@ -566,14 +755,36 @@ const NG_DOCS = {
   },
   "ILuInputWithPicker": {
     "fileName": "libraries/core/src/lib/input/input.model.ts",
+    "type": "interface",
     "name": "ILuInputWithPicker",
     "className": "ILuInputWithPicker",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuInput": {
+    "fileName": "libraries/core/src/lib/input/input.model.ts",
+    "type": "class",
+    "className": "ALuInput",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "placeholder",
+        "propertyType": "string",
+        "description": ""
+      },
+      {
+        "name": "value",
+        "propertyType": "T",
+        "description": ""
+      }
+    ]
+  },
   "LuInputModule": {
     "fileName": "libraries/core/src/lib/input/input.module.ts",
+    "type": "module",
     "className": "LuInputModule",
     "name": "LuInputModule",
     "declarations": [
@@ -586,6 +797,7 @@ const NG_DOCS = {
   },
   "ILuPickerPanel": {
     "fileName": "libraries/core/src/lib/input/picker/input-picker.model.ts",
+    "type": "interface",
     "name": "ILuPickerPanel",
     "className": "ILuPickerPanel",
     "description": "",
@@ -593,7 +805,7 @@ const NG_DOCS = {
       {
         "name": "setValue",
         "description": "called to tell the picker what's the current value",
-        "args": [
+        "arguments": [
           {
             "name": "value",
             "type": "T | T[]"
@@ -605,18 +817,51 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "multiple",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "self explainatory"
       },
       {
         "name": "onSelectValue",
-        "type": "Observable<T | T[]>",
+        "propertyType": "Observable<T | T[]>",
+        "description": "emits when a value was selected on the picker"
+      }
+    ]
+  },
+  "ALuPickerPanel": {
+    "fileName": "libraries/core/src/lib/input/picker/input-picker.model.ts",
+    "type": "class",
+    "className": "ALuPickerPanel",
+    "abstract": true,
+    "description": "",
+    "methods": [
+      {
+        "name": "setValue",
+        "description": "called to tell the picker what's the current value",
+        "arguments": [
+          {
+            "name": "value",
+            "type": "T | T[]"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "properties": [
+      {
+        "name": "multiple",
+        "propertyType": "boolean",
+        "description": "self explainatory"
+      },
+      {
+        "name": "onSelectValue",
+        "propertyType": "Observable<T | T[]>",
         "description": "emits when a value was selected on the picker"
       }
     ]
   },
   "LuModule": {
     "fileName": "libraries/core/src/lib/module.ts",
+    "type": "module",
     "className": "LuModule",
     "name": "LuModule",
     "declarations": [],
@@ -635,6 +880,7 @@ const NG_DOCS = {
   },
   "LuNumberModule": {
     "fileName": "libraries/core/src/lib/number/number.module.ts",
+    "type": "module",
     "className": "LuNumberModule",
     "name": "LuNumberModule",
     "declarations": [
@@ -649,12 +895,13 @@ const NG_DOCS = {
     "name": "LuNumberPipe",
     "className": "LuNumberPipe",
     "description": "",
+    "type": "pipe",
     "pipeName": "luNumber",
     "input": {
       "name": "number",
       "type": "number"
     },
-    "args": [
+    "arguments": [
       {
         "name": "precision",
         "type": "number",
@@ -669,6 +916,7 @@ const NG_DOCS = {
   "LuOptionItemComponent": {
     "fileName": "libraries/core/src/lib/option/item/option-item.component.ts",
     "name": "LuOptionItemComponent",
+    "type": "directive",
     "className": "LuOptionItemComponent",
     "description": "",
     "selector": "lu-option",
@@ -690,6 +938,7 @@ const NG_DOCS = {
   },
   "ILuOptionItem": {
     "fileName": "libraries/core/src/lib/option/item/option-item.model.ts",
+    "type": "interface",
     "name": "ILuOptionItem",
     "className": "ILuOptionItem",
     "description": "",
@@ -697,18 +946,39 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "onSelect",
-        "type": "Observable<T>",
+        "propertyType": "Observable<T>",
         "description": ""
       },
       {
         "name": "value",
-        "type": "T",
+        "propertyType": "T",
+        "description": ""
+      }
+    ]
+  },
+  "ALuOptionItem": {
+    "fileName": "libraries/core/src/lib/option/item/option-item.model.ts",
+    "type": "class",
+    "className": "ALuOptionItem",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "onSelect",
+        "propertyType": "Observable<T>",
+        "description": ""
+      },
+      {
+        "name": "value",
+        "propertyType": "T",
         "description": ""
       }
     ]
   },
   "LuOptionItemModule": {
     "fileName": "libraries/core/src/lib/option/item/option-item.module.ts",
+    "type": "module",
     "className": "LuOptionItemModule",
     "name": "LuOptionItemModule",
     "declarations": [
@@ -721,6 +991,7 @@ const NG_DOCS = {
   "LuOptionFeederComponent": {
     "fileName": "libraries/core/src/lib/option/operator/feeder/option-feeder.component.ts",
     "name": "LuOptionFeederComponent",
+    "type": "directive",
     "className": "LuOptionFeederComponent",
     "description": "",
     "selector": "lu-option-feeder",
@@ -735,7 +1006,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "outOptions$",
-        "type": "BehaviorSubject<T[]>",
+        "propertyType": "BehaviorSubject<T[]>",
         "description": ""
       }
     ],
@@ -743,6 +1014,7 @@ const NG_DOCS = {
   },
   "LuOptionFeederModule": {
     "fileName": "libraries/core/src/lib/option/operator/feeder/option-feeder.module.ts",
+    "type": "module",
     "className": "LuOptionFeederModule",
     "name": "LuOptionFeederModule",
     "declarations": [
@@ -752,9 +1024,40 @@ const NG_DOCS = {
       "LuOptionFeederComponent"
     ]
   },
+  "LuForOptionsContext": {
+    "fileName": "libraries/core/src/lib/option/operator/for-options/for-options.directive.ts",
+    "type": "class",
+    "className": "LuForOptionsContext",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "even",
+        "propertyType": "boolean",
+        "description": ""
+      },
+      {
+        "name": "first",
+        "propertyType": "boolean",
+        "description": ""
+      },
+      {
+        "name": "last",
+        "propertyType": "boolean",
+        "description": ""
+      },
+      {
+        "name": "odd",
+        "propertyType": "boolean",
+        "description": ""
+      }
+    ]
+  },
   "LuForOptionsDirective": {
     "fileName": "libraries/core/src/lib/option/operator/for-options/for-options.directive.ts",
     "name": "LuForOptionsDirective",
+    "type": "directive",
     "className": "LuForOptionsDirective",
     "description": "",
     "selector": "[luForOptions]",
@@ -765,6 +1068,7 @@ const NG_DOCS = {
   },
   "LuForOptionsModule": {
     "fileName": "libraries/core/src/lib/option/operator/for-options/for-options.module.ts",
+    "type": "module",
     "className": "LuForOptionsModule",
     "name": "LuForOptionsModule",
     "declarations": [
@@ -776,6 +1080,7 @@ const NG_DOCS = {
   },
   "ILuOptionOperator": {
     "fileName": "libraries/core/src/lib/option/operator/option-operator.model.ts",
+    "type": "interface",
     "name": "ILuOptionOperator",
     "className": "ILuOptionOperator",
     "description": "",
@@ -783,38 +1088,59 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "inOptions$",
-        "type": "Observable<T[]>",
+        "propertyType": "Observable<T[]>",
         "description": ""
       },
       {
         "name": "onClose",
-        "type": "() => void",
+        "propertyType": "() => void",
         "description": ""
       },
       {
         "name": "onKeydown",
-        "type": "(key: number) => void",
+        "propertyType": "(key: number) => void",
         "description": ""
       },
       {
         "name": "onOpen",
-        "type": "() => void",
+        "propertyType": "() => void",
         "description": ""
       },
       {
         "name": "onScrollBottom",
-        "type": "() => void",
+        "propertyType": "() => void",
         "description": ""
       },
       {
         "name": "outOptions$",
-        "type": "Observable<T[]>",
+        "propertyType": "Observable<T[]>",
+        "description": ""
+      }
+    ]
+  },
+  "ALuOptionOperator": {
+    "fileName": "libraries/core/src/lib/option/operator/option-operator.model.ts",
+    "type": "class",
+    "className": "ALuOptionOperator",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "inOptions$",
+        "propertyType": "Observable<T[]>",
+        "description": ""
+      },
+      {
+        "name": "outOptions$",
+        "propertyType": "Observable<T[]>",
         "description": ""
       }
     ]
   },
   "LuOptionOperatorModule": {
     "fileName": "libraries/core/src/lib/option/operator/option-operator.module.ts",
+    "type": "module",
     "className": "LuOptionOperatorModule",
     "name": "LuOptionOperatorModule",
     "declarations": [],
@@ -828,6 +1154,7 @@ const NG_DOCS = {
   "LuOptionPagerComponent": {
     "fileName": "libraries/core/src/lib/option/operator/pager/option-pager.component.ts",
     "name": "LuOptionPagerComponent",
+    "type": "directive",
     "className": "LuOptionPagerComponent",
     "description": "",
     "selector": "lu-option-pager",
@@ -836,7 +1163,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "paging$",
-        "type": "BehaviorSubject<number>",
+        "propertyType": "BehaviorSubject<number>",
         "description": ""
       }
     ],
@@ -844,6 +1171,7 @@ const NG_DOCS = {
   },
   "LuOptionPagerModule": {
     "fileName": "libraries/core/src/lib/option/operator/pager/option-pager.module.ts",
+    "type": "module",
     "className": "LuOptionPagerModule",
     "name": "LuOptionPagerModule",
     "declarations": [
@@ -856,6 +1184,7 @@ const NG_DOCS = {
   "LuOptionSearcherComponent": {
     "fileName": "libraries/core/src/lib/option/operator/searcher/option-searcher.component.ts",
     "name": "LuOptionSearcherComponent",
+    "type": "directive",
     "className": "LuOptionSearcherComponent",
     "description": "",
     "selector": "lu-option-searcher",
@@ -870,23 +1199,23 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "clue$",
-        "type": "Observable<any>",
+        "propertyType": "Observable<any>",
         "description": ""
       },
       {
         "name": "fixed",
         "defaultValue": "true",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "searchControl",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       },
       {
         "name": "searchInput",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       }
     ],
@@ -894,6 +1223,7 @@ const NG_DOCS = {
   },
   "LuOptionSearcherModule": {
     "fileName": "libraries/core/src/lib/option/operator/searcher/option-searcher.module.ts",
+    "type": "module",
     "className": "LuOptionSearcherModule",
     "name": "LuOptionSearcherModule",
     "declarations": [
@@ -905,6 +1235,7 @@ const NG_DOCS = {
   },
   "LuOptionModule": {
     "fileName": "libraries/core/src/lib/option/option.module.ts",
+    "type": "module",
     "className": "LuOptionModule",
     "name": "LuOptionModule",
     "declarations": [],
@@ -917,6 +1248,7 @@ const NG_DOCS = {
   "LuOptionPickerComponent": {
     "fileName": "libraries/core/src/lib/option/picker/option-picker.component.ts",
     "name": "LuOptionPickerComponent",
+    "type": "directive",
     "className": "LuOptionPickerComponent",
     "description": "basic option picker panel",
     "selector": "lu-option-picker",
@@ -945,12 +1277,12 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "highlightIndex",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "optionsQLVR",
-        "type": "QueryList<ViewContainerRef>",
+        "propertyType": "QueryList<ViewContainerRef>",
         "description": ""
       }
     ],
@@ -958,14 +1290,43 @@ const NG_DOCS = {
   },
   "ILuOptionPickerPanel": {
     "fileName": "libraries/core/src/lib/option/picker/option-picker.model.ts",
+    "type": "interface",
     "name": "ILuOptionPickerPanel",
     "className": "ILuOptionPickerPanel",
     "description": "",
     "methods": [],
     "properties": []
   },
+  "ALuOptionPicker": {
+    "fileName": "libraries/core/src/lib/option/picker/option-picker.model.ts",
+    "type": "class",
+    "className": "ALuOptionPicker",
+    "abstract": true,
+    "description": "",
+    "methods": [
+      {
+        "name": "setValue",
+        "description": "called to tell the picker what's the current value",
+        "arguments": [
+          {
+            "name": "value",
+            "type": "T | T[]"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "properties": [
+      {
+        "name": "onSelectValue",
+        "propertyType": "Observable<T | T[]>",
+        "description": "emits when a value was selected on the picker"
+      }
+    ]
+  },
   "LuOptionPickerModule": {
     "fileName": "libraries/core/src/lib/option/picker/option-picker.module.ts",
+    "type": "module",
     "className": "LuOptionPickerModule",
     "name": "LuOptionPickerModule",
     "declarations": [
@@ -978,6 +1339,7 @@ const NG_DOCS = {
   "LuPopoverPanelComponent": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.component.ts",
     "name": "LuPopoverPanelComponent",
+    "type": "directive",
     "className": "LuPopoverPanelComponent",
     "description": "",
     "selector": "lu-popover",
@@ -1064,6 +1426,7 @@ const NG_DOCS = {
   },
   "ILuPopoverPanel": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.model.ts",
+    "type": "interface",
     "name": "ILuPopoverPanel",
     "className": "ILuPopoverPanel",
     "description": "",
@@ -1071,122 +1434,124 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "alignment",
-        "type": "LuPopoverAlignment",
+        "propertyType": "LuPopoverAlignment",
         "description": ""
       },
       {
         "name": "close",
-        "type": "Observable<void>",
+        "propertyType": "Observable<void>",
         "description": ""
       },
       {
         "name": "closeDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "closeOnClick",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "containerPositioning",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "enterDelay",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "keydownEvents$",
-        "type": "Observable<KeyboardEvent>",
+        "propertyType": "Observable<KeyboardEvent>",
         "description": ""
       },
       {
         "name": "leaveDelay",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "open",
-        "type": "Observable<void>",
+        "propertyType": "Observable<void>",
         "description": ""
       },
       {
         "name": "overlapTrigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "popoverPanelStyles",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "position",
-        "type": "LuPopoverPosition",
+        "propertyType": "LuPopoverPosition",
         "description": ""
       },
       {
         "name": "scrollStrategy",
-        "type": "LuPopoverScrollStrategy",
+        "propertyType": "LuPopoverScrollStrategy",
         "description": ""
       },
       {
         "name": "setPositionClasses",
-        "type": "(pos: LuPopoverPosition, al: LuPopoverAlignment) => void",
+        "propertyType": "(pos: LuPopoverPosition, al: LuPopoverAlignment) => void",
         "description": ""
       },
       {
         "name": "setPositionClassesChanges",
-        "type": "(posX: LuPopoverPosition, posY: LuPopoverPosition) => void",
+        "propertyType": "(posX: LuPopoverPosition, posY: LuPopoverPosition) => void",
         "description": ""
       },
       {
         "name": "targetOffsetX",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "targetOffsetY",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "templateRef",
-        "type": "TemplateRef<any>",
+        "propertyType": "TemplateRef<any>",
         "description": ""
       },
       {
         "name": "triggerEvent",
-        "type": "LuPopoverTriggerEvent",
+        "propertyType": "LuPopoverTriggerEvent",
         "description": ""
       }
     ]
   },
   "ALuPopoverPanel": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.model.ts",
+    "type": "class",
     "className": "ALuPopoverPanel",
+    "abstract": true,
     "description": "abstract class for basic implementation of a popover panel\r\nit is highly recommended to use this template\r\n<ng-template>\r\n<div class=\"lu-popover-panel\" role=\"dialog\" [class.lu-popover-overlap]=\"overlapTrigger\" [ngClass]=\"_classList\" [ngStyle]=\"popoverPanelStyles\"\r\n(keydown)=\"_handleKeydown($event)\" (click)=\"onClick()\" (mouseover)=\"onMouseOver()\" (mouseleave)=\"onMouseLeave()\" (mousedown)=\"onMouseDown($event)\"\r\n[@transformPopover]=\"'enter'\">\r\n<div class=\"lu-popover-content\" [ngStyle]=\"popoverContentStyles\" cdkTrapFocus=\"focusTrapEnabled\">\r\n### PUT HERE THE CONTENT OF THE POPOVER ###\r\n</div>\r\n</div>\r\n</ng-template>",
     "methods": [
       {
         "name": "onMouseOver",
         "description": "TODO: Refactor when @angular/cdk includes feature I mentioned on github see link below.\r\nhttps://github.com/angular/material2/pull/5493#issuecomment-313085323\nDisables close of popover when leaving trigger element and mouse over the popover",
-        "args": [],
+        "arguments": [],
         "returnType": "void"
       },
       {
         "name": "onMouseLeave",
         "description": "Enables close of popover when mouse leaving popover element",
-        "args": [],
+        "arguments": [],
         "returnType": "void"
       },
       {
         "name": "onMouseDown",
         "description": "does nothing but must be overridable",
-        "args": [
+        "arguments": [
           {
             "name": "$event",
             "type": "any"
@@ -1198,108 +1563,109 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "alignment",
-        "type": "LuPopoverAlignment",
+        "propertyType": "LuPopoverAlignment",
         "description": ""
       },
       {
         "name": "classList",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "close",
-        "type": "Observable<void>",
+        "propertyType": "Observable<void>",
         "description": ""
       },
       {
         "name": "closeDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "closeOnClick",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "containerPositioning",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "enterDelay",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "focusTrapEnabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "isOpen",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "leaveDelay",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "open",
-        "type": "Observable<void>",
+        "propertyType": "Observable<void>",
         "description": ""
       },
       {
         "name": "overlapTrigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "popoverContentStyles",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "popoverPanelStyles",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "position",
-        "type": "LuPopoverPosition",
+        "propertyType": "LuPopoverPosition",
         "description": ""
       },
       {
         "name": "scrollStrategy",
-        "type": "LuPopoverScrollStrategy",
+        "propertyType": "LuPopoverScrollStrategy",
         "description": ""
       },
       {
         "name": "targetOffsetX",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "targetOffsetY",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "templateRef",
-        "type": "TemplateRef<any>",
+        "propertyType": "TemplateRef<any>",
         "description": ""
       },
       {
         "name": "triggerEvent",
-        "type": "LuPopoverTriggerEvent",
+        "propertyType": "LuPopoverTriggerEvent",
         "description": ""
       }
     ]
   },
   "LuPopoverPanelModule": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.module.ts",
+    "type": "module",
     "className": "LuPopoverPanelModule",
     "name": "LuPopoverPanelModule",
     "declarations": [
@@ -1311,6 +1677,7 @@ const NG_DOCS = {
   },
   "LuPopoverModule": {
     "fileName": "libraries/core/src/lib/popover/popover.module.ts",
+    "type": "module",
     "className": "LuPopoverModule",
     "name": "LuPopoverModule",
     "declarations": [],
@@ -1323,6 +1690,7 @@ const NG_DOCS = {
   "LuPopoverTargetDirective": {
     "fileName": "libraries/core/src/lib/popover/target/popover-target.directive.ts",
     "name": "LuPopoverTargetDirective",
+    "type": "directive",
     "className": "LuPopoverTargetDirective",
     "description": "",
     "selector": "lu-popover-target, [luPopoverTarget]",
@@ -1334,20 +1702,16 @@ const NG_DOCS = {
   },
   "ILuPopoverTarget": {
     "fileName": "libraries/core/src/lib/popover/target/popover-target.model.ts",
+    "type": "interface",
     "name": "ILuPopoverTarget",
     "className": "ILuPopoverTarget",
     "description": "",
     "methods": [],
-    "properties": [
-      {
-        "name": "_elementRef",
-        "type": "ElementRef<any>",
-        "description": ""
-      }
-    ]
+    "properties": []
   },
   "LuPopoverTargetModule": {
     "fileName": "libraries/core/src/lib/popover/target/popover-target.module.ts",
+    "type": "module",
     "className": "LuPopoverTargetModule",
     "name": "LuPopoverTargetModule",
     "declarations": [
@@ -1360,6 +1724,7 @@ const NG_DOCS = {
   "LuPopoverTriggerDirective": {
     "fileName": "libraries/core/src/lib/popover/trigger/popover-trigger.directive.ts",
     "name": "LuPopoverTriggerDirective",
+    "type": "directive",
     "className": "LuPopoverTriggerDirective",
     "description": "This directive is intended to be used in conjunction with an lu-popover tag.  It is\nresponsible for toggling the display of the provided popover instance.",
     "selector": "[luPopoverTriggerFor]",
@@ -1391,6 +1756,7 @@ const NG_DOCS = {
   },
   "ILuPopoverTrigger": {
     "fileName": "libraries/core/src/lib/popover/trigger/popover-trigger.model.ts",
+    "type": "interface",
     "name": "ILuPopoverTrigger",
     "className": "ILuPopoverTrigger",
     "description": "",
@@ -1398,13 +1764,90 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "popover",
-        "type": "T",
+        "propertyType": "T",
         "description": ""
+      }
+    ]
+  },
+  "ALuPopoverTrigger": {
+    "fileName": "libraries/core/src/lib/popover/trigger/popover-trigger.model.ts",
+    "type": "class",
+    "className": "ALuPopoverTrigger",
+    "abstract": true,
+    "description": "",
+    "methods": [
+      {
+        "name": "togglePopover",
+        "description": "Toggles the popover between the open and closed states.",
+        "arguments": [],
+        "returnType": "void"
+      },
+      {
+        "name": "openPopover",
+        "description": "Opens the popover.",
+        "arguments": [],
+        "returnType": "void"
+      },
+      {
+        "name": "closePopover",
+        "description": "Closes the popover.",
+        "arguments": [],
+        "returnType": "void"
+      },
+      {
+        "name": "destroyPopover",
+        "description": "Removes the popover from the DOM.",
+        "arguments": [],
+        "returnType": "void"
+      },
+      {
+        "name": "focus",
+        "description": "Focuses the popover trigger.",
+        "arguments": [],
+        "returnType": "void"
+      }
+    ],
+    "properties": [
+      {
+        "name": "dir",
+        "propertyType": "Direction",
+        "description": "The text direction of the containing app."
+      },
+      {
+        "name": "isVerticallyPositionned",
+        "propertyType": "boolean",
+        "description": "Return if the popover main positionning is vertical"
+      },
+      {
+        "name": "onPopoverClose",
+        "propertyType": "EventEmitter<void>",
+        "description": "Event emitted when the associated popover is closed."
+      },
+      {
+        "name": "onPopoverOpen",
+        "propertyType": "EventEmitter<void>",
+        "description": "Event emitted when the associated popover is opened."
+      },
+      {
+        "name": "popover",
+        "propertyType": "T",
+        "description": "References the popover instance that the trigger is associated with."
+      },
+      {
+        "name": "popoverOpen",
+        "propertyType": "boolean",
+        "description": "Whether the popover is open."
+      },
+      {
+        "name": "targetElement",
+        "propertyType": "ILuPopoverTarget",
+        "description": "References the popover target instance that the trigger is associated with."
       }
     ]
   },
   "LuPopoverTriggerModule": {
     "fileName": "libraries/core/src/lib/popover/trigger/popover-trigger.module.ts",
+    "type": "module",
     "className": "LuPopoverTriggerModule",
     "name": "LuPopoverTriggerModule",
     "declarations": [
@@ -1416,6 +1859,7 @@ const NG_DOCS = {
   },
   "LuSafeContentModule": {
     "fileName": "libraries/core/src/lib/safe-content/safe-content.module.ts",
+    "type": "module",
     "className": "LuSafeContentModule",
     "name": "LuSafeContentModule",
     "declarations": [
@@ -1430,12 +1874,13 @@ const NG_DOCS = {
     "name": "LuSafeContentPipe",
     "className": "LuSafeContentPipe",
     "description": "",
+    "type": "pipe",
     "pipeName": "luSafeContent",
     "input": {
       "name": "value",
       "type": "any"
     },
-    "args": [
+    "arguments": [
       {
         "name": "type",
         "type": "LuSafeContentType",
@@ -1450,6 +1895,7 @@ const NG_DOCS = {
   "LuScrollDirective": {
     "fileName": "libraries/core/src/lib/scroll/scroll.directive.ts",
     "name": "LuScrollDirective",
+    "type": "directive",
     "className": "LuScrollDirective",
     "description": "emits on scroll events",
     "selector": "[luScroll]",
@@ -1489,6 +1935,7 @@ const NG_DOCS = {
   },
   "ILuScrollable": {
     "fileName": "libraries/core/src/lib/scroll/scroll.model.ts",
+    "type": "interface",
     "name": "ILuScrollable",
     "className": "ILuScrollable",
     "description": "",
@@ -1496,33 +1943,34 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "onScroll",
-        "type": "Observable<Event>",
+        "propertyType": "Observable<Event>",
         "description": ""
       },
       {
         "name": "onScrollBottom",
-        "type": "Observable<Event>",
+        "propertyType": "Observable<Event>",
         "description": ""
       },
       {
         "name": "onScrollLeft",
-        "type": "Observable<Event>",
+        "propertyType": "Observable<Event>",
         "description": ""
       },
       {
         "name": "onScrollRight",
-        "type": "Observable<Event>",
+        "propertyType": "Observable<Event>",
         "description": ""
       },
       {
         "name": "onScrollTop",
-        "type": "Observable<Event>",
+        "propertyType": "Observable<Event>",
         "description": ""
       }
     ]
   },
   "LuScrollModule": {
     "fileName": "libraries/core/src/lib/scroll/scroll.module.ts",
+    "type": "module",
     "className": "LuScrollModule",
     "name": "LuScrollModule",
     "declarations": [
@@ -1535,6 +1983,7 @@ const NG_DOCS = {
   "LuSelectClearerComponent": {
     "fileName": "libraries/core/src/lib/select/clearer/select-clearer.component.ts",
     "name": "LuSelectClearerComponent",
+    "type": "directive",
     "className": "LuSelectClearerComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-select-clearer",
@@ -1551,6 +2000,7 @@ const NG_DOCS = {
   },
   "LuSelectClearerModule": {
     "fileName": "libraries/core/src/lib/select/clearer/select-clearer.module.ts",
+    "type": "module",
     "className": "LuSelectClearerModule",
     "name": "LuSelectClearerModule",
     "declarations": [
@@ -1563,6 +2013,7 @@ const NG_DOCS = {
   "LuSelectInputComponent": {
     "fileName": "libraries/core/src/lib/select/input/select-input.component.ts",
     "name": "LuSelectInputComponent",
+    "type": "directive",
     "className": "LuSelectInputComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-select",
@@ -1582,50 +2033,81 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "clearerEltRef",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       },
       {
         "name": "isClearable",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "isDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "isFocused",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "modMultiple",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "modMultipleView",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "suffixEltRef",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       },
       {
         "name": "tabindex",
         "defaultValue": "0",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       }
     ],
     "methods": []
   },
+  "ALuSelectInput": {
+    "fileName": "libraries/core/src/lib/select/input/select-input.model.ts",
+    "type": "class",
+    "className": "ALuSelectInput",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "disabled",
+        "propertyType": "boolean",
+        "description": ""
+      },
+      {
+        "name": "multiple",
+        "propertyType": "boolean",
+        "description": ""
+      },
+      {
+        "name": "placeholder",
+        "propertyType": "string",
+        "description": ""
+      },
+      {
+        "name": "value",
+        "propertyType": "T | T[]",
+        "description": ""
+      }
+    ]
+  },
   "LuSelectInputModule": {
     "fileName": "libraries/core/src/lib/select/input/select-input.module.ts",
+    "type": "module",
     "className": "LuSelectInputModule",
     "name": "LuSelectInputModule",
     "declarations": [
@@ -1637,6 +2119,7 @@ const NG_DOCS = {
   },
   "LuSelectModule": {
     "fileName": "libraries/core/src/lib/select/select.module.ts",
+    "type": "module",
     "className": "LuSelectModule",
     "name": "LuSelectModule",
     "declarations": [],
@@ -1648,6 +2131,7 @@ const NG_DOCS = {
   "LuTooltipPanelComponent": {
     "fileName": "libraries/core/src/lib/tooltip/panel/tooltip-panel.component.ts",
     "name": "LuTooltipPanelComponent",
+    "type": "directive",
     "className": "LuTooltipPanelComponent",
     "description": "",
     "selector": "lu-tooltip-panel",
@@ -1672,7 +2156,7 @@ const NG_DOCS = {
       {
         "name": "animationState",
         "defaultValue": "enter",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ],
@@ -1680,6 +2164,7 @@ const NG_DOCS = {
   },
   "LuTooltipPanelModule": {
     "fileName": "libraries/core/src/lib/tooltip/panel/tooltip-panel.module.ts",
+    "type": "module",
     "className": "LuTooltipPanelModule",
     "name": "LuTooltipPanelModule",
     "declarations": [
@@ -1691,6 +2176,7 @@ const NG_DOCS = {
   },
   "LuTooltipModule": {
     "fileName": "libraries/core/src/lib/tooltip/tooltip.module.ts",
+    "type": "module",
     "className": "LuTooltipModule",
     "name": "LuTooltipModule",
     "declarations": [],
@@ -1702,6 +2188,7 @@ const NG_DOCS = {
   "LuTooltipTriggerDirective": {
     "fileName": "libraries/core/src/lib/tooltip/trigger/tooltip-trigger.directive.ts",
     "name": "LuTooltipTriggerDirective",
+    "type": "directive",
     "className": "LuTooltipTriggerDirective",
     "description": "",
     "selector": "[luTooltip]",
@@ -1733,27 +2220,16 @@ const NG_DOCS = {
     "properties": [],
     "methods": [
       {
-        "name": "_getOverlayConfig",
-        "description": "This method builds the configuration object needed to create the overlay, the OverlayConfig.",
-        "args": [],
-        "returnType": "OverlayConfig"
-      },
-      {
-        "name": "_createOverlay",
-        "description": "This method creates the overlay from the provided popover's template and saves its\r\nOverlayRef so that it can be attached to the DOM when openPopover is called.",
-        "args": [],
-        "returnType": "OverlayRef"
-      },
-      {
         "name": "openPopover",
         "description": "Opens the popover.",
-        "args": [],
+        "arguments": [],
         "returnType": "void"
       }
     ]
   },
   "LuTooltipTriggerModule": {
     "fileName": "libraries/core/src/lib/tooltip/trigger/tooltip-trigger.module.ts",
+    "type": "module",
     "className": "LuTooltipTriggerModule",
     "name": "LuTooltipTriggerModule",
     "declarations": [
@@ -1765,6 +2241,7 @@ const NG_DOCS = {
   },
   "LuUserDisplayModule": {
     "fileName": "libraries/core/src/lib/user/display/user-display.module.ts",
+    "type": "module",
     "className": "LuUserDisplayModule",
     "name": "LuUserDisplayModule",
     "declarations": [
@@ -1779,12 +2256,13 @@ const NG_DOCS = {
     "name": "LuUserDisplayPipe",
     "className": "LuUserDisplayPipe",
     "description": "Displays a user name according to specified format. Supported formats: f for first name,\nF for first initial, l for last name, L for last initial.",
+    "type": "pipe",
     "pipeName": "luUserDisplay",
     "input": {
       "name": "user",
       "type": "IUser"
     },
-    "args": [
+    "arguments": [
       {
         "name": "format",
         "type": "LuDisplayFormat"
@@ -1798,6 +2276,7 @@ const NG_DOCS = {
   "LuUserPictureComponent": {
     "fileName": "libraries/core/src/lib/user/picture/user-picture.component.ts",
     "name": "LuUserPictureComponent",
+    "type": "directive",
     "className": "LuUserPictureComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-user-picture",
@@ -1817,28 +2296,28 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "displayFormat",
-        "type": "LuDisplayInitials",
+        "propertyType": "LuDisplayInitials",
         "description": "User Display format.\nIt is set to 'FL' by default"
       },
       {
         "name": "hasPicture",
         "defaultValue": "false",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "initials",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "style",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": ""
       }
     ],
@@ -1846,6 +2325,7 @@ const NG_DOCS = {
   },
   "LuUserPictureModule": {
     "fileName": "libraries/core/src/lib/user/picture/user-picture.module.ts",
+    "type": "module",
     "className": "LuUserPictureModule",
     "name": "LuUserPictureModule",
     "declarations": [
@@ -1858,6 +2338,7 @@ const NG_DOCS = {
   "LuUserSelectInputComponent": {
     "fileName": "libraries/core/src/lib/user/select/input/user-select-input.component.ts",
     "name": "LuUserSelectInputComponent",
+    "type": "directive",
     "className": "LuUserSelectInputComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-user-select",
@@ -1907,23 +2388,23 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "isDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "isFocused",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "searchFormat",
-        "type": "LuDisplayFullname",
+        "propertyType": "LuDisplayFullname",
         "description": ""
       },
       {
         "name": "tabindex",
         "defaultValue": "0",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       }
     ],
@@ -1931,13 +2412,14 @@ const NG_DOCS = {
       {
         "name": "onClick",
         "description": "bind to dom events",
-        "args": [],
+        "arguments": [],
         "returnType": "void"
       }
     ]
   },
   "LuUserSelectInputModule": {
     "fileName": "libraries/core/src/lib/user/select/input/user-select-input.module.ts",
+    "type": "module",
     "className": "LuUserSelectInputModule",
     "name": "LuUserSelectInputModule",
     "declarations": [
@@ -1950,6 +2432,7 @@ const NG_DOCS = {
   "LuUserPagedSearcherComponent": {
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.component.ts",
     "name": "LuUserPagedSearcherComponent",
+    "type": "directive",
     "className": "LuUserPagedSearcherComponent",
     "description": "",
     "selector": "lu-user-paged-searcher",
@@ -1989,25 +2472,41 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "clueControl",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       },
       {
         "name": "fixed",
         "defaultValue": "true",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "searchInput",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       }
     ],
     "methods": []
   },
+  "ALuUserPagedSearcherService": {
+    "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.model.ts",
+    "type": "class",
+    "className": "ALuUserPagedSearcherService",
+    "abstract": true,
+    "description": "",
+    "methods": [],
+    "properties": [
+      {
+        "name": "url",
+        "propertyType": "string",
+        "description": ""
+      }
+    ]
+  },
   "LuUserSearcherModule": {
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.module.ts",
+    "type": "module",
     "className": "LuUserSearcherModule",
     "name": "LuUserSearcherModule",
     "declarations": [
@@ -2018,6 +2517,7 @@ const NG_DOCS = {
     ]
   },
   "LuUserPagedSearcherService": {
+    "type": "injectable",
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.service.ts",
     "className": "LuUserPagedSearcherService",
     "description": "",
@@ -2026,6 +2526,7 @@ const NG_DOCS = {
   },
   "LuUserSelectModule": {
     "fileName": "libraries/core/src/lib/user/select/user-select.module.ts",
+    "type": "module",
     "className": "LuUserSelectModule",
     "name": "LuUserSelectModule",
     "declarations": [],
@@ -2037,6 +2538,7 @@ const NG_DOCS = {
   "LuUserTileComponent": {
     "fileName": "libraries/core/src/lib/user/tile/user-tile.component.ts",
     "name": "LuUserTileComponent",
+    "type": "directive",
     "className": "LuUserTileComponent",
     "description": "Displays user picture and name. IUser's role can be specified, and the footer is customizable.",
     "selector": "lu-user-tile",
@@ -2061,17 +2563,17 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "displayPictureFormat",
-        "type": "LuDisplayInitials",
+        "propertyType": "LuDisplayInitials",
         "description": ""
       },
       {
         "name": "role",
-        "type": "string",
+        "propertyType": "string",
         "description": "IUser role to display"
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": "IUser to display."
       }
     ],
@@ -2079,6 +2581,7 @@ const NG_DOCS = {
   },
   "LuUserTileModule": {
     "fileName": "libraries/core/src/lib/user/tile/user-tile.module.ts",
+    "type": "module",
     "className": "LuUserTileModule",
     "name": "LuUserTileModule",
     "declarations": [
@@ -2090,6 +2593,7 @@ const NG_DOCS = {
   },
   "IUser": {
     "fileName": "libraries/core/src/lib/user/user.model.ts",
+    "type": "interface",
     "name": "IUser",
     "className": "IUser",
     "description": "",
@@ -2097,28 +2601,29 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "firstName",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "jobTitle",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "lastName",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "picture",
-        "type": "{ href: string; }",
+        "propertyType": "{ href: string; }",
         "description": ""
       }
     ]
   },
   "LuUserModule": {
     "fileName": "libraries/core/src/lib/user/user.module.ts",
+    "type": "module",
     "className": "LuUserModule",
     "name": "LuUserModule",
     "declarations": [],
@@ -2131,6 +2636,7 @@ const NG_DOCS = {
   },
   "LuFormlyModule": {
     "fileName": "libraries/formly/src/lib/formly.module.ts",
+    "type": "module",
     "className": "LuFormlyModule",
     "name": "LuFormlyModule",
     "declarations": [
@@ -2141,33 +2647,19 @@ const NG_DOCS = {
   "LuFormlyFieldApi": {
     "fileName": "libraries/formly/src/lib/types/api.ts",
     "name": "LuFormlyFieldApi",
+    "type": "directive",
     "className": "LuFormlyFieldApi",
     "description": "",
     "selector": "lu-formly-field-api",
     "inputs": [],
     "outputs": [],
-    "properties": [
-      {
-        "name": "_api",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "_filters",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "_orderBy",
-        "type": "any",
-        "description": ""
-      }
-    ],
+    "properties": [],
     "methods": []
   },
   "LuFormlyFieldCheckboxes": {
     "fileName": "libraries/formly/src/lib/types/checkboxes.ts",
     "name": "LuFormlyFieldCheckboxes",
+    "type": "directive",
     "className": "LuFormlyFieldCheckboxes",
     "description": "",
     "selector": "lu-formly-field-checkboxes",
@@ -2179,6 +2671,7 @@ const NG_DOCS = {
   "LuFormlyFieldDate": {
     "fileName": "libraries/formly/src/lib/types/date.ts",
     "name": "LuFormlyFieldDate",
+    "type": "directive",
     "className": "LuFormlyFieldDate",
     "description": "",
     "selector": "lu-formly-field-date",
@@ -2187,7 +2680,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "input",
-        "type": "ElementRef<any>",
+        "propertyType": "ElementRef<any>",
         "description": ""
       }
     ],
@@ -2196,6 +2689,7 @@ const NG_DOCS = {
   "LuFormlyFieldInput": {
     "fileName": "libraries/formly/src/lib/types/input.ts",
     "name": "LuFormlyFieldInput",
+    "type": "directive",
     "className": "LuFormlyFieldInput",
     "description": "",
     "selector": "lu-formly-field-input",
@@ -2204,7 +2698,7 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "type",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ],
@@ -2213,40 +2707,31 @@ const NG_DOCS = {
   "LuFormlyFieldRadios": {
     "fileName": "libraries/formly/src/lib/types/radios.ts",
     "name": "LuFormlyFieldRadios",
+    "type": "directive",
     "className": "LuFormlyFieldRadios",
     "description": "",
     "selector": "lu-formly-field-radios",
     "inputs": [],
     "outputs": [],
-    "properties": [
-      {
-        "name": "_options",
-        "type": "any[]",
-        "description": ""
-      }
-    ],
+    "properties": [],
     "methods": []
   },
   "LuFormlyFieldSelect": {
     "fileName": "libraries/formly/src/lib/types/select.ts",
     "name": "LuFormlyFieldSelect",
+    "type": "directive",
     "className": "LuFormlyFieldSelect",
     "description": "",
     "selector": "lu-formly-field-select",
     "inputs": [],
     "outputs": [],
-    "properties": [
-      {
-        "name": "_options",
-        "type": "any[]",
-        "description": ""
-      }
-    ],
+    "properties": [],
     "methods": []
   },
   "LuFormlyFieldTextarea": {
     "fileName": "libraries/formly/src/lib/types/textarea.ts",
     "name": "LuFormlyFieldTextarea",
+    "type": "directive",
     "className": "LuFormlyFieldTextarea",
     "description": "",
     "selector": "lu-formly-field-input",
@@ -2258,6 +2743,7 @@ const NG_DOCS = {
   "LuFormlyFieldUser": {
     "fileName": "libraries/formly/src/lib/types/user.ts",
     "name": "LuFormlyFieldUser",
+    "type": "directive",
     "className": "LuFormlyFieldUser",
     "description": "",
     "selector": "lu-formly-field-user",
@@ -2269,6 +2755,7 @@ const NG_DOCS = {
   "LuFormlyWrapperError": {
     "fileName": "libraries/formly/src/lib/wrappers/error.ts",
     "name": "LuFormlyWrapperError",
+    "type": "directive",
     "className": "LuFormlyWrapperError",
     "description": "",
     "selector": "lu-formly-wrapper-error",
@@ -2277,12 +2764,12 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       },
       {
         "name": "validationId",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ],
@@ -2291,6 +2778,7 @@ const NG_DOCS = {
   "LuFormlyErrorMessage": {
     "fileName": "libraries/formly/src/lib/wrappers/error.ts",
     "name": "LuFormlyErrorMessage",
+    "type": "directive",
     "className": "LuFormlyErrorMessage",
     "description": "",
     "selector": "lu-formly-error-message",
@@ -2310,15 +2798,25 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "errorMessages",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       }
     ],
     "methods": []
   },
+  "TemplateError": {
+    "fileName": "libraries/formly/src/lib/wrappers/error.ts",
+    "type": "class",
+    "className": "TemplateError",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuFormlyWrapperHelper": {
     "fileName": "libraries/formly/src/lib/wrappers/helper.ts",
     "name": "LuFormlyWrapperHelper",
+    "type": "directive",
     "className": "LuFormlyWrapperHelper",
     "description": "",
     "selector": "lu-formly-wrapper-helper",
@@ -2327,15 +2825,25 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       }
     ],
     "methods": []
   },
+  "TemplateHelper": {
+    "fileName": "libraries/formly/src/lib/wrappers/helper.ts",
+    "type": "class",
+    "className": "TemplateHelper",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuFormlyWrapperIcon": {
     "fileName": "libraries/formly/src/lib/wrappers/icon.ts",
     "name": "LuFormlyWrapperIcon",
+    "type": "directive",
     "className": "LuFormlyWrapperIcon",
     "description": "",
     "selector": "lu-formly-wrapper-suffix",
@@ -2344,15 +2852,25 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       }
     ],
     "methods": []
   },
+  "TemplateIcon": {
+    "fileName": "libraries/formly/src/lib/wrappers/icon.ts",
+    "type": "class",
+    "className": "TemplateIcon",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuFormlyWrapperLabel": {
     "fileName": "libraries/formly/src/lib/wrappers/label.ts",
     "name": "LuFormlyWrapperLabel",
+    "type": "directive",
     "className": "LuFormlyWrapperLabel",
     "description": "",
     "selector": "lu-formly-wrapper-label",
@@ -2361,15 +2879,25 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       }
     ],
     "methods": []
   },
+  "TemplateLabel": {
+    "fileName": "libraries/formly/src/lib/wrappers/label.ts",
+    "type": "class",
+    "className": "TemplateLabel",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuFormlyWrapperRadiosfieldLayout": {
     "fileName": "libraries/formly/src/lib/wrappers/radiosfield-layout.ts",
     "name": "LuFormlyWrapperRadiosfieldLayout",
+    "type": "directive",
     "className": "LuFormlyWrapperRadiosfieldLayout",
     "description": "",
     "selector": "lu-formly-wrapper-radiosfield-layout",
@@ -2378,27 +2906,27 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       },
       {
         "name": "isError",
-        "type": "\"\" | \"is-error\"",
+        "propertyType": "\"\" | \"is-error\"",
         "description": ""
       },
       {
         "name": "isFocused",
-        "type": "\"\" | \"is-focused\"",
+        "propertyType": "\"\" | \"is-focused\"",
         "description": ""
       },
       {
         "name": "isRequired",
-        "type": "\"\" | \"is-required\"",
+        "propertyType": "\"\" | \"is-required\"",
         "description": ""
       },
       {
         "name": "mod",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       }
     ],
@@ -2407,6 +2935,7 @@ const NG_DOCS = {
   "LuFormlyWrapperSuffix": {
     "fileName": "libraries/formly/src/lib/wrappers/suffix.ts",
     "name": "LuFormlyWrapperSuffix",
+    "type": "directive",
     "className": "LuFormlyWrapperSuffix",
     "description": "",
     "selector": "lu-formly-wrapper-suffix",
@@ -2415,15 +2944,25 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       }
     ],
     "methods": []
   },
+  "TemplateSuffix": {
+    "fileName": "libraries/formly/src/lib/wrappers/suffix.ts",
+    "type": "class",
+    "className": "TemplateSuffix",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
+  },
   "LuFormlyWrapperTextfieldLayout": {
     "fileName": "libraries/formly/src/lib/wrappers/textfield-layout.ts",
     "name": "LuFormlyWrapperTextfieldLayout",
+    "type": "directive",
     "className": "LuFormlyWrapperTextfieldLayout",
     "description": "",
     "selector": "lu-formly-wrapper-layout",
@@ -2432,37 +2971,37 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       },
       {
         "name": "isError",
-        "type": "\"\" | \"is-error\"",
+        "propertyType": "\"\" | \"is-error\"",
         "description": ""
       },
       {
         "name": "isFocused",
-        "type": "\"\" | \"is-focused\"",
+        "propertyType": "\"\" | \"is-focused\"",
         "description": ""
       },
       {
         "name": "isRequired",
-        "type": "\"\" | \"is-required\"",
+        "propertyType": "\"\" | \"is-required\"",
         "description": ""
       },
       {
         "name": "mod",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "modMultiline",
-        "type": "\"\" | \"mod-multiline\"",
+        "propertyType": "\"\" | \"mod-multiline\"",
         "description": ""
       },
       {
         "name": "modWithSuffix",
-        "type": "\"\" | \"mod-withSuffix\"",
+        "propertyType": "\"\" | \"mod-withSuffix\"",
         "description": ""
       }
     ],
@@ -2471,6 +3010,7 @@ const NG_DOCS = {
   "LuFormlyWrapperTitle": {
     "fileName": "libraries/formly/src/lib/wrappers/title.ts",
     "name": "LuFormlyWrapperTitle",
+    "type": "directive",
     "className": "LuFormlyWrapperTitle",
     "description": "",
     "selector": "lu-formly-wrapper-title",
@@ -2479,12 +3019,21 @@ const NG_DOCS = {
     "properties": [
       {
         "name": "fieldComponent",
-        "type": "ViewContainerRef",
+        "propertyType": "ViewContainerRef",
         "description": ""
       }
     ],
     "methods": []
+  },
+  "TemplateTitle": {
+    "fileName": "libraries/formly/src/lib/wrappers/title.ts",
+    "type": "class",
+    "className": "TemplateTitle",
+    "abstract": false,
+    "description": "",
+    "methods": [],
+    "properties": []
   }
 };
 
-export default API_DOCS;
+export default NG_DOCS;
