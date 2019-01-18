@@ -8,12 +8,15 @@ import { ThemeDocumentationService } from './theme.service';
 	styleUrls: ['./theme.component.scss']
 })
 export class ThemeDocumentationComponent implements OnInit {
-	@Input() documentation: IThemeDocumentation;
-	type: any = ThemeDocumentationType;
-	get flatTheme(): IThemeDocumentation[] {
-		return [].concat(...this.documentation.children.map(
+	@Input() set documentation(doc: IThemeDocumentation) {
+		this.theme = doc;
+		const flatTheme =  [].concat(...doc.children.map(
 			(acc: IThemeDocumentation) => this.flattenChildren(acc)));
+		this.flatTheme =  flatTheme;
 	}
+	theme: IThemeDocumentation;
+	type: any = ThemeDocumentationType;
+	flatTheme: IThemeDocumentation[];
 
 	constructor(private docService: ThemeDocumentationService) {}
 	ngOnInit(): void {}
