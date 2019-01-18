@@ -1,0 +1,26 @@
+import { Component } from '@angular/core';
+import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
+import { BasicExampleComponent } from './basic/basic.example';
+declare var require: any;
+
+@Component({
+	selector: 'pri-links',
+	templateUrl: './links.feature.html',
+})
+export class LinksFeature {
+	infos: IFeatureInfos = {
+		title: 'Liens',
+		packages: ['SCSS'],
+		examples: [
+			{
+				title: 'Basique',
+				component: BasicExampleComponent,
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+			}
+		],
+		theme: this.themeService.theme('links')
+	};
+
+	constructor(private themeService: ThemeDocumentationService) {}
+
+}

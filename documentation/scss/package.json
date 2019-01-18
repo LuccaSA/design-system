@@ -1,0 +1,5 @@
+{
+  "name": "@prisme/common/scss",
+	"version": "0.0.1",
+	"main": "scss-theme.js"
+}
