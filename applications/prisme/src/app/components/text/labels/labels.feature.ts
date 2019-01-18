@@ -18,7 +18,7 @@ export class LabelsFeature {
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 			},
 		],
-		theme: this.docApi.theme('label')
+		theme: this.docApi.get('label')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

@@ -28,7 +28,7 @@ export class ListsFeature {
 				Il est possible d'utiliser une structure en <code class="code">div</code>/<code class="code">a</code>`
 			},
 		],
-		theme: this.docApi.theme('list')
+		theme: this.docApi.get('list')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

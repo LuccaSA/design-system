@@ -45,7 +45,7 @@ export class ButtonsFeature {
 				code: require('!!prismjs-loader?lang=markup!./groups/groups.example.html')
 			},
 		],
-		theme: this.themeService.theme('button')
+		theme: this.themeService.get('button')
 	};
 
 	constructor(private themeService: ThemeDocumentationService) {}

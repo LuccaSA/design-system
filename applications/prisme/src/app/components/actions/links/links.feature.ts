@@ -18,7 +18,7 @@ export class LinksFeature {
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 			}
 		],
-		theme: this.themeService.theme('links')
+		theme: this.themeService.get('links')
 	};
 
 	constructor(private themeService: ThemeDocumentationService) {}

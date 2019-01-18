@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
-import { PageModule } from '@prisme/common';
 import { SearchComponent } from './search.component';
 import { FormsModule } from '@angular/forms';
 import { LuModule } from '@lucca-front/ng';
+import { PageItemModule } from './option';
 
 
 @NgModule({
 	imports: [
-		PageModule,
+		PageItemModule,
 		FormsModule,
 		LuModule
 	],

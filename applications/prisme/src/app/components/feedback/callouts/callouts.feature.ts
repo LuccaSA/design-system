@@ -44,7 +44,7 @@ export class CalloutsFeature {
 				code: require('!!prismjs-loader?lang=markup!./icons/icons.example.html'),
 			},
 		],
-		theme: this.docApi.theme('callout')
+		theme: this.docApi.get('callout')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

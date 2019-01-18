@@ -38,7 +38,7 @@ export class RadiosFeature {
 				<a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
 			},
 		],
-		theme: this.docApi.theme('radio')
+		theme: this.docApi.get('radio')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

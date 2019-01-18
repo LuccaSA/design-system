@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Output, HostListener, Input, EventEmitter, forwardRef } from '@angular/core';
 import { ILuOptionItem, ALuOptionItem } from '@lucca-front/ng';
-import { IPage } from '../page.model';
+import { IPage } from '@prisme/common';
 
 @Component({
 	selector: 'pri-page-item',

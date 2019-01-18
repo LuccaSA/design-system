@@ -70,7 +70,7 @@ export class NavSideFeature {
 				code: require('!!prismjs-loader?lang=markup!./bottom-section/bottom-section.example.html'),
 			},
 		],
-		theme: this.docApi.theme('navSide')
+		theme: this.docApi.get('navSide')
 	};
 
 	constructor(private docApi: ThemeDocumentationService) { }

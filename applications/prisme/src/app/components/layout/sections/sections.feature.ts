@@ -23,7 +23,7 @@ export class SectionsFeature {
 				code: require('!!prismjs-loader?lang=markup!./title/title.example.html')
 			}
 		],
-		theme: this.docApi.theme('section')
+		theme: this.docApi.get('section')
 	};
 
 	constructor( private docApi: ThemeDocumentationService) { }

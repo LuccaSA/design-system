@@ -41,7 +41,7 @@ export class CardsFeature {
 				code: require('!!prismjs-loader?lang=markup!./disabled/disabled.example.html'),
 			},
 		],
-		theme: this.docApi.theme('card')
+		theme: this.docApi.get('card')
 	};
 
 	constructor(private docApi: ThemeDocumentationService) {}

@@ -4,7 +4,6 @@ import { MarkdownModule } from './markdown/index';
 import { AssetModule } from './asset/index';
 import { EnvironmentModule } from './environment/index';
 import { FeatureModule } from './feature/index';
-import { PageModule } from './page/index';
 import { ToolModule } from './tool/index';
 import { DocumentationModule } from './documentation/index';
 
@@ -15,7 +14,6 @@ import { DocumentationModule } from './documentation/index';
 		EnvironmentModule,
 		FeatureModule,
 		MarkdownModule,
-		PageModule,
 		ToolModule,
 		DocumentationModule
 	],
@@ -25,7 +23,6 @@ import { DocumentationModule } from './documentation/index';
 		EnvironmentModule,
 		FeatureModule,
 		MarkdownModule,
-		PageModule,
 		ToolModule,
 		DocumentationModule
 	],

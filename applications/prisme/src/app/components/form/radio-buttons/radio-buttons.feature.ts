@@ -20,7 +20,7 @@ export class RadioButtonsFeature {
 		packages: [
 			'SCSS',
 		],
-		theme: this.docApi.theme('radioButtons'),
+		theme: this.docApi.get('radioButtons'),
 	};
 
 	constructor(
