@@ -8,10 +8,10 @@ import { ThemeDocumentationService } from './theme.service';
 	styleUrls: ['./theme.component.scss']
 })
 export class ThemeDocumentationComponent implements OnInit {
-	@Input() theme: IThemeDocumentation;
+	@Input() documentation: IThemeDocumentation;
 	type: any = ThemeDocumentationType;
 	get flatTheme(): IThemeDocumentation[] {
-		return [].concat(...this.theme.children.map(
+		return [].concat(...this.documentation.children.map(
 			(acc: IThemeDocumentation) => this.flattenChildren(acc)));
 	}
 

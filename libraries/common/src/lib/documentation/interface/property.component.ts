@@ -6,5 +6,5 @@ import { IPropertyDocumentation } from './interface.model';
 	templateUrl: './property.component.html',
 })
 export class PropertyDocumentationComponent {
-	@Input() property: IPropertyDocumentation;
+	@Input() documentation: IPropertyDocumentation;
 }

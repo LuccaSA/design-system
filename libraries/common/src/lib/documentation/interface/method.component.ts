@@ -6,9 +6,9 @@ import { IMethodDocumentation } from './interface.model';
 	templateUrl: './method.component.html',
 })
 export class MethodDocumentationComponent {
-	@Input() method: IMethodDocumentation;
+	@Input() documentation: IMethodDocumentation;
 	get signature(): string {
-		const args = this.method.arguments.map(arg => `${arg.name}: ${arg.type}`).join(', ');
-		return `${this.method.name}(${args})`;
+		const args = this.documentation.arguments.map(arg => `${arg.name}: ${arg.type}`).join(', ');
+		return `${this.documentation.name}(${args})`;
 	}
 }

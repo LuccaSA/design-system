@@ -6,5 +6,5 @@ import { IInterfaceDocumentation } from './interface.model';
 	templateUrl: './interface.component.html',
 })
 export class InterfaceDocumentationComponent {
-	@Input() interface: IInterfaceDocumentation;
+	@Input() documentation: IInterfaceDocumentation;
 }

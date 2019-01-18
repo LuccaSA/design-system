@@ -151,6 +151,7 @@ const NG_DOCS = {
   "ALuApiOptionFeeder": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
     "type": "class",
+    "name": "ALuApiOptionFeeder",
     "className": "ALuApiOptionFeeder",
     "abstract": true,
     "description": "",
@@ -166,6 +167,7 @@ const NG_DOCS = {
   "ALuApiFeederService": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.model.ts",
     "type": "class",
+    "name": "ALuApiFeederService",
     "className": "ALuApiFeederService",
     "abstract": true,
     "description": "",
@@ -347,6 +349,7 @@ const NG_DOCS = {
   "ALuApiOptionPager": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
     "type": "class",
+    "name": "ALuApiOptionPager",
     "className": "ALuApiOptionPager",
     "abstract": true,
     "description": "",
@@ -367,6 +370,7 @@ const NG_DOCS = {
   "ALuApiPagerService": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.model.ts",
     "type": "class",
+    "name": "ALuApiPagerService",
     "className": "ALuApiPagerService",
     "abstract": true,
     "description": "",
@@ -524,6 +528,7 @@ const NG_DOCS = {
   "ALuApiOptionSearcher": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
     "type": "class",
+    "name": "ALuApiOptionSearcher",
     "className": "ALuApiOptionSearcher",
     "abstract": true,
     "description": "",
@@ -544,6 +549,7 @@ const NG_DOCS = {
   "ALuApiSearcherService": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
     "type": "class",
+    "name": "ALuApiSearcherService",
     "className": "ALuApiSearcherService",
     "abstract": true,
     "description": "",
@@ -571,6 +577,7 @@ const NG_DOCS = {
   "ALuApiPagedSearcherService": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
     "type": "class",
+    "name": "ALuApiPagedSearcherService",
     "className": "ALuApiPagedSearcherService",
     "abstract": true,
     "description": "",
@@ -580,6 +587,7 @@ const NG_DOCS = {
   "ALuApiOptionPagedSearcher": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.model.ts",
     "type": "class",
+    "name": "ALuApiOptionPagedSearcher",
     "className": "ALuApiOptionPagedSearcher",
     "abstract": true,
     "description": "",
@@ -645,6 +653,7 @@ const NG_DOCS = {
   "ALuClearer": {
     "fileName": "libraries/core/src/lib/input/clearer/clearer.model.ts",
     "type": "class",
+    "name": "ALuClearer",
     "className": "ALuClearer",
     "abstract": true,
     "description": "",
@@ -683,6 +692,7 @@ const NG_DOCS = {
   "LuInputDisplayerContext": {
     "fileName": "libraries/core/src/lib/input/displayer/input-displayer.directive.ts",
     "type": "class",
+    "name": "LuInputDisplayerContext",
     "className": "LuInputDisplayerContext",
     "abstract": false,
     "description": "",
@@ -707,6 +717,7 @@ const NG_DOCS = {
   "ALuInputDisplayer": {
     "fileName": "libraries/core/src/lib/input/displayer/input-displayer.model.ts",
     "type": "class",
+    "name": "ALuInputDisplayer",
     "className": "ALuInputDisplayer",
     "abstract": true,
     "description": "",
@@ -765,6 +776,7 @@ const NG_DOCS = {
   "ALuInput": {
     "fileName": "libraries/core/src/lib/input/input.model.ts",
     "type": "class",
+    "name": "ALuInput",
     "className": "ALuInput",
     "abstract": true,
     "description": "",
@@ -830,6 +842,7 @@ const NG_DOCS = {
   "ALuPickerPanel": {
     "fileName": "libraries/core/src/lib/input/picker/input-picker.model.ts",
     "type": "class",
+    "name": "ALuPickerPanel",
     "className": "ALuPickerPanel",
     "abstract": true,
     "description": "",
@@ -959,6 +972,7 @@ const NG_DOCS = {
   "ALuOptionItem": {
     "fileName": "libraries/core/src/lib/option/item/option-item.model.ts",
     "type": "class",
+    "name": "ALuOptionItem",
     "className": "ALuOptionItem",
     "abstract": true,
     "description": "",
@@ -1027,6 +1041,7 @@ const NG_DOCS = {
   "LuForOptionsContext": {
     "fileName": "libraries/core/src/lib/option/operator/for-options/for-options.directive.ts",
     "type": "class",
+    "name": "LuForOptionsContext",
     "className": "LuForOptionsContext",
     "abstract": false,
     "description": "",
@@ -1121,6 +1136,7 @@ const NG_DOCS = {
   "ALuOptionOperator": {
     "fileName": "libraries/core/src/lib/option/operator/option-operator.model.ts",
     "type": "class",
+    "name": "ALuOptionOperator",
     "className": "ALuOptionOperator",
     "abstract": true,
     "description": "",
@@ -1300,6 +1316,7 @@ const NG_DOCS = {
   "ALuOptionPicker": {
     "fileName": "libraries/core/src/lib/option/picker/option-picker.model.ts",
     "type": "class",
+    "name": "ALuOptionPicker",
     "className": "ALuOptionPicker",
     "abstract": true,
     "description": "",
@@ -1532,6 +1549,7 @@ const NG_DOCS = {
   "ALuPopoverPanel": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.model.ts",
     "type": "class",
+    "name": "ALuPopoverPanel",
     "className": "ALuPopoverPanel",
     "abstract": true,
     "description": "abstract class for basic implementation of a popover panel\r\nit is highly recommended to use this template\r\n<ng-template>\r\n<div class=\"lu-popover-panel\" role=\"dialog\" [class.lu-popover-overlap]=\"overlapTrigger\" [ngClass]=\"_classList\" [ngStyle]=\"popoverPanelStyles\"\r\n(keydown)=\"_handleKeydown($event)\" (click)=\"onClick()\" (mouseover)=\"onMouseOver()\" (mouseleave)=\"onMouseLeave()\" (mousedown)=\"onMouseDown($event)\"\r\n[@transformPopover]=\"'enter'\">\r\n<div class=\"lu-popover-content\" [ngStyle]=\"popoverContentStyles\" cdkTrapFocus=\"focusTrapEnabled\">\r\n### PUT HERE THE CONTENT OF THE POPOVER ###\r\n</div>\r\n</div>\r\n</ng-template>",
@@ -1772,6 +1790,7 @@ const NG_DOCS = {
   "ALuPopoverTrigger": {
     "fileName": "libraries/core/src/lib/popover/trigger/popover-trigger.model.ts",
     "type": "class",
+    "name": "ALuPopoverTrigger",
     "className": "ALuPopoverTrigger",
     "abstract": true,
     "description": "",
@@ -2078,6 +2097,7 @@ const NG_DOCS = {
   "ALuSelectInput": {
     "fileName": "libraries/core/src/lib/select/input/select-input.model.ts",
     "type": "class",
+    "name": "ALuSelectInput",
     "className": "ALuSelectInput",
     "abstract": true,
     "description": "",
@@ -2492,6 +2512,7 @@ const NG_DOCS = {
   "ALuUserPagedSearcherService": {
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.model.ts",
     "type": "class",
+    "name": "ALuUserPagedSearcherService",
     "className": "ALuUserPagedSearcherService",
     "abstract": true,
     "description": "",
@@ -2807,6 +2828,7 @@ const NG_DOCS = {
   "TemplateError": {
     "fileName": "libraries/formly/src/lib/wrappers/error.ts",
     "type": "class",
+    "name": "TemplateError",
     "className": "TemplateError",
     "abstract": false,
     "description": "",
@@ -2834,6 +2856,7 @@ const NG_DOCS = {
   "TemplateHelper": {
     "fileName": "libraries/formly/src/lib/wrappers/helper.ts",
     "type": "class",
+    "name": "TemplateHelper",
     "className": "TemplateHelper",
     "abstract": false,
     "description": "",
@@ -2861,6 +2884,7 @@ const NG_DOCS = {
   "TemplateIcon": {
     "fileName": "libraries/formly/src/lib/wrappers/icon.ts",
     "type": "class",
+    "name": "TemplateIcon",
     "className": "TemplateIcon",
     "abstract": false,
     "description": "",
@@ -2888,6 +2912,7 @@ const NG_DOCS = {
   "TemplateLabel": {
     "fileName": "libraries/formly/src/lib/wrappers/label.ts",
     "type": "class",
+    "name": "TemplateLabel",
     "className": "TemplateLabel",
     "abstract": false,
     "description": "",
@@ -2953,6 +2978,7 @@ const NG_DOCS = {
   "TemplateSuffix": {
     "fileName": "libraries/formly/src/lib/wrappers/suffix.ts",
     "type": "class",
+    "name": "TemplateSuffix",
     "className": "TemplateSuffix",
     "abstract": false,
     "description": "",
@@ -3028,6 +3054,7 @@ const NG_DOCS = {
   "TemplateTitle": {
     "fileName": "libraries/formly/src/lib/wrappers/title.ts",
     "type": "class",
+    "name": "TemplateTitle",
     "className": "TemplateTitle",
     "abstract": false,
     "description": "",
