@@ -22,6 +22,6 @@ export class ReferencePage implements IReferencePage {
 		this.type = documentation.type;
 	}
 	match(clue: string) {
-		return match(this.documentation.name, clue);
+		return match(this.documentation.name, clue) || match(this.documentation.type, clue);
 	}
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { IReferencePage } from './reference.page';
 import { SearchService } from './search.service';
 import { Router } from '@angular/router';
@@ -14,10 +14,12 @@ export class SearchComponent implements OnInit {
 	constructor(
 		private router: Router,
 		private searchService: SearchService,
+		private cd: ChangeDetectorRef,
 	) {}
 
 	ngOnInit(): void {
 		this.pages = this.searchService.getPages();
+		this.cd.detectChanges();
 	}
 	searchFn(page: IReferencePage, clue: string): boolean {
 		return page.match(clue);

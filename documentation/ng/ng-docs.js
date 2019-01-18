@@ -186,7 +186,7 @@ const NG_DOCS = {
     "className": "LuApiFeederModule",
     "name": "LuApiFeederModule",
     "declarations": [
-      "\r\n\t\tLuApiFeederComponent"
+      "LuApiFeederComponent"
     ],
     "exports": [
       "LuApiFeederComponent"
@@ -278,7 +278,7 @@ const NG_DOCS = {
     "className": "LuApiSelectInputModule",
     "name": "LuApiSelectInputModule",
     "declarations": [
-      "\r\n\t\tLuApiSelectInputComponent"
+      "LuApiSelectInputComponent"
     ],
     "exports": [
       "LuApiSelectInputComponent"
@@ -383,7 +383,7 @@ const NG_DOCS = {
     "className": "LuApiPagerModule",
     "name": "LuApiPagerModule",
     "declarations": [
-      "\r\n\t\tLuApiPagerComponent"
+      "LuApiPagerComponent"
     ],
     "exports": [
       "LuApiPagerComponent"
@@ -611,8 +611,8 @@ const NG_DOCS = {
     "className": "LuApiSearcherModule",
     "name": "LuApiSearcherModule",
     "declarations": [
-      "\r\n\t\tLuApiSearcherComponent",
-      "\r\n\t\tLuApiPagedSearcherComponent"
+      "LuApiSearcherComponent",
+      "LuApiPagedSearcherComponent"
     ],
     "exports": [
       "LuApiSearcherComponent",
@@ -996,7 +996,7 @@ const NG_DOCS = {
     "className": "LuOptionItemModule",
     "name": "LuOptionItemModule",
     "declarations": [
-      "\r\n\t\tLuOptionItemComponent"
+      "LuOptionItemComponent"
     ],
     "exports": [
       "LuOptionItemComponent"
@@ -1032,7 +1032,7 @@ const NG_DOCS = {
     "className": "LuOptionFeederModule",
     "name": "LuOptionFeederModule",
     "declarations": [
-      "\r\n\t\tLuOptionFeederComponent"
+      "LuOptionFeederComponent"
     ],
     "exports": [
       "LuOptionFeederComponent"
@@ -1087,7 +1087,7 @@ const NG_DOCS = {
     "className": "LuForOptionsModule",
     "name": "LuForOptionsModule",
     "declarations": [
-      "\r\n\t\tLuForOptionsDirective"
+      "LuForOptionsDirective"
     ],
     "exports": [
       "LuForOptionsDirective"
@@ -1191,7 +1191,7 @@ const NG_DOCS = {
     "className": "LuOptionPagerModule",
     "name": "LuOptionPagerModule",
     "declarations": [
-      "\r\n\t\tLuOptionPagerComponent"
+      "LuOptionPagerComponent"
     ],
     "exports": [
       "LuOptionPagerComponent"
@@ -1243,7 +1243,7 @@ const NG_DOCS = {
     "className": "LuOptionSearcherModule",
     "name": "LuOptionSearcherModule",
     "declarations": [
-      "\r\n\t\tLuOptionSearcherComponent"
+      "LuOptionSearcherComponent"
     ],
     "exports": [
       "LuOptionSearcherComponent"
@@ -1347,7 +1347,7 @@ const NG_DOCS = {
     "className": "LuOptionPickerModule",
     "name": "LuOptionPickerModule",
     "declarations": [
-      "\r\n\t\tLuOptionPickerComponent"
+      "LuOptionPickerComponent"
     ],
     "exports": [
       "LuOptionPickerComponent"
@@ -1687,7 +1687,7 @@ const NG_DOCS = {
     "className": "LuPopoverPanelModule",
     "name": "LuPopoverPanelModule",
     "declarations": [
-      "\r\n\t\tLuPopoverPanelComponent"
+      "LuPopoverPanelComponent"
     ],
     "exports": [
       "LuPopoverPanelComponent"
@@ -1733,7 +1733,7 @@ const NG_DOCS = {
     "className": "LuPopoverTargetModule",
     "name": "LuPopoverTargetModule",
     "declarations": [
-      "\r\n\t\tLuPopoverTargetDirective"
+      "LuPopoverTargetDirective"
     ],
     "exports": [
       "LuPopoverTargetDirective"
@@ -1870,7 +1870,7 @@ const NG_DOCS = {
     "className": "LuPopoverTriggerModule",
     "name": "LuPopoverTriggerModule",
     "declarations": [
-      "\r\n\t\tLuPopoverTriggerDirective"
+      "LuPopoverTriggerDirective"
     ],
     "exports": [
       "LuPopoverTriggerDirective"
@@ -1993,7 +1993,7 @@ const NG_DOCS = {
     "className": "LuScrollModule",
     "name": "LuScrollModule",
     "declarations": [
-      "\r\n\t\tLuScrollDirective"
+      "LuScrollDirective"
     ],
     "exports": [
       "LuScrollDirective"
@@ -2023,7 +2023,7 @@ const NG_DOCS = {
     "className": "LuSelectClearerModule",
     "name": "LuSelectClearerModule",
     "declarations": [
-      "\r\n\t\tLuSelectClearerComponent"
+      "LuSelectClearerComponent"
     ],
     "exports": [
       "LuSelectClearerComponent"
@@ -2131,7 +2131,7 @@ const NG_DOCS = {
     "className": "LuSelectInputModule",
     "name": "LuSelectInputModule",
     "declarations": [
-      "\r\n\t\tLuSelectInputComponent"
+      "LuSelectInputComponent"
     ],
     "exports": [
       "LuSelectInputComponent"
@@ -2188,7 +2188,7 @@ const NG_DOCS = {
     "className": "LuTooltipPanelModule",
     "name": "LuTooltipPanelModule",
     "declarations": [
-      "\n\t\tLuTooltipPanelComponent"
+      "LuTooltipPanelComponent"
     ],
     "exports": [
       "LuTooltipPanelComponent"
@@ -2253,7 +2253,7 @@ const NG_DOCS = {
     "className": "LuTooltipTriggerModule",
     "name": "LuTooltipTriggerModule",
     "declarations": [
-      "\n\t\tLuTooltipTriggerDirective"
+      "LuTooltipTriggerDirective"
     ],
     "exports": [
       "LuTooltipTriggerDirective"
@@ -2443,7 +2443,7 @@ const NG_DOCS = {
     "className": "LuUserSelectInputModule",
     "name": "LuUserSelectInputModule",
     "declarations": [
-      "\r\n\t\tLuUserSelectInputComponent"
+      "LuUserSelectInputComponent"
     ],
     "exports": [
       "LuUserSelectInputComponent"
@@ -2531,7 +2531,7 @@ const NG_DOCS = {
     "className": "LuUserSearcherModule",
     "name": "LuUserSearcherModule",
     "declarations": [
-      "\r\n\t\tLuUserPagedSearcherComponent"
+      "LuUserPagedSearcherComponent"
     ],
     "exports": [
       "LuUserPagedSearcherComponent"
@@ -2661,7 +2661,7 @@ const NG_DOCS = {
     "className": "LuFormlyModule",
     "name": "LuFormlyModule",
     "declarations": [
-      "...LU_FORMLY_COMPONENTS"
+      null
     ],
     "exports": []
   },
