@@ -32,7 +32,7 @@ export class GaugeFeature {
 		packages: [
 			'SCSS',
 		],
-		theme: this.docApi.theme('gauge'),
+		theme: this.docApi.get('gauge'),
 	};
 
 	constructor(

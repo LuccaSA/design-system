@@ -51,7 +51,7 @@ export class CheckboxesFeature {
 				<a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
 			},
 		],
-		theme: this.docApi.theme('checkbox')
+		theme: this.docApi.get('checkbox')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

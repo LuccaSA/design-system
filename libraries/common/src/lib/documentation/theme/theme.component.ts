@@ -1,19 +1,22 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IThemeDocumentation, ThemeDocumentationType } from './theme-documentation.model';
-import { ThemeDocumentationService } from './theme-documentation.service';
+import { IThemeDocumentation, ThemeDocumentationType } from './theme.model';
+import { ThemeDocumentationService } from './theme.service';
 
 @Component({
 	selector: 'pri-theme',
-	templateUrl: './theme-documentation.component.html',
-	styleUrls: ['./theme-documentation.component.scss']
+	templateUrl: './theme.component.html',
+	styleUrls: ['./theme.component.scss']
 })
 export class ThemeDocumentationComponent implements OnInit {
-	@Input() theme: IThemeDocumentation;
-	type: any = ThemeDocumentationType;
-	get flatTheme(): IThemeDocumentation[] {
-		return [].concat(...this.theme.children.map(
+	@Input() set documentation(doc: IThemeDocumentation) {
+		this.theme = doc;
+		const flatTheme =  [].concat(...doc.children.map(
 			(acc: IThemeDocumentation) => this.flattenChildren(acc)));
+		this.flatTheme =  flatTheme;
 	}
+	theme: IThemeDocumentation;
+	type: any = ThemeDocumentationType;
+	flatTheme: IThemeDocumentation[];
 
 	constructor(private docService: ThemeDocumentationService) {}
 	ngOnInit(): void {}
@@ -33,7 +36,7 @@ export class ThemeDocumentationComponent implements OnInit {
 					name: `${parentName !== '' ? parentName + '.' : ''}${prop.name}.${p.name}`,
 					value: p.value,
 					realValue: p.realValue,
-					type: p.type
+					propertyType: p.propertyType
 				});
 			}
 		}
@@ -59,7 +62,7 @@ export class ThemeDocumentationComponent implements OnInit {
 				name: property.name,
 				value: property.value,
 				realValue: realValue,
-				type: ThemeDocumentationType.VAR
+				propertyType: ThemeDocumentationType.VAR
 			};
 		}
 		return property;
@@ -86,14 +89,14 @@ export class ThemeDocumentationComponent implements OnInit {
 				name: property.name,
 				value: property.value,
 				realValue: realValue,
-				type: ThemeDocumentationType.COLOR
+				propertyType: ThemeDocumentationType.COLOR
 			};
 		}
 		return property;
 	}
 
 	private findProperty(path: string[]): string {
-		let node = this.docService.theme(path[0]);
+		let node = this.docService.get(path[0]);
 		if (!node) {
 			return;
 		}

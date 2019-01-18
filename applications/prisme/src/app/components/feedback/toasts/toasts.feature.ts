@@ -19,7 +19,7 @@ export class ToastsFeature {
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 			},
 		],
-		theme: this.docApi.theme('toasts')
+		theme: this.docApi.get('toasts')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

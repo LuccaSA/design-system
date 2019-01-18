@@ -44,7 +44,7 @@ export class ActionIconsFeature {
 				extra: `Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
 			}
 		],
-		theme: this.themeService.theme('actionIcon')
+		theme: this.themeService.get('actionIcon')
 	};
 	constructor(private themeService: ThemeDocumentationService) { }
 

@@ -30,7 +30,7 @@ export class ProgressFeature {
 				code: require('!!prismjs-loader?lang=markup!./status/status.example.html'),
 			},
 		],
-		theme: this.docApi.theme('progress')
+		theme: this.docApi.get('progress')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

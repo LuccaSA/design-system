@@ -1,5 +1,5 @@
 {
-  "name": "@prisme/common/scss",
+  "name": "@prisme/documentation/scss",
 	"version": "0.0.1",
-	"main": "scss-theme.js"
+	"main": "scss-docs.js"
 }

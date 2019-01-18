@@ -31,7 +31,7 @@ export class BoxesFeature {
 				code: require('!!prismjs-loader?lang=markup!./killable/killable.example.html'),
 			},
 		],
-		theme: this.themService.theme('box')
+		theme: this.themService.get('box')
 	};
 
 	constructor(private themService: ThemeDocumentationService) { }

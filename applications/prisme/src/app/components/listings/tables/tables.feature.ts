@@ -64,7 +64,7 @@ export class TablesFeature {
 				code: require('!!prismjs-loader?lang=markup!./filters/filters.component.html'),
 			},
 		],
-		theme: this.docApi.theme('table')
+		theme: this.docApi.get('table')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

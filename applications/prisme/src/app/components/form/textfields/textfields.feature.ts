@@ -101,7 +101,7 @@ export class TextfieldsFeature {
 				code: require('!!prismjs-loader?lang=markup!./inverted/inverted.example.html'),
 			},
 		],
-		theme: this.docApi.theme('textfield')
+		theme: this.docApi.get('textfield')
 	};
 	constructor(private docApi: ThemeDocumentationService) { }
 }

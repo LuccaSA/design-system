@@ -1,3 +1,3 @@
-export * from './theme-documentation.model';
-export * from './theme-documentation.module';
-export * from './theme-documentation.service';
+export * from './theme.model';
+export * from './theme.module';
+export * from './theme.service';
