@@ -1,4 +1,4 @@
-import { IDocumentation } from '../documentation.model';
+import { IDocumentation, DocumentationType } from '../documentation.model';
 
 export interface IInterfaceDocumentation extends IDocumentation {
 	properties: IPropertyDocumentation[];
@@ -13,3 +13,6 @@ export interface IPropertyDocumentation extends IDocumentation {
 	default?: string;
 }
 export interface IArgumentDocumentation extends IPropertyDocumentation {}
+export function isInterfaceDocumentation(doc: IDocumentation): doc is IInterfaceDocumentation {
+	return doc.type === DocumentationType.interface;
+}

@@ -14,6 +14,6 @@ export class ThemeComponent implements OnInit {
 		protected route: ActivatedRoute,
 	) {}
 	ngOnInit() {
-		this.theme$ = this.route.fragment.pipe(map(fragment => this.themeService.theme(fragment)));
+		this.theme$ = this.route.fragment.pipe(map(fragment => this.themeService.get(fragment)));
 	}
 }

@@ -7,4 +7,5 @@ export * from './module/index';
 export * from './pipe/index';
 export * from './theme/index';
 
+export * from './documentation.model';
 export * from './documentation.module';

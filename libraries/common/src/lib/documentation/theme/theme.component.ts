@@ -93,7 +93,7 @@ export class ThemeDocumentationComponent implements OnInit {
 	}
 
 	private findProperty(path: string[]): string {
-		let node = this.docService.theme(path[0]);
+		let node = this.docService.get(path[0]);
 		if (!node) {
 			return;
 		}

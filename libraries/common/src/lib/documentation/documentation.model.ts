@@ -14,3 +14,7 @@ export enum DocumentationType {
 	pipe = 'pipe',
 	theme = 'theme',
 }
+export interface IDocumentationService<T extends IDocumentation = IDocumentation> {
+	get(key: string): T;
+	all(): T[];
+}
