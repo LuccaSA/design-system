@@ -194,6 +194,7 @@ const NG_DOCS = {
   },
   "LuApiFeederService": {
     "type": "injectable",
+    "name": "LuApiFeederService",
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.service.ts",
     "className": "LuApiFeederService",
     "description": "",
@@ -391,6 +392,7 @@ const NG_DOCS = {
   },
   "LuApiPagerService": {
     "type": "injectable",
+    "name": "LuApiPagerService",
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.service.ts",
     "className": "LuApiPagerService",
     "description": "",
@@ -621,6 +623,7 @@ const NG_DOCS = {
   },
   "LuApiSearcherService": {
     "type": "injectable",
+    "name": "LuApiSearcherService",
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.service.ts",
     "className": "LuApiSearcherService",
     "description": "",
@@ -629,6 +632,7 @@ const NG_DOCS = {
   },
   "LuApiPagedSearcherService": {
     "type": "injectable",
+    "name": "LuApiPagedSearcherService",
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.service.ts",
     "className": "LuApiPagedSearcherService",
     "description": "",
@@ -2539,6 +2543,7 @@ const NG_DOCS = {
   },
   "LuUserPagedSearcherService": {
     "type": "injectable",
+    "name": "LuUserPagedSearcherService",
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.service.ts",
     "className": "LuUserPagedSearcherService",
     "description": "",
