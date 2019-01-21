@@ -4,6 +4,7 @@ import { InterfaceDocumentationModule } from './interface/index';
 import { ClassDocumentationModule } from './class/index';
 import { ModuleDocumentationModule } from './module/index';
 import { InjectableDocumentationModule } from './injectable/index';
+import { PipeDocumentationModule } from './pipe/index';
 
 @NgModule({
 	imports: [
@@ -12,6 +13,7 @@ import { InjectableDocumentationModule } from './injectable/index';
 		ClassDocumentationModule,
 		ModuleDocumentationModule,
 		InjectableDocumentationModule,
+		PipeDocumentationModule,
 	],
 	exports: [
 		ThemeDocumentationModule,
@@ -19,6 +21,7 @@ import { InjectableDocumentationModule } from './injectable/index';
 		ClassDocumentationModule,
 		ModuleDocumentationModule,
 		InjectableDocumentationModule,
+		PipeDocumentationModule,
 	],
 })
 export class DocumentationModule {}
