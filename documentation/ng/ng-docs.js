@@ -96,27 +96,27 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": ""
       }
     ],
@@ -211,37 +211,37 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": ""
       }
     ],
@@ -295,27 +295,27 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -409,27 +409,27 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -464,27 +464,27 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -680,12 +680,12 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "luDisplayerMultiple",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       }
     ],
@@ -940,13 +940,14 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "value",
-        "type": "T",
+        "propertyType": "T",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "onSelect",
+        "propertyType": "EventEmitter<T>",
         "description": ""
       }
     ],
@@ -1016,7 +1017,7 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "options",
-        "type": "T[]",
+        "propertyType": "T[]",
         "description": ""
       }
     ],
@@ -1211,7 +1212,7 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "searchFn",
-        "type": "(option: T, clue: string) => boolean",
+        "propertyType": "(option: T, clue: string) => boolean",
         "description": ""
       }
     ],
@@ -1276,21 +1277,24 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "overlap-trigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       },
       {
         "name": "onSelectValue",
+        "propertyType": "EventEmitter<T>",
         "description": "emits when a value was selected on the picker"
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -1368,77 +1372,79 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "alignment",
-        "type": "LuPopoverAlignment",
+        "propertyType": "LuPopoverAlignment",
         "description": "Alignment of the popover regarding the trigger"
       },
       {
         "name": "classes",
-        "type": "string",
+        "propertyType": "string",
         "description": "This method takes classes set on the host lu-popover element and applies them on the\npopover template that displays in the overlay container.  Otherwise, it's difficult\nto style the containing popover from outside the component."
       },
       {
         "name": "close-on-click",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover container close on click\ndefault: false"
       },
       {
         "name": "enter-delay",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover enter delay"
       },
       {
         "name": "focus-trap-enabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover focus trap using cdkTrapFocus\ndefault: false"
       },
       {
         "name": "leave-delay",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover leave delay"
       },
       {
         "name": "offset-x",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover target offset x"
       },
       {
         "name": "offset-y",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover target offset y"
       },
       {
         "name": "overlap-trigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover overlap trigger"
       },
       {
         "name": "position",
-        "type": "LuPopoverPosition",
+        "propertyType": "LuPopoverPosition",
         "description": "Position of the popover around the trigger"
       },
       {
         "name": "scroll-strategy",
-        "type": "LuPopoverScrollStrategy",
+        "propertyType": "LuPopoverScrollStrategy",
         "description": "Popover scrollStrategy\ndefault: reposition"
       },
       {
         "name": "template",
-        "type": "TemplateRef<any>",
+        "propertyType": "TemplateRef<any>",
         "description": "Template to Use for the popover"
       },
       {
         "name": "trigger-on",
-        "type": "LuPopoverTriggerEvent",
+        "propertyType": "LuPopoverTriggerEvent",
         "description": "Popover trigger event"
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the popover is closed."
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -1754,22 +1760,24 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "luPopoverTargetAt",
-        "type": "ILuPopoverTarget",
+        "propertyType": "ILuPopoverTarget",
         "description": "References the popover target instance that the trigger is associated with."
       },
       {
         "name": "luPopoverTriggerFor",
-        "type": "T",
+        "propertyType": "T",
         "description": "References the popover instance that the trigger is associated with."
       }
     ],
     "outputs": [
       {
         "name": "onPopoverClose",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the associated popover is closed."
       },
       {
         "name": "onPopoverOpen",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the associated popover is opened."
       }
     ],
@@ -1927,29 +1935,34 @@ const NG_DOCS = {
       {
         "name": "debounceTime",
         "defaultValue": "100",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "onScroll",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollBottom",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollLeft",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollRight",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollTop",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       }
     ],
@@ -2015,6 +2028,7 @@ const NG_DOCS = {
     "outputs": [
       {
         "name": "onClear",
+        "propertyType": "EventEmitter<T>",
         "description": ""
       }
     ],
@@ -2043,12 +2057,12 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ],
@@ -2162,17 +2176,19 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "content",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -2220,23 +2236,23 @@ const NG_DOCS = {
       {
         "name": "enterDelay",
         "defaultValue": "300",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "leaveDelay",
         "defaultValue": "100",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "luTooltip",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "luTooltipDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       }
     ],
@@ -2307,12 +2323,12 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "displayFormat",
-        "type": "LuDisplayInitials",
+        "propertyType": "LuDisplayInitials",
         "description": "User Display format.\nIt is set to 'FL' by default"
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": ""
       }
     ],
@@ -2369,42 +2385,42 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "appInstanceId",
-        "type": "string | number",
+        "propertyType": "string | number",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "operations",
-        "type": "number[]",
+        "propertyType": "number[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => U",
+        "propertyType": "(item: any) => U",
         "description": ""
       }
     ],
@@ -2463,32 +2479,32 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "appInstanceId",
-        "type": "string | number",
+        "propertyType": "string | number",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "operations",
-        "type": "number[]",
+        "propertyType": "number[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => U",
+        "propertyType": "(item: any) => U",
         "description": ""
       }
     ],
@@ -2571,17 +2587,17 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "displayFormat",
-        "type": "LuDisplayFormat",
+        "propertyType": "LuDisplayFormat",
         "description": "User Display format.\nIt is set to 'lf' by default"
       },
       {
         "name": "role",
-        "type": "string",
+        "propertyType": "string",
         "description": "IUser role to display"
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": "IUser to display."
       }
     ],
@@ -2811,12 +2827,12 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "field",
-        "type": "FormlyFieldConfig",
+        "propertyType": "FormlyFieldConfig",
         "description": ""
       },
       {
         "name": "fieldForm",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       }
     ],

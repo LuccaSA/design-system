@@ -5,6 +5,7 @@ import { ClassModule } from './class/index';
 import { ModuleModule } from './module/index';
 import { InjectableModule } from './injectable/index';
 import { PipeModule } from './pipe/index';
+import { DirectiveModule } from './directive/index';
 
 export const appRoutes: Routes = [
 	{ path: 'theme', loadChildren: () => ThemeModule },
@@ -12,5 +13,6 @@ export const appRoutes: Routes = [
 	{ path: 'module', loadChildren: () => ModuleModule },
 	{ path: 'injectable', loadChildren: () => InjectableModule },
 	{ path: 'pipe', loadChildren: () => PipeModule },
+	{ path: 'directive', loadChildren: () => DirectiveModule },
 	{ path: 'class', loadChildren: () => ClassModule }
 ] as Routes;
