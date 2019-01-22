@@ -89,34 +89,34 @@ const NG_DOCS = {
   "LuApiFeederComponent": {
     "fileName": "libraries/core/src/lib/api/select/feeder/api-feeder.component.ts",
     "name": "LuApiFeederComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuApiFeederComponent",
     "description": "",
     "selector": "lu-api-feeder",
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": ""
       }
     ],
@@ -204,44 +204,44 @@ const NG_DOCS = {
   "LuApiSelectInputComponent": {
     "fileName": "libraries/core/src/lib/api/select/input/api-select-input.component.ts",
     "name": "LuApiSelectInputComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuApiSelectInputComponent",
     "description": "",
     "selector": "lu-api-select",
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": ""
       }
     ],
@@ -288,34 +288,34 @@ const NG_DOCS = {
   "LuApiPagerComponent": {
     "fileName": "libraries/core/src/lib/api/select/pager/api-pager.component.ts",
     "name": "LuApiPagerComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuApiPagerComponent",
     "description": "",
     "selector": "lu-api-pager",
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -402,34 +402,34 @@ const NG_DOCS = {
   "LuApiSearcherComponent": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.component.ts",
     "name": "LuApiSearcherComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuApiSearcherComponent",
     "description": "",
     "selector": "lu-api-searcher",
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -457,34 +457,34 @@ const NG_DOCS = {
   "LuApiPagedSearcherComponent": {
     "fileName": "libraries/core/src/lib/api/select/searcher/api-searcher.component.ts",
     "name": "LuApiPagedSearcherComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuApiPagedSearcherComponent",
     "description": "",
     "selector": "lu-api-paged-searcher",
     "inputs": [
       {
         "name": "api",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => T",
+        "propertyType": "(item: any) => T",
         "description": "a function to transform the item fetched from the api into the kind of item you want\r\nif you wnat to cast dates into moments for example"
       }
     ],
@@ -680,12 +680,12 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "luDisplayerMultiple",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       }
     ],
@@ -933,20 +933,21 @@ const NG_DOCS = {
   "LuOptionItemComponent": {
     "fileName": "libraries/core/src/lib/option/item/option-item.component.ts",
     "name": "LuOptionItemComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuOptionItemComponent",
     "description": "",
     "selector": "lu-option",
     "inputs": [
       {
         "name": "value",
-        "type": "T",
+        "propertyType": "T",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "onSelect",
+        "propertyType": "EventEmitter<T>",
         "description": ""
       }
     ],
@@ -1009,14 +1010,14 @@ const NG_DOCS = {
   "LuOptionFeederComponent": {
     "fileName": "libraries/core/src/lib/option/operator/feeder/option-feeder.component.ts",
     "name": "LuOptionFeederComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuOptionFeederComponent",
     "description": "",
     "selector": "lu-option-feeder",
     "inputs": [
       {
         "name": "options",
-        "type": "T[]",
+        "propertyType": "T[]",
         "description": ""
       }
     ],
@@ -1174,7 +1175,7 @@ const NG_DOCS = {
   "LuOptionPagerComponent": {
     "fileName": "libraries/core/src/lib/option/operator/pager/option-pager.component.ts",
     "name": "LuOptionPagerComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuOptionPagerComponent",
     "description": "",
     "selector": "lu-option-pager",
@@ -1204,14 +1205,14 @@ const NG_DOCS = {
   "LuOptionSearcherComponent": {
     "fileName": "libraries/core/src/lib/option/operator/searcher/option-searcher.component.ts",
     "name": "LuOptionSearcherComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuOptionSearcherComponent",
     "description": "",
     "selector": "lu-option-searcher",
     "inputs": [
       {
         "name": "searchFn",
-        "type": "(option: T, clue: string) => boolean",
+        "propertyType": "(option: T, clue: string) => boolean",
         "description": ""
       }
     ],
@@ -1268,7 +1269,7 @@ const NG_DOCS = {
   "LuOptionPickerComponent": {
     "fileName": "libraries/core/src/lib/option/picker/option-picker.component.ts",
     "name": "LuOptionPickerComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuOptionPickerComponent",
     "description": "basic option picker panel",
     "selector": "lu-option-picker",
@@ -1276,21 +1277,24 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "overlap-trigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       },
       {
         "name": "onSelectValue",
+        "propertyType": "EventEmitter<T>",
         "description": "emits when a value was selected on the picker"
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -1360,7 +1364,7 @@ const NG_DOCS = {
   "LuPopoverPanelComponent": {
     "fileName": "libraries/core/src/lib/popover/panel/popover-panel.component.ts",
     "name": "LuPopoverPanelComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuPopoverPanelComponent",
     "description": "",
     "selector": "lu-popover",
@@ -1368,77 +1372,79 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "alignment",
-        "type": "LuPopoverAlignment",
+        "propertyType": "LuPopoverAlignment",
         "description": "Alignment of the popover regarding the trigger"
       },
       {
         "name": "classes",
-        "type": "string",
+        "propertyType": "string",
         "description": "This method takes classes set on the host lu-popover element and applies them on the\npopover template that displays in the overlay container.  Otherwise, it's difficult\nto style the containing popover from outside the component."
       },
       {
         "name": "close-on-click",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover container close on click\ndefault: false"
       },
       {
         "name": "enter-delay",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover enter delay"
       },
       {
         "name": "focus-trap-enabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover focus trap using cdkTrapFocus\ndefault: false"
       },
       {
         "name": "leave-delay",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover leave delay"
       },
       {
         "name": "offset-x",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover target offset x"
       },
       {
         "name": "offset-y",
-        "type": "number",
+        "propertyType": "number",
         "description": "Popover target offset y"
       },
       {
         "name": "overlap-trigger",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": "Popover overlap trigger"
       },
       {
         "name": "position",
-        "type": "LuPopoverPosition",
+        "propertyType": "LuPopoverPosition",
         "description": "Position of the popover around the trigger"
       },
       {
         "name": "scroll-strategy",
-        "type": "LuPopoverScrollStrategy",
+        "propertyType": "LuPopoverScrollStrategy",
         "description": "Popover scrollStrategy\ndefault: reposition"
       },
       {
         "name": "template",
-        "type": "TemplateRef<any>",
+        "propertyType": "TemplateRef<any>",
         "description": "Template to Use for the popover"
       },
       {
         "name": "trigger-on",
-        "type": "LuPopoverTriggerEvent",
+        "propertyType": "LuPopoverTriggerEvent",
         "description": "Popover trigger event"
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the popover is closed."
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -1754,22 +1760,24 @@ const NG_DOCS = {
     "inputs": [
       {
         "name": "luPopoverTargetAt",
-        "type": "ILuPopoverTarget",
+        "propertyType": "ILuPopoverTarget",
         "description": "References the popover target instance that the trigger is associated with."
       },
       {
         "name": "luPopoverTriggerFor",
-        "type": "T",
+        "propertyType": "T",
         "description": "References the popover instance that the trigger is associated with."
       }
     ],
     "outputs": [
       {
         "name": "onPopoverClose",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the associated popover is closed."
       },
       {
         "name": "onPopoverOpen",
+        "propertyType": "EventEmitter<void>",
         "description": "Event emitted when the associated popover is opened."
       }
     ],
@@ -1927,29 +1935,34 @@ const NG_DOCS = {
       {
         "name": "debounceTime",
         "defaultValue": "100",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "onScroll",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollBottom",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollLeft",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollRight",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       },
       {
         "name": "onScrollTop",
+        "propertyType": "EventEmitter<Event>",
         "description": ""
       }
     ],
@@ -2006,7 +2019,7 @@ const NG_DOCS = {
   "LuSelectClearerComponent": {
     "fileName": "libraries/core/src/lib/select/clearer/select-clearer.component.ts",
     "name": "LuSelectClearerComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuSelectClearerComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-select-clearer",
@@ -2015,6 +2028,7 @@ const NG_DOCS = {
     "outputs": [
       {
         "name": "onClear",
+        "propertyType": "EventEmitter<T>",
         "description": ""
       }
     ],
@@ -2036,19 +2050,19 @@ const NG_DOCS = {
   "LuSelectInputComponent": {
     "fileName": "libraries/core/src/lib/select/input/select-input.component.ts",
     "name": "LuSelectInputComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuSelectInputComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-select",
     "inputs": [
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       }
     ],
@@ -2155,24 +2169,26 @@ const NG_DOCS = {
   "LuTooltipPanelComponent": {
     "fileName": "libraries/core/src/lib/tooltip/panel/tooltip-panel.component.ts",
     "name": "LuTooltipPanelComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuTooltipPanelComponent",
     "description": "",
     "selector": "lu-tooltip-panel",
     "inputs": [
       {
         "name": "content",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       }
     ],
     "outputs": [
       {
         "name": "close",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       },
       {
         "name": "open",
+        "propertyType": "EventEmitter<void>",
         "description": ""
       }
     ],
@@ -2220,23 +2236,23 @@ const NG_DOCS = {
       {
         "name": "enterDelay",
         "defaultValue": "300",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "leaveDelay",
         "defaultValue": "100",
-        "type": "number",
+        "propertyType": "number",
         "description": ""
       },
       {
         "name": "luTooltip",
-        "type": "any",
+        "propertyType": "any",
         "description": ""
       },
       {
         "name": "luTooltipDisabled",
-        "type": "boolean",
+        "propertyType": "boolean",
         "description": ""
       }
     ],
@@ -2300,19 +2316,19 @@ const NG_DOCS = {
   "LuUserPictureComponent": {
     "fileName": "libraries/core/src/lib/user/picture/user-picture.component.ts",
     "name": "LuUserPictureComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuUserPictureComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-user-picture",
     "inputs": [
       {
         "name": "displayFormat",
-        "type": "LuDisplayInitials",
+        "propertyType": "LuDisplayInitials",
         "description": "User Display format.\nIt is set to 'FL' by default"
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": ""
       }
     ],
@@ -2362,49 +2378,49 @@ const NG_DOCS = {
   "LuUserSelectInputComponent": {
     "fileName": "libraries/core/src/lib/user/select/input/user-select-input.component.ts",
     "name": "LuUserSelectInputComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuUserSelectInputComponent",
     "description": "Displays user'picture or a placeholder with his/her initials and random bg color'",
     "selector": "lu-user-select",
     "inputs": [
       {
         "name": "appInstanceId",
-        "type": "string | number",
+        "propertyType": "string | number",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "multiple",
-        "type": "string | boolean",
+        "propertyType": "string | boolean",
         "description": ""
       },
       {
         "name": "operations",
-        "type": "number[]",
+        "propertyType": "number[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "placeholder",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => U",
+        "propertyType": "(item: any) => U",
         "description": ""
       }
     ],
@@ -2456,39 +2472,39 @@ const NG_DOCS = {
   "LuUserPagedSearcherComponent": {
     "fileName": "libraries/core/src/lib/user/select/searcher/user-searcher.component.ts",
     "name": "LuUserPagedSearcherComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuUserPagedSearcherComponent",
     "description": "",
     "selector": "lu-user-paged-searcher",
     "inputs": [
       {
         "name": "appInstanceId",
-        "type": "string | number",
+        "propertyType": "string | number",
         "description": ""
       },
       {
         "name": "fields",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "filters",
-        "type": "string[]",
+        "propertyType": "string[]",
         "description": ""
       },
       {
         "name": "operations",
-        "type": "number[]",
+        "propertyType": "number[]",
         "description": ""
       },
       {
         "name": "orderBy",
-        "type": "string",
+        "propertyType": "string",
         "description": ""
       },
       {
         "name": "transformFn",
-        "type": "(item: any) => U",
+        "propertyType": "(item: any) => U",
         "description": ""
       }
     ],
@@ -2564,24 +2580,24 @@ const NG_DOCS = {
   "LuUserTileComponent": {
     "fileName": "libraries/core/src/lib/user/tile/user-tile.component.ts",
     "name": "LuUserTileComponent",
-    "type": "directive",
+    "type": "component",
     "className": "LuUserTileComponent",
     "description": "Displays user picture and name. IUser's role can be specified, and the footer is customizable.",
     "selector": "lu-user-tile",
     "inputs": [
       {
         "name": "displayFormat",
-        "type": "LuDisplayFormat",
+        "propertyType": "LuDisplayFormat",
         "description": "User Display format.\nIt is set to 'lf' by default"
       },
       {
         "name": "role",
-        "type": "string",
+        "propertyType": "string",
         "description": "IUser role to display"
       },
       {
         "name": "user",
-        "type": "IUser",
+        "propertyType": "IUser",
         "description": "IUser to display."
       }
     ],
@@ -2673,7 +2689,7 @@ const NG_DOCS = {
   "LuFormlyFieldApi": {
     "fileName": "libraries/formly/src/lib/types/api.ts",
     "name": "LuFormlyFieldApi",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldApi",
     "description": "",
     "selector": "lu-formly-field-api",
@@ -2685,7 +2701,7 @@ const NG_DOCS = {
   "LuFormlyFieldCheckboxes": {
     "fileName": "libraries/formly/src/lib/types/checkboxes.ts",
     "name": "LuFormlyFieldCheckboxes",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldCheckboxes",
     "description": "",
     "selector": "lu-formly-field-checkboxes",
@@ -2697,7 +2713,7 @@ const NG_DOCS = {
   "LuFormlyFieldDate": {
     "fileName": "libraries/formly/src/lib/types/date.ts",
     "name": "LuFormlyFieldDate",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldDate",
     "description": "",
     "selector": "lu-formly-field-date",
@@ -2715,7 +2731,7 @@ const NG_DOCS = {
   "LuFormlyFieldInput": {
     "fileName": "libraries/formly/src/lib/types/input.ts",
     "name": "LuFormlyFieldInput",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldInput",
     "description": "",
     "selector": "lu-formly-field-input",
@@ -2733,7 +2749,7 @@ const NG_DOCS = {
   "LuFormlyFieldRadios": {
     "fileName": "libraries/formly/src/lib/types/radios.ts",
     "name": "LuFormlyFieldRadios",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldRadios",
     "description": "",
     "selector": "lu-formly-field-radios",
@@ -2745,7 +2761,7 @@ const NG_DOCS = {
   "LuFormlyFieldSelect": {
     "fileName": "libraries/formly/src/lib/types/select.ts",
     "name": "LuFormlyFieldSelect",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldSelect",
     "description": "",
     "selector": "lu-formly-field-select",
@@ -2757,7 +2773,7 @@ const NG_DOCS = {
   "LuFormlyFieldTextarea": {
     "fileName": "libraries/formly/src/lib/types/textarea.ts",
     "name": "LuFormlyFieldTextarea",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldTextarea",
     "description": "",
     "selector": "lu-formly-field-input",
@@ -2769,7 +2785,7 @@ const NG_DOCS = {
   "LuFormlyFieldUser": {
     "fileName": "libraries/formly/src/lib/types/user.ts",
     "name": "LuFormlyFieldUser",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyFieldUser",
     "description": "",
     "selector": "lu-formly-field-user",
@@ -2781,7 +2797,7 @@ const NG_DOCS = {
   "LuFormlyWrapperError": {
     "fileName": "libraries/formly/src/lib/wrappers/error.ts",
     "name": "LuFormlyWrapperError",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperError",
     "description": "",
     "selector": "lu-formly-wrapper-error",
@@ -2804,19 +2820,19 @@ const NG_DOCS = {
   "LuFormlyErrorMessage": {
     "fileName": "libraries/formly/src/lib/wrappers/error.ts",
     "name": "LuFormlyErrorMessage",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyErrorMessage",
     "description": "",
     "selector": "lu-formly-error-message",
     "inputs": [
       {
         "name": "field",
-        "type": "FormlyFieldConfig",
+        "propertyType": "FormlyFieldConfig",
         "description": ""
       },
       {
         "name": "fieldForm",
-        "type": "FormControl",
+        "propertyType": "FormControl",
         "description": ""
       }
     ],
@@ -2843,7 +2859,7 @@ const NG_DOCS = {
   "LuFormlyWrapperHelper": {
     "fileName": "libraries/formly/src/lib/wrappers/helper.ts",
     "name": "LuFormlyWrapperHelper",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperHelper",
     "description": "",
     "selector": "lu-formly-wrapper-helper",
@@ -2871,7 +2887,7 @@ const NG_DOCS = {
   "LuFormlyWrapperIcon": {
     "fileName": "libraries/formly/src/lib/wrappers/icon.ts",
     "name": "LuFormlyWrapperIcon",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperIcon",
     "description": "",
     "selector": "lu-formly-wrapper-suffix",
@@ -2899,7 +2915,7 @@ const NG_DOCS = {
   "LuFormlyWrapperLabel": {
     "fileName": "libraries/formly/src/lib/wrappers/label.ts",
     "name": "LuFormlyWrapperLabel",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperLabel",
     "description": "",
     "selector": "lu-formly-wrapper-label",
@@ -2927,7 +2943,7 @@ const NG_DOCS = {
   "LuFormlyWrapperRadiosfieldLayout": {
     "fileName": "libraries/formly/src/lib/wrappers/radiosfield-layout.ts",
     "name": "LuFormlyWrapperRadiosfieldLayout",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperRadiosfieldLayout",
     "description": "",
     "selector": "lu-formly-wrapper-radiosfield-layout",
@@ -2965,7 +2981,7 @@ const NG_DOCS = {
   "LuFormlyWrapperSuffix": {
     "fileName": "libraries/formly/src/lib/wrappers/suffix.ts",
     "name": "LuFormlyWrapperSuffix",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperSuffix",
     "description": "",
     "selector": "lu-formly-wrapper-suffix",
@@ -2993,7 +3009,7 @@ const NG_DOCS = {
   "LuFormlyWrapperTextfieldLayout": {
     "fileName": "libraries/formly/src/lib/wrappers/textfield-layout.ts",
     "name": "LuFormlyWrapperTextfieldLayout",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperTextfieldLayout",
     "description": "",
     "selector": "lu-formly-wrapper-layout",
@@ -3041,7 +3057,7 @@ const NG_DOCS = {
   "LuFormlyWrapperTitle": {
     "fileName": "libraries/formly/src/lib/wrappers/title.ts",
     "name": "LuFormlyWrapperTitle",
-    "type": "directive",
+    "type": "component",
     "className": "LuFormlyWrapperTitle",
     "description": "",
     "selector": "lu-formly-wrapper-title",
