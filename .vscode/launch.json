@@ -10,10 +10,11 @@
 			"name": "test schematic",
 			"program": "${workspaceFolder}/node_modules/@angular-devkit/schematics-cli/bin/schematics.js",
 			"args": [
-				"@prisme/schematics:example",
-				"--name=lol",
-				"--prefix=lol",
-				"project=prisme"
+				"@prisme/schematics:feature",
+				"--name=components/actions/lol",
+				"--project=prisme",
+				"--guidelines=true",
+				"--force=true"
 			],
 			"outFiles": []
 		}
