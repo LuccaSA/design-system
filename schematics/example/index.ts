@@ -19,7 +19,7 @@ export default function example(options: IExampleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
-			options.project = Object.keys(workspace.projects)[0];
+			options.project = workspace.defaultProject || Object.keys(workspace.projects)[0];
 		}
 		const project = workspace.projects[options.project];
 		options.prefix = project.prefix;
