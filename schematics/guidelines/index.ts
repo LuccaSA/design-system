@@ -24,6 +24,7 @@ export default function guidelines(options: IGuidelinesOption): Rule {
 		if (options.path === undefined) {
 			options.path = `/${project.root}/src/guidelines`;
 		}
+		const imagesPath = `guidelines/${options.name}/images`;
 
 
 		const parsedPath = parseName(options.path, options.name);
@@ -33,7 +34,8 @@ export default function guidelines(options: IGuidelinesOption): Rule {
 		const templateSource = apply(url('./files'), [
 			template({
 				...strings,
-				...options
+				...options,
+				imagesPath,
 			}),
 			move(options.path)
 		]);

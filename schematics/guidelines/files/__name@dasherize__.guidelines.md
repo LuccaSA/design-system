@@ -9,4 +9,4 @@ Ecrivez votre markdown ici
 <!-- html code snippet -->
 ```
 
-integrez vos images comme ceci: ![placeholder](<%=path%>/images/placeholder.png)
+integrez vos images comme ceci: ![placeholder](<%=imagesPath%>/placeholder.png)
