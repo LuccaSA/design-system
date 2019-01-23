@@ -16,6 +16,7 @@ export class <%=classify(name)%>Feature {
 		],
 		<% if (!!scss) { %>theme: this.themeService.theme('<%=scss%>'),<% } %>
 		// <% if (!!ng) { %>directive: this.docApi.ng('<%=ng%>'),<% } %>
+		<% if (!!guidelines) { %>guidelines: '<%=guidelines%>',<% } %>
 	};
 
 	constructor(

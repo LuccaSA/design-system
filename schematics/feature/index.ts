@@ -23,7 +23,7 @@ export default function example(options: IFeatureOptions): Rule {
 		const initialoptions = { ...options };
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
-			options.project = Object.keys(workspace.projects)[0];
+			options.project = workspace.defaultProject || Object.keys(workspace.projects)[0];
 		}
 		const project = workspace.projects[options.project];
 		options.prefix = project.prefix;
@@ -32,11 +32,15 @@ export default function example(options: IFeatureOptions): Rule {
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
 
+
+		if (options.guidelines) {
+			const parsedGuidelinesPath = parseName('', options.name);
+			options.guidelines = `guidelines${parsedGuidelinesPath.path}/${strings.dasherize(parsedGuidelinesPath.name)}/${strings.dasherize(parsedGuidelinesPath.name)}.guidelines.md`;
+		}
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
 		options.module = `${parsedPath.path}/${parsedPath.name}/${parsedPath.name}.module.ts`;
-
 		const templateSource = apply(url('./files'), [
 			template({
 				...strings,
@@ -44,11 +48,17 @@ export default function example(options: IFeatureOptions): Rule {
 			}),
 			move(options.path),
 		]);
+		const preliminarySchems = [
+			schematic('index', initialoptions),
+			schematic('module', initialoptions),
+		];
+		if (options.guidelines) {
+			preliminarySchems.push(schematic('guidelines', initialoptions));
+		}
 		const rule = chain([
 			branchAndMerge(
 				chain([
-					schematic('index', initialoptions),
-					schematic('module', initialoptions),
+					...preliminarySchems,
 					mergeWith(templateSource),
 				])
 			),

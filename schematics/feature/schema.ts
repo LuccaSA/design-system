@@ -5,4 +5,5 @@ export interface IFeatureOptions extends IOptions {
 	ng?: string;
 	scss?: string;
 	prefix?: string;
+	guidelines?: string;
 }

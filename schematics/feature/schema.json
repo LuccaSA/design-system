@@ -41,6 +41,10 @@
 		"ng": {
 			"type": "string",
 			"description": "The name of the feature in the ng package."
+		},
+		"guidelines": {
+			"type": "string",
+			"description": "link this page to a guidelines md file."
 		}
 	}
 }
