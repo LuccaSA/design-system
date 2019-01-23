@@ -25,6 +25,11 @@
 			"description": "Generate an example for the design system",
 			"factory": "./example",
 			"schema": "./example/schema.json"
+		},
+		"guidelines": {
+			"description": "Generate a markdown file in the right place",
+			"factory": "./guidelines",
+			"schema": "./guidelines/schema.json"
 		}
 	}
 }
