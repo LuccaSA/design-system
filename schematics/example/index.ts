@@ -13,7 +13,7 @@ import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
 import { IExampleOptions } from './schema';
-import { addComponentDeclarationToModule } from '../utils/file-manipulation';
+import { addComponentDeclarationToModule } from '../utils/index';
 
 export default function example(options: IExampleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {

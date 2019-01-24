@@ -16,7 +16,7 @@ import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions } from '@schematics/angular/utility/find-module';
 import { IFeatureOptions } from './schema';
-import { addComponentDeclarationToModule, updateIndex } from '../utils/file-manipulation';
+import { addComponentDeclarationToModule, updateIndex, addModuleImportToModule } from '../utils/index';
 
 export default function example(options: IFeatureOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
@@ -32,6 +32,7 @@ export default function example(options: IFeatureOptions): Rule {
 			options.path = `/${project.root}/src/${projectDirName}`;
 		}
 
+		const modulePath = findModuleFromOptions(tree, options);
 
 		if (options.guidelines) {
 			const parsedGuidelinesPath = parseName('', options.name);
@@ -64,6 +65,7 @@ export default function example(options: IFeatureOptions): Rule {
 			),
 			updateIndex(options, 'page'),
 			addComponentDeclarationToModule(options, 'feature'),
+			addModuleImportToModule(modulePath as string, options),
 		]);
 		return rule(tree, _context);
 	};
