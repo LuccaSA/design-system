@@ -11,10 +11,10 @@ export class <%=classify(name)%>Feature {
 		examples: [
 		],
 		packages: [
-			<% if (!!scss) { %>'SCSS',<% } %>
+			<% if (!!theme) { %>'SCSS',<% } %>
 			<% if (!!directive || !!component || !!pipe) { %>'NG',<% } %>
 		],
-		<% if (!!scss) { %>theme: this.docService.theme('<%=scss%>'),<% } %>
+		<% if (!!theme) { %>theme: this.docService.theme('<%=theme%>'),<% } %>
 		<% if (!!directive) { %>directive: this.docService.directive('<%=directive%>'),<% } %>
 		<% if (!!component) { %>component: this.docService.component('<%=component%>'),<% } %>
 		<% if (!!pipe) { %>pipe: this.docService.pipe('<%=pipe%>'),<% } %>

@@ -5,7 +5,7 @@ export interface IFeatureOptions extends IOptions {
 	directive?: string;
 	component?: string;
 	pipe?: string;
-	scss?: string;
+	theme?: string;
 	prefix?: string;
 	guidelines?: string;
 }
