@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IFeatureInfos, ThemeDocumentationService } from '@prisme/common';
+import { IFeatureInfos, DocumentationService } from '@prisme/common';
 declare var require: any;
 @Component({
 	selector: '<%=prefix%>-<%=dasherize(name)%>',
@@ -12,14 +12,16 @@ export class <%=classify(name)%>Feature {
 		],
 		packages: [
 			<% if (!!scss) { %>'SCSS',<% } %>
-			<% if (!!ng) { %>'NG',<% } %>
+			<% if (!!directive || !!component || !!pipe) { %>'NG',<% } %>
 		],
-		<% if (!!scss) { %>theme: this.themeService.theme('<%=scss%>'),<% } %>
-		// <% if (!!ng) { %>directive: this.docApi.ng('<%=ng%>'),<% } %>
+		<% if (!!scss) { %>theme: this.docService.theme('<%=scss%>'),<% } %>
+		<% if (!!directive) { %>directive: this.docService.directive('<%=directive%>'),<% } %>
+		<% if (!!component) { %>component: this.docService.component('<%=component%>'),<% } %>
+		<% if (!!pipe) { %>pipe: this.docService.pipe('<%=pipe%>'),<% } %>
 		<% if (!!guidelines) { %>guidelines: '<%=guidelines%>',<% } %>
 	};
 
 	constructor(
-		private themeService: ThemeDocumentationService,
+		private docService: DocumentationService,
 	) {}
 }
