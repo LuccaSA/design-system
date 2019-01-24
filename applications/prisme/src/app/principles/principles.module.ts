@@ -5,6 +5,7 @@ import { GeneralPrinciplesModule } from './general/general.module';
 import { ComponentsPrinciplesModule } from './components/components.module';
 import { PrinciplesRoutingModule } from './principles.router';
 import { MainModule } from '../main';
+import { ContentModule } from './content';
 
 @NgModule({
 	imports: [
@@ -13,6 +14,7 @@ import { MainModule } from '../main';
 		GeneralPrinciplesModule,
 		ComponentsPrinciplesModule,
 		PrinciplesRoutingModule,
+		ContentModule,
 		MainModule,
 	]
 })
