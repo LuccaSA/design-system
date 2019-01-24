@@ -7,6 +7,7 @@ import { InjectableDocumentationModule } from './injectable/index';
 import { PipeDocumentationModule } from './pipe/index';
 import { DirectiveDocumentationModule } from './directive/index';
 import { ComponentDocumentationModule } from './component/index';
+import { DocumentationService } from './documentation.service';
 
 @NgModule({
 	imports: [
@@ -29,5 +30,8 @@ import { ComponentDocumentationModule } from './component/index';
 		DirectiveDocumentationModule,
 		ComponentDocumentationModule,
 	],
+	providers: [
+		DocumentationService,
+	]
 })
 export class DocumentationModule {}

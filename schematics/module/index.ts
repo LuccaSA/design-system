@@ -12,7 +12,7 @@ import {
 	mergeWith } from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
-import { updateIndex } from '../utils/file-manipulation';
+import { updateIndex } from '../utils/index';
 import { IModuleOptions } from './schema';
 
 export default function module(options: IModuleOptions): Rule {

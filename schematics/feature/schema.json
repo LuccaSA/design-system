@@ -34,13 +34,25 @@
 			"description": "The title of the feature.",
 			"alias": "t"
 		},
-		"scss": {
+		"theme": {
 			"type": "string",
 			"description": "The name of the feature in the scss package."
 		},
-		"ng": {
+		"directive": {
 			"type": "string",
-			"description": "The name of the feature in the ng package."
+			"description": "The directive name in the ng package."
+		},
+		"component": {
+			"type": "string",
+			"description": "The component name in the ng package."
+		},
+		"pipe": {
+			"type": "string",
+			"description": "The pipe name in the ng package."
+		},
+		"guidelines": {
+			"type": "string",
+			"description": "link this page to a guidelines md file."
 		}
 	}
 }

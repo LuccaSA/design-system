@@ -1,5 +1,5 @@
 import { IExample } from './example/index';
-import { IThemeDocumentation, IDirectiveDocumentation } from '../documentation/index';
+import { IThemeDocumentation, IDirectiveDocumentation, IComponentDocumentation, IPipeDocumentation } from '../documentation/index';
 
 export type DSPackages = 'SCSS' | 'NG';
 
@@ -9,6 +9,8 @@ export interface IFeatureInfos {
 	keywords?: string[];
 	examples?: IExample[];
 	theme?: IThemeDocumentation;
-	directive?: IDirectiveDocumentation;
 	guidelines?: string;
+	directive?: IDirectiveDocumentation;
+	component?: IComponentDocumentation;
+	pipe?: IPipeDocumentation;
 }

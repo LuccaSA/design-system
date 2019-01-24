@@ -9,3 +9,4 @@ export * from './theme/index';
 
 export * from './documentation.model';
 export * from './documentation.module';
+export * from './documentation.service';

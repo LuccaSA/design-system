@@ -23,15 +23,6 @@
 			"$default": {
 				"$source": "projectName"
 			}
-		},
-		"module": {
-			"type": "string",
-			"description": "The declaring module.",
-			"alias": "m"
-		},
-		"ts": {
-			"type": "boolean",
-			"description": "if this example typescript code shoud be displayed"
 		}
 	}
 }

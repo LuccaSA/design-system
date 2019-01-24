@@ -18,3 +18,15 @@
 <ng-container *ngIf="infos.guidelines">
 	<markdown [priMarkdownSrc]="infos.guidelines"></markdown>
 </ng-container>
+
+<ng-container *ngIf="infos.directive">
+	<pri-directive [documentation]="infos.directive"></pri-directive>
+</ng-container>
+
+<ng-container *ngIf="infos.component">
+	<pri-component [documentation]="infos.component"></pri-component>
+</ng-container>
+
+<ng-container *ngIf="infos.pipe">
+	<pri-pipe [documentation]="infos.pipe"></pri-pipe>
+</ng-container>
