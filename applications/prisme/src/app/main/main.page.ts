@@ -24,6 +24,7 @@ export class MainGroupPage extends GroupPage implements IPage {
 				{ path: '', component: NavSideComponent, data: { pages: this.children }, outlet: 'navSide'},
 				{ path: '', component: HeaderComponent, outlet: 'header'},
 				...this.children.map(c => c.toRoute()),
+				{ path: '**', redirectTo: this.children[0].path, pathMatch: 'full' },
 			] as Route[];
 	}
 }
