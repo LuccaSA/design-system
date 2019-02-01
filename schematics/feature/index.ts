@@ -17,15 +17,16 @@ import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
 import { findModuleFromOptions, buildRelativePath } from '@schematics/angular/utility/find-module';
 import { IFeatureOptions } from './schema';
-import { addComponentDeclarationToModule, updateIndex, addModuleImportToModule, readIntoSourceFile } from '../utils/index';
+import { addComponentDeclarationToModule, addModuleImportToModule, readIntoSourceFile } from '../utils/index';
+import { updateIndex } from '@lucca/schematics';
 import { SourceFile, Node, SyntaxKind } from 'typescript';
 import { Change, InsertChange } from '@schematics/angular/utility/change';
-import { insertImport, findNode, findNodes } from '@schematics/angular/utility/ast-utils';
+import { insertImport, findNodes } from '@schematics/angular/utility/ast-utils';
 
 const PAGE_EXT = '.page.ts';
 export default function example(options: IFeatureOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
-		const initialoptions = { ...options };
+		const initialOptions = { ...options };
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
 			options.project = workspace.defaultProject || Object.keys(workspace.projects)[0];
@@ -47,6 +48,7 @@ export default function example(options: IFeatureOptions): Rule {
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
 		options.module = `${parsedPath.path}/${parsedPath.name}/${parsedPath.name}.module.ts`;
+		const indexPath = `${parsedPath.path}/${parsedPath.name}/index.ts`;
 
 		const groupPagePath = findGroupPageFromOptions(tree, options);
 
@@ -58,11 +60,10 @@ export default function example(options: IFeatureOptions): Rule {
 			move(options.path),
 		]);
 		const preliminarySchems = [
-			schematic('index', initialoptions),
-			schematic('module', initialoptions),
+			schematic('module', initialOptions),
 		];
 		if (options.guidelines) {
-			preliminarySchems.push(schematic('guidelines', initialoptions));
+			preliminarySchems.push(schematic('guidelines', initialOptions));
 		}
 		const rule = chain([
 			branchAndMerge(
@@ -71,7 +72,7 @@ export default function example(options: IFeatureOptions): Rule {
 					mergeWith(templateSource),
 				])
 			),
-			updateIndex(options, 'page'),
+			updateIndex(indexPath, options, 'page') as any,
 			addComponentDeclarationToModule(options, 'feature'),
 			addModuleImportToModule(modulePath as string, options),
 			addPageToGroupPage(groupPagePath, options),
