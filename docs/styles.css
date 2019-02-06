@@ -1370,8 +1370,8 @@ button {
     top: 0;
     width: 1rem; }
 .actionIcon.is-loading::after {
-    -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-            animation: rotating var(--commons-animations-durations-slow) linear infinite;
+    -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+            animation: rotating var(--components-loading-speed) linear infinite;
     border: 2px solid var(--components-loading-frontground);
     border-color: var(--components-loading-frontground) transparent transparent transparent;
     border-radius: 50%;
@@ -1689,8 +1689,8 @@ button {
       top: 0;
       width: var(--components-button-sizing-default-font-size); }
 .button.is-loading::after {
-      -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-              animation: rotating var(--commons-animations-durations-slow) linear infinite;
+      -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+              animation: rotating var(--components-loading-speed) linear infinite;
       border: 2px solid var(--components-loading-frontground);
       border-color: var(--components-loading-frontground) transparent transparent transparent;
       border-radius: 50%;
@@ -1720,8 +1720,8 @@ button {
       top: 0;
       width: var(--components-button-sizing-smaller-font-size); }
 .button.is-loading.size-smaller::after {
-      -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-              animation: rotating var(--commons-animations-durations-slow) linear infinite;
+      -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+              animation: rotating var(--components-loading-speed) linear infinite;
       border: 2px solid var(--components-loading-frontground);
       border-color: var(--components-loading-frontground) transparent transparent transparent;
       border-radius: 50%;
@@ -1751,8 +1751,8 @@ button {
       top: 0;
       width: var(--components-button-sizing-small-font-size); }
 .button.is-loading.size-small::after {
-      -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-              animation: rotating var(--commons-animations-durations-slow) linear infinite;
+      -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+              animation: rotating var(--components-loading-speed) linear infinite;
       border: 2px solid var(--components-loading-frontground);
       border-color: var(--components-loading-frontground) transparent transparent transparent;
       border-radius: 50%;
@@ -1782,8 +1782,8 @@ button {
       top: 0;
       width: var(--components-button-sizing-default-font-size); }
 .button.is-loading.size-default::after {
-      -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-              animation: rotating var(--commons-animations-durations-slow) linear infinite;
+      -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+              animation: rotating var(--components-loading-speed) linear infinite;
       border: 2px solid var(--components-loading-frontground);
       border-color: var(--components-loading-frontground) transparent transparent transparent;
       border-radius: 50%;
@@ -1813,8 +1813,8 @@ button {
       top: 0;
       width: var(--components-button-sizing-big-font-size); }
 .button.is-loading.size-big::after {
-      -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-              animation: rotating var(--commons-animations-durations-slow) linear infinite;
+      -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+              animation: rotating var(--components-loading-speed) linear infinite;
       border: 2px solid var(--components-loading-frontground);
       border-color: var(--components-loading-frontground) transparent transparent transparent;
       border-radius: 50%;
@@ -3718,7 +3718,7 @@ button {
   display: flex;
   margin-left: auto; }
 .header-nav {
-  align-items: start;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   height: 4rem;
@@ -3895,8 +3895,8 @@ a:hover {
     top: 0;
     width: 1rem; }
 .loading::after {
-    -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-            animation: rotating var(--commons-animations-durations-slow) linear infinite;
+    -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+            animation: rotating var(--components-loading-speed) linear infinite;
     border: 2px solid var(--components-loading-frontground);
     border-color: var(--components-loading-frontground) transparent transparent transparent;
     border-radius: 50%;
@@ -3937,12 +3937,39 @@ a:hover {
   display: block;
   margin: 38vh auto 0;
   width: 5rem; }
-.loading.mod-fullPage::after {
+.loading.mod-fullPage::before, .loading.mod-fullPage::after {
     height: 5rem;
-    width: 5rem; }
-.loading.mod-fullPage::before {
+    width: 5rem;
+    border-width: 3px; }
+.loading.mod-dialog {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 8rem 0 0;
+  margin: 0 2rem 2rem; }
+.loading.mod-dialog::before, .loading.mod-dialog::after {
     height: 5rem;
-    width: 5rem; }
+    width: 5rem;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-width: 3px; }
+.loading.mod-sidePanel {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 8rem 0 0;
+  margin: 0 2rem 2rem;
+  top: 35vh; }
+.loading.mod-sidePanel::before, .loading.mod-sidePanel::after {
+    height: 5rem;
+    width: 5rem;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-width: 3px; }
 .loading.mod-invert {
   color: white; }
 .loading.mod-invert::before {
@@ -4849,8 +4876,8 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     top: 0;
     width: 1rem; }
 .checkboxesfield.is-loading::after {
-    -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-            animation: rotating var(--commons-animations-durations-slow) linear infinite;
+    -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+            animation: rotating var(--components-loading-speed) linear infinite;
     border: 2px solid var(--components-loading-frontground);
     border-color: var(--components-loading-frontground) transparent transparent transparent;
     border-radius: 50%;
@@ -5348,8 +5375,8 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     top: 0;
     width: 1rem; }
 .textfield.is-loading::after, mat-select.is-loading::after {
-    -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-            animation: rotating var(--commons-animations-durations-slow) linear infinite;
+    -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+            animation: rotating var(--components-loading-speed) linear infinite;
     border: 2px solid var(--components-loading-frontground);
     border-color: var(--components-loading-frontground) transparent transparent transparent;
     border-radius: 50%;
@@ -6506,8 +6533,8 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     top: 0;
     width: 1rem; }
 .radiosfield.is-loading::after {
-    -webkit-animation: rotating var(--commons-animations-durations-slow) linear infinite;
-            animation: rotating var(--commons-animations-durations-slow) linear infinite;
+    -webkit-animation: rotating var(--components-loading-speed) linear infinite;
+            animation: rotating var(--components-loading-speed) linear infinite;
     border: 2px solid var(--components-loading-frontground);
     border-color: var(--components-loading-frontground) transparent transparent transparent;
     border-radius: 50%;
@@ -6959,7 +6986,7 @@ h2 ~ .titleSection-sub, h3 ~ .titleSection-sub, h4 ~ .titleSection-sub {
     left: 0;
     right: 100%;
     height: var(--components-radioButtons-outlineHeight);
-    background: var(--palettes-primary-color);
+    background: var(--components-radioButtons-default-palette);
     transition: all var(--commons-animations-durations-standard) ease;
     z-index: 1; }
 .switch {
@@ -8382,6 +8409,7 @@ hr {
   --components-list-hover-background: var(--commons-background-dark);
   --components-loading-background: var(--commons-background-darker);
   --components-loading-frontground: var(--palettes-primary-color);
+  --components-loading-speed: 600ms;
   --components-menu-default-palette-color: var(--palettes-primary-color);
   --components-menu-background: white;
   --components-menu-margin: 0 1.2rem;
@@ -8497,6 +8525,7 @@ hr {
   --components-table-zebra-background: var(--palettes-ds-color);
   --components-table-hover-background: var(--palettes-ds-dark);
   --components-table-card-padding: 1.5rem;
+  --components-radioButtons-default-palette: var(--palettes-primary-color);
   --components-radioButtons-padding: 0.15rem 0.5rem;
   --components-radioButtons-outlineHeight: 2px;
   --components-user-picture-sizes-smallest-font-size: 0.5em;
