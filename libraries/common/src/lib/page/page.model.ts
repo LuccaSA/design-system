@@ -70,10 +70,15 @@ export class GroupPage extends APage implements IPage {
 		keywords: string[] = [],
 	) {
 		super(path, title, keywords);
-		this.children = children;
+		this.children = children.sort((a, b) => a.title.localeCompare(b.title));
 	}
 	toRoute() {
-		return { path: this.path, children: this.children.map(c => c.toRoute()) } as Route;
+		const childrenRoutes = this.children.map(c => c.toRoute());
+		const redirectRoute = { path: '**', redirectTo: this.children[0].path, pathMatch: 'full' };
+		return { path: this.path, children: [
+			...childrenRoutes,
+			redirectRoute
+		] } as Route;
 	}
 	toIndex(): IPage[] {
 		const children = this.children as IPage[];
