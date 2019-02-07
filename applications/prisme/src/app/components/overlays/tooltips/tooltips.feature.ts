@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IFeatureInfos, DocumentationService } from '@prisme/common';
+import { BasicExample } from './basic/basic.example';
 declare var require: any;
 @Component({
 	selector: 'pri-tooltips',
@@ -9,6 +10,11 @@ export class TooltipsFeature {
 	infos: IFeatureInfos = {
 		title: 'Tooltips',
 		examples: [
+			{
+				title: 'basic',
+				component: BasicExample,
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+			},
 		],
 		packages: [
 			

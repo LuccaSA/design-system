@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@prisme/common';
 import { TooltipsFeature } from './tooltips.feature';
 import { LuTooltipModule } from '@lucca-front/ng';
+import { BasicExample } from './basic/basic.example';
 
 @NgModule({
 	imports: [
@@ -9,8 +10,9 @@ import { LuTooltipModule } from '@lucca-front/ng';
 		LuTooltipModule,
 	],
 	declarations: [
-	TooltipsFeature],
+	TooltipsFeature,
+	BasicExample],
 	entryComponents: [
-	]
+	BasicExample]
 })
 export class TooltipsModule {}
