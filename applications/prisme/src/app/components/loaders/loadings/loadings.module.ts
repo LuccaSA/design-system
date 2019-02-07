@@ -7,6 +7,7 @@ import { BlockExampleComponent } from './block/block.example';
 import { InvertedExampleComponent } from './inverted/inverted.example';
 import { BigExample } from './big/big.example';
 import { FullPageExample } from './full-page/full-page.example';
+import { DialogExample } from './dialog/dialog.example';
 
 @NgModule({
 	imports: [CommonModule],
@@ -18,6 +19,7 @@ import { FullPageExample } from './full-page/full-page.example';
 		InvertedExampleComponent,
 		BigExample,
 		FullPageExample,
+		DialogExample,
 	],
 	entryComponents: [
 		BasicExampleComponent,
@@ -26,6 +28,7 @@ import { FullPageExample } from './full-page/full-page.example';
 		InvertedExampleComponent,
 		BigExample,
 		FullPageExample,
+		DialogExample,
 	]
 })
 export class LoadingsModule { }
