@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
 })
 export class BasicExample {
 	user = {
-		id: 12,
-		firstName: 'John',
-		lastName: 'Doe',
+		"id": 6,
+		"firstName": "Chloe",
+		"lastName": "Alibert",
+		"picture": {
+			"href": "https://demo-ux1.ilucca.net/getFile.ashx?id=5e73eabb-a24e-4590-a4c2-6c5de9893185"
+		}
 	};
 }

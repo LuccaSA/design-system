@@ -14,7 +14,6 @@ import { MarkdownModule, EnvironmentModule } from '@prisme/common';
 import { appRoutes, searchableIndex } from './app.router';
 import { PAGES_INDEX } from './search';
 import { environment } from '../environments/environment';
-import { RedirectModule } from './redirect';
 
 
 
@@ -23,7 +22,6 @@ import { RedirectModule } from './redirect';
 		BrowserModule,
 		BrowserAnimationsModule,
 		LuModule,
-		RedirectModule,
 
 		HomeModule,
 		MainModule,
