@@ -12,12 +12,9 @@ export class RedirectInterceptor implements HttpInterceptor {
 		next: HttpHandler,
 	): Observable<HttpEvent<any>> {
 		if (req.url.startsWith('/api')) {
-			const clonedHeaders = req.headers;
-			clonedHeaders.set('Access-Control-Allow-Origin', '*');
-			clonedHeaders.set('Authorization', `Lucca application=${environment.apiKey}`);
 			const clonedRequest = req.clone({
-				url: `https://${environment.apiUrl}${req.url}`,
-				headers: clonedHeaders,
+				url: `${environment.apiUrl}${req.url}`,
+				headers: req.headers,
 			});
 			return next.handle(clonedRequest);
 		} else {
