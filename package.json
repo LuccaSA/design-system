@@ -14,6 +14,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "redirect": "node applications/api/server.js",
     "predeploy": "npm run generateapi:scss && npm run generateapi:ng",
     "deploy": "ng build -c deploy",
     "generateapi:scss": "node tools/scss-docs.js",
@@ -49,7 +50,7 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.12.1",
+    "@angular-devkit/build-angular": "^0.13.1",
     "@angular-devkit/build-ng-packagr": "^0.12.1",
     "@angular-devkit/core": "^7.2.0",
     "@angular-devkit/schematics": "^7.2.0",
@@ -64,6 +65,7 @@
     "@types/node": "^8.0.31",
     "codelyzer": "^4.5.0",
     "copyfiles": "^2.0.0",
+    "dotenv": "^6.2.0",
     "glob": "^7.1.2",
     "jasmine": "^2.8.0",
     "jasmine-core": "~2.8.0",
@@ -73,7 +75,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "ng-packagr": "^4.6.0",
+    "ng-packagr": "^4.7.0",
     "protractor": "^5.4.1",
     "sast": "^0.7.0",
     "ts-node": "~4.1.0",

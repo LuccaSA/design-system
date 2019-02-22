@@ -9,6 +9,7 @@ import { navigationPage } from './navigation/navigation.page';
 import { overlaysPage } from './overlays/overlays.page';
 import { textPage } from './text/text.page';
 import { MainGroupPage } from '../main';
+import { userPage } from './user';
 
 export const componentsPage = new MainGroupPage('components', 'Composants', [
 	actionsPage,
@@ -20,5 +21,6 @@ export const componentsPage = new MainGroupPage('components', 'Composants', [
 	miscPage,
 	navigationPage,
 	overlaysPage,
+	userPage,
 	textPage,
 ]);

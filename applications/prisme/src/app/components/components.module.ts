@@ -11,6 +11,7 @@ import { NavigationModule } from './navigation/navigation.module';
 import { TextModule } from './text/text.module';
 import { ComponentsRoutingModule } from './components.router';
 import { MainModule } from '../main';
+import { UserModule } from './user';
 
 @NgModule({
 	imports: [
@@ -24,6 +25,7 @@ import { MainModule } from '../main';
 		NavigationModule,
 		OverlaysModule,
 		TextModule,
+		UserModule,
 
 		ComponentsRoutingModule,
 		MainModule,
