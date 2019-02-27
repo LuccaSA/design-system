@@ -40,7 +40,7 @@
 	width: 100%;
 	max-width: 16rem;
 
-	@include media_smaller_than("xl") {
+	@include media_smaller_than("xxl") {
 		display: none;
 	}
 }
