@@ -1,4 +1,4 @@
-<div class="textfield mod-longer">
+<div class="textfield mod-longer mod-search">
 	<lu-select [ngModel]="currentPage" (ngModelChange)="goToPage($event)" class="textfield-input" placeholder="Rechercher dans prisme">
 		<pri-page-item *luDisplayer="let value" [page]="value"></pri-page-item>
 		<lu-option-picker [overlap-trigger]="true">

@@ -1,8 +1,10 @@
 <a class="header-logo" routerLink="/"></a>
 
 <pri-search class="mod-inline"></pri-search>
-<nav>
-	<a class="nav-item" [routerLinkActive]="['is-active']" routerLink="/principles">Principes</a>
-	<a class="nav-item" [routerLinkActive]="['is-active']" routerLink="/ressources">Ressources</a>
-	<a class="nav-item" [routerLinkActive]="['is-active']" routerLink="/components">Composants</a>
+<button class="header-toggleNav" (click)="showResponsiveMenu = !showResponsiveMenu"></button>
+
+<nav class="header-nav" [class.is-open]="showResponsiveMenu">
+	<a class="header-nav-item" [routerLinkActive]="['is-active']" routerLink="/principles">Principes</a>
+	<a class="header-nav-item" [routerLinkActive]="['is-active']" routerLink="/ressources">Ressources</a>
+	<a class="header-nav-item" [routerLinkActive]="['is-active']" routerLink="/components">Composants</a>
 </nav>
