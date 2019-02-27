@@ -16,10 +16,11 @@
 
 .codeTabs-menu {
 	border-bottom: 1px solid _theme("commons.divider.color");
+	padding-left: _theme("spacings.small");
 }
 
 .codeTabs-menu-entry {
-	padding: _theme("spacings.small") _theme("spacings.standard");
+	padding: _theme("spacings.small");
 	display: inline-block;
 	color: _color("text.default");
 
