@@ -25,12 +25,17 @@
 	text-decoration: none;
 	color: _color("text.purple");
 	font-weight: 600;
+	margin: 0 7.5rem 0 .5rem;
 	background: url(/assets/prisme.png) no-repeat center;
 	background-size: 7rem;
 	transition: all 150ms ease;
 
 	&:hover {
 		opacity: .9;
+	}
+
+	@include media_smaller_than("xl") {
+		margin-right: 0;
 	}
 }
 
@@ -48,6 +53,12 @@
 
 	&:hover {
 		background: _theme("commons.background.base");
+	}
+
+	&::before {
+		@include makeIcon("menu");
+		font-size: 1.5rem;
+		color: _color("primary");
 	}
 
 	@include media_smaller_than("lg") {
