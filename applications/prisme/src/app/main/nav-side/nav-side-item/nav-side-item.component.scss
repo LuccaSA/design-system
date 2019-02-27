@@ -1,33 +1,23 @@
 @import "~@lucca-front/scss/src/theming.overridable";
 
-a {
+.navSideItem-link {
+  border-radius: _theme("commons.border.radius");
   display: block;
-	color: _color("text.purple");
+	color: _color("text.default");
 	text-decoration: none;
   cursor: pointer;
   padding: .5rem .5rem .5rem 1.5rem;
   position: relative;
   transition: all 150ms ease;
+  text-indent: _theme("spacings.smaller");
 
   &:hover, &:focus, &:active {
     outline: none;
     background: _theme('commons.background.dark');
-    color: _color("text.purple", "dark");
   }
 
   &.is-active {
     background: _theme('commons.background.dark');
-    color: _color("text.purple", "darker");
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 3px;
-      background: _color("text.purple");
-    }
 
     .navSide-sub {
       display: block;
@@ -38,11 +28,4 @@ a {
     opacity: .5;
     pointer-events: none;
   }
-}
-
-:host-context(ds-nav-side-group) {
-	a {
-		left: 2rem;
-		padding: .5rem .5rem .5rem 1rem;
-	}
 }

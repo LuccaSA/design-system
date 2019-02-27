@@ -17,14 +17,17 @@
 .header-logo {
 	height: 4rem;
 	line-height: 4rem;
+	width: 9rem;
 	padding: 0 1.5rem;
 	text-decoration: none;
 	color: _color("text.purple");
 	font-weight: 600;
 	transition: background 150ms ease;
+	background: url(/assets/prisme.png) no-repeat center;
+	background-size: 7rem;
 
 	&:hover {
-		background: _theme('commons.background.dark');
+		background-color: _theme('commons.background.dark');
 	}
 }
 

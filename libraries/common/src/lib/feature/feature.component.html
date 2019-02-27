@@ -1,32 +1,67 @@
-<div class="card-dependencies" *ngIf="infos.packages">
-	<span *ngFor="let package of infos.packages" class="label {{packagePalette(package)}}">{{package}}</span>
+<div class="feature-package" *ngIf="infos.packages">
+	<span *ngFor="let package of infos.packages" class="label palette-white">{{package}}</span>
 </div>
 
-<section class="contentSection">
-	<h1 class="u-marginBottomSmaller">{{infos.title}}</h1>
+<section class="feature-header">
+	<h1 class="mod-headline">{{infos.title}}</h1>
 	<ng-content></ng-content>
 </section>
 
-<ng-container *ngIf="infos.examples && infos.examples.length">
-	<pri-examples [examples]="infos.examples"></pri-examples>
-</ng-container>
+<section class="feature-content">
 
-<ng-container *ngIf="infos.theme">
-	<pri-theme [documentation]="infos.theme"></pri-theme>
-</ng-container>
+	<div class="grid">
+		<div class="grid-xl8">
 
-<ng-container *ngIf="infos.guidelines">
-	<markdown [priMarkdownSrc]="infos.guidelines"></markdown>
-</ng-container>
+			<section class="contentSection" *ngIf="infos.examples && infos.examples.length">
+				<h1>Design</h1>
+				<ng-container>
+					<pri-examples [examples]="infos.examples"></pri-examples>
+				</ng-container>
+			</section>
 
-<ng-container *ngIf="infos.directive">
-	<pri-directive [documentation]="infos.directive"></pri-directive>
-</ng-container>
+			<section class="contentSection" *ngIf="infos.guidelines">
+				<h1>Règles d'usage</h1>
+				<ng-container>
+					<markdown [priMarkdownSrc]="infos.guidelines"></markdown>
+				</ng-container>
+			</section>
 
-<ng-container *ngIf="infos.component">
-	<pri-component [documentation]="infos.component"></pri-component>
-</ng-container>
+			<section class="contentSection" *ngIf="infos.theme">
+				<h1>Thème</h1>
+				<ng-container>
+					<pri-theme [documentation]="infos.theme"></pri-theme>
+				</ng-container>
+			</section>
 
-<ng-container *ngIf="infos.pipe">
-	<pri-pipe [documentation]="infos.pipe"></pri-pipe>
-</ng-container>
+			<section class="contentSection" *ngIf="infos.directive">
+				<h1>Directives</h1>
+				<ng-container>
+					<pri-directive [documentation]="infos.directive"></pri-directive>
+				</ng-container>
+			</section>
+
+			<section class="contentSection" *ngIf="infos.component">
+				<h1>Composants</h1>
+				<ng-container>
+					<pri-component [documentation]="infos.component"></pri-component>
+				</ng-container>
+			</section>
+
+			<section class="contentSection" *ngIf="infos.pipe">
+				<h1>Pipes</h1>
+				<ng-container>
+					<pri-pipe [documentation]="infos.pipe"></pri-pipe>
+				</ng-container>
+			</section>
+
+		</div>
+		<div class="grid-xl4 u-paddingLeftBig">
+			<nav class="feature-quickNav">
+				<a class="feature-quickNav-item is-active">Design</a>
+				<a class="feature-quickNav-item">Règles d'usage</a>
+				<a class="feature-quickNav-item">Composants similaires</a>
+				<a class="feature-quickNav-item">Thème</a>
+			</nav>
+		</div>
+	</div>
+</section>

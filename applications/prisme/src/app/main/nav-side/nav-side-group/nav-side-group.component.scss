@@ -7,11 +7,11 @@
 }
 
 .navSideGroup-title {
-  padding: .5rem .5rem .5rem 1.5rem;
+  padding: _theme("spacings.smaller") _theme("spacings.small");
   font-weight: 600;
+  border-radius: _theme("commons.border.radius");
 
   &:hover {
-    background: white;
-    color: _color("text.purple");
+    background: _theme("commons.background.dark");
   }
 }

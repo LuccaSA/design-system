@@ -1,11 +1,22 @@
-@import '~@lucca-front/scss/src/theming.overridable';
+@import "~@lucca-front/scss/src/theming.overridable";
+
 :host {
 	display: block;
-	margin-bottom: 1rem;
+	border: 1px solid _theme("commons.divider.color");
+	border-radius: _theme("commons.border.radius");
+	overflow: hidden;
 }
-td:nth-child(2), th:nth-child(2) {
-	width: 100%;
+
+.table {
+	border: 0;
 }
-td:nth-child(3), th:nth-child(3) {
-	min-width: 200px;
+
+.table-body-row-cell {
+	&:nth-child(2) {
+		width: 100%;
+	}
+
+	&:nth-child(3) {
+		min-width: 200px;
+	}
 }

@@ -19,6 +19,16 @@ $palettes: (
 		lighter: lighten(#F5F7FF, 5%),
 		lightest: lighten(#F5F7FF, 7%)
 	),
+	lucca: (
+		color: #FFB900,
+		text: #FFFFFF,
+		dark: darken(#FFB900, 7%),
+		darker: darken(#FFB900, 20%),
+		light: lighten(#FFB900, 10%),
+		lighter: lighten(#FFB900, 20%),
+		lightest: lighten(#FFB900, 45%),
+		see-through: rgba(#FFB900, .15)
+	),
 	scss: (
 		color: #E696BE,
 		text: #FFFFFF,

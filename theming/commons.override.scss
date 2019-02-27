@@ -1,9 +1,9 @@
 $commons: (
-	"background": (
-		"base": #FFFFFF,
-		"dark": #eaecfb,
-		"darker": #e2e7ff,
-		"darkest": #d3daff
+	background: (
+		base: #f5f7ff,
+		dark: darken(#f5f7ff, 3%),
+		darker: darken(#f5f7ff, 6%),
+		darkest: darken(#f5f7ff, 10%)
 	),
 	divider: (
 		color: #e1e0ec,
