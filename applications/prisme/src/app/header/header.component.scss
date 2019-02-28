@@ -119,18 +119,7 @@
 }
 
 :host(.mod-splash) {
-	background: transparent;
-	box-shadow: none;
-
-	.header-logo, pri-search {
+	pri-search {
 		display: none;
-	}
-
-	.header-nav-item {
-		color: white;
-
-		&:hover {
-			background: rgba(255, 255, 255, .2);
-		}
 	}
 }

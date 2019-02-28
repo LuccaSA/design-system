@@ -3,7 +3,8 @@ import { ITool } from '@prisme/common';
 
 @Component({
 	selector: 'pri-home-footer',
-	templateUrl: './home-footer.component.html'
+	templateUrl: './home-footer.component.html',
+	styleUrls: ['./home-footer.component.scss']
 })
 export class HomeFooterComponent {
 	figma = {

@@ -1,6 +1,39 @@
-<div class="container mod-xl">
-	<pri-header class="mod-splash"></pri-header>
-	<h1 class="mod-headline">Design System</h1>
-	<div class="splash-description">Ice cream gummi bears jelly-o halvah pastry. Donut chupa chups tart. Chocolate cake caramels biscuit chocolate bar ice cream.</div>
-	<pri-search class="mod-fullwidth"></pri-search>
+<pri-header class="mod-splash"></pri-header>
+
+<div class="container mod-xl u-paddingBottomBig u-paddingTopBiggest">
+	<div class="splash-content">
+		<h1 class="splash-title mod-headline">Prisme, le design façon Lucca</h1>
+		<div class="splash-description">Dividendo quaerendi ac videtur definitiones videtur parte non plane falsi.</div>
+		<pri-search></pri-search>
+	</div>
+
+	<div class="grid">
+		<div class="grid-lg4">
+			<a routerLink="/principles" class="card mod-clickable mod-principles">
+				<div class="card-content">
+					<div class="splash-card-icon"><u class="lucca-icon">heart</u></div>
+					<h3>Principes</h3>
+					<div class="u-textLight u-textSmall">Découvrez les lignes directrices de notre vision du design chez Lucca.</div>
+				</div>
+			</a>
+		</div>
+		<div class="grid-lg4">
+			<a routerLink="/visual" class="card mod-clickable mod-identity">
+				<div class="card-content">
+					<div class="splash-card-icon"><u class="lucca-icon">palette</u></div>
+					<h3>Identité graphique</h3>
+					<div class="u-textLight u-textSmall">Comprenez les éléments de notre charte et apprenez à communiquer par l'image.</div>
+				</div>
+			</a>
+		</div>
+		<div class="grid-lg4">
+			<a routerLink="/components" class="card mod-clickable mod-components">
+				<div class="card-content">
+					<div class="splash-card-icon"><u class="lucca-icon">palette</u></div>
+					<h3>Composants</h3>
+					<div class="u-textLight u-textSmall">Parcourez nos composants SASS et Angular et apprenez à les utiliser dans vos applications.</div>
+				</div>
+			</a>
+		</div>
+	</div>
 </div>
