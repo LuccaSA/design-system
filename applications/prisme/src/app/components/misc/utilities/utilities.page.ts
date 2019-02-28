@@ -3,6 +3,6 @@ import { UtilitiesFeature } from './utilities.feature';
 
 export const utilitiesPage = new FeaturePage(
 	'utilities',
-	'Utilitaires',
+	'Utilitaires 🔨',
 	UtilitiesFeature,
 );
