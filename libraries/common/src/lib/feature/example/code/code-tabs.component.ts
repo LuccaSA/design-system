@@ -28,11 +28,13 @@ export class CodeTabsComponent implements AfterViewInit {
 		this._example = example;
 		this.code = this._example.code;
 		this.tsCode = this._example.tsCode;
+		this.mod = example.mod ? `mod-${example.mod}` : '';
 		this.renderComponent();
 	}
 	isSplitView: boolean;
 	code: string;
 	tsCode: string;
+	mod: string;
 
 	private _example: IExample;
 	private activeTab: CodeTabComponent;

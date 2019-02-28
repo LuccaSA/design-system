@@ -7,4 +7,5 @@ export interface IExample {
 	tsCode?: string;
 	description?: string;
 	extra?: string;
+	mod?: string;
 }
