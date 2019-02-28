@@ -1,13 +1,13 @@
 $palettes: (
 	primary: (
-		color: #8B89CE,
+		color: #92a3bb,
 		text: #FFFFFF,
-		see-through: rgba(#8B89CE, .15),
-		dark: darken(#8B89CE, 5%),
-		darker: darken(#8B89CE, 15%),
-		light: lighten(#8B89CE, 5%),
-		lighter: lighten(#8B89CE, 20%),
-		lightest: lighten(#8B89CE, 30%)
+		see-through: rgba(#92a3bb, .15),
+		dark: darken(#92a3bb, 5%),
+		darker: darken(#92a3bb, 15%),
+		light: lighten(#92a3bb, 5%),
+		lighter: lighten(#92a3bb, 20%),
+		lightest: lighten(#92a3bb, 30%)
 	),
 	prisme: (
 		color: #F5F7FF,
@@ -18,6 +18,16 @@ $palettes: (
 		light: lighten(#F5F7FF, 3%),
 		lighter: lighten(#F5F7FF, 5%),
 		lightest: lighten(#F5F7FF, 7%)
+	),
+	lucca: (
+		color: #FFB900,
+		text: #FFFFFF,
+		dark: darken(#FFB900, 7%),
+		darker: darken(#FFB900, 20%),
+		light: lighten(#FFB900, 10%),
+		lighter: lighten(#FFB900, 20%),
+		lightest: lighten(#FFB900, 45%),
+		see-through: rgba(#FFB900, .15)
 	),
 	scss: (
 		color: #E696BE,
@@ -50,16 +60,16 @@ $colors: (
       "darker": darken(#8B89CA, 20%)
     ),
 		dark: (
-			color: #444444
+			color: #474c4e
 		),
 		default: (
-			color: #666666
+			color: #63686b
 		),
 		light: (
-			color: #acabbb
+			color: #979fa2
 		),
 		placeholder: (
-			color: #bdbdca
+			color: #bec8cc
 		)
 	),
 );

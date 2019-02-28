@@ -9,5 +9,6 @@
 	overflow-x: hidden;
 	left: 0;
 	z-index: 10;
-	background: _color("prisme");
+	background: _theme("commons.background.base");
+	padding: 1.5rem;
 }

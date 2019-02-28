@@ -1,11 +1,10 @@
-<div class="textfield mod-long">
+<div class="textfield mod-long" *ngIf="examples.length > 1">
 	<lu-select [(ngModel)]="selectedExample" (ngModelChange)="onModelChange()" class="textfield-input">
 		<div *luDisplayer="let value">{{value.title}}</div>
 		<lu-option-picker>
 			<lu-option *ngFor="let example of examples" [value]="example">{{example.title}}</lu-option>
 		</lu-option-picker>
 	</lu-select>
-	<label class="textfield-label">Déclinaisons</label>
 </div>
 
 <div class="example-display" *ngIf="selectedExample">
