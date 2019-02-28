@@ -1,13 +1,13 @@
 $textfield: (
 
-	background: lighten(_color("prisme", "dark", true), 0%),
+	background: _theme("commons.background.dark"),
 
 	input: (
-		placeholder: lighten(_color("prisme", "text", true), 15%)
+		placeholder: desaturate(lighten(_color("primary", "color", true), 10%), 15%)
 	),
 
 	hover: (
-		background: lighten(_color("prisme", "dark", true), 1%)
+		background: _theme("commons.background.darker")
 	),
 
 	material: (
