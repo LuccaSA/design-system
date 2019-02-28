@@ -4,6 +4,7 @@ import { ExampleModule } from './example/index';
 import { FeatureComponent } from './feature.component';
 import { DocumentationModule } from '../documentation/index';
 import { MarkdownModule } from '../markdown/index';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
 	imports: [
@@ -11,6 +12,7 @@ import { MarkdownModule } from '../markdown/index';
 		ExampleModule,
 		DocumentationModule,
 		MarkdownModule,
+		RouterModule,
 	],
 	declarations: [
 		FeatureComponent,
