@@ -8,24 +8,16 @@
 	}
 }
 
-:host(.mod-fullwidth) {
-	lu-select {
-		margin-top: 1rem;
-		background: rgba(0,0,0, .1);
-		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, .2);
-		&::after {
-			color: white;
+:host-context(pri-home) {
+	.textfield-input {
+		background: white;
+		padding: {
+			bottom: .15rem;
+			top: .15rem;
 		}
-	}
-	.textfield {
-		width: 100%;
-	}
-}
 
-::ng-deep {
-	pri-search.mod-fullwidth {
-		.lu-select-placeholder {
-			color: rgba(255, 255, 255, .5);
+		&:focus, &.is-focused {
+			box-shadow: none;
 		}
 	}
 }
