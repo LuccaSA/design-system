@@ -1,10 +1,17 @@
-@import "~@lucca-front/scss/src/theming.overridable";
+@import
+  "~@lucca-front/scss/src/theming.overridable",
+  "~@lucca-front/scss/src/mixins";
 
 :host {
   background: _color("lucca");
   background: linear-gradient(30deg, #E66078 20%, #F48B16 100%);
   color: white;
   display: block;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
 }
 
 .card {
@@ -62,5 +69,27 @@
 
   .lucca-icon {
     text-decoration: none;
+  }
+}
+
+.splash-illu {
+  position: absolute;
+  top: -7rem;
+  right: -2rem;
+  width: 35rem;
+  height: 35rem;
+  background: url(/assets/splash.svg) no-repeat right top;
+  background-size: contain;
+
+  @include media_smaller_than("xl") {
+      right: -8rem;
+  }
+
+  @include media_smaller_than("lg") {
+      right: -20rem;
+  }
+
+  @include media_smaller_than("md") {
+      right: -24rem;
   }
 }
