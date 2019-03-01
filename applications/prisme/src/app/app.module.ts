@@ -31,7 +31,7 @@ import { environment } from '../environments/environment';
 
 		RouterModule.forRoot(appRoutes, {
 			scrollPositionRestoration: 'enabled',
-			useHash: true,
+			// useHash: true,
 		})
 	],
 	declarations: [

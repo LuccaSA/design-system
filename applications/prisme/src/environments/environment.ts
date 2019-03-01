@@ -5,7 +5,7 @@
 export const environment = {
 	production: false,
 	baseUrl: '',
-	apiUrl: 'http://api.lucienbertin.com',
+	apiUrl: 'http://prisme-proxy.lucca.io',
 };
 
 /*

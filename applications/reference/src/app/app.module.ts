@@ -16,7 +16,7 @@ import { appRoutes } from './app.router';
 		HeaderModule,
 		BrowserAnimationsModule,
 		RouterModule.forRoot(appRoutes, {
-			useHash: true,
+			// useHash: true,
 		})
 	],
 	bootstrap: [AppComponent]
