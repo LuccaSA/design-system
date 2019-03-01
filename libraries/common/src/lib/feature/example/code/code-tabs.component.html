@@ -1,7 +1,7 @@
-<div class="codeTabs-preview" [class]="mod">
+<div class="codeTabs-preview" [ngClass]="mod">
 	<ng-container #display></ng-container>
 </div>
-
+{{mod}}
 <nav class="codeTabs-menu" *ngIf="tabsQL?.length > 1">
 	<a class="codeTabs-menu-entry" *ngFor="let tab of tabsQL" (click)="selectTab(tab)" [class.is-active]="tab.active">
 		{{tab.tabTitle}}
