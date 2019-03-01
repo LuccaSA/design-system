@@ -48,12 +48,14 @@ export class LoadingsFeature {
 				title: 'Inversé',
 				component: InvertedExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./inverted/inverted.example.html'),
+				mod: 'dark',
 			},
 			{
 				title: 'Modale 🔨',
 				component: DialogExample,
 				code: require('!!prismjs-loader?lang=markup!./dialog/dialog.example.html'),
 				extra: `Pour un sidePanel, remplacez la classe <code class="code">mod-dialog</code> par <code class="code">mod-sidePanel</code>.`,
+				mod: 'white',
 			},
 		]
 	};

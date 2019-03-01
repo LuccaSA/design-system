@@ -34,6 +34,7 @@ export class CardsFeature {
 				title: 'Grisée',
 				component: GreyExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./grey/grey.example.html'),
+				mod: 'white'
 			},
 			{
 				title: 'Désactivée',

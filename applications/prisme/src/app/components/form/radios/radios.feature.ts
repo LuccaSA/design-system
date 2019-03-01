@@ -18,6 +18,7 @@ export class RadiosFeature {
 				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 				extra: `
 				Les radios réagissent aux attributs standards HTML "checked" et "disabled"
 				`
@@ -26,6 +27,7 @@ export class RadiosFeature {
 				title: 'En ligne',
 				component: InlineExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./inline/inline.example.html'),
+				mod: 'white',
 				extra: `
 				Outside radiosfield, you can add "mod-inline" class to your radio to set it inline
 				`
@@ -34,6 +36,7 @@ export class RadiosFeature {
 				title: 'Palettes',
 				component: PalettesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./palettes/palettes.example.html'),
+				mod: 'white',
 				extra: `Les couleurs de votre palette sont éditables via votre
 				<a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
 			},

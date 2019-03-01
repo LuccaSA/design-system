@@ -27,6 +27,7 @@ export class TextfieldsFeature {
 				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 				extra: `
 				Utilisez <code class="code">&lt;div class="textfield mod-block"&gt;</code> pour un textfield prenant toute la largeur<br>
 				Utilisez <code class="code">&lt;div class="textfield mod-inline"&gt;</code> pour passer le textfield en inline-block`
@@ -35,6 +36,7 @@ export class TextfieldsFeature {
 				title: 'Styles',
 				component: StylesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./styles/styles.example.html'),
+				mod: 'white',
 				extra: `Utilisez <code class="code">&lt;div class="textfield-input is-filled"&gt;</code> pour garder le label en position haute en mode material`
 			},
 			{
@@ -45,16 +47,19 @@ export class TextfieldsFeature {
 				<code class="code">mod-long</code>,<code class="code">mod-longer</code> or <code class="code">mod-longest</code>`,
 				component: SizesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./sizes/sizes.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Status',
 				component: StatusExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./status/status.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Suffixes',
 				component: SuffixExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./suffix/suffix.example.html'),
+				mod: 'white',
 				extra: `
 				Pour utiliser un suffix sans textfield-label,
 				il est nécessaire d'ajouter une classe <code class="code">mod-noLabel</code> au textfield
@@ -64,6 +69,7 @@ export class TextfieldsFeature {
 				title: 'Messages',
 				component: MessagesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./messages/messages.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Validation / Feedback',
@@ -74,22 +80,26 @@ export class TextfieldsFeature {
 				`,
 				component: ValidationExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./validation/validation.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Radio',
 				description: `Le mod "radio" vous permet d'afficher un textfield à l'interieur d'un label de radio.`,
 				component: RadioExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./radio/radio.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Textarea',
 				component: TextareaExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./textarea/textarea.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Palettes',
 				component: PalettesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./palettes/palettes.example.html'),
+				mod: 'white',
 				extra: `
 				Les couleurs de votre palette sont éditables via votre
 				<a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>
@@ -99,6 +109,7 @@ export class TextfieldsFeature {
 				title: 'Inversé',
 				component: InvertedExample,
 				code: require('!!prismjs-loader?lang=markup!./inverted/inverted.example.html'),
+				mod: 'dark',
 			},
 		],
 		theme: this.docApi.get('textfield')

@@ -17,12 +17,14 @@ export class FileFeature {
 				title: 'Etats',
 				component: StatesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./states/states.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Compact',
 				description: `Une version plus petite, pour les formulaires existe via la class <code class="code">file mod-small</code>.`,
 				component: CompactExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./compact/compact.example.html'),
+				mod: 'white',
 			},
 		]
 	};

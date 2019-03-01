@@ -25,11 +25,13 @@ export class BoxesFeature {
 				description: `Les boxes peuvent être associées à un <a routerLink="/components/switches">switch</a> comme contenu masquable.`,
 				component: ToggleExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./toggle/toggle.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Supprimable',
 				component: KillableExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./killable/killable.example.html'),
+				mod: 'white',
 			},
 		],
 		theme: this.themService.get('box')

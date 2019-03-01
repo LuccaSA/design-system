@@ -14,18 +14,14 @@ export class SelectFeature {
 				title: 'basic',
 				component: BasicExample,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
-				tsCode: require('!!prismjs-loader?lang=typescript!./basic/basic.example.ts')
+				tsCode: require('!!prismjs-loader?lang=typescript!./basic/basic.example.ts'),
+				mod: 'white',
 			},
 		],
 		packages: [
-			
 			'NG',
 		],
-		
-		
 		component: this.docService.component('LuUserSelectInputComponent'),
-		
-		
 	};
 
 	constructor(

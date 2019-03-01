@@ -16,6 +16,7 @@ export class FramedFeature {
 				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 				extra: `
 				Les checkboxes sont un cas particulier ici. Elles sont isolées
 				et doivent porter le mod <code class="code">mod-field</code> pour fonctionner<br>

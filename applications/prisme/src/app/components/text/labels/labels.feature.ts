@@ -16,6 +16,7 @@ export class LabelsFeature {
 				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 			},
 		],
 		theme: this.docApi.get('label')
