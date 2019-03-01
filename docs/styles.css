@@ -8067,7 +8067,7 @@ pre .line-highlight {
   height: 250px;
   margin: 0 1rem;
   display: inline-block; }
-.markdown-dual-display {
+.markdown-dualDisplay {
   display: flex;
   align-items: stretch; }
 .markdown-block {

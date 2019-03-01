@@ -9,14 +9,17 @@ import {
 	move,
 	chain,
 	branchAndMerge,
-	mergeWith } from '@angular-devkit/schematics';
+	mergeWith,
+	externalSchematic,
+} from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import { parseName } from '@schematics/angular/utility/parse-name';
-import { updateIndex } from '../utils/file-manipulation';
 import { IModuleOptions } from './schema';
+import { updateIndex } from '@lucca/schematics';
 
-export default function module(options: IModuleOptions): Rule {
+export default function factory(options: IModuleOptions): Rule {
 	return (tree: Tree, _context: SchematicContext) => {
+		const initialOptions = { ...options };
 		const workspace = getWorkspace(tree);
 		if (!options.project) {
 			options.project = Object.keys(workspace.projects)[0];
@@ -31,6 +34,7 @@ export default function module(options: IModuleOptions): Rule {
 		const parsedPath = parseName(options.path, options.name);
 		options.name = parsedPath.name;
 		options.path = `${parsedPath.path}/${parsedPath.name}`;
+		const indexPath = `${parsedPath.path}/${parsedPath.name}/index.ts`;
 
 		const templateSource = apply(url('./files'), [
 			template({
@@ -41,9 +45,10 @@ export default function module(options: IModuleOptions): Rule {
 		]);
 		const rule = chain([
 			branchAndMerge(chain([
-				updateIndex(options, 'module'),
+				externalSchematic('@lucca/schematics', 'index', initialOptions),
 				mergeWith(templateSource)
-			]))
+			])),
+			updateIndex(indexPath, options, 'module') as any,
 		]);
 		return rule(tree, _context);
 	};

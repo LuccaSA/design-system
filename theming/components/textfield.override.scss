@@ -1,0 +1,20 @@
+$textfield: (
+
+	background: _theme("commons.background.dark"),
+
+	input: (
+		placeholder: desaturate(lighten(_color("primary", "color", true), 10%), 15%)
+	),
+
+	hover: (
+		background: _theme("commons.background.darker")
+	),
+
+	material: (
+		default-palette: (
+			color: _color("prisme")
+		),
+	),
+);
+
+$theme: _set($theme, "components.textfield", $textfield);

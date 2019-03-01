@@ -1,19 +1,9 @@
 {
 	"$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
 	"schematics": {
-		"index": {
-			"description": "Generate an index.ts file",
-			"factory": "./index",
-			"schema": "./index/schema.json"
-		},
 		"module": {
 			"description": "Generate a module for the design system",
 			"factory": "./module",
-			"schema": "./module/schema.json"
-		},
-		"fullmodule": {
-			"description": "Generate a full module for the design system",
-			"factory": "./module/full",
 			"schema": "./module/schema.json"
 		},
 		"feature": {
@@ -25,6 +15,11 @@
 			"description": "Generate an example for the design system",
 			"factory": "./example",
 			"schema": "./example/schema.json"
+		},
+		"guidelines": {
+			"description": "Generate a markdown file in the right place",
+			"factory": "./guidelines",
+			"schema": "./guidelines/schema.json"
 		}
 	}
 }

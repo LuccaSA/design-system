@@ -1,8 +1,0 @@
-<ng-container *ngFor="let page of pages">
-	<ds-nav-side-item *ngIf="!page.children || !page.children.length; else group" link="/{{page.fullPath}}">{{page.title}}</ds-nav-side-item>
-	<ng-template #group>
-		<ds-nav-side-group [page]="page"></ds-nav-side-group>
-  </ng-template>
-</ng-container>
-
-

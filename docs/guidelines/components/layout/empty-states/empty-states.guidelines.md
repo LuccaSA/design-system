@@ -32,7 +32,7 @@ Bonnes pratiques :
 
 ### Recommandation
 - **Une illustration un peu décalée** (l'utilisateur ne devrait la voir qu'une fois, le risque de lassitude est moindre)
-- **Un texte explicatif** 
+- **Un texte explicatif**
 - **Si pertinent, un bouton d'action permettant de créer un premier objet**
 
 Exemples:

@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
-import { DsCommonsModule } from '@ds/commons';
+import { CommonModule } from '@prisme/common';
 
 @NgModule({
 	imports: [
-		DsCommonsModule
+		CommonModule
 	],
 	declarations: [
 	],
 	entryComponents: [
 	]
 })
-export class Ds<%= classify(name) %>Module {}
+export class <%= classify(name) %>Module {}

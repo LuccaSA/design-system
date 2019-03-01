@@ -2,7 +2,10 @@ import { IOptions } from '../schema';
 
 export interface IFeatureOptions extends IOptions {
 	title: string;
-	ng?: string;
-	scss?: string;
+	directive?: string;
+	component?: string;
+	pipe?: string;
+	theme?: string;
 	prefix?: string;
+	guidelines?: string;
 }
