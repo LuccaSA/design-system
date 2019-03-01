@@ -18,6 +18,7 @@ export class BoxesFeature {
 				title: 'Basique',
 				component: BasicExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Toggle',

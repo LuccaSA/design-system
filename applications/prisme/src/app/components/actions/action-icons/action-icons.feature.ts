@@ -19,29 +19,34 @@ export class ActionIconsFeature {
 			{
 				title: 'Basique',
 				component: BasicExampleComponent,
-				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html')
+				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Disabled',
 				component: StatusExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./status/status.example.html'),
+				mod: 'white',
 				extra: `Vous pouvez désactiver un icon d'action avec la classe <code class= "code">is-disabled</code>, mais vous ne pourrez plus utiliser de tooltip`
 			},
 			{
 				title: 'Chargement',
 				component: LoadingExample,
 				code: require('!!prismjs-loader?lang=markup!./loading/loading.example.html'),
+				mod: 'white',
 			},
 			{
 				title: 'Inversé',
 				component: InvertedExample,
 				code: require('!!prismjs-loader?lang=markup!./inverted/inverted.example.html'),
+				mod: 'dark',
 			},
 			{
 				title: 'Palettes',
 				component: PalettesExample,
 				code: require('!!prismjs-loader?lang=markup!./palettes/palettes.example.html'),
-				extra: `Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`
+				extra: `Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>`,
+				mod: 'white',
 			}
 		],
 		theme: this.themeService.get('actionIcon')

@@ -12,6 +12,14 @@
 	background: _theme("commons.background.base");
 	padding: _theme("spacings.standard");
 	border-bottom: 1px solid _theme("commons.divider.color");
+
+	&.mod-white {
+		background: white;
+	}
+
+	&.mod-dark {
+		background: #6a6e75;
+	}
 }
 
 .codeTabs-menu {
