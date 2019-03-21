@@ -1,0 +1,22 @@
+@import "~@lucca-front/scss/src/theming.overridable";
+
+.feature-header {
+	background: linear-gradient(to right, #FF9900 0%, _color("lucca") 100%);
+	color: white;
+	padding: _theme("spacings.bigger") _theme("spacings.bigger");
+
+	* {
+		color: white;
+	}
+}
+
+.feature-package {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+
+	.label {
+		background: rgba(255,255,255,.33);
+		color: white;
+	}
+}

@@ -1,24 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ExampleModule } from './example/index';
 import { FeatureComponent } from './feature.component';
-import { DocumentationModule } from '../documentation/index';
-import { MarkdownModule } from '../markdown/index';
-import { RouterModule } from '@angular/router';
+import { FeatureHeaderModule } from './header';
+import { FeatureContentModule } from './content';
 
 @NgModule({
 	imports: [
 		CommonModule,
-		ExampleModule,
-		DocumentationModule,
-		MarkdownModule,
-		RouterModule,
+		FeatureHeaderModule,
+		FeatureContentModule,
 	],
 	declarations: [
 		FeatureComponent,
 	],
 	exports: [
 		FeatureComponent,
+		FeatureHeaderModule,
+		FeatureContentModule,
 	],
 })
 export class FeatureModule {}
