@@ -13,6 +13,9 @@
 	top: 8rem;
 	width: 100%;
 	max-width: 16rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
 	@include media_smaller_than("xxl") {
 		display: none;
@@ -29,7 +32,7 @@
 	border-radius: _theme("commons.border.radius");
 
 	&:hover {
-		background:	_color("prisme");
+		background:	_theme("commons.background.dark");
 	}
 
 	&::before {

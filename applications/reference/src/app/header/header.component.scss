@@ -19,7 +19,6 @@
 	line-height: 4rem;
 	padding: 0 1.5rem;
 	text-decoration: none;
-	color: _color("text.purple");
 	font-weight: 600;
 	transition: background 150ms ease;
 
@@ -42,17 +41,14 @@ nav {
 	padding: 0 1.5rem;
 	position: relative;
 	text-decoration: none;
-	color: _color("text.purple");
 	transition: background 150ms ease;
 
 	&:hover, &:focus, &:active {
 		outline: none;
 		background: _theme('commons.background.dark');
-		color: _color("text.purple", "dark");
 	}
 
 	&.is-active {
-		color: _color("text.purple", "dark");
 
 		&::before {
 			content: '';

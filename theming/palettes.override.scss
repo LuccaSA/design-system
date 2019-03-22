@@ -1,76 +1,50 @@
 $palettes: (
-	primary: (
-		color: #92a3bb,
-		text: #FFFFFF,
-		see-through: rgba(#92a3bb, .15),
-		dark: darken(#92a3bb, 5%),
-		darker: darken(#92a3bb, 15%),
-		light: lighten(#92a3bb, 5%),
-		lighter: lighten(#92a3bb, 20%),
-		lightest: lighten(#92a3bb, 30%)
+	"primary": (
+		"color": #88a0c3,
+		"text": #FFFFFF,
+		"dark": darken(#88a0c3, 10%),
+		"darker": darken(#88a0c3, 15%),
+		"light": lighten(#88a0c3, 10%),
+		"lighter": lighten(#88a0c3, 20%),
+		"lightest": lighten(#88a0c3, 45%),
+		"see-through": rgba(#88a0c3, .15)
 	),
-	prisme: (
-		color: #F5F7FF,
-		text: #8B89CE,
-		see-through: rgba(#F5F7FF, .15),
-		dark: #EFF1FC,
-		darker: #E2E7FF,
-		light: lighten(#F5F7FF, 3%),
-		lighter: lighten(#F5F7FF, 5%),
-		lightest: lighten(#F5F7FF, 7%)
+	"lucca": (
+		"color": #FFB900,
+		"text": #FFFFFF,
+		"dark": darken(#FFB900, 7%),
+		"darker": darken(#FFB900, 20%),
+		"light": lighten(#FFB900, 10%),
+		"lighter": lighten(#FFB900, 20%),
+		"lightest": lighten(#FFB900, 45%),
+		"see-through": rgba(#FFB900, .15)
 	),
-	lucca: (
-		color: #FFB900,
-		text: #FFFFFF,
-		dark: darken(#FFB900, 7%),
-		darker: darken(#FFB900, 20%),
-		light: lighten(#FFB900, 10%),
-		lighter: lighten(#FFB900, 20%),
-		lightest: lighten(#FFB900, 45%),
-		see-through: rgba(#FFB900, .15)
-	),
-	scss: (
-		color: #E696BE,
-		text: #FFFFFF,
-		see-through: rgba(#E696BE, .15),
-		dark: darken(#E696BE, 5%),
-		darker: darken(#E696BE, 20%),
-		light: lighten(#E696BE, 5%),
-		lighter: lighten(#E696BE, 20%),
-		lightest: lighten(#E696BE, 42%)
-	),
-	ng: (
-		color: #42A5F5,
-		text: #FFFFFF,
-		see-through: rgba(#42A5F5, .15),
-		dark: darken(#42A5F5, 5%),
-		darker: darken(#42A5F5, 20%),
-		light: lighten(#42A5F5, 5%),
-		lighter: lighten(#42A5F5, 20%),
-		lightest: lighten(#42A5F5, 42%)
-	),
-
+	"info": (
+		"color": #42A5F5,
+		"text": #FFFFFF,
+		"dark": darken(#42A5F5, 7%),
+		"darker": darken(#42A5F5, 20%),
+		"light": lighten(#42A5F5, 10%),
+		"lighter": lighten(#42A5F5, 20%),
+		"lightest": lighten(#42A5F5, 45%),
+		"see-through": rgba(#42A5F5, .15)
+	)
 );
 
 $colors: (
 	text: (
-		"purple": (
-      "color": #8B89CA,
-      "dark": darken(#8B89CA, 5%),
-      "darker": darken(#8B89CA, 20%)
-    ),
-		dark: (
-			color: #474c4e
+		"dark": (
+			color: desaturate(darken(#88a0c3, 37%), 25%)
 		),
-		default: (
-			color: #63686b
+		"default": (
+			color: desaturate(darken(#88a0c3, 23%), 25%)
 		),
-		light: (
-			color: #979fa2
+		"light": (
+			color: desaturate(lighten(#88a0c3, 2%), 20%)
 		),
-		placeholder: (
-			color: #bec8cc
-		)
+		"placeholder": (
+			color: desaturate(lighten(#88a0c3, 10%), 20%)
+		),
 	),
 );
 $theme: _set($theme, "palettes", $palettes);

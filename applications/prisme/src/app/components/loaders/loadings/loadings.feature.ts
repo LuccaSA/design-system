@@ -51,7 +51,7 @@ export class LoadingsFeature {
 				mod: 'dark',
 			},
 			{
-				title: 'Modale 🔨',
+				title: 'Modale',
 				component: DialogExample,
 				code: require('!!prismjs-loader?lang=markup!./dialog/dialog.example.html'),
 				extra: `Pour un sidePanel, remplacez la classe <code class="code">mod-dialog</code> par <code class="code">mod-sidePanel</code>.`,

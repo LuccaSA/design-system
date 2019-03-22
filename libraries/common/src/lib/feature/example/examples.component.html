@@ -10,7 +10,7 @@
 <div class="example-display" *ngIf="selectedExample">
 	<p class="description" *ngIf="selectedExample.description" [innerHtml]="selectedExample.description | priSafeContent: 'html'"></p>
 	<pri-code-tabs [example]="selectedExample"></pri-code-tabs>
-	<div class="callout mod-icon palette-ng" *ngIf="selectedExample.extra != null">
+	<div class="callout mod-icon palette-info" *ngIf="selectedExample.extra != null">
 		<div class="callout-icon">
 			<i class="lucca-icon">info</i>
 		</div>
