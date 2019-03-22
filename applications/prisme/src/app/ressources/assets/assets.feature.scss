@@ -15,20 +15,21 @@
 	overflow: hidden;
 	display: flex;
 	align-items: center;
+
 	img {
 		max-width: 100%;
 		max-height: 150px;
 	}
 }
-.grid-md9 {
-	display: flex;
-}
+
 .logo-box {
 	width: 150px;
 	margin-right: 1rem;
 	margin-top: .5rem;
 	position: relative;
 	cursor: pointer;
+	display: inline-block;
+	
 	p {
 		margin: 0;
 	}
