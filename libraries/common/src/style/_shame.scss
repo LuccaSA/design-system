@@ -1,5 +1,13 @@
-.code.mod-block {
-  margin-bottom: 1.5rem;
+.code {
+  display: inline-block;
+
+  &.mod-block {
+    margin-bottom: 1.5rem;
+
+    pre {
+      margin: 0;
+    }
+  }
 }
 
 hr {

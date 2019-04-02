@@ -3,6 +3,6 @@ import { MixinsFeature } from './mixins.feature';
 
 export const mixinsPage = new FeaturePage(
 	'mixins',
-	'Mixins 🔨',
+	'Mixins',
 	MixinsFeature,
 );

@@ -3,6 +3,6 @@ import { FunctionsFeature } from './functions.feature';
 
 export const functionsPage = new FeaturePage(
 	'functions',
-	'Fonctions 🔨',
+	'Fonctions',
 	FunctionsFeature,
 );
