@@ -9,7 +9,7 @@ export class MarkedOptions extends NgxMarkedOptions {
 		this.renderer = new MarkedRenderer();
 		this.renderer.blockquote = (text: string) => {
 			return `
-			<div class="callout mod-icon palette-ng">
+			<div class="callout mod-icon palette-info">
 				<div class="callout-icon">
 					<i class="lucca-icon">info</i>
 				</div>

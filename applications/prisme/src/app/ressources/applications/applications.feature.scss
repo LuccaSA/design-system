@@ -1,4 +1,4 @@
-@import "~@lucca-front/scss/src/theming.overridable";
+/*@import "~@lucca-front/scss/src/theming.overridable";
 @import "~@lucca-front/icons/src/mixins";
 
 .grid {
@@ -35,7 +35,6 @@
 		}
 		display: inline-block;
 		width: 100px;
-		background: _color("prisme");
 		padding: .5rem;
 		border-radius: 3px;
 		position: relative;
@@ -43,7 +42,6 @@
 
 		&::after {
 			@include makeIcon('download');
-			color: _color("prisme", "text");
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -86,7 +84,8 @@
 			}
 		}
 		img {
-			background: _color("prisme","dark");
+			background: _color("primary","dark");
 		}
 	}
 }
+*/

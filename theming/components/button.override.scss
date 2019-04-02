@@ -1,9 +1,0 @@
-$button: (
-	default-palette: (
-		color: _color("prisme"),
-		light: _color("prisme", "lighter"),
-		dark: _color("prisme", "dark"),
-		text: _color("text.default")
-	)
-);
-$theme: _set($theme, "components.button", $button);
