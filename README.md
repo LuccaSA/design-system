@@ -1,27 +1,38 @@
-# DesignSystem
+# Prisme - Lucca Design System
+## How to start
+Just run `npm start` but remember to run an `npm install` beforehand
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+## Schematics: the fastest way to add content
+To use our schematics, run `npm run build:schematics`. You will then have access to the following schematics.
 
-## Development server
+### ng generate feature
+The command `ng generate feature` will scaffold everything you need to add a new feature component.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### arguments
+- `relativePath/name`
 
-## Code scaffolding
+#### options
+- `--component` : (string) The component name in the ng package.
+- `--directive` : (string) The directive name in the ng package.
+- `--guidelines` : (bool) link this page to a guidelines md file.
+- `--pipe` : (string) The pipe name in the ng package.
+- `--theme` : (string) The name of the associated theme map.
+- `--title (-t)` : (string) The title of the feature.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### ng generate example
+The command `ng generate example` will add an example to a feature and generate the dedicated files.
 
-## Build
+#### arguments
+- `relativePath/name`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+#### options
+- `--ts` : (bool) if example need to include TS
 
-## Running unit tests
+### Example
+You want to document a new component called `Table of content` that will be listed under `Components > Navigation`. It has its own theme called `tableOfContent`. Here's the steps:
+1. `ng generate feature components/navigation/table-of-content  --theme tableOfContent -t "Table of content"`
+2. `ng generate example components/navigation/table-of-content/basic`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Instead of writing the full path each time, you could go to `applications\prisme\src\app\components\navigation\` and then do :
+1. `ng generate feature table-of-content --theme tableOfContent -t "Table of content"`
+2. `ng g example table-of-content/basic --ts`
