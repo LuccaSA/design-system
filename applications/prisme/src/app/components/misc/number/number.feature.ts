@@ -38,7 +38,7 @@ export class NumberFeature {
 		packages: [
 			'NG',
 		],
-		pipe: this.docService.pipe('luNumber'),
+		pipe: this.docService.pipe('LuNumberPipe'),
 	};
 
 	constructor(

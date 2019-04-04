@@ -27,7 +27,7 @@ export class DisplayFeature {
 		packages: [
 			'NG',
 		],
-		pipe: this.docService.pipe('luUserDisplay'),
+		pipe: this.docService.pipe('LuUserDisplayPipe'),
 	};
 
 	constructor(
