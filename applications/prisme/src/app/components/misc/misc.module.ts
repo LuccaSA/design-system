@@ -4,6 +4,7 @@ import { AnimationsModule } from './animations/animations.module';
 import { FunctionsModule } from './functions';
 import { MixinsModule } from './mixins';
 import { UtilitiesModule } from './utilities';
+import { NumberModule } from './number';
 
 @NgModule({
 	imports: [
@@ -12,6 +13,7 @@ import { UtilitiesModule } from './utilities';
 		FunctionsModule,
 		MixinsModule,
 		UtilitiesModule,
+		NumberModule,
 	],
 })
 export class MiscModule { }

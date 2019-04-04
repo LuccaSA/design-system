@@ -5,6 +5,7 @@ export type DSPackages = 'SCSS' | 'NG';
 
 export interface IFeatureInfos {
 	title: string;
+	description?: string;
 	packages?: DSPackages[];
 	keywords?: string[];
 	examples?: IExample[];
