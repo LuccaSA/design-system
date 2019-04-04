@@ -7,6 +7,7 @@ import { SwitchesModule } from './switches/switches.module';
 import { FramedModule } from './framed/framed.module';
 import { FileModule } from './file/file.module';
 import { RadioButtonsModule } from './radio-buttons';
+import { SelectModule } from './select';
 
 @NgModule({
 	imports: [
@@ -18,6 +19,7 @@ import { RadioButtonsModule } from './radio-buttons';
 		FramedModule,
 		FileModule,
 		RadioButtonsModule,
+		SelectModule,
 	],
 })
 export class FormModule { }
