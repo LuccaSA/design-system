@@ -3,6 +3,7 @@ import { MatDialogModule } from '@angular/material';
 import { CommonModule } from '@prisme/common';
 import { ModalsModule } from './modals';
 import { TooltipsModule } from './tooltips';
+import { PopoversModule } from './popovers';
 
 @NgModule({
 	imports: [
@@ -10,6 +11,7 @@ import { TooltipsModule } from './tooltips';
 		MatDialogModule,
 		ModalsModule,
 		TooltipsModule,
+		PopoversModule,
 	],
 })
 export class OverlaysModule {}
