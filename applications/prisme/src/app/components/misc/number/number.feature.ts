@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IFeatureInfos, DocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
+import { PrecisionExample } from './precision/precision.example';
 declare var require: any;
 @Component({
 	selector: 'pri-number',
@@ -15,6 +16,13 @@ export class NumberFeature {
 				title: 'basic',
 				component: BasicExample,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				extra: `l'utilisation doit se faire sur un innerHTML`
+			},
+			{
+				title: 'precision',
+				component: PrecisionExample,
+				code: require('!!prismjs-loader?lang=markup!./precision/precision.example.html'),
+				extra: `l'utilisation doit se faire sur un innerHTML`
 			},
 		],
 		packages: [
