@@ -25,7 +25,7 @@ export class TableOfContentFeature {
 			},
 		],
 		packages: ['SCSS'],
-		theme: this.themeService.get('tableOfContent')
+		theme: this.docService.get('tableOfContent')
 	};
 
 	constructor(
