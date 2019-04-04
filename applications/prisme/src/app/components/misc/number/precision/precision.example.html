@@ -7,3 +7,13 @@
 	<label class="textfield-label">precision</label>
 </div>
 <code [innerHTML]="number | luNumber: precision"></code>
+
+<div class="textfield mod-longest">
+	<lu-select class="textfield-input">
+		<span *luDisplayer="let value">lol mdr</span>
+		<lu-option-picker>
+			<lu-option value="2">small option</lu-option>
+		</lu-option-picker>
+	</lu-select>
+	<label class="textfield-label">test mod-longest</label>
+</div>

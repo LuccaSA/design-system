@@ -1,23 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@prisme/common';
 import { NumberFeature } from './number.feature';
-import { LuNumberModule } from '@lucca-front/ng';
+import { LuNumberModule, LuModule } from '@lucca-front/ng';
 import { BasicExample } from './basic/basic.example';
 import { PrecisionExample } from './precision/precision.example';
 import { FormsModule } from '@angular/forms';
+import { LocaleExample } from './locale/locale.example';
 
 @NgModule({
 	imports: [
 		CommonModule,
 		LuNumberModule,
 		FormsModule,
+		LuModule,
 	],
 	declarations: [
 	NumberFeature,
 	BasicExample,
-	PrecisionExample],
+	PrecisionExample,
+	LocaleExample],
 	entryComponents: [
 	BasicExample,
-	PrecisionExample]
+	PrecisionExample,
+	LocaleExample]
 })
 export class NumberModule {}
