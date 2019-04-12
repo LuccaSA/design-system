@@ -9,7 +9,7 @@ declare var require: any;
 })
 export class TitlesFeature {
 	infos: IFeatureInfos = {
-		title: 'Titre',
+		title: 'Titres',
 		packages: ['SCSS'],
 		examples: [
 			{

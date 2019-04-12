@@ -8,7 +8,7 @@ declare var require: any;
 })
 export class ModalsFeature {
 	infos: IFeatureInfos = {
-		title: 'Modales et Dialogues',
+		title: 'Dialogues',
 		examples: [
 			{
 				title: 'Basique',

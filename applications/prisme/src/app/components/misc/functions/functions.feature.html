@@ -1,12 +1,13 @@
 <pri-feature-header [infos]="infos">
-	<p class="header-description">
-		Ces fonctions vous permettent d'acceder à des variables de votre thème.<br>
-		Elles sont accessibles en ajoutant <code class="code">@import "~@lucca-front/scss/src/theming.overridable"</code> à votre composant.<br>
-		Elles retournent des objets dont la notation est <code class="code">parent.child.[...]</code>.
-	</p>
+	<p class="header-description">Les fonctions servent à acceder à diverses variables du thème pour simplifier la maintenabilité des interfaces.</p>
 </pri-feature-header>
 
 <section class="page-content">
+	<div class="callout mod-icon palette-info">
+		<div class="callout-icon"><i class="lucca-icon">info</i></div>
+		Les fonctions sont accessibles en ajoutant <code class="code">@import "~@lucca-front/scss/src/theming.overridable"</code> à votre composant.<br>
+		Elles retournent des objets dont la notation est <code class="code">parent.child.[...]</code>.
+	</div>
 
 	<section class="contentSection">
 		<h2>Couleurs & Palette</h2>

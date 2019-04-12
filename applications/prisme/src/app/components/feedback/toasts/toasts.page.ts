@@ -3,6 +3,6 @@ import { ToastsFeature } from './toasts.feature';
 
 export const toastsPage = new FeaturePage(
 	'toasts',
-	'Toasts 🔨',
+	'Toasts',
 	ToastsFeature,
 );

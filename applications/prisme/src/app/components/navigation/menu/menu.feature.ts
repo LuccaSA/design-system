@@ -24,7 +24,7 @@ export class MenuFeature {
 				extra: 'Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>'
 			},
 		],
-		theme: this.docApi.get('palettes')
+		theme: this.docApi.get('menu')
 	};
 
 	constructor( private docApi: ThemeDocumentationService) { }

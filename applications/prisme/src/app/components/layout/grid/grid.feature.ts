@@ -14,7 +14,7 @@ declare var require: any;
 })
 export class GridFeature {
 	infos: IFeatureInfos = {
-		title: 'Grid',
+		title: 'Grilles',
 		packages: ['SCSS'],
 		examples: [
 			{
@@ -51,7 +51,7 @@ export class GridFeature {
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.example.html'),
 			},
 		],
-		theme: this.docApi.get('breakpoints')
+		theme: this.docApi.get('grids')
 	};
 	constructor( private docApi: ThemeDocumentationService ) { }
 }

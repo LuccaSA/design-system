@@ -11,7 +11,7 @@ declare var require: any;
 export class ChipsFeature {
 
 	infos: IFeatureInfos = {
-		title: 'Chip',
+		title: 'Chips',
 		packages: ['SCSS'],
 		examples: [
 			{

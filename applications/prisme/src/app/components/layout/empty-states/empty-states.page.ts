@@ -3,6 +3,6 @@ import { EmptyStatesFeature } from './empty-states.feature';
 
 export const emptyStatesPage = new FeaturePage(
 	'empty-states',
-	'Empty-states',
+	'Empty states',
 	EmptyStatesFeature,
 );

@@ -12,7 +12,7 @@ declare var require: any;
 })
 export class CardsFeature {
 	infos: IFeatureInfos = {
-		title: 'Carte',
+		title: 'Cartes',
 		packages: ['SCSS'],
 		examples: [
 			{

@@ -10,12 +10,13 @@ declare var require: any;
 })
 export class GaugeFeature {
 	infos: IFeatureInfos = {
-		title: 'Gauge',
+		title: 'Jauge',
 		examples: [
 			{
 				title: 'Basique',
 				component: BasicExample,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
+				extra: `Pour un chargement de données, préferez l'utilisation de <a href="/components/loaders/progress">progression</a>`
 			},
 			{
 				title: 'Weight',

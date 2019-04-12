@@ -11,7 +11,7 @@ declare var require: any;
 export class NumberFeature {
 	infos: IFeatureInfos = {
 		title: 'Nombre',
-		description: `permet l'affichage de differents nombres alignes sur le chiffre des unite, meme si certains n'ont pas de partie decimale et d'autres en ont une`,
+		description: `luNumber permet de réaliser divereses opérations sur des nombres, comme l'alignement des décimales, l'arrondi ou l'internationalisation.`,
 		examples: [
 			{
 				title: 'basic',

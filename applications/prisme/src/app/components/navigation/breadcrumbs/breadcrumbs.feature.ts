@@ -9,7 +9,7 @@ declare var require: any;
 })
 export class BreadcrumbsFeature {
 	infos: IFeatureInfos = {
-		title: 'Menu',
+		title: `Fil d'Ariane`,
 		packages: ['SCSS'],
 		examples: [
 			{

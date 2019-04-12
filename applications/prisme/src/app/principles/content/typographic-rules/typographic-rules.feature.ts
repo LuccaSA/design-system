@@ -7,7 +7,7 @@ declare var require: any;
 })
 export class TypographicRulesFeature {
 	infos: IFeatureInfos = {
-		title: 'Règles typographiques',
+		title: 'Règles typographiques 🔨',
 		examples: [
 		],
 		packages: [

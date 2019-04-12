@@ -7,7 +7,7 @@ declare var require: any;
 })
 export class FormatFeature {
 	infos: IFeatureInfos = {
-		title: 'Format',
+		title: 'Format 🔨',
 		examples: [
 		],
 		packages: [
