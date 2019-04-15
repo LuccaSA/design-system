@@ -5,4 +5,5 @@ export const mixinsPage = new FeaturePage(
 	'mixins',
 	'Mixins',
 	MixinsFeature,
+	["mixins", "functions", "fonctions"]
 );

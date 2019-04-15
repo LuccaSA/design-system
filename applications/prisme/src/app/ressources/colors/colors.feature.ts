@@ -8,6 +8,6 @@ import { IFeatureInfos } from '@prisme/common';
 })
 export class ColorsFeature {
 	infos: IFeatureInfos = {
-		title: 'Logos Luca',
+		title: 'Couleurs',
 	};
 }

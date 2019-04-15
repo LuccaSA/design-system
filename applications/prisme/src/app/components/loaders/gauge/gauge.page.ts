@@ -5,4 +5,5 @@ export const gaugePage = new FeaturePage(
 	'gauge',
 	'Gauge',
 	GaugeFeature,
+	["gauges", "jauges"]
 );

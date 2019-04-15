@@ -5,4 +5,5 @@ export const typographyPage = new FeaturePage(
 	'typography',
 	'Typographie',
 	TypographyFeature,
+	["typography", "typographie", "fonts"]
 );

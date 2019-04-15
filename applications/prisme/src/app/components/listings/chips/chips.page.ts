@@ -5,4 +5,5 @@ export const chipsPage = new FeaturePage(
 	'chips',
 	'Chips',
 	ChipsFeature,
+	["chips", "puce", "pastilles"]
 );

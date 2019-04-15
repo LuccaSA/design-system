@@ -5,4 +5,5 @@ export const cardsPage = new FeaturePage(
 	'cards',
 	'Cartes',
 	CardsFeature,
+	["cards", "cartes"]
 );

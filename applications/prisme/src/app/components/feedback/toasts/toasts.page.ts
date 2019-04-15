@@ -5,4 +5,5 @@ export const toastsPage = new FeaturePage(
 	'toasts',
 	'Toasts',
 	ToastsFeature,
+	["toasts", "notifications"]
 );

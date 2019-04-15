@@ -5,4 +5,5 @@ export const visionPage = new FeaturePage(
 	'vision',
 	'Vision 🔨',
 	VisionFeature,
+	["vision", "produit", "product"]
 );

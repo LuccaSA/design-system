@@ -5,4 +5,5 @@ export const functionsPage = new FeaturePage(
 	'functions',
 	'Fonctions',
 	FunctionsFeature,
+	["functions", "fonctions"]
 );

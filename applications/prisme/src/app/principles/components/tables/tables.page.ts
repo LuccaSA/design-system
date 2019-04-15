@@ -5,4 +5,5 @@ export const tablesPage = new FeaturePage(
 	'tables',
 	'Tableaux',
 	TablesFeature,
+	["tables", "tableaux"]
 );

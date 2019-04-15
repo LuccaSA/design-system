@@ -4,4 +4,5 @@ export const switchesPage = new FeaturePage(
 	'switches',
 	'Switches',
 	SwitchesFeature,
+	["switches", "toggle", "inputs"]
 );
