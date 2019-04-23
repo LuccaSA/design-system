@@ -18,7 +18,7 @@ export class FileFeature {
 				component: StatesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./states/states.example.html'),
 				mod: 'white',
-				extra: `Ce composant est destiné à rajoindre le package NG`
+				extra: `Ce composant est destiné à rejoindre le package NG`
 			},
 			{
 				title: 'Compact',
