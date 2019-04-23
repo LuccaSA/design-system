@@ -12,6 +12,7 @@ export class FileFeature {
 	infos: IFeatureInfos = {
 		title: 'Fichier',
 		packages: ['SCSS'],
+		description: "Le champ fichier permet de charger un fichier présent sur l'ordinateur de l'utilisateur via la modale d'explorateur de fichier ou un drag and drop.",
 		examples: [
 			{
 				title: 'Etats',

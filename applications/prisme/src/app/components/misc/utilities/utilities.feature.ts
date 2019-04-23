@@ -9,6 +9,7 @@ declare var require: any;
 export class UtilitiesFeature {
 	infos: IFeatureInfos = {
 		title: 'Utilitaires',
+		description: "Les utilitaires sont des classes universelles à ajouter sur vos composants pour simplifier leur mise en forme.",
 		examples: [
 		],
 		packages: [

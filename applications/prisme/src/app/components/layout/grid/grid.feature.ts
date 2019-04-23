@@ -16,6 +16,7 @@ export class GridFeature {
 	infos: IFeatureInfos = {
 		title: 'Grilles',
 		packages: ['SCSS'],
+		description: 'Les grilles sont un outil permettant de diviser un élément parent en 12 colonnes afin de créer rapidement divers layouts. Basée sur les <a href="https://github.com/LuccaSA/lucca-front/#breakpoints" target="_blank">breakpoints du thème</a>, elle peut se réorganiser en fonction de la largeur de la page.',
 		examples: [
 			{
 				title: 'Basique',

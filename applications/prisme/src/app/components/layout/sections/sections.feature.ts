@@ -11,6 +11,7 @@ export class SectionsFeature {
 	infos: IFeatureInfos = {
 		title: 'Sections',
 		packages: ['SCSS'],
+		description: "Les sections servent à séparer verticalement différents titres et contenus pour rendre leur lecture plus aisée.",
 		examples: [
 			{
 				title: 'Contenu',

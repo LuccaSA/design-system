@@ -8,6 +8,7 @@ declare var require: any;
 export class TemplatesFeature {
 	infos: IFeatureInfos = {
 		title: 'Templates',
+		description: 'Les templates reprennent des structures usuelles de pages afin de les rendre consistantes et de gagner du temps lors de la conception des pages.',
 		examples: [
 		],
 		packages: [

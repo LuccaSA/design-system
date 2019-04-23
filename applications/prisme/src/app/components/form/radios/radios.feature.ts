@@ -13,6 +13,7 @@ export class RadiosFeature {
 	infos: IFeatureInfos = {
 		title: 'Radios',
 		packages: ['SCSS'],
+		description: "Les radios servent à afficher une liste courte d'options pour laquelle une seule option est sélectionnable.",
 		examples: [
 			{
 				title: 'Basique',

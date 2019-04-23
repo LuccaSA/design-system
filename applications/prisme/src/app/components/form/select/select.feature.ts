@@ -9,6 +9,7 @@ declare var require: any;
 export class SelectFeature {
 	infos: IFeatureInfos = {
 		title: 'Select',
+		description: "Les selects permettent de choisir une ou plusieurs options parmi une liste d'options. Ils sont particulièrement utiles dans le cas d'un large choix.",
 		examples: [
 			{
 				title: 'basic',

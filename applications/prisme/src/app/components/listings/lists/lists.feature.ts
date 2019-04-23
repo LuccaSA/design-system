@@ -12,6 +12,7 @@ export class ListsFeature {
 	infos: IFeatureInfos = {
 		title: 'Listes',
 		packages: ['SCSS'],
+		description: "Les listes servent à présenter un ensemble de données similaires. Elles peuvent être cliquables et/ou disposer d'actions.",
 		examples: [
 			{
 				title: 'Basique',

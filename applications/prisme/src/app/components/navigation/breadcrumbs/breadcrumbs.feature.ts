@@ -11,6 +11,7 @@ export class BreadcrumbsFeature {
 	infos: IFeatureInfos = {
 		title: `Fil d'Ariane`,
 		packages: ['SCSS'],
+		description: "Le fil d'Ariane permet de se localiser dans l'application et propose un accès rapide aux différents niveaux du chemin emprunté.",
 		examples: [
 			{
 				title: 'Basique',
