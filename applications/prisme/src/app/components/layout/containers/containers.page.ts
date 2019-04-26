@@ -5,4 +5,5 @@ export const containersPage = new FeaturePage(
 	'containers',
 	'Containers',
 	ContainersFeature,
+	["containers", "conteneur"]
 );

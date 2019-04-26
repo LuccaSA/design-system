@@ -5,4 +5,5 @@ export const listsPage = new FeaturePage(
 	'lists',
 	'Lists',
 	ListsFeature,
+	["lists", "listes"]
 );

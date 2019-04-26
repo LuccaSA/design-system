@@ -5,4 +5,5 @@ export const linksPage = new FeaturePage(
 	'links',
 	'Liens',
 	LinksFeature,
+	['links', 'liens']
 );

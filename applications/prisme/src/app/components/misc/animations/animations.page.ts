@@ -5,4 +5,5 @@ export const animationsPage = new FeaturePage(
 	'animations',
 	'Animations',
 	AnimationsFeature,
+	["animations", "transitions"]
 );

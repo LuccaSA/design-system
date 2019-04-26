@@ -5,4 +5,5 @@ export const formPage = new FeaturePage(
 	'form',
 	'Formulaires',
 	FormFeature,
+	["forms", "formulaires"]
 );

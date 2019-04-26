@@ -5,4 +5,5 @@ export const boxesPage = new FeaturePage(
 	'boxes',
 	'Boxes',
 	BoxesFeature,
+	["boxes", "boîtes"]
 );

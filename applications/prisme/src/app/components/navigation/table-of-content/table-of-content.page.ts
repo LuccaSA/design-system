@@ -5,4 +5,5 @@ export const tableOfContentPage = new FeaturePage(
 	'table-of-content',
 	'Table des matières',
 	TableOfContentFeature,
+	["table of content", "table des matières"]
 );

@@ -5,4 +5,5 @@ export const displayPage = new FeaturePage(
 	'display',
 	'Display',
 	DisplayFeature,
+	["display", "collaborateur", "utilisateur", "user", "name", "firstname", "surname", "nom", "prénom"]
 );

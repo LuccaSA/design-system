@@ -5,4 +5,5 @@ export const tilePage = new FeaturePage(
 	'tile',
 	'Tile',
 	TileFeature,
+	["collaborateur", "utilisateur", "user", "tile", "tuile"]
 );

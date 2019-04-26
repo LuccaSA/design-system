@@ -5,4 +5,5 @@ export const emptyStatesPage = new FeaturePage(
 	'empty-states',
 	'Empty states',
 	EmptyStatesFeature,
+	["empty state", "placeholder", "vide", "état vide"]
 );

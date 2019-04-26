@@ -5,4 +5,5 @@ export const popoversPage = new FeaturePage(
 	'popovers',
 	'Popovers',
 	PopoversFeature,
+	["popovers"]
 );

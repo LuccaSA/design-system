@@ -5,5 +5,5 @@ export const modalsPage = new FeaturePage(
 	'dialogs',
 	'Dialogues 🔨',
 	ModalsFeature,
-	["modale", "modals"]
+	["dialogs", "modals", "fenêtre", "dialogue", "popup", "modales"]
 );

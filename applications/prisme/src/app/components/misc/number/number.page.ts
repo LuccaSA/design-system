@@ -5,4 +5,5 @@ export const numberPage = new FeaturePage(
 	'number',
 	'Number',
 	NumberFeature,
+	["numbers", "nombres", "lunumbers"]
 );

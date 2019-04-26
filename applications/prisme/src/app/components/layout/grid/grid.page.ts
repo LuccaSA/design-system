@@ -5,5 +5,5 @@ export const gridPage = new FeaturePage(
 	'grid',
 	'Grilles',
 	GridFeature,
-	['grid', 'responsive']
+	['grids', 'grilles', 'grid', 'responsive']
 );

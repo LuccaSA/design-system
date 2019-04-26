@@ -5,4 +5,5 @@ export const utilitiesPage = new FeaturePage(
 	'utilities',
 	'Utilitaires',
 	UtilitiesFeature,
+	["utilities", "utilitaires", "tools", "outils", "css"]
 );

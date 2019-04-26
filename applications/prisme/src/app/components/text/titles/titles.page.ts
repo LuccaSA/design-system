@@ -5,5 +5,5 @@ export const titlesPage = new FeaturePage(
 	'titles',
 	'Titres',
 	TitlesFeature,
-	["titles"]
+	["titles", "titres"]
 );

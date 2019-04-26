@@ -5,4 +5,5 @@ export const radiosPage = new FeaturePage(
 	'radios',
 	'Radios',
 	RadiosFeature,
+	["radios", "inputs"]
 );

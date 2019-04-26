@@ -5,4 +5,5 @@ export const checkboxesPage = new FeaturePage(
 	'checkboxes',
 	'Checkboxes',
 	CheckboxesFeature,
+	["checkboxes", "inputs"]
 );

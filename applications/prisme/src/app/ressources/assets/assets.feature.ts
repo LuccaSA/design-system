@@ -26,7 +26,7 @@ import {
 })
 export class AssetsFeature {
 	infos: IFeatureInfos = {
-		title: 'Logos Luca',
+		title: 'Logos Lucca',
 	};
 	luccaColoredLogos = [
 		luccaColorJpg72,

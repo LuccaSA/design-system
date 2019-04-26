@@ -5,4 +5,5 @@ export const punctuationPage = new FeaturePage(
 	'punctuation',
 	'Ponctuation 🔨',
 	PunctuationFeature,
+	["ponctuation", "punctuation"]
 );

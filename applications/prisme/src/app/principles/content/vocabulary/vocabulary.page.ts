@@ -5,4 +5,5 @@ export const vocabularyPage = new FeaturePage(
 	'vocabulary',
 	'Vocabulaire 🔨',
 	VocabularyFeature,
+	["vocabulaire", "vocabulary"]
 );

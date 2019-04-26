@@ -5,4 +5,5 @@ export const typographicRulesPage = new FeaturePage(
 	'typographic-rules',
 	'Règles typographiques 🔨',
 	TypographicRulesFeature,
+	["typographie", "typographic", "rules", "règles"]
 );

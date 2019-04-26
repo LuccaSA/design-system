@@ -5,4 +5,5 @@ export const actionIconsPage = new FeaturePage(
 	'action-icons',
 	'Icônes d\'action',
 	ActionIconsFeature,
+	["icons", "action icons", "icônes", "icônes d'action"]
 );
