@@ -8,6 +8,7 @@ declare var require: any;
 export class FunctionsFeature {
 	infos: IFeatureInfos = {
 		title: 'Fonctions de thème',
+		description: "Les fonctions servent à acceder à diverses variables du thème pour simplifier la maintenabilité des interfaces.",
 		examples: [
 		],
 		packages: [

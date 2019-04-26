@@ -11,6 +11,7 @@ export class LinksFeature {
 	infos: IFeatureInfos = {
 		title: 'Liens',
 		packages: ['SCSS'],
+		description: "Les liens servent à changer de page ou à réaliser des actions secondaires.",
 		examples: [
 			{
 				title: 'Basique',

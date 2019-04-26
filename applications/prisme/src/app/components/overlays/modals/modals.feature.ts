@@ -9,6 +9,7 @@ declare var require: any;
 export class ModalsFeature {
 	infos: IFeatureInfos = {
 		title: 'Dialogues',
+		description: "Les fenêtres de dialogue vient superposer un contenu supplémentaire sans quitter la page en cours. Elles ont diverses utilités comme la création ou l'édition de contenu, la confirmation ou l'accès à des fonctionnalités avancées.",
 		examples: [
 			{
 				title: 'Basique',

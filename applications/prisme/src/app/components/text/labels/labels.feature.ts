@@ -11,6 +11,7 @@ export class LabelsFeature {
 	infos: IFeatureInfos = {
 		title: 'Labels',
 		packages: ['SCSS'],
+		description: "Les labels sont des mots clefs servant à classifier ou à accoler un état à un élément textuel.",
 		examples: [
 			{
 				title: 'Basique',

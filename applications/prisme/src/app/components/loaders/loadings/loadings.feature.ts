@@ -17,6 +17,7 @@ export class LoadingsFeature {
 	infos: IFeatureInfos = {
 		title: 'Loaders',
 		packages: ['SCSS'],
+		description: "Les loaders servent à indiquer le chargement indéterminé d'un élément d'interface. Ils peuvent être accompagnés d'un label pour préciser le caractère des données chargées.",
 		examples: [
 			{
 				title: 'Basique',

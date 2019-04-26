@@ -11,6 +11,7 @@ declare var require: any;
 export class GaugeFeature {
 	infos: IFeatureInfos = {
 		title: 'Jauge',
+		description: "Les jauges servent à afficher un état d'avancement comme la progression d'une campagne.",
 		examples: [
 			{
 				title: 'Basique',

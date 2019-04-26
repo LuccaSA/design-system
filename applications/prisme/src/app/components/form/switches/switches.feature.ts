@@ -13,6 +13,7 @@ export class SwitchesFeature {
 	infos: IFeatureInfos = {
 		title: 'Switches',
 		packages: ['SCSS'],
+		description: "Les switches servent à poser une question fermée. Ils sont principalement utilisés pour suggérer l'activation ou la désactivation d'une fonctionnalité.",
 		examples: [
 			{
 				title: 'Basique',

@@ -18,6 +18,7 @@ export class TablesFeature {
 	infos: IFeatureInfos = {
 		title: 'Tables',
 		packages: ['SCSS'],
+		description: 'Les tables servent à présenter un ensemble de données dont les valeurs peuvent être comparées entre elles.',
 		examples: [
 			{
 				title: 'Basique',

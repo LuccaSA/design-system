@@ -13,6 +13,7 @@ export class ChipsFeature {
 	infos: IFeatureInfos = {
 		title: 'Chips',
 		packages: ['SCSS'],
+		description: "Les chips servent à présenter une liste de courts éléments textuels, comme des noms de collaborateurs ou des options de selects à choix multiples.",
 		examples: [
 			{
 				title: 'Basique',

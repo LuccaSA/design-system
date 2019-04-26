@@ -12,6 +12,7 @@ declare var require: any;
 export class TooltipsFeature {
 	infos: IFeatureInfos = {
 		title: 'Tooltips',
+		description: "Les tooltips servent à afficher une aide contextuelle au survol d'un élément de la page.",
 		examples: [
 			{
 				title: 'Basique',

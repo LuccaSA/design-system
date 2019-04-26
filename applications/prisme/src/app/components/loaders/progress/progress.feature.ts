@@ -13,6 +13,7 @@ export class ProgressFeature {
 	infos: IFeatureInfos = {
 		title: 'Barre de progression',
 		packages: ['SCSS'],
+		description: "Les barres de progression servent à indiquer le chargement déterminé d'une page ou d'un élément d'interface.",
 		examples: [
 			{
 				title: 'Basique',

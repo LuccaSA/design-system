@@ -22,6 +22,7 @@ export class TextfieldsFeature {
 	infos: IFeatureInfos = {
 		title: 'Textfield',
 		packages: ['SCSS'],
+		description: "Les textfields permettent à l'utilisateur de saisir une information textuelle. Ils supportent de nombreuses options comme la gestion de suffixes ou de feedback d'état.",
 		examples: [
 			{
 				title: 'Basique',

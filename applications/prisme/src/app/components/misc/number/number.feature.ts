@@ -11,7 +11,7 @@ declare var require: any;
 export class NumberFeature {
 	infos: IFeatureInfos = {
 		title: 'Nombre',
-		description: `luNumber permet de réaliser divereses opérations sur des nombres, comme l'alignement des décimales, l'arrondi ou l'internationalisation.`,
+		description: `luNumber permet de réaliser l'alignement de nombres sur les décimales en gérant l'arrondi et internationalisation.`,
 		examples: [
 			{
 				title: 'basic',

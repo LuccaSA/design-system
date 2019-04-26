@@ -13,6 +13,7 @@ export class BoxesFeature {
 	infos: IFeatureInfos = {
 		title: 'Box',
 		packages: ['SCSS'],
+		description: "Ces boites vous servent à mettre un contenu en valeur, comme un exemple ou un contenu d'aide masquable.",
 		examples: [
 			{
 				title: 'Basique',

@@ -9,6 +9,7 @@ declare var require: any;
 export class TileFeature {
 	infos: IFeatureInfos = {
 		title: 'Tile',
+		description: "LuUserTile sert à afficher une tuile collaborateur avec sa photo, son prénom, son nom et toutes sortes d'options.",
 		examples: [
 			{
 				title: 'basic',

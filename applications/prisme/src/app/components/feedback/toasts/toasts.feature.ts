@@ -11,6 +11,7 @@ export class ToastsFeature {
 	infos: IFeatureInfos = {
 		title: 'Toasts',
 		packages: ['SCSS'],
+		description: "Les toasts servent à afficher une information de type feedback sur la page. Ils apparaissent tous au même endroit de la page et doivent se 'stacker' si il en existe plusieurs",
 		examples: [
 			{
 				title: 'Basique',
