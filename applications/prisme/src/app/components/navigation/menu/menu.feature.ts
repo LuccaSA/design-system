@@ -11,6 +11,7 @@ export class MenuFeature {
 	infos: IFeatureInfos = {
 		title: 'Menu',
 		packages: ['SCSS'],
+		description: "Le menu sert à subdiviser du contenu en plusieurs pages ou sections afin de limiter la quantité d'information affichée.",
 		examples: [
 			{
 				title: 'Basique',
@@ -24,7 +25,7 @@ export class MenuFeature {
 				extra: 'Les couleurs de votre palette sont éditables via votre <a href="https://github.com/LuccaSA/lucca-front/#palettes" target="_blank">thème</a>'
 			},
 		],
-		theme: this.docApi.get('palettes')
+		theme: this.docApi.get('menu')
 	};
 
 	constructor( private docApi: ThemeDocumentationService) { }

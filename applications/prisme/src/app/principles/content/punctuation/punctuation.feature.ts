@@ -7,7 +7,7 @@ declare var require: any;
 })
 export class PunctuationFeature {
 	infos: IFeatureInfos = {
-		title: 'Ponctuation',
+		title: 'Ponctuation 🔨',
 		examples: [
 		],
 		packages: [

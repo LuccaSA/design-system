@@ -10,6 +10,7 @@ export class EmptyStatesFeature {
 	infos: IFeatureInfos = {
 		title: 'Empty State',
 		packages: ['SCSS'],
+		description: "Les empty states sont des éléments à positionner en cas d'absence de contenu. Ils peuvent être utiles et suggérant des actions à réaliser.",
 		examples: [
 			{
 				title: 'Basique',

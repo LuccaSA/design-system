@@ -9,6 +9,16 @@ $palettes: (
 		"lightest": lighten(#88a0c3, 45%),
 		"see-through": rgba(#88a0c3, .15)
 	),
+	"secondary": (
+		"color": #FFB900,
+		"text": #FFFFFF,
+		"dark": darken(#FFB900, 7%),
+		"darker": darken(#FFB900, 20%),
+		"light": lighten(#FFB900, 10%),
+		"lighter": lighten(#FFB900, 20%),
+		"lightest": lighten(#FFB900, 45%),
+		"see-through": rgba(#FFB900, .15)
+	),
 	"lucca": (
 		"color": #FFB900,
 		"text": #FFFFFF,

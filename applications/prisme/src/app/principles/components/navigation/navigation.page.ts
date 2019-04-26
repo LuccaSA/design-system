@@ -5,4 +5,5 @@ export const navigationPage = new FeaturePage(
 	'navigation',
 	'Navigation',
 	NavigationFeature,
+	["menu", "vertical", "sidenav", "navigation"]
 );

@@ -5,4 +5,5 @@ export const overlayPage = new FeaturePage(
 	'overlay',
 	'Overlay',
 	OverlayFeature,
+	["overlays"]
 );

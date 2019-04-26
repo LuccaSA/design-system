@@ -12,8 +12,9 @@ declare var require: any;
 })
 export class CardsFeature {
 	infos: IFeatureInfos = {
-		title: 'Carte',
+		title: 'Cartes',
 		packages: ['SCSS'],
+		description: "Les cartes servent à regrouper des informations d'un même sujet. Elles suggèrent souvent l'accès à un contenu plus exhaustif.",
 		examples: [
 			{
 				title: 'Basique',

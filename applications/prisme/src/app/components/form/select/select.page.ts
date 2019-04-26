@@ -5,4 +5,5 @@ export const selectPage = new FeaturePage(
 	'select',
 	'Select',
 	SelectFeature,
+	["selects", "inputs"]
 );

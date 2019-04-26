@@ -5,4 +5,5 @@ export const colorsPage = new FeaturePage(
 	'colors',
 	'Colors',
 	ColorsFeature,
+	["colors", "couleurs", "palettes"]
 );

@@ -12,7 +12,6 @@ import { LocaleExample } from './locale/locale.example';
 		CommonModule,
 		LuNumberModule,
 		FormsModule,
-		LuModule,
 	],
 	declarations: [
 	NumberFeature,

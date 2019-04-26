@@ -7,7 +7,7 @@ declare var require: any;
 })
 export class VoiceFeature {
 	infos: IFeatureInfos = {
-		title: 'Voix et ton',
+		title: 'Voix et ton 🔨',
 		examples: [
 		],
 		packages: [

@@ -14,8 +14,9 @@ declare var require: any;
 })
 export class GridFeature {
 	infos: IFeatureInfos = {
-		title: 'Grid',
+		title: 'Grilles',
 		packages: ['SCSS'],
+		description: 'Les grilles sont un outil permettant de diviser un élément parent en 12 colonnes afin de créer rapidement divers layouts. Basée sur les <a href="https://github.com/LuccaSA/lucca-front/#breakpoints" target="_blank">breakpoints du thème</a>, elle peut se réorganiser en fonction de la largeur de la page.',
 		examples: [
 			{
 				title: 'Basique',
@@ -51,7 +52,7 @@ export class GridFeature {
 				code: require('!!prismjs-loader?lang=markup!./offset/offset.example.html'),
 			},
 		],
-		theme: this.docApi.get('breakpoints')
+		theme: this.docApi.get('grids')
 	};
 	constructor( private docApi: ThemeDocumentationService ) { }
 }

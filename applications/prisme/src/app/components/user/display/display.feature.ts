@@ -10,6 +10,7 @@ declare var require: any;
 export class DisplayFeature {
 	infos: IFeatureInfos = {
 		title: 'Display',
+		description: "luUserDisplay permet d'afficher le prénom et le nom d'un utilisateur et donne accès à de nombreuses options de formatage.",
 		examples: [
 			{
 				title: 'basic',

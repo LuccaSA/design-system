@@ -9,6 +9,7 @@ declare var require: any;
 export class SelectFeature {
 	infos: IFeatureInfos = {
 		title: 'Select',
+		description: "LuUserSelect permet de sortir l'ensemble des collaborateurs d'une instance sous la forme d'un select.",
 		examples: [
 			{
 				title: 'basic',

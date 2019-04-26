@@ -5,4 +5,5 @@ export const filePage = new FeaturePage(
 	'file',
 	'Fichier',
 	FileFeature,
+	["files", "fichiers", "inputs"]
 );

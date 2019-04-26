@@ -2,7 +2,8 @@ import { FeaturePage } from '@prisme/common';
 import { AssetsFeature } from './assets.feature';
 
 export const assetsPage = new FeaturePage(
-	'assets',
-	'Assets',
+	'logos',
+	'Logos',
 	AssetsFeature,
+	["logos", "lucca"]
 );

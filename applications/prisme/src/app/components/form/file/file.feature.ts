@@ -12,12 +12,14 @@ export class FileFeature {
 	infos: IFeatureInfos = {
 		title: 'Fichier',
 		packages: ['SCSS'],
+		description: "Le champ fichier permet de charger un fichier présent sur l'ordinateur de l'utilisateur via la modale d'explorateur de fichier ou un drag and drop.",
 		examples: [
 			{
 				title: 'Etats',
 				component: StatesExampleComponent,
 				code: require('!!prismjs-loader?lang=markup!./states/states.example.html'),
 				mod: 'white',
+				extra: `Ce composant est destiné à rejoindre le package NG`
 			},
 			{
 				title: 'Compact',

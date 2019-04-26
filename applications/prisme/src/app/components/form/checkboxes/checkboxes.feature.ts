@@ -15,6 +15,7 @@ export class CheckboxesFeature {
 	infos: IFeatureInfos = {
 		title: 'Checkboxes',
 		packages: ['SCSS'],
+		description: "Les checkboxes servent à faire une sélection parmi une liste d'options. Elles peuvent également servir à poser des questions fermées.",
 		examples: [
 			{
 				title: 'Basique',

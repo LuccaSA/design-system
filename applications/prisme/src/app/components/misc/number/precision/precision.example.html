@@ -1,19 +1,13 @@
-<div class="textfield">
-	<input [(ngModel)]="number" class="textfield-input" type="number">
-	<label class="textfield-label">number</label>
+<div class="form-group">
+	<div class="textfield">
+		<input [(ngModel)]="number" class="textfield-input" type="number">
+		<label class="textfield-label">number</label>
+	</div>
 </div>
-<div class="textfield">
-	<input [(ngModel)]="precision" class="textfield-input" type="number">
-	<label class="textfield-label">precision</label>
+<div class="form-group">
+	<div class="textfield">
+		<input [(ngModel)]="precision" class="textfield-input" type="number">
+		<label class="textfield-label">precision</label>
+	</div>
 </div>
 <code [innerHTML]="number | luNumber: precision"></code>
-
-<div class="textfield mod-longest">
-	<lu-select class="textfield-input">
-		<span *luDisplayer="let value">lol mdr</span>
-		<lu-option-picker>
-			<lu-option value="2">small option</lu-option>
-		</lu-option-picker>
-	</lu-select>
-	<label class="textfield-label">test mod-longest</label>
-</div>

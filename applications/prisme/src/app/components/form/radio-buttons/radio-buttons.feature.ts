@@ -9,6 +9,7 @@ declare var require: any;
 export class RadioButtonsFeature {
 	infos: IFeatureInfos = {
 		title: 'Boutons radios',
+		description: "Les boutons radios servent à afficher une liste courte d'options pour laquelle une seule option est sélectionnable.",
 		examples: [
 			{
 				title: 'Basique',

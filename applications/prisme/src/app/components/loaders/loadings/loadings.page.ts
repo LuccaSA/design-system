@@ -5,4 +5,5 @@ export const loadingsPage = new FeaturePage(
 	'loadings',
 	'Loadings',
 	LoadingsFeature,
+	["loadings", "loaders", "chargement"]
 );

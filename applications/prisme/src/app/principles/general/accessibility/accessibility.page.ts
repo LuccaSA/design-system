@@ -5,4 +5,5 @@ export const accessibilityPage = new FeaturePage(
 	'accessibility',
 	'Accessibilité 🔨',
 	AccessibilityFeature,
+	["accessibility", "accessibilité"]
 );

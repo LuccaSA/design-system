@@ -13,6 +13,7 @@ export class AnimationsFeature {
 	infos: IFeatureInfos = {
 		title: 'Animations',
 		packages: ['SCSS'],
+		description: "Les animations servent à créer une transition sur un élément au moment de son apparition. Elles doivent être utilisées de manière judicieuse et servir la compréhension de l'interaction.",
 		examples: [
 			{
 				title: 'Apparition',

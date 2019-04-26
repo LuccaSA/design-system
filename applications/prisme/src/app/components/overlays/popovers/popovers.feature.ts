@@ -11,6 +11,7 @@ declare var require: any;
 export class PopoversFeature {
 	infos: IFeatureInfos = {
 		title: 'Popovers',
+		description: "Les popovers servent à afficher un contenu supplémentaire superposé à partir d'une interaction avec un élément.",
 		examples: [
 			{
 				title: 'basic',

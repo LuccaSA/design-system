@@ -5,4 +5,5 @@ export const formatPage = new FeaturePage(
 	'format',
 	'Format 🔨',
 	FormatFeature,
+	["format"]
 );
