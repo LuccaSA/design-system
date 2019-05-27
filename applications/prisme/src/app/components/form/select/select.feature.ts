@@ -3,6 +3,7 @@ import { IFeatureInfos, DocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
 import { DisplayerExample } from './displayer/displayer.example';
 import { ClearerExample } from './clearer/clearer.example';
+import { MultipleExample } from './multiple/multiple.example';
 declare var require: any;
 @Component({
 	selector: 'pri-select',
@@ -36,6 +37,16 @@ export class SelectFeature {
 				en fin de select, vous permettez l'affichage d'un simple clearer pour vider l'input`,
 				code: require('!!prismjs-loader?lang=markup!./clearer/clearer.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./clearer/clearer.example.ts')
+			},
+			{
+				title: 'Select multiple',
+				component: MultipleExample,
+				description: `Vous pouvez transformer votre select simple en select multiple
+				en rajoutant le tag <code class="code">multiple</code> au <code class="code">lu-select</code>.
+				Pour transformer la valeur affichée en un résumé, il faut modifier la directive <code class="code">*luDisplayer</code>
+				en lui passant la valeur <code class="code">let values; multiple: true</code>`,
+				code: require('!!prismjs-loader?lang=markup!./multiple/multiple.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./multiple/multiple.example.ts')
 			},
 		],
 		packages: [

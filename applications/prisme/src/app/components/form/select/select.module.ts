@@ -6,6 +6,7 @@ import { LuSelectModule, LuOptionModule, LuInputDisplayerModule } from '@lucca-f
 import { FormsModule } from '@angular/forms';
 import { DisplayerExample } from './displayer/displayer.example';
 import { ClearerExample } from './clearer/clearer.example';
+import { MultipleExample } from './multiple/multiple.example';
 
 @NgModule({
 	imports: [
@@ -19,10 +20,12 @@ import { ClearerExample } from './clearer/clearer.example';
 	SelectFeature,
 	BasicExample,
 	DisplayerExample,
-	ClearerExample],
+	ClearerExample,
+	MultipleExample],
 	entryComponents: [
 	BasicExample,
 	DisplayerExample,
-	ClearerExample]
+	ClearerExample,
+	MultipleExample]
 })
 export class SelectModule {}
