@@ -41,8 +41,9 @@ export class CodeTabsComponent implements AfterViewInit {
 	constructor(private cd: ChangeDetectorRef, private cfr: ComponentFactoryResolver) {}
 
 	ngAfterViewInit() {
-		this.cd.detectChanges();
+		this.tabsQL.changes.subscribe(() => this.cd.detectChanges());
 		this.activeTab = this.tabsQL.first;
+		this.cd.detectChanges();
 	}
 
 	renderComponent() {
