@@ -4,6 +4,8 @@ import { BasicExample } from './basic/basic.example';
 import { DisplayerExample } from './displayer/displayer.example';
 import { ClearerExample } from './clearer/clearer.example';
 import { MultipleExample } from './multiple/multiple.example';
+import { AdvancedCustomOptionExample } from './advanced-custom-option/advanced-custom-option.example';
+import { AdvancedOperatorsExample } from './advanced-operators/advanced-operators.example';
 declare var require: any;
 @Component({
 	selector: 'pri-select',
@@ -47,6 +49,33 @@ export class SelectFeature {
 				en lui passant la valeur <code class="code">let values; multiple: true</code>`,
 				code: require('!!prismjs-loader?lang=markup!./multiple/multiple.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./multiple/multiple.example.ts')
+			},
+			{
+				title: '[Avancé] Options Personnalisées',
+				component: AdvancedCustomOptionExample,
+				description: `Vous pouvez créer votre propre composant pour représenter une option. Pour cela il vous faut créer un composant
+				qui hérite de la classe abstraite <code class="code">AluOptionItem<T></code>
+				et qui implémente l'interface <code class="code">ILuOptionItem<T></code>. Il vous faudra aussi fournir un provider comme
+				dans l'exemple présenté ci-dessous`,
+				code: require('!!prismjs-loader?lang=markup!./advanced-custom-option/advanced-custom-option.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./advanced-custom-option/advanced-custom-option.example.ts')
+			},
+			{
+				title: '[Avancé] Opérateurs du picker',
+				component: AdvancedOperatorsExample,
+				description: `
+				Les opérateurs du <code class="code">lu-option-picker</code> permettent de définir et de manipuler une liste d'options de l'afficher.
+					Ces opérateurs peuvent être "chained". La liste des opérateurs disponible par défaut est la suivante :
+					<ul>
+						<li><code class="code">lu-option-feeder</code>: transforme un source d'information <code class="code">[options]</code> en une liste d'options</li>
+						<li><code class="code">lu-option-searcher</code>: filtre une liste d'options en applicant une <code class="code">[searchFn]</code></li>
+						<li><code class="code">lu-option-pager</code>: gère la pagination</li>
+						<li>La directive<code class="code">*luForOptions</code>: permet l'affichage des options</li>
+					</ul>
+				L'ordre des opérateurs est important.
+				`,
+				code: require('!!prismjs-loader?lang=markup!./advanced-operators/advanced-operators.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./advanced-operators/advanced-operators.example.ts')
 			},
 		],
 		packages: [
