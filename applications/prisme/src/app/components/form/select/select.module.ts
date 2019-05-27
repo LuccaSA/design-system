@@ -5,6 +5,7 @@ import { BasicExample } from './basic/basic.example';
 import { LuSelectModule, LuOptionModule, LuInputDisplayerModule } from '@lucca-front/ng';
 import { FormsModule } from '@angular/forms';
 import { DisplayerExample } from './displayer/displayer.example';
+import { ClearerExample } from './clearer/clearer.example';
 
 @NgModule({
 	imports: [
@@ -17,9 +18,11 @@ import { DisplayerExample } from './displayer/displayer.example';
 	declarations: [
 	SelectFeature,
 	BasicExample,
-	DisplayerExample],
+	DisplayerExample,
+	ClearerExample],
 	entryComponents: [
 	BasicExample,
-	DisplayerExample]
+	DisplayerExample,
+	ClearerExample]
 })
 export class SelectModule {}

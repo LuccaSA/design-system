@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IFeatureInfos, DocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
 import { DisplayerExample } from './displayer/displayer.example';
+import { ClearerExample } from './clearer/clearer.example';
 declare var require: any;
 @Component({
 	selector: 'pri-select',
@@ -15,6 +16,8 @@ export class SelectFeature {
 			{
 				title: 'Basique',
 				component: BasicExample,
+				description: `Le select basique permet l'affichage d'un input select avec une liste fixe.
+				Si vous cherchez à récupérer la liste depuis une API, dirigez vous vers l'API ou le User Select.`,
 				code: require('!!prismjs-loader?lang=markup!./basic/basic.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./basic/basic.example.ts')
 			},
@@ -25,6 +28,14 @@ export class SelectFeature {
 				portant la directive <code class="code">*luDisplayer</code>`,
 				code: require('!!prismjs-loader?lang=markup!./displayer/displayer.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./displayer/displayer.example.ts')
+			},
+			{
+				title: 'Clearer',
+				component: ClearerExample,
+				description: `En rajoutant un opérateur <code class="code">lu-select-clearer</code>
+				en fin de select, vous permettez l'affichage d'un simple clearer pour vider l'input`,
+				code: require('!!prismjs-loader?lang=markup!./clearer/clearer.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./clearer/clearer.example.ts')
 			},
 		],
 		packages: [
