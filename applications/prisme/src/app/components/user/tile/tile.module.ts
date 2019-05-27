@@ -3,6 +3,7 @@ import { CommonModule } from '@prisme/common';
 import { TileFeature } from './tile.feature';
 import { BasicExample } from './basic/basic.example';
 import { LuUserTileModule } from '@lucca-front/ng';
+import { DisplayFormatExample } from './display-format/display-format.example';
 
 @NgModule({
 	imports: [
@@ -11,8 +12,10 @@ import { LuUserTileModule } from '@lucca-front/ng';
 	],
 	declarations: [
 	TileFeature,
-	BasicExample],
+	BasicExample,
+	DisplayFormatExample],
 	entryComponents: [
-	BasicExample]
+	BasicExample,
+	DisplayFormatExample]
 })
 export class TileModule {}
