@@ -5,6 +5,7 @@ import { BasicExample } from './basic/basic.example';
 import { LuUserTileModule } from '@lucca-front/ng';
 import { DisplayFormatExample } from './display-format/display-format.example';
 import { SizesExample } from './sizes/sizes.example';
+import { OtherModsExample } from './other-mods/other-mods.example';
 
 @NgModule({
 	imports: [
@@ -15,10 +16,12 @@ import { SizesExample } from './sizes/sizes.example';
 	TileFeature,
 	BasicExample,
 	DisplayFormatExample,
-	SizesExample],
+	SizesExample,
+	OtherModsExample],
 	entryComponents: [
 	BasicExample,
 	DisplayFormatExample,
-	SizesExample]
+	SizesExample,
+	OtherModsExample]
 })
 export class TileModule {}

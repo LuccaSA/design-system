@@ -3,6 +3,7 @@ import { IFeatureInfos, DocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
 import { DisplayFormatExample } from './display-format/display-format.example';
 import { SizesExample } from './sizes/sizes.example';
+import { OtherModsExample } from './other-mods/other-mods.example';
 declare var require: any;
 @Component({
 	selector: 'pri-tile',
@@ -32,6 +33,12 @@ export class TileFeature {
 				component: SizesExample,
 				code: require('!!prismjs-loader?lang=markup!./sizes/sizes.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./sizes/sizes.example.ts')
+			},
+			{
+				title: 'Autres mods',
+				component: OtherModsExample,
+				code: require('!!prismjs-loader?lang=markup!./other-mods/other-mods.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./other-mods/other-mods.example.ts')
 			},
 		],
 		packages: [
