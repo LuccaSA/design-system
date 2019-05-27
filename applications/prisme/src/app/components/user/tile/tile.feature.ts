@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IFeatureInfos, DocumentationService } from '@prisme/common';
 import { BasicExample } from './basic/basic.example';
 import { DisplayFormatExample } from './display-format/display-format.example';
+import { SizesExample } from './sizes/sizes.example';
 declare var require: any;
 @Component({
 	selector: 'pri-tile',
@@ -25,6 +26,12 @@ export class TileFeature {
 				l'input <code class="code">displayFormat</code> pour préciser un format <code class="code">luUserDisplay</code>`,
 				code: require('!!prismjs-loader?lang=markup!./display-format/display-format.example.html'),
 				tsCode: require('!!prismjs-loader?lang=typescript!./display-format/display-format.example.ts')
+			},
+			{
+				title: 'Tailles',
+				component: SizesExample,
+				code: require('!!prismjs-loader?lang=markup!./sizes/sizes.example.html'),
+				tsCode: require('!!prismjs-loader?lang=typescript!./sizes/sizes.example.ts')
 			},
 		],
 		packages: [
