@@ -7,11 +7,13 @@ import { switchesPage } from './switches/switches.page';
 import { textfieldsPage } from './textfields/textfields.page';
 import { radioButtonsPage } from './radio-buttons';
 import { selectPage } from './select/select.page';
+import { apiSelectPage } from './api-select/api-select.page';
 
 export const formPage = new GroupPage(
 	'form',
 	'Formulaires',
 	[
+	apiSelectPage,
 	selectPage,
 		textfieldsPage,
 		checkboxesPage,
