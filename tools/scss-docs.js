@@ -5,10 +5,10 @@ let sast = require('sast');
 let visit = require('unist-util-visit');
 let glob = require('glob');
 
-const distDir = './api';
-const fileName = 'scss-theme.api.ts';
+const distDir = './documentation/scss';
+const fileName = 'scss-docs.ts';
 const fullFilePath = `${distDir}/${fileName}`;
-const sourceFiles = glob.sync("node_modules/@lucca-front/scss/src/theming/**/*.scss", {
+const sourceFiles = glob.sync("node_modules/@lucca-front/**/*.theme.scss", {
 	ignore: ['**/_components.scss', '**/_get-set.scss', '**/_utils.scss']
 });
 

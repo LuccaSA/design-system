@@ -1,3 +1,4 @@
+export * from './picture/index';
 export * from './display/index';
 export * from './tile/index';
 export * from './select/index';
