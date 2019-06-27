@@ -1,63 +1,23 @@
-# Principes
+# Règles générales
 
-- Indiquer/symboliser le(s) objet(s) qui devrai(en)t se trouver là
-- Indiquer pourquoi rien n'est affiché
-- Proposer, quand c'est pertinent, une action à entreprendre pour afficher des objets
+- Le titre doit être court et explicite
+- La description permet de rentrer dans les détails, mais ne devrait pas dépasser 3 lignes, sauf si ces informations sont jugées vraiment utiles
+- Une action de création peut être proposée lorsque cela est nécessaire
 
-# Blank state en cas d'erreur technique
-<div class="markdown-dualDisplay">
-<div class="markdown-block mod-positive">
+# Types d'Empty States
 
-- Un message « humain » qui donne les raisons de l'erreur, quand l'information est disponible.
-- Les power-users qui pourraient être intéressés par du vocabulaire technique obtenir plus de détails en dépliant la zone inférieure, donnant plus de détails.
-- On donne à l'utilisateur des indications lui permettant de sortir de l'impasse : un lien vers une autre page, l'information que l'erreur a été loguée.
+## Première visite
 
-![À faire](guidelines/components/layout/empty-states/images/empty-tech-do.png)
-</div>
-<div class="markdown-block mod-negative">
+- Les Empty States dit de “première visite” permettent d’expliquer le but d’une page et inviter l’utilisateur à faire une action.
+- Ils peuvent ainsi disposer d’une illustration détaillée et d’une description assez longue.
+- L’utilisation d’un bouton d’action est généralement utile.
 
+## Empty States récurrents
 
-- Un message généré automatiquement par une API : ça n'aide pas l'utilisateur.
-- On ne donne aucune indication à l'utilisateur de l'action à entreprendre pour « sortir » de cette impasse.
+- Les Empty States dit “récurrent” sont régulièrement visibles dans une page. Il sont généralement utilisés pour signifier à l’utilisateur qu’une liste de tâches a été traité.
+- La description y est ainsi plus courte et l’image peut être supprimée ou remplacée par une icône.
+- Le bouton d’action n’est généralement pas nécessaire.
 
-![À faire](guidelines/components/layout/empty-states/images/empty-tech-dont.png)
-</div>
-</div>
+## Empty States minimalistes
 
-# Blank state unique
-<div class="markdown-dualDisplay">
-<div class="markdown-block mod-positive">
-
-- Une illustration un peu décalée (l'utilisateur ne devrait la voir qu'une fois, le risque de lassitude est moindre)
-- Un texte explicatif
-- Si pertinent, un bouton d'action permettant de créer un premier objet
-
-Exemples :
-![À faire](guidelines/components/layout/empty-states/images/empty-unique-do-1.png) ![À faire](guidelines/components/layout/empty-states/images/empty-unique-do-2.png) ![À faire](guidelines/components/layout/empty-states/images/empty-unique-do-3.png) ![À faire](guidelines/components/layout/empty-states/images/empty-unique-do-4.png) ![À faire](guidelines/components/layout/empty-states/images/empty-unique-do-5.png)
-
-</div>
-<div class="markdown-block mod-negative">
-
-- S'il s'agit dans un blank state unique qui sera vu et revu par nos consultants (à la création d'une instance, par exemple), on les traite comme des blank states récurrents (cf. section suivante)
-
-</div>
-</div>
-
-# Blank state récurrent
-<div class="markdown-dualDisplay">
-<div class="markdown-block mod-positive">
-
-- Un picto ou une illustration simple, épurée
-- Un texte explicatif
-- Si pertinent, un bouton d'action permettant de créer un premier objet
-
-Exemples :
-
-![À faire](guidelines/components/layout/empty-states/images/empty-rec-do-1.png) ![À faire](guidelines/components/layout/empty-states/images/empty-rec-do-2.png)
-
-</div>
-<div class="markdown-block mod-negative">
-
-- Une illustration trop anecdotique et/ou chargée qui, au bout de plusieurs fois, va lasser voire agacer l'utilisateur.
-</div>
-</div>
+- Un composant, comme un tableau, une liste, etc. peut lui-même avoir besoin d’afficher un Empty State. Dans ce cas, une simple phrase de quelques mots, gris clair, indiquera l’absence de contenu.
