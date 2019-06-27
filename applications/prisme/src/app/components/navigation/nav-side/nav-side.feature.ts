@@ -18,6 +18,7 @@ export class NavSideFeature {
 	infos: IFeatureInfos = {
 		title: 'Menu principal',
 		packages: ['SCSS'],
+		guidelines: 'guidelines/components/navigation/nav-side/nav-side.guidelines.md',
 		description: "Le menu principal sert à naviguer entre les différents modules d'une application.",
 		examples: [
 			{
