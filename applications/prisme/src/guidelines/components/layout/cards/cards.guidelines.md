@@ -9,10 +9,14 @@ Si une carte donne accès à un contenu supplémentaire au clic, celle-ci doit f
 
 <div class="markdown-dualDisplay">
 <div class="markdown-block mod-positive">
-Objectifs annuels
+
+- Objectifs annuels
+
 </div>
 <div class="markdown-block mod-negative">
-Vous trouverez ci-dessous vos objectifs annuels.
+
+- Vous trouverez ci-dessous vos objectifs annuels.
+
 </div>
 </div>
 

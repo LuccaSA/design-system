@@ -15,6 +15,7 @@ export class ButtonsFeature {
 	infos: IFeatureInfos = {
 		title: 'Boutons',
 		packages: ['SCSS'],
+		guidelines: 'guidelines/components/actions/buttons/buttons.guidelines.md',
 		examples: [
 			{
 				title: 'Basique',
