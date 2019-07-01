@@ -1,3 +1,4 @@
+export * from './actions/guidelines/index';
 export * from './overlays/popovers/index';
 export * from './misc/number/index';
 export * from './navigation/table-of-content/index';
