@@ -3,7 +3,7 @@ import { TypographicRulesFeature } from './typographic-rules.feature';
 
 export const typographicRulesPage = new FeaturePage(
 	'typographic-rules',
-	'Règles typographiques 🔨',
+	'Règles typographiques',
 	TypographicRulesFeature,
 	["typographie", "typographic", "rules", "règles"]
 );
