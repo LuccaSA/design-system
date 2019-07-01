@@ -7,9 +7,9 @@ declare var require: any;
 })
 export class GuidelinesFeature {
 	infos: IFeatureInfos = {
-		title: 'Guidelines actions',
-		guidelines: 'guidelines/components/actions/guidelines/guidelines.guidelines.md',
-		description: "Les actions permettent à l’utilisateur de communiquer avec nos applications. Leur utilisation dépend du rôle de l’action et de son importance.",
+		title: 'Guidelines listings',
+		guidelines: 'guidelines/components/listings/guidelines/guidelines.guidelines.md',
+		description: "Selon le type de données, de la manière de les lire et du besoin de les comparer, les données peuvent être listées de plusieurs manières.",
 		examples: [
 		],
 		packages: [
