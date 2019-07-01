@@ -1,14 +1,14 @@
-# Bouton
+# [Bouton](/components/actions/buttons)
 
-Le [bouton](/components/actions/buttons) représente une action importante propre à la page comme la création d’un objet ou le changement d’état d’un élément.
+Le bouton représente une action importante propre à la page comme la création d’un objet ou le changement d’état d’un élément.
 
-# Icône d’action
+# [Icône d’action](/components/actions/action-icons)
 
-L’[icône d’action](/components/actions/action-icons) représente une action secondaire et/ou répétitive. Il sert notamment pour les actions de type suppression, édition, etc. au sein d’une liste d’éléments.
+L’icône d’action représente une action secondaire et/ou répétitive. Il sert notamment pour les actions de type suppression, édition, etc. au sein d’une liste d’éléments.
 
-# Lien
+# [Lien](/components/actions/links)
 
-Le [lien](/components/actions/links) sert à accéder un contenu hors de la page ou de l’application. Il peut être également utile pour afficher ou masquer du contenu ou pour traiter une action secondaire.
+Le lien sert à accéder un contenu hors de la page ou de l’application. Il peut être également utile pour afficher ou masquer du contenu ou pour traiter une action secondaire.
 
 # Feedbacks
 
