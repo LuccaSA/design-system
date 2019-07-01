@@ -9,7 +9,7 @@ import { FileModule } from './file/file.module';
 import { RadioButtonsModule } from './radio-buttons';
 import { SelectModule } from './select';
 import { ApiSelectModule } from './api-select';
-import { GuidelinesModule } from './guidelines';
+import { FormGuidelinesModule } from './guidelines';
 
 @NgModule({
 	imports: [
@@ -23,7 +23,7 @@ import { GuidelinesModule } from './guidelines';
 		RadioButtonsModule,
 		SelectModule,
 		ApiSelectModule,
-		GuidelinesModule,
+		FormGuidelinesModule,
 	],
 })
 export class FormModule { }

@@ -3,7 +3,7 @@ import { CommonModule } from '@prisme/common';
 import { ChipsModule } from './chips/chips.module';
 import { ListsModule } from './lists/lists.module';
 import { TablesModule } from './tables/tables.module';
-import { GuidelinesModule } from './guidelines';
+import { ListingsGuidelinesModule } from './guidelines';
 
 @NgModule({
 	imports: [
@@ -11,7 +11,7 @@ import { GuidelinesModule } from './guidelines';
 		ChipsModule,
 		ListsModule,
 		TablesModule,
-		GuidelinesModule
+		ListingsGuidelinesModule
 	]
 })
 export class ListingsModule { }

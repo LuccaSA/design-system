@@ -3,7 +3,7 @@ import { CommonModule } from '@prisme/common';
 import { ButtonsModule } from './buttons/buttons.module';
 import { ActionIconsModule } from './action-icons/action-icons.module';
 import { LinksModule } from './links/links.module';
-import { GuidelinesModule } from './guidelines';
+import { ActionsGuidelinesModule } from './guidelines';
 
 @NgModule({
 	imports: [
@@ -11,7 +11,7 @@ import { GuidelinesModule } from './guidelines';
 		ButtonsModule,
 		ActionIconsModule,
 		LinksModule,
-		GuidelinesModule
+		ActionsGuidelinesModule
 	],
 })
 export class ActionsModule { }

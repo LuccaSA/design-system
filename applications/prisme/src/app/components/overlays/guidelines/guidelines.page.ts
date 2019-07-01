@@ -1,7 +1,7 @@
 import { FeaturePage } from '@prisme/common';
 import { GuidelinesFeature } from './guidelines.feature';
 
-export const actionsGuidelinesPage = new FeaturePage(
+export const overlayGuidelinesPage = new FeaturePage(
 	'guidelines',
 	'Guidelines',
 	GuidelinesFeature,

@@ -11,4 +11,4 @@ import { GuidelinesFeature } from './guidelines.feature';
 	entryComponents: [
 	]
 })
-export class ActionsGuidelinesModule {}
+export class OverlaysGuidelinesModule {}
