@@ -3,6 +3,7 @@ import { TypographyFeature } from './typography.feature';
 
 export const typographyPage = new FeaturePage(
 	'typography',
-	'Typography',
+	'Typographie',
 	TypographyFeature,
+	["typography", "typographie", "type", "font"]
 );
