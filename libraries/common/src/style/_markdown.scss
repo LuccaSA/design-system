@@ -15,6 +15,22 @@
 	ul {
 		margin-top: 0;
 	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: _theme("spacings.smaller")
+	}
+
+	th {
+		font-weight: 600;
+	}
+
+	td, th {
+		border-bottom: 1px solid _theme("commons.divider.color");
+		text-align: left;
+		padding: .5rem;
+	}
 }
 
 .markdown-dualDisplay {
