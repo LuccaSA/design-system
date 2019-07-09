@@ -14,10 +14,12 @@ Le lien sert à accéder un contenu hors de la page ou de l’application. Il pe
 
 # Feedbacks
 
-Chaque action doit être suivie d’un feedback. Selon le contexte, le feedback peut être différent :
+Chaque action doit être suivie d’un ou plusieurs feedbacks. Il existe deux cas.
 
-- Changement de page
-- Mise en valeur d’un objet généré grâce à une animation et une couleur de fond visible
-- Animation d’un objet supprimé
-- Passage du bouton en état de chargement, puis de succès ou d’erreur, ainsi qu’un court texte expliquant l’action réalisée
-- Apparition d’un toast en cas d’une action non visible sur la page
+Si il n'y a pas de changement de page, les feedbacks doivent avoir lieu dans le "locus of attention". Ils peuvent prendre plusieurs formes et être multiple: 
+
+- Animation d’un objet supprimé.
+- Passage du bouton en état de chargement, puis de succès ou d’erreur, ainsi qu’un court texte expliquant l’action réalisée.
+- Mise en valeur d’un objet généré grâce à une animation et une couleur de fond visible.
+
+Dans le cadre d'un changement de page après l'action, le feedback prend la forme d'un [toast](components/feedback/toasts) positionné en haut à droite de l'écran.
