@@ -10,7 +10,7 @@
 			</section>
 
 			<section id="guidelines" class="contentSection" *ngIf="infos.guidelines">
-				<h1>Règles d'usage</h1>
+				<h1>Règles d’usage</h1>
 				<ng-container>
 					<markdown [priMarkdownSrc]="infos.guidelines"></markdown>
 				</ng-container>
@@ -50,7 +50,7 @@
 				<a class="feature-quickNav-item" *ngIf="infos.examples && infos.examples.length" routerLink="./"
 					fragment="examples" preserveQueryParams="true">Design</a>
 				<a class="feature-quickNav-item" *ngIf="infos.guidelines" routerLink="./" fragment="guidelines"
-					preserveQueryParams="true">Règles d'usage</a>
+					preserveQueryParams="true">Règles d’usage</a>
 				<!-- <a class="feature-quickNav-item">Composants similaires</a> -->
 				<a class="feature-quickNav-item" *ngIf="infos.theme" routerLink="./" fragment="theme"
 					preserveQueryParams="true">Thème</a>

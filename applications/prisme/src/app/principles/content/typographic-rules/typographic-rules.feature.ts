@@ -7,15 +7,13 @@ declare var require: any;
 })
 export class TypographicRulesFeature {
 	infos: IFeatureInfos = {
-		title: 'Règles typographiques 🔨',
+		title: 'Règles typographiques',
+		guidelines: 'guidelines/principles/content/typographic-rules/typographic-rules.guidelines.md',
+		description: "Afin de respecter les règles de ponctuation et ainsi de garantir une homogénéité du contenu, il est important de veiller à bien choisir les caractères utilisés.",
 		examples: [
 		],
 		packages: [
-
-
 		],
-
-		//
 	};
 
 	constructor(

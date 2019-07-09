@@ -4,6 +4,7 @@ import { CommonModule } from '@prisme/common';
 import { ModalsModule } from './modals';
 import { TooltipsModule } from './tooltips';
 import { PopoversModule } from './popovers';
+import { OverlaysGuidelinesModule } from './guidelines';
 
 @NgModule({
 	imports: [
@@ -12,6 +13,7 @@ import { PopoversModule } from './popovers';
 		ModalsModule,
 		TooltipsModule,
 		PopoversModule,
+		OverlaysGuidelinesModule,
 	],
 })
 export class OverlaysModule {}

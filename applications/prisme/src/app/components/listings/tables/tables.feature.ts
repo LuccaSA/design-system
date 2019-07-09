@@ -17,6 +17,7 @@ declare var require: any;
 export class TablesFeature {
 	infos: IFeatureInfos = {
 		title: 'Tables',
+		guidelines: 'guidelines/components/listings/tables/tables.guidelines.md',
 		packages: ['SCSS'],
 		description: 'Les tables servent à présenter un ensemble de données dont les valeurs peuvent être comparées entre elles.',
 		examples: [

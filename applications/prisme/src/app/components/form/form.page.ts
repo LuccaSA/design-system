@@ -8,11 +8,13 @@ import { textfieldsPage } from './textfields/textfields.page';
 import { radioButtonsPage } from './radio-buttons';
 import { selectPage } from './select/select.page';
 import { apiSelectPage } from './api-select/api-select.page';
+import { formGuidelinesPage } from './guidelines/guidelines.page';
 
 export const formPage = new GroupPage(
 	'form',
 	'Formulaires',
 	[
+	formGuidelinesPage,
 	apiSelectPage,
 	selectPage,
 		textfieldsPage,

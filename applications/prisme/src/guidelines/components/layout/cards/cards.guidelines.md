@@ -1,14 +1,35 @@
-Au sein d'une liste, les cartes ont toute la même largeur. Leur hauteur, en revanche, peut varier en fonction du contenu à afficher.
+# Titre
 
-![à faire](guidelines/components/layout/cards/images/cards-layout-do-1.png) ![à éviter](guidelines/components/layout/cards/images/cards-layout-do-2.png) ![à éviter](guidelines/components/layout/cards/images/cards-layout-dont.png)
+- Les cartes doivent toujours disposer d’un titre, court, clair, et facilement scannable.
+- Les titres ne doivent être composés que d’une simple phrase, sans ponctuation.
 
-On peut choisir de donner accès à une ou plusieurs actions récurrentes directement depuis la carte (en faisant apparaître les boutons associés au survol de la carte et/ou en *swipant* la carte).
+<div class="markdown-dualDisplay">
+<div class="markdown-block mod-positive">
 
-![à faire](guidelines/components/layout/cards/images/cards-hovered-do.gif) ![à faire](guidelines/components/layout/cards/images/cards-hovered-dont.png)
+- Objectifs annuels
 
-Comportement :
+</div>
+<div class="markdown-block mod-negative">
 
-- Au survol, effet sur la carte indiquant qu'elle est cliquable + apparition des boutons/liens/icônes permettant de déclencher des actions sur les objets
-- Au clic, ouverte d'un side-panel présentant l'intégralité des attributs de l'objet et permettant leur modification
+- Vous trouverez ci-dessous vos objectifs annuels.
 
-Pour continuer à bénéficier des fonctionnalités qu'aurait offert un tableau, une liste de carte est systématiquement accompagnée d'un composant permettant de trier les cartes (c'est au PO de déterminer, selon le contexte, les attributs triables les plus pertinents). On peut également proposer des filtres afin d'affiner la liste de cartes exposées.
+</div>
+</div>
+
+# Carte cliquable
+
+Si une carte donne accès à un contenu supplémentaire au clic, celle-ci doit faire apparaître un ombrage au survol.
+
+# Illustration
+
+Une carte peut être illustrée. Dans ce cas, le visuel sera placé en haut de la carte et prendra toute la largeur.
+
+# Footer
+
+Un footer peut être ajouté si la carte dispose d’actions importantes comme accepter ou refuser une action.
+Les boutons sont alignés à droite et respectent les [règles d’usage des bouton](/components/actions/buttons#guidelines).
+
+# Actions secondaires
+
+Il est possible d’ajouter des actions secondaires grâce aux [icônes d’actions](/components/actions/action-icons). Dans ce cas, ces actions seront placés sur la droite de la carte, centrées verticalement et n’apparaitront qu’au survol de celle-ci.
+Il est possible d’ajouter des actions secondaires sur une carte cliquable. Dans ce cas, il faut veiller à ce que les deux actions ne soient pas activées simultanément.

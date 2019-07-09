@@ -1,3 +1,38 @@
+#guidelines {
+
+	h2 {
+		margin-top: 1.5rem;
+	}
+
+	h3 {
+		margin-top: 1rem;
+	}
+
+	h4 {
+		margin-top: 1rem;
+	}
+
+	ul {
+		margin-top: 0;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: _theme("spacings.smaller")
+	}
+
+	th {
+		font-weight: 600;
+	}
+
+	td, th {
+		border-bottom: 1px solid _theme("commons.divider.color");
+		text-align: left;
+		padding: .5rem;
+	}
+}
+
 .markdown-dualDisplay {
 	display: flex;
 	align-items: flex-start;
@@ -15,6 +50,15 @@
 
 	&:first-child {
 		margin-left: 0;
+	}
+
+	&.mod-image {
+		padding: _theme("spacings.small");
+		text-align: center;
+
+		img {
+			max-width: 100%;
+		}
 	}
 
 	ul {
@@ -38,7 +82,7 @@
 		left: 0;
 		right: 0;
 		top: 0;
-		height: 5px;
+		height: 4px;
 	}
 
 	&.mod-positive {
@@ -56,7 +100,6 @@
 
 .markdown-image {
 	max-height: 250px;
-	margin: 0 _theme("spacings.small");
 	display: inline-block;
 }
 

@@ -1,24 +1,24 @@
-# Modes
+# Affichage complet / compact
 
-Quand un rôle donne accès à plusieurs modules au sein d'un produit, on propose à l'utilisateur une navigation présentée sous la forme d'un bandeau latéral fixé sur la gauche de l'écran. 
+- Le mode compact est utilisé en l’absence de sous-menu et si le menu ne dispose au maximum que de 6 entrées. Dans les autres cas, le mode complet sera privilégié.
+- Si l'utilisateur n'a accès qu'à un seul module, on n'affiche pas le menu.
 
-La navigation existe en 2 modes :
+# Nommage
 
-- étroit pour les menus ne comportant que des entrées de niveau 1
-- large pour les menus comportant des sous-menus
+- Les libellés doivent être clairs et courts. L’utilisateur doit pouvoir comprendre rapidement le rôle des différents modules à la lecture du menu.
+- Il est possible d’utiliser des substantifs ou de l’infinitif, mais il ne faut pas mélanger les deux au sein d’un même menu.
 
-![à faire](guidelines/components/navigation/nav-side/images/nav-side-modes-do-1.png) ![à faire](guidelines/components/navigation/nav-side/images/nav-side-modes-do-2.png) ![à éviter](guidelines/components/navigation/nav-side/images/nav-side-modes-dont-1.png) ![à éviter](guidelines/components/navigation/nav-side/images/nav-side-modes-dont-2.png)
+<div class="markdown-dualDisplay">
+<div class="markdown-block mod-positive">
 
-Si l'utilisateur n'a accès qu'à un seul module, on n'affiche pas de navigation.
+- Export
+- Demande de congés
 
-![à éviter](guidelines/components/navigation/nav-side/images/nav-side-modes-dont-3.png)
+</div>
+<div class="markdown-block mod-negative">
 
-Au-delà de 5 entrées de niveau 1, il convient de s'interroger sur la pertinence de l'arborescence et d'envisager de regrouper certains modules, et donc de créer des sous-menus.
+- Exportez
+- Faire une demande de congés
 
-# Wording
-
-On privilégie des libellés courts, mais il faut surtout veiller à leur clarté : l'utilisateur devrait idéalement toujours avoir une idée de ce qu'il trouvera en cliquant sur un libellé.
-
-On peut utiliser au choix des substantifs ou des verbes à l'infinitif, mais il convient de se tenir au choix initial au sein d'une même navigation :
-
-![à faire](guidelines/components/navigation/nav-side/images/nav-side-wording-do.png) ![à éviter](guidelines/components/navigation/nav-side/images/nav-side-wording-dont-1.png) ![à éviter](guidelines/components/navigation/nav-side/images/nav-side-wording-dont-2.png)
+</div>
+</div>

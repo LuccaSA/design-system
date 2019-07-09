@@ -70,8 +70,19 @@ export class GroupPage extends APage implements IPage {
 		keywords: string[] = [],
 	) {
 		super(path, title, keywords);
-		this.children = children.sort((a, b) => a.title.localeCompare(b.title));
+		this.children = children.sort((a, b) => this.customLocaleCompare(a, b));
+		console.log(children);
 	}
+
+	private customLocaleCompare(a: IPage, b: IPage): any {
+		if (a.path === 'guidelines') {
+			return -1;
+		} else if (b.path === 'guidelines') {
+			return 1;
+		}
+		return a.title.localeCompare(b.title);
+	}
+
 	toRoute() {
 		const childrenRoutes = this.children.map(c => c.toRoute());
 		const redirectRoute = { path: '**', redirectTo: this.children[0].path, pathMatch: 'full' };
