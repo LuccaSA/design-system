@@ -49,7 +49,6 @@ export class DsNgDocsComponent {
 			this.moduleDoc = declarationModule;
 			this.moduleDocList = this.getAllDeclaredModules(declarationModule);
 		}
-		console.log(this.moduleDoc);
 		this.configServiceName = `${directiveName}Config`;
 		const configNgDocs = docs[this.configServiceName];
 		this._configProperties = {};

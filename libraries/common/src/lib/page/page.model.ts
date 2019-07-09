@@ -71,7 +71,6 @@ export class GroupPage extends APage implements IPage {
 	) {
 		super(path, title, keywords);
 		this.children = children.sort((a, b) => this.customLocaleCompare(a, b));
-		console.log(children);
 	}
 
 	private customLocaleCompare(a: IPage, b: IPage): any {
