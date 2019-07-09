@@ -16,7 +16,11 @@
 </div>
 </div>
 
-En anglais, ces signes de ponctuation ne sont pas précédés d’un espace.
+<div class="callout mod-icon palette-info">
+	<div class="callout-icon"><i class="lucca-icon">info</i></div>
+	En anglais, ces signes de ponctuation ne sont pas précédés d’un espace.
+</div>
+
 
 # Accentuation des lettres capitales
 
@@ -54,8 +58,8 @@ L'apostrophe droite, ou apostrophe dactylographique, ne doit pas être utilisée
 
 <div class="callout mod-icon palette-info">
 	<div class="callout-icon"><i class="lucca-icon">info</i></div>
-  <b class="callout-title">Raccourci Windows</b> alt + 0146<br>
-  <b class="callout-title">Raccourci Mac</b> option + shift + ‘
+	<b class="callout-title">Raccourci Windows</b> alt + 0146<br>
+	<b class="callout-title">Raccourci Mac</b> option + shift + ‘
 </div>
 
 # Texte tronqué
@@ -95,7 +99,10 @@ Dans tous les cas, un texte dont la lecture complète est importante à la compr
 </div>
 </div>
 
-En anglais, les milliers, millions, etc. sont séparés d’une virgule et les nombres décimaux sont séparés d’un point.
+<div class="callout mod-icon palette-info">
+	<div class="callout-icon"><i class="lucca-icon">info</i></div>
+	En anglais, les milliers, millions, etc. sont séparés d’une virgule et les nombres décimaux sont séparés d’un point.
+</div>
 
 # Nombres ordinaux
 
