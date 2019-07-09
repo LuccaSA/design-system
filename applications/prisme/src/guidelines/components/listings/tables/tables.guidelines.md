@@ -31,6 +31,8 @@ Si une entrée de tableau donne accès à du contenu supplémentaire, on privil�
 # Sélection
 
 Lorsqu’une sélection est possible, on utilise une checkbox à gauche de chaque ligne. On met alors en avant chaque ligne sélectionnée grâce à une couleur de fond. Dans l’en-tête, on ajoute une checkbox permettant de sélectionner / désélectionner l’ensemble.
+Si une ligne peut être cliquable et sélectionnable, la sélection se fait uniquement en interagissant avec la checkbox.
+Si la ligne n'est pas cliquable, la sélection se fait sur l'ensemble de la ligne.
 
 # Pagination
 
