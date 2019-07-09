@@ -16,7 +16,7 @@ export class ActionIconsFeature {
 		title: 'Icônes d\'action',
 		packages: ['SCSS'],
 		guidelines: 'guidelines/components/actions/action-icons/action-icons.guidelines.md',
-		description: "Ces boutons discrets servent à réaliser des actions simples sur l'objet concerné sans surcharger la page.",
+		description: "Ces boutons discrets sont des raccourcis pour réaliser des actions simples sur l'objet concerné sans surcharger la page.",
 		examples: [
 			{
 				title: 'Basique',

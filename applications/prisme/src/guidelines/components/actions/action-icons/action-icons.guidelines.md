@@ -1,7 +1,11 @@
+# Affichage
+
+Les icônes d'actions doivent être masquées par défaut. Elles s'affichent au survol de la ligne/de l'objet.
+
 # Indication au survol
 
 Une icône d’action doit systématiquement être associée d’un tooltip court expliquant l’action à réaliser.
 
-# Listings
+# Nombres
 
-Dans le cas où les icônes d’actions sont répétées dans des éléments de type listing (cartes, listes, tables), elles doivent être cachées par défaut, et apparaitre au survol de l’élément ou de la ligne. 
+Le nombre maximum d'icônes d'action est de trois. Au delà, il est conseillé de rentrer les actions au sein de la vue détaillée de l'objet
