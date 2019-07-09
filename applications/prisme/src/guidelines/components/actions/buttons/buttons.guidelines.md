@@ -1,14 +1,13 @@
 # Label
 
 - Privilégier les verbes d’action, à l’infinitif
-- Il est possible de s’affranchir d’un verbe si le libellé est clair. Ex. “Nouveau compte”
 - Éviter les libellés vagues comme “OK”, “Oui” ou ”Non”  
 
 <div class="markdown-dualDisplay">
 <div class="markdown-block mod-positive">
 
 - Supprimer
-- Nouvel utilisateur
+- Créer un utilisateur
 
 </div>
 <div class="markdown-block mod-negative">
@@ -21,7 +20,7 @@
 
 # Action principale
 
-Il est préférable de n’avoir qu’un seul bouton principal afin d’identifier plus rapidement l’action attendue.
+Une page ne doit présenter qu'un seul bouton d'action principale pour faciliter la compréhension de l'action attendue.
 
 # Types de boutons
 
@@ -31,6 +30,19 @@ Il est préférable de n’avoir qu’un seul bouton principal afin d’identifi
 # Ordre des boutons
 
 Lorsque des boutons d’action et d’annulation sont utilisés ensemble, le bouton d’action doit toujours être placé à gauche.
+<div class="markdown-dualDisplay">
+<div class="markdown-block mod-positive mod-image">
+
+![à faire](guidelines/components/actions/buttons/images/order-do.png)
+
+</div>
+<div class="markdown-block mod-negative mod-image">
+
+![à éviter](guidelines/components/actions/buttons/images/order-dont.png)
+
+</div>
+</div>
+
 
 # Position dans la page
 

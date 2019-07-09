@@ -52,6 +52,15 @@
 		margin-left: 0;
 	}
 
+	&.mod-image {
+		padding: _theme("spacings.small");
+		text-align: center;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
 	ul {
 		margin: 0;
 		padding: 0;
@@ -91,7 +100,6 @@
 
 .markdown-image {
 	max-height: 250px;
-	margin: 0 _theme("spacings.small");
 	display: inline-block;
 }
 
