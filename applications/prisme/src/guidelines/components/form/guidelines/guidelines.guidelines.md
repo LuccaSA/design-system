@@ -2,12 +2,12 @@
 
 ## [Checkbox](/components/form/checkboxes)
 
-- Sélection parmi une liste courte
+- Sélection parmi une liste de moins de 6 options
 - Question fermée
 
 ## [Switch](/components/form/switches)
 
-- Activation / Désactivation d’un module ou d’un contenu
+- Affichage / masquage d’un module ou d’un contenu
 - Changement immédiat dont l’action est décorrélée du bouton enregistrer
 
 ## [Radio](/components/form/radios)
@@ -38,8 +38,8 @@ Les actions de formulaire sont situés en bas à droite du formulaire.
 # Champs obligatoires / optionnels
 
 Selon le nombre de champs concernés, on indiquera les champs obligatoires ou optionnels.
-Les <champs obligatoires> sont indiqué par la présence d’un astérisque à la fin du label.
-Les champs optionnels sont indiqué par la présence du mot “(optionnel) à la fin du label.
+Les **champs obligatoires** sont indiqué par la présence d’un astérisque à la fin du label.
+Les **champs optionnels** sont indiqué par la présence du mot *(optionnel)* à la fin du label.
 
 # Format de saisie
 Si un format est attendu, celui-ci doit être indiqué. Il peut être indiqué via le placeholder si celui est simple, ou s’il est plus complexe, dans un message plus complet sous le champ.
@@ -57,11 +57,11 @@ Plusieurs styles sont proposés (classique, material, framed, compact). Si leur 
 
 # Sauvegarde et validation en ligne
 
-La validation d’un formulaire se fait généralement via un bouton de soumission. Cependant dans le cas d’un long formulaire dans lequel, il est conseillé de faire une <validation en ligne>, afin d’éviter des lourdes pertes de saisie. Dans ce cas, une indication de sauvegarde sera systématiquement utilisée.
+La validation d’un formulaire se fait généralement via un bouton de soumission. Cependant dans le cas d’un long formulaire, il est conseillé de faire une **validation en ligne** afin d’éviter des lourdes pertes de saisie. Dans ce cas, une indication de sauvegarde sera systématiquement utilisée.
 
 # Gestion des erreurs
 
-- Par défaut, un champ est vide, même s’il est obligatoire
+- Par défaut, un champ vide est valide, même s’il est obligatoire
 - La vérification du champs est effectuée lors de la perte du focus (l’erreur doit alors être affichée sous le champs)
 - Dès que la valeur saisie est bonne l’erreur disparaît (dans le cas d’un champ sans contrainte de format, l’erreur disparaît dès le premier caractère saisi)
 - Le bouton de soumission de soumission est actif, de manière à déclencher l’état d’erreur sur les champs obligatoire
