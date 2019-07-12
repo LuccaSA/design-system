@@ -1,3 +1,9 @@
+# IMPORTANT
+
+this repository is now atrchived, all development regzarding design system in lucca is handled in repository [ux-prisme](https://github.com/LuccaSA/ux-system)
+
+---------------
+
 # Prisme - Lucca Design System
 ## How to start
 Just run `npm start` but remember to run an `npm install` beforehand
